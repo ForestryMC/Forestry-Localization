@@ -465,6 +465,9 @@ item.fruit.lemon=Zitrone
 item.fruit.plum=Pflaume
 item.fruit.papaya=Papaya
 item.fruit.dates=Dattel
+item.research.note=Notizen von %s
+item.research.note.error.0=Es ist unmöglich, die verwaschenen Kritzeleien zu entziffern.
+item.research.note.error.1=Die Notiz ist unleserlich und nutzlos.
 itemGroup.forestry=Forestry
 itemGroup.arboriculture=Baumzucht
 itemGroup.apiculture=Bienenzucht
@@ -773,6 +776,7 @@ tile.log.1=Teakholz
 tile.log.2=Akazienholz
 tile.log.3=Limettenholz
 tile.log.4=Kastanienholznholz
+tile.log.5=Wengenholz
 tile.log.6=Baobabholz
 tile.log.7=Mammutbaumholz
 tile.log.8=Kapokholz
@@ -999,3 +1003,11 @@ item.catalogue=Katalog
 ####################
 
 item.PipeItemsPropolis.name=Bienenrohr
+
+###########################
+# CUSTOM BEE SPECIES NAMES
+###########################
+# Syntax:
+# bees.custom.<type>.<species>=New custom name
+# Example:
+# bees.custom.drone.forest=Forest Drone
