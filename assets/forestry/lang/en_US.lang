@@ -2,6 +2,9 @@
 # CORE
 ####################
 
+death.engine.clockwork.player=%1$s was stabbed by a loose spring. %2$s was the negligent watchmaker.
+death.engine.clockwork=%1$s was stabbed by a loose spring.
+
 for.beverage.effect.alcoholic=Alcoholic
 for.beverage.effect.antidote=Antidote
 
@@ -26,9 +29,6 @@ for.circuit.electric.boost.2=Electric Boost II
 for.circuit.electric.choke.1=Electric Choke
 for.circuit.electric.efficiency.1=Electric Efficiency
 for.circuit.usage.engineTin=In Electrical Engines
-
-for.death.engine.clockwork.player=%1$s was stabbed by a loose spring. %2$s was the negligent watchmaker.
-for.death.engine.clockwork=%1$s was stabbed by a loose spring.
 
 for.errors.circuitMismatch.desc=Layout Mismatch
 for.errors.circuitMismatch.help=Amount of tubes does not match size of circuit board.
@@ -653,6 +653,13 @@ tile.for.stained.15.name=Black Stained Glass
 # APICULTURE
 ####################
 
+death.bee.aggressive.player=%1$s encountered a swarm of bees. %2$s stole his apiarist's suit.
+death.bee.aggressive=%1$s encountered a swarm of bees. That had to sting.
+death.bee.end.player=%1$s was ended by an unfriendly sting while fighting %2$s.
+death.bee.end=%1$s was ended by an unfriendly sting.
+death.bee.radioactive.player=%1$s walked into Chernobyl without his helmet on. %2$s watched and cackled.
+death.bee.radioactive=%1$s walked into Chernobyl without his helmet on.
+
 for.apiculture.effect.aggressive=Aggress.
 for.apiculture.effect.beatific=Beatific
 for.apiculture.effect.creeper=Creeper
@@ -747,13 +754,6 @@ for.chat.bees.command.stats.error1=Log file could not be created. Failed to save
 for.chat.bees.command.stats.error2=Cannot write to log file. Failed to save statistics.
 for.chat.bees.command.stats.error3=Write operation threw an exception. Failed to save statistics.
 for.chat.bees.command.stats.saved=Saved statistics for player %s
-
-for.death.bee.aggressive.player=%1$s encountered a swarm of bees. %2$s stole his apiarist's suit.
-for.death.bee.aggressive=%1$s encountered a swarm of bees. That had to sting.
-for.death.bee.end.player=%1$s was ended by an unfriendly sting while fighting %2$s.
-for.death.bee.end=%1$s was ended by an unfriendly sting.
-for.death.bee.radioactive.player=%1$s walked into Chernobyl without his helmet on. %2$s watched and cackled.
-for.death.bee.radioactive=%1$s walked into Chernobyl without his helmet on.
 
 for.description.speciesAustere=Dangerous and volatile; Beekeepers are advised to stay in full suit whenever near.|Beekeeping 101
 for.description.speciesAvenging="The walls of my house began to crumble and I heard the roof creaking over my head, but I cared not! I felt the stabs of a thousand little insects on my glove as I grabbed the new queen."|Anonymous
