@@ -682,6 +682,7 @@ for.apiculture.effect.heroic=Heroisch
 for.apiculture.effect.ignition=Entzündlich
 for.apiculture.effect.misanthrope=Endend
 for.apiculture.effect.misasmic=Giftig
+for.apiculture.effect.none=Nichts
 for.apiculture.effect.radioactive=Radioakt.
 for.apiculture.effect.reanimation=Wiederbelebung
 for.apiculture.effect.repulsion=Abstroßung
@@ -857,6 +858,8 @@ tile.for.stump.0.name=Kerzenstumpf
 ####################
 # ARBORICULTURE
 ####################
+
+for.arboriculture.effect.none=Nichts
 
 for.chat.trees.command.help.0=Format: '/%s <Befehl> <Parameter>'
 for.chat.trees.command.help.1=Verfügbare Befehle:
@@ -1192,6 +1195,8 @@ for.butterflies.species.saturniidae.atlas=Atlasspinner
 for.gui.flutterlyzer=Platziere einen Schmetterling und füge Honig oder Honigtau als Beruhigungsmittel hinzu.
 for.gui.loot.butterfly=Mögliche Schmetterlingsausbeute
 for.gui.loot.caterpillar=Mögliche Raupenausbeute
+
+for.lepidopterology.effect.none=Nichts
 
 item.for.butterfly.name=Schmetterling
 item.for.flutterlyzer.name=Schmetterlysierer

@@ -682,6 +682,7 @@ for.apiculture.effect.heroic=Heroic
 for.apiculture.effect.ignition=Flammable
 for.apiculture.effect.misanthrope=Ends
 for.apiculture.effect.misasmic=Poison
+for.apiculture.effect.none=None
 for.apiculture.effect.radioactive=Radioact.
 for.apiculture.effect.reanimation=Reanimation
 for.apiculture.effect.repulsion=Repulsion
@@ -857,6 +858,8 @@ tile.for.stump.0.name=Candle Stump
 ####################
 # ARBORICULTURE
 ####################
+
+for.arboriculture.effect.none=None
 
 for.chat.trees.command.help.0=Format: '/%s <command> <arguments>'
 for.chat.trees.command.help.1=Available commands:
@@ -1192,6 +1195,8 @@ for.butterflies.species.saturniidae.atlas=Atlas Moth
 for.gui.flutterlyzer.help=Supply butterfly and provide honey or honeydew as a pacifier.
 for.gui.loot.butterfly=Possible Butterfly Loot
 for.gui.loot.caterpillar=Possible Caterpillar Loot
+
+for.lepidopterology.effect.none=None
 
 item.for.butterfly.name=Butterfly
 item.for.flutterlyzer.name=Flutterlyzer
