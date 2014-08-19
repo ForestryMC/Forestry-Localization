@@ -3,10 +3,6 @@ Forestry Localizations
 
 Localizations for Forestry
 
-### en_US
-
-The en_US localization is not part of this repository but instead part of the main code. Do not add a en_US.lang file.
-
 ### Encoding
 
 Files must be encoded in UTF-8. Anything else will not work. Pull requests, submissions or contributions not encoded in UTF-8 will have to be rejected or reverted.
