@@ -896,49 +896,48 @@ for.gui.treealyzer.overview=Analytics available
 for.gui.treealyzer=Treealyzer
 for.gui.yield=Yield
 
-for.trees.grammar.germling=%SPECIES %TYPE
-for.trees.grammar.germling.type=Germling
-for.trees.grammar.sapling=%SPECIES %TYPE
-for.trees.grammar.sapling.type=Sapling
-for.trees.grammar.pollen=%SPECIES %TYPE
-for.trees.grammar.pollen.type=Pollen
-for.trees.grammar.blossom=%SPECIES %TYPE
 for.trees.grammar.blossom.type=Blossom
-
-for.trees.species.appleOak=Apple Oak
-for.trees.species.darkOak=Dark Oak
-for.trees.species.silverBirch=Silver Birch
-for.trees.species.silverLime=Silver Lime
-for.trees.species.commonWalnut=Common Walnut
-for.trees.species.sweetChestnut=Sweet Chestnut
-for.trees.species.hillCherry=Hill Cherry
-for.trees.species.lemon=Lemon
-for.trees.species.plum=Plum
-for.trees.species.sugarMaple=Sugar Maple
-for.trees.species.redSpruce=Red Spruce
-for.trees.species.mundaneLarch=Mundane Larch
-for.trees.species.bullPine=Bull Pine
-for.trees.species.coastSequoia=Coast Sequoia
-for.trees.species.giantSequoia=Giant Sequoia
-for.trees.species.jungle=Jungle
-for.trees.species.teak=Teak
-for.trees.species.kapok=Kapok
-for.trees.species.myrtleEbony=Myrtle Ebony
-for.trees.species.yellowMeranti=Yellow Meranti
-for.trees.species.acacia=Acacia
-for.trees.species.desertAcacia=Desert Acacia
-for.trees.species.balsa=Balsa
-for.trees.species.wenge=Wenge
-for.trees.species.grandidierBaobab=Grandidier's Baobab
-for.trees.species.blueMahoe=Blue Mahoe
-for.trees.species.whiteWillow=White Willow
-for.trees.species.sipiri=Sipiri
-for.trees.species.papaya=Papaya
-for.trees.species.datePalm=Date Palm
-for.trees.species.whitePoplar=White Poplar
-
+for.trees.grammar.blossom=%SPECIES %TYPE
+for.trees.grammar.germling.type=Germling
+for.trees.grammar.germling=%SPECIES %TYPE
+for.trees.grammar.pollen.type=Pollen
+for.trees.grammar.pollen=%SPECIES %TYPE
+for.trees.grammar.sapling.type=Sapling
+for.trees.grammar.sapling=%SPECIES %TYPE
 
 for.trees.hybrid=%PRIMARY-%SECONDARY Hybrid
+
+for.trees.species.acacia=Acacia
+for.trees.species.appleOak=Apple Oak
+for.trees.species.balsa=Balsa
+for.trees.species.blueMahoe=Blue Mahoe
+for.trees.species.bullPine=Bull Pine
+for.trees.species.coastSequoia=Coast Sequoia
+for.trees.species.commonWalnut=Common Walnut
+for.trees.species.darkOak=Dark Oak
+for.trees.species.datePalm=Date Palm
+for.trees.species.desertAcacia=Desert Acacia
+for.trees.species.giantSequoia=Giant Sequoia
+for.trees.species.grandidierBaobab=Grandidier's Baobab
+for.trees.species.hillCherry=Hill Cherry
+for.trees.species.jungle=Jungle
+for.trees.species.kapok=Kapok
+for.trees.species.lemon=Lemon
+for.trees.species.mundaneLarch=Mundane Larch
+for.trees.species.myrtleEbony=Myrtle Ebony
+for.trees.species.papaya=Papaya
+for.trees.species.plum=Plum
+for.trees.species.redSpruce=Red Spruce
+for.trees.species.silverBirch=Silver Birch
+for.trees.species.silverLime=Silver Lime
+for.trees.species.sipiri=Sipiri
+for.trees.species.sugarMaple=Sugar Maple
+for.trees.species.sweetChestnut=Sweet Chestnut
+for.trees.species.teak=Teak
+for.trees.species.wenge=Wenge
+for.trees.species.whitePoplar=White Poplar
+for.trees.species.whiteWillow=White Willow
+for.trees.species.yellowMeranti=Yellow Meranti
 
 item.for.grafter.name=Grafter
 item.for.grafterProven.name=Proven Grafter
@@ -1230,10 +1229,12 @@ item.for.catalogue.name=Catalogue
 
 item.PipeItemsPropolis.name=Apiarist's Pipe
 
-###########################
-# CUSTOM BEE SPECIES NAMES
-###########################
+###################################
+# CUSTOM BEE AND TREE SPECIES NAMES
+###################################
 # Syntax:
-# for.bees.custom.<type>.<species>=New custom name
-# Example:
+# for.bees.custom.<type>.<species>=New custom bee name
+# for.trees.custom.<type>.<species>=New custom tree name
+# Examples:
 # for.bees.custom.drone.forest=Forest Drone
+# for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
