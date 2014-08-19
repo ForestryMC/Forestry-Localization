@@ -8,7 +8,7 @@ death.engine.clockwork=%1$s wurde von einer losen Feder erstochen.
 for.beverage.effect.alcoholic=Alkoholisch
 for.beverage.effect.antidote=Gegengift
 
-for.chat.accesslocked=ist Eigentümer dieser Maschine und hat sie verschlossen.
+for.chat.accesslocked=%s ist Eigentümer dieser Maschine und hat sie verschlossen.
 for.chat.cannotmemorizeagain=Du hast dir diese Information bereits gemerkt.
 
 for.chat.command.help.0=Format: '/%s <Befehl> <Parameter>'
@@ -361,8 +361,18 @@ for.layout.engine.tin=Elektromotor
 
 for.no=Nein
 
+for.researchNote.chance.highest=extrem hoch
+for.researchNote.chance.higher=sehr hoch
+for.researchNote.chance.high=hoch
+for.researchNote.chance.normal=mäßig
+for.researchNote.chance.low=niedrig
+for.researchNote.chance.lowest=sehr niedrig
 for.researchNote.error.0=Es ist unmöglich, die verwaschenen Kritzeleien zu entziffern.
 for.researchNote.error.1=Die Notiz ist unleserlich und nutzlos.
+for.researchNote.discovery.0=§aMutation entdeckt!
+for.researchNote.discovery.1=§e'%SPEC1'§7 und §e'%SPEC2'§7.
+for.researchNote.discovery.2=Erfolgschance ist §9%s§7.
+for.researchNote.discovery.3=Die neue Spezies ist §d'%s'§7.
 
 for.storage.backpack.mode.locked=(GESPERRT)
 for.storage.backpack.mode.receiving=(EMPFANGEND)

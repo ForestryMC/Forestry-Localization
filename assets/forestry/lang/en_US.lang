@@ -8,7 +8,7 @@ death.engine.clockwork=%1$s was stabbed by a loose spring.
 for.beverage.effect.alcoholic=Alcoholic
 for.beverage.effect.antidote=Antidote
 
-for.chat.accesslocked=is the owner of this machine and has locked access.
+for.chat.accesslocked=%s is the owner of this machine and has locked access.
 for.chat.cannotmemorizeagain=You already memorized this information.
 
 for.chat.command.help.0=Format: '/%s <command> <arguments>'
@@ -361,8 +361,20 @@ for.layout.engine.tin=Electric Engine
 
 for.no=No
 
+for.researchNote.chance.highest=HIGHEST
+for.researchNote.chance.higher=HIGHER
+for.researchNote.chance.high=HIGH
+for.researchNote.chance.normal=NORMAL
+for.researchNote.chance.low=LOW
+for.researchNote.chance.lowest=LOWEST
 for.researchNote.error.0=It is impossible to decipher the washed out scribbles.
 for.researchNote.error.1=The note has become unreadable and is worthless.
+for.researchNote.discovery.0=§aMutation discovered!
+for.researchNote.discovery.1=§e'%SPEC1'§7 and §e'%SPEC2'§7.
+for.researchNote.discovery.2=Chance for success is §9%s§7.
+for.researchNote.discovery.3=New species is §d'%s'§7.
+for.researchNote.discovered.0=§aSpecies researched!
+for.researchNote.discovered.1=§e'%1$s'§7 (%2$s)
 
 for.storage.backpack.mode.locked=(LOCKED)
 for.storage.backpack.mode.receiving=(RECEIVING)
