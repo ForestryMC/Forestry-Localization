@@ -8,7 +8,7 @@ death.engine.clockwork=%1$s подвергся нападению со стор�
 for.beverage.effect.alcoholic=Спиртное
 for.beverage.effect.antidote=Противоядие
 
-for.chat.accesslocked=является владельцем этого механизма и заблокировал доступ.
+for.chat.accesslocked=%s является владельцем этого механизма и заблокировал доступ.
 for.chat.cannotmemorizeagain=Вы уже запомнили эту информацию.
 
 for.chat.command.help.0=Формат: '/%s <команда> <аргументы>'
@@ -130,7 +130,7 @@ for.gui.beach=Пляж
 for.gui.beealyzer.artificial=Исскуственного происх.
 for.gui.beealyzer.behaviour=Поведение
 for.gui.beealyzer.generations=Поколений в неволе: %s
-for.gui.beealyzer.help=Предоставьте пчелу используйте мёд или нектар как успокоительное.
+for.gui.beealyzer.help=Положите пчелу и предоставьте мёд или нектар, в качестве успокоительного.
 for.gui.beealyzer.mutations=Возможные мутации
 for.gui.beealyzer.natural=Естественного происх.
 for.gui.beealyzer.overview=Анализ доступен
@@ -361,8 +361,20 @@ for.layout.engine.tin=Электродвигатель
 
 for.no=Нет
 
+for.researchNote.chance.highest=НАИВЫСШИЙ
+for.researchNote.chance.higher=ВЫШЕ
+for.researchNote.chance.high=ВЫСОКИЙ
+for.researchNote.chance.normal=ОБЫЧНЫЙ
+for.researchNote.chance.low=НИЗКИЙ
+for.researchNote.chance.lowest=НАИНИЗШИЙ
 for.researchNote.error.0=Невозможно расшифровать размытые каракули.
 for.researchNote.error.1=Записка стала нечитаемой и теперь она бесполезна.
+for.researchNote.discovered.0=§aВиды исследованы!
+for.researchNote.discovered.1=§e'%1$s'§7 (%2$s)
+for.researchNote.discovery.0=§aМутация исследована!
+for.researchNote.discovery.1=§e'%SPEC1'§7 и §e'%SPEC2'§7.
+for.researchNote.discovery.2=Шанс на успех: §9%s§7.
+for.researchNote.discovery.3=Новые виды: §d'%s'§7.
 
 for.storage.backpack.mode.locked=(ЗАКРЫТ)
 for.storage.backpack.mode.receiving=(ПОЛУЧЕНИЕ)
@@ -670,6 +682,7 @@ for.apiculture.effect.heroic=Геройство
 for.apiculture.effect.ignition=Воспламенение
 for.apiculture.effect.misanthrope=Окончание
 for.apiculture.effect.misasmic=Отравление
+for.apiculture.effect.none=Нет
 for.apiculture.effect.radioactive=Радиоактив.
 for.apiculture.effect.reanimation=Реанимация
 for.apiculture.effect.repulsion=Отвращение
@@ -846,6 +859,8 @@ tile.for.stump.0.name=Потухшая свеча
 # ARBORICULTURE
 ####################
 
+for.arboriculture.effect.none=Нет
+
 for.chat.trees.command.help.0=Формат: '/%s <команда> <аргументы>'
 for.chat.trees.command.help.1=Доступные команды:
 for.chat.trees.command.help.2=- list [<мир-#>]: показывает текущий и доступные режимы лесоводства.
@@ -891,7 +906,7 @@ for.gui.saplings=Тип саженца
 for.gui.sappiness=Шанс по-ия са-ца
 for.gui.supports=Типы плодов
 for.gui.tolerated=Под-мый биом
-for.gui.treealyzer.help=Вставьте саженец и обеспечьте мёдом или нектаром в качестве катализатора.
+for.gui.treealyzer.help=Положите саженец и предоставьте мёд или нектар, в качестве катализатора.
 for.gui.treealyzer.overview=Анализ доступен
 for.gui.treealyzer=Анализатор деревьев
 for.gui.yield=Шанс по-ия фр-ов
@@ -1177,9 +1192,11 @@ for.butterflies.species.pieridae.reseda=Белянка рапсовая
 for.butterflies.species.pieridae.springAzure=Голубянка весенняя
 for.butterflies.species.saturniidae.atlas=Атлас-мотылёк
 
-for.gui.flutterlyzer.help=Положите бабочку и обеспечьте мёдом или нектаром в качестве успокаивающего.
+for.gui.flutterlyzer.help=Положите бабочку и предоставьте мёд или нектар, в качестве успокаивающего.
 for.gui.loot.butterfly=Возможная добыча бабочки
 for.gui.loot.caterpillar=Возможная добыча гусеницы
+
+for.lepidopterology.effect.none=Нет
 
 item.for.butterfly.name=Бабочка
 item.for.flutterlyzer.name=Анализатор бабочек
@@ -1221,7 +1238,7 @@ for.gui.mail.notrades=Нет доступных сделок.
 for.gui.mail.tradefor=для
 for.gui.mail.willtrade=%s будет торговать
 
-item.for.catalogue=Каталог
+item.for.catalogue.name=Каталог
 
 ####################
 # PIPES
