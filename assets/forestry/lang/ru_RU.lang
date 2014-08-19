@@ -2,8 +2,8 @@
 # CORE
 ####################
 
-for.death.engine.clockwork.player=%1$s подвергся нападению со стороны свободной пружины. %2$s был небрежным часовщиком.
-for.death.engine.clockwork=%1$s подвергся нападению со стороны свободной пружины.
+death.engine.clockwork.player=%1$s подвергся нападению со стороны свободной пружины. %2$s был небрежным часовщиком.
+death.engine.clockwork=%1$s подвергся нападению со стороны свободной пружины.
 
 for.beverage.effect.alcoholic=Спиртное
 for.beverage.effect.antidote=Противоядие
@@ -896,7 +896,48 @@ for.gui.treealyzer.overview=Анализ доступен
 for.gui.treealyzer=Анализатор деревьев
 for.gui.yield=Шанс по-ия фр-ов
 
+for.trees.grammar.blossom.type=Расцвет
+for.trees.grammar.blossom=%TYPE %SPECIES
+for.trees.grammar.germling.type=Рассада
+for.trees.grammar.germling=%TYPE %SPECIES
+for.trees.grammar.pollen.type=Пыльца
+for.trees.grammar.pollen=%TYPE %SPECIES
+for.trees.grammar.sapling.type=Саженец
+for.trees.grammar.sapling=%TYPE %SPECIES
+
 for.trees.hybrid=Гибрид: %PRIMARY-%SECONDARY
+
+for.trees.species.acacia=акации
+for.trees.species.appleOak=яблочного дуба
+for.trees.species.balsa=бальзы
+for.trees.species.blueMahoe=синего гибискуса
+for.trees.species.bullPine=сосны жёлтой
+for.trees.species.coastSequoia=береговой секвойи
+for.trees.species.commonWalnut=обычного орехового дерева
+for.trees.species.darkOak=тёмного дуба
+for.trees.species.datePalm=финиковой пальмы
+for.trees.species.desertAcacia=пустынной акации
+for.trees.species.giantSequoia=гигантской секвойи
+for.trees.species.grandidierBaobab=Адансонии Грандидье
+for.trees.species.hillCherry=горного вишнёвого дерева
+for.trees.species.jungle=дерева джунглей
+for.trees.species.kapok=хлопкового дерева
+for.trees.species.lemon=лимонного дерева
+for.trees.species.mundaneLarch=мировой лиственницы
+for.trees.species.myrtleEbony=мирта
+for.trees.species.papaya=дынного дерева
+for.trees.species.plum=сливового дерева
+for.trees.species.redSpruce=красной ели
+for.trees.species.silverBirch=белой берёзы
+for.trees.species.silverLime=липы пушистой
+for.trees.species.sipiri=Сипири
+for.trees.species.sugarMaple=сахарного клёна
+for.trees.species.sweetChestnut=каштана посевного
+for.trees.species.teak=тикового дерева
+for.trees.species.wenge=дерева Венге
+for.trees.species.whitePoplar=белого тополя
+for.trees.species.whiteWillow=белой ивы
+for.trees.species.yellowMeranti=жёлтого меранти
 
 item.for.grafter.name=Садовый нож
 item.for.grafterProven.name=Проверенный садовый нож
@@ -1101,6 +1142,41 @@ tile.for.ffarm.5.name=Блок управления фермы
 
 for.butterflies.hybrid=Гибрид: %PRIMARY-%SECONDARY
 
+for.butterflies.species.geometridae.brimstone=Бримстоун
+for.butterflies.species.geometridae.latticedHeath=Пяденица клеверная
+for.butterflies.species.nymphalidae.blueDuke=Blue Duke
+for.butterflies.species.nymphalidae.blueMorphoM=Морфо менелай
+for.butterflies.species.nymphalidae.blueMorphoP=Морфо Пелеида
+for.butterflies.species.nymphalidae.blueMorphoR=Синяя морфо
+for.butterflies.species.nymphalidae.blueWing=Синее крыло
+for.butterflies.species.nymphalidae.comma=Углокрыльница
+for.butterflies.species.nymphalidae.glasswing=Грета Ото
+for.butterflies.species.nymphalidae.glassyTiger=Стеклянный тигр
+for.butterflies.species.nymphalidae.leopardLacewing=Leopard Lacewing
+for.butterflies.species.nymphalidae.malachite=Малахит
+for.butterflies.species.nymphalidae.monarch=Данаида монарх
+for.butterflies.species.nymphalidae.paintedBeauty=Нимфалида виргинская
+for.butterflies.species.nymphalidae.postman=Почтальон
+for.butterflies.species.nymphalidae.speckledWood=Краеглазка эгерия
+for.butterflies.species.nymphalidae.speckledWoodC=Канарская краеглазка эгерия
+for.butterflies.species.nymphalidae.speckledWoodM=Мадейрская краеглазка эгерия
+for.butterflies.species.papilionidae.dianaFritillary=Diana Fritillary
+for.butterflies.species.papilionidae.emeraldPeacock=Изумрудный павлин
+for.butterflies.species.papilionidae.swallowtailB=Чёрный парусник
+for.butterflies.species.papilionidae.swallowtailC=Цитрусовый парусник
+for.butterflies.species.papilionidae.swallowtailS=Каликант-парусник
+for.butterflies.species.papilionidae.swallowtailT=Парусник тоас
+for.butterflies.species.papilionidae.swallowtailZ=Полосатый парусник
+for.butterflies.species.pieridae.brimstone=Бримстоун
+for.butterflies.species.pieridae.cabbageWhite=Капустница
+for.butterflies.species.pieridae.gozoraAzure=Gozora Azure
+for.butterflies.species.pieridae.orangeTip=Белянка
+for.butterflies.species.pieridae.palaenoSulphur=Желтушка торфяниковая
+for.butterflies.species.pieridae.postillion=Постильон
+for.butterflies.species.pieridae.reseda=Резеда
+for.butterflies.species.pieridae.springAzure=Голубянка крушинная
+for.butterflies.species.saturniidae.atlas=Атлас
+
 for.gui.flutterlyzer.help=Положите бабочку и обеспечьте мёдом или нектаром в качестве успокаивающего.
 for.gui.loot.butterfly=Возможная добыча бабочки
 for.gui.loot.caterpillar=Возможная добыча гусеницы
@@ -1153,13 +1229,15 @@ item.for.catalogue=Каталог
 
 item.PipeItemsPropolis.name=Труба пчеловода
 
-###########################
-# CUSTOM BEE SPECIES NAMES
-###########################
+###################################
+# CUSTOM BEE AND TREE SPECIES NAMES
+###################################
 # Syntax:
-# for.bees.custom.<type>.<species>=New custom name
-# Example:
+# for.bees.custom.<type>.<species>=New custom bee name
+# for.trees.custom.<type>.<species>=New custom tree name
+# Examples:
 # for.bees.custom.drone.forest=Forest Drone
+# for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
 
 for.bees.custom.drone.forest=Лесной трутень
 for.bees.custom.drone.meadows=Луговой трутень
