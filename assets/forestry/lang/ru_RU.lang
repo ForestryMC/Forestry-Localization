@@ -899,6 +899,8 @@ for.gui.family=Семейство
 for.gui.fruits=Плоды
 for.gui.girth=Обл. посадки
 for.gui.growth=Условие роста
+for.gui.growth.normal=Свет
+for.gui.growth.tropical=Тропики
 for.gui.height=Высота
 for.gui.maturity=Ско-сть роста
 for.gui.native="Родной" биом
@@ -934,7 +936,7 @@ for.trees.species.datePalm=финиковой пальмы
 for.trees.species.desertAcacia=пустынной акации
 for.trees.species.giantSequoia=гигантской секвойи
 for.trees.species.grandidierBaobab=Адансонии Грандидье
-for.trees.species.hillCherry=горного вишнёвого дерева
+for.trees.species.hillCherry=сакуры
 for.trees.species.jungle=дерева джунглей
 for.trees.species.kapok=хлопкового дерева
 for.trees.species.lemon=лимонного дерева
@@ -1255,6 +1257,16 @@ item.PipeItemsPropolis.name=Труба пчеловода
 # Examples:
 # for.bees.custom.drone.forest=Forest Drone
 # for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
+# Beealyzer/Treealyzer syntax:
+# for.bees.custom.beealyzer.<species>=New custom bee species name
+# for.trees.custom.treealyzer.<species>=New custom tree species name
+# Examples:
+# for.bees.custom.beealyzer.forest=New Forest species name
+# for.trees.custom.treealyzer.darkOak=New Dark Oak species name
+
+###################################
+# CUSTOM BEES NAMES
+###################################
 
 for.bees.custom.drone.forest=Лесной трутень
 for.bees.custom.drone.meadows=Луговой трутень
@@ -1303,3 +1315,39 @@ for.bees.custom.drone.phantasmal=Воображаемый трутень
 for.bees.custom.larvae.ender=Личинка Края
 for.bees.custom.princess.ender=Принцесса Края
 for.bees.custom.queen.ender=Королева Края
+
+###################################
+# CUSTOM Beealyzer/Treealyzer NAMES
+###################################
+
+for.trees.custom.treealyzer.acacia=Акация
+for.trees.custom.treealyzer.appleOak=Яблочный дуб
+for.trees.custom.treealyzer.balsa=Бальза
+for.trees.custom.treealyzer.blueMahoe=Синий гибискус
+for.trees.custom.treealyzer.bullPine=Сосна жёлтая
+for.trees.custom.treealyzer.coastSequoia=Береговая секвойя
+for.trees.custom.treealyzer.commonWalnut=Обычное ореховое дерево
+for.trees.custom.treealyzer.darkOak=Тёмный дуб
+for.trees.custom.treealyzer.datePalm=Финиковая пальма
+for.trees.custom.treealyzer.desertAcacia=Пустынная акация
+for.trees.custom.treealyzer.giantSequoia=Гигантская секвойя
+for.trees.custom.treealyzer.grandidierBaobab=Адансония Грандидье
+for.trees.custom.treealyzer.hillCherry=Сакура
+for.trees.custom.treealyzer.jungle=Дерево джунглей
+for.trees.custom.treealyzer.kapok=Хлопковое дерево
+for.trees.custom.treealyzer.lemon=Лимонное дерево
+for.trees.custom.treealyzer.mundaneLarch=Мировая лиственница
+for.trees.custom.treealyzer.myrtleEbony=Мирт
+for.trees.custom.treealyzer.papaya=Дынное дерево
+for.trees.custom.treealyzer.plum=Сливовое дерево
+for.trees.custom.treealyzer.redSpruce=Красная ель
+for.trees.custom.treealyzer.silverBirch=Белая берёза
+for.trees.custom.treealyzer.silverLime=Липа пушистая
+for.trees.custom.treealyzer.sipiri=Сипири
+for.trees.custom.treealyzer.sugarMaple=Сахарный клён
+for.trees.custom.treealyzer.sweetChestnut=Каштан посевной
+for.trees.custom.treealyzer.teak=Тиковое дерево
+for.trees.custom.treealyzer.wenge=Дерево Венге
+for.trees.custom.treealyzer.whitePoplar=Белый тополь
+for.trees.custom.treealyzer.whiteWillow=Белая ива
+for.trees.custom.treealyzer.yellowMeranti=Жёлтое меранти
