@@ -117,7 +117,7 @@ for.gui.active=Aktiv
 for.gui.addressee.player=Spieler
 for.gui.addressee.trader=Handelsstation
 
-for.gui.alyzer.authority=Authorität
+for.gui.alyzer.authority=Autorität
 for.gui.alyzer.classification=Klassifikation
 for.gui.alyzer.extinct=Ausgestorben
 for.gui.alyzer.nodescription=In der Encyclopædia Minecraftia findet sich kein Eintrag zu diesem Thema.
@@ -1194,14 +1194,15 @@ for.butterflies.species.pieridae.reseda=Resedafalter
 for.butterflies.species.pieridae.springAzure=Faulbaum-Bläuling
 for.butterflies.species.saturniidae.atlas=Atlasspinner
 
-for.gui.flutterlyzer=Platziere einen Schmetterling und füge Honig oder Honigtau als Beruhigungsmittel hinzu.
+for.gui.flutterlyzer=Schmetterlyzer
+for.gui.flutterlyzer.help=Platziere einen Schmetterling und füge Honig oder Honigtau als Beruhigungsmittel hinzu.
 for.gui.loot.butterfly=Mögliche Schmetterlingsausbeute
 for.gui.loot.caterpillar=Mögliche Raupenausbeute
 
 for.lepidopterology.effect.none=Nichts
 
 item.for.butterfly.name=Schmetterling
-item.for.flutterlyzer.name=Schmetterlysierer
+item.for.flutterlyzer.name=Schmetterlyzer
 item.for.lepidopteristBag.name=Rucksack des Lepidopterologen
 item.for.moth.name=Motte
 tile.for.lepidopterology.0.name=Truhe des Lepidopterologen
