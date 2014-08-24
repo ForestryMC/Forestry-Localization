@@ -85,7 +85,7 @@ for.errors.notPostpaid.help=提供更多邮票支付邮资
 for.errors.notRaining.desc=未下雨
 for.errors.notRaining.help=只有在下雨的时候才能进行操作
 for.errors.notUnique.desc=有重名
-for.errors.notUnique.help=填写的字符串被人使用过，请选择一个不同的
+for.errors.notUnique.help=填写的字符串已被使用，请选择一个不同的
 for.errors.ok.desc=没有错误
 for.errors.ok.help=一切安好
 for.errors.unknown.desc=未知错误
@@ -120,7 +120,7 @@ for.gui.addressee.trader=贸易站
 for.gui.alyzer.authority=创造该物种的神灵
 for.gui.alyzer.classification=学名|纲属
 for.gui.alyzer.extinct=灭绝
-for.gui.alyzer.nodescription=百科全书无法为该标本提供合适的条目
+for.gui.alyzer.nodescription=百科全书无法为该标本提供合适条目
 
 for.gui.area=活动范围
 for.gui.arid=干旱
@@ -197,7 +197,7 @@ for.gui.humidtol=湿度适应性
 for.gui.hybrid=混血
 for.gui.icy=严寒
 for.gui.imprinter.cheater=(你丫作弊!)
-for.gui.imprinter.name=GENOME IMPRINTER
+for.gui.imprinter.name=染色体变换仪
 for.gui.inactive=隐性
 for.gui.large=大
 for.gui.larger=较大
@@ -361,24 +361,24 @@ for.layout.engine.tin=电动引擎
 
 for.no=否
 
-for.researchNote.chance.highest=HIGHEST
-for.researchNote.chance.higher=HIGHER
-for.researchNote.chance.high=HIGH
-for.researchNote.chance.normal=NORMAL
-for.researchNote.chance.low=LOW
-for.researchNote.chance.lowest=LOWEST
-for.researchNote.error.0=It is impossible to decipher the washed out scribbles.
-for.researchNote.error.1=The note has become unreadable and is worthless.
-for.researchNote.discovered.0=§aSpecies researched!
+for.researchNote.chance.highest=最高
+for.researchNote.chance.higher=甚高
+for.researchNote.chance.high=高
+for.researchNote.chance.normal=标准
+for.researchNote.chance.low=低
+for.researchNote.chance.lowest=最低
+for.researchNote.error.0=不可能破解出那信手的胡乱涂鸦。
+for.researchNote.error.1=笔记已经难以阅读，一文不值。
+for.researchNote.discovered.0=§a发现新种!
 for.researchNote.discovered.1=§e'%1$s'§7 (%2$s)
-for.researchNote.discovery.0=§aMutation discovered!
-for.researchNote.discovery.1=§e'%SPEC1'§7 and §e'%SPEC2'§7.
-for.researchNote.discovery.2=Chance for success is §9%s§7.
-for.researchNote.discovery.3=New species is §d'%s'§7.
+for.researchNote.discovery.0=§a发现突变!
+for.researchNote.discovery.1=§e'%SPEC1'§7以及§e'%SPEC2'§7.
+for.researchNote.discovery.2=成功率为§9%s§7.
+for.researchNote.discovery.3=新种为§d'%s'§7.
 
-for.storage.backpack.mode.locked=(LOCKED)
-for.storage.backpack.mode.receiving=(RECEIVING)
-for.storage.backpack.mode.resupply=(RESUPPLY)
+for.storage.backpack.mode.locked=(锁定)
+for.storage.backpack.mode.receiving=(接收)
+for.storage.backpack.mode.resupply=(再补给)
 
 for.trigger.hasMail=收到信件
 for.trigger.hasWork=正在工作
@@ -753,20 +753,20 @@ for.bees.species.wintry=凛冬
 for.bees.stock.ignoble=贱民种
 for.bees.stock.pristine=始祖种
 
-for.chat.bees.command.beekeeping.error=A bekeeping mode called '%s' is not available.
-for.chat.bees.command.beekeeping.set=Beekeeping mode set to %s.
-for.chat.bees.command.help.0=Format: '/%s <command> <arguments>'
-for.chat.bees.command.help.1=Available commands:
-for.chat.bees.command.help.2=- list [<world-#>]: lists current and available beekeeping modes.
-for.chat.bees.command.help.3=- info <mode-name> : information on beekeeping mode.
-for.chat.bees.command.help.4=- set [<world-#>] <mode-name>: set beekeeping mode for world.
-for.chat.bees.command.help.5=- save [<world-#>] <player-name>: save beekeeping statistics for the given player.
-for.chat.bees.command.mode.current=Current: %MODE (#%WORLD)
-for.chat.bees.command.mode.help=Available modes: %s
-for.chat.bees.command.stats.error1=Log file could not be created. Failed to save statistics.
-for.chat.bees.command.stats.error2=Cannot write to log file. Failed to save statistics.
-for.chat.bees.command.stats.error3=Write operation threw an exception. Failed to save statistics.
-for.chat.bees.command.stats.saved=Saved statistics for player %s
+for.chat.bees.command.beekeeping.error=养蜂模式'%s'不可用。
+for.chat.bees.command.beekeeping.set=养蜂模式设为%s。
+for.chat.bees.command.help.0=格式: '/%s <command> <arguments>'
+for.chat.bees.command.help.1=可用命令:
+for.chat.bees.command.help.2=- list [<world-#>]: 列出当前可用养蜂模式。
+for.chat.bees.command.help.3=- info <mode-name> : 养蜂模式信息。
+for.chat.bees.command.help.4=- set [<world-#>] <mode-name>: 为某世界设置养蜂模式。
+for.chat.bees.command.help.5=- save [<world-#>] <player-name>: 保存指定玩家养蜂状态。
+for.chat.bees.command.mode.current=当前: %MODE (#%WORLD)
+for.chat.bees.command.mode.help=可用模式: %s
+for.chat.bees.command.stats.error1=无法创建日志文件。保存状态失败。
+for.chat.bees.command.stats.error2=无法写入日志文件。保存状态失败。
+for.chat.bees.command.stats.error3=写入操作抛出异常。保存状态失败。
+for.chat.bees.command.stats.saved=保存玩家%s的状态。
 
 for.description.speciesAustere=脾气火爆又危险;养蜂人靠近的时候要注意穿好全套专业护具。|101条养蜂人必知
 for.description.speciesAvenging="墙壁摇摇欲坠，屋顶咯吱作响，可是我不在乎。数以千计的小蜜蜂在我手套中飞舞，我抓住了蜂后！"|Anonymous
@@ -859,179 +859,409 @@ tile.for.stump.0.name=蜡烛
 # ARBORICULTURE
 ####################
 
-gui.maturity=成熟
-gui.treealyzer=林木分析仪
-gui.treealyzer.help=放置树苗，并提高蜂蜜滴或蜜蜡来作为催化剂。
-gui.treealyzer.overview=可分析
-gui.saplings=树苗
-gui.yield=产量
-gui.sappiness=多汁
-gui.height=高度
-gui.fruits=果实
-gui.supports=支持
-gui.family=族群
-gui.girth=周期
-gui.native=土壤
-gui.tolerated=结果
-gui.growth=生长
-description.treeOak=结苹果的寻常树种，常作为歌舞题材。
-description.treeBirch=常见的桦木，平均高度略低。|林木圣书
-description.treeLime=高大的落叶树，最近已经被重新分类为锦葵科植物。|林木圣书
-description.treeWalnut=高大的落叶树，树干粗大，野生的核桃树结果实，果实需要一段时间来成熟。|林木圣书
-description.treeChestnut=高大的落叶树，树干粗大，野生的栗子树结果实，果实需要一段时间来成熟。|林木圣书
-description.treeSipiri=高大的长青树，木材很规则，树干与树皮都散发出浓郁的香味。只生长于热带。|林木圣书
-description.treeWillow=高大的落叶树。白色的柳树生长很快速。只分布于潮湿的环境。|林木圣书
-description.treeCherry=小型树。自然生长的植株结樱桃，需要一段时间来成熟。|林木圣书
-family.pomes=梨子
-family.prunes=梅子
-family.nuts=坚果
-family.jungle=丛林
-fruits.apple=苹果
-fruits.cherry=樱桃
-fruits.chestnut=栗子
-fruits.walnut=胡桃
-fruits.cocoa=可可
-fruits.none=无
-fruits.plum=李子
-fruits.lemon=柠檬
-fruits.dates=枣子
-fruits.papaya=木瓜
-item.grafter=剪枝工具
-item.grafterProven=标定的剪枝工具
-tile.log=原木
-tile.planks=木板
-tile.slab=木头台阶
-tile.fences=栅栏
-tile.for.stairs=阶梯
-wood.0=落叶松树
-wood.1=柚树
-wood.2=刺槐树
-wood.3=菩提树
-wood.4=栗子树
-wood.5=崖豆树
-wood.6=猴面包树
-wood.7=红杉树
-wood.8=木棉树
-wood.9=乌檀树
-wood.10=桃花心树
-wood.11=巴尔杉树
-wood.12=柳树
-wood.13=核桃树
-wood.14=樟树
-wood.15=樱桃树
-wood.16=白皮树
-wood.17=杨树
-wood.18=棕榈树
-wood.19=木瓜树
-wood.20=松树
-wood.21=李子树
-wood.22=枫树
-wood.23=柑橘树
-tile.for.arboriculture.0=林业员箱子
+for.arboriculture.effect.none=无效果
+
+for.chat.trees.command.help.0=格式: '/%s <command> <arguments>'
+for.chat.trees.command.help.1=可用命令:
+for.chat.trees.command.help.2=- list [<world-#>]: 列出当前可用的林木培育命令。
+
+for.chat.trees.command.help.3=- info <mode-name> : 林木培育模式的信息。
+for.chat.trees.command.help.4=- set [<world-#>] <mode-name>: 设置某世界的林木培育模式。
+for.chat.trees.command.help.5=- save [<world-#>] <player-name>: 保存指定玩家的林木培育状态。
+for.chat.trees.command.treekeeping.error=林木培育模式'%s'不可用。
+for.chat.trees.command.treekeeping.set=林木培育模式已设置为%s。
+
+for.description.treeBirch=常见的桦木，一般都很矮小。|林木圣书
+for.description.treeCherry=小型树。自然生长的植株结樱桃，需要一段时间来成熟。|林木圣书
+for.description.treeChestnut=高大的落叶树，树干粗大，野生的栗子树结果实，果实需要一段时间来成熟。|林木圣书
+for.description.treeLime=高大的落叶树，最近已经被重新分类为锦葵科植物。|林木圣书
+for.description.treeOak=结苹果的寻常树种，常作为歌舞题材。
+for.description.treeSipiri=高大的长青树，木材很规则，树干与树皮都散发出浓郁的香味。只生长于热带。|林木圣书
+for.description.treeWalnut=高大的落叶树，树干粗大，野生的核桃树结果实，果实需要一段时间来成熟。|林木圣书
+for.description.treeWillow=高大的落叶树。白色的柳树生长很快速。只分布于潮湿的环境。|林木圣书
+
+for.family.jungle=丛林族
+for.family.nuts=栗果族
+for.family.pomes=梨果族
+for.family.prunes=梅果族
+
+for.fruits.apple=苹果
+for.fruits.cherry=樱桃
+for.fruits.chestnut=栗子
+for.fruits.cocoa=可可
+for.fruits.dates=枣子
+for.fruits.lemon=柠檬
+for.fruits.none=无
+for.fruits.papaya=木瓜
+for.fruits.plum=李子
+for.fruits.walnut=胡桃
+
+for.gui.family=族群
+for.gui.fruits=果实
+for.gui.girth=干围
+for.gui.growth=生长
+for.gui.growth.normal=光照
+for.gui.growth.tropical=热带
+for.gui.height=高度
+for.gui.maturity=成熟
+for.gui.native=土壤
+for.gui.saplings=树苗
+for.gui.sappiness=多汁
+for.gui.supports=载体
+for.gui.tolerated=结果
+for.gui.treealyzer.help=放入树苗病提供蜂蜜或者蜂蜜滴作为催化剂。
+for.gui.treealyzer.overview=可分析
+for.gui.treealyzer=林木分析仪
+for.gui.yield=产量
+
+for.trees.grammar.blossom.type=花朵
+for.trees.grammar.blossom=%SPECIES%TYPE
+for.trees.grammar.germling.type=幼体
+for.trees.grammar.germling=%SPECIES%TYPE
+for.trees.grammar.pollen.type=花粉
+for.trees.grammar.pollen=%SPECIES%TYPE
+for.trees.grammar.sapling.type=树苗
+for.trees.grammar.sapling=%SPECIES%TYPE
+
+for.trees.hybrid=%PRIMARY-%SECONDARY杂交种
+
+for.trees.species.acacia=刺槐
+for.trees.species.appleOak=苹果橡
+for.trees.species.balsa=巴尔杉
+for.trees.species.blueMahoe=高槿
+for.trees.species.bullPine=西黄松
+for.trees.species.coastSequoia=海岸红杉
+for.trees.species.commonWalnut=胡桃
+for.trees.species.darkOak=黑橡
+for.trees.species.datePalm=枣椰
+for.trees.species.desertAcacia=沙漠刺槐
+for.trees.species.giantSequoia=巨杉
+for.trees.species.grandidierBaobab=猴面包
+for.trees.species.hillCherry=山丘樱
+for.trees.species.jungle=丛林
+for.trees.species.kapok=木棉
+for.trees.species.lemon=柠檬
+for.trees.species.mundaneLarch=落叶松
+for.trees.species.myrtleEbony=乌檀
+for.trees.species.papaya=木瓜
+for.trees.species.plum=李子
+for.trees.species.redSpruce=红果云杉
+for.trees.species.silverBirch=银桦
+for.trees.species.silverLime=银橙
+for.trees.species.sipiri=绿心樟
+for.trees.species.sugarMaple=糖枫
+for.trees.species.sweetChestnut=甜栗
+for.trees.species.teak=柚
+for.trees.species.wenge=崖豆
+for.trees.species.whitePoplar=白杨
+for.trees.species.whiteWillow=银柳
+for.trees.species.yellowMeranti=黄桉
+
+item.for.grafter.name=剪枝器
+item.for.grafterProven.name=标定剪枝器
+
+tile.for.arboriculture.0.name=林业员箱子
+
+tile.for.fences.0.name=落叶树栅栏
+tile.for.fences.1.name=柚树栅栏
+tile.for.fences.2.name=刺槐栅栏
+tile.for.fences.3.name=酸橙栅栏
+tile.for.fences.4.name=栗树栅栏
+tile.for.fences.5.name=崖豆栅栏
+tile.for.fences.6.name=猴面包栅栏
+tile.for.fences.7.name=红杉栅栏
+tile.for.fences.8.name=木棉栅栏
+tile.for.fences.9.name=乌檀栅栏
+tile.for.fences.10.name=桃心栅栏
+tile.for.fences.11.name=巴尔杉栅栏
+tile.for.fences.12.name=柳树栅栏
+tile.for.fences.13.name=胡桃栅栏
+tile.for.fences.14.name=绿心栅栏
+tile.for.fences.15.name=樱树栅栏
+tile.for.fences.16.name=高槿栅栏
+tile.for.fences.17.name=白杨栅栏
+tile.for.fences.18.name=棕榈栅栏
+tile.for.fences.19.name=木瓜栅栏
+tile.for.fences.20.name=松树栅栏
+tile.for.fences.21.name=李子栅栏
+tile.for.fences.22.name=枫树栅栏
+tile.for.fences.23.name=柑橘栅栏
+
+tile.for.log.0.name=落叶树原木
+tile.for.log.1.name=柚树原木
+tile.for.log.2.name=刺槐原木
+tile.for.log.3.name=酸橙原木
+tile.for.log.4.name=栗树原木
+tile.for.log.5.name=崖豆原木
+tile.for.log.6.name=猴面包原木
+tile.for.log.7.name=红杉原木
+tile.for.log.8.name=木棉原木
+tile.for.log.9.name=乌檀原木
+tile.for.log.10.name=桃心原木
+tile.for.log.11.name=巴尔杉原木
+tile.for.log.12.name=柳树原木
+tile.for.log.13.name=胡桃原木
+tile.for.log.14.name=绿心原木
+tile.for.log.15.name=樱树原木
+tile.for.log.16.name=高槿原木
+tile.for.log.17.name=白杨原木
+tile.for.log.18.name=棕榈原木
+tile.for.log.19.name=木瓜原木
+tile.for.log.20.name=松树原木
+tile.for.log.21.name=李子原木
+tile.for.log.22.name=枫树原木
+tile.for.log.23.name=柑橘原木
+
+tile.for.planks.0.name=落叶树木板
+tile.for.planks.1.name=柚木板
+tile.for.planks.2.name=刺槐木板
+tile.for.planks.3.name=酸橙木板
+tile.for.planks.4.name=栗树木板
+tile.for.planks.5.name=崖豆木板
+tile.for.planks.6.name=猴面包木板
+tile.for.planks.7.name=红杉木板
+tile.for.planks.8.name=木棉木板
+tile.for.planks.9.name=乌檀木板
+tile.for.planks.10.name=桃心木板
+tile.for.planks.11.name=巴尔杉木板
+tile.for.planks.12.name=柳树木板
+tile.for.planks.13.name=胡桃木板
+tile.for.planks.14.name=绿心木板
+tile.for.planks.15.name=樱树木板
+tile.for.planks.16.name=高槿木板
+tile.for.planks.17.name=白杨木板
+tile.for.planks.18.name=棕榈木板
+tile.for.planks.19.name=木瓜木板
+tile.for.planks.20.name=松树木板
+tile.for.planks.21.name=李子木板
+tile.for.planks.22.name=枫树木板
+tile.for.planks.23.name=柑橘木板
+
+tile.for.slab.0.name=落叶树台阶
+tile.for.slab.1.name=柚台阶
+tile.for.slab.2.name=刺槐台阶
+tile.for.slab.3.name=酸橙台阶
+tile.for.slab.4.name=栗树台阶
+tile.for.slab.5.name=崖豆台阶
+tile.for.slab.6.name=猴面包台阶
+tile.for.slab.7.name=红杉台阶
+tile.for.slab.8.name=木棉台阶
+tile.for.slab.9.name=乌檀台阶
+tile.for.slab.10.name=桃心台阶
+tile.for.slab.11.name=巴尔杉台阶
+tile.for.slab.12.name=柳树台阶
+tile.for.slab.13.name=胡桃台阶
+tile.for.slab.14.name=绿心台阶
+tile.for.slab.15.name=樱树台阶
+tile.for.slab.16.name=高槿台阶
+tile.for.slab.17.name=白杨台阶
+tile.for.slab.18.name=棕榈台阶
+tile.for.slab.19.name=木瓜台阶
+tile.for.slab.20.name=松木台阶
+tile.for.slab.21.name=李子台阶
+tile.for.slab.22.name=枫树台阶
+tile.for.slab.23.name=柑橘台阶
+
+tile.for.stairs.0.name=落叶树楼梯
+tile.for.stairs.1.name=柚楼梯
+tile.for.stairs.2.name=刺槐楼梯
+tile.for.stairs.3.name=酸橙楼梯
+tile.for.stairs.4.name=栗树楼梯
+tile.for.stairs.5.name=崖豆楼梯
+tile.for.stairs.6.name=猴面包楼梯
+tile.for.stairs.7.name=红杉楼梯
+tile.for.stairs.8.name=木棉楼梯
+tile.for.stairs.9.name=乌檀楼梯
+tile.for.stairs.10.name=桃心楼梯
+tile.for.stairs.11.name=巴尔杉楼梯
+tile.for.stairs.12.name=柳树楼梯
+tile.for.stairs.13.name=胡桃楼梯
+tile.for.stairs.14.name=绿心楼梯
+tile.for.stairs.15.name=樱树楼梯
+tile.for.stairs.16.name=高槿楼梯
+tile.for.stairs.17.name=白杨楼梯
+tile.for.stairs.18.name=棕榈楼梯
+tile.for.stairs.19.name=木瓜楼梯
+tile.for.stairs.20.name=松木楼梯
+tile.for.stairs.21.name=李子楼梯
+tile.for.stairs.22.name=枫树楼梯
+tile.for.stairs.23.name=柑橘楼梯
 
 ####################
 # FARMING
 ####################
 
-circuit.managedArboreal=林场
-circuit.managedPeat=泥炭田
-circuit.managedCereal=谷物农场
-circuit.managedVegetable=蔬菜农场
-circuit.managedInfernal=地狱农场
-circuit.managedShroom=蘑菇农场
-circuit.manualOrchard=果园
-circuit.manualPeat=泥炭田
-circuit.manualCereal=谷物农场
-circuit.manualVegetable=蔬菜农场
-circuit.manualSucculent=仙人掌农场
-circuit.manualPoales=甘蔗农场
-circuit.manualRubber=橡胶种植园
-circuit.manualGourd=瓜田
-circuit.manualCocoa=可可种植园
-circuit.manualShroom=蘑菇农场
-errors.noFertilizer.desc=无肥料
-errors.noFertilizer.help=农场需要使用肥料来驱动，靠堆肥不足以驱动。
-errors.noFarmland.desc=无农田
-errors.noFarmland.help=用光滑沙石，砖块，或者石砖来搭建一个用以建立农场的平台。
-errors.noLiquid.desc=缺水
-errors.noLiquid.help=根据农场所在地的降雨量，湿度和温度，所需的供水量不一。
-gui.hydration=需求更多的水
-gui.hydr.heat=基于温度
-gui.hydr.humid=基于湿度
-gui.hydr.rainfall=基于降雨量
-gui.hydr.overall=总括
-hints.farmland.tag=搭建属于你的农场
-hints.farmland.desc=用光滑沙石，砖块，或者石砖来搭建一个用以建立农场的平台。
-hints.gearbox.tag=需要动力！
-hints.gearbox.desc=使用连接了引擎或者能量管道的齿轮箱来为你的农场供能。
-hints.valve.tag=需要水！
-hints.valve.desc=各种农场都需要浇灌，使用水阀方块来实现自动化浇灌吧。
-hints.fertilizer.tag=需要肥料！
-hints.fertilizer.desc=除了果园各种农场都需要肥料，不能使用堆肥。
-hints.hatch.tag=未雨绸缪！
-hints.hatch.desc=在出货箱上连接管道来产出你的各种作物吧！
-hints.circuitboard.tag=多功能农场！
-hints.circuitboard.desc=使用你的电烙铁来变换农场的类型！
-hints.manualfarms.tag=DIY自己的农场！
-hints.manualfarms.desc=除去使用预设模式来自动构建农场外你还可以自己搭建农场来提高效率。
-hints.farmgui.tag=土壤向左，种子靠右！
-hints.farmgui.desc=土壤会进入到左边的格子里，而种子/树苗则会进去适当的格子中，一般位于右上方的部分。
-layout.farms.managed=预设农场
-layout.farms.manual=DIY农场
-tile.ffarm.0=农场方块
-tile.ffarm.2=农场齿轮箱
-tile.ffarm.3=农场出货箱
-tile.ffarm.4=农场水阀
-tile.ffarm.5=农场控制盒
-trigger.lowSoil=土壤
-trigger.lowLiquid=蓄水槽
-trigger.lowFertilizer=肥料
-usage.farms.managed=在农场中
-usage.farms.manual=在农场中
+for.circuit.managedArboreal=林场
+for.circuit.managedCereal=谷物农场
+for.circuit.managedInfernal=地狱农场
+for.circuit.managedPeat=泥炭田
+for.circuit.managedShroom=蘑菇农场
+for.circuit.managedVegetable=蔬菜农场
+for.circuit.manualCereal=谷物农场
+for.circuit.manualCocoa=可可种植园
+for.circuit.manualGourd=瓜田
+for.circuit.manualOrchard=果园
+for.circuit.manualPeat=泥炭田
+for.circuit.manualPoales=甘蔗农场
+for.circuit.manualRubber=橡胶种植园
+for.circuit.manualShroom=蘑菇农场
+for.circuit.manualSucculent=仙人掌农场
+for.circuit.manualVegetable=蔬菜农场
+
+for.errors.noFarmland.desc=无农田
+for.errors.noFarmland.help=用光滑沙石，砖块，或者石砖来搭建一个用以建立农场的平台。
+for.errors.noFertilizer.desc=无肥料
+for.errors.noFertilizer.help=农场需要使用肥料来驱动，靠堆肥不足以驱动。
+for.errors.noLiquid.desc=缺水
+for.errors.noLiquid.help=根据农场所在地的降雨量，湿度和温度，所需的供水量不一。
+
+for.gui.hydr.heat=基于温度
+for.gui.hydr.humid=基于湿度
+for.gui.hydr.overall=总括
+for.gui.hydr.rainfall=基于降雨量
+for.gui.hydration=需求更多的水
+
+for.hints.circuitboard.desc=使用你的电烙铁来变换农场的类型！
+for.hints.circuitboard.tag=多功能农场！
+for.hints.farmgui.desc=土壤放入左边的格子里，而种子/树苗则放到一般位于右上方的合适格子中。
+for.hints.farmgui.tag=土壤向左，种子靠右！
+for.hints.farmland.desc=用光滑沙石，砖块，或者石砖来搭建一个用以建立农场的平台。
+for.hints.farmland.tag=搭建属于你的农场!
+for.hints.fertilizer.desc=除了果园各种农场都需要肥料，不能使用堆肥。
+for.hints.fertilizer.tag=需要肥料！
+for.hints.gearbox.desc=使用连接了引擎或者能量管道的齿轮箱来为你的农场供能。
+for.hints.gearbox.tag=需要动力！
+for.hints.hatch.desc=在出货箱上连接管道来产出你的各种作物吧！
+for.hints.hatch.tag=未雨绸缪！
+for.hints.manualfarms.desc=除去使用预设模式来自动构建农场外你还可以自己搭建农场来提高效率。
+for.hints.manualfarms.tag=DIY自己的农场！
+for.hints.valve.desc=各种农场都需要浇灌，使用水阀方块来实现自动化浇灌吧。
+for.hints.valve.tag=需要水！
+
+for.layout.farms.managed=预设农场
+for.layout.farms.manual=DIY农场
+
+for.trigger.lowFertilizer=肥料
+for.trigger.lowLiquid=蓄水槽
+for.trigger.lowSoil=土壤
+
+for.usage.farms.managed=预设农场
+for.usage.farms.manual=DIY农场
+
+tile.for.ffarm.0.name=农场方块
+tile.for.ffarm.2.name=农场齿轮箱
+tile.for.ffarm.3.name=农场出货箱
+tile.for.ffarm.4.name=农场水阀
+tile.for.ffarm.5.name=农场控制盒
 
 ####################
 # LEPIDOPTEROLOGY
 ####################
 
-gui.flutterlyzer.help=提供蜂蜜底或蜂蜜汁来安抚这些躁动的蝴蝶。
-gui.loot.butterfly=蝴蝶可能的产物
-gui.loot.caterpillar=毛毛虫可能的产物
-item.butterfly=蝴蝶
-item.moth=飞蛾
-item.flutterlyzer=蝴蝶分析仪
-storage.backpack.lepidopterist=鳞翅目昆虫学家背包
-tile.for.lepidopterology.0=鳞翅目昆虫学家箱子
+for.butterflies.hybrid=%PRIMARY-%SECONDARY混血蝶
+
+for.butterflies.species.geometridae.brimstone=黄蛾
+for.butterflies.species.geometridae.latticedHeath=斑格蛾
+for.butterflies.species.nymphalidae.blueDuke=蓝爵蝶
+for.butterflies.species.nymphalidae.blueMorphoM=大蓝闪蝶·梅内莱厄斯
+for.butterflies.species.nymphalidae.blueMorphoP=黑框蓝闪蝶·百利芷
+for.butterflies.species.nymphalidae.blueMorphoR=尖翅蓝闪·海伦娜
+for.butterflies.species.nymphalidae.blueWing=蓝蝶
+for.butterflies.species.nymphalidae.comma=狸白蛱蝶
+for.butterflies.species.nymphalidae.dianaFritillary=戴安娜豹纹蝶
+for.butterflies.species.nymphalidae.glasswing=透翅蝶
+for.butterflies.species.nymphalidae.glassyTiger=绢斑蝶
+for.butterflies.species.nymphalidae.leopardLacewing=豹纹蛱蝶
+for.butterflies.species.nymphalidae.malachite=青纹蝶
+for.butterflies.species.nymphalidae.monarch=大斑蝶
+for.butterflies.species.nymphalidae.paintedBeauty=弗州蛱蝶
+for.butterflies.species.nymphalidae.postman=邮差蝶
+for.butterflies.species.nymphalidae.speckledWood=斑木蝶
+for.butterflies.species.nymphalidae.speckledWoodC=浅黄斑木蝶
+for.butterflies.species.nymphalidae.speckledWoodM=马德拉斑木蝶
+for.butterflies.species.papilionidae.emeraldPeacock=翡翠孔雀蝶
+for.butterflies.species.papilionidae.swallowtailB=黑色凤尾蝶
+for.butterflies.species.papilionidae.swallowtailC=柑橘凤尾蝶
+for.butterflies.species.papilionidae.swallowtailS=北美凤尾蝶
+for.butterflies.species.papilionidae.swallowtailT=托阿斯凤尾蝶
+for.butterflies.species.papilionidae.swallowtailZ=长尾玳瑁凤尾蝶
+for.butterflies.species.pieridae.brimstone=硫磺蛾
+for.butterflies.species.pieridae.cabbageWhite=菜粉蝶
+for.butterflies.species.pieridae.gozoraAzure=琉璃灰蝶
+for.butterflies.species.pieridae.orangeTip=端红蝶
+for.butterflies.species.pieridae.palaenoSulphur=黑缘豆粉蝶
+for.butterflies.species.pieridae.postillion=纹黄蝶
+for.butterflies.species.pieridae.reseda=东方绿斑粉蝶
+for.butterflies.species.pieridae.springAzure=冬青小灰蝶
+for.butterflies.species.saturniidae.atlas=乌柏巨蚕蛾
+
+for.gui.flutterlyzer.help=提供蜂蜜底或蜂蜜汁来安抚这些躁动的蝴蝶。
+for.gui.loot.butterfly=蝴蝶可能的产物
+for.gui.loot.caterpillar=毛毛虫可能的产物
+
+for.lepidopterology.effect.none=无效果
+
+item.for.butterfly.name=蝴蝶
+item.for.flutterlyzer.name=蝴蝶分析仪
+item.for.lepidopteristBag.name=鳞翅目昆虫学家背包
+item.for.moth.name=飞蛾
+tile.for.lepidopterology.0.name=鳞翅目昆虫学家箱子
 
 ####################
 # MAIL
 ####################
 
-chat.mail.no_mailbox=收件人没有邮箱。
-chat.mail.not_mailable=信件不符合邮寄要求。
-chat.mail.not_postpaid=信件邮资不足。
-chat.mail.mailbox_full=收件人的邮箱已满。
-chat.mail.already_mailed=信件无法重发。
-chat.mail.response_not_mailable=贸易站无法回信，你需要邮箱。
-chat.mail.insufficient_offer=贸易站需求更多物品。
-chat.mail.insufficient_trade_good=贸易站已经断货。
-chat.mail.insufficient_buffer=贸易站已满。
-chat.mail.insufficient_paper=贸易站纸张不足。
-chat.mail.insufficient_stamps=贸易站邮票不足。
-chat.mail.ok=可贸易。
-chat.mail.wrongstacksize=一次只能写一封信。
-gui.mail.catalogue.close=关闭
-gui.mail.catalogue.trade=贸易
-gui.mail.filter.all=全部
-gui.mail.filter.online=在线
-gui.mail.filter.offline=离线
-gui.mail.willtrade=%s将开始贸易
-gui.mail.address.copy=use
-gui.mail.tradefor=for
-gui.mail.notrades=不可贸易
-item.catalogue=目录
+for.chat.mail.already_mailed=信件无法重发。
+for.chat.mail.command.help.0=格式: '/%s <command> <arguments>'
+for.chat.mail.command.help.1=可用命令:
+for.chat.mail.command.help.2=- trades : 贸易站全列表。
+for.chat.mail.command.help.3=- virtualize <tradestation-name>: 将指定贸易站设为虚拟模式。
+for.chat.mail.command.no_tradestation=未发现贸易站'%s'。
+
+for.chat.mail.insufficient_buffer=贸易站已满。
+for.chat.mail.insufficient_offer=贸易站需求更多物品。
+for.chat.mail.insufficient_paper=贸易站纸张不足。
+for.chat.mail.insufficient_stamps=贸易站邮票不足。
+for.chat.mail.insufficient_trade_good=贸易站已经断货。
+
+for.chat.mail.mailbox_full=收件人的邮箱已满。
+for.chat.mail.not_mailable=信件不符合邮寄要求。
+for.chat.mail.not_postpaid=信件邮资不足。
+for.chat.mail.no_mailbox=收件人没有邮箱。
+for.chat.mail.ok=可贸易。
+for.chat.mail.response_not_mailable=贸易站无法回信，你需要邮箱。
+for.chat.mail.wrongstacksize=一次只能写一封信。
+
+for.gui.mail.address.copy=使用
+for.gui.mail.catalogue.close=关闭
+for.gui.mail.catalogue.trade=贸易
+for.gui.mail.filter.all=全部
+for.gui.mail.filter.offline=离线
+for.gui.mail.filter.online=在线
+for.gui.mail.notrades=无可用贸易。
+for.gui.mail.tradefor=交易对象为
+for.gui.mail.willtrade=%s将开始贸易
+
+item.for.catalogue.name=贸易目录
 
 ####################
 # PIPES
 ####################
 
-item.PipeItemsPropolis.name=养蜂管道
+item.PipeItemsPropolis.name=养蜂员管道
+
+###################################
+# CUSTOM BEE AND TREE SPECIES NAMES
+###################################
+# Syntax:
+# for.bees.custom.<type>.<species>=New custom bee name
+# for.trees.custom.<type>.<species>=New custom tree name
+# Examples:
+# for.bees.custom.drone.forest=Forest Drone
+# for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
+# Beealyzer/Treealyzer syntax:
+# for.bees.custom.beealyzer.<type>.<species>=New custom bee species name
+# for.trees.custom.treealyzer.<type>.<species>=New custom tree species name
+# Examples:
+# for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
+# for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
