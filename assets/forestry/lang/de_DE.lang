@@ -899,8 +899,6 @@ for.gui.family=Familie
 for.gui.fruits=Früchte
 for.gui.girth=Stamm
 for.gui.growth=Wachstum
-for.gui.growth.normal=Licht
-for.gui.growth.tropical=Tropisch
 for.gui.height=Höhe
 for.gui.maturity=Reife
 for.gui.native=Boden
@@ -912,6 +910,9 @@ for.gui.treealyzer.help=Platziere einen Setzling und füge Honig oder Honigtau a
 for.gui.treealyzer.overview=Mögliche Analytik
 for.gui.treealyzer=Baumanalyser
 for.gui.yield=Ertrag
+
+for.growth.normal=Licht
+for.growth.tropical=Tropisch
 
 for.trees.grammar.blossom.type=blüten
 for.trees.grammar.blossom=%SPECIES%TYPE

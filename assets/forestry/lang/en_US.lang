@@ -899,8 +899,6 @@ for.gui.family=Family
 for.gui.fruits=Fruits
 for.gui.girth=Girth
 for.gui.growth=Growth
-for.gui.growth.normal=Light
-for.gui.growth.tropical=Tropical
 for.gui.height=Height
 for.gui.maturity=Matures
 for.gui.native=Soil
@@ -912,6 +910,9 @@ for.gui.treealyzer.help=Supply sapling and provide honey or honeydew as catalyst
 for.gui.treealyzer.overview=Analytics available
 for.gui.treealyzer=Treealyzer
 for.gui.yield=Yield
+
+for.growth.normal=Light
+for.growth.tropical=Tropical
 
 for.trees.grammar.blossom.type=Blossom
 for.trees.grammar.blossom=%SPECIES %TYPE
