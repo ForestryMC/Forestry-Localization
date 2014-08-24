@@ -1150,46 +1150,181 @@ usage.farms.manual=在农场中
 ####################
 # LEPIDOPTEROLOGY
 ####################
+####################
+# FARMING
+####################
 
-gui.flutterlyzer.help=提供蜂蜜底或蜂蜜汁来安抚这些躁动的蝴蝶。
-gui.loot.butterfly=蝴蝶可能的产物
-gui.loot.caterpillar=毛毛虫可能的产物
-item.butterfly=蝴蝶
-item.moth=飞蛾
-item.flutterlyzer=蝴蝶分析仪
-storage.backpack.lepidopterist=鳞翅目昆虫学家背包
-tile.for.lepidopterology.0=鳞翅目昆虫学家箱子
+for.circuit.managedArboreal=林场
+for.circuit.managedCereal=谷物农场
+for.circuit.managedInfernal=地狱农场
+for.circuit.managedPeat=泥炭田
+for.circuit.managedShroom=蘑菇农场
+for.circuit.managedVegetable=蔬菜农场
+for.circuit.manualCereal=谷物农场
+for.circuit.manualCocoa=可可种植园
+for.circuit.manualGourd=瓜田
+for.circuit.manualOrchard=果园
+for.circuit.manualPeat=泥炭田
+for.circuit.manualPoales=甘蔗农场
+for.circuit.manualRubber=橡胶种植园
+for.circuit.manualShroom=蘑菇农场
+for.circuit.manualSucculent=仙人掌农场
+for.circuit.manualVegetable=蔬菜农场
+
+for.errors.noFarmland.desc=无农田
+for.errors.noFarmland.help=用光滑沙石，砖块，或者石砖来搭建一个用以建立农场的平台。
+for.errors.noFertilizer.desc=无肥料
+for.errors.noFertilizer.help=农场需要使用肥料来驱动，靠堆肥不足以驱动。
+for.errors.noLiquid.desc=缺水
+for.errors.noLiquid.help=根据农场所在地的降雨量，湿度和温度，所需的供水量不一。
+
+for.gui.hydr.heat=基于温度
+for.gui.hydr.humid=基于湿度
+for.gui.hydr.overall=总括
+for.gui.hydr.rainfall=基于降雨量
+for.gui.hydration=需求更多的水
+
+for.hints.circuitboard.desc=使用你的电烙铁来变换农场的类型！
+for.hints.circuitboard.tag=多功能农场！
+for.hints.farmgui.desc=土壤放入左边的格子里，而种子/树苗则放到一般位于右上方的合适格子中。
+for.hints.farmgui.tag=土壤向左，种子靠右！
+for.hints.farmland.desc=用光滑沙石，砖块，或者石砖来搭建一个用以建立农场的平台。
+for.hints.farmland.tag=搭建属于你的农场!
+for.hints.fertilizer.desc=除了果园各种农场都需要肥料，不能使用堆肥。
+for.hints.fertilizer.tag=需要肥料！
+for.hints.gearbox.desc=使用连接了引擎或者能量管道的齿轮箱来为你的农场供能。
+for.hints.gearbox.tag=需要动力！
+for.hints.hatch.desc=在出货箱上连接管道来产出你的各种作物吧！
+for.hints.hatch.tag=未雨绸缪！
+for.hints.manualfarms.desc=除去使用预设模式来自动构建农场外你还可以自己搭建农场来提高效率。
+for.hints.manualfarms.tag=DIY自己的农场！
+for.hints.valve.desc=各种农场都需要浇灌，使用水阀方块来实现自动化浇灌吧。
+for.hints.valve.tag=需要水！
+
+for.layout.farms.managed=预设农场
+for.layout.farms.manual=DIY农场
+
+for.trigger.lowFertilizer=肥料
+for.trigger.lowLiquid=蓄水槽
+for.trigger.lowSoil=土壤
+
+for.usage.farms.managed=预设农场
+for.usage.farms.manual=DIY农场
+
+tile.for.ffarm.0.name=农场方块
+tile.for.ffarm.2.name=农场齿轮箱
+tile.for.ffarm.3.name=农场出货箱
+tile.for.ffarm.4.name=农场水阀
+tile.for.ffarm.5.name=农场控制盒
+
+####################
+# LEPIDOPTEROLOGY
+####################
+
+for.butterflies.hybrid=%PRIMARY-%SECONDARY混血蝶
+
+for.butterflies.species.geometridae.brimstone=黄蛾
+for.butterflies.species.geometridae.latticedHeath=斑格蛾
+for.butterflies.species.nymphalidae.blueDuke=蓝爵蝶
+for.butterflies.species.nymphalidae.blueMorphoM=大蓝闪蝶·梅内莱厄斯
+for.butterflies.species.nymphalidae.blueMorphoP=黑框蓝闪蝶·百利芷
+for.butterflies.species.nymphalidae.blueMorphoR=尖翅蓝闪·海伦娜
+for.butterflies.species.nymphalidae.blueWing=蓝蝶
+for.butterflies.species.nymphalidae.comma=狸白蛱蝶
+for.butterflies.species.nymphalidae.dianaFritillary=戴安娜豹纹蝶
+for.butterflies.species.nymphalidae.glasswing=透翅蝶
+for.butterflies.species.nymphalidae.glassyTiger=绢斑蝶
+for.butterflies.species.nymphalidae.leopardLacewing=豹纹蛱蝶
+for.butterflies.species.nymphalidae.malachite=青纹蝶
+for.butterflies.species.nymphalidae.monarch=大斑蝶
+for.butterflies.species.nymphalidae.paintedBeauty=弗州蛱蝶
+for.butterflies.species.nymphalidae.postman=邮差蝶
+for.butterflies.species.nymphalidae.speckledWood=斑木蝶
+for.butterflies.species.nymphalidae.speckledWoodC=浅黄斑木蝶
+for.butterflies.species.nymphalidae.speckledWoodM=马德拉斑木蝶
+for.butterflies.species.papilionidae.emeraldPeacock=翡翠孔雀蝶
+for.butterflies.species.papilionidae.swallowtailB=黑色凤尾蝶
+for.butterflies.species.papilionidae.swallowtailC=柑橘凤尾蝶
+for.butterflies.species.papilionidae.swallowtailS=北美凤尾蝶
+for.butterflies.species.papilionidae.swallowtailT=托阿斯凤尾蝶
+for.butterflies.species.papilionidae.swallowtailZ=长尾玳瑁凤尾蝶
+for.butterflies.species.pieridae.brimstone=硫磺蛾
+for.butterflies.species.pieridae.cabbageWhite=菜粉蝶
+for.butterflies.species.pieridae.gozoraAzure=琉璃灰蝶
+for.butterflies.species.pieridae.orangeTip=端红蝶
+for.butterflies.species.pieridae.palaenoSulphur=黑缘豆粉蝶
+for.butterflies.species.pieridae.postillion=纹黄蝶
+for.butterflies.species.pieridae.reseda=东方绿斑粉蝶
+for.butterflies.species.pieridae.springAzure=冬青小灰蝶
+for.butterflies.species.saturniidae.atlas=乌柏巨蚕蛾
+
+for.gui.flutterlyzer.help=提供蜂蜜底或蜂蜜汁来安抚这些躁动的蝴蝶。
+for.gui.loot.butterfly=蝴蝶可能的产物
+for.gui.loot.caterpillar=毛毛虫可能的产物
+
+for.lepidopterology.effect.none=无效果
+
+item.for.butterfly.name=蝴蝶
+item.for.flutterlyzer.name=蝴蝶分析仪
+item.for.lepidopteristBag.name=鳞翅目昆虫学家背包
+item.for.moth.name=飞蛾
+tile.for.lepidopterology.0.name=鳞翅目昆虫学家箱子
 
 ####################
 # MAIL
 ####################
 
-chat.mail.no_mailbox=收件人没有邮箱。
-chat.mail.not_mailable=信件不符合邮寄要求。
-chat.mail.not_postpaid=信件邮资不足。
-chat.mail.mailbox_full=收件人的邮箱已满。
-chat.mail.already_mailed=信件无法重发。
-chat.mail.response_not_mailable=贸易站无法回信，你需要邮箱。
-chat.mail.insufficient_offer=贸易站需求更多物品。
-chat.mail.insufficient_trade_good=贸易站已经断货。
-chat.mail.insufficient_buffer=贸易站已满。
-chat.mail.insufficient_paper=贸易站纸张不足。
-chat.mail.insufficient_stamps=贸易站邮票不足。
-chat.mail.ok=可贸易。
-chat.mail.wrongstacksize=一次只能写一封信。
-gui.mail.catalogue.close=关闭
-gui.mail.catalogue.trade=贸易
-gui.mail.filter.all=全部
-gui.mail.filter.online=在线
-gui.mail.filter.offline=离线
-gui.mail.willtrade=%s将开始贸易
-gui.mail.address.copy=use
-gui.mail.tradefor=for
-gui.mail.notrades=不可贸易
-item.catalogue=目录
+for.chat.mail.already_mailed=信件无法重发。
+for.chat.mail.command.help.0=格式: '/%s <command> <arguments>'
+for.chat.mail.command.help.1=可用命令:
+for.chat.mail.command.help.2=- trades : 贸易站全列表。
+for.chat.mail.command.help.3=- virtualize <tradestation-name>: 将指定贸易站设为虚拟模式。
+for.chat.mail.command.no_tradestation=未发现贸易站'%s'。
+
+for.chat.mail.insufficient_buffer=贸易站已满。
+for.chat.mail.insufficient_offer=贸易站需求更多物品。
+for.chat.mail.insufficient_paper=贸易站纸张不足。
+for.chat.mail.insufficient_stamps=贸易站邮票不足。
+for.chat.mail.insufficient_trade_good=贸易站已经断货。
+
+for.chat.mail.mailbox_full=收件人的邮箱已满。
+for.chat.mail.not_mailable=信件不符合邮寄要求。
+for.chat.mail.not_postpaid=信件邮资不足。
+for.chat.mail.no_mailbox=收件人没有邮箱。
+for.chat.mail.ok=可贸易。
+for.chat.mail.response_not_mailable=贸易站无法回信，你需要邮箱。
+for.chat.mail.wrongstacksize=一次只能写一封信。
+
+for.gui.mail.address.copy=使用
+for.gui.mail.catalogue.close=关闭
+for.gui.mail.catalogue.trade=贸易
+for.gui.mail.filter.all=全部
+for.gui.mail.filter.offline=离线
+for.gui.mail.filter.online=在线
+for.gui.mail.notrades=无可用贸易。
+for.gui.mail.tradefor=交易对象为
+for.gui.mail.willtrade=%s将开始贸易
+
+item.for.catalogue.name=贸易目录
 
 ####################
 # PIPES
 ####################
 
-item.PipeItemsPropolis.name=养蜂管道
+item.PipeItemsPropolis.name=养蜂员管道
+
+###################################
+# CUSTOM BEE AND TREE SPECIES NAMES
+###################################
+# Syntax:
+# for.bees.custom.<type>.<species>=New custom bee name
+# for.trees.custom.<type>.<species>=New custom tree name
+# Examples:
+# for.bees.custom.drone.forest=Forest Drone
+# for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
+# Beealyzer/Treealyzer syntax:
+# for.bees.custom.beealyzer.<type>.<species>=New custom bee species name
+# for.trees.custom.treealyzer.<type>.<species>=New custom tree species name
+# Examples:
+# for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
+# for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
