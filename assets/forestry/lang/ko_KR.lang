@@ -12,16 +12,16 @@ for.chat.accesslocked=%s is the owner of this machine and has locked access.
 for.chat.cannotmemorizeagain=You already memorized this information.
 
 for.chat.command.help.0=Format: '/%s <command> <arguments>'
-for.chat.command.help.1=Available commands:
-for.chat.command.help.2=- version : Version information.
-for.chat.command.help.3=- plugins : list of Forestry plugins.
-for.chat.command.help.4=- plugins info <plugin-name>: information on plugin.
+for.chat.command.help.1=존재하는 명령어:
+for.chat.command.help.2=- version : 버전 정보를 출력합니다.
+for.chat.command.help.3=- plugins : 현재 설치된 포레스트리 플러그인들의 리스트를 출력합니다.
+for.chat.command.help.4=- plugins info <플러그인 이름>: 플러그인에 대한 정보를 출력합니다.
 for.chat.command.noperms=You do not have permission to use this command.
 
-for.chat.help=Type '%s' for help.
+for.chat.help=도움말을 위해서 '%s'를 입력하세요.
 for.chat.memorizednote=You memorize the note and dispose of the crumpled scrap of paper.
-for.chat.plugins.error=No information available for plugin %s.
-for.chat.version=Forestry %1$s for Minecraft %2$s (Latest: %3$s).
+for.chat.plugins.error=이 플러그인(%s)에 대한 정보가 없습니다.
+for.chat.version=포레스트리 %1$s, 마인크래프트 %2$s 용 (최신: %3$s).
 
 for.circuit.dampener.1=Fire Dampener
 for.circuit.electric.boost.1=Electric Boost I
@@ -34,64 +34,64 @@ for.errors.circuitMismatch.desc=Layout Mismatch
 for.errors.circuitMismatch.help=Amount of tubes does not match size of circuit board.
 for.errors.forcedCooldown.desc=Forced Cooldown
 for.errors.forcedCooldown.help=Engine has overheated and is forced into cooldown.
-for.errors.invalidBiome.desc=Hostile environment
-for.errors.invalidBiome.help=Machine or inhabitants cannot work in this biome.
-for.errors.isRaining.desc=Rain
+for.errors.invalidBiome.desc=환경이 맞지 않습니다.
+for.errors.invalidBiome.help=이 기계/생명체은 이 환경에서 활동할 수 없습니다.
+for.errors.isRaining.desc=비가 옵니다.
 for.errors.isRaining.help=Operation is only possible when it is not raining.
 for.errors.noCircuitBoard.desc=Board Missing
 for.errors.noCircuitBoard.help=Insert a circuit board to solder the selected tubes onto it.
 for.errors.noDisposal.desc=Waste not disposable
 for.errors.noDisposal.help=Insufficient space to dispose of waste products.
-for.errors.noDrone.desc=No drone
+for.errors.noDrone.desc=수벌이 없습니다.
 for.errors.noDrone.help=Mating requires a drone present.
 for.errors.noEnergyNet.desc=No electricity
 for.errors.noEnergyNet.help=Your world is barren of any electricity. (Install IndustrialCraft\u00b2.)
-for.errors.noFlower.desc=No flowers
-for.errors.noFlower.help=Hive members are not finding the right flowers.
-for.errors.noFuel.desc=No fuel
+for.errors.noFlower.desc=꽃이 없습니다.
+for.errors.noFlower.help=벌들이 자신들에게 맞는 꽃을 찾지 못하고 있습니다.
+for.errors.noFuel.desc=연료가 부족합니다.
 for.errors.noFuel.help=Replenish this machine's fuel supplies.
-for.errors.noHeat.desc=Not warmed up
-for.errors.noHeat.help=Refill the heating tank.
-for.errors.noHoney.desc=Honey required
-for.errors.noHoney.help=This gadget requires honey drops or honeydew for operation.
-for.errors.noQueen.desc=No queen
+for.errors.noHeat.desc=예열되지 않음
+for.errors.noHeat.help=예열용 탱크를 채우세요.
+for.errors.noHoney.desc=꿀이 필요합니다.
+for.errors.noHoney.help=이 기계는 작동을 위해 꿀 방울이나 감로가 필요합니다.
+for.errors.noQueen.desc=여왕벌이 없습니다.
 for.errors.noQueen.help=Supply this hive with a queen or a princess and a drone.
-for.errors.noRecipe.desc=No recipe
-for.errors.noRecipe.help=No matching recipe was found for the supplied resources.
+for.errors.noRecipe.desc=조합법이 없습니다.
+for.errors.noRecipe.help=현재 제공된 재료들을 통해 만들 수 있는 아이템이 없습니다.
 for.errors.noRecipient.desc=No Recipient
 for.errors.noRecipient.help=You need to address your letter to a recipient to send it.
-for.errors.noResource.desc=Missing resources
-for.errors.noResource.help=More resources need to be supplied for operation.
-for.errors.noSky.desc=Sky obstructed
-for.errors.noSky.help=Clear the area above the machine.
-for.errors.noSpace.desc=No inventory space
-for.errors.noSpace.help=Empty this machine's inventory.
+for.errors.noResource.desc=재료 부족
+for.errors.noResource.help=작동을 위해서는 재료가 더 필요합니다.
+for.errors.noSky.desc=하늘이 막힘
+for.errors.noSky.help=기계 위의 공간을 비워 주세요.
+for.errors.noSpace.desc=인벤토리 공간 부족
+for.errors.noSpace.help=기계의 인벤토리를 비워 주세요.
 for.errors.noSpecimen.desc=Nothing to analyze
 for.errors.noSpecimen.help=Supply specimen to analyze.
 for.errors.noStamps.desc=No Stamps
 for.errors.noStamps.help=A trade station requires stamps to pay postage. This one has run out of them.
 for.errors.notAlphaNumeric.desc=Not Alphanumeric
 for.errors.notAlphaNumeric.help=Given string must consist of letters and numbers only.
-for.errors.notDay.desc=Not daytime
-for.errors.notDay.help=Operation is only possible during the day.
-for.errors.notGloomy.desc=Not dark enough
-for.errors.notGloomy.help=A lower light level is required for operation.
-for.errors.notLucid.desc=Not bright enough
-for.errors.notLucid.help=A higher light level is required for operation
-for.errors.notNight.desc=Not nighttime
-for.errors.notNight.help=Operation is only possible during the night.
+for.errors.notDay.desc=낮이 아닙니다.
+for.errors.notDay.help=낮에만 작동할 수 있습니다.
+for.errors.notGloomy.desc=너무 밝습니다.
+for.errors.notGloomy.help=작동을 위해서는 밝기가 더 낮아야 합니다.
+for.errors.notLucid.desc=너무 어둡습니다.
+for.errors.notLucid.help=작동을 위해서는 밝기가 더 높아야 합니다.
+for.errors.notNight.desc=밤이 아닙니다.
+for.errors.notNight.help=밤에만 작동할 수 있습니다.
 for.errors.notPostpaid.desc=Stamps Needed
 for.errors.notPostpaid.help=Apply more stamps to pay the postal service.
-for.errors.notRaining.desc=No rain
-for.errors.notRaining.help=Operation is only possible when it is raining.
+for.errors.notRaining.desc=비가 오지 않습니다.
+for.errors.notRaining.help=작동을 위해서는 비가 와야 합니다.
 for.errors.notUnique.desc=Not Unique
 for.errors.notUnique.help=Given string must be unique in this world. Choose a different one.
-for.errors.ok.desc=No error
-for.errors.ok.help=Everything is fine and dandy.
-for.errors.unknown.desc=Unknown error
-for.errors.unknown.help=Congratulations, you found a glitch.
-for.errors.wrongStacksize.desc=Too Many Items
-for.errors.wrongStacksize.help=Only single items can be used here.
+for.errors.ok.desc=문제 없음
+for.errors.ok.help=아무 문제도 없습니다.
+for.errors.unknown.desc=알려지지 않은 문제
+for.errors.unknown.help=축하드립니다. 당신은 버그를 찾으셨습니다!
+for.errors.wrongStacksize.desc=아이템의 양이 너무 많습니다.
+for.errors.wrongStacksize.help=1개의 아이템만 사용 가능합니다.
 
 for.flowers.cacti=Cacti
 for.flowers.end=End
@@ -376,9 +376,9 @@ for.researchNote.discovery.1=§e'%SPEC1'§7 and §e'%SPEC2'§7.
 for.researchNote.discovery.2=Chance for success is §9%s§7.
 for.researchNote.discovery.3=New species is §d'%s'§7.
 
-for.storage.backpack.mode.locked=(LOCKED)
-for.storage.backpack.mode.receiving=(RECEIVING)
-for.storage.backpack.mode.resupply=(RESUPPLY)
+for.storage.backpack.mode.locked=(잠김)
+for.storage.backpack.mode.receiving=(받기 모드)
+for.storage.backpack.mode.resupply=(공급 모드)
 
 for.trigger.hasMail=Has Mail
 for.trigger.hasWork=Has Work
@@ -402,13 +402,13 @@ item.for.adventurerBagT2.name=Adventurer's Woven Backpack
 item.for.ambrosia.name=Ambrosia
 item.for.apatite.name=Apatite
 
-item.for.apiaristBag.name=Apiarist's Backpack
-item.for.apiaristBoots.name=Apiarist's Shoes
-item.for.apiaristChest.name=Apiarist's Shirt
-item.for.apiaristHelmet.name=Apiarist's Hat
-item.for.apiaristLegs.name=Apiarist's Pants
+item.for.apiaristBag.name=양봉업자의 가방
+item.for.apiaristBoots.name=양봉업자의 신발
+item.for.apiaristChest.name=양봉업자의 윗옷
+item.for.apiaristHelmet.name=양봉업자의 모자
+item.for.apiaristLegs.name=양봉업자의 바지
 
-item.for.ash.name=Ash
+item.for.ash.name=재
 
 item.for.beealyzer.name=Beealyzer
 
@@ -430,7 +430,7 @@ item.for.beeCombs.simmering.name=Simmering Comb
 item.for.beeCombs.stringy.name=Stringy Comb
 item.for.beeCombs.wheaten.name=Wheaten Comb
 
-item.for.beeswax.name=Beeswax
+item.for.beeswax.name=밀랍
 
 item.for.beverage.meadCurative.name=Curative Mead
 item.for.beverage.meadShort.name=Short Mead
@@ -494,18 +494,18 @@ item.for.fruits.papaya.name=파파야
 item.for.fruits.plum.name=Plum
 item.for.fruits.walnut.name=Walnut
 
-item.for.gearBronze.name=Bronze Gear
-item.for.gearCopper.name=Copper Gear
-item.for.gearTin.name=Tin Gear
+item.for.gearBronze.name=청동 기어
+item.for.gearCopper.name=구리 기어
+item.for.gearTin.name=주석 기어
 
 item.for.hardenedMachine.name=Hardened Casing
 
-item.for.honeydew.name=Honeydew
+item.for.honeydew.name=감로
 
 item.for.honeyDrop.charged.name=Charged Drop
-item.for.honeyDrop.honey.name=Honey Drop
+item.for.honeyDrop.honey.name=꿀 방울
 item.for.honeyDrop.omega.name=Omega Drop
-item.for.honeyedSlice.name=Honeyed Slice
+item.for.honeyedSlice.name=꿀 빵
 
 item.for.honeyPot.name=Honey Pot
 item.for.hunterBag.name=Hunter's Backpack
@@ -515,17 +515,17 @@ item.for.impregnatedCasing.name=Impregnated Casing
 item.for.imprinter.name=Imprinter
 item.for.infuser.name=Infuser
 
-item.for.ingotBronze.name=Bronze Ingot
-item.for.ingotCopper.name=Copper Ingot
-item.for.ingotTin.name=Tin Ingot
+item.for.ingotBronze.name=청동 주괴
+item.for.ingotCopper.name=구리 주괴
+item.for.ingotTin.name=주석 주괴
 
 item.for.iodineCapsule.name=Iodine Capsule
 item.for.kitPickaxe.name=Pickaxe Kit
 item.for.kitShovel.name=Shovel Kit
-item.for.letters.name=Letter
+item.for.letters.name=편지
 
-item.for.minerBag.name=Miner's Backpack
-item.for.minerBagT2.name=Miner's Woven Backpack
+item.for.minerBag.name=광부의 가방
+item.for.minerBagT2.name=광부의 큰 가방
 
 item.for.mouldyWheat.name=Mouldy Wheat
 item.for.mulch.name=Mulch
@@ -556,9 +556,9 @@ item.for.refractorySeedOil.name=Seed Oil Capsule
 item.for.refractoryWater.name=Water Capsule
 item.for.refractoryWax.name=Refractory Wax
 
-item.for.researchNote.name=%s's Notes
-item.for.royalJelly.name=Royal Jelly
-item.for.scoop.name=Scoop
+item.for.researchNote.name=%s의 노트
+item.for.royalJelly.name=로얄 젤리
+item.for.scoop.name=주걱
 item.for.solderingIron.name=Soldering Iron
 
 item.for.stamps.1n.name=Stamp (1n)
@@ -605,7 +605,7 @@ item.for.waxCapsuleWater.name=Water Capsule
 item.for.waxCast.name=Wax Cast
 
 item.for.woodPulp.name=원목 Pulp
-item.for.wrench.name=Wrench
+item.for.wrench.name=공구
 
 itemGroup.apiculture=Apiculture
 itemGroup.arboriculture=Arboriculture
@@ -617,29 +617,29 @@ tile.for.core.1.name=Escritoire
 
 tile.for.engine.0.name=Electrical Engine
 tile.for.engine.1.name=Peat-fired Engine
-tile.for.engine.2.name=Biogas Engine
-tile.for.engine.3.name=Bio Generator
-tile.for.engine.4.name=Clockwork Engine
+tile.for.engine.2.name=바이오가스 엔진
+tile.for.engine.3.name=바이오 발전기
+tile.for.engine.4.name=태엽 엔진
 
 tile.for.factory.0.name=Bottler
-tile.for.factory.1.name=Carpenter
-tile.for.factory.2.name=Centrifuge
+tile.for.factory.1.name=목공기
+tile.for.factory.2.name=원심분리기
 tile.for.factory.3.name=Fermenter
 tile.for.factory.4.name=Moistener
-tile.for.factory.5.name=Squeezer
+tile.for.factory.5.name=압착기
 tile.for.factory.6.name=Still
-tile.for.factory.7.name=Rainmaker
+tile.for.factory.7.name=비 생성기
 tile.for.factory2.0.name=Thermionic Fabricator
 tile.for.factory2.1.name=Raintank
 tile.for.factory2.2.name=Worktable
 
-tile.for.mail.0.name=Mailbox
+tile.for.mail.0.name=편지함
 tile.for.mail.1.name=Trade Station
 tile.for.mail.2.name=Stamp Collector
 
 tile.for.resources.0.name=Apatite Ore
-tile.for.resources.1.name=Copper Ore
-tile.for.resources.2.name=Tin Ore
+tile.for.resources.1.name=구리 광석
+tile.for.resources.2.name=주석 광석
 
 tile.for.soil.0.name=Humus
 tile.for.soil.1.name=Bog Earth
