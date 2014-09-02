@@ -1,4 +1,4 @@
-# author Phanthalassa,Nark31,TeamMMKP(puyo061)
+# author Phanthalassa(=Serendipity=Escaflonwe),Nark31,TeamMMKP(Leader: puyo061)
 
 ####################
 # CORE
@@ -811,18 +811,18 @@ for.description.speciesTropical="My travels along the jungle river allowed me to
 for.description.speciesValiant=A rare subspecies rarely seen cohabiting in mundane hives.|Apiarist's Grimoire
 for.description.speciesVengeful="왔노라, 보았노라, 이겼노라!"|Apinus 율리우스 가이우스 카이사르
 for.description.speciesVindictive="It ate my face! It ate my face!"|K.M.
-for.description.speciesWintry=Common, but winter-hardened bee tribe; Cultivation in warmer climates is a challenge.|양봉 입문
+for.description.speciesWintry=흔한 벌이지만 겨울에 적응된 벌이기에, 따듯한 곳에서의 양식은 쉽지 않다.|양봉 입문
 
 for.genus.bees.agrarian=Agrarian
 for.genus.bees.austere=Austere
 for.genus.bees.boggy=Boggy
-for.genus.bees.common=Common
+for.genus.bees.common=평범한
 for.genus.bees.end=End
 for.genus.bees.festive=Festive
 for.genus.bees.frozen=얼어붙은
 for.genus.bees.heroic=영웅적인
 for.genus.bees.industrious=근면한
-for.genus.bees.infernal=Infernal
+for.genus.bees.infernal=지옥의
 for.genus.bees.monastic=Monastic
 for.genus.bees.noble=고귀한
 for.genus.bees.reddened=Reddened
@@ -880,40 +880,40 @@ for.description.treeSipiri=Tall, evergreen trees with valuable timber. Wood and 
 for.description.treeWalnut=Tall, deciduous tree with large trunk. Naturally occuring walnut trees carry fruits which require some time to ripe.|Codex Lignum
 for.description.treeWillow=Large, deciduous tree. White willows are fast-growing. Have only been observed to occur in damp climates.|Codex Lignum
 
-for.family.jungle=Jungle
+for.family.jungle=정글
 for.family.nuts=Nuts
 for.family.pomes=Pomes
 for.family.prunes=Prunes
 
-for.fruits.apple=Apple
+for.fruits.apple=사과
 for.fruits.cherry=체리
 for.fruits.chestnut=밤
 for.fruits.cocoa=코코아
-for.fruits.dates=대추야자s
+for.fruits.dates=대추야자
 for.fruits.lemon=레몬
-for.fruits.none=None
+for.fruits.none=그런 거 없다
 for.fruits.papaya=파파야
 for.fruits.plum=자두
 for.fruits.walnut=호두
 
-for.gui.family=Family
-for.gui.fruits=Fruits
-for.gui.girth=Girth
-for.gui.growth=Growth
-for.gui.height=Height
-for.gui.maturity=Matures
-for.gui.native=Soil
-for.gui.saplings=Saplings
-for.gui.sappiness=Sappiness
-for.gui.supports=Supports
-for.gui.tolerated=Tolerates
-for.gui.treealyzer.help=Supply sapling and provide honey or honeydew as catalyst.
-for.gui.treealyzer.overview=Analytics available
-for.gui.treealyzer=Treealyzer
-for.gui.yield=Yield
+for.gui.family=과
+for.gui.fruits=열매
+for.gui.girth=나무 굵기
+for.gui.growth=성장 조건
+for.gui.height=높이
+for.gui.maturity=성장 시간
+for.gui.native=필요 토양
+for.gui.saplings=묘목
+for.gui.sappiness=수액 양
+for.gui.supports=열매 종류
+for.gui.tolerated=성장 바이옴
+for.gui.treealyzer.help=묘목을 올려놓고 촉매로서 꿀이나 감로꿀을 올려놓으세요.
+for.gui.treealyzer.overview=분석 가능
+for.gui.treealyzer=나무 분석기
+for.gui.yield=열매 양
 
-for.growth.normal=Light
-for.growth.tropical=Tropical
+for.growth.normal=빛
+for.growth.tropical=열대 기후
 
 for.trees.grammar.blossom.type=Blossom
 for.trees.grammar.blossom=%SPECIES %TYPE
@@ -924,17 +924,17 @@ for.trees.grammar.pollen=%SPECIES %TYPE
 for.trees.grammar.sapling.type=Sapling
 for.trees.grammar.sapling=%SPECIES %TYPE
 
-for.trees.hybrid=%PRIMARY-%SECONDARY Hybrid
+for.trees.hybrid=%PRIMARY-%SECONDARY 혼혈
 
-for.trees.species.acacia=Acacia
-for.trees.species.appleOak=Apple Oak
+for.trees.species.acacia=아카시아
+for.trees.species.appleOak=참
 for.trees.species.balsa=Balsa
 for.trees.species.blueMahoe=Blue Mahoe
 for.trees.species.bullPine=Bull Pine
 for.trees.species.coastSequoia=Coast Sequoia
-for.trees.species.commonWalnut=Common 호두
-for.trees.species.darkOak=Dark Oak
-for.trees.species.datePalm=대추야자 Palm
+for.trees.species.commonWalnut=호두
+for.trees.species.darkOak=검은 참
+for.trees.species.datePalm=대추야자
 for.trees.species.desertAcacia=Desert Acacia
 for.trees.species.giantSequoia=Giant Sequoia
 for.trees.species.grandidierBaobab=Grandidier's Baobab
