@@ -938,7 +938,7 @@ for.trees.species.datePalm=대추야자
 for.trees.species.desertAcacia=Desert Acacia
 for.trees.species.giantSequoia=Giant Sequoia
 for.trees.species.grandidierBaobab=Grandidier's Baobab
-for.trees.species.hillCherry=Hill 체리
+for.trees.species.hillCherry=체리
 for.trees.species.jungle=Jungle
 for.trees.species.kapok=Kapok
 for.trees.species.lemon=레몬
@@ -951,23 +951,23 @@ for.trees.species.silverBirch=Silver Birch
 for.trees.species.silverLime=Silver Lime
 for.trees.species.sipiri=Sipiri
 for.trees.species.sugarMaple=Sugar Maple
-for.trees.species.sweetChestnut=Sweet 밤
+for.trees.species.sweetChestnut=밤
 for.trees.species.teak=Teak
 for.trees.species.wenge=Wenge
 for.trees.species.whitePoplar=White Poplar
 for.trees.species.whiteWillow=White Willow
 for.trees.species.yellowMeranti=Yellow Meranti
 
-item.for.grafter.name=Grafter
-item.for.grafterProven.name=Proven Grafter
+item.for.grafter.name=묘목 채취기
+item.for.grafterProven.name=검증된 묘목 채취기
 
-tile.for.arboriculture.0.name=Arborist's Chest
+tile.for.arboriculture.0.name=수목 재배가의 상자
 
 tile.for.fences.0.name=Larch Fence
 tile.for.fences.1.name=Teak Fence
 tile.for.fences.2.name=Acacia Fence
 tile.for.fences.3.name=Lime Fence
-tile.for.fences.4.name=밤 Fence
+tile.for.fences.4.name=밤나무 울타리
 tile.for.fences.5.name=Wenge Fence
 tile.for.fences.6.name=Baobab Fence
 tile.for.fences.7.name=Sequoia Fence
