@@ -121,6 +121,7 @@ for.gui.alyzer.authority=Authority
 for.gui.alyzer.classification=Classification
 for.gui.alyzer.extinct=Extinct
 for.gui.alyzer.nodescription=Encyclopedia Minecraftia could not provide an entry for this specimen.
+for.gui.alyzer.overview=Analytics available
 
 for.gui.area=Area
 for.gui.arid=Arid
@@ -133,7 +134,6 @@ for.gui.beealyzer.generations=%s Generations in Captivity
 for.gui.beealyzer.help=Supply bee and provide honey or honeydew as a pacifier.
 for.gui.beealyzer.mutations=Possible Mutations
 for.gui.beealyzer.natural=Natural Origin
-for.gui.beealyzer.overview=Analytics available
 for.gui.beealyzer.produce=Possible Produce
 for.gui.beealyzer.specialty=Possible Specialty
 for.gui.beealyzer.tolerance.both1=Both 1
@@ -907,7 +907,6 @@ for.gui.sappiness=Sappiness
 for.gui.supports=Supports
 for.gui.tolerated=Tolerates
 for.gui.treealyzer.help=Supply sapling and provide honey or honeydew as catalyst.
-for.gui.treealyzer.overview=Analytics available
 for.gui.treealyzer=Treealyzer
 for.gui.yield=Yield
 

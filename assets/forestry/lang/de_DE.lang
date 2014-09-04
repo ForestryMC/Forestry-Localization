@@ -121,6 +121,7 @@ for.gui.alyzer.authority=Autorität
 for.gui.alyzer.classification=Klassifikation
 for.gui.alyzer.extinct=Ausgestorben
 for.gui.alyzer.nodescription=In der Encyclopædia Minecraftia findet sich kein Eintrag zu diesem Thema.
+for.gui.alyzer.overview=Mögliche Analytik
 
 for.gui.area=Gebiet
 for.gui.arid=Trocken
@@ -133,7 +134,6 @@ for.gui.beealyzer.generations=Generationen in Gefangenschaft: %s
 for.gui.beealyzer.help=Biene einlegen und Honig oder Honigtau zur Betäubung hinzufügen.
 for.gui.beealyzer.mutations=Mögliche Mutationen
 for.gui.beealyzer.natural=Natürlicher Ursprung
-for.gui.beealyzer.overview=Mögliche Analytik
 for.gui.beealyzer.produce=Mögliche Produkte
 for.gui.beealyzer.specialty=Mögliche Spezialitäten
 for.gui.beealyzer.tolerance.both1=Beides 1
@@ -907,7 +907,6 @@ for.gui.sappiness=Saftigkeit
 for.gui.supports=Unterst.
 for.gui.tolerates=Toleriert
 for.gui.treealyzer.help=Platziere einen Setzling und füge Honig oder Honigtau als Katalysator hinzu
-for.gui.treealyzer.overview=Mögliche Analytik
 for.gui.treealyzer=Baumanalyser
 for.gui.yield=Ertrag
 

@@ -121,6 +121,7 @@ for.gui.alyzer.authority=Начальник
 for.gui.alyzer.classification=Классификация
 for.gui.alyzer.nodescription=Энциклопедия Minecraftia не может предоставить запись для этого образца.
 for.gui.alyzer.extinct=Вымерший
+for.gui.alyzer.overview=Анализ доступен
 
 for.gui.area=Рабочая зона
 for.gui.arid=Сухо
@@ -133,7 +134,6 @@ for.gui.beealyzer.generations=Поколений в неволе: %s
 for.gui.beealyzer.help=Положите пчелу и предоставьте мёд или нектар, в качестве успокоительного.
 for.gui.beealyzer.mutations=Возможные мутации
 for.gui.beealyzer.natural=Естественного происх.
-for.gui.beealyzer.overview=Анализ доступен
 for.gui.beealyzer.produce=Возможная продукция
 for.gui.beealyzer.specialty=Возможная специальная продукция
 for.gui.beealyzer.tolerance.both1=Оба 1
@@ -909,7 +909,6 @@ for.gui.sappiness=Шанс по-ия са-ца
 for.gui.supports=Типы плодов
 for.gui.tolerated=Под-мый биом
 for.gui.treealyzer.help=Положите саженец и предоставьте мёд или нектар, в качестве катализатора.
-for.gui.treealyzer.overview=Анализ доступен
 for.gui.treealyzer=Анализатор деревьев
 for.gui.yield=Шанс по-ия фр-ов
 

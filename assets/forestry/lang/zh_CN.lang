@@ -121,6 +121,7 @@ for.gui.alyzer.authority=创造该物种的神灵
 for.gui.alyzer.classification=学名|纲属
 for.gui.alyzer.extinct=灭绝
 for.gui.alyzer.nodescription=百科全书无法为该标本提供合适条目
+for.gui.alyzer.overview=可分析
 
 for.gui.area=活动范围
 for.gui.arid=干旱
@@ -133,7 +134,6 @@ for.gui.beealyzer.generations=第%s代
 for.gui.beealyzer.help=需要提供蜂蜜或蜂蜜汁来抚慰躁动的蜜蜂。
 for.gui.beealyzer.mutations=可能的变异
 for.gui.beealyzer.natural=自然捕捉
-for.gui.beealyzer.overview=可分析
 for.gui.beealyzer.produce=可能的产物
 for.gui.beealyzer.specialty=可能的种族
 for.gui.beealyzer.tolerance.both1=全1
@@ -910,7 +910,6 @@ for.gui.sappiness=多汁
 for.gui.supports=载体
 for.gui.tolerated=结果
 for.gui.treealyzer.help=放入树苗病提供蜂蜜或者蜂蜜滴作为催化剂。
-for.gui.treealyzer.overview=可分析
 for.gui.treealyzer=林木分析仪
 for.gui.yield=产量
 
