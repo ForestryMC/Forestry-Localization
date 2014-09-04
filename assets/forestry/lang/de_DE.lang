@@ -828,6 +828,8 @@ for.genus.bees.reddened=Gerötet
 for.genus.bees.tropical=Tropisch
 for.genus.bees.vengeful=Nachtragend
 
+item.for.beeQueenGE.name=Unbekannte Königin
+
 tile.for.alveary.0.name=Bienenstock
 tile.for.alveary.2.name=Schwärmer
 tile.for.alveary.3.name=Ventilator (Bienenstock)
@@ -854,8 +856,6 @@ tile.for.candle.lit.name=Brennende Kerze
 tile.for.candle.stump.name=Nicht brennende Kerze
 
 tile.for.stump.0.name=Kerzenstumpf
-
-item.for.beeQueenGE.name=Unknown Queen
 
 ####################
 # ARBORICULTURE
