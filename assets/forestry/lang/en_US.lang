@@ -828,6 +828,8 @@ for.genus.bees.reddened=Reddened
 for.genus.bees.tropical=Tropical
 for.genus.bees.vengeful=Vengeful
 
+item.for.beeQueenGE.name=Unknown Queen
+
 tile.for.alveary.0.name=Alveary
 tile.for.alveary.2.name=Swarmer
 tile.for.alveary.3.name=Alveary Fan
@@ -854,8 +856,6 @@ tile.for.candle.lit.name=Lit Candle
 tile.for.candle.stump.name=Unlit Candle
 
 tile.for.stump.0.name=Candle Stump
-
-item.for.beeQueenGE.name=Unknown Queen
 
 ####################
 # ARBORICULTURE
