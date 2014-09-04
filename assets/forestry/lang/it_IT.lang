@@ -694,6 +694,7 @@ tile.alveary.4=Calorifero per Alveare
 tile.alveary.5=Igroregolatore per Alveare
 tile.candle.0=Candela
 tile.stump.0=Mozzicone di candela
+item.for.beeQueenGE.name=Unknown Queen
 
 ####################
 # ARBORICULTURE

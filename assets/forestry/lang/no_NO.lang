@@ -704,6 +704,7 @@ tile.stump.0=Candle Stump
 tile.for.apiculture.0=Apiary
 tile.for.apiculture.1=Apiarist's Chest
 tile.for.apiculture.2=Bee House
+item.for.beeQueenGE.name=Unknown Queen
 
 ####################
 # ARBORICULTURE

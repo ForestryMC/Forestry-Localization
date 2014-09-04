@@ -704,6 +704,7 @@ tile.stump.0=Morceau de bougie
 tile.for.apiculture.0=Rucher
 tile.for.apiculture.1=Coffre de l'apiculteur
 tile.for.apiculture.2=Abri pour abeille
+item.for.beeQueenGE.name=Unknown Queen
 
 ####################
 # ARBORICULTURE

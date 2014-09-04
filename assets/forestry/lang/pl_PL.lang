@@ -690,6 +690,7 @@ tile.stump.0=Postawa świecy
 tile.for.apiculture.0=Ul
 tile.for.apiculture.1=Skrzynia pszczelarza
 tile.for.apiculture.2=Dom pszczół
+item.for.beeQueenGE.name=Unknown Queen
 
 ####################
 # ARBORICULTURE

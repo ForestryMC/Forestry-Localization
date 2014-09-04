@@ -854,6 +854,7 @@ tile.for.candle.lit.name=蠟燭(發光)
 tile.for.candle.stump.name=蠟燭(熄滅)
 
 tile.for.stump.0.name=蠟燭
+item.for.beeQueenGE.name=Unknown Queen
 
 ####################
 # ARBORICULTURE

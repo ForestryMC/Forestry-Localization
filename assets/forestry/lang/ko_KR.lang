@@ -857,6 +857,8 @@ tile.for.candle.stump.name=Unlit Candle
 
 tile.for.stump.0.name=Candle Stump
 
+item.for.beeQueenGE.name=Unknown Queen
+
 ####################
 # ARBORICULTURE
 ####################
