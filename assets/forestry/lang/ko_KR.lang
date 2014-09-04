@@ -123,6 +123,7 @@ for.gui.alyzer.authority=저술자
 for.gui.alyzer.classification=분류
 for.gui.alyzer.extinct=멸종
 for.gui.alyzer.nodescription=마인크래프트 대백과백과사전에서 해당 벌에 관한 정보를 찾지 못하였습니다.
+for.gui.alyzer.overview=Analytics available
 
 for.gui.area=범위
 for.gui.arid=건조
@@ -135,7 +136,6 @@ for.gui.beealyzer.generations=%s세대 동안 교배됨
 for.gui.beealyzer.help=분석할 꿀벌과 억제제인 꿀혹은 감로꿀을 공급하여 주십시오. 
 for.gui.beealyzer.mutations=추정 변이체
 for.gui.beealyzer.natural=자연에서 기원됨
-for.gui.beealyzer.overview=분석 가능한 정보 목록
 for.gui.beealyzer.produce=추정 생산물
 for.gui.beealyzer.specialty=추정 부산물
 for.gui.beealyzer.tolerance.both1=±1
@@ -908,7 +908,6 @@ for.gui.sappiness=수액 양
 for.gui.supports=열매 종류
 for.gui.tolerated=성장 바이옴
 for.gui.treealyzer.help=묘목을 올려놓고 촉매로서 꿀이나 감로꿀을 올려놓으세요.
-for.gui.treealyzer.overview=분석 가능
 for.gui.treealyzer=나무 분석기
 for.gui.yield=열매 양
 
