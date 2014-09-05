@@ -831,6 +831,7 @@ for.genus.bees.vengeful=Nachtragend
 item.for.beeQueenGE.name=Unbekannte Königin
 
 tile.for.alveary.0.name=Bienenstock
+tile.for.alveary.1.name=Bienenstockeingang
 tile.for.alveary.2.name=Schwärmer
 tile.for.alveary.3.name=Ventilator (Bienenstock)
 tile.for.alveary.4.name=Heizung (Bienenstock)
@@ -1012,6 +1013,7 @@ tile.for.log.20.name=Kiefernholz
 tile.for.log.21.name=Pflaumenholz
 tile.for.log.22.name=Ahornholz
 tile.for.log.23.name=Zitrusholz
+tile.for.log.24.name=Riesenmammutbaumholz
 
 tile.for.planks.0.name=Lärchenholzbretter
 tile.for.planks.1.name=Teakholzbretter
@@ -1087,6 +1089,10 @@ tile.for.stairs.20.name=Kiefernholztreppe
 tile.for.stairs.21.name=Pflaumenholztreppe
 tile.for.stairs.22.name=Ahornholztreppe
 tile.for.stairs.23.name=Zitrusholztreppe
+
+tile.for.saplingGE.0.name=Unbekannter Setzling
+tile.for.leaves.0.name=Blätter
+tile.for.pods.0.name=Kakaoschote
 
 ####################
 # FARMING
