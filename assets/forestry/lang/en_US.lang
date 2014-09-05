@@ -831,6 +831,7 @@ for.genus.bees.vengeful=Vengeful
 item.for.beeQueenGE.name=Unknown Queen
 
 tile.for.alveary.0.name=Alveary
+tile.for.alveary.1.name=Alveary Entrance
 tile.for.alveary.2.name=Swarmer
 tile.for.alveary.3.name=Alveary Fan
 tile.for.alveary.4.name=Alveary Heater
@@ -1012,6 +1013,7 @@ tile.for.log.20.name=Pine Wood
 tile.for.log.21.name=Plum Wood
 tile.for.log.22.name=Maple Wood
 tile.for.log.23.name=Citrus Wood
+tile.for.log.24.name=Giganteum Wood
 
 tile.for.planks.0.name=Larch Wood Planks
 tile.for.planks.1.name=Teak Wood Planks
@@ -1088,6 +1090,10 @@ tile.for.stairs.21.name=Plum Stairs
 tile.for.stairs.22.name=Maple Stairs
 tile.for.stairs.23.name=Citrus Stairs
 
+tile.for.saplingGE.0.name=Unknown Sapling
+tile.for.leaves.0.name=Leaves
+tile.for.pods.0.name=Cocoa Pod
+
 ####################
 # FARMING
 ####################
@@ -1154,6 +1160,9 @@ tile.for.ffarm.2.name=Farm Gearbox
 tile.for.ffarm.3.name=Farm Hatch
 tile.for.ffarm.4.name=Farm Valve
 tile.for.ffarm.5.name=Farm Control
+
+tile.for.mushroom.0.name=Mushroom
+tile.for.mushroom.1.name=Mushroom
 
 ####################
 # LEPIDOPTEROLOGY
