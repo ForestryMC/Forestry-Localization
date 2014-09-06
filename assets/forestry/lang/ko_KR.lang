@@ -830,6 +830,7 @@ for.genus.bees.tropical=열대
 for.genus.bees.vengeful=승리의
 
 tile.for.alveary.0.name=알베어리
+tile.for.alveary.1.name=알베어리 엔트러스
 tile.for.alveary.2.name=스워머
 tile.for.alveary.3.name=알베어리 냉방장치
 tile.for.alveary.4.name=알베어리 난방장치
@@ -855,6 +856,8 @@ tile.for.candle.lit.name=불타는 초
 tile.for.candle.stump.name=꺼진 초
 
 tile.for.stump.0.name=초 꼭다리
+
+item.for.beeQueenGE.name=Unknown Queen
 
 ####################
 # ARBORICULTURE
@@ -1011,6 +1014,7 @@ tile.for.log.20.name=Pine 원목
 tile.for.log.21.name=자두 원목
 tile.for.log.22.name=단풍나무 원목
 tile.for.log.23.name=오렌지나무 원목
+tile.for.log.24.name=기간텐 원목
 
 tile.for.planks.0.name=낙엽송 목재
 tile.for.planks.1.name=티크 목재
@@ -1087,6 +1091,10 @@ tile.for.stairs.21.name=자두 계단
 tile.for.stairs.22.name=단풍나무 계단
 tile.for.stairs.23.name=오렌지나무 계단
 
+tile.for.saplingGE.0.name=알수없는 묘목
+tile.for.leaves.0.name=잎
+tile.for.pods.0.name=코코아 꼬투리
+
 ####################
 # FARMING
 ####################
@@ -1153,6 +1161,9 @@ tile.for.ffarm.2.name==농장 기어박스
 tile.for.ffarm.3.name=농장 해치
 tile.for.ffarm.4.name=농장 밸브
 tile.for.ffarm.5.name=농장 제어 블록
+
+tile.for.mushroom.0.name=버섯
+tile.for.mushroom.1.name=버섯
 
 ####################
 # LEPIDOPTEROLOGY
