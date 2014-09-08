@@ -699,9 +699,9 @@ for.beemode.normal.desc=Recommended mode for the normal player.
 
 for.bees.grammar.drone.type=일벌
 for.bees.grammar.drone=%SPECIES %TYPE
-for.bees.grammar.larvae.type=Larvae
+for.bees.grammar.larvae.type=애벌레
 for.bees.grammar.larvae=%SPECIES %TYPE
-for.bees.grammar.princess.type=Princess
+for.bees.grammar.princess.type=공주벌
 for.bees.grammar.princess=%SPECIES %TYPE
 for.bees.grammar.queen.type=여왕벌
 for.bees.grammar.queen=%SPECIES %TYPE
@@ -857,13 +857,13 @@ tile.for.candle.stump.name=꺼진 초
 
 tile.for.stump.0.name=초 꼭다리
 
-item.for.beeQueenGE.name=Unknown Queen
+item.for.beeQueenGE.name=알수없는 여왕
 
 ####################
 # ARBORICULTURE
 ####################
 
-for.arboriculture.effect.none=None
+for.arboriculture.effect.none=없음
 
 for.chat.trees.command.help.0=Format: '/%s <command> <arguments>'
 for.chat.trees.command.help.1=Available commands:
@@ -1169,7 +1169,7 @@ tile.for.mushroom.1.name=버섯
 # LEPIDOPTEROLOGY
 ####################
 
-for.butterflies.hybrid=Hybrid: %PRIMARY-%SECONDARY
+for.butterflies.hybrid=혼혈: %PRIMARY-%SECONDARY
 
 for.butterflies.species.geometridae.brimstone=Brimstone Moth
 for.butterflies.species.geometridae.latticedHeath=Latticed Heath
@@ -1192,7 +1192,7 @@ for.butterflies.species.nymphalidae.speckledWoodC=Canary Speckled 원목
 for.butterflies.species.nymphalidae.speckledWoodM=Madeiran Speckled 원목
 for.butterflies.species.papilionidae.emeraldPeacock=Emerald Peacock
 for.butterflies.species.papilionidae.swallowtailB=Black Swallowtail
-for.butterflies.species.papilionidae.swallowtailC=오렌지나무 Swallowtail
+for.butterflies.species.papilionidae.swallowtailC=오렌지 Swallowtail
 for.butterflies.species.papilionidae.swallowtailS=Spicebush Swallowtail
 for.butterflies.species.papilionidae.swallowtailT=Thoas Swallowtail
 for.butterflies.species.papilionidae.swallowtailZ=Zebra Swallowtail
@@ -1211,9 +1211,9 @@ for.gui.flutterlyzer.help=Supply butterfly and provide honey or honeydew as a pa
 for.gui.loot.butterfly=Possible Butterfly Loot
 for.gui.loot.caterpillar=Possible Caterpillar Loot
 
-for.lepidopterology.effect.none=None
+for.lepidopterology.effect.none=없음
 
-item.for.butterfly.name=Butterfly
+item.for.butterfly.name=나비
 item.for.flutterlyzer.name=Flutterlyzer
 item.for.lepidopteristBag.name=Lepidopterist's Backpack
 item.for.moth.name=Moth
@@ -1241,25 +1241,25 @@ for.chat.mail.not_postpaid=Letter is not sufficiently stamped.
 for.chat.mail.no_mailbox=Recipient has no mailbox.
 for.chat.mail.ok=Trade is available.
 for.chat.mail.response_not_mailable=Trade station cannot send the response letter. You need to have a mailbox to deliver to.
-for.chat.mail.wrongstacksize=캔 only write one letter at a time.
+for.chat.mail.wrongstacksize=Can only write one letter at a time.
 
 for.gui.mail.address.copy=Use
 for.gui.mail.catalogue.close=Close
-for.gui.mail.catalogue.trade=Trade
+for.gui.mail.catalogue.trade=교환
 for.gui.mail.filter.all=All
-for.gui.mail.filter.offline=Offline
-for.gui.mail.filter.online=Online
+for.gui.mail.filter.offline=오프라인
+for.gui.mail.filter.online=온라인
 for.gui.mail.notrades=No trades available.
 for.gui.mail.tradefor=for
 for.gui.mail.willtrade=%s will trade
 
-item.for.catalogue.name=Catalogue
+item.for.catalogue.name=카탈로그
 
 ####################
 # PIPES
 ####################
 
-item.PipeItemsPropolis.name=Apiarist's Pipe
+item.PipeItemsPropolis.name=양봉업자의 파이프
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
