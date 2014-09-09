@@ -1133,6 +1133,7 @@ for.errors.noFertilizer.help=Farms require fertilizer for function. Compost is i
 for.errors.noLiquid.desc=No Water
 for.errors.noLiquid.help=Depending on rainfall, temperature and humidity farms need to be supplied with varying amounts of water.
 
+for.gui.farm.title=Farm
 for.gui.hydr.heat=By Heat
 for.gui.hydr.humid=By Humidity
 for.gui.hydr.overall=Overall
