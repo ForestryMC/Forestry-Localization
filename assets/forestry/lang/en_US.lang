@@ -653,6 +653,7 @@ tile.for.resources.2.name=Tin Ore
 
 tile.for.soil.0.name=Humus
 tile.for.soil.1.name=Bog Earth
+tile.for.soil.2.name=Peat
 
 tile.for.stained.0.name=White Stained Glass
 tile.for.stained.1.name=Orange Stained Glass
