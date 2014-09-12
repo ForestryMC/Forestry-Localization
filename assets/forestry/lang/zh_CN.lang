@@ -854,7 +854,7 @@ tile.for.candle.lit.name=蜡烛(发光)
 tile.for.candle.stump.name=蜡烛(熄灭)
 
 tile.for.stump.0.name=蜡烛
-item.for.beeQueenGE.name=Unknown Queen
+item.for.beeQueenGE.name=未知蜂后
 
 ####################
 # ARBORICULTURE
