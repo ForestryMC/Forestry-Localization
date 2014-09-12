@@ -281,7 +281,6 @@ for.gui.unknown=Unbekannt
 for.gui.warm=Warm
 for.gui.water=Wasser
 for.gui.worker=Arbeiter
-for.gui.worktable.clear=Klicke, um Gitter zu leeren
 
 for.hints.accesscontrol.desc=Der Besitzer einer Maschine kann drei Zugriffslevel einstellen: öffentlich, eingeschränkt oder verschlossen.
 for.hints.accesscontrol.tag=Zugriffskontrolle

@@ -283,7 +283,6 @@ for.gui.unknown=미확인 유전자
 for.gui.warm=온대기후
 for.gui.water=물
 for.gui.worker=일벌
-for.gui.worktable.clear=조합창을 비우려면 클릭하십시오
 
 for.hints.accesscontrol.desc=A machine's owner can set it to three different types of access: Shared, restricted or private.
 for.hints.accesscontrol.tag=Access Control

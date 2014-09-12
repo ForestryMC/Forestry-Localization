@@ -281,7 +281,6 @@ for.gui.unknown=Неизвестный геном
 for.gui.warm=Жаркий
 for.gui.water=Вода
 for.gui.worker=рабоч.
-for.gui.worktable.clear=Нажмите, чтобы очистить сетку
 
 for.hints.accesscontrol.desc=Владелец машины может устанавливать три типа доступа: общий, ограниченный и приватный.
 for.hints.accesscontrol.tag=Контроль доступа

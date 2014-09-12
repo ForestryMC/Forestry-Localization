@@ -281,7 +281,6 @@ for.gui.unknown=未知
 for.gui.warm=溫暖
 for.gui.water=水域
 for.gui.worker=工蜂
-for.gui.worktable.clear=點擊以清除合成網格
 
 for.hints.accesscontrol.desc=機器的主人可以設定三種使用權限：共享，受限或私用。
 for.hints.accesscontrol.tag=權限控制

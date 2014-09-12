@@ -291,7 +291,6 @@ for.gui.unknown=Unknown genome
 for.gui.warm=Warm
 for.gui.water=Water
 for.gui.worker=Worker
-for.gui.worktable.clear=Click to clear Grid
 
 for.hints.accesscontrol.desc=A machine's owner can set it to three different types of access: Shared, restricted or private.
 for.hints.accesscontrol.tag=Access Control
