@@ -68,8 +68,16 @@ for.errors.noSpace.desc=无内部空间
 for.errors.noSpace.help=清空该机器的储物空间
 for.errors.noSpecimen.desc=没有可分析对象
 for.errors.noSpecimen.help=请提供用来分析的标本
-for.errors.noStamps.desc=无邮票
-for.errors.noStamps.help=贸易站需求邮票来支付邮资，该贸易站已经没有邮票了
+for.errors.noStamps.desc=需要邮票
+for.errors.noStamps.help=贸易站需要更多邮票来支付邮资
+for.errors.noPaper.desc=需要纸张
+for.errors.noPaper.help=贸易站需要更多纸张来发送信件
+for.errors.noStampsNoPaper.desc=需要邮票和纸张
+for.errors.noStampsNoPaper.help=贸易站需要更多邮票和纸张来发送信件
+for.errors.noSupplies.desc=需要供给物
+for.errors.noSupplies.help=贸易站需要更多供给物来发送
+for.errors.noTrade.desc=需要进行贸易设置
+for.errors.noTrade.help=贸易站设置物品用来发送或接收
 for.errors.notAlphaNumeric.desc=不是字母/数字
 for.errors.notAlphaNumeric.help=填写的字符串只能包含字母或数字
 for.errors.notDay.desc=不是白天
@@ -218,6 +226,8 @@ for.gui.mail.nothingtotrade=贸易站没有可以用来参与贸易的物品
 for.gui.mail.notrader=无重名贸易站
 for.gui.mail.pleasesend=请邮寄
 for.gui.mail.to=寄往
+for.gui.mail.receive=接收
+for.gui.mail.send=发送
 
 for.gui.maxenergy=最高能量
 for.gui.maxenergyreceive=最大输入
@@ -642,6 +652,7 @@ tile.for.resources.2.name=锡矿石
 
 tile.for.soil.0.name=腐殖土
 tile.for.soil.1.name=沼泽泥
+tile.for.soil.2.name=泥炭
 
 tile.for.stained.0.name=白色玻璃
 tile.for.stained.1.name=桔色玻璃
@@ -828,6 +839,7 @@ for.genus.bees.tropical=热带
 for.genus.bees.vengeful=复仇
 
 tile.for.alveary.0.name=蜂箱组
+tile.for.alveary.1.name=蜂箱组接口
 tile.for.alveary.2.name=蜂箱组克隆盒
 tile.for.alveary.3.name=蜂箱组风扇
 tile.for.alveary.4.name=蜂箱组加热器
@@ -924,7 +936,7 @@ for.trees.grammar.sapling=%SPECIES%TYPE
 
 for.trees.hybrid=%PRIMARY-%SECONDARY杂交种
 
-for.trees.species.acacia=刺槐
+for.trees.species.acacia=金合欢
 for.trees.species.appleOak=苹果橡
 for.trees.species.balsa=巴尔杉
 for.trees.species.blueMahoe=高槿
@@ -963,7 +975,7 @@ tile.for.arboriculture.0.name=林业员箱子
 
 tile.for.fences.0.name=落叶树栅栏
 tile.for.fences.1.name=柚树栅栏
-tile.for.fences.2.name=刺槐栅栏
+tile.for.fences.2.name=金合欢栅栏
 tile.for.fences.3.name=酸橙栅栏
 tile.for.fences.4.name=栗树栅栏
 tile.for.fences.5.name=崖豆栅栏
@@ -988,7 +1000,7 @@ tile.for.fences.23.name=柑橘栅栏
 
 tile.for.log.0.name=落叶树原木
 tile.for.log.1.name=柚树原木
-tile.for.log.2.name=刺槐原木
+tile.for.log.2.name=金合欢原木
 tile.for.log.3.name=酸橙原木
 tile.for.log.4.name=栗树原木
 tile.for.log.5.name=崖豆原木
@@ -1010,10 +1022,11 @@ tile.for.log.20.name=松树原木
 tile.for.log.21.name=李子原木
 tile.for.log.22.name=枫树原木
 tile.for.log.23.name=柑橘原木
+tile.for.log.24.name=巨杉原木
 
 tile.for.planks.0.name=落叶树木板
 tile.for.planks.1.name=柚木板
-tile.for.planks.2.name=刺槐木板
+tile.for.planks.2.name=金合欢木板
 tile.for.planks.3.name=酸橙木板
 tile.for.planks.4.name=栗树木板
 tile.for.planks.5.name=崖豆木板
@@ -1035,6 +1048,7 @@ tile.for.planks.20.name=松树木板
 tile.for.planks.21.name=李子木板
 tile.for.planks.22.name=枫树木板
 tile.for.planks.23.name=柑橘木板
+tile.for.planks.24.name=巨杉木板
 
 tile.for.slab.0.name=落叶树台阶
 tile.for.slab.1.name=柚台阶
@@ -1060,6 +1074,7 @@ tile.for.slab.20.name=松木台阶
 tile.for.slab.21.name=李子台阶
 tile.for.slab.22.name=枫树台阶
 tile.for.slab.23.name=柑橘台阶
+tile.for.slab.24.name=巨杉台阶
 
 tile.for.stairs.0.name=落叶树楼梯
 tile.for.stairs.1.name=柚楼梯
@@ -1085,6 +1100,11 @@ tile.for.stairs.20.name=松木楼梯
 tile.for.stairs.21.name=李子楼梯
 tile.for.stairs.22.name=枫树楼梯
 tile.for.stairs.23.name=柑橘楼梯
+tile.for.stairs.24.name=巨杉楼梯
+
+tile.for.saplingGE.0.name=未知树苗
+tile.for.leaves.0.name=树叶
+tile.for.pods.0.name=可可豆
 
 ####################
 # FARMING
@@ -1114,6 +1134,7 @@ for.errors.noFertilizer.help=农场需要使用肥料来驱动，靠堆肥不足
 for.errors.noLiquid.desc=缺水
 for.errors.noLiquid.help=根据农场所在地的降雨量，湿度和温度，所需的供水量不一。
 
+for.gui.farm.title=农场
 for.gui.hydr.heat=基于温度
 for.gui.hydr.humid=基于湿度
 for.gui.hydr.overall=总括
@@ -1152,6 +1173,9 @@ tile.for.ffarm.2.name=农场齿轮箱
 tile.for.ffarm.3.name=农场出货箱
 tile.for.ffarm.4.name=农场水阀
 tile.for.ffarm.5.name=农场控制盒
+
+tile.for.mushroom.0.name=蘑菇
+tile.for.mushroom.1.name=蘑菇
 
 ####################
 # LEPIDOPTEROLOGY
