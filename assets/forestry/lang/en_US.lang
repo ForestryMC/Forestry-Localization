@@ -110,15 +110,15 @@ for.flowers.nether=Nether
 for.flowers.vanilla=Flowers
 for.flowers.wheat=Wheat
 
-for.fluid.bioethanol=Ethanol
-for.fluid.biomass=Biomass
-for.fluid.glass=Liquid Glass
-for.fluid.honey=Honey
-for.fluid.ice=Crushed Ice
-for.fluid.juice=Fruit Juice
-for.fluid.mead=Short Mead
-for.fluid.milk=Milk
-for.fluid.seedoil=Seed Oil
+fluid.bioethanol=Ethanol
+fluid.biomass=Biomass
+fluid.glass=Liquid Glass
+fluid.honey=Honey
+fluid.ice=Crushed Ice
+fluid.juice=Fruit Juice
+fluid.mead=Short Mead
+fluid.milk=Milk
+fluid.seedoil=Seed Oil
 
 for.gui.access=Access
 for.gui.active=Active

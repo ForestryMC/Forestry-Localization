@@ -110,15 +110,15 @@ for.flowers.nether=下界
 for.flowers.vanilla=鲜花
 for.flowers.wheat=小麦
 
-for.fluid.bioethanol=乙醇
-for.fluid.biomass=生物质
-for.fluid.glass=液态玻璃
-for.fluid.honey=蜂蜜
-for.fluid.ice=碎冰
-for.fluid.juice=果汁
-for.fluid.mead=蜂蜜酒
-for.fluid.milk=牛奶
-for.fluid.seedoil=种子油
+fluid.bioethanol=乙醇
+fluid.biomass=生物质
+fluid.glass=液态玻璃
+fluid.honey=蜂蜜
+fluid.ice=碎冰
+fluid.juice=果汁
+fluid.mead=蜂蜜酒
+fluid.milk=牛奶
+fluid.seedoil=种子油
 
 for.gui.access=使用权限
 for.gui.active=显性

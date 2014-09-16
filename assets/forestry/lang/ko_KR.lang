@@ -104,15 +104,15 @@ for.flowers.nether=지옥
 for.flowers.vanilla=꽃
 for.flowers.wheat=및
 
-for.fluid.bioethanol=에탄올
-for.fluid.biomass=바이오매스
-for.fluid.glass=액화 유리
-for.fluid.honey=꿀
-for.fluid.ice=얼음물
-for.fluid.juice=과즙
-for.fluid.mead=벌꿀술
-for.fluid.milk=우유
-for.fluid.seedoil=씨앗기름
+fluid.bioethanol=에탄올
+fluid.biomass=바이오매스
+fluid.glass=액화 유리
+fluid.honey=꿀
+fluid.ice=얼음물
+fluid.juice=과즙
+fluid.mead=벌꿀술
+fluid.milk=우유
+fluid.seedoil=씨앗기름
 
 for.gui.access=접근
 for.gui.active=활성화

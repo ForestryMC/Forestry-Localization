@@ -102,15 +102,15 @@ for.flowers.nether=Nether
 for.flowers.vanilla=Blumen
 for.flowers.wheat=Getreide
 
-for.fluid.bioethanol=Ethanol
-for.fluid.biomass=Biomasse
-for.fluid.glass=Flüssigglas
-for.fluid.honey=Honig
-for.fluid.ice=Zerstoßenes Eis
-for.fluid.juice=Fruchtsaft
-for.fluid.mead=Met
-for.fluid.milk=Milch
-for.fluid.seedoil=Samenkernöl
+fluid.bioethanol=Ethanol
+fluid.biomass=Biomasse
+fluid.glass=Flüssigglas
+fluid.honey=Honig
+fluid.ice=Zerstoßenes Eis
+fluid.juice=Fruchtsaft
+fluid.mead=Met
+fluid.milk=Milch
+fluid.seedoil=Samenkernöl
 
 for.gui.access=Zugriff
 for.gui.active=Aktiv

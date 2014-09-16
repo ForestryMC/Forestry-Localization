@@ -102,15 +102,15 @@ for.flowers.nether=Нижний Мир
 for.flowers.vanilla=Цветы
 for.flowers.wheat=Пшеница
 
-for.fluid.bioethanol=Этанол
-for.fluid.biomass=Биомасса
-for.fluid.glass=Жидкое стекло
-for.fluid.honey=Мёд
-for.fluid.ice=Молотый лёд
-for.fluid.juice=Фруктовый сок
-for.fluid.mead=Питный мёд
-for.fluid.milk=Молоко
-for.fluid.seedoil=Растительное масло
+fluid.bioethanol=Этанол
+fluid.biomass=Биомасса
+fluid.glass=Жидкое стекло
+fluid.honey=Мёд
+fluid.ice=Молотый лёд
+fluid.juice=Фруктовый сок
+fluid.mead=Питный мёд
+fluid.milk=Молоко
+fluid.seedoil=Растительное масло
 
 for.gui.access=Доступ
 for.gui.active=Активно
