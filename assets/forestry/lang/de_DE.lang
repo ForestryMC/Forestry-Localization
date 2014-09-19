@@ -108,7 +108,7 @@ fluid.glass=Flüssigglas
 fluid.honey=Honig
 fluid.ice=Zerstoßenes Eis
 fluid.juice=Fruchtsaft
-fluid.mead=Met
+fluid.short.mead=Met
 fluid.milk=Milch
 fluid.seedoil=Samenkernöl
 

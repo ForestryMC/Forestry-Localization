@@ -116,7 +116,7 @@ fluid.glass=Liquid Glass
 fluid.honey=Honey
 fluid.ice=Crushed Ice
 fluid.juice=Fruit Juice
-fluid.mead=Short Mead
+fluid.short.mead=Short Mead
 fluid.milk=Milk
 fluid.seedoil=Seed Oil
 
