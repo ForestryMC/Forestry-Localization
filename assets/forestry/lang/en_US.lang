@@ -24,10 +24,19 @@ for.chat.plugins.error=No information available for plugin %s.
 for.chat.version=Forestry %1$s for Minecraft %2$s (Latest: %3$s).
 
 for.circuit.dampener.1=Fire Dampener
+for.circuit.dampener.1.description.1=Reduces maximum output to 1 MJ/t
+for.circuit.dampener.1.description.2=Preserves fuel output
 for.circuit.electric.boost.1=Electric Boost I
+for.circuit.electric.boost.1.description.1=Increases output by 2 MJ/t
+for.circuit.electric.boost.1.description.2=Increases intake by 7 EU/t
 for.circuit.electric.boost.2=Electric Boost II
+for.circuit.electric.boost.2.description.1=Increases output by 4 MJ/t
+for.circuit.electric.boost.2.description.2=Increases intake by 15 EU/t
 for.circuit.electric.choke.1=Electric Choke
+for.circuit.electric.choke.1.description.1=Reduces ouput by 1 MJ/t
+for.circuit.electric.choke.1.description.2=Reduces intake by 2 EU/t
 for.circuit.electric.efficiency.1=Electric Efficiency
+for.circuit.electric.efficiency.1.description.1=Reduces intake by 1 EU/t
 for.circuit.usage.engineTin=In Electrical Engines
 
 for.errors.circuitMismatch.desc=Layout Mismatch
