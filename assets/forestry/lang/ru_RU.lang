@@ -24,10 +24,19 @@ for.chat.plugins.error=Нет информации для плагина %s.
 for.chat.version=Forestry %1$s для Minecraft %2$s (Последняя: %3$s).
 
 for.circuit.dampener.1=Демпфер огня
+for.circuit.dampener.1.description.1=Уменьшает максимальную выходную мощность до 1 МДж/т
+for.circuit.dampener.1.description.2=Сохраняет выход топлива
 for.circuit.electric.boost.1=Добавочное напряжение I
+for.circuit.electric.boost.1.description.1=Увеличивает выходную мощность на 2 МДж/т
+for.circuit.electric.boost.1.description.2=Увеличивает потребление на 7 еЭ/т
 for.circuit.electric.boost.2=Добавочное напряжение II
+for.circuit.electric.boost.2.description.1=Увеличивает выходную мощность на 4 МДж/т
+for.circuit.electric.boost.2.description.2=Увеличивает потребление энергии на 15 еЭ/т
 for.circuit.electric.choke.1=Пониженное напряжение
+for.circuit.electric.choke.1.description.1=Снижает выходную мощность на 1 МДж/т
+for.circuit.electric.choke.1.description.2=Снижает потребление энергии на 2 еЭ/т
 for.circuit.electric.efficiency.1=Электроэффективность
+for.circuit.electric.efficiency.1.description.1=Снижает потребление энергии на 2 еЭ/т
 for.circuit.usage.engineTin=В электродвигателях
 
 for.errors.circuitMismatch.desc=Несоответствие макету
