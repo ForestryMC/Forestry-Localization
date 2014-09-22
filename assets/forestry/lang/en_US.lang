@@ -1034,7 +1034,7 @@ tile.for.log.20.name=Pine Wood
 tile.for.log.21.name=Plum Wood
 tile.for.log.22.name=Maple Wood
 tile.for.log.23.name=Citrus Wood
-tile.for.log.24.name=Giganteum Wood
+tile.for.log.24.name=Giant Sequoia Wood
 
 tile.for.planks.0.name=Larch Wood Planks
 tile.for.planks.1.name=Teak Wood Planks
@@ -1111,9 +1111,9 @@ tile.for.stairs.21.name=Plum Stairs
 tile.for.stairs.22.name=Maple Stairs
 tile.for.stairs.23.name=Citrus Stairs
 
-tile.for.saplingGE.0.name=Unknown Sapling
+tile.for.saplingGE.0.name=Sapling
 tile.for.leaves.0.name=Leaves
-tile.for.pods.0.name=Cocoa Pod
+tile.for.pods.0.name=Pod
 
 ####################
 # FARMING
