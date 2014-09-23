@@ -24,10 +24,19 @@ for.chat.plugins.error=拓展%s并无可查看信息.
 for.chat.version=林业 %1$s适用于Minecraft%2$s (最新版本: %3$s)。
 
 for.circuit.dampener.1=阻尼
+for.circuit.dampener.1.description.1=最大输出减少到1 MJ/t
+for.circuit.dampener.1.description.2=保留输出能量
 for.circuit.electric.boost.1=加速I
+for.circuit.electric.boost.1.description.1=输出增加2 MJ/t
+for.circuit.electric.boost.1.description.2=内耗增加7 EU/t
 for.circuit.electric.boost.2=加速II
+for.circuit.electric.boost.2.description.1=输出增加4 MJ/t
+for.circuit.electric.boost.2.description.2=内耗增加15 EU/t
 for.circuit.electric.choke.1=扼流
+for.circuit.electric.choke.1.description.1=输出减少1 MJ/t
+for.circuit.electric.choke.1.description.2=内耗减少2 EU/t
 for.circuit.electric.efficiency.1=效率
+for.circuit.electric.efficiency.1.description.1=内耗减少1 EU/t
 for.circuit.usage.engineTin=当安装在电力机械中后
 
 for.errors.circuitMismatch.desc=电路不匹配
@@ -1102,9 +1111,9 @@ tile.for.stairs.22.name=枫树楼梯
 tile.for.stairs.23.name=柑橘楼梯
 tile.for.stairs.24.name=巨杉楼梯
 
-tile.for.saplingGE.0.name=未知树苗
+tile.for.saplingGE.0.name=树苗
 tile.for.leaves.0.name=树叶
-tile.for.pods.0.name=可可豆
+tile.for.pods.0.name=豆荚
 
 ####################
 # FARMING
