@@ -9,7 +9,7 @@ for.beverage.effect.alcoholic=Алкаголик
 for.beverage.effect.antidote=Противоядие
 
 for.chat.accesslocked=%s является владельцем этого механизма и заблокировал доступ.
-for.chat.cannotmemorizeagain=.
+for.chat.cannotmemorizeagain=Вы уже запомнили эту информацию.
 
 for.chat.command.help.0=Формат: '/%s <команда> <аргументы>'
 for.chat.command.help.1=Доступные команды:
@@ -53,8 +53,8 @@ for.errors.noDisposal.desc=Нельзя выбросить отходы
 for.errors.noDisposal.help=Недостаточно свободного места для извлечения отходов.
 for.errors.noDrone.desc=Нет трутня
 for.errors.noDrone.help=Спаривание требует наличия трутня.
-for.errors.noEnergyNet.desc=Нет электричества
-for.errors.noEnergyNet.help=В Вашем мире любое электричество бесполезно. (Установите IndustrialCraft².)
+for.errors.noEnergyNet.desc=Нет энергосети
+for.errors.noEnergyNet.help=В Вашем мире нет энергосети. (Установите IndustrialCraft².)
 for.errors.noFlower.desc=Нет цветов
 for.errors.noFlower.help=Пчелы улья не нашли подходящих для них цветов.
 for.errors.noFuel.desc=Нет топлива
@@ -128,7 +128,7 @@ for.gui.addressee.trader=Торговая станция
 
 for.gui.alyzer.authority=Начальник
 for.gui.alyzer.classification=Классификация
-for.gui.alyzer.nodescription=Энциклопедия Minecraftia не может предоставить запись для этого образца.
+for.gui.alyzer.nodescription=MinecraftWiki не может предоставить запись для этого образца.
 for.gui.alyzer.extinct=Вымерший
 for.gui.alyzer.overview=Анализ доступен
 
@@ -205,8 +205,8 @@ for.gui.humidity=Влажность
 for.gui.humidtol=Уст. к влаж.
 for.gui.hybrid=Гибрид
 for.gui.icy=Ледяная
-for.gui.imprinter.cheater=(Вы читер!)
-for.gui.imprinter.name=ИМПРИНТЕР ГЕНОМА
+for.gui.imprinter.cheater=(Вы жулик!)
+for.gui.imprinter.name=ИНПЛАНТЕР ГЕНОМА
 for.gui.inactive=Неактивно
 for.gui.large=Большой
 for.gui.larger=Больший
