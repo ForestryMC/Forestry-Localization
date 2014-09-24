@@ -2,8 +2,8 @@
 # CORE
 ####################
 
-death.engine.clockwork.player=%1$s перекрутил шестерёнки. %2$s стоял истуканом.
-death.engine.clockwork=%1$s перекрутил шестерёнки.
+death.engine.clockwork.player=%1$s подвергся нападению со стороны свободной пружины. %2$s был небрежным часовщиком.
+death.engine.clockwork=%1$s подвергся нападению со стороны свободной пружины.
 
 for.beverage.effect.alcoholic=Алкаголик
 for.beverage.effect.antidote=Противоядие
@@ -42,7 +42,7 @@ for.circuit.usage.engineTin=В электродвигателях
 for.errors.circuitMismatch.desc=Несоответствие макету
 for.errors.circuitMismatch.help=Количество ламп не совпадает с размером печатной платы.
 for.errors.forcedCooldown.desc=Принудительное охлаждение
-for.errors.forcedCooldown.help=Двигатель перегрелся,он остывает.
+for.errors.forcedCooldown.help=Двигатель перегрелся, он остывает.
 for.errors.invalidBiome.desc=Неблагоприятная среда
 for.errors.invalidBiome.help=Машина или жители не могут работать в данном биоме.
 for.errors.isRaining.desc=Дождь
@@ -53,8 +53,8 @@ for.errors.noDisposal.desc=Нельзя выбросить отходы
 for.errors.noDisposal.help=Недостаточно свободного места для извлечения отходов.
 for.errors.noDrone.desc=Нет трутня
 for.errors.noDrone.help=Спаривание требует наличия трутня.
-for.errors.noEnergyNet.desc=Нет энергосети
-for.errors.noEnergyNet.help=В Вашем мире нет энергосети. (Установите IndustrialCraft².)
+for.errors.noEnergyNet.desc=Нет электричества
+for.errors.noEnergyNet.help=В Вашем мире любое электричество бесполезно. (Установите IndustrialCraft².)
 for.errors.noFlower.desc=Нет цветов
 for.errors.noFlower.help=Пчелы улья не нашли подходящих для них цветов.
 for.errors.noFuel.desc=Нет топлива
@@ -107,7 +107,7 @@ for.flowers.end=Край
 for.flowers.gourd=Бахчевые
 for.flowers.jungle=Лианы и папоротники
 for.flowers.mushroom=Грибы
-for.flowers.nether=Адский нарост
+for.flowers.nether=Нарост Нижнего мира
 for.flowers.vanilla=Цветы
 for.flowers.wheat=Пшеница
 
@@ -128,7 +128,7 @@ for.gui.addressee.trader=Торговая станция
 
 for.gui.alyzer.authority=Начальник
 for.gui.alyzer.classification=Классификация
-for.gui.alyzer.nodescription=MinecraftWiki не может предоставить запись для этого образца.
+for.gui.alyzer.nodescription=Энциклопедия Minecraftia не может предоставить запись для этого образца.
 for.gui.alyzer.extinct=Вымерший
 for.gui.alyzer.overview=Анализ доступен
 
@@ -206,7 +206,7 @@ for.gui.humidtol=Уст. к влаж.
 for.gui.hybrid=Гибрид
 for.gui.icy=Ледяная
 for.gui.imprinter.cheater=(Вы жулик!)
-for.gui.imprinter.name=ИНПЛАНТЕР ГЕНОМА
+for.gui.imprinter.name=ИМПРИНТЕР ГЕНОМА
 for.gui.inactive=Неактивно
 for.gui.large=Большой
 for.gui.larger=Больший
@@ -333,7 +333,7 @@ for.hints.enginetinchoke.desc=Электродвигатель может мен
 for.hints.enginetinchoke.tag=Контролируйте выходную мощность
 for.hints.flowerjungle.desc=К цветам джунглей относится папоротник и лоза.
 for.hints.flowerjungle.tag=Что за цветы джунглей?
-for.hints.flowernether.desc=К цветам Нижнего мира относится адский нарост.
+for.hints.flowernether.desc=К цветам Нижнего мира относится нарост Нижнего мира.
 for.hints.flowernether.tag=Что за цветы Нижнего мира?
 for.hints.forcedcooldown.desc=Двигатели могут перегреться, если производимая ими энергия не потребляется. Достигнув температуры плавления, они войдут в режим принудительного охлаждения.
 for.hints.forcedcooldown.tag=Остерегайтесь перегрева!
@@ -358,9 +358,9 @@ for.hints.powerraintank.tag=Разлив требует энергию!
 for.hints.powerrequired.desc=Это устройство требует энергию от двигателей для работы. Для начала производства разместите двигатель вплотную к устройству, а потом запустите его.
 for.hints.powerrequired.tag=Требует энергию!
 for.hints.shortmead.desc=Ваш бродильный аппарат может не только создавать биомассу, используйте медвяную росу и жидкий мёд для создания питного мёда.
-for.hints.shortmead.tag=Получите ваш энергетический напиток!
+for.hints.shortmead.tag=Получите Ваш энергетический напиток!
 for.hints.usesofash.desc=Зола может быть использована для создания минерального удобрения, а также для создания смолистого торфа.
-for.hints.usesofash.tag=Используйте вашу золу!
+for.hints.usesofash.tag=Используйте Вашу золу!
 
 for.item.crated.adj=В ящике:
 for.item.crated.unknown=Ящик с неизвестным содержимым
@@ -408,7 +408,7 @@ for.yes=Да
 item.for.adventurerBag.name=Рюкзак авантюриста
 item.for.adventurerBagT2.name=Тканный рюкзак авантюриста
 item.for.ambrosia.name=Амброзия
-item.for.apatite.name=Аппатит
+item.for.apatite.name=Апатит
 
 item.for.apiaristBag.name=Рюкзак пчеловода
 item.for.apiaristBoots.name=Ботинки пчеловода
@@ -579,7 +579,7 @@ item.for.stamps.100n.name=Почтовая марка (100n)
 item.for.stamps.name=Почтовая марка
 
 item.for.sturdyMachine.name=Прочный корпус
-item.for.tent.name=Палатка путешественика
+item.for.tent.name=Палатка выжившего
 
 item.for.thermionicTubes.ex-0.name=Медная электронная лампа
 item.for.thermionicTubes.ex-1.name=Оловянная электронная лампа
@@ -673,12 +673,12 @@ tile.for.stained.15.name=Чёрное стекло
 # APICULTURE
 ####################
 
-death.bee.aggressive.player=%1$s зажалили пчёлы. %2$s просто смотрел и ржал.
-death.bee.aggressive=%1$s зажалили почёлы
-death.bee.end.player=%1$s был зажален, когда боролся с %2$s.
-death.bee.end=%1$s был зажален.
-death.bee.radioactive.player=%1$s перезеленел. %2$s смотрел и хихикал.
-death.bee.radioactive=%1$s перезеленел.
+death.bee.aggressive.player=%1$s столкнулся с роем пчёл. %2$s украл его костюм пчеловода.
+death.bee.aggressive=%1$s столкнулся с роем пчёл. Оно пришло, чтобы ужалить.
+death.bee.end.player=%1$s был прикончен недружественным жалом, когда боролся с %2$s.
+death.bee.end=%1$s был прикончен недружественным жалом.
+death.bee.radioactive.player=%1$s вошёл в Чернобыль без своего шлема. %2$s смотрел и хихикал.
+death.bee.radioactive=%1$s вошёл в Чернобыль без своего шлема.
 
 for.apiculture.effect.aggressive=Агрессивн.
 for.apiculture.effect.beatific=Блаженность
