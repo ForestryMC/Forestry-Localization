@@ -5,7 +5,7 @@
 death.engine.clockwork.player=%1$s подвергся нападению со стороны свободной пружины. %2$s был небрежным часовщиком.
 death.engine.clockwork=%1$s подвергся нападению со стороны свободной пружины.
 
-for.beverage.effect.alcoholic=Алкаголик
+for.beverage.effect.alcoholic=Спиртное
 for.beverage.effect.antidote=Противоядие
 
 for.chat.accesslocked=%s является владельцем этого механизма и заблокировал доступ.
@@ -24,19 +24,19 @@ for.chat.plugins.error=Нет информации для плагина %s.
 for.chat.version=Forestry %1$s для Minecraft %2$s (Последняя: %3$s).
 
 for.circuit.dampener.1=Демпфер огня
-for.circuit.dampener.1.description.1=Уменьшает максимальную выходную мощность до 1 MJ/t
+for.circuit.dampener.1.description.1=Уменьшает максимальную выходную мощность до 10 RF/тик
 for.circuit.dampener.1.description.2=Сохраняет выход топлива
 for.circuit.electric.boost.1=Добавочное напряжение I
-for.circuit.electric.boost.1.description.1=Увеличивает выходную мощность на 2 MJ/t
-for.circuit.electric.boost.1.description.2=Увеличивает потребление на 7 EU/t
+for.circuit.electric.boost.1.description.1=Увеличивает выходную мощность на 20 RF/тик
+for.circuit.electric.boost.1.description.2=Увеличивает потребление на 7 EU/тик
 for.circuit.electric.boost.2=Добавочное напряжение II
-for.circuit.electric.boost.2.description.1=Увеличивает выходную мощность на 4 MJ/t
-for.circuit.electric.boost.2.description.2=Увеличивает потребление энергии на 15 EU/t
+for.circuit.electric.boost.2.description.1=Увеличивает выходную мощность на 40 RF/тик
+for.circuit.electric.boost.2.description.2=Увеличивает потребление энергии на 15 EU/тик
 for.circuit.electric.choke.1=Пониженное напряжение
-for.circuit.electric.choke.1.description.1=Снижает выходную мощность на 1 MJ/t
-for.circuit.electric.choke.1.description.2=Снижает потребление энергии на 2 EU/t
+for.circuit.electric.choke.1.description.1=Снижает выходную мощность на 10 RF/тик
+for.circuit.electric.choke.1.description.2=Снижает потребление энергии на 2 EU/тик
 for.circuit.electric.efficiency.1=Электроэффективность
-for.circuit.electric.efficiency.1.description.1=Снижает потребление энергии на 2 EU/t
+for.circuit.electric.efficiency.1.description.1=Снижает потребление энергии на 2 EU/тик
 for.circuit.usage.engineTin=В электродвигателях
 
 for.errors.circuitMismatch.desc=Несоответствие макету
@@ -77,8 +77,16 @@ for.errors.noSpace.desc=Нет места в инвентаре
 for.errors.noSpace.help=Очистите инвентарь этой машины.
 for.errors.noSpecimen.desc=Нечего анализировать
 for.errors.noSpecimen.help=Предоставьте образец для анализа.
-for.errors.noStamps.desc=Нет марок
-for.errors.noStamps.help=Торговая станция требует марки для оплаты почтовых расходов. Эта станция израсходовала их.
+for.errors.noStamps.desc=Нужны марки
+for.errors.noStamps.help=Торговая станция требует больше марок для оплаты почтовых расходов.
+for.errors.noPaper.desc=Нужна бумага
+for.errors.noPaper.help=Торговая станция требует больше бумаги, чтобы отправлять письма.
+for.errors.noStampsNoPaper.desc=Нужны марки и бумага
+for.errors.noStampsNoPaper.help=Торговая станция требует больше марок и бумаги, чтобы отправлять письма.
+for.errors.noSupplies.desc=Нужны припасы
+for.errors.noSupplies.help=Торговая станция требует припасов для отправки.
+for.errors.noTrade.desc=Нет набора для торговли
+for.errors.noTrade.help=Торговая станция требует предметы, для отправки и получения.
 for.errors.notAlphaNumeric.desc=Только буквы и цифры 
 for.errors.notAlphaNumeric.help=Данная строка должна состоять только из букв и цифр.
 for.errors.notDay.desc=Не дневное время
@@ -132,7 +140,7 @@ for.gui.alyzer.nodescription=Энциклопедия Minecraftia не може�
 for.gui.alyzer.extinct=Вымерший
 for.gui.alyzer.overview=Анализ доступен
 
-for.gui.area=Рабочая зона
+for.gui.area=Территория
 for.gui.arid=Сухо
 for.gui.average=Средн.
 for.gui.beach=Пляж
@@ -190,8 +198,8 @@ for.gui.fastest=Наибыстрейш.
 for.gui.fecundated=Соединяемый
 for.gui.fertility=Плодовитость
 for.gui.fireresist=Огнеупорность
-for.gui.flowers=Цветы
-for.gui.flyer=Летун
+for.gui.flowers=Тип цветка
+for.gui.flyer=Устойчивый летун
 for.gui.general=Общий
 for.gui.gigantic=Гигантский
 for.gui.habitatlocator=Определитель ареала
@@ -202,7 +210,7 @@ for.gui.higher=Высший
 for.gui.highest=Наивысший
 for.gui.hot=Горячая
 for.gui.humidity=Влажность
-for.gui.humidtol=Уст. к влаж.
+for.gui.humidtol=Устойчивость к влажности
 for.gui.hybrid=Гибрид
 for.gui.icy=Ледяная
 for.gui.imprinter.cheater=(Вы жулик!)
@@ -227,6 +235,8 @@ for.gui.mail.nothingtotrade=Торговой станции нечем торг�
 for.gui.mail.notrader=Торговая станция с данным именем не доступна.
 for.gui.mail.pleasesend=Пожалуйста пришлите
 for.gui.mail.to=Кому
+for.gui.mail.receive=Получать
+for.gui.mail.send=Отправлять
 
 for.gui.maxenergy=Максимальная энергия
 for.gui.maxenergyreceive=Максимальная вход. энергия
@@ -256,7 +266,7 @@ for.gui.pipe.filter.pure_nocturnal=Породистые ночные
 for.gui.pipe.filter.queen=Королевы
 
 for.gui.plains=Равнины
-for.gui.pollination=Опыление
+for.gui.pollination=Скорость опыления
 for.gui.princesses=Принцесс
 for.gui.produce=Продукция
 for.gui.queens=Королев
@@ -280,10 +290,10 @@ for.gui.smaller=Меньше
 for.gui.smallest=Самый маленький
 for.gui.species=Вид
 for.gui.speciescount=Видов
-for.gui.speed=Скорость
+for.gui.speed=Скорость производства
 for.gui.stored=Запасено
 for.gui.temperature=Температура
-for.gui.temptol=Уст. к темп.
+for.gui.temptol=Устойчивость к темп.
 for.gui.tooltip.tmi=Зажмите Shift для подробностей
 for.gui.triple=Тройной
 for.gui.unknown=Неизвестный геном
@@ -313,13 +323,13 @@ for.hints.crating.desc=Главная задача плотника - сжима
 for.hints.crating.tag=Упаковывайте ваши излишки!
 for.hints.energybuffer.desc=Двигатели способны запасать небольшое количество энергии, если она не может передана цели.
 for.hints.energybuffer.tag=Накопление энергии!
-for.hints.energyunit.desc=Выходная мощность двигателей измеряется в MJ/t, что означает "Джоулей Minecraft на тик". В каждой секунде 20 тиков.
-for.hints.energyunit.tag=Говорите Minecraft Joule!
+for.hints.energyunit.desc=Выходная мощность двигателей измеряется в RF/тик, что означает "Redstone Flux на тик". В каждой секунде 20 тиков.
+for.hints.energyunit.tag=Скажите Redstone Flux!
 for.hints.enginebronzefuels.desc=Биогазовый двигатель имеет широкий выбор топлива: биомасса, растительное масло, мёд, молоко и даже вода!
 for.hints.enginebronzefuels.tag=Используйте все вида топлива!
 for.hints.enginebronzeheatloss.desc=Несмотря на то, что биогазовый двигатель может работать на воде, она ужасно неэффективна, и постоянно расходует лаву.
 for.hints.enginebronzeheatloss.tag=Внимательней с водой!
-for.hints.enginebronzeoutput.desc=Биогазовый двигатель, используя различные виды топлива, имеет различную выходную мощность, которая варьируется от 1 MJ/t до 5 MJ/t.
+for.hints.enginebronzeoutput.desc=Биогазовый двигатель, используя различные виды топлива, имеет различную выходную мощность, которая варьируется от 10 RF/тик до 50 RF/тик.
 for.hints.enginebronzeoutput.tag=Выбирайте используемое топливо!
 for.hints.enginebronzewaste.desc=В отличии от торфяных двигателей, отключенные биогазовые двигатели не расходует топливо, которое сейчас сгорает.
 for.hints.enginebronzewaste.tag=Сохранение топлива
@@ -329,7 +339,7 @@ for.hints.enginecopperwaste.desc=Отключенный торфяной дви�
 for.hints.enginecopperwaste.tag=Остерегайтесь растраты энергии!
 for.hints.enginetinbatteries.desc=Вы можете использовать батареи для того, чтобы запустить Ваш электродвигатель, без необходимости подводить к нему провода.
 for.hints.enginetinbatteries.tag=Заряжайте эти батареи!
-for.hints.enginetinchoke.desc=Электродвигатель может менять выходную мощность в зависимости от установленной печатной платы.
+for.hints.enginetinchoke.desc=Электродвигатели могут быть оснащены печатными платами, чтобы понизить их выходную мощность на 10 RF/тик и также уменьшить их потребность в энергии.
 for.hints.enginetinchoke.tag=Контролируйте выходную мощность
 for.hints.flowerjungle.desc=К цветам джунглей относится папоротник и лоза.
 for.hints.flowerjungle.tag=Что за цветы джунглей?
@@ -543,8 +553,8 @@ item.for.peat.name=Торф
 item.for.phosphor.name=Фосфор
 item.for.pipette.name=Пипетка
 
-item.for.pollen.crystalline.name=Кристаллическая пыльца
-item.for.pollen.normal.name=Пыльца
+item.for.pollen.crystalline.name=Скопление кристаллической пыльцы
+item.for.pollen.normal.name=Скопление пыльцы
 
 item.for.propolis.normal.name=Прополис
 item.for.propolis.sticky.name=Липкий прополис
@@ -616,7 +626,7 @@ item.for.woodPulp.name=Древесная масса
 item.for.wrench.name=Гаечный ключ
 
 itemGroup.forestry=Forestry
-itemGroup.arboriculture=Лесничество
+itemGroup.arboriculture=Лесоводство
 itemGroup.apiculture=Пчеловодство
 itemGroup.lepidopterology=Лепидоптерология
 
@@ -651,6 +661,7 @@ tile.for.resources.2.name=Оловянная руда
 
 tile.for.soil.0.name=Гумус
 tile.for.soil.1.name=Болотная земля
+tile.for.soil.2.name=Торф
 
 tile.for.stained.0.name=Белое стекло
 tile.for.stained.1.name=Оранжевое стекло
@@ -836,7 +847,10 @@ for.genus.bees.reddened=Reddened
 for.genus.bees.tropical=Tropical
 for.genus.bees.vengeful=Vengeful
 
+item.for.beeQueenGE.name=Неизвестная королева
+
 tile.for.alveary.0.name=Пчелиный улей
+tile.for.alveary.1.name=Вход улья
 tile.for.alveary.2.name=Роевня
 tile.for.alveary.3.name=Вентилятор улья
 tile.for.alveary.4.name=Обогреватель улья
@@ -862,7 +876,6 @@ tile.for.candle.lit.name=Светлая свеча
 tile.for.candle.stump.name=Тёмная свеча
 
 tile.for.stump.0.name=Потухшая свеча
-item.for.beeQueenGE.name=Unknown Queen
 
 ####################
 # ARBORICULTURE
@@ -906,7 +919,7 @@ for.fruits.walnut=Грецкий орех
 
 for.gui.family=Семейство
 for.gui.fruits=Плоды
-for.gui.girth=Обл. посадки
+for.gui.girth=Область посадки
 for.gui.growth=Условие роста
 for.gui.height=Высота
 for.gui.maturity=Созревание
@@ -930,6 +943,8 @@ for.trees.grammar.pollen.type=Пыльца
 for.trees.grammar.pollen=%TYPE %SPECIES
 for.trees.grammar.sapling.type=Саженец
 for.trees.grammar.sapling=%TYPE %SPECIES
+for.trees.grammar.leaves.type=Листва
+for.trees.grammar.leaves=%TYPE %SPECIES
 
 for.trees.hybrid=Гибрид: %PRIMARY-%SECONDARY
 
@@ -1019,6 +1034,7 @@ tile.for.log.20.name=Древесина сосны
 tile.for.log.21.name=Древесина сливового дерева
 tile.for.log.22.name=Древесина клёна
 tile.for.log.23.name=Древесина цитрусового дерева
+tile.for.log.24.name=Древесина гигантской секвойи
 
 tile.for.planks.0.name=Доски из древесины лиственницы
 tile.for.planks.1.name=Доски из древесины тикового дерева
@@ -1095,6 +1111,10 @@ tile.for.stairs.21.name=Ступеньки из сливового дерева
 tile.for.stairs.22.name=Ступеньки из клёна
 tile.for.stairs.23.name=Ступеньки из цитрусового дерева
 
+tile.for.saplingGE.0.name=Саженец
+tile.for.leaves.0.name=Листва
+tile.for.pods.0.name=Стручок
+
 ####################
 # FARMING
 ####################
@@ -1123,11 +1143,12 @@ for.errors.noFertilizer.help=Для работы фермы требуется �
 for.errors.noLiquid.desc=Нет воды
 for.errors.noLiquid.help=В зависимости от количества осадков, температуры и влажности фермы должны быть снабжены различным количеством воды.
 
+for.gui.farm.title=Ферма
 for.gui.hydr.heat=тепла
 for.gui.hydr.humid=влажности
 for.gui.hydr.overall=общего
 for.gui.hydr.rainfall=полива
-for.gui.hydration=Требуется увлажнение
+for.gui.hydration=Нужное увлажнение
 
 for.hints.circuitboard.desc=Пользуйтесь паяльником, чтобы превратить Вашу ферму деревьев в любую ферму, которую вам захочется.
 for.hints.circuitboard.tag=Программируйте свои фермы!
@@ -1161,6 +1182,9 @@ tile.for.ffarm.2.name=Редуктор фермы
 tile.for.ffarm.3.name=Люк фермы
 tile.for.ffarm.4.name=Вентиль фермы
 tile.for.ffarm.5.name=Блок управления фермы
+
+tile.for.mushroom.0.name=Гриб
+tile.for.mushroom.1.name=Гриб
 
 ####################
 # LEPIDOPTEROLOGY
