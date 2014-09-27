@@ -8,7 +8,7 @@ death.engine.clockwork.player=%1$s被散落的弹簧片刺中了。%2$s是个粗
 for.beverage.effect.alcoholic=酗酒
 for.beverage.effect.antidote=解毒
 
-for.chat.accesslocked=/%s是该机器的主人，并且他已关闭了访问权限。
+for.chat.accesslocked=%s是该机器的主人，并且他已关闭了访问权限。
 for.chat.cannotmemorizeagain=你已经记住了相关内容。
 
 for.chat.command.help.0=格式: '/%s <command> <arguments>'
