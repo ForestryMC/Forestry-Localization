@@ -1282,6 +1282,27 @@ item.for.catalogue.name=Catalogue
 
 item.PipeItemsPropolis.name=Apiarist's Pipe
 
+####################
+# PLUGINS
+####################
+for.plugin.core.description=Core mechanics for Forestry. Required by all other plugins.
+for.plugin.apiculture.description=Adds bees, beekeeping and bee products. Affects world generation.
+for.plugin.arboriculture.description=Adds additional tree species and products.
+for.plugin.energy.description=Adds several RF engines.
+for.plugin.factory.description=Adds a wide variety of machines to craft, produce and process products.
+for.plugin.farming.description=Adds automatic farms and harvesters for a wide variety of products.
+for.plugin.food.description=Adds food.
+for.plugin.lepidopterology.description=Butterflies. Shiny.
+for.plugin.mail.description=Adds Forestry's mail and trade system.
+for.plugin.storage.description=Adds backpacks and crates.
+
+for.plugin.buildcraft6.description=Compatibility plugin for BuildCraft 6.
+for.plugin.pipes.description=Adds the apiarist's pipe for beekeeping if apiculture is enabled and BuildCraft 6 is present.
+for.plugin.ic2.description=Compatibility plugin for IC2. Adds electrical engine and generator for power conversion.
+for.plugin.natura.description=Compatibility plugin for Natura. Enables farming Natura saplings.
+for.plugin.ee2.description=Compatibility plugin for Equivalent Exchange 2. Enables the Omega branch of bees. Requires Apiculture to be enabled.
+for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Adds crops and vegetables to farms.
+
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
 ###################################
