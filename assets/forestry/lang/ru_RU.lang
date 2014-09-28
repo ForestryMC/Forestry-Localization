@@ -201,7 +201,7 @@ for.gui.fireresist=Огнеупорность
 for.gui.flowers=Тип цветка
 for.gui.flyer=Устойчивый летун
 for.gui.general=Общий
-for.gui.gigantic=Гигантский
+for.gui.gigantic=Гигантская
 for.gui.habitatlocator=Определитель ареала
 for.gui.heat=Нагрев
 for.gui.hellish=Адский
@@ -216,9 +216,9 @@ for.gui.icy=Ледяная
 for.gui.imprinter.cheater=(Вы жулик!)
 for.gui.imprinter.name=ИМПРИНТЕР ГЕНОМА
 for.gui.inactive=Неактивно
-for.gui.large=Большой
-for.gui.larger=Больший
-for.gui.largest=Крупнейший
+for.gui.large=Большая
+for.gui.larger=Оч. большая
+for.gui.largest=Крупнейшая
 for.gui.life=жизнь
 for.gui.lifespan=Срок жизни
 for.gui.longerlife=Длиннейш.
@@ -1279,6 +1279,27 @@ item.for.catalogue.name=Каталог
 ####################
 # PIPES
 ####################
+
+####################
+# PLUGINS
+####################
+for.plugin.core.description=Основная механика для Forestry. Требуется для всех других плагинов.
+for.plugin.apiculture.description=Добавляет пчёл, пчеловодство и продукты пчёл. Влияет на генерацию мира.
+for.plugin.arboriculture.description=Добавляет дополнительные виды деревьев и продуктов.
+for.plugin.energy.description=Добавляет несколько двигателей, работающих на RF.
+for.plugin.factory.description=Добавление широкий спектр механизмов, которые производят и перерабатывают продукты.
+for.plugin.farming.description=Добавляет автоматические фермы и сборщиков для широкого спектра продуктов.
+for.plugin.food.description=Добавляет еду.
+for.plugin.lepidopterology.description=Бабочки. Яркие.
+for.plugin.mail.description=Добавляет системы почты и торговли Forestry.
+for.plugin.storage.description=Добавляет рюкзаки и ящики.
+
+for.plugin.buildcraft6.description=Плагин совместимости для BuildCraft 6.
+for.plugin.pipes.description=Добавляет трубу пчеловода для пчеловодства, если пчеловодство включено и BuildCraft 6 установлен.
+for.plugin.ic2.description=Плагин совместимости для IC2. Добавляет электрический двигатель и генератор для преобразования энергии.
+for.plugin.natura.description=Плагин совместимости для Natura. Позволяет выращивать саженцы Natura.
+for.plugin.ee2.description=Плагин совместимости для Equivalent Exchange 2. Включает Омега пчёл. Пчеловодство должно быть включено.
+for.plugin.farmcraftory.description=Включает совместимость с FarmCraftory. Добавляет растения и овощи в фермы.
 
 item.PipeItemsPropolis.name=Труба пчеловода
 
