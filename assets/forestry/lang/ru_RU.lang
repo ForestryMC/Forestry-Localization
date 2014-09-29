@@ -138,11 +138,11 @@ for.gui.alyzer.authority=Начальник
 for.gui.alyzer.classification=Классификация
 for.gui.alyzer.nodescription=Энциклопедия Minecraftia не может предоставить запись для этого образца.
 for.gui.alyzer.extinct=Вымерший
-for.gui.alyzer.overview=Анализ доступен
+for.gui.alyzer.overview=Доступные анализы
 
 for.gui.area=Территория
-for.gui.arid=Сухо
-for.gui.average=Средн.
+for.gui.arid=Сухая
+for.gui.average=Средний
 for.gui.beach=Пляж
 
 for.gui.beealyzer.artificial=Исскуственного происх.
@@ -172,29 +172,29 @@ for.gui.beealyzer.tolerance.up5=Вверх 5
 for.gui.beealyzer=Анализатор пчёл
 
 for.gui.blank=Пусто
-for.gui.cave=Пещерн.
-for.gui.climate=Климат
+for.gui.cave=Пещерная
+for.gui.climate=Температура
 for.gui.closetosearch=закройте для поиска
-for.gui.cold=Холодный
+for.gui.cold=Холодная
 for.gui.crop=Жёрдочка
 for.gui.currentOutput=Текущая мощность
-for.gui.damp=Сыро
+for.gui.damp=Сырая
 for.gui.derelict=Покинут
 for.gui.desert=Пустыня
 for.gui.didyouknow=А Вы знаете
-for.gui.diurnal=Дневн.
+for.gui.diurnal=Дневная
 for.gui.drones=Трутней
 for.gui.effect=Эффект
-for.gui.elongatedlife=Продленн.
+for.gui.elongatedlife=Продлённая
 for.gui.empty=Пусто
 for.gui.emptysocket=Разъём для печатной платы
 for.gui.energy=Энергия
 for.gui.environment=Среда
 for.gui.escritoire.probe=Изучить образцы
 for.gui.evolution=Эволюция
-for.gui.fast=Быстр.
-for.gui.faster=Быстрейш.
-for.gui.fastest=Наибыстрейш.
+for.gui.fast=Быстрый
+for.gui.faster=Быстрейший
+for.gui.fastest=Наибыстрейший
 for.gui.fecundated=Соединяемый
 for.gui.fertility=Плодовитость
 for.gui.fireresist=Огнеупорность
@@ -216,17 +216,17 @@ for.gui.icy=Ледяная
 for.gui.imprinter.cheater=(Вы жулик!)
 for.gui.imprinter.name=ИМПРИНТЕР ГЕНОМА
 for.gui.inactive=Неактивно
-for.gui.large=Большая
-for.gui.larger=Оч. большая
-for.gui.largest=Крупнейшая
-for.gui.life=жизнь
+for.gui.large=Большой
+for.gui.larger=Очень большой
+for.gui.largest=Крупнейший
+for.gui.life=срок жизни
 for.gui.lifespan=Срок жизни
-for.gui.longerlife=Длиннейш.
-for.gui.longestlife=Наидлиннейш.
-for.gui.longlife=Длинн.
+for.gui.longerlife=Длиннейший
+for.gui.longestlife=Самый длинный
+for.gui.longlife=Длинный
 for.gui.low=Низкий
-for.gui.lower=Ниже
-for.gui.lowest=Сам. низк.
+for.gui.lower=Очень низкий
+for.gui.lowest=Самый низкий
 
 for.gui.mail.foreveryattached=за каждые прикреплённые
 for.gui.mail.from=От
@@ -243,10 +243,10 @@ for.gui.maxenergyreceive=Максимальная вход. энергия
 for.gui.maxspeed=Максимальная
 for.gui.metabolism=Метаболизм
 for.gui.nether=Нижний мир
-for.gui.nocturnal=Ночн.
+for.gui.nocturnal=Ночная
 for.gui.noeffect=Нет эффекта
-for.gui.normal=Нормальн.
-for.gui.normallife=Обычн.
+for.gui.normal=Нормальная
+for.gui.normallife=Обычная
 for.gui.owner=Владелец
 for.gui.page=Страница
 
@@ -275,18 +275,18 @@ for.gui.rule.private=Приватный
 for.gui.rule.restricted=Ограниченный
 for.gui.rule.shared=Общий
 
-for.gui.shortenedlife=Коротк.
-for.gui.shorterlife=Кратчайш.
-for.gui.shortestlife=Наикратчайш.
-for.gui.shortlife=Кратк.
+for.gui.shortenedlife=Короткий
+for.gui.shorterlife=Кратчайший
+for.gui.shortestlife=Наикратчайший
+for.gui.shortlife=Краткий
 
 for.gui.size=Размер
 for.gui.slots=Слоты: %USED/%SIZE
-for.gui.slow=Нетороплив.
-for.gui.slower=Медлен.
-for.gui.slowest=Медленнейш.
-for.gui.small=Небольш.
-for.gui.smaller=Меньше
+for.gui.slow=Медленный
+for.gui.slower=Очень медленный
+for.gui.slowest=Самый медленный
+for.gui.small=Маленький
+for.gui.smaller=Очень маленький
 for.gui.smallest=Самый маленький
 for.gui.species=Вид
 for.gui.speciescount=Видов
@@ -297,7 +297,7 @@ for.gui.temptol=Устойчивость к темп.
 for.gui.tooltip.tmi=Зажмите Shift для подробностей
 for.gui.triple=Тройной
 for.gui.unknown=Неизвестный геном
-for.gui.warm=Жаркий
+for.gui.warm=Жаркая
 for.gui.water=Вода
 for.gui.worker=рабоч.
 
@@ -380,7 +380,7 @@ for.layout.engine.tin=Электродвигатель
 for.no=Нет
 
 for.researchNote.chance.highest=НАИВЫСШИЙ
-for.researchNote.chance.higher=ВЫШЕ
+for.researchNote.chance.higher=ОЧЕНЬ ВЫСОКИЙ
 for.researchNote.chance.high=ВЫСОКИЙ
 for.researchNote.chance.normal=ОБЫЧНЫЙ
 for.researchNote.chance.low=НИЗКИЙ
@@ -1280,6 +1280,8 @@ item.for.catalogue.name=Каталог
 # PIPES
 ####################
 
+item.PipeItemsPropolis.name=Труба пчеловода
+
 ####################
 # PLUGINS
 ####################
@@ -1301,8 +1303,6 @@ for.plugin.natura.description=Плагин совместимости для Nat
 for.plugin.ee2.description=Плагин совместимости для Equivalent Exchange 2. Включает Омега пчёл. Пчеловодство должно быть включено.
 for.plugin.farmcraftory.description=Включает совместимость с FarmCraftory. Добавляет растения и овощи в фермы.
 
-item.PipeItemsPropolis.name=Труба пчеловода
-
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
 ###################################
@@ -1318,6 +1318,32 @@ item.PipeItemsPropolis.name=Труба пчеловода
 # Examples:
 # for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
 # for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
+
+###################################
+# CUSTOM ALLELE ADJECTIVES
+###################################
+# Replaces for.gui.<adjective>
+#
+# Syntax:
+# for.gui.<category>.<adjective>=New custom adjective
+#
+# Available categories and [adjectives]:
+# speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
+# maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
+#
+# size: 		[smallest, smaller, average, large, larger, largest]
+# height: 		[smallest, smaller, average, large, larger, largest, gigantic]
+# territory:	[average, large, larger, largest]
+#
+# saplings: 	[lowest, lower, low, average, high, higher, highest]
+# yield: 		[lowest, lower, low, average, high, higher, highest]
+# sappiness:	[lowest, lower, low, average, high, higher, highest]
+#
+# Examples:
+# for.gui.speed.slowest=New custom adjective for slowest speed, replacing for.gui.slowest
+# for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
+# for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
 
 ###################################
 # CUSTOM BEES NAMES
@@ -1486,3 +1512,45 @@ for.trees.custom.treealyzer.sapling.wenge=Дерево Венге
 for.trees.custom.treealyzer.sapling.whitePoplar=Белый тополь
 for.trees.custom.treealyzer.sapling.whiteWillow=Белая ива
 for.trees.custom.treealyzer.sapling.yellowMeranti=Жёлтое меранти
+
+for.gui.height.smallest=Самая низкая
+for.gui.height.smaller=Очень низкая
+for.gui.height.small=Низкая
+for.gui.height.average=Средняя
+for.gui.height.large=Большая
+for.gui.height.larger=Очень большая
+for.gui.height.largest=Наибольшая
+for.gui.height.gigantic=Гигантская
+
+for.gui.sappiness.lowest=Самая низкая
+for.gui.sappiness.lower=Очень низкая
+for.gui.sappiness.low=Низкая
+for.gui.sappiness.average=Средняя
+for.gui.sappiness.high=Высокая
+for.gui.sappiness.higher=Очень высокая
+for.gui.sappiness.highest=Наивысшая
+
+for.gui.maturity.slowest=Очень медленное
+for.gui.maturity.slower=Медленное
+for.gui.maturity.slow=Неторопливое
+for.gui.maturity.normal=Обычное
+for.gui.maturity.average=Среднее
+for.gui.maturity.fast=Быстрое
+for.gui.maturity.faster=Очень быстрое
+for.gui.maturity.fastest=Наибыстрейшее
+
+for.gui.speed.slowest=Очень медленная
+for.gui.speed.slower=Медленная
+for.gui.speed.slow=Неторопливая
+for.gui.speed.normal=Обычная
+for.gui.speed.fast=Быстрая
+for.gui.speed.faster=Очень быстрая
+for.gui.speed.fastest=Наибыстрейшая
+
+for.gui.flowering.slowest=Очень медленная
+for.gui.flowering.slower=Медленная
+for.gui.flowering.slow=Неторопливая
+for.gui.flowering.normal=Обычная
+for.gui.flowering.fast=Быстрая
+for.gui.flowering.faster=Очень быстрая
+for.gui.flowering.fastest=Наибыстрейшая
