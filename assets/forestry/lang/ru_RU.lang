@@ -299,7 +299,7 @@ for.gui.triple=Тройной
 for.gui.unknown=Неизвестный геном
 for.gui.warm=Жаркая
 for.gui.water=Вода
-for.gui.worker=рабоч.
+for.gui.worker=рабочий
 
 for.hints.accesscontrol.desc=Владелец машины может устанавливать три типа доступа: общий, ограниченный и приватный.
 for.hints.accesscontrol.tag=Контроль доступа
@@ -1341,9 +1341,18 @@ for.plugin.farmcraftory.description=Включает совместимость 
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# for.gui.speed.slowest=New custom adjective for slowest speed, replacing for.gui.slowest
+# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
 # for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
 # for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
+
+###################################
+# CUSTOM TOOLTIPS
+###################################
+# Available custom tooltips:
+# for.tooltip.worker.<speed adjective> for bee worker speed.
+#
+# Example:
+# for.tooltip.worker.slowest=Slowest Worker
 
 ###################################
 # CUSTOM BEES NAMES
@@ -1554,3 +1563,12 @@ for.gui.flowering.normal=Обычная
 for.gui.flowering.fast=Быстрая
 for.gui.flowering.faster=Очень быстрая
 for.gui.flowering.fastest=Наибыстрейшая
+for.gui.flowering.maximum=Максимально быстрая
+
+for.tooltip.worker.slowest=Очень медленный рабочий
+for.tooltip.worker.slower=Медленный рабочий
+for.tooltip.worker.slow=Неторопливый рабочий
+for.tooltip.worker.normal=Обычный рабочий
+for.tooltip.worker.fast=Быстрый рабочий
+for.tooltip.worker.faster=Очень быстрый рабочий
+for.tooltip.worker.fastest=Наибыстрейший рабочий
