@@ -1344,3 +1344,12 @@ for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Add
 # for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
 # for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
 # for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
+
+###################################
+# CUSTOM TOOLTIPS
+###################################
+# Available custom tooltips:
+# for.tooltip.worker.<speed adjective> for bee worker speed.
+#
+# Example:
+# for.tooltip.worker.slowest=Slowest Worker
