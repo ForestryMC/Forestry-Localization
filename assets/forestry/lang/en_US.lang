@@ -1341,6 +1341,6 @@ for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Add
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# for.gui.speed.slowest=New custom adjective for slowest speed, replacing for.gui.slowest
+# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
 # for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
 # for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
