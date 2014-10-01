@@ -1283,6 +1283,27 @@ item.for.catalogue.name=贸易目录
 
 item.PipeItemsPropolis.name=养蜂员管道
 
+####################
+# PLUGINS
+####################
+for.plugin.core.description=林业核心组件，是其他组件的前置组件。
+for.plugin.apiculture.description=添加蜜蜂，养蜂系统和蜜蜂产物的组件，会影响世界生成。
+for.plugin.arboriculture.description=添加更多树木以及相关产物的组件。
+for.plugin.energy.description=添加一些使用RF能量的引擎的组件。
+for.plugin.factory.description=添加各种各样的机器，以合成，生产和加工各种产品的组件。
+for.plugin.farming.description=添加了自动化农场和收获设备的组件，可以产出各种各样的产物。
+for.plugin.food.description=添加食物的组件。
+for.plugin.lepidopterology.description=蝴蝶组件。璀璨夺目。
+for.plugin.mail.description=添加林业交易和邮寄系统的组件。
+for.plugin.storage.description=添加背包和板条箱的组件。
+
+for.plugin.buildcraft6.description=BC6兼容组件。
+for.plugin.pipes.description=如果同时安装了BC6且养蜂组件已激活，则添加养蜂员管道的组件。
+for.plugin.ic2.description=IC2兼容组件。添加电力引擎和新的发电机用来进行能源转换。
+for.plugin.natura.description=Natura兼容组件。激活后农场能够支持Natura的树苗。
+for.plugin.ee2.description=等价交换2兼容组件。激活后开启蜜蜂的终结分支。需要前置的养蜂组件激活。
+for.plugin.farmcraftory.description=牧场物语FarmCraftory兼容组件。添加作物和蔬菜的自动化农场支持。
+
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
 ###################################
@@ -1298,3 +1319,38 @@ item.PipeItemsPropolis.name=养蜂员管道
 # Examples:
 # for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
 # for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
+
+###################################
+# CUSTOM ALLELE ADJECTIVES
+###################################
+# Replaces for.gui.<adjective>
+#
+# Syntax:
+# for.gui.<category>.<adjective>=New custom adjective
+#
+# Available categories and [adjectives]:
+# speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
+# maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
+#
+# size: 		[smallest, smaller, average, large, larger, largest]
+# height: 		[smallest, smaller, average, large, larger, largest, gigantic]
+# territory:	[average, large, larger, largest]
+#
+# saplings: 	[lowest, lower, low, average, high, higher, highest]
+# yield: 		[lowest, lower, low, average, high, higher, highest]
+# sappiness:	[lowest, lower, low, average, high, higher, highest]
+#
+# Examples:
+# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
+# for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
+# for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
+
+###################################
+# CUSTOM TOOLTIPS
+###################################
+# Available custom tooltips:
+# for.tooltip.worker.<speed adjective> for bee worker speed.
+#
+# Example:
+# for.tooltip.worker.slowest=Slowest Worker
