@@ -26,10 +26,19 @@ for.chat.plugins.error=해당 플러그인(%s)에 관한 정보가 존재하지 
 for.chat.version=마인크래프트 %2$s를 위한 포레스트리 %1$s버전이 나왔습니다.(최신 버전: %3$s).
 
 for.circuit.dampener.1=Fire Dampener
+for.circuit.dampener.1.description.1=Reduces maximum output to 10 RF/t
+for.circuit.dampener.1.description.2=Preserves fuel output
 for.circuit.electric.boost.1=출력 폭주 I
+for.circuit.electric.boost.1.description.1=Increases output by 20 RF/t
+for.circuit.electric.boost.1.description.2=Increases intake by 7 EU/t
 for.circuit.electric.boost.2=출력 폭주 II
+for.circuit.electric.boost.2.description.1=Increases output by 40 RF/t
+for.circuit.electric.boost.2.description.2=Increases intake by 15 EU/t
 for.circuit.electric.choke.1=전력 소모 감소
+for.circuit.electric.choke.1.description.1=Reduces ouput by 10 RF/t
+for.circuit.electric.choke.1.description.2=Reduces intake by 2 EU/t
 for.circuit.electric.efficiency.1=전력 효율 상승
+for.circuit.electric.efficiency.1.description.1=Reduces intake by 1 EU/t
 for.circuit.usage.engineTin=전기 엔진 전용
 
 for.errors.circuitMismatch.desc=크기 부적절
@@ -67,7 +76,17 @@ for.errors.noResource.help=작업을 하기엔 자원이 부족합니다.
 for.errors.noSky.desc=위가 막힘
 for.errors.noSky.help=양봉기 위가 막혀 있습니다. 
 for.errors.noSpace.desc=공간 부족
-for.errors.noSpace.help=기계의 인벤토리를 비워 주십시오. 
+for.errors.noSpace.help=기계의 인벤토리를 비워 주십시오.
+for.errors.noStamps.desc=Need Stamps
+for.errors.noStamps.help=A trade station requires stamps to pay postage. This one has run out of them.		+for.errors.noStamps.help=The trade station requires more stamps to pay postage.
+for.errors.noPaper.desc=Need Paper
+for.errors.noPaper.help=The trade station requires more paper to send letters.
+for.errors.noStampsNoPaper.desc=Need Stamps, Paper
+for.errors.noStampsNoPaper.help=The trade station requires more stamps and paper to send letters.
+for.errors.noSupplies.desc=Need Supplies
+for.errors.noSupplies.help=The trade station requires more supplies to send.
+for.errors.noTrade.desc=No Trade Set
+for.errors.noTrade.help=The trade station requires items to Send and Receive.
 for.errors.noSpecimen.desc=분석할 것이 없습니다
 for.errors.noSpecimen.help=분석을 시작하려면 샘플을 공급해 주십시오. 
 for.errors.noStamps.desc=우표 부족
@@ -125,7 +144,7 @@ for.gui.alyzer.extinct=멸종
 for.gui.alyzer.nodescription=마인크래프트 대백과백과사전에서 해당 벌에 관한 정보를 찾지 못하였습니다.
 for.gui.alyzer.overview=Analytics available
 
-for.gui.area=범위
+for.gui.area=지역
 for.gui.arid=건조
 for.gui.average=평균
 for.gui.beach=해변
@@ -157,7 +176,7 @@ for.gui.beealyzer.tolerance.up5=+5
 for.gui.beealyzer=벌 분석기
 
 for.gui.blank=내용없음
-for.gui.cave=동굴
+for.gui.cave=동굴 생활
 for.gui.climate=환경
 for.gui.closetosearch=close to search
 for.gui.cold=냉대기후
@@ -183,7 +202,7 @@ for.gui.fastest=광속
 for.gui.fecundated=교배됨
 for.gui.fertility=번식력
 for.gui.fireresist=불연성
-for.gui.flowers=꽃
+for.gui.flowers=꽃 종류
 for.gui.flyer=우천활동
 for.gui.general=개체 정보
 for.gui.gigantic=초거대
@@ -214,12 +233,14 @@ for.gui.lower=더 낮음
 for.gui.lowest=낮음
 
 for.gui.mail.foreveryattached=동봉된 이 아이템으로
-for.gui.mail.from=보내는 사람
+for.gui.mail.from=from
 for.gui.mail.nametrader=이 거래소의 이름을 지어 주세요.
 for.gui.mail.nothingtotrade=이 거래소에는 거래할 것이 없습니다.
 for.gui.mail.notrader=그 이름은 사용하실 수 있습니다.
 for.gui.mail.pleasesend=다음 아이템을 구입하겠습니다
-for.gui.mail.to=받는 사람
+for.gui.mail.to=to
+for.gui.mail.receive=수신
+for.gui.mail.send=발신
 
 for.gui.maxenergy=최대 전력
 for.gui.maxenergyreceive=최대 입력
@@ -273,7 +294,7 @@ for.gui.smaller=더 작음
 for.gui.smallest=가장 작음
 for.gui.species=종
 for.gui.speciescount=종
-for.gui.speed=속도
+for.gui.speed=생산속도
 for.gui.stored=저장 전력
 for.gui.temperature=온도
 for.gui.temptol=온도 적응력
@@ -305,14 +326,14 @@ for.hints.cooldownloss.tag=Cooldown means energy loss!
 for.hints.crating.desc=Main task of carpenters is the compression of your surplus resources. Many bulk blocks and items can be packaged into crates.
 for.hints.crating.tag=Crate your Surplus!
 for.hints.energybuffer.desc=엔진s are capable of buffering a lesser amount of energy if it cannot be transmitted to the target.
-for.hints.energybuffer.tag=Buffering Energy!
-for.hints.energyunit.desc=An engine's energy output is measured in MJ/t, which stands for "Minecraft Joule per tick". Each second has 20 ticks.
+for.hints.energyunit.tag=Say Redstone Flux!
+for.hints.energyunit.desc=An engine's energy output is measured in RF/t, which stands for "Redstone Flux per tick". Each second has 20 ticks.
 for.hints.energyunit.tag=Say Minecraft Joule!
 for.hints.enginebronzefuels.desc=You can use a wide variety of fuels for your biogas engine: Biomass, seed oil, honey, milk and even water!
 for.hints.enginebronzefuels.tag=Use all the fuels!
 for.hints.enginebronzeheatloss.desc=Though you can use water in a biogas engine, it is terribly inefficient and will constantly consume lava.
 for.hints.enginebronzeheatloss.tag=Careful with water!
-for.hints.enginebronzeoutput.desc=Different fuels will net you different energy outputs in a biogas engine. Outputs range from 1 MJ/t to 5 MJ/t.
+for.hints.enginebronzeoutput.desc=for.hints.enginebronzeoutput.desc=Different fuels will net you different energy outputs in a biogas engine. Outputs range from 10 RF/t to 50 RF/t.
 for.hints.enginebronzeoutput.tag=Choose your fuel!
 for.hints.enginebronzewaste.desc=Contrary to peat-fired engines disabled biogas engines will not waste the biomass currently in the system.
 for.hints.enginebronzewaste.tag=Fuel is conserved.
@@ -322,7 +343,7 @@ for.hints.enginecopperwaste.desc=Disabled peat-fired engines continue to burn pe
 for.hints.enginecopperwaste.tag=Beware wasting energy!
 for.hints.enginetinbatteries.desc=You can use batteries to run your electrical engines without needing to wire them up.
 for.hints.enginetinbatteries.tag=Charge those batteries!
-for.hints.enginetinchoke.desc=Electrical engines can be outfitted with circuit boards to choke their power output to 1 MJ/t and also reduce their energy demand.
+for.hints.enginetinchoke.desc=Electrical engines can be outfitted with circuit boards to choke their power output to 10 RF/t and also reduce their energy demand.
 for.hints.enginetinchoke.tag=Regulate Output
 for.hints.flowerjungle.desc=졍글 flowers are ferns or vines.
 for.hints.flowerjungle.tag=What's a jungle flower?
@@ -644,6 +665,7 @@ tile.for.resources.2.name=주석 광석
 
 tile.for.soil.0.name=부엽토
 tile.for.soil.1.name=퇴적토
+tile.for.soil.2.name=Peat
 
 tile.for.stained.0=흰색 색유리
 tile.for.stained.1=주황색 색유리
@@ -917,13 +939,15 @@ for.growth.normal=빛
 for.growth.tropical=열대 기후
 
 for.trees.grammar.blossom.type=Blossom
-for.trees.grammar.blossom=%SPECIES %TYPE
+for.trees.grammar.blossom=%SPECIES %종
 for.trees.grammar.germling.type=Germling
-for.trees.grammar.germling=%SPECIES %TYPE
+for.trees.grammar.germling=%SPECIES %종
 for.trees.grammar.pollen.type=Pollen
-for.trees.grammar.pollen=%SPECIES %TYPE
-for.trees.grammar.sapling.type=Sapling
-for.trees.grammar.sapling=%SPECIES %TYPE
+for.trees.grammar.pollen=%SPECIES %종
+for.trees.grammar.sapling.type=묘목
+for.trees.grammar.sapling=%SPECIES %종
+for.trees.grammar.leaves.type=애벌래
+for.trees.grammar.leaves=%SPECIES %종
 
 for.trees.hybrid=%PRIMARY-%SECONDARY 혼혈
 
@@ -1013,7 +1037,7 @@ tile.for.log.20.name=Pine 원목
 tile.for.log.21.name=자두 원목
 tile.for.log.22.name=단풍나무 원목
 tile.for.log.23.name=오렌지나무 원목
-tile.for.log.24.name=기간텐 원목
+tile.for.log.24.name=큰 가문비 원목
 
 tile.for.planks.0.name=낙엽송 목재
 tile.for.planks.1.name=티크 목재
@@ -1090,9 +1114,9 @@ tile.for.stairs.21.name=자두 계단
 tile.for.stairs.22.name=단풍나무 계단
 tile.for.stairs.23.name=오렌지나무 계단
 
-tile.for.saplingGE.0.name=알수없는 묘목
+tile.for.saplingGE.0.name=묘목
 tile.for.leaves.0.name=잎
-tile.for.pods.0.name=코코아 꼬투리
+tile.for.pods.0.name=꼬투리
 
 ####################
 # FARMING
@@ -1122,6 +1146,7 @@ for.errors.noFertilizer.help=농장은 비료를 필요로 합니다. 퇴비로�
 for.errors.noLiquid.desc=물 부족
 for.errors.noLiquid.help=여러 농장들은 다양한 양의 수분을 필요로 합니다. 필요한 수분의 양은 최근에 온 비, 온도, 습도에 따라 달라집니다. 
 
+for.gui.farm.title=농장
 for.gui.hydr.heat=열 조종치
 for.gui.hydr.humid=습도 조종치
 for.gui.hydr.overall=총합
