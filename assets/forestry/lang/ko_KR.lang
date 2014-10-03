@@ -333,7 +333,7 @@ for.hints.enginebronzefuels.desc=You can use a wide variety of fuels for your bi
 for.hints.enginebronzefuels.tag=Use all the fuels!
 for.hints.enginebronzeheatloss.desc=Though you can use water in a biogas engine, it is terribly inefficient and will constantly consume lava.
 for.hints.enginebronzeheatloss.tag=Careful with water!
-for.hints.enginebronzeoutput.desc=for.hints.enginebronzeoutput.desc=Different fuels will net you different energy outputs in a biogas engine. Outputs range from 10 RF/t to 50 RF/t.
+for.hints.enginebronzeoutput.desc=Different fuels will net you different energy outputs in a biogas engine. Outputs range from 10 RF/t to 50 RF/t.
 for.hints.enginebronzeoutput.tag=Choose your fuel!
 for.hints.enginebronzewaste.desc=Contrary to peat-fired engines disabled biogas engines will not waste the biomass currently in the system.
 for.hints.enginebronzewaste.tag=Fuel is conserved.
@@ -939,15 +939,15 @@ for.growth.normal=빛
 for.growth.tropical=열대 기후
 
 for.trees.grammar.blossom.type=Blossom
-for.trees.grammar.blossom=%SPECIES %종
+for.trees.grammar.blossom=%SPECIES %TYPE
 for.trees.grammar.germling.type=Germling
-for.trees.grammar.germling=%SPECIES %종
+for.trees.grammar.germling=%SPECIES %TYPE
 for.trees.grammar.pollen.type=Pollen
-for.trees.grammar.pollen=%SPECIES %종
+for.trees.grammar.pollen=%SPECIES %TYPE
 for.trees.grammar.sapling.type=묘목
-for.trees.grammar.sapling=%SPECIES %종
+for.trees.grammar.sapling=%SPECIES %TYPE
 for.trees.grammar.leaves.type=애벌래
-for.trees.grammar.leaves=%SPECIES %종
+for.trees.grammar.leaves=%SPECIES %TYPE
 
 for.trees.hybrid=%PRIMARY-%SECONDARY 혼혈
 
