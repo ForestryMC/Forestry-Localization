@@ -5,7 +5,7 @@
 ####################
 
 death.engine.clockwork.player=%1$s 이(가) 튀어나온 용수철에 맞아 세상을 떠났습니다. 조악한 품질로 이 기계를 제작한 %2$s는(은) 비난 받아 마땅합니다.
-death.engine.clockwork=%1$s는(은) 느슨한 스프링에 찔렸습니다.
+death.engine.clockwork=%1$s는(은) 느슨하게 풀린 스프링에 찔렸습니다.
 
 for.beverage.effect.alcoholic=만취
 for.beverage.effect.antidote=해독
@@ -13,50 +13,50 @@ for.beverage.effect.antidote=해독
 for.chat.accesslocked=%s님이 자신을 제외한 다른 사람의 사용을 막으셨습니다. 
 for.chat.cannotmemorizeagain=이미 알고 있는 정보입니다.
 
-for.chat.command.help.0=방식: '/%s <command> <arguments>'
+for.chat.command.help.0=사용방식: '/%s <command> <arguments>'
 for.chat.command.help.1=사용가능한 명령어:
 for.chat.command.help.2=- version : 포레스트리 버전 정보
 for.chat.command.help.3=- plugins : 포레스트리의 플러그인 리스트
 for.chat.command.help.4=- plugins info <플러그인 이름>: information on plugin.
 for.chat.command.noperms=당신은 이 명령어를 사용할수 있는 권한이 없습니다.
 
-for.chat.help=Type '%s' for help.
+for.chat.help='%s'에 관한 도움.
 for.chat.memorizednote=내용을 완전히 외우고 당신은 비밀이 새어나가는걸 막기 위해 이 종이를 버렸습니다.
-for.chat.plugins.error=해당 플러그인(%s)에 관한 정보가 존재하지 않습니다.
-for.chat.version=마인크래프트 %2$s를 위한 포레스트리 %1$s버전이 나왔습니다.(최신 버전: %3$s).
+for.chat.plugins.error=해당 플러그인[ %s ]에 관한 정보가 존재하지 않습니다.
+for.chat.version=마인크래프트 %2$s버전 포레스트리 %1$s버전이 나왔습니다.(최신 버전: %3$s).
 
-for.circuit.dampener.1=Fire Dampener
-for.circuit.dampener.1.description.1=Reduces maximum output to 10 RF/t
-for.circuit.dampener.1.description.2=Preserves fuel output
+for.circuit.dampener.1=과열완충
+for.circuit.dampener.1.description.1=10 RF/t만큼 최대출력 감소
+for.circuit.dampener.1.description.2=연료 출력 보존
 for.circuit.electric.boost.1=출력 폭주 I
-for.circuit.electric.boost.1.description.1=Increases output by 20 RF/t
-for.circuit.electric.boost.1.description.2=Increases intake by 7 EU/t
+for.circuit.electric.boost.1.description.1=20 RF/t만큼 출력 증가
+for.circuit.electric.boost.1.description.2=7 EU/t만큼 사용량 증가
 for.circuit.electric.boost.2=출력 폭주 II
-for.circuit.electric.boost.2.description.1=Increases output by 40 RF/t
-for.circuit.electric.boost.2.description.2=Increases intake by 15 EU/t
+for.circuit.electric.boost.2.description.1=40 RF/t만큼 출력 증가
+for.circuit.electric.boost.2.description.2=15 EU/t만큼 사용량 증가
 for.circuit.electric.choke.1=전력 소모 감소
-for.circuit.electric.choke.1.description.1=Reduces ouput by 10 RF/t
-for.circuit.electric.choke.1.description.2=Reduces intake by 2 EU/t
+for.circuit.electric.choke.1.description.1=10 RF/t만큼 전력소모 감소
+for.circuit.electric.choke.1.description.2=2 EU/t만큼 사용량 감소
 for.circuit.electric.efficiency.1=전력 효율 상승
-for.circuit.electric.efficiency.1.description.1=Reduces intake by 1 EU/t
+for.circuit.electric.efficiency.1.description.1=1 EU/t만큼 사용량 감소
 for.circuit.usage.engineTin=전기 엔진 전용
 
 for.errors.circuitMismatch.desc=크기 부적절
 for.errors.circuitMismatch.help=해당 회로판은 이 숫자의 관들을 수용할 수 없습니다.
-for.errors.forcedCooldown.desc=Forced Cooldown
+for.errors.forcedCooldown.desc=강제냉각
 for.errors.forcedCooldown.help=엔진이 과열되었습니다. 냉각 중입니다.
 for.errors.invalidBiome.desc=부적절한 환경
 for.errors.invalidBiome.help=이 기계나 이 벌들은 이 환경에서 살아갈 수 없습니다.
 for.errors.isRaining.desc=비
 for.errors.isRaining.help=비가 오지 않아야 작동합니다.
-for.errors.noCircuitBoard.desc=회로 기판 실종
-for.errors.noCircuitBoard.help=회로 기판에 진공관을 설치하세요.
+for.errors.noCircuitBoard.desc=회로기판 실종
+for.errors.noCircuitBoard.help=회로기판에 진공관을 설치하세요.
 for.errors.noDisposal.desc=폐기물 처리 불가
 for.errors.noDisposal.help=폐기물을 저장할 공간이 부족합니다.
 for.errors.noDrone.desc=일벌이 없음
 for.errors.noDrone.help=일벌이 없으면 교매를 할 수 없습니다. 
 for.errors.noEnergyNet.desc=전력(EU) 부재
-for.errors.noEnergyNet.help=이 세계에는 EU라는 전력 개념이 없습니다. (인더스트리얼크래프트2 를 설치하세요\u00b2.)
+for.errors.noEnergyNet.help=이 세계에는 EU라는 전력 개념이 없습니다. (IndustrialCraft2 를 설치하세요\u00b2.)
 for.errors.noFlower.desc=꽃이 주변에 없음
 for.errors.noFlower.help=일벌들이 적절한 꽃을 찾지 못하고 있습니다.
 for.errors.noFuel.desc=연료 부족
@@ -77,15 +77,15 @@ for.errors.noSky.desc=위가 막힘
 for.errors.noSky.help=양봉기 위가 막혀 있습니다. 
 for.errors.noSpace.desc=공간 부족
 for.errors.noSpace.help=기계의 인벤토리를 비워 주십시오.
-for.errors.noStamps.desc=Need Stamps
+for.errors.noStamps.desc=스탬프 필요
 for.errors.noStamps.help=A trade station requires stamps to pay postage. This one has run out of them.		+for.errors.noStamps.help=The trade station requires more stamps to pay postage.
-for.errors.noPaper.desc=Need Paper
+for.errors.noPaper.desc=종이 필요
 for.errors.noPaper.help=The trade station requires more paper to send letters.
 for.errors.noStampsNoPaper.desc=Need Stamps, Paper
 for.errors.noStampsNoPaper.help=The trade station requires more stamps and paper to send letters.
-for.errors.noSupplies.desc=Need Supplies
+for.errors.noSupplies.desc=공급 필요
 for.errors.noSupplies.help=The trade station requires more supplies to send.
-for.errors.noTrade.desc=No Trade Set
+for.errors.noTrade.desc=트레이드 설정이 되지않았습니다.
 for.errors.noTrade.help=The trade station requires items to Send and Receive.
 for.errors.noSpecimen.desc=분석할 것이 없습니다
 for.errors.noSpecimen.help=분석을 시작하려면 샘플을 공급해 주십시오. 
@@ -381,7 +381,7 @@ for.item.crated.unknown=정체불명의 아이템을 담고 있는 상자
 
 for.layout.engine.tin=전기 엔진
 
-for.no=No
+for.no=아니오
 
 for.researchNote.chance.highest=가장 높음
 for.researchNote.chance.higher=더 높음
@@ -394,13 +394,13 @@ for.researchNote.error.1=The note has become unreadable and is worthless.
 for.researchNote.discovered.0=§aSpecies를 연구했습니다!
 for.researchNote.discovered.1=§e'%1$s'§7 (%2$s)
 for.researchNote.discovery.0=새로운 돌연변이 §aMutation를 발견했습니다!
-for.researchNote.discovery.1=§e'%SPEC1'§7 and §e'%SPEC2'§7.
-for.researchNote.discovery.2=Chance for success is §9%s§7.
-for.researchNote.discovery.3=새로운 종! §d'%s'§7.
+for.researchNote.discovery.1=§e'%SPEC1'§7 와 §e'%SPEC2'§7.
+for.researchNote.discovery.2=§9%s§7의 힌트를 발견했습니다..
+for.researchNote.discovery.3=§d'%s'§7라는 새로운종 발견!.
 
 for.storage.backpack.mode.locked=(잠겨있음)
 for.storage.backpack.mode.receiving=(받고있음)
-for.storage.backpack.mode.resupply=(보금받음)
+for.storage.backpack.mode.resupply=(보급받음)
 
 for.trigger.hasMail=새 편지가 도착했습니다.
 for.trigger.hasWork=작업이 존재합니다.
@@ -409,7 +409,7 @@ for.trigger.lowGermlings=발아체 부족
 for.trigger.lowInput=입력 조
 for.trigger.lowPaper=종이 부족
 for.trigger.lowResources=자원 부족
-for.trigger.low스탬프s=우표 부족
+for.trigger.lowStamps=우표 부족
 for.trigger.mailBuffer=버퍼
 for.trigger.missingDrone=일벌이 없음
 for.trigger.missingQueen=공주벌이나 여왕벌이 없음
@@ -417,7 +417,7 @@ for.trigger.noFrames=프레임 없음
 
 for.usage.engine.tin=전기 엔진 전용
 
-for.yes=Yes
+for.yes=네
 
 item.for.adventurerBag.name=모험가의 가방
 item.for.adventurerBagT2.name=모험가의 실크 가방
@@ -557,8 +557,8 @@ item.for.peat.name=토탄
 item.for.phosphor.name=인
 item.for.pipette.name=피펫
 
-item.for.pollen.crystalline.name=얼어붙은 화분
-item.for.pollen.normal.name=화분
+item.for.pollen.crystalline.name=수정같은 화분뭉치
+item.for.pollen.normal.name=화분뭉치
 
 item.for.propolis.normal.name=프로폴리스
 item.for.propolis.pulsating.name=맥동하는 프로폴리스
@@ -821,7 +821,7 @@ for.description.speciesNoble="세상에서 벌을 기르는 것보다 더 고귀
 for.description.speciesOmega="나는 알파와 오메가요, 처음이자 나중이고, 시작과 끝이니라"|파히마르 (양봉업자)
 for.description.speciesPhantasmal="무슨 짓을 하던, 크.. 어떤 일을 하던.. 맹세하게... 쿨럭.. 절때로... 절때로.. 드래곤 알을.. 놓치지...커헉!" |셍기르 "경" 의 유언
 for.description.speciesReddened=굉장히 많은 양의 마술적 재료가 필요하지만, 이들 한 줌만으로 이 세계가 사용하는 전력을 전부 생산할 수 있다는게 경이롭다. |양봉가의 백과사전
-for.description.speciesRural="Rain in May promises much hay."|미스터리어스에이지스, rural 양봉가
+for.description.speciesRural="5월에 오는 비는 밀을 잘자라게하지."|미스터리어스에이지스, 시골 양봉가
 for.description.speciesSecluded="사막의 벌과 교배하는건 크나큰 실수였다. 내 벌은 이제 벌통에서 나와 날 보려 하지도 않는다.."|양봉학 입문서
 for.description.speciesSinister=대부분의 벌은 지옥의 가혹한 환경에서 살아남을 수 없습니다. 하지만, 살아남는 몇몇은 환경에 맞춰 험악하게 변한다고 합니다.|양봉학 입문서
 for.description.speciesSpectral="살아 있는지도 알수 없었으나, 내 손바닥 위의 그 벌은 분명히 빛나고 있었다. 힘찬 박동이 느껴졌으나, 기쁨 대신 오히려 나는 식은땀을 흘렸다. 세계가 어두워졌고, 주변이 갑자기 차가워졌다. 그리고 내 뒤에 있던 뼈 무더기가 들썩이기 시작했다.."|양봉학 입문서
@@ -837,17 +837,17 @@ for.description.speciesWintry=설원의 가혹한 환경에서 단련된 벌들�
 for.genus.bees.agrarian=Agrarian
 for.genus.bees.austere=Austere
 for.genus.bees.boggy=Boggy
-for.genus.bees.common=평범한
-for.genus.bees.end=End
+for.genus.bees.common=커먼
+for.genus.bees.end=엔드
 for.genus.bees.festive=Festive
-for.genus.bees.frozen=얼어붙은
-for.genus.bees.heroic=영웅적인
-for.genus.bees.industrious=근면한
-for.genus.bees.infernal=지옥의
-for.genus.bees.monastic=Monastic
-for.genus.bees.noble=고귀한
+for.genus.bees.frozen=프로즌
+for.genus.bees.heroic=히어로닉
+for.genus.bees.industrious=인더스트리얼
+for.genus.bees.infernal=인페르노
+for.genus.bees.monastic=모네스틱
+for.genus.bees.noble=노블
 for.genus.bees.reddened=Reddened
-for.genus.bees.tropical=열대
+for.genus.bees.tropical=트로피컬
 for.genus.bees.vengeful=승리의
 
 tile.for.alveary.0.name=알베어리
@@ -938,11 +938,11 @@ for.gui.yield=열매 양
 for.growth.normal=빛
 for.growth.tropical=열대 기후
 
-for.trees.grammar.blossom.type=Blossom
+for.trees.grammar.blossom.type=꽃
 for.trees.grammar.blossom=%SPECIES %TYPE
-for.trees.grammar.germling.type=Germling
+for.trees.grammar.germling.type=발아체
 for.trees.grammar.germling=%SPECIES %TYPE
-for.trees.grammar.pollen.type=Pollen
+for.trees.grammar.pollen.type=화분
 for.trees.grammar.pollen=%SPECIES %TYPE
 for.trees.grammar.sapling.type=묘목
 for.trees.grammar.sapling=%SPECIES %TYPE
@@ -1285,18 +1285,60 @@ item.for.catalogue.name=카탈로그
 
 item.PipeItemsPropolis.name=양봉업자의 파이프
 
+####################
+# PLUGINS
+####################
+for.plugin.core.description=Core mechanics for Forestry. Required by all other plugins.
+for.plugin.apiculture.description=Adds bees, beekeeping and bee products. Affects world generation.
+for.plugin.arboriculture.description=Adds additional tree species and products.
+for.plugin.energy.description=Adds several RF engines.
+for.plugin.factory.description=Adds a wide variety of machines to craft, produce and process products.
+for.plugin.farming.description=Adds automatic farms and harvesters for a wide variety of products.
+for.plugin.food.description=Adds food.
+for.plugin.lepidopterology.description=Butterflies. Shiny.
+for.plugin.mail.description=Adds Forestry's mail and trade system.
+for.plugin.storage.description=Adds backpacks and crates.
+
+for.plugin.buildcraft6.description=Compatibility plugin for BuildCraft 6.
+for.plugin.pipes.description=Adds the apiarist's pipe for beekeeping if apiculture is enabled and BuildCraft 6 is present.
+for.plugin.ic2.description=Compatibility plugin for IC2. Adds electrical engine and generator for power conversion.
+for.plugin.natura.description=Compatibility plugin for Natura. Enables farming Natura saplings.
+for.plugin.ee2.description=Compatibility plugin for Equivalent Exchange 2. Enables the Omega branch of bees. Requires Apiculture to be enabled.
+for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Adds crops and vegetables to farms.
+
+
 ###################################
-# CUSTOM BEE AND TREE SPECIES NAMES
+# CUSTOM ALLELE ADJECTIVES
 ###################################
+# Replaces for.gui.<adjective>
+#
 # Syntax:
-# for.bees.custom.<type>.<species>=New custom bee name
-# for.trees.custom.<type>.<species>=New custom tree name
+# for.gui.<category>.<adjective>=New custom adjective
+#
+# Available categories and [adjectives]:
+# speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
+# maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
+#
+# size: 		[smallest, smaller, average, large, larger, largest]
+# height: 		[smallest, smaller, average, large, larger, largest, gigantic]
+# territory:	[average, large, larger, largest]
+#
+# saplings: 	[lowest, lower, low, average, high, higher, highest]
+# yield: 		[lowest, lower, low, average, high, higher, highest]
+# sappiness:	[lowest, lower, low, average, high, higher, highest]
+#
 # Examples:
-# for.bees.custom.drone.forest=Forest Drone
-# for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
-# Beealyzer/Treealyzer syntax:
-# for.bees.custom.beealyzer.<type>.<species>=New custom bee species name
-# for.trees.custom.treealyzer.<type>.<species>=New custom tree species name
-# Examples:
-# for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
-# for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
+# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
+# for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
+# for.gui.yield.low=New custom adjective for low yield, replacing for.gui.lowh
+
++
++###################################
++# CUSTOM TOOLTIPS
++###################################
++# Available custom tooltips:
++# for.tooltip.worker.<speed adjective> for bee worker speed.
++#
++# Example:
++# for.tooltip.worker.slowest=Slowest Worker
