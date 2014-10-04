@@ -1305,6 +1305,21 @@ for.plugin.natura.description=Compatibility plugin for Natura. Enables farming N
 for.plugin.ee2.description=Compatibility plugin for Equivalent Exchange 2. Enables the Omega branch of bees. Requires Apiculture to be enabled.
 for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Adds crops and vegetables to farms.
 
+###################################
+# CUSTOM BEE AND TREE SPECIES NAMES
+###################################
+# Syntax:
+# for.bees.custom.<type>.<species>=New custom bee name
+# for.trees.custom.<type>.<species>=New custom tree name
+# Examples:
+# for.bees.custom.drone.forest=Forest Drone
+# for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
+# Beealyzer/Treealyzer syntax:
+# for.bees.custom.beealyzer.<type>.<species>=New custom bee species name
+# for.trees.custom.treealyzer.<type>.<species>=New custom tree species name
+# Examples:
+# for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
+# for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
 
 ###################################
 # CUSTOM ALLELE ADJECTIVES
