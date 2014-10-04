@@ -479,8 +479,8 @@ item.for.carton.name=纸板箱
 
 item.for.circuitboard.basic.name=小型电子板
 item.for.circuitboard.enhanced.name=中型电子板
+item.for.circuitboard.intricate.name=先进电子板
 item.for.circuitboard.refined.name=大型电子板
-item.for.ircuitboard.intricate.name=先进电子板
 
 item.for.craftingMaterial.dissipationCharge.name=驱云电荷
 item.for.craftingMaterial.iceShard.name=碎冰
@@ -863,7 +863,7 @@ tile.for.apiculture.1.name=养蜂人箱子
 tile.for.apiculture.2.name=简易蜂房
 
 tile.for.beehives.1.name=森林蜂巢
-tile.for.beehives.2.name草地蜂巢
+tile.for.beehives.2.name=草地蜂巢
 tile.for.beehives.3.name=温和蜂巢
 tile.for.beehives.4.name=热带蜂巢
 tile.for.beehives.5.name=末影蜂巢
