@@ -1232,8 +1232,8 @@ for.butterflies.species.saturniidae.atlas=Atlas Moth
 
 for.gui.flutterlyzer=나비 분석기
 for.gui.flutterlyzer.help=Supply butterfly and provide honey or honeydew as a pacifier.
-for.gui.loot.butterfly=Possible Butterfly Loot
-for.gui.loot.caterpillar=Possible Caterpillar Loot
+for.gui.loot.butterfly=추정되는 나비 부산물
+for.gui.loot.caterpillar=추정되는 애벌레 부산물
 
 for.lepidopterology.effect.none=없음
 
@@ -1247,35 +1247,34 @@ tile.for.lepidopterology.0.name=인시류학자의 가방
 # MAIL
 ####################
 
-for.chat.mail.already_mailed=Cannot resend letter.
-for.chat.mail.command.help.0=Format: '/%s <command> <arguments>'
-for.chat.mail.command.help.1=Available commands:
-for.chat.mail.command.help.2=- trades : A list of all trade stations.
+for.chat.mail.already_mailed=편지를 재발송하실 수 없습니다
+for.chat.mail.command.help.0=사용방식: '/%s <command> <arguments>'
+for.chat.mail.command.help.1=사용가능 명령어:
+for.chat.mail.command.help.2=- trades : 모든 교환소의 물품을 보여줍니다.
 for.chat.mail.command.help.3=- virtualize <tradestation-name>: Toggle virtual mode on specified trade station.
 for.chat.mail.command.no_tradestation=No tradestation by the name of '%s' was found.
 
-for.chat.mail.insufficient_buffer=Trade station is full.
-for.chat.mail.insufficient_offer=Trade station demands more.
-for.chat.mail.insufficient_paper=Trade station ran out of paper.
-for.chat.mail.insufficient_stamps=Trade station ran out of stamps.
-for.chat.mail.insufficient_trade_good=Trade station has run out of supplies.
-for.chat.mail.mailbox_full=Recipient's mailbox is full.
-for.chat.mail.not_mailable=Letter is not sendable.
-for.chat.mail.not_postpaid=Letter is not sufficiently stamped.
-for.chat.mail.no_mailbox=Recipient has no mailbox.
-for.chat.mail.ok=Trade is available.
-for.chat.mail.response_not_mailable=Trade station cannot send the response letter. You need to have a mailbox to deliver to.
-for.chat.mail.wrongstacksize=Can only write one letter at a time.
+for.chat.mail.insufficient_buffer=거래소에 공간이 없습니다.
+for.chat.mail.insufficient_offer=공정한 거래가 아닙니다. -거래소
+for.chat.mail.insufficient_paper=죄송합니다 편지지가 다 떨어졌습니다. -거래소
+for.chat.mail.insufficient_stamps=죄송합니다 우표가 다 떨어졌습니다. -거래소
+for.chat.mail.insufficient_trade_good=죄송합니다 물건이 다 떨어졌습니다. -거래소
+for.chat.mail.mailbox_full=수신자의 편지함이 꽉 찼습니다.
+for.chat.mail.not_mailable=이 편지는 보내실 수 없습니다.
+for.chat.mail.not_postpaid=편지에 우표가 부족하비낟.
+for.chat.mail.no_mailbox=수신자가 편지함을 가지고 있지 않습니다. 왜죠?
+for.chat.mail.ok=거래가 가능합니다
+for.chat.mail.response_not_mailable=거래소에서 거래 확정 편지를 보낼 수 없다고 합니다. 편지함 하나 장만하세요.
 
 for.gui.mail.address.copy=사용
-for.gui.mail.catalogue.close=Close
+for.gui.mail.catalogue.close=닫기
 for.gui.mail.catalogue.trade=교환
-for.gui.mail.filter.all=All
+for.gui.mail.filter.all=모두
 for.gui.mail.filter.offline=오프라인
 for.gui.mail.filter.online=온라인
-for.gui.mail.notrades=No trades available.
+for.gui.mail.notrades=가능한 거래가 없습니다.
 for.gui.mail.tradefor=for
-for.gui.mail.willtrade=%s will trade
+for.gui.mail.willtrade=%s 가 다음과 같은 아이템을 팔고 있습니다:
 
 item.for.catalogue.name=카탈로그
 
