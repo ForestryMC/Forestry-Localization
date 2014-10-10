@@ -943,6 +943,8 @@ for.trees.grammar.pollen.type=花粉
 for.trees.grammar.pollen=%SPECIES%TYPE
 for.trees.grammar.sapling.type=树苗
 for.trees.grammar.sapling=%SPECIES%TYPE
+for.trees.grammar.leaves.type=树叶
+for.trees.grammar.leaves=%SPECIES%TYPE
 
 for.trees.hybrid=%PRIMARY-%SECONDARY杂交种
 
