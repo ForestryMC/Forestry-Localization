@@ -920,7 +920,8 @@ for.trees.grammar.germling=%SPECIES%TYPE
 for.trees.grammar.pollen.type=花粉
 for.trees.grammar.pollen=%SPECIES%TYPE
 for.trees.grammar.sapling.type=樹苗
-for.trees.grammar.sapling=%SPECIES%TYPE
+for.trees.grammar.leaves.type=樹葉
+for.trees.grammar.leaves=%SPECIES%TYPE
 
 for.trees.hybrid=%PRIMARY-%SECONDARY雜交種
 
