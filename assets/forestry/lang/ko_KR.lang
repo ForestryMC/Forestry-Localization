@@ -306,39 +306,39 @@ for.gui.water=물
 for.gui.worker=일벌
 
 for.hints.accesscontrol.desc=A machine's owner can set it to three different types of access: Shared, restricted or private.
-for.hints.accesscontrol.tag=Access Control
+for.hints.accesscontrol.tag=접근 제어
 for.hints.accesspipe.desc=A machine set to private will disallow any interaction with tubes or pipes.
 for.hints.accesspipe.tag=Restricted Pipe Access
 for.hints.accessrules.desc="Shared" access allows anyone to break the machine or interact with it. "Restricted" still allows interaction for anyone.
-for.hints.accessrules.tag=Access rules
+for.hints.accessrules.tag=접근 규칙
 for.hints.apiaristsuit.desc=A full apiarist's suit will protect you from all negative bee effects.
 for.hints.apiaristsuit.tag=Bee Suits!
 for.hints.beebiomes.desc=Bees only work in biomes that suit their species. Use your beealyzer and habitat locator to find out in which.
-for.hints.beebiomes.tag=Choose your biome!
+for.hints.beebiomes.tag=바이옴을 고르세요!
 for.hints.beebreeding.desc=Crossbreeding drones and princesses of different species may net you offspring with a new species.
-for.hints.beebreeding.tag=Breed your bees!
+for.hints.beebreeding.tag=벌을 교배하세요!
 for.hints.beeflowers.desc=Any bee will need some type of flower in the vicinity. Some rather mundane flowers, others very exotic ones.
-for.hints.beeflowers.tag=Bees need flowers
+for.hints.beeflowers.tag=벌은 꽃이 필요합니다!
 for.hints.beejubilance.desc=Only jubilant bees will produce their specialty. Make sure to have them in their preferred climate.
-for.hints.beejubilance.tag=Make your bee happy!
+for.hints.beejubilance.tag=벌을 행복하게 만들어주세요!
 for.hints.cooldownloss.desc=Engines going into forced cooldown will also lose a significant chunk of their stored energy.
 for.hints.cooldownloss.tag=Cooldown means energy loss!
 for.hints.crating.desc=Main task of carpenters is the compression of your surplus resources. Many bulk blocks and items can be packaged into crates.
 for.hints.crating.tag=Crate your Surplus!
 for.hints.energybuffer.desc=Engines are capable of buffering a lesser amount of energy if it cannot be transmitted to the target.
-for.hints.energyunit.tag=Say Redstone Flux!
+for.hints.energyunit.tag=레드스톤플럭스라 외쳐!
 for.hints.energyunit.desc=An engine's energy output is measured in RF/t, which stands for "Redstone Flux per tick". Each second has 20 ticks.
-for.hints.energyunit.tag=Say Minecraft Joule!
+for.hints.energyunit.tag=마인크래프트 쥴이라 외쳐!
 for.hints.enginebronzefuels.desc=You can use a wide variety of fuels for your biogas engine: Biomass, seed oil, honey, milk and even water!
-for.hints.enginebronzefuels.tag=Use all the fuels!
+for.hints.enginebronzefuels.tag=모든것은 연료죠!
 for.hints.enginebronzeheatloss.desc=Though you can use water in a biogas engine, it is terribly inefficient and will constantly consume lava.
 for.hints.enginebronzeheatloss.tag=Careful with water!
 for.hints.enginebronzeoutput.desc=Different fuels will net you different energy outputs in a biogas engine. Outputs range from 10 RF/t to 50 RF/t.
-for.hints.enginebronzeoutput.tag=Choose your fuel!
+for.hints.enginebronzeoutput.tag=연료를 입맛대로!
 for.hints.enginebronzewaste.desc=Contrary to peat-fired engines disabled biogas engines will not waste the biomass currently in the system.
 for.hints.enginebronzewaste.tag=Fuel is conserved.
 for.hints.enginecopperfuels.desc=Peat-fired engines can use untreated peat, but they can also use bituminous peat to double their energy output.
-for.hints.enginecopperfuels.tag=Use all the fuels!
+for.hints.enginecopperfuels.tag=모든연료를 사용!
 for.hints.enginecopperwaste.desc=Disabled peat-fired engines continue to burn peat already removed from the stash without generating energy from it.
 for.hints.enginecopperwaste.tag=Beware wasting energy!
 for.hints.enginetinbatteries.desc=You can use batteries to run your electrical engines without needing to wire them up.
@@ -346,9 +346,9 @@ for.hints.enginetinbatteries.tag=Charge those batteries!
 for.hints.enginetinchoke.desc=Electrical engines can be outfitted with circuit boards to choke their power output to 10 RF/t and also reduce their energy demand.
 for.hints.enginetinchoke.tag=Regulate Output
 for.hints.flowerjungle.desc=Jungle flowers are ferns or vines.
-for.hints.flowerjungle.tag=What's a jungle flower?
+for.hints.flowerjungle.tag=정글꽃은 뭐지?
 for.hints.flowernether.desc=Netherwart are the nether flowers.
-for.hints.flowernether.tag=What's a nether flower?
+for.hints.flowernether.tag=지옥꽃은 뭐지?
 for.hints.forcedcooldown.desc=Engines can overheat if the energy they produce is not consumed. Reaching melting point will force them into cooldown.
 for.hints.forcedcooldown.tag=Beware Overheating!
 for.hints.generatorfuels.desc=Bio generators accept both biomass and biofuel. They are at their most efficient with biofuel.
@@ -358,9 +358,9 @@ for.hints.honeyfood.tag=Grab foodstuff!
 for.hints.manualpeat.desc=Peat can be farmed in automatic peat bogs, but when you start out, you might want to try harvesting a bit of peat by hand.
 for.hints.manualpeat.tag=No Bog Needed!
 for.hints.moistenerproducts.desc=Given the correct ingredients, your moistener can also create mossy cobblestone or mossy stone bricks.
-for.hints.moistenerproducts.tag=Want some mossy cobble?
+for.hints.moistenerproducts.tag=이끼 낀 조약돌이 필요해?
 for.hints.nopowerrequired.desc=Machines of this type do not require any power to operate.
-for.hints.nopowerrequired.tag=No power required
+for.hints.nopowerrequired.tag=전력이 필요하지 않아
 for.hints.peatharvest.desc=Bog earth directly adjacent to water will mature to peat. Use a shovel to harvest it.
 for.hints.peatharvest.tag=Harvest Peat!
 for.hints.pipette.desc=If you are stuck with remaining liquid in a machine's tank, you can click the tank with a pipette to empty it.
@@ -372,9 +372,9 @@ for.hints.powerraintank.tag=Bottling Requires Energy!
 for.hints.powerrequired.desc=This machine requires energy from an engine to function. Attach an engine and start it, to allow production.
 for.hints.powerrequired.tag=Requires Energy!
 for.hints.shortmead.desc=Your fermenter can not only create biomass, you can also use honeydew and liquid honey to make some short mead.
-for.hints.shortmead.tag=Get your energy drink!
+for.hints.shortmead.tag=에너지드링크를 얻었어!
 for.hints.usesofash.desc=Ash can be used to create fertilizer and is required to refine bituminous peat.
-for.hints.usesofash.tag=Use your ash!
+for.hints.usesofash.tag=재를 사용하자!
 
 for.item.crated.adj=상자에 저장된
 for.item.crated.unknown=정체불명의 아이템을 담고 있는 상자
@@ -705,7 +705,7 @@ for.apiculture.effect.heroic=투쟁
 for.apiculture.effect.ignition=Flammable
 for.apiculture.effect.misanthrope=종말
 for.apiculture.effect.misasmic=중독
-for.apiculture.effect.none=None
+for.apiculture.effect.none=없음
 for.apiculture.effect.radioactive=방사능
 for.apiculture.effect.reanimation=소생
 for.apiculture.effect.repulsion=반발
@@ -773,8 +773,8 @@ for.bees.species.vengeful=벤지풀
 for.bees.species.vindictive=빈딕티브
 for.bees.species.wintry=윈터리
 
-for.bees.stock.ignoble=고귀한 혈통
-for.bees.stock.pristine=하찮은 혈통
+for.bees.stock.ignoble=하찮은 혈통
+for.bees.stock.pristine=고귀한 혈통
 
 for.chat.bees.command.beekeeping.error=A bekeeping mode called '%s' is not available.
 for.chat.bees.command.beekeeping.set=Beekeeping mode set to %s.
@@ -787,9 +787,9 @@ for.chat.bees.command.help.5=- save [<world-#>] <player-name>: save beekeeping s
 for.chat.bees.command.mode.current=Current: %MODE (#%WORLD)
 for.chat.bees.command.mode.help=Available modes: %s
 for.chat.bees.command.stats.error1=Log file could not be created. Failed to save statistics.
-for.chat.bees.command.stats.error2=Cannot write to log file. Failed to save statistics.
+for.chat.bees.command.stats.error2=로그파일을 작성하지못했습니다.
 for.chat.bees.command.stats.error3=Write operation threw an exception. Failed to save statistics.
-for.chat.bees.command.stats.saved=Saved statistics for player %s
+for.chat.bees.command.stats.saved= %s 플레이어의 상태를 저장했습니다.
 
 for.description.speciesAustere=위험하며 폭급합니다. 양봉업자들은 이들 주위에선 꼭 특수한 천으로 만든 옷으로 온몸을 무장할 것이 좋을 것입니다.|양봉학 입문서
 for.description.speciesAvenging="벽이 무너지고 천장에 금이 가는 소리가 들린다. 허나 상관하지 않는다. 새 여왕을 집어들자, 수많은 벌들의 침이 내 손에 박힌다. 상관하지 않는다. 참으로 기쁘도다." |피로 물든 일기장
@@ -859,7 +859,7 @@ tile.for.alveary.5.name=알베어리 습도 안정장치
 tile.for.alveary.6.name=알베어리 안정장치
 tile.for.alveary.7.name=알베어리 화분 채취 장치
 
-tile.for.apiculture.0.name=에이피어리
+tile.for.apiculture.0.name=양봉기
 tile.for.apiculture.1.name=양봉가의 상자
 tile.for.apiculture.2.name=비 하우스
 
@@ -878,7 +878,7 @@ tile.for.candle.stump.name=꺼진 초
 
 tile.for.stump.0.name=초 꼭다리
 
-item.for.beeQueenGE.name=알수없는 여왕
+item.for.beeQueenGE.name=알수없는 여왕벌
 
 ####################
 # ARBORICULTURE
@@ -893,7 +893,7 @@ for.chat.trees.command.help.3=- info <mode-name> : information on treekeeping mo
 for.chat.trees.command.help.4=- set [<world-#>] <mode-name>: set treekeeping mode for world.
 for.chat.trees.command.help.5=- save [<world-#>] <player-name>: save treekeeping statistics for the given player.
 for.chat.trees.command.treekeeping.error=A treekeeping mode called '%s' is not available.
-for.chat.trees.command.treekeeping.set=Treekeeping mode set to %s.
+for.chat.trees.command.treekeeping.set=트리키핑모드 설정 : %s.
 
 for.description.treeBirch=Widespread birch tree, which on average is of smaller height.|Codex Lignum
 for.description.treeCherry=Small tree. In its natural form it will bear cherries which will need to undergo a ripening period.|Codex Lignum
@@ -907,7 +907,7 @@ for.description.treeWillow=Large, deciduous tree. White willows are fast-growing
 for.family.jungle=정글
 for.family.nuts=너트류
 for.family.pomes=Pomes
-for.family.prunes=Prunes
+for.family.prunes=자두류
 
 for.fruits.apple=사과
 for.fruits.cherry=체리
@@ -1247,12 +1247,12 @@ tile.for.lepidopterology.0.name=인시류학자의 가방
 # MAIL
 ####################
 
-for.chat.mail.already_mailed=편지를 재발송하실 수 없습니다
+for.chat.mail.already_mailed=편지를 재발송할 수 없습니다.
 for.chat.mail.command.help.0=사용방식: '/%s <command> <arguments>'
 for.chat.mail.command.help.1=사용가능 명령어:
 for.chat.mail.command.help.2=- trades : 모든 교환소의 물품을 보여줍니다.
-for.chat.mail.command.help.3=- virtualize <tradestation-name>: Toggle virtual mode on specified trade station.
-for.chat.mail.command.no_tradestation=No tradestation by the name of '%s' was found.
+for.chat.mail.command.help.3=- virtualize <거래소 이름>: Toggle virtual mode on specified trade station.
+for.chat.mail.command.no_tradestation='%s'라는 이름의 거래소가 존재하지 않습니다.
 
 for.chat.mail.insufficient_buffer=거래소에 공간이 없습니다.
 for.chat.mail.insufficient_offer=공정한 거래가 아닙니다. -거래소
