@@ -659,6 +659,11 @@ tile.for.resources.0.name=Apatite Ore
 tile.for.resources.1.name=Copper Ore
 tile.for.resources.2.name=Tin Ore
 
+tile.for.resourceStorage.0.name=Block of Apatite
+tile.for.resourceStorage.1.name=Block of Copper
+tile.for.resourceStorage.2.name=Block of Tin
+tile.for.resourceStorage.3.name=Block of Bronze
+
 tile.for.soil.0.name=Humus
 tile.for.soil.1.name=Bog Earth
 tile.for.soil.2.name=Peat
