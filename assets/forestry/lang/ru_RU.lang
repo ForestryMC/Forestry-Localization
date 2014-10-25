@@ -659,6 +659,11 @@ tile.for.resources.0.name=Апатитовая руда
 tile.for.resources.1.name=Медная руда
 tile.for.resources.2.name=Оловянная руда
 
+tile.for.resourceStorage.0.name=Апатитовый блок
+tile.for.resourceStorage.1.name=Медный блок
+tile.for.resourceStorage.2.name=Оловянный блок
+tile.for.resourceStorage.3.name=Бронзовый блок
+
 tile.for.soil.0.name=Гумус
 tile.for.soil.1.name=Болотная земля
 tile.for.soil.2.name=Торф
