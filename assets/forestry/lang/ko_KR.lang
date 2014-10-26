@@ -1,4 +1,4 @@
-# author Phanthalassa,Nark31,TeamMMKP(puyo061 , SniperElisia)
+# author Phanthalassa,Nark31,TeamMMKP(puyo061 , SniperElisia, alvin1317)
 
 ####################
 # CORE
@@ -662,6 +662,11 @@ tile.for.mail.2.name=스탬프 콜랙션
 tile.for.resources.0.name=인회석 광석
 tile.for.resources.1.name=구리 광석
 tile.for.resources.2.name=주석 광석
+
+tile.for.resourceStorage.0.name=인회석 블럭
+tile.for.resourceStorage.1.name=구리 블럭
+tile.for.resourceStorage.2.name=주석 블럭
+tile.for.resourceStorage.3.name=청동 블럭
 
 tile.for.soil.0.name=부엽토
 tile.for.soil.1.name=퇴적토
