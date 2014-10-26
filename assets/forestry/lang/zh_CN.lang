@@ -659,6 +659,11 @@ tile.for.resources.0.name=磷矿石
 tile.for.resources.1.name=铜矿石
 tile.for.resources.2.name=锡矿石
 
+tile.for.resourceStorage.0.name=磷灰石块
+tile.for.resourceStorage.1.name=铜块
+tile.for.resourceStorage.2.name=锡块
+tile.for.resourceStorage.3.name=青铜块
+
 tile.for.soil.0.name=腐殖土
 tile.for.soil.1.name=沼泽泥
 tile.for.soil.2.name=泥炭
