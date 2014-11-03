@@ -923,6 +923,7 @@ for.fruits.plum=Слива
 for.fruits.walnut=Грецкий орех
 
 for.gui.family=Семейство
+for.gui.fireproof=Огнестойкие(-ая)
 for.gui.fruits=Плоды
 for.gui.girth=Область посадки
 for.gui.growth=Условие роста
@@ -1115,6 +1116,8 @@ tile.for.stairs.20.name=Ступеньки из сосны
 tile.for.stairs.21.name=Ступеньки из сливового дерева
 tile.for.stairs.22.name=Ступеньки из клёна
 tile.for.stairs.23.name=Ступеньки из цитрусового дерева
+
+tile.for.fireproof=%s (Огнестойкие(-ая))
 
 tile.for.saplingGE.0.name=Саженец
 tile.for.leaves.0.name=Листва
