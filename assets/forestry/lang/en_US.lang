@@ -923,6 +923,7 @@ for.fruits.plum=Plum
 for.fruits.walnut=Walnut
 
 for.gui.family=Family
+for.gui.fireproof=Fireproof
 for.gui.fruits=Fruits
 for.gui.girth=Girth
 for.gui.growth=Growth
@@ -1115,6 +1116,8 @@ tile.for.stairs.20.name=Pine Stairs
 tile.for.stairs.21.name=Plum Stairs
 tile.for.stairs.22.name=Maple Stairs
 tile.for.stairs.23.name=Citrus Stairs
+
+tile.for.fireproof=%s (Fireproof)
 
 tile.for.saplingGE.0.name=Sapling
 tile.for.leaves.0.name=Leaves
