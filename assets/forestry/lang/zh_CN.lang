@@ -924,6 +924,7 @@ for.fruits.plum=李子
 for.fruits.walnut=胡桃
 
 for.gui.family=族群
+for.gui.fireproof=抗燃
 for.gui.fruits=果实
 for.gui.girth=干围
 for.gui.growth=生长
@@ -1118,6 +1119,8 @@ tile.for.stairs.21.name=李子楼梯
 tile.for.stairs.22.name=枫树楼梯
 tile.for.stairs.23.name=柑橘楼梯
 tile.for.stairs.24.name=巨杉楼梯
+
+tile.for.fireproof=抗燃%s
 
 tile.for.saplingGE.0.name=树苗
 tile.for.leaves.0.name=树叶
