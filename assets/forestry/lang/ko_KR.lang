@@ -57,6 +57,8 @@ for.errors.noDrone.desc=일벌이 없음
 for.errors.noDrone.help=일벌이 없으면 교매를 할 수 없습니다. 
 for.errors.noEnergyNet.desc=전력(EU) 부재
 for.errors.noEnergyNet.help=이 세계에는 EU라는 전력 개념이 없습니다. (IndustrialCraft2 를 설치하세요\u00b2.)
+for.errors.noPower.desc=파워 없음
+for.errors.noPower.help=이 기계는 RF를 주어야만 작동합니다.
 for.errors.noFlower.desc=꽃이 주변에 없음
 for.errors.noFlower.help=일벌들이 적절한 꽃을 찾지 못하고 있습니다.
 for.errors.noFuel.desc=연료 부족
@@ -911,7 +913,7 @@ for.description.treeWillow=Large, deciduous tree. White willows are fast-growing
 
 for.family.jungle=정글
 for.family.nuts=너트류
-for.family.pomes=Pomes
+for.family.pomes=이과
 for.family.prunes=자두류
 
 for.fruits.apple=사과
@@ -926,6 +928,7 @@ for.fruits.plum=자두
 for.fruits.walnut=호두
 
 for.gui.family=과
+for.gui.fireproof=내화성
 for.gui.fruits=열매
 for.gui.girth=나무 굵기
 for.gui.growth=성장 조건
@@ -1118,6 +1121,8 @@ tile.for.stairs.20.name=소나무 계단
 tile.for.stairs.21.name=자두 계단
 tile.for.stairs.22.name=단풍나무 계단
 tile.for.stairs.23.name=오렌지나무 계단
+
+tile.for.fireproof=%s (내화성)
 
 tile.for.saplingGE.0.name=묘목
 tile.for.leaves.0.name=잎
