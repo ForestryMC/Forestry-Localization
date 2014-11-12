@@ -11,12 +11,22 @@ for.beverage.effect.antidote=Antidote
 for.chat.accesslocked=%s is the owner of this machine and has locked access.
 for.chat.cannotmemorizeagain=You already memorized this information.
 
-for.chat.command.help.0=Format: '/%s <command> <arguments>'
-for.chat.command.help.1=Available commands:
-for.chat.command.help.2=- version : Version information.
-for.chat.command.help.3=- plugins : list of Forestry plugins.
-for.chat.command.help.4=- plugins info <plugin-name>: information on plugin.
+for.chat.command.format=Format: %s
+for.chat.command.aliases=Aliases: %s
+for.chat.command.list=Available Sub-Commands:
+for.chat.command.permlevel=Permission Level: %s
 for.chat.command.noperms=You do not have permission to use this command.
+
+for.chat.command.forestry.version.desc=- %s : Version information
+for.chat.command.forestry.version.help.0=Prints current version
+
+for.chat.command.forestry.plugins.desc=- %s : List of Forestry Plugins
+for.chat.command.forestry.plugins.help.0=Lists all Forestry Plugins
+for.chat.command.forestry.plugins.help.1=Green are active, red disabled.
+
+for.chat.command.forestry.plugins.info.desc=- %s : Information on a specific Plugin
+for.chat.command.forestry.plugins.info.help.0=Prints information on a specific Plugin
+
 
 for.chat.help=Type '%s' for help.
 for.chat.memorizednote=You memorize the note and dispose of the crumpled scrap of paper.
@@ -1199,6 +1209,12 @@ tile.for.mushroom.1.name=Mushroom
 ####################
 # LEPIDOPTEROLOGY
 ####################
+
+for.chat.command.forestry.butterfly.desc=- %s : Butterfly Commands
+for.chat.command.forestry.butterfly.help.0=Various commands related to butterflies
+
+for.chat.command.forestry.butterfly.kill.desc=- %s : Kills all Butterflies
+for.chat.command.forestry.butterfly.kill.help.0=Kills all Butterflies in loaded chunks
 
 for.butterflies.hybrid=Hybrid: %PRIMARY-%SECONDARY
 
