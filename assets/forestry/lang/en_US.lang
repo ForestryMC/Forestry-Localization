@@ -11,20 +11,25 @@ for.beverage.effect.antidote=Antidote
 for.chat.accesslocked=%s is the owner of this machine and has locked access.
 for.chat.cannotmemorizeagain=You already memorized this information.
 
-for.chat.command.format=Format: %s
 for.chat.command.aliases=Aliases: %s
 for.chat.command.list=Available Sub-Commands:
 for.chat.command.permlevel=Permission Level: %s
 for.chat.command.noperms=You do not have permission to use this command.
 
+for.chat.command.forestry.help=Various commands for Forestry
+for.chat.command.forestry.format=Format: /%s <sub-command>
+
 for.chat.command.forestry.version.desc=- %s : Version information
 for.chat.command.forestry.version.help=Prints current version
+for.chat.command.forestry.version.format=Format: /%s
 
 for.chat.command.forestry.plugins.desc=- %s : List of Forestry Plugins
 for.chat.command.forestry.plugins.help=Lists all Forestry Plugins. Green are active, red disabled.
+for.chat.command.forestry.plugins.format=Format: /%s
 
 for.chat.command.forestry.plugins.info.desc=- %s : Information on a specific Plugin
 for.chat.command.forestry.plugins.info.help=Prints information on a specific Plugin
+for.chat.command.forestry.plugins.info.format=Format: /%s <plugin-name>
 
 
 for.chat.help=Type '%s' for help.
@@ -1211,9 +1216,11 @@ tile.for.mushroom.1.name=Mushroom
 
 for.chat.command.forestry.butterfly.desc=- %s : Butterfly Commands
 for.chat.command.forestry.butterfly.help=Various commands related to butterflies
+for.chat.command.forestry.butterfly.format=Format: /%s <sub-command>
 
 for.chat.command.forestry.butterfly.kill.desc=- %s : Kills all Butterflies
 for.chat.command.forestry.butterfly.kill.help=Kills all Butterflies in loaded chunks
+for.chat.command.forestry.butterfly.kill.format=Format: /%s [<dimension#>]
 
 for.butterflies.hybrid=Hybrid: %PRIMARY-%SECONDARY
 
@@ -1270,11 +1277,20 @@ tile.for.lepidopterology.0.name=Lepidopterist's Chest
 ####################
 
 for.chat.mail.already_mailed=Cannot resend letter.
-for.chat.mail.command.help.0=Format: '/%s <command> <arguments>'
-for.chat.mail.command.help.1=Available commands:
-for.chat.mail.command.help.2=- trades : A list of all trade stations.
-for.chat.mail.command.help.3=- virtualize <tradestation-name>: Toggle virtual mode on specified trade station.
-for.chat.mail.command.no_tradestation=No tradestation by the name of '%s' was found.
+
+for.chat.command.forestry.mail.desc=- %s : Mail System Commands
+for.chat.command.forestry.mail.help=Various commands related to the mail system
+for.chat.command.forestry.mail.format=Format: /%s <sub-command>
+
+for.chat.command.forestry.mail.trades.desc=- %s : A list of all trade stations.
+for.chat.command.forestry.mail.trades.help=Lists all trade stations and their available trades.
+for.chat.command.forestry.mail.trades.format=Format: /%s
+
+for.chat.command.forestry.mail.virtualize.desc=- %s : Toggle virtual mode on a specified trade station.
+for.chat.command.forestry.mail.virtualize.help=Toggles virtual mode on a specified trade station. This mode does not consume items.
+for.chat.command.forestry.mail.virtualize.format=Format: /%s <trade-station-name>
+for.chat.command.forestry.mail.virtualize.no_tradestation=§cNo trade station by the name of '%s' was found.
+for.chat.command.forestry.mail.virtualize.set=Set virtualization for '%s' to %s.
 
 for.chat.mail.insufficient_buffer=Trade station is full.
 for.chat.mail.insufficient_offer=Trade station demands more.
