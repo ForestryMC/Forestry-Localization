@@ -1289,7 +1289,7 @@ for.chat.command.forestry.mail.trades.format=Format: /%s
 for.chat.command.forestry.mail.virtualize.desc=- %s : Toggle virtual mode on a specified trade station.
 for.chat.command.forestry.mail.virtualize.help=Toggles virtual mode on a specified trade station. This mode does not consume items.
 for.chat.command.forestry.mail.virtualize.format=Format: /%s <trade-station-name>
-for.chat.command.forestry.mail.virtualize.no_tradestation=§cNo trade station by the name of '%s' was found.
+for.chat.command.forestry.mail.virtualize.no_tradestation=No trade station by the name of '%s' was found.
 for.chat.command.forestry.mail.virtualize.set=Set virtualization for '%s' to %s.
 
 for.chat.mail.insufficient_buffer=Trade station is full.
