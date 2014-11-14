@@ -705,6 +705,32 @@ tile.for.stained.15.name=Black Stained Glass
 # APICULTURE
 ####################
 
+for.chat.command.forestry.beekeeping.desc=- %s : Beekeeping Commands
+for.chat.command.forestry.beekeeping.help=Commands relating to beekeeping.
+for.chat.command.forestry.beekeeping.format=Format: /%s <sub-command>
+
+for.chat.command.forestry.beekeeping.give.desc=- %s : Give Bees
+for.chat.command.forestry.beekeeping.give.help=Give a player drones, princesses, queens, or larvae.
+for.chat.command.forestry.beekeeping.give.format=Format: /%s <bee-type> <player-name> <species-name>
+
+for.chat.command.forestry.beekeeping.mode.desc=- %s : Beekeeping Mode Commands
+for.chat.command.forestry.beekeeping.mode.help=Commands relating to Beekeeping Modes.
+for.chat.command.forestry.beekeeping.mode.format=Format: /%s <sub-command>
+
+for.chat.command.forestry.beekeeping.mode.info.desc=- %s : Beekeeping Mode Info
+for.chat.command.forestry.beekeeping.mode.info.help=Information about Beekeeping modes.
+for.chat.command.forestry.beekeeping.mode.info.format=Format: /%s <mode-name>
+
+for.chat.command.forestry.beekeeping.mode.set.desc=- %s : Beekeeping Mode Set
+for.chat.command.forestry.beekeeping.mode.set.help=Set the beekeeping mode.
+for.chat.command.forestry.beekeeping.mode.set.format=Format: /%s [<world-#>] <mode-name>
+
+for.chat.command.forestry.beekeeping.save.desc=- %s : Save Beekeeping Statistics
+for.chat.command.forestry.beekeeping.save.help=Save beekeeping statistics to file.
+for.chat.command.forestry.beekeeping.save.format=Format: /%s <player-name>
+
+for.chat.command.forestry.beekeeping.give.given=%1$s was given a %2$s %3$s.
+
 death.bee.aggressive.player=%1$s encountered a swarm of bees. %2$s stole his apiarist's suit.
 death.bee.aggressive=%1$s encountered a swarm of bees. That had to sting.
 death.bee.end.player=%1$s was ended by an unfriendly sting while fighting %2$s.
@@ -803,6 +829,7 @@ for.chat.bees.command.help.4=- set [<world-#>] <mode-name>: set beekeeping mode 
 for.chat.bees.command.help.5=- save [<world-#>] <player-name>: save beekeeping statistics for the given player.
 for.chat.bees.command.mode.current=Current: %MODE (#%WORLD)
 for.chat.bees.command.mode.help=Available modes: %s
+for.chat.bees.command.give.help=Available bee types: %s
 for.chat.bees.command.stats.error1=Log file could not be created. Failed to save statistics.
 for.chat.bees.command.stats.error2=Cannot write to log file. Failed to save statistics.
 for.chat.bees.command.stats.error3=Write operation threw an exception. Failed to save statistics.
