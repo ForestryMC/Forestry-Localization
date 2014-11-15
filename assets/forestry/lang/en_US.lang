@@ -705,32 +705,6 @@ tile.for.stained.15.name=Black Stained Glass
 # APICULTURE
 ####################
 
-for.chat.command.forestry.beekeeping.desc=- %s : Beekeeping Commands
-for.chat.command.forestry.beekeeping.help=Commands relating to beekeeping.
-for.chat.command.forestry.beekeeping.format=Format: /%s <sub-command>
-
-for.chat.command.forestry.beekeeping.give.desc=- %s : Give Bees
-for.chat.command.forestry.beekeeping.give.help=Give a player drones, princesses, queens, or larvae.
-for.chat.command.forestry.beekeeping.give.format=Format: /%s <bee-type> <player-name> <species-name>
-
-for.chat.command.forestry.beekeeping.mode.desc=- %s : Beekeeping Mode Commands
-for.chat.command.forestry.beekeeping.mode.help=Commands relating to Beekeeping Modes.
-for.chat.command.forestry.beekeeping.mode.format=Format: /%s <sub-command>
-
-for.chat.command.forestry.beekeeping.mode.info.desc=- %s : Beekeeping Mode Info
-for.chat.command.forestry.beekeeping.mode.info.help=Information about Beekeeping modes.
-for.chat.command.forestry.beekeeping.mode.info.format=Format: /%s <mode-name>
-
-for.chat.command.forestry.beekeeping.mode.set.desc=- %s : Beekeeping Mode Set
-for.chat.command.forestry.beekeeping.mode.set.help=Set the beekeeping mode.
-for.chat.command.forestry.beekeeping.mode.set.format=Format: /%s [<world-#>] <mode-name>
-
-for.chat.command.forestry.beekeeping.save.desc=- %s : Save Beekeeping Statistics
-for.chat.command.forestry.beekeeping.save.help=Save beekeeping statistics to file.
-for.chat.command.forestry.beekeeping.save.format=Format: /%s <player-name>
-
-for.chat.command.forestry.beekeeping.give.given=%1$s was given a %2$s %3$s.
-
 death.bee.aggressive.player=%1$s encountered a swarm of bees. %2$s stole his apiarist's suit.
 death.bee.aggressive=%1$s encountered a swarm of bees. That had to sting.
 death.bee.end.player=%1$s was ended by an unfriendly sting while fighting %2$s.
@@ -756,9 +730,9 @@ for.apiculture.effect.resurrection=Resurrection
 for.apiculture.effect.snowing=Snow
 
 for.beemode.easy.desc=Simplifies beebreeding by drastically increasing mutation rate and removing the chance for genetic fatigue.
-for.beemode.hard.desc=Reducing mutation rate slightly while increasing lifespan of individual queens by 50 %.
-for.beemode.hardcore.desc=Halves mutation rate, increases lifespan of individual queens by 500 % and reduces fertility by 20 %.
-for.beemode.insane.desc=Cuts mutation rate to 20 %, increases lifespan tenfold and reduces fertility by 40 %.
+for.beemode.hard.desc=Reducing mutation rate slightly while increasing lifespan of individual queens by 50%%.
+for.beemode.hardcore.desc=Halves mutation rate, increases lifespan of individual queens by 500%% and reduces fertility by 20%%.
+for.beemode.insane.desc=Cuts mutation rate to 20%%, increases lifespan tenfold and reduces fertility by 40%%.
 for.beemode.normal.desc=Recommended mode for the normal player.
 
 for.bees.grammar.drone.type=Drone
@@ -819,21 +793,49 @@ for.bees.species.wintry=Wintry
 for.bees.stock.ignoble=Ignoble Stock
 for.bees.stock.pristine=Pristine Stock
 
-for.chat.bees.command.beekeeping.error=A bekeeping mode called '%s' is not available.
-for.chat.bees.command.beekeeping.set=Beekeeping mode set to %s.
-for.chat.bees.command.help.0=Format: '/%s <command> <arguments>'
-for.chat.bees.command.help.1=Available commands:
-for.chat.bees.command.help.2=- list [<world-#>]: lists current and available beekeeping modes.
-for.chat.bees.command.help.3=- info <mode-name> : information on beekeeping mode.
-for.chat.bees.command.help.4=- set [<world-#>] <mode-name>: set beekeeping mode for world.
-for.chat.bees.command.help.5=- save [<world-#>] <player-name>: save beekeeping statistics for the given player.
-for.chat.bees.command.mode.current=Current: %MODE (#%WORLD)
-for.chat.bees.command.mode.help=Available modes: %s
-for.chat.bees.command.give.help=Available bee types: %s
-for.chat.bees.command.stats.error1=Log file could not be created. Failed to save statistics.
-for.chat.bees.command.stats.error2=Cannot write to log file. Failed to save statistics.
-for.chat.bees.command.stats.error3=Write operation threw an exception. Failed to save statistics.
-for.chat.bees.command.stats.saved=Saved statistics for player %s
+for.chat.command.forestry.beekeeping.desc=- %s : Beekeeping Commands
+for.chat.command.forestry.beekeeping.help=Commands relating to beekeeping.
+for.chat.command.forestry.beekeeping.format=Format: /%s <sub-command>
+
+for.chat.command.forestry.beekeeping.give.desc=- %s : Give Bees
+for.chat.command.forestry.beekeeping.give.help=Give a player drones, princesses, queens, or larvae.
+for.chat.command.forestry.beekeeping.give.format=Format: /%s <bee-type> <player-name> <species-name>
+for.chat.command.forestry.beekeeping.give.available=Available bee types: %s
+for.chat.command.forestry.beekeeping.give.given=%1$s was given a %2$s %3$s.
+
+for.chat.command.forestry.beekeeping.mode.desc=- %s : Beekeeping Mode Commands
+for.chat.command.forestry.beekeeping.mode.help=Commands relating to Beekeeping Modes.
+for.chat.command.forestry.beekeeping.mode.format=Format: /%s <sub-command>
+
+for.chat.command.forestry.beekeeping.mode.info.desc=- %s : Beekeeping Mode Info
+for.chat.command.forestry.beekeeping.mode.info.help=Information about current and available beekeeping modes.
+for.chat.command.forestry.beekeeping.mode.info.format=Format: /%s <mode-name>
+for.chat.command.forestry.beekeeping.mode.info.error=No beekeeping mode called '%s' is available.
+for.chat.command.forestry.beekeeping.mode.info.current=Current: %1$s (#%2$s)
+for.chat.command.forestry.beekeeping.mode.info.available=Available modes: %s
+
+for.chat.command.forestry.beekeeping.mode.set.desc=- %s : Beekeeping Mode Set
+for.chat.command.forestry.beekeeping.mode.set.help=Set the beekeeping mode for world.
+for.chat.command.forestry.beekeeping.mode.set.format=Format: /%s [<world-#>] <mode-name>
+for.chat.command.forestry.beekeeping.mode.set.success=Beekeeping mode set to %s.
+for.chat.command.forestry.beekeeping.mode.set.error=A beekeeping mode called '%s' is not available.
+
+for.chat.command.forestry.beekeeping.save.desc=- %s : Save Beekeeping Statistics
+for.chat.command.forestry.beekeeping.save.help=Save beekeeping statistics to file.
+for.chat.command.forestry.beekeeping.save.format=Format: /%s <player-name>
+for.chat.command.forestry.beekeeping.save.error1=Log file could not be created. Failed to save statistics.
+for.chat.command.forestry.beekeeping.save.error2=Cannot write to log file. Failed to save statistics.
+for.chat.command.forestry.beekeeping.save.error3=Write operation threw an exception. Failed to save statistics.
+for.chat.command.forestry.beekeeping.save.error4=No statistics found.
+for.chat.command.forestry.beekeeping.save.saved=Saved statistics for player %s
+for.chat.command.forestry.beekeeping.save.key.discovered=Discovered
+for.chat.command.forestry.beekeeping.save.key.discovered.symbol=X
+for.chat.command.forestry.beekeeping.save.key.blacklisted=Blacklisted
+for.chat.command.forestry.beekeeping.save.key.blacklisted.symbol=BL
+for.chat.command.forestry.beekeeping.save.key.notCounted=Not counted for the species total
+for.chat.command.forestry.beekeeping.save.key.notCounted.symbol=NC
+for.chat.command.forestry.beekeeping.save.stats=Beekeeping statistics for %s on %s:
+for.chat.command.forestry.beekeeping.save.mode=Mode: %s
 
 for.description.speciesAustere=Dangerous and volatile; Beekeepers are advised to stay in full suit whenever near.|Beekeeping 101
 for.description.speciesAvenging="The walls of my house began to crumble and I heard the roof creaking over my head, but I cared not! I felt the stabs of a thousand little insects on my glove as I grabbed the new queen."|Anonymous
