@@ -1,4 +1,4 @@
-# author Phanthalassa,Nark31,TeamMMKP(puyo061 , SniperElisia, alvin1317)
+#author Phanthalassa,Nark31,TeamMMKP(puyo061 , SniperElisia, alvin1317)
 
 ####################
 # CORE
@@ -13,12 +13,24 @@ for.beverage.effect.antidote=해독
 for.chat.accesslocked=%s님이 자신을 제외한 다른 사람의 사용을 막으셨습니다. 
 for.chat.cannotmemorizeagain=이미 알고 있는 정보입니다.
 
-for.chat.command.help.0=사용방식: '/%s <command> <arguments>'
-for.chat.command.help.1=사용가능한 명령어:
-for.chat.command.help.2=- version : 포레스트리 버전 정보
-for.chat.command.help.3=- plugins : 포레스트리의 플러그인 리스트
-for.chat.command.help.4=- plugins info <플러그인 이름>: 플러그인 정보
+for.chat.command.forestry.help=Various commands for Forestry
+for.chat.command.forestry.format=Format: /%s <sub-command>
+for.chat.command.aliases=사용가능한 명령어: %s
+for.chat.command.list=서브 명령어:
+for.chat.command.permlevel=권한 레벨: %s
 for.chat.command.noperms=당신은 이 명령어를 사용할수 있는 권한이 없습니다.
+
+for.chat.command.forestry.version.desc=- %s : 버전 정보
+for.chat.command.forestry.version.help=버전 출력
+for.chat.command.forestry.version.format=Format: /%s
+
+for.chat.command.forestry.plugins.desc=- %s : 포레스트리 플러그인 리스트
+for.chat.command.forestry.plugins.help=모든 포레스트리 플러그인 출력, 초록색은 활성화 빨강색은 비활성화
+for.chat.command.forestry.plugins.format=Format: /%s
+
+for.chat.command.forestry.plugins.info.desc=- %s : Information on a specific Plugin
+for.chat.command.forestry.plugins.info.help=Prints information on a specific Plugin
+for.chat.command.forestry.plugins.info.format=Format: /%s <plugin-name>
 
 for.chat.help='%s'에 관한 도움.
 for.chat.memorizednote=내용을 완전히 외우고 당신은 비밀이 새어나가는걸 막기 위해 이 종이를 버렸습니다.
@@ -720,9 +732,9 @@ for.apiculture.effect.resurrection=부활
 for.apiculture.effect.snowing=강설
 
 for.beemode.easy.desc=Simplifies beebreeding by drastically increasing mutation rate and removing the chance for genetic fatigue.
-for.beemode.hard.desc=Reducing mutation rate slightly while increasing lifespan of individual queens by 50 %.
-for.beemode.hardcore.desc=Halves mutation rate, increases lifespan of individual queens by 500 % and reduces fertility by 20 %.
-for.beemode.insane.desc=Cuts mutation rate to 20 %, increases lifespan tenfold and reduces fertility by 40 %.
+for.beemode.hard.desc=Reducing mutation rate slightly while increasing lifespan of individual queens by 50%%.
+for.beemode.hardcore.desc=Halves mutation rate, increases lifespan of individual queens by 500%% and reduces fertility by 20%%.
+for.beemode.insane.desc=Cuts mutation rate to 20%%, increases lifespan tenfold and reduces fertility by 40%%.
 for.beemode.normal.desc=Recommended mode for the normal player.
 
 for.bees.grammar.drone.type=일벌
@@ -783,20 +795,49 @@ for.bees.species.wintry=윈터리
 for.bees.stock.ignoble=하찮은 혈통
 for.bees.stock.pristine=고귀한 혈통
 
-for.chat.bees.command.beekeeping.error=A bekeeping mode called '%s' is not available.
-for.chat.bees.command.beekeeping.set=Beekeeping mode set to %s.
-for.chat.bees.command.help.0=형식: '/%s <명령어> <객체>'
-for.chat.bees.command.help.1=사용가능한 명령어:
-for.chat.bees.command.help.2=- list [<world-#>]: lists current and available beekeeping modes.
-for.chat.bees.command.help.3=- info <mode-name> : information on beekeeping mode.
-for.chat.bees.command.help.4=- set [<world-#>] <mode-name>: set beekeeping mode for world.
-for.chat.bees.command.help.5=- save [<world-#>] <player-name>: save beekeeping statistics for the given player.
-for.chat.bees.command.mode.current=Current: %MODE (#%WORLD)
-for.chat.bees.command.mode.help=Available modes: %s
-for.chat.bees.command.stats.error1=Log file could not be created. Failed to save statistics.
-for.chat.bees.command.stats.error2=로그파일을 작성하지못했습니다.
-for.chat.bees.command.stats.error3=Write operation threw an exception. Failed to save statistics.
-for.chat.bees.command.stats.saved= %s 플레이어의 상태를 저장했습니다.
+for.chat.command.forestry.beekeeping.desc=- %s : Beekeeping Commands
+for.chat.command.forestry.beekeeping.help=Commands relating to beekeeping.
+for.chat.command.forestry.beekeeping.format=Format: /%s <sub-command>
+
+for.chat.command.forestry.beekeeping.give.desc=- %s : Give Bees
+for.chat.command.forestry.beekeeping.give.help=Give a player drones, princesses, queens, or larvae.
+for.chat.command.forestry.beekeeping.give.format=Format: /%s <bee-type> <player-name> <species-name>
+for.chat.command.forestry.beekeeping.give.available=Available bee types: %s
+for.chat.command.forestry.beekeeping.give.given=%1$s was given a %2$s %3$s.
+
+for.chat.command.forestry.beekeeping.mode.desc=- %s : Beekeeping Mode Commands
+for.chat.command.forestry.beekeeping.mode.help=Commands relating to Beekeeping Modes.
+for.chat.command.forestry.beekeeping.mode.format=Format: /%s <sub-command>
+
+for.chat.command.forestry.beekeeping.mode.info.desc=- %s : Beekeeping Mode Info
+for.chat.command.forestry.beekeeping.mode.info.help=Information about current and available beekeeping modes.
+for.chat.command.forestry.beekeeping.mode.info.format=Format: /%s <mode-name>
+for.chat.command.forestry.beekeeping.mode.info.error=No beekeeping mode called '%s' is available.
+for.chat.command.forestry.beekeeping.mode.info.current=Current: %1$s (#%2$s)
+for.chat.command.forestry.beekeeping.mode.info.available=Available modes: %s
+
+for.chat.command.forestry.beekeeping.mode.set.desc=- %s : Beekeeping Mode Set
+for.chat.command.forestry.beekeeping.mode.set.help=Set the beekeeping mode for world.
+for.chat.command.forestry.beekeeping.mode.set.format=Format: /%s [<world-#>] <mode-name>
+for.chat.command.forestry.beekeeping.mode.set.success=Beekeeping mode set to %s.
+for.chat.command.forestry.beekeeping.mode.set.error=A beekeeping mode called '%s' is not available.
+
+for.chat.command.forestry.beekeeping.save.desc=- %s : Save Beekeeping Statistics
+for.chat.command.forestry.beekeeping.save.help=Save beekeeping statistics to file.
+for.chat.command.forestry.beekeeping.save.format=Format: /%s <player-name>
+for.chat.command.forestry.beekeeping.save.error1=Log file could not be created. Failed to save statistics.
+for.chat.command.forestry.beekeeping.save.error2=Cannot write to log file. Failed to save statistics.
+for.chat.command.forestry.beekeeping.save.error3=Write operation threw an exception. Failed to save statistics.
+for.chat.command.forestry.beekeeping.save.error4=No statistics found.
+for.chat.command.forestry.beekeeping.save.saved=Saved statistics for player %s
+for.chat.command.forestry.beekeeping.save.key.discovered=Discovered
+for.chat.command.forestry.beekeeping.save.key.discovered.symbol=X
+for.chat.command.forestry.beekeeping.save.key.blacklisted=Blacklisted
+for.chat.command.forestry.beekeeping.save.key.blacklisted.symbol=BL
+for.chat.command.forestry.beekeeping.save.key.notCounted=Not counted for the species total
+for.chat.command.forestry.beekeeping.save.key.notCounted.symbol=NC
+for.chat.command.forestry.beekeeping.save.stats=Beekeeping statistics for %s on %s:
+for.chat.command.forestry.beekeeping.save.mode=Mode: %s
 
 for.description.speciesAustere=위험하며 폭급합니다. 양봉업자들은 이들 주위에선 꼭 특수한 천으로 만든 옷으로 온몸을 무장할 것이 좋을 것입니다.|양봉학 입문서
 for.description.speciesAvenging="벽이 무너지고 천장에 금이 가는 소리가 들린다. 허나 상관하지 않는다. 새 여왕을 집어들자, 수많은 벌들의 침이 내 손에 박힌다. 상관하지 않는다. 참으로 기쁘도다." |피로 물든 일기장
@@ -1203,6 +1244,14 @@ tile.for.mushroom.1.name=버섯
 # LEPIDOPTEROLOGY
 ####################
 
+for.chat.command.forestry.butterfly.desc=- %s : 나비 명령어
+for.chat.command.forestry.butterfly.help=Various commands related to butterflies
+for.chat.command.forestry.butterfly.format=Format: /%s <sub-command>
+
+for.chat.command.forestry.butterfly.kill.desc=- %s : 모든 나비 제거
+for.chat.command.forestry.butterfly.kill.help=로딩된 청크내 모든 나비 제거
+for.chat.command.forestry.butterfly.kill.format=사용방식: /%s [<차원#>]
+
 for.butterflies.hybrid=혼혈 : %PRIMARY-%SECONDARY
 
 for.butterflies.species.geometridae.brimstone=Brimstone Moth
@@ -1258,11 +1307,20 @@ tile.for.lepidopterology.0.name=인시류학자의 가방
 ####################
 
 for.chat.mail.already_mailed=편지를 재발송할 수 없습니다.
-for.chat.mail.command.help.0=사용방식: '/%s <command> <arguments>'
-for.chat.mail.command.help.1=사용가능 명령어:
-for.chat.mail.command.help.2=- trades : 모든 교환소의 물품을 보여줍니다.
-for.chat.mail.command.help.3=- virtualize <거래소 이름>: Toggle virtual mode on specified trade station.
-for.chat.mail.command.no_tradestation='%s'라는 이름의 거래소가 존재하지 않습니다.
+
+for.chat.command.forestry.mail.desc=- %s : Mail System Commands
+for.chat.command.forestry.mail.help=Various commands related to the mail system
+for.chat.command.forestry.mail.format=Format: /%s <sub-command>
+
+for.chat.command.forestry.mail.trades.desc=- %s : 모든 교환소의 물품을 보여줍니다.
+for.chat.command.forestry.mail.trades.help=Lists all trade stations and their available trades.
+for.chat.command.forestry.mail.trades.format=Format: /%s
+
+for.chat.command.forestry.mail.virtualize.desc=- %s : Toggle virtual mode on a specified trade station.
+for.chat.command.forestry.mail.virtualize.help=Toggles virtual mode on a specified trade station. This mode does not consume items.
+for.chat.command.forestry.mail.virtualize.format=Format: /%s <trade-station-name>
+for.chat.command.forestry.mail.virtualize.no_tradestation='%s'라는 이름의 거래소가 존재하지 않습니다.
+for.chat.command.forestry.mail.virtualize.set=Set virtualization for '%s' to %s.
 
 for.chat.mail.insufficient_buffer=거래소에 공간이 없습니다.
 for.chat.mail.insufficient_offer=공정한 거래가 아닙니다. -거래소
