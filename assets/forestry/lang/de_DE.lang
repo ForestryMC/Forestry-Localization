@@ -827,6 +827,12 @@ for.genus.bees.reddened=Gerötet
 for.genus.bees.tropical=Tropisch
 for.genus.bees.vengeful=Nachtragend
 
+for.genus.bees.honey.Branch=Einfache Bienen
+for.genus.bees.honey.description=Eine ganz normale Honigbiene. Aber was ist normal?
+for.genus.bees.noble.description=Edel sei die Biene, hilfreich und gut; denn das allein unterscheidet sie von allen anderen!
+for.genus.bees.industrious.description=Industrielle Bienen
+for.genus.bees.agrarian.description=Sie fühlen sich auf dem Land am wohlsten
+
 item.for.beeQueenGE.name=Unbekannte Königin
 
 tile.for.alveary.0.name=Bienenstock
