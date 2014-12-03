@@ -897,7 +897,8 @@ for.genus.bees.reddened=Reddened
 for.genus.bees.tropical=Tropical
 for.genus.bees.vengeful=Vengeful
 
-item.for.beeQueenGE.name=Unknown Queen
+item.for.beePrincessGE.name=Princess
+item.for.beeQueenGE.name=Queen
 
 tile.for.alveary.0.name=Alveary
 tile.for.alveary.1.name=Alveary Entrance
