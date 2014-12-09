@@ -801,7 +801,7 @@ for.chat.command.forestry.beekeeping.format=Format: /%s <sub-command>
 
 for.chat.command.forestry.beekeeping.give.desc=- %s : Give Bees
 for.chat.command.forestry.beekeeping.give.help=Give a player drones, princesses, queens, or larvae.
-for.chat.command.forestry.beekeeping.give.format=Format: /%s <bee-type> <player-name> <species-name>
+for.chat.command.forestry.beekeeping.give.format=Format: /%s <species-name> <bee-type> [<player-name>]
 for.chat.command.forestry.beekeeping.give.available=Available bee types: %s
 for.chat.command.forestry.beekeeping.give.given=%1$s was given a %2$s %3$s.
 

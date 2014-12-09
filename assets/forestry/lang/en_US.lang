@@ -782,7 +782,7 @@ for.bees.species.phantasmal=Phantasmal
 for.bees.species.reddened=Reddened
 for.bees.species.rural=Rural
 for.bees.species.farmerly=Farmerly
-for.bees.species.agrarain=Agrarian
+for.bees.species.agrarian=Agrarian
 for.bees.species.secluded=Secluded
 for.bees.species.sinister=Sinister
 for.bees.species.spectral=Spectral
@@ -805,7 +805,7 @@ for.chat.command.forestry.beekeeping.format=Format: /%s <sub-command>
 
 for.chat.command.forestry.beekeeping.give.desc=- %s : Give Bees
 for.chat.command.forestry.beekeeping.give.help=Give a player drones, princesses, queens, or larvae.
-for.chat.command.forestry.beekeeping.give.format=Format: /%s <bee-type> <player-name> <species-name>
+for.chat.command.forestry.beekeeping.give.format=Format: /%s <species-name> <bee-type> [<player-name>]
 for.chat.command.forestry.beekeeping.give.available=Available bee types: %s
 for.chat.command.forestry.beekeeping.give.given=%1$s was given a %2$s %3$s.
 
@@ -855,7 +855,7 @@ for.description.speciesDiligent=Mostly noted as a stepping stone for the industr
 for.description.speciesEdenic="I furiously scribbled in my notebook, drawing sketches of the images I felt seeping into my brain while I was watching the insects perform their strange little dance."|Beekeeping 101
 for.description.speciesEnded="I found one of these seemingly hermitical insects in a villager's apiary. It was torpid, obviously ripped from its world and longing for a fragment from it."|Beekeeping 101
 for.description.speciesExotic="The fever shook me and my apiarist's suit was drenched with cold sweat, but with trembling hands I finally managed to pull one of these from my apiary."|Beekeeping 101
-for.description.speciesFarmerly=Commonly seen in large expanses of prarie, the breadbasket of nations.|Beekeeping 101
+for.description.speciesFarmerly=Commonly seen in large expanses of prairie, the breadbasket of nations.|Beekeeping 101
 for.description.speciesFiendish=Experienced nether apiarist's have been reporting severe attacks by their bees. Caution is advised.|Beekeeping 101
 for.description.speciesForest=One of the most common pests in forests; Mostly docile.|Beekeeping 101
 for.description.speciesFrugal=Generations of bees baked in the sun to produce this species.|Beekeeping 101
