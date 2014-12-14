@@ -797,49 +797,52 @@ for.bees.species.wintry=Wintry
 for.bees.stock.ignoble=Ignoble Stock
 for.bees.stock.pristine=Pristine Stock
 
-for.chat.command.forestry.beekeeping.desc=- %s : Beekeeping Commands
-for.chat.command.forestry.beekeeping.help=Commands relating to beekeeping.
-for.chat.command.forestry.beekeeping.format=Format: /%s <sub-command>
+for.chat.command.forestry.bee.desc=- %s : Beekeeping Commands
+for.chat.command.forestry.bee.help=Commands relating to beekeeping.
+for.chat.command.forestry.bee.format=Format: /%s <sub-command>
 
-for.chat.command.forestry.beekeeping.give.desc=- %s : Give Bees
-for.chat.command.forestry.beekeeping.give.help=Give a player drones, princesses, queens, or larvae.
-for.chat.command.forestry.beekeeping.give.format=Format: /%s <species-name> <bee-type> [<player-name>]
-for.chat.command.forestry.beekeeping.give.available=Available bee types: %s
-for.chat.command.forestry.beekeeping.give.given=%1$s was given a %2$s %3$s.
+for.chat.command.forestry.bee.give.desc=- %s : Give Bees
+for.chat.command.forestry.bee.give.help=Give a player drones, princesses, queens, or larvae.
+for.chat.command.forestry.bee.give.format=Format: /%s <species-name> <bee-type> [<player-name>]
+for.chat.command.forestry.bee.give.available=Available bee types: %s
+for.chat.command.forestry.bee.give.given=%1$s was given a %2$s %3$s.
 
-for.chat.command.forestry.beekeeping.mode.desc=- %s : Beekeeping Mode Commands
-for.chat.command.forestry.beekeeping.mode.help=Commands relating to Beekeeping Modes.
-for.chat.command.forestry.beekeeping.mode.format=Format: /%s <sub-command>
+for.chat.command.forestry.bee.mode.desc=- %s : Beekeeping Mode Commands
+for.chat.command.forestry.bee.mode.help=Commands relating to Beekeeping Modes.
+for.chat.command.forestry.bee.mode.format=Format: /%s <sub-command>
 
-for.chat.command.forestry.beekeeping.mode.info.desc=- %s : Beekeeping Mode Info
-for.chat.command.forestry.beekeeping.mode.info.help=Information about current and available beekeeping modes.
-for.chat.command.forestry.beekeeping.mode.info.format=Format: /%s <mode-name>
-for.chat.command.forestry.beekeeping.mode.info.error=No beekeeping mode called '%s' is available.
-for.chat.command.forestry.beekeeping.mode.info.current=Current: %1$s (#%2$s)
-for.chat.command.forestry.beekeeping.mode.info.available=Available modes: %s
+for.chat.command.forestry.bee.mode.info.desc=- %s : Beekeeping Mode Info
+for.chat.command.forestry.bee.mode.info.help=Information about current and available beekeeping modes.
+for.chat.command.forestry.bee.mode.info.format=Format: /%s <mode-name>
 
-for.chat.command.forestry.beekeeping.mode.set.desc=- %s : Beekeeping Mode Set
-for.chat.command.forestry.beekeeping.mode.set.help=Set the beekeeping mode for world.
-for.chat.command.forestry.beekeeping.mode.set.format=Format: /%s [<world-#>] <mode-name>
-for.chat.command.forestry.beekeeping.mode.set.success=Beekeeping mode set to %s.
-for.chat.command.forestry.beekeeping.mode.set.error=A beekeeping mode called '%s' is not available.
+for.chat.command.forestry.bee.mode.set.desc=- %s : Beekeeping Mode Set
+for.chat.command.forestry.bee.mode.set.help=Set the beekeeping mode for world.
+for.chat.command.forestry.bee.mode.set.format=Format: /%s [<world-#>] <mode-name>
 
-for.chat.command.forestry.beekeeping.save.desc=- %s : Save Beekeeping Statistics
-for.chat.command.forestry.beekeeping.save.help=Save beekeeping statistics to file.
-for.chat.command.forestry.beekeeping.save.format=Format: /%s <player-name>
-for.chat.command.forestry.beekeeping.save.error1=Log file could not be created. Failed to save statistics.
-for.chat.command.forestry.beekeeping.save.error2=Cannot write to log file. Failed to save statistics.
-for.chat.command.forestry.beekeeping.save.error3=Write operation threw an exception. Failed to save statistics.
-for.chat.command.forestry.beekeeping.save.error4=No statistics found.
-for.chat.command.forestry.beekeeping.save.saved=Saved statistics for player %s
-for.chat.command.forestry.beekeeping.save.key.discovered=Discovered
-for.chat.command.forestry.beekeeping.save.key.discovered.symbol=X
-for.chat.command.forestry.beekeeping.save.key.blacklisted=Blacklisted
-for.chat.command.forestry.beekeeping.save.key.blacklisted.symbol=BL
-for.chat.command.forestry.beekeeping.save.key.notCounted=Not counted for the species total
-for.chat.command.forestry.beekeeping.save.key.notCounted.symbol=NC
-for.chat.command.forestry.beekeeping.save.stats=Beekeeping statistics for %s on %s:
-for.chat.command.forestry.beekeeping.save.mode=Mode: %s
+for.chat.command.forestry.bee.save.desc=- %s : Save Beekeeping Statistics
+for.chat.command.forestry.bee.save.help=Save beekeeping statistics to file.
+for.chat.command.forestry.bee.save.format=Format: /%s [<player-name>]
+for.chat.command.forestry.bee.save.stats=Beekeeping statistics for %s on %s:
+
+for.chat.command.forestry.mode.info.error=No mode called '%s' is available.
+for.chat.command.forestry.mode.info.current=Current: %1$s (#%2$s)
+for.chat.command.forestry.mode.info.available=Available modes: %s
+
+for.chat.command.forestry.mode.set.success=Mode set to %s.
+for.chat.command.forestry.mode.set.error=A mode called '%s' is not available.
+
+for.chat.command.forestry.stats.save.error1=Log file could not be created. Failed to save statistics.
+for.chat.command.forestry.stats.save.error2=Cannot write to log file. Failed to save statistics.
+for.chat.command.forestry.stats.save.error3=Write operation threw an exception. Failed to save statistics.
+for.chat.command.forestry.stats.save.error4=No statistics found.
+for.chat.command.forestry.stats.save.saved=Saved statistics for player %s
+for.chat.command.forestry.stats.save.key.discovered=Discovered
+for.chat.command.forestry.stats.save.key.discovered.symbol=X
+for.chat.command.forestry.stats.save.key.blacklisted=Blacklisted
+for.chat.command.forestry.stats.save.key.blacklisted.symbol=BL
+for.chat.command.forestry.stats.save.key.notCounted=Not counted for the species total
+for.chat.command.forestry.stats.save.key.notCounted.symbol=NC
+for.chat.command.forestry.stats.save.mode=Mode: %s
 
 for.description.speciesAgrarian="Doesn't reek as much as the alternative. Gets the job done, eh?"|Myrathi, Cannie Beekeeper
 for.description.speciesAustere=Dangerous and volatile; Beekeepers are advised to stay in full suit whenever near.|Beekeeping 101
@@ -952,17 +955,26 @@ for.chat.command.forestry.tree.spawnTree.help=Spawn a tree near the player.
 for.chat.command.forestry.tree.spawnTree.format=Format:/%s <species-name> [<player-name>]
 
 for.chat.command.forestry.tree.spawnForest.desc=- %s : Spawn Forest
-for.chat.command.forestry.tree.spawnForest.help=Spawn a small forestry of trees near the player.
+for.chat.command.forestry.tree.spawnForest.help=Spawn a small forest of trees near the player.
 for.chat.command.forestry.tree.spawnForest.format=Format:/%s <species-name> [<player-name>]
 
-for.chat.trees.command.help.0=Format: '/%s <command> <arguments>'
-for.chat.trees.command.help.1=Available commands:
-for.chat.trees.command.help.2=- list [<world-#>]: lists current and available treekeeping modes.
-for.chat.trees.command.help.3=- info <mode-name> : information on treekeeping mode.
-for.chat.trees.command.help.4=- set [<world-#>] <mode-name>: set treekeeping mode for world.
-for.chat.trees.command.help.5=- save [<world-#>] <player-name>: save treekeeping statistics for the given player.
-for.chat.trees.command.treekeeping.error=A treekeeping mode called '%s' is not available.
-for.chat.trees.command.treekeeping.set=Treekeeping mode set to %s.
+for.chat.command.forestry.tree.mode.desc=- %s : Treekeeping Mode Commands
+for.chat.command.forestry.tree.mode.help=Commands relating to Treekeeping Modes.
+for.chat.command.forestry.tree.mode.format=Format: /%s <sub-command>
+
+for.chat.command.forestry.tree.mode.info.desc=- %s : Treekeeping Mode Info
+for.chat.command.forestry.tree.mode.info.help=Information about current and available treekeeping modes.
+for.chat.command.forestry.tree.mode.info.format=Format: /%s <mode-name>
+
+for.chat.command.forestry.tree.mode.set.desc=- %s : Treekeeping Mode Set
+for.chat.command.forestry.tree.mode.set.help=Set the treekeeping mode for world.
+for.chat.command.forestry.tree.mode.set.format=Format: /%s [<world-#>] <mode-name>
+
+for.chat.command.forestry.tree.save.desc=- %s : Save Treekeeping Statistics
+for.chat.command.forestry.tree.save.help=Save treekeeping statistics to file.
+for.chat.command.forestry.tree.save.format=Format: /%s [<player-name>]
+
+for.chat.command.forestry.tree.save.stats=Treekeeping statistics for %s on %s:
 
 for.description.treeBirch=Widespread birch tree, which on average is of smaller height.|Codex Lignum
 for.description.treeCherry=Small tree. In its natural form it will bear cherries which will need to undergo a ripening period.|Codex Lignum

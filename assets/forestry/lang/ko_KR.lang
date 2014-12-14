@@ -793,49 +793,51 @@ for.bees.species.wintry=윈터리
 for.bees.stock.ignoble=하찮은 혈통
 for.bees.stock.pristine=고귀한 혈통
 
-for.chat.command.forestry.beekeeping.desc=- %s : Beekeeping Commands
-for.chat.command.forestry.beekeeping.help=Commands relating to beekeeping.
-for.chat.command.forestry.beekeeping.format=Format: /%s <sub-command>
+for.chat.command.forestry.bee.desc=- %s : Beekeeping Commands
+for.chat.command.forestry.bee.help=Commands relating to beekeeping.
+for.chat.command.forestry.bee.format=Format: /%s <sub-command>
 
-for.chat.command.forestry.beekeeping.give.desc=- %s : Give Bees
-for.chat.command.forestry.beekeeping.give.help=Give a player drones, princesses, queens, or larvae.
-for.chat.command.forestry.beekeeping.give.format=Format: /%s <species-name> <bee-type> [<player-name>]
-for.chat.command.forestry.beekeeping.give.available=Available bee types: %s
-for.chat.command.forestry.beekeeping.give.given=%1$s was given a %2$s %3$s.
+for.chat.command.forestry.bee.give.desc=- %s : Give Bees
+for.chat.command.forestry.bee.give.help=Give a player drones, princesses, queens, or larvae.
+for.chat.command.forestry.bee.give.format=Format: /%s <species-name> <bee-type> [<player-name>]
+for.chat.command.forestry.bee.give.available=Available bee types: %s
+for.chat.command.forestry.bee.give.given=%1$s was given a %2$s %3$s.
 
-for.chat.command.forestry.beekeeping.mode.desc=- %s : Beekeeping Mode Commands
-for.chat.command.forestry.beekeeping.mode.help=Commands relating to Beekeeping Modes.
-for.chat.command.forestry.beekeeping.mode.format=Format: /%s <sub-command>
+for.chat.command.forestry.bee.mode.desc=- %s : Beekeeping Mode Commands
+for.chat.command.forestry.bee.mode.help=Commands relating to Beekeeping Modes.
+for.chat.command.forestry.bee.mode.format=Format: /%s <sub-command>
 
-for.chat.command.forestry.beekeeping.mode.info.desc=- %s : Beekeeping Mode Info
-for.chat.command.forestry.beekeeping.mode.info.help=Information about current and available beekeeping modes.
-for.chat.command.forestry.beekeeping.mode.info.format=Format: /%s <mode-name>
-for.chat.command.forestry.beekeeping.mode.info.error=No beekeeping mode called '%s' is available.
-for.chat.command.forestry.beekeeping.mode.info.current=Current: %1$s (#%2$s)
-for.chat.command.forestry.beekeeping.mode.info.available=Available modes: %s
+for.chat.command.forestry.bee.mode.info.desc=- %s : Beekeeping Mode Info
+for.chat.command.forestry.bee.mode.info.help=Information about current and available beekeeping modes.
+for.chat.command.forestry.bee.mode.info.format=Format: /%s <mode-name>
+for.chat.command.forestry.mode.info.error=No beekeeping mode called '%s' is available.
+for.chat.command.forestry.mode.info.current=Current: %1$s (#%2$s)
+for.chat.command.forestry.mode.info.available=Available modes: %s
 
-for.chat.command.forestry.beekeeping.mode.set.desc=- %s : Beekeeping Mode Set
-for.chat.command.forestry.beekeeping.mode.set.help=Set the beekeeping mode for world.
-for.chat.command.forestry.beekeeping.mode.set.format=Format: /%s [<world-#>] <mode-name>
-for.chat.command.forestry.beekeeping.mode.set.success=Beekeeping mode set to %s.
-for.chat.command.forestry.beekeeping.mode.set.error=A beekeeping mode called '%s' is not available.
+for.chat.command.forestry.bee.mode.set.desc=- %s : Beekeeping Mode Set
+for.chat.command.forestry.bee.mode.set.help=Set the beekeeping mode for world.
+for.chat.command.forestry.bee.mode.set.format=Format: /%s [<world-#>] <mode-name>
 
-for.chat.command.forestry.beekeeping.save.desc=- %s : Save Beekeeping Statistics
-for.chat.command.forestry.beekeeping.save.help=Save beekeeping statistics to file.
-for.chat.command.forestry.beekeeping.save.format=Format: /%s <player-name>
-for.chat.command.forestry.beekeeping.save.error1=Log file could not be created. Failed to save statistics.
-for.chat.command.forestry.beekeeping.save.error2=Cannot write to log file. Failed to save statistics.
-for.chat.command.forestry.beekeeping.save.error3=Write operation threw an exception. Failed to save statistics.
-for.chat.command.forestry.beekeeping.save.error4=No statistics found.
-for.chat.command.forestry.beekeeping.save.saved=Saved statistics for player %s
-for.chat.command.forestry.beekeeping.save.key.discovered=Discovered
-for.chat.command.forestry.beekeeping.save.key.discovered.symbol=X
-for.chat.command.forestry.beekeeping.save.key.blacklisted=Blacklisted
-for.chat.command.forestry.beekeeping.save.key.blacklisted.symbol=BL
-for.chat.command.forestry.beekeeping.save.key.notCounted=Not counted for the species total
-for.chat.command.forestry.beekeeping.save.key.notCounted.symbol=NC
-for.chat.command.forestry.beekeeping.save.stats=Beekeeping statistics for %s on %s:
-for.chat.command.forestry.beekeeping.save.mode=Mode: %s
+for.chat.command.forestry.mode.set.success=Mode set to %s.
+for.chat.command.forestry.mode.set.error=A mode called '%s' is not available.
+
+for.chat.command.forestry.bee.save.desc=- %s : Save Beekeeping Statistics
+for.chat.command.forestry.bee.save.help=Save beekeeping statistics to file.
+for.chat.command.forestry.bee.save.format=Format: /%s <player-name>
+for.chat.command.forestry.bee.save.stats=Beekeeping statistics for %s on %s:
+
+for.chat.command.forestry.stats.save.error1=Log file could not be created. Failed to save statistics.
+for.chat.command.forestry.stats.save.error2=Cannot write to log file. Failed to save statistics.
+for.chat.command.forestry.stats.save.error3=Write operation threw an exception. Failed to save statistics.
+for.chat.command.forestry.stats.save.error4=No statistics found.
+for.chat.command.forestry.stats.save.saved=Saved statistics for player %s
+for.chat.command.forestry.stats.save.key.discovered=Discovered
+for.chat.command.forestry.stats.save.key.discovered.symbol=X
+for.chat.command.forestry.stats.save.key.blacklisted=Blacklisted
+for.chat.command.forestry.stats.save.key.blacklisted.symbol=BL
+for.chat.command.forestry.stats.save.key.notCounted=Not counted for the species total
+for.chat.command.forestry.stats.save.key.notCounted.symbol=NC
+for.chat.command.forestry.stats.save.mode=Mode: %s
 
 for.description.speciesAustere=위험하며 폭급합니다. 양봉업자들은 이들 주위에선 꼭 특수한 천으로 만든 옷으로 온몸을 무장할 것이 좋을 것입니다.|양봉학 입문서
 for.description.speciesAvenging="벽이 무너지고 천장에 금이 가는 소리가 들린다. 허나 상관하지 않는다. 새 여왕을 집어들자, 수많은 벌들의 침이 내 손에 박힌다. 상관하지 않는다. 참으로 기쁘도다." |피로 물든 일기장
