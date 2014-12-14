@@ -943,6 +943,18 @@ tile.for.stump.0.name=Candle Stump
 
 for.arboriculture.effect.none=None
 
+for.chat.command.forestry.tree.desc=- %s : Treekeeping Commands
+for.chat.command.forestry.tree.help=Commands relating to trees.
+for.chat.command.forestry.tree.format=Format:/%s <sub-command>
+
+for.chat.command.forestry.tree.spawnTree.desc=- %s : Spawn Tree
+for.chat.command.forestry.tree.spawnTree.help=Spawn a tree near the player.
+for.chat.command.forestry.tree.spawnTree.format=Format:/%s <species-name> [<player-name>]
+
+for.chat.command.forestry.tree.spawnForest.desc=- %s : Spawn Forest
+for.chat.command.forestry.tree.spawnForest.help=Spawn a small forestry of trees near the player.
+for.chat.command.forestry.tree.spawnForest.format=Format:/%s <species-name> [<player-name>]
+
 for.chat.trees.command.help.0=Format: '/%s <command> <arguments>'
 for.chat.trees.command.help.1=Available commands:
 for.chat.trees.command.help.2=- list [<world-#>]: lists current and available treekeeping modes.
