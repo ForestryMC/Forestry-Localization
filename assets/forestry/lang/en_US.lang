@@ -51,7 +51,18 @@ for.circuit.electric.choke.1.description.1=Reduces output by 10 RF/t
 for.circuit.electric.choke.1.description.2=Reduces intake by 2 EU/t
 for.circuit.electric.efficiency.1=Electric Efficiency
 for.circuit.electric.efficiency.1.description.1=Reduces intake by 1 EU/t
-for.circuit.usage.engineTin=In Electrical Engines
+
+for.circuit.layout.dummy.name=Not Available
+for.circuit.layout.dummy.usage=Nothing
+
+for.circuit.layout.engine.tin.name=Electric Engine
+for.circuit.layout.engine.tin.usage=In Electrical Engines
+
+for.circuit.layout.farms.managed.name=Managed Farm
+for.circuit.layout.farms.managed.usage=Managed Farms
+
+for.circuit.layout.farms.manual.name=Manual Farm
+for.circuit.layout.farms.manual.usage=Manual Farms
 
 for.errors.circuitMismatch.desc=Layout Mismatch
 for.errors.circuitMismatch.help=Amount of tubes does not match size of circuit board.
@@ -63,6 +74,8 @@ for.errors.isRaining.desc=Rain
 for.errors.isRaining.help=Operation is only possible when it is not raining.
 for.errors.noCircuitBoard.desc=Board Missing
 for.errors.noCircuitBoard.help=Insert a circuit board to solder the selected tubes onto it.
+for.errors.noCircuitLayout.desc=No Layouts Found
+for.errors.noCircuitLayout.help=No layouts available due to the current game settings.
 for.errors.noDisposal.desc=Waste not disposable
 for.errors.noDisposal.help=Insufficient space to dispose of waste products.
 for.errors.noDrone.desc=No drone
@@ -391,8 +404,6 @@ for.hints.usesofash.tag=Use your ash!
 for.item.crated.adj=Crated
 for.item.crated.unknown=Crate with unknown content
 
-for.layout.engine.tin=Electric Engine
-
 for.no=No
 
 for.researchNote.chance.highest=HIGHEST
@@ -426,8 +437,6 @@ for.trigger.mailBuffer=Buffer
 for.trigger.missingDrone=Missing Drone
 for.trigger.missingQueen=Missing Queen or Princess
 for.trigger.noFrames=No Frames
-
-for.usage.engine.tin=In Electrical Engines
 
 for.yes=Yes
 
@@ -1254,15 +1263,10 @@ for.hints.manualfarms.tag=Manual farms!
 for.hints.valve.desc=Almost all farms require water. Use valve blocks for automation.
 for.hints.valve.tag=Supply water!
 
-for.layout.farms.managed=Managed Farms
-for.layout.farms.manual=Manual Farms
 
 for.trigger.lowFertilizer=Fertilizer
 for.trigger.lowLiquid=Water Tank
 for.trigger.lowSoil=Soil
-
-for.usage.farms.managed=Managed Farm
-for.usage.farms.manual=Manual Farm
 
 tile.for.ffarm.0.name=Farm Block
 tile.for.ffarm.2.name=Farm Gearbox
