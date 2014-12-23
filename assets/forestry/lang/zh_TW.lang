@@ -105,12 +105,21 @@ for.flowers.wheat=小麥
 fluid.bioethanol=乙醇
 fluid.biomass=生物質
 fluid.glass=液態玻璃
-fluid.honey=蜂蜜
+fluid.for.honey=蜂蜜
 fluid.ice=碎冰
 fluid.juice=果汁
 fluid.short.mead=蜂蜜酒
 fluid.milk=牛奶
 fluid.seedoil=種子油
+tile.forestry.fluid.bioethanol.name=乙醇
+tile.forestry.fluid.biomass.name=生物質
+tile.forestry.fluid.glass.name=液態玻璃
+tile.forestry.fluid.for.honey.name=蜂蜜
+tile.forestry.fluid.ice.name=碎冰
+tile.forestry.fluid.juice.name=果汁
+tile.forestry.fluid.short.mead.name=蜂蜜酒
+tile.forestry.fluid.milk.name=牛奶
+tile.forestry.fluid.seedoil.name=種子油
 
 for.gui.access=使用權限
 for.gui.active=顯性
@@ -434,8 +443,8 @@ item.for.beeswax.name=蜜蠟
 item.for.beverage.meadCurative.name=治愈蜂蜜酒
 item.for.beverage.meadShort.name=小瓶蜂蜜酒
 
-item.for.biofuelCan.name=乙醇罐
-item.for.biomassCan.name=生物質罐
+item.for.canEthanol.name=乙醇罐
+item.for.canBiomass.name=生物質罐
 
 item.for.biomeFinder.name=棲息地定位儀
 item.for.bituminousPeat.name=瀝青質泥炭
@@ -443,7 +452,7 @@ item.for.brokenBronzePickaxe.name=損壞的鎬
 item.for.brokenBronzeShovel.name=損壞的鏟
 item.for.bronzePickaxe.name=幸存者之鎬
 item.for.bronzeShovel.name=幸存者之鏟
-item.for.bucketBiofuel.name=乙醇桶
+item.for.bucketEthanol.name=乙醇桶
 item.for.bucketBiomass.name=生物質桶
 item.for.builderBag.name=建築師背包
 item.for.builderBagT2.name=建築師編織背包
@@ -542,7 +551,7 @@ item.for.propolis.pulsating.name=脈動蜂膠
 item.for.propolis.silky.name=絲滑蜂膠
 item.for.propolis.sticky.name=粘性蜂膠
 
-item.for.refractoryBiofuel.name=耐火乙醇膠囊
+item.for.refractoryEthanol.name=耐火乙醇膠囊
 item.for.refractoryBiomass.name=耐火生物質膠囊
 item.for.refractoryEmpty.name=耐火膠囊
 item.for.refractoryFuel.name=耐火燃料膠囊
@@ -587,10 +596,10 @@ item.for.thermionicTubes.ex-11.name=青金石真空管
 
 item.for.treealyzer.name=林木分析儀
 
-item.for.waterCan.name=水罐
+item.for.canWater.name=水罐
 
 item.for.waxCapsule.name=石蠟膠囊
-item.for.waxCapsuleBiofuel.name=乙醇膠囊
+item.for.waxCapsuleEthanol.name=乙醇膠囊
 item.for.waxCapsuleBiomass.name=生物質膠囊
 item.for.waxCapsuleFuel.name=燃料膠囊
 item.for.waxCapsuleHoney.name=蜂蜜膠囊

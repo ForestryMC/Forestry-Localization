@@ -105,12 +105,21 @@ for.flowers.wheat=Getreide
 fluid.bioethanol=Ethanol
 fluid.biomass=Biomasse
 fluid.glass=Flüssigglas
-fluid.honey=Honig
+fluid.for.honey=Honig
 fluid.ice=Zerstoßenes Eis
 fluid.juice=Fruchtsaft
 fluid.short.mead=Met
 fluid.milk=Milch
 fluid.seedoil=Samenkernöl
+tile.forestry.fluid.bioethanol.name=Ethanol
+tile.forestry.fluid.biomass.name=Biomasse
+tile.forestry.fluid.glass.name=Flüssigglas
+tile.forestry.fluid.for.honey.name=Honig
+tile.forestry.fluid.ice.name=Zerstoßenes Eis
+tile.forestry.fluid.juice.name=Fruchtsaft
+tile.forestry.fluid.short.mead.name=Met
+tile.forestry.fluid.milk.name=Milch
+tile.forestry.fluid.seedoil.name=Samenkernöl
 
 for.gui.access=Zugriff
 for.gui.active=Aktiv
@@ -434,8 +443,8 @@ item.for.beeswax.name=Bienenwachs
 item.for.beverage.meadCurative.name=Heilsamer Met
 item.for.beverage.meadShort.name=Met
 
-item.for.biofuelCan.name=Büchse Bioethanol
-item.for.biomassCan.name=Büchse Biomasse
+item.for.canEthanol.name=Büchse Bioethanol
+item.for.canBiomass.name=Büchse Biomasse
 
 item.for.biomeFinder.name=Habitatsucher
 item.for.bituminousPeat.name=Pechartiger Torf
@@ -443,7 +452,7 @@ item.for.brokenBronzePickaxe.name=Zerbrochene Spitzhacke
 item.for.brokenBronzeShovel.name=Zerbrochene Schaufel
 item.for.bronzePickaxe.name=Überlebensspitzhacke
 item.for.bronzeShovel.name=Überlebensschaufel
-item.for.bucketBiofuel.name=Eimer Bioethanol
+item.for.bucketEthanol.name=Eimer Bioethanol
 item.for.bucketBiomass.name=Eimer Biomasse
 item.for.builderBag.name=Handwerkerrucksack
 item.for.builderBagT2.name=Gewobener Handwerkerrucksack
@@ -542,7 +551,7 @@ item.for.propolis.pulsating.name=Pulsierende Propolis
 item.for.propolis.silky.name=Seidige Propolis
 item.for.propolis.sticky.name=Zähe Propolis
 
-item.for.refractoryBiofuel.name=Kapsel Bioethanol
+item.for.refractoryEthanol.name=Kapsel Bioethanol
 item.for.refractoryBiomass.name=Kapsel Biomasse
 item.for.refractoryEmpty.name=Hitzebeständige Kapsel
 item.for.refractoryFuel.name=Kapsel Diesel
@@ -587,10 +596,10 @@ item.for.thermionicTubes.ex-11.name=Elektronenröhre (Lapislazuli)
 
 item.for.treealyzer.name=Baumanalyser
 
-item.for.waterCan.name=Büchse Wasser
+item.for.canWater.name=Büchse Wasser
 
 item.for.waxCapsule.name=Wachskapsel
-item.for.waxCapsuleBiofuel.name=Kapsel Bioethanol
+item.for.waxCapsuleEthanol.name=Kapsel Bioethanol
 item.for.waxCapsuleBiomass.name=Kapsel Biomasse
 item.for.waxCapsuleFuel.name=Kapsel Diesel
 item.for.waxCapsuleHoney.name=Kapsel Honig

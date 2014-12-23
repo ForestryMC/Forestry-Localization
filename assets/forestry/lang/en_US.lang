@@ -151,12 +151,21 @@ for.flowers.wheat=Wheat
 fluid.bioethanol=Ethanol
 fluid.biomass=Biomass
 fluid.glass=Liquid Glass
-fluid.honey=Honey
+fluid.for.honey=Honey
 fluid.ice=Crushed Ice
 fluid.juice=Fruit Juice
 fluid.short.mead=Short Mead
 fluid.milk=Milk
 fluid.seedoil=Seed Oil
+tile.forestry.fluid.bioethanol.name=Ethanol
+tile.forestry.fluid.biomass.name=Biomass
+tile.forestry.fluid.glass.name=Liquid Glass
+tile.forestry.fluid.for.honey.name=Honey
+tile.forestry.fluid.ice.name=Crushed Ice
+tile.forestry.fluid.juice.name=Fruit Juice
+tile.forestry.fluid.short.mead.name=Short Mead
+tile.forestry.fluid.milk.name=Milk
+tile.forestry.fluid.seedoil.name=Seed Oil
 
 for.gui.access=Access
 for.gui.active=Active
@@ -478,21 +487,27 @@ item.for.beeswax.name=Beeswax
 item.for.beverage.meadCurative.name=Curative Mead
 item.for.beverage.meadShort.name=Short Mead
 
-item.for.biofuelCan.name=Ethanol Can
-item.for.biomassCan.name=Biomass Can
-
 item.for.biomeFinder.name=Habitat Locator
 item.for.bituminousPeat.name=Bituminous Peat
 item.for.brokenBronzePickaxe.name=Broken Pickaxe
 item.for.brokenBronzeShovel.name=Broken Shovel
 item.for.bronzePickaxe.name=Survivalist's Pickaxe
 item.for.bronzeShovel.name=Survivalist's Shovel
-item.for.bucketBiofuel.name=Ethanol Bucket
-item.for.bucketBiomass.name=Biomass Bucket
 item.for.builderBag.name=Builder's Backpack
 item.for.builderBagT2.name=Builder's WovenBackpack
 
+item.for.bucketEthanol.name=Ethanol Bucket
+item.for.bucketBiomass.name=Biomass Bucket
+item.for.bucketHoney.name=Honey Bucket
+item.for.bucketIce.name=Crushed Ice Bucket
+item.for.bucketJuice.name=Juice Bucket
+item.for.bucketSeedoil.name=Seed Oil Bucket
+item.for.bucketGlass.name=Molten Glass Bucket
+item.for.bucketShortMead.name=Short Mead Bucket
+
 item.for.canEmpty.name=Can
+item.for.canEthanol.name=Ethanol Can
+item.for.canBiomass.name=Biomass Can
 item.for.canFuel.name=Fuel Can
 item.for.canHoney.name=Honey Can
 item.for.canIce.name=Ice Can
@@ -586,7 +601,7 @@ item.for.propolis.pulsating.name=Pulsating Propolis
 item.for.propolis.silky.name=Silky Propolis
 item.for.propolis.sticky.name=Sticky Propolis
 
-item.for.refractoryBiofuel.name=Ethanol Capsule
+item.for.refractoryEthanol.name=Ethanol Capsule
 item.for.refractoryBiomass.name=Biomass Capsule
 item.for.refractoryEmpty.name=Refractory Capsule
 item.for.refractoryFuel.name=Fuel Capsule
@@ -631,10 +646,10 @@ item.for.thermionicTubes.ex-11.name=Lapis Electron Tube
 
 item.for.treealyzer.name=Treealyzer
 
-item.for.waterCan.name=Water Can
+item.for.canWater.name=Water Can
 
 item.for.waxCapsule.name=Wax Capsule
-item.for.waxCapsuleBiofuel.name=Ethanol Capsule
+item.for.waxCapsuleEthanol.name=Ethanol Capsule
 item.for.waxCapsuleBiomass.name=Biomass Capsule
 item.for.waxCapsuleFuel.name=Fuel Capsule
 item.for.waxCapsuleHoney.name=Honey Capsule

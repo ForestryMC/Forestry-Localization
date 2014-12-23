@@ -153,10 +153,20 @@ fluid.biomass=Biomasse
 fluid.milk=Lait
 fluid.seedoil=Huile de graines 
 fluid.juice=Jus de fruits
-fluid.honey=Miel
+fluid.for.honey=Miel
 fluid.short.mead=Petit hydromel
 fluid.glass=Verre liquide
 fluid.ice=Glace pilée
+
+tile.forestry.fluid.bioethanol.name=Éthanol
+tile.forestry.fluid.biomass.name=Biomasse
+tile.forestry.fluid.milk.name=Lait
+tile.forestry.fluid.seedoil.name=Huile de graines
+tile.forestry.fluid.juice.name=Jus de fruits
+tile.forestry.fluid.for.honey.name=Miel
+tile.forestry.fluid.short.mead.name=Petit hydromel
+tile.forestry.fluid.glass.name=Verre liquide
+tile.forestry.fluid.ice.name=Glace pilée
 
 for.gui.access=Accès
 for.gui.active=Actif
@@ -478,8 +488,8 @@ item.for.beeswax.name=Cire d'abeille
 item.for.beverage.meadCurative.name=Hydromel thérapeutique
 item.for.beverage.meadShort.name=Hydromel
 
-item.for.biofuelCan.name=Cannette de biocarburant
-item.for.biomassCan.name=Cannette de biomasse
+item.for.canEthanol.name=Cannette de biocarburant
+item.for.canBiomass.name=Cannette de biomasse
 
 item.for.biomeFinder.name=Localisateur d'habitat
 item.for.bituminousPeat.name=Tourbe bitumineuse
@@ -487,7 +497,7 @@ item.for.brokenBronzePickaxe.name=Pioche brisée
 item.for.brokenBronzeShovel.name=Pelle brisée
 item.for.bronzePickaxe.name=Pioche du survivaliste
 item.for.bronzeShovel.name=Pelle du survivaliste
-item.for.bucketBiofuel.name=Seau d'éthanol
+item.for.bucketEthanol.name=Seau d'éthanol
 item.for.bucketBiomass.name=Seau de biomasse
 item.for.builderBag.name=Sac à dos du maçon
 item.for.builderBagT2.name=Sac à dos tissé du maçon
@@ -586,7 +596,7 @@ item.for.propolis.pulsating.name=Propolis vibrante
 item.for.propolis.silky.name=Propolis soyeuse
 item.for.propolis.sticky.name=Propolis adhésive
 
-item.for.refractoryBiofuel.name=Capsule de biocarburant
+item.for.refractoryEthanol.name=Capsule de biocarburant
 item.for.refractoryBiomass.name=Capsule de biomasse
 item.for.refractoryEmpty.name=Capsule réusinée
 item.for.refractoryFuel.name=Capsule de carburant
@@ -634,7 +644,7 @@ item.for.treealyzer.name=Analyseur d'arbre
 item.for.waterCan.name=Cannette d'eau
 
 item.for.waxCapsule.name=Capsule de cire
-item.for.waxCapsuleBiofuel.name=Capsule d'éthanol
+item.for.waxCapsuleEthanol.name=Capsule d'éthanol
 item.for.waxCapsuleBiomass.name=Capsule de biomasse
 item.for.waxCapsuleFuel.name=Capsule de carburant
 item.for.waxCapsuleHoney.name=Capsule de miel

@@ -151,12 +151,21 @@ for.flowers.wheat=Пшеница
 fluid.bioethanol=Этанол
 fluid.biomass=Биомасса
 fluid.glass=Жидкое стекло
-fluid.honey=Мёд
+fluid.for.honey=Мёд
 fluid.ice=Молотый лёд
 fluid.juice=Фруктовый сок
 fluid.short.mead=Питный мёд
 fluid.milk=Молоко
 fluid.seedoil=Растительное масло
+tile.forestry.fluid.bioethanol.name=Этанол
+tile.forestry.fluid.biomass.name=Биомасса
+tile.forestry.fluid.glass.name=Жидкое стекло
+tile.forestry.fluid.for.honey.name=Мёд
+tile.forestry.fluid.ice.name=Молотый лёд
+tile.forestry.fluid.juice.name=Фруктовый сок
+tile.forestry.fluid.short.mead.name=Питный мёд
+tile.forestry.fluid.milk.name=Молоко
+tile.forestry.fluid.seedoil.name=Растительное масло
 
 for.gui.access=Доступ
 for.gui.active=Активно
@@ -478,8 +487,8 @@ item.for.beeswax.name=Пчелиный воск
 item.for.beverage.meadCurative.name=Целебный мёд
 item.for.beverage.meadShort.name=Питный мёд
 
-item.for.biofuelCan.name=Банка этанола
-item.for.biomassCan.name=Банка биомассы
+item.for.canEthanol.name=Банка этанола
+item.for.canBiomass.name=Банка биомассы
 
 item.for.biomeFinder.name=Определитель ареала
 item.for.bituminousPeat.name=Смолистый торф
@@ -487,7 +496,7 @@ item.for.brokenBronzePickaxe.name=Сломанная кирка
 item.for.brokenBronzeShovel.name=Сломанная лопата
 item.for.bronzePickaxe.name=Кирка выживающего
 item.for.bronzeShovel.name=Лопата выживающего
-item.for.bucketBiofuel.name=Ведро этанола
+item.for.bucketEthanol.name=Ведро этанола
 item.for.bucketBiomass.name=Ведро биомассы
 item.for.builderBag.name=Рюкзак строителя
 item.for.builderBagT2.name=Тканный рюкзак строителя
@@ -586,7 +595,7 @@ item.for.propolis.sticky.name=Липкий прополис
 item.for.propolis.pulsating.name=Пульсирующий прополис
 item.for.propolis.silky.name=Шелковистый прополис
 
-item.for.refractoryBiofuel.name=Капсула этанола
+item.for.refractoryEthanol.name=Капсула этанола
 item.for.refractoryBiomass.name=Капсула биомассы
 item.for.refractoryEmpty.name=Огнеупорная капсула
 item.for.refractoryFuel.name=Капсула топлива
@@ -631,10 +640,10 @@ item.for.thermionicTubes.ex-11.name=Лазуритовая электронна�
 
 item.for.treealyzer.name=Анализатор деревьев
 
-item.for.waterCan.name=Банка воды
+item.for.canWater.name=Банка воды
 
 item.for.waxCapsule.name=Восковая капсула
-item.for.waxCapsuleBiofuel.name=Капсула этанола
+item.for.waxCapsuleEthanol.name=Капсула этанола
 item.for.waxCapsuleBiomass.name=Капсула биомассы
 item.for.waxCapsuleFuel.name=Капсула топлива
 item.for.waxCapsuleHoney.name=Капсула мёда
