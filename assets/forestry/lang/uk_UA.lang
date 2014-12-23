@@ -11,12 +11,26 @@ for.beverage.effect.antidote=Противоядие
 for.chat.accesslocked=%s является владельцем этого механизма и заблокировал доступ.
 for.chat.cannotmemorizeagain=Вы уже запомнили эту информацию.
 
-for.chat.command.help.0=Формат: '/%s <команда> <аргументы>'
-for.chat.command.help.1=Доступные команды:
-for.chat.command.help.2=- version : Информация о версии.
-for.chat.command.help.3=- plugins : список плагинов Forestry.
-for.chat.command.help.4=- plugins info <название плагина>: информация о плагине.
+for.chat.command.aliases=Aliases: %s
+for.chat.command.list=Доступные подкоманды:
+for.chat.command.permlevel=Уровень разрешений: %s
 for.chat.command.noperms=У Вас нет прав на использование этой команды.
+
+for.chat.command.forestry.help=Различные команды для Forestry
+for.chat.command.forestry.format=Формат: /%s <подкоманда>
+
+for.chat.command.forestry.version.desc=- %s : Информация о версии
+for.chat.command.forestry.version.help=Показывает текущую версию
+for.chat.command.forestry.version.format=Формат: /%s
+
+for.chat.command.forestry.plugins.desc=- %s : Список плагинов Forestry
+for.chat.command.forestry.plugins.help=Показывает все плагины Forestry. Зелёные активны, красные неактивны.
+for.chat.command.forestry.plugins.format=Формат: /%s
+
+for.chat.command.forestry.plugins.info.desc=- %s : Информация о конкретном плагине
+for.chat.command.forestry.plugins.info.help=Показывает информацию о конкретном плагине
+for.chat.command.forestry.plugins.info.format=Формат: /%s <plugin-name>
+
 
 for.chat.help=Напишите '%s' для помощи.
 for.chat.memorizednote=Вы запоминаете записку и избавляетесь от мятого клочка бумаги.
@@ -36,8 +50,19 @@ for.circuit.electric.choke.1=Пониженное напряжение
 for.circuit.electric.choke.1.description.1=Снижает выходную мощность на 10 RF/тик
 for.circuit.electric.choke.1.description.2=Снижает потребление энергии на 2 EU/тик
 for.circuit.electric.efficiency.1=Электроэффективность
-for.circuit.electric.efficiency.1.description.1=Снижает потребление энергии на 2 EU/тик
-for.circuit.usage.engineTin=В электродвигателях
+for.circuit.electric.efficiency.1.description.1=Снижает потребление энергии на 1 EU/тик
+
+for.circuit.layout.dummy.name=Не доступен
+for.circuit.layout.dummy.usage=Ничего
+
+for.circuit.layout.engine.tin.name=Электродвигатель
+for.circuit.layout.engine.tin.usage=В электродвигателях
+
+for.circuit.layout.farms.managed.name=Управляемая ферма
+for.circuit.layout.farms.managed.usage=Управляемые фермы
+
+for.circuit.layout.farms.manual.name=Ручная ферма
+for.circuit.layout.farms.manual.usage=Ручные фермы
 
 for.errors.circuitMismatch.desc=Несоответствие макету
 for.errors.circuitMismatch.help=Количество ламп не совпадает с размером печатной платы.
@@ -49,12 +74,16 @@ for.errors.isRaining.desc=Дождь
 for.errors.isRaining.help=Работа возможна, только если не идёт дождь.
 for.errors.noCircuitBoard.desc=Плата отсутствует
 for.errors.noCircuitBoard.help=Вставьте плату, чтобы спаять выбранные лампы на неё.
+for.errors.noCircuitLayout.desc=Макеты не найдены
+for.errors.noCircuitLayout.help=Макеты не доступны в соответствии с текущими настройками игры.
 for.errors.noDisposal.desc=Нельзя выбросить отходы
 for.errors.noDisposal.help=Недостаточно свободного места для извлечения отходов.
 for.errors.noDrone.desc=Нет трутня
 for.errors.noDrone.help=Спаривание требует наличия трутня.
 for.errors.noEnergyNet.desc=Нет электричества
-for.errors.noEnergyNet.help=В Вашем мире любое электричество бесполезно. (Установите IndustrialCraft².)
+for.errors.noEnergyNet.help=В Вашем мире любое электричество бесполезно. (Установите IndustrialCraft\u00b2.)
+for.errors.noPower.desc=Нет энергии
+for.errors.noPower.help=Этому механизму требуется энергия RF.
 for.errors.noFlower.desc=Нет цветов
 for.errors.noFlower.help=Пчелы улья не нашли подходящих для них цветов.
 for.errors.noFuel.desc=Нет топлива
@@ -145,13 +174,13 @@ for.gui.addressee.trader=Торговая станция
 
 for.gui.alyzer.authority=Начальник
 for.gui.alyzer.classification=Классификация
-for.gui.alyzer.nodescription=Энциклопедия Minecraftia не может предоставить запись для этого образца.
 for.gui.alyzer.extinct=Вымерший
-for.gui.alyzer.overview=Анализ доступен
+for.gui.alyzer.nodescription=Энциклопедия Minecraftia не может предоставить запись для этого образца.
+for.gui.alyzer.overview=Доступные анализы
 
 for.gui.area=Территория
-for.gui.arid=Сухо
-for.gui.average=Средн.
+for.gui.arid=Сухая
+for.gui.average=Средний
 for.gui.beach=Пляж
 
 for.gui.beealyzer.artificial=Исскуственного происх.
@@ -181,36 +210,36 @@ for.gui.beealyzer.tolerance.up5=Вверх 5
 for.gui.beealyzer=Анализатор пчёл
 
 for.gui.blank=Пусто
-for.gui.cave=Пещерн.
-for.gui.climate=Климат
+for.gui.cave=Пещерная
+for.gui.climate=Температура
 for.gui.closetosearch=закройте для поиска
-for.gui.cold=Холодный
+for.gui.cold=Холодная
 for.gui.crop=Жёрдочка
 for.gui.currentOutput=Текущая мощность
-for.gui.damp=Сыро
+for.gui.damp=Сырая
 for.gui.derelict=Покинут
 for.gui.desert=Пустыня
 for.gui.didyouknow=А Вы знаете
-for.gui.diurnal=Дневн.
+for.gui.diurnal=Дневная
 for.gui.drones=Трутней
 for.gui.effect=Эффект
-for.gui.elongatedlife=Продленн.
+for.gui.elongatedlife=Продлённая
 for.gui.empty=Пусто
 for.gui.emptysocket=Разъём для печатной платы
 for.gui.energy=Энергия
 for.gui.environment=Среда
 for.gui.escritoire.probe=Изучить образцы
 for.gui.evolution=Эволюция
-for.gui.fast=Быстр.
-for.gui.faster=Быстрейш.
-for.gui.fastest=Наибыстрейш.
+for.gui.fast=Быстрый
+for.gui.faster=Быстрейший
+for.gui.fastest=Наибыстрейший
 for.gui.fecundated=Соединяемый
 for.gui.fertility=Плодовитость
 for.gui.fireresist=Огнеупорность
 for.gui.flowers=Тип цветка
 for.gui.flyer=Устойчивый летун
 for.gui.general=Общий
-for.gui.gigantic=Гигантский
+for.gui.gigantic=Гигантская
 for.gui.habitatlocator=Определитель ареала
 for.gui.heat=Нагрев
 for.gui.hellish=Адский
@@ -226,16 +255,16 @@ for.gui.imprinter.cheater=(Вы жулик!)
 for.gui.imprinter.name=ИМПРИНТЕР ГЕНОМА
 for.gui.inactive=Неактивно
 for.gui.large=Большой
-for.gui.larger=Больший
+for.gui.larger=Очень большой
 for.gui.largest=Крупнейший
-for.gui.life=жизнь
+for.gui.life=срок жизни
 for.gui.lifespan=Срок жизни
-for.gui.longerlife=Длиннейш.
-for.gui.longestlife=Наидлиннейш.
-for.gui.longlife=Длинн.
+for.gui.longerlife=Длиннейший
+for.gui.longestlife=Самый длинный
+for.gui.longlife=Длинный
 for.gui.low=Низкий
-for.gui.lower=Ниже
-for.gui.lowest=Сам. низк.
+for.gui.lower=Очень низкий
+for.gui.lowest=Самый низкий
 
 for.gui.mail.foreveryattached=за каждые прикреплённые
 for.gui.mail.from=От
@@ -252,10 +281,10 @@ for.gui.maxenergyreceive=Максимальная вход. энергия
 for.gui.maxspeed=Максимальная
 for.gui.metabolism=Метаболизм
 for.gui.nether=Нижний мир
-for.gui.nocturnal=Ночн.
+for.gui.nocturnal=Ночная
 for.gui.noeffect=Нет эффекта
-for.gui.normal=Нормальн.
-for.gui.normallife=Обычн.
+for.gui.normal=Нормальная
+for.gui.normallife=Обычная
 for.gui.owner=Владелец
 for.gui.page=Страница
 
@@ -284,18 +313,18 @@ for.gui.rule.private=Приватный
 for.gui.rule.restricted=Ограниченный
 for.gui.rule.shared=Общий
 
-for.gui.shortenedlife=Коротк.
-for.gui.shorterlife=Кратчайш.
-for.gui.shortestlife=Наикратчайш.
-for.gui.shortlife=Кратк.
+for.gui.shortenedlife=Короткий
+for.gui.shorterlife=Кратчайший
+for.gui.shortestlife=Наикратчайший
+for.gui.shortlife=Краткий
 
 for.gui.size=Размер
 for.gui.slots=Слоты: %USED/%SIZE
-for.gui.slow=Нетороплив.
-for.gui.slower=Медлен.
-for.gui.slowest=Медленнейш.
-for.gui.small=Небольш.
-for.gui.smaller=Меньше
+for.gui.slow=Медленный
+for.gui.slower=Очень медленный
+for.gui.slowest=Самый медленный
+for.gui.small=Маленький
+for.gui.smaller=Очень маленький
 for.gui.smallest=Самый маленький
 for.gui.species=Вид
 for.gui.speciescount=Видов
@@ -306,9 +335,9 @@ for.gui.temptol=Устойчивость к темп.
 for.gui.tooltip.tmi=Зажмите Shift для подробностей
 for.gui.triple=Тройной
 for.gui.unknown=Неизвестный геном
-for.gui.warm=Жаркий
+for.gui.warm=Жаркая
 for.gui.water=Вода
-for.gui.worker=рабоч.
+for.gui.worker=рабочий
 
 for.hints.accesscontrol.desc=Владелец машины может устанавливать три типа доступа: общий, ограниченный и приватный.
 for.hints.accesscontrol.tag=Контроль доступа
@@ -370,7 +399,7 @@ for.hints.peatharvest.desc=Болотная земля, соприкасающа
 for.hints.peatharvest.tag=Собирайте торф!
 for.hints.pipette.desc=Если вам мешает остаток жидкости в резервуаре машины, Вы можете очистить его, щелкнув по нему пипеткой.
 for.hints.pipette.tag=Очищайте резервуары с помощью пипетки
-for.hints.postage.desc=Отправка писем требует оплату марками. Базовая плата 1n, каждый прикрепленный стак предметов добавляет еще 1n к цене.
+for.hints.postage.desc=Отправка писем требует оплату марками. Основная плата 1n, каждый прикрепленный стак предметов добавляет еще 1n к цене.
 for.hints.postage.tag=Платите перевозчику
 for.hints.powerraintank.desc=Даже обесточенный сборщик дождя будет собирать воду. Но для её разлива требуется энергия от двигателя.
 for.hints.powerraintank.tag=Разлив требует энергию!
@@ -384,12 +413,10 @@ for.hints.usesofash.tag=Используйте Вашу золу!
 for.item.crated.adj=В ящике:
 for.item.crated.unknown=Ящик с неизвестным содержимым
 
-for.layout.engine.tin=Электродвигатель
-
 for.no=Нет
 
 for.researchNote.chance.highest=НАИВЫСШИЙ
-for.researchNote.chance.higher=ВЫШЕ
+for.researchNote.chance.higher=ОЧЕНЬ ВЫСОКИЙ
 for.researchNote.chance.high=ВЫСОКИЙ
 for.researchNote.chance.normal=ОБЫЧНЫЙ
 for.researchNote.chance.low=НИЗКИЙ
@@ -419,8 +446,6 @@ for.trigger.mailBuffer=Буфер
 for.trigger.missingDrone=Отсутствует трутень
 for.trigger.missingQueen=Отсутствует королева или принцесса
 for.trigger.noFrames=Нет рамок
-
-for.usage.engine.tin=В электродвигателях
 
 for.yes=Да
 
@@ -486,7 +511,7 @@ item.for.canOil.name=Банка нефти
 item.for.canSeedOil.name=Банка растительного масла
 item.for.carton.name=Картон
 
-item.for.circuitboard.basic.name=Базовая печатная плата
+item.for.circuitboard.basic.name=Основная печатная плата
 item.for.circuitboard.enhanced.name=Продвинутая печатная плата
 item.for.circuitboard.intricate.name=Усложнённая печатная плата
 item.for.circuitboard.refined.name=Усовершенствованная печатная плата
@@ -666,6 +691,11 @@ tile.for.resources.0.name=Апатитовая руда
 tile.for.resources.1.name=Медная руда
 tile.for.resources.2.name=Оловянная руда
 
+tile.for.resourceStorage.0.name=Апатитовый блок
+tile.for.resourceStorage.1.name=Медный блок
+tile.for.resourceStorage.2.name=Оловянный блок
+tile.for.resourceStorage.3.name=Бронзовый блок
+
 tile.for.soil.0.name=Гумус
 tile.for.soil.1.name=Болотная земля
 tile.for.soil.2.name=Торф
@@ -704,11 +734,13 @@ for.apiculture.effect.creeper=Кріпер
 for.apiculture.effect.drunkard=П'яниця
 for.apiculture.effect.exploration=Дослідник
 for.apiculture.effect.glacial=Замерзання
+for.apiculture.effect.fertile=Плодородие
 for.apiculture.effect.heroic=Героїчність
 for.apiculture.effect.ignition=Легкозаймистий
 for.apiculture.effect.misanthrope=Кінець
 for.apiculture.effect.misasmic=Отруєння
-for.apiculture.effect.none=Нет
+for.apiculture.effect.mycophilic=Mycophilic
+for.apiculture.effect.none=Немає
 for.apiculture.effect.radioactive=Радіоактив.
 for.apiculture.effect.reanimation=Реанімація
 for.apiculture.effect.repulsion=Огида
@@ -734,6 +766,7 @@ for.bees.hybrid=Гибрид: %PRIMARY-%SECONDARY
 
 for.bees.species.austere=Суровая
 for.bees.species.avenging=Мстящая
+for.bees.species.boggy=Болотистая
 for.bees.species.common=Обычная
 for.bees.species.cultivated=Культивированная
 for.bees.species.darkened=Тёмная
@@ -756,6 +789,7 @@ for.bees.species.majestic=Величественная
 for.bees.species.marshy=Болотная
 for.bees.species.meadows=Луговая
 for.bees.species.merry=Весёлая
+for.bees.species.miry=Топкая
 for.bees.species.modest=Скромная
 for.bees.species.monastic=Монастырская
 for.bees.species.noble=Благородная
@@ -763,6 +797,8 @@ for.bees.species.omega=Омега
 for.bees.species.phantasmal=Воображаемая
 for.bees.species.reddened=Покрасневшая
 for.bees.species.rural=Сельская
+for.bees.species.farmerly=Прошлая
+for.bees.species.agrarian=Земельная
 for.bees.species.secluded=Укромная
 for.bees.species.sinister=Зловещая
 for.bees.species.spectral=Призрачная
@@ -776,67 +812,103 @@ for.bees.species.vengeful=Мстительная
 for.bees.species.vindictive=Карательная
 for.bees.species.wintry=Зимняя
 
-for.bees.stock.pristine=Чистая порода
 for.bees.stock.ignoble=Низкая порода
+for.bees.stock.pristine=Чистая порода
 
-for.chat.bees.command.beekeeping.error=Режим пчеловодства под названием '%s' не доступен.
-for.chat.bees.command.beekeeping.set=Режим пчеловодства установлен на %s.
-for.chat.bees.command.help.0=Формат: '/%s <команда> <аргументы>'
-for.chat.bees.command.help.1=Доступные команды:
-for.chat.bees.command.help.2=- list [<мир-#>]: показывает текущий и доступные режимы пчеловодства.
-for.chat.bees.command.help.3=- info <название режима> : информация о режиме пчеловодства.
-for.chat.bees.command.help.4=- set [<мир-#>] <название режима>: установка режима пчеловодства для мира.
-for.chat.bees.command.help.5=- save [<мир-#>] <имя игрока>: сохранение статистики пчеловодства для игрока.
-for.chat.bees.command.mode.current=Текущий: %MODE (#%WORLD)
-for.chat.bees.command.mode.help=Доступные режимы: %s
-for.chat.bees.command.stats.error1=Файл журнала не может быть создан. Не удалось сохранить статистику.
-for.chat.bees.command.stats.error2=Не удаётся записать в файл журнала. Не удалось сохранить статистику.
-for.chat.bees.command.stats.error3=Операция записи выдала ошибку. Не удалось сохранить статистику.
-for.chat.bees.command.stats.saved=Статистика сохранена для игрока %s
+for.chat.command.forestry.bee.desc=- %s : Команды пчеловодства
+for.chat.command.forestry.bee.help=Команды, относящиеся к пчеловодству.
+for.chat.command.forestry.bee.format=Формат: /%s <подкоманда>
 
-for.description.speciesForest=Один из наиболее распространённых вредителей в лесах; В основном послушна.|Beekeeping 101
-for.description.speciesMeadows=Наводняет в основном равнины, в условиях умеренного климата; В основном послушна.|Beekeeping 101
-for.description.speciesCommon=Считается значком участия у начинающего пчеловода.|Beekeeping 101
-for.description.speciesCultivated=Fast working bee; Thinks anything but opera is beneath it.|Beekeeping 101
-for.description.speciesNoble="Нет более благородного занятия в мире, чем развести ещё одну пчелу."|Binnie, пчеловод
-for.description.speciesMajestic="Долой их головы!"|Queen of Hearts
-for.description.speciesImperial=Высоко ценящаяся пчела; Специализируется на производстве драгоценного маточного молочка.|Beekeeping 101
-for.description.speciesDiligent=Mostly noted as a stepping stone for the industrious line of bees.|Beekeeping 101
-for.description.speciesUnweary=Неутомимая. Потом они умирают.|Beekeeping 101
-for.description.speciesIndustrious=Высоко ценящаяся пчела; Специализируется на производстве изысканной пыльцы.|Beekeeping 101
-for.description.speciesSteadfast=Считались вымершими, пока некоторые не были найдены путешественниками в глубоком подземелье.|Apiarist's Grimoire
-for.description.speciesValiant=A rare subspecies rarely seen cohabiting in mundane hives.|Apiarist's Grimoire
-for.description.speciesHeroic=Elaborate legends have surrounded this species. Will defend its hive to its death against any hostiles.|Apiarist's Grimoire
-for.description.speciesSinister=Not many bee species are able to survive in the nether. And even those are severly affected by their hellish environment.|Beekeeping 101
-for.description.speciesFiendish=Experienced nether apiarist's have been reporting severe attacks by their bees. Caution is advised.|Beekeeping 101
-for.description.speciesDemonic=Born in the fires of the nether and being a descendant of generations of nether bees has caused this species to turn into a true demon.|Beekeeping 101
-for.description.speciesModest=Hot and arid climates have forced this species to adapt to a degree which will not allow it to survive in significantly friendlier climates.|Beekeeping 101
-for.description.speciesFrugal=Generations of bees baked in the sun to produce this species.|Beekeeping 101
-for.description.speciesAustere=Dangerous and volatile; Beekeepers are advised to stay in full suit whenever near.|Beekeeping 101
-for.description.speciesTropical="My travels along the jungle river allowed me to catch many of these poisonous specimen. Unfortunately I had lost my only austere branch to crocodiles a while back."|Beekeeping 101
-for.description.speciesExotic="The fever shook me and my apiarist's suit was drenched with cold sweat, but with trembling hands I finally managed to pull one of these from my apiary."|Beekeeping 101
-for.description.speciesEdenic="I furiously scribbled in my notebook, drawing sketches of the images I felt seeping into my brain while I was watching the insects perform their strange little dance."|Beekeeping 101
-for.description.speciesWintry=Common, but winter-hardened bee tribe; Cultivation in warmer climates is a challenge.|Beekeeping 101
-for.description.speciesIcy=Temperatures inside hives inhabited by this species will drop until ice shards form.|Beekeeping 101
-for.description.speciesGlacial="Winter is coming!"|E. Stark, beekeeper
-for.description.speciesVindictive="It ate my face! It ate my face!"|K.M.
-for.description.speciesVengeful="Veni, vidi, vici!"|Apinus Julius Caesar
-for.description.speciesAvenging="It may have eaten my face, but I wanted more!"|Anonymous
+for.chat.command.forestry.bee.give.desc=- %s : Получение пчёл
+for.chat.command.forestry.bee.give.help=Даёт игроку трутней, принцесс, королев или личинок.
+for.chat.command.forestry.bee.give.format=Формат: /%s <название вида> <тип пчелы> [<имя игрока>]
+for.chat.command.forestry.bee.give.available=Доступные виды пчёл: %s
+for.chat.command.forestry.bee.give.given=%1$s получил %2$s %3$s.
+
+for.chat.command.forestry.bee.mode.desc=- %s : Команды режимов пчеловодства
+for.chat.command.forestry.bee.mode.help=Команды, относящиеся к режимам пчеловодства.
+for.chat.command.forestry.bee.mode.format=Формат: /%s <подкоманда>
+
+for.chat.command.forestry.bee.mode.info.desc=- %s : Информацию по режиму пчеловодства
+for.chat.command.forestry.bee.mode.info.help=Информация о текущем и доступных режимах пчеловодства.
+for.chat.command.forestry.bee.mode.info.format=Формат: /%s <название режима>
+
+for.chat.command.forestry.bee.mode.set.desc=- %s : Установка режима пчеловодства
+for.chat.command.forestry.bee.mode.set.help=Устанавливает режим для пчеловодства.
+for.chat.command.forestry.bee.mode.set.format=Формат: /%s [<world-#>] <название режима>
+
+for.chat.command.forestry.bee.save.desc=- %s : Сохранение статистики пчеловодства
+for.chat.command.forestry.bee.save.help=Сохраняет статистику пчеловодства в файл.
+for.chat.command.forestry.bee.save.format=Формат: /%s [<имя игрока>]
+for.chat.command.forestry.bee.save.stats=Статистика пчеловодства для %s в %s:
+
+for.chat.command.forestry.mode.info.error=Режим '%s' не доступен.
+for.chat.command.forestry.mode.info.current=Текущий: %1$s (#%2$s)
+for.chat.command.forestry.mode.info.available=Доступные режимы: %s
+
+for.chat.command.forestry.mode.set.success=Режим установлен на %s.
+for.chat.command.forestry.mode.set.error=Режим под названием '%s' не доступен.
+
+for.chat.command.forestry.stats.save.error1=Не удалось создать файл журнала. Не удалось сохранить статистику.
+for.chat.command.forestry.stats.save.error2=Не удалось записать в файл журнала. Не удалось сохранить статистику.
+for.chat.command.forestry.stats.save.error3=Сбой во время операции записи. Не удалось сохранить статистику.
+for.chat.command.forestry.stats.save.error4=Статистика не найдена.
+for.chat.command.forestry.stats.save.saved=Статистика для игрока %s сохранена
+for.chat.command.forestry.stats.save.key.discovered=Обнаружено
+for.chat.command.forestry.stats.save.key.discovered.symbol=X
+for.chat.command.forestry.stats.save.key.blacklisted=Запрещено
+for.chat.command.forestry.stats.save.key.blacklisted.symbol=BL
+for.chat.command.forestry.stats.save.key.notCounted=Not counted for the species total
+for.chat.command.forestry.stats.save.key.notCounted.symbol=NC
+for.chat.command.forestry.stats.save.mode=Режим: %s
+
+for.description.speciesAgrarian="Doesn't reek as much as the alternative. Gets the job done, eh?"|Myrathi, Cannie Beekeeper
+for.description.speciesAustere=Dangerous and volatile; Beekeepers are advised to stay in full suit whenever near.|Пчеловодство 101
+for.description.speciesAvenging="The walls of my house began to crumble and I heard the roof creaking over my head, but I cared not! I felt the stabs of a thousand little insects on my glove as I grabbed the new queen."|Аноним
+for.description.speciesBoggy="I saw a cow get stung by one of these once. Seconds later, it started sprouting mushrooms all over! ... A photo? Uh, didn't take one."|"Sir" Sengir, madman
+for.description.speciesCommon=Считается значком участия у начинающего пчеловода.|Пчеловодство 101
+for.description.speciesCultivated=Трудолюбивая пчела; Thinks anything but opera is beneath it.|Пчеловодство 101
 for.description.speciesDarkened=Attracted by the power of alchemically bound matter, this species was a powerful source of energy.|Beekeeper's Lexicon
-for.description.speciesReddened=Requiring massive amounts of alchemically bound matter, these little fellows could flood a world in energy.|Beekeeper's Lexicon
-for.description.speciesOmega="I am Alpha and Omega, the beginning and the end, the first and the last."|Pahimar, beekeeper
+for.description.speciesDemonic=Born in the fires of the nether and being a descendant of generations of nether bees has caused this species to turn into a true demon.|Пчеловодство 101
+for.description.speciesDiligent=Mostly noted as a stepping stone for the industrious line of bees.|Пчеловодство 101
+for.description.speciesEdenic="I furiously scribbled in my notebook, drawing sketches of the images I felt seeping into my brain while I was watching the insects perform their strange little dance."|Пчеловодство 101
+for.description.speciesEnded="I found one of these seemingly hermitical insects in a villager's apiary. It was torpid, obviously ripped from its world and longing for a fragment from it."|Пчеловодство 101
+for.description.speciesExotic="The fever shook me and my apiarist's suit was drenched with cold sweat, but with trembling hands I finally managed to pull one of these from my apiary."|Пчеловодство 101
+for.description.speciesFarmerly=Commonly seen in large expanses of prairie, the breadbasket of nations.|Пчеловодство 101
+for.description.speciesFiendish=Experienced nether apiarist's have been reporting severe attacks by their bees. Caution is advised.|Пчеловодство 101
+for.description.speciesForest=Один из наиболее распространённых вредителей в лесах; В основном послушна.|Пчеловодство 101
+for.description.speciesFrugal=Generations of bees baked in the sun to produce this species.|Пчеловодство 101
+for.description.speciesGlacial="Зима близко!"|Эддард Старк, пчеловод
+for.description.speciesHermitic="My dear colleague! I noticed the bees you sent me refuse to wash and are growing full beards. Care to explain?"|Binnie, Apiarist
+for.description.speciesHeroic=Elaborate legends have surrounded this species. Will defend its hive to its death against any hostiles.|Apiarist's Grimoire
+for.description.speciesIcy=Temperatures inside hives inhabited by this species will drop until ice shards form.|Пчеловодство 101
+for.description.speciesImperial=Высоко ценящаяся пчела; Специализируется на производстве драгоценного маточного молочка.|Пчеловодство 101
+for.description.speciesIndustrious=Высоко ценящаяся пчела; Специализируется на производстве изысканной пыльцы.|Пчеловодство 101
 for.description.speciesLeporine="I swear! It was tiny, had wings and I definitely saw fluffy little rabbit ears! ... No! I am not drunk!"|"Sir" Sengir, madman
+for.description.speciesMajestic="Головы с плеч!"|Королева сердец
+for.description.speciesMarshy="Серьёзно? Грибы? Валим отсюда!"|Пчеловодство 101
+for.description.speciesMeadows=Наводняет в основном равнины, в условиях умеренного климата; В основном послушна.|Пчеловодство 101
 for.description.speciesMerry="Hohoho!"|Merry bee
+for.description.speciesMiry="How do bees even pollinate fungi?"|Mezz, Junior Apiarist
+for.description.speciesModest=Hot and arid climates have forced this species to adapt to a degree which will not allow it to survive in significantly friendlier climates.|Пчеловодство 101
+for.description.speciesMonastic="I remained austere and said to him: 'Not only a princess, but also a whole pile of emeralds for a measly drone? That's extortion!'|Пчеловодство 101
+for.description.speciesNoble="There is no more noble occupation in the world than to breed another bee."|Binnie, Apiarist
+for.description.speciesOmega="I am Alpha and Omega, the beginning and the end, the first and the last."|Pahimar, beekeeper
+for.description.speciesPhantasmal="Whatever you do, do not, I repeat, DO NOT drop the dragon e..."|"Sir" Sengir, Last Words
+for.description.speciesReddened=Requiring massive amounts of alchemically bound matter, these little fellows could flood a world in energy.|Beekeeper's Lexicon
+for.description.speciesRural="Rain in May promises much hay."|M. Ages, Rural Beekeeper
+for.description.speciesSecluded="Crossbreeding with the desert kind was a mistake. My bees withdrew more and more from the outside world."|Пчеловодство 101
+for.description.speciesSinister=Not many bee species are able to survive in the nether. And even those are severly affected by their hellish environment.|Пчеловодство 101
+for.description.speciesSpectral="I was unsure whether it was alive as it lay there in the palm of my hand, glimmering and pulsating, oozing a coldness I never felt before. Then I heard the pile of bones behind me rattle..."|Пчеловодство 101
+for.description.speciesSteadfast=Считались вымершими, пока некоторые не были найдены путешественниками в глубоком подземелье.|Apiarist's Grimoire
 for.description.speciesTipsy="Dance my pretties! Dance!"|Tipsy Witch of the East
 for.description.speciesTricky="Trick or Tricky Treat!"|Tricky Bee
-for.description.speciesRural="Rain in May promises much hay."|M. Ages, Rural Beekeeper
-for.description.speciesMarshy="Seriously? Mushrooms? Get out of here!"|Beekeeping 101
-for.description.speciesMonastic="I remained austere and said to him: 'Not only a princess, but also a whole pile of emeralds for a measly drone? That's extortion!'|Beekeeping 101
-for.description.speciesSecluded="Crossbreeding with the desert kind was a mistake. My bees withdrew more and more from the outside world."|Beekeeping 101
-for.description.speciesHermitic="My dear colleague! I noticed the bees you sent me refuse to wash and are growing full beards. Care to explain?"|Binnie, Apiarist
-for.description.speciesEnded="I found one of these seemingly hermitical insects in a villager's apiary. It was torpid, obviously ripped from its world and longing for a fragment from it."|Beekeeping 101
-for.description.speciesSpectral="I was unsure whether it was alive as it lay there in the palm of my hand, glimmering and pulsating, oozing a coldness I never felt before. Then I heard the pile of bones behind me rattle..."|Beekeeping 101
-for.description.speciesPhantasmal="Whatever you do, do not, I repeat, DO NOT drop the dragon e..."|"Sir" Sengir, Last Words
+for.description.speciesTropical="My travels along the jungle river allowed me to catch many of these poisonous specimen. Unfortunately I had lost my only austere branch to crocodiles a while back."|Пчеловодство 101
+for.description.speciesUnweary=Неутомимые. Потом они умирают.|Пчеловодство 101
+for.description.speciesValiant=A rare subspecies rarely seen cohabiting in mundane hives.|Apiarist's Grimoire
+for.description.speciesVengeful="Veni, vidi, vici!"|Apinus Julius Caesar
+for.description.speciesVindictive="It ate my face! It ate my face!"|K.M.
+for.description.speciesWintry=Common, but winter-hardened bee tribe; Cultivation in warmer climates is a challenge.|Пчеловодство 101
 
 for.genus.bees.agrarian=Agrarian
 for.genus.bees.austere=Austere
@@ -854,7 +926,8 @@ for.genus.bees.reddened=Reddened
 for.genus.bees.tropical=Tropical
 for.genus.bees.vengeful=Vengeful
 
-item.for.beeQueenGE.name=Неизвестная королева
+item.for.beePrincessGE.name=Принцесса
+item.for.beeQueenGE.name=Королева
 
 tile.for.alveary.0.name=Пчелиный улей
 tile.for.alveary.1.name=Вход улья
@@ -876,6 +949,7 @@ tile.for.beehives.4.name=Тропический улей
 tile.for.beehives.5.name=Улей Края
 tile.for.beehives.6.name=Снежный улей
 tile.for.beehives.7.name=Болотный улей
+tile.for.beehives.8.name=Улей роя
 
 tile.for.candle.dyed.lit.name=Светлая окрашенная свеча
 tile.for.candle.dyed.stump.name=Тёмная окрашенная свеча
@@ -890,14 +964,35 @@ tile.for.stump.0.name=Потухшая свеча
 
 for.arboriculture.effect.none=Нет
 
-for.chat.trees.command.help.0=Формат: '/%s <команда> <аргументы>'
-for.chat.trees.command.help.1=Доступные команды:
-for.chat.trees.command.help.2=- list [<мир-#>]: показывает текущий и доступные режимы лесоводства.
-for.chat.trees.command.help.3=- info <название режима> : информация о режиме лесоводства.
-for.chat.trees.command.help.4=- set [<мир-#>] <название режима>: установка режима лесоводства для мира.
-for.chat.trees.command.help.5=- save [<мир-#>] <имя игрока>: сохранение статистики лесоводства для игрока.
-for.chat.trees.command.treekeeping.error=Режим лесоводства под названием '%s' не доступен.
-for.chat.trees.command.treekeeping.set=Режим лесоводства установлен на %s.
+for.chat.command.forestry.tree.desc=- %s : Команды лесоводства
+for.chat.command.forestry.tree.help=Команды, относящиеся к лесоводству.
+for.chat.command.forestry.tree.format=Формат:/%s <подкоманда>
+
+for.chat.command.forestry.tree.spawnTree.desc=- %s : Посадить дерево
+for.chat.command.forestry.tree.spawnTree.help=Сажает дерево рядом с игроком.
+for.chat.command.forestry.tree.spawnTree.format=Формат:/%s <название вида> [<имя игрока>]
+
+for.chat.command.forestry.tree.spawnForest.desc=- %s : Посадить лес
+for.chat.command.forestry.tree.spawnForest.help=Сажает маленький лес рядом с игроком.
+for.chat.command.forestry.tree.spawnForest.format=Формат:/%s <название вида> [<имя игрока>]
+
+for.chat.command.forestry.tree.mode.desc=- %s : Команды режимов лесоводства
+for.chat.command.forestry.tree.mode.help=Команды, относящиеся к режимам лесоводства.
+for.chat.command.forestry.tree.mode.format=Формат: /%s <подкоманда>
+
+for.chat.command.forestry.tree.mode.info.desc=- %s : Информация по режиму лесоводства
+for.chat.command.forestry.tree.mode.info.help=Информация о текущем и доступных режимах лесоводства.
+for.chat.command.forestry.tree.mode.info.format=Формат: /%s <название режима>
+
+for.chat.command.forestry.tree.mode.set.desc=- %s : Установить режима лесоводства
+for.chat.command.forestry.tree.mode.set.help=Устанавливает режим лесоводства для мира.
+for.chat.command.forestry.tree.mode.set.format=Формат: /%s [<world-#>] <название режима>
+
+for.chat.command.forestry.tree.save.desc=- %s : Сохранить статистику лесоводства
+for.chat.command.forestry.tree.save.help=Сохраняет статистику по лесоводству в файл.
+for.chat.command.forestry.tree.save.format=Формат: /%s [<имя игрока>]
+
+for.chat.command.forestry.tree.save.stats=Статистика лесоводства для %s в %s:
 
 for.description.treeBirch=Широко распространённое берёзовое дерево, которое в среднем маленькой высоты.|Codex Lignum
 for.description.treeCherry=Небольшое дерево. В своей естественной форме оно принесёт вишни, которым нужно будет пройти период созревания.|Codex Lignum
@@ -925,6 +1020,7 @@ for.fruits.plum=Слива
 for.fruits.walnut=Грецкий орех
 
 for.gui.family=Семейство
+for.gui.fireproof=Огнестойкие(-ая)
 for.gui.fruits=Плоды
 for.gui.girth=Область посадки
 for.gui.growth=Условие роста
@@ -1118,6 +1214,8 @@ tile.for.stairs.21.name=Ступеньки из сливового дерева
 tile.for.stairs.22.name=Ступеньки из клёна
 tile.for.stairs.23.name=Ступеньки из цитрусового дерева
 
+tile.for.fireproof=%s (Огнестойкие(-ая))
+
 tile.for.saplingGE.0.name=Саженец
 tile.for.leaves.0.name=Листва
 tile.for.pods.0.name=Стручок
@@ -1174,15 +1272,10 @@ for.hints.manualfarms.tag=Ручные фермы!
 for.hints.valve.desc=Почти все фермы нуждаются в воде. Используйте блоки вентилей для автоматизации.
 for.hints.valve.tag=Источник воды!
 
-for.layout.farms.managed=Управляемая ферма
-for.layout.farms.manual=Ручная ферма
 
 for.trigger.lowFertilizer=Удобрение
 for.trigger.lowLiquid=Цистерна воды
 for.trigger.lowSoil=Почва
-
-for.usage.farms.managed=Управляемая ферма
-for.usage.farms.manual=Ручная ферма
 
 tile.for.ffarm.0.name=Блок фермы
 tile.for.ffarm.2.name=Редуктор фермы
@@ -1197,6 +1290,14 @@ tile.for.mushroom.1.name=Гриб
 # LEPIDOPTEROLOGY
 ####################
 
+for.chat.command.forestry.butterfly.desc=- %s : Команды для бабочек
+for.chat.command.forestry.butterfly.help=Различные команды, относящиеся к бабочкам
+for.chat.command.forestry.butterfly.format=Формат: /%s <подкоманда>
+
+for.chat.command.forestry.butterfly.kill.desc=- %s : Убивает всех бабочек
+for.chat.command.forestry.butterfly.kill.help=Убивает всех бабочек в загруженных чанках
+for.chat.command.forestry.butterfly.kill.format=Формат: /%s [<dimension#>]
+
 for.butterflies.hybrid=Гибрид: %PRIMARY-%SECONDARY
 
 for.butterflies.species.geometridae.brimstone=Бримстоун-мотылёк
@@ -1207,7 +1308,7 @@ for.butterflies.species.nymphalidae.blueMorphoP=Морфо Пелеида
 for.butterflies.species.nymphalidae.blueMorphoR=Синяя морфо
 for.butterflies.species.nymphalidae.blueWing=Синее крыло
 for.butterflies.species.nymphalidae.comma=Углокрыльница
-for.butterflies.species.papilionidae.dianaFritillary=Diana Fritillary
+for.butterflies.species.nymphalidae.dianaFritillary=Diana Fritillary
 for.butterflies.species.nymphalidae.glasswing=Грета Ото
 for.butterflies.species.nymphalidae.glassyTiger=Стеклянный тигр
 for.butterflies.species.nymphalidae.leopardLacewing=Цетозия циане
@@ -1251,12 +1352,21 @@ tile.for.lepidopterology.0.name=Сундук лепидоптеролога
 # MAIL
 ####################
 
-for.chat.mail.already_mailed=Письмо нельзя переслать.
-for.chat.mail.command.help.0=Формат: '/%s <команда> <аргументы>'
-for.chat.mail.command.help.1=Доступные команды:
-for.chat.mail.command.help.2=- trades : Список всех торговых станций.
-for.chat.mail.command.help.3=- virtualize <название торговой станции>: Переключает виртуальный режим для указанной торговой станции.
-for.chat.mail.command.no_tradestation=Торговая станция под названием '%s' не была найдена.
+for.chat.mail.already_mailed=Не удалось переслать письмо.
+
+for.chat.command.forestry.mail.desc=- %s : Команды почтовой системы
+for.chat.command.forestry.mail.help=Различные команды, относящиеся к почтовой системе
+for.chat.command.forestry.mail.format=Формат: /%s <подкоманда>
+
+for.chat.command.forestry.mail.trades.desc=- %s : Список всех торговых станций.
+for.chat.command.forestry.mail.trades.help=Показывает все торговые станции и их сделки.
+for.chat.command.forestry.mail.trades.format=Формат: /%s
+
+for.chat.command.forestry.mail.virtualize.desc=- %s : Переключить виртуальный режим на определённой торговой станции.
+for.chat.command.forestry.mail.virtualize.help=Переключает виртуальный режим на определённой торговой станции. Этот режим не использует предметы.
+for.chat.command.forestry.mail.virtualize.format=Формат: /%s <название торговой станции>
+for.chat.command.forestry.mail.virtualize.no_tradestation=Торговая станция, с названием '%s', не найдена.
+for.chat.command.forestry.mail.virtualize.set=Установить виртуализацию для '%s' к %s.
 
 for.chat.mail.insufficient_buffer=Торговая станция переполнена.
 for.chat.mail.insufficient_offer=Торговая станция запрашивает больше.
@@ -1289,6 +1399,27 @@ item.for.catalogue.name=Каталог
 
 item.PipeItemsPropolis.name=Труба пчеловода
 
+####################
+# PLUGINS
+####################
+for.plugin.core.description=Основная механика для Forestry. Требуется для всех других плагинов.
+for.plugin.apiculture.description=Добавляет пчёл, пчеловодство и продукты пчёл. Влияет на генерацию мира.
+for.plugin.arboriculture.description=Добавляет дополнительные виды деревьев и продуктов.
+for.plugin.energy.description=Добавляет несколько двигателей, работающих на RF.
+for.plugin.factory.description=Добавление широкий спектр механизмов, которые производят и перерабатывают продукты.
+for.plugin.farming.description=Добавляет автоматические фермы и сборщиков для широкого спектра продуктов.
+for.plugin.food.description=Добавляет еду.
+for.plugin.lepidopterology.description=Бабочки. Яркие.
+for.plugin.mail.description=Добавляет системы почты и торговли Forestry.
+for.plugin.storage.description=Добавляет рюкзаки и ящики.
+
+for.plugin.buildcraft6.description=Плагин совместимости для BuildCraft 6.
+for.plugin.pipes.description=Добавляет трубу пчеловода для пчеловодства, если пчеловодство включено и BuildCraft 6 установлен.
+for.plugin.ic2.description=Плагин совместимости для IC2. Добавляет электрический двигатель и генератор для преобразования энергии.
+for.plugin.natura.description=Плагин совместимости для Natura. Позволяет выращивать саженцы Natura.
+for.plugin.ee2.description=Плагин совместимости для Equivalent Exchange 2. Включает Омега пчёл. Пчеловодство должно быть включено.
+for.plugin.farmcraftory.description=Включает совместимость с FarmCraftory. Добавляет растения и овощи в фермы.
+
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
 ###################################
@@ -1306,11 +1437,50 @@ item.PipeItemsPropolis.name=Труба пчеловода
 # for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
 
 ###################################
+# CUSTOM ALLELE ADJECTIVES
+###################################
+# Replaces for.gui.<adjective>
+#
+# Syntax:
+# for.gui.<category>.<adjective>=New custom adjective
+#
+# Available categories and [adjectives]:
+# speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
+# maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
+#
+# size: 		[smallest, smaller, average, large, larger, largest]
+# height: 		[smallest, smaller, average, large, larger, largest, gigantic]
+# territory:	[average, large, larger, largest]
+#
+# saplings: 	[lowest, lower, low, average, high, higher, highest]
+# yield: 		[lowest, lower, low, average, high, higher, highest]
+# sappiness:	[lowest, lower, low, average, high, higher, highest]
+#
+# Examples:
+# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
+# for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
+# for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
+
+###################################
+# CUSTOM TOOLTIPS
+###################################
+# Available custom tooltips:
+# for.tooltip.worker.<speed adjective> for bee worker speed.
+#
+# Example:
+# for.tooltip.worker.slowest=Slowest Worker
+
+###################################
 # CUSTOM BEES NAMES
 ###################################
 
 for.bees.custom.drone.forest=Лесной трутень
 for.bees.custom.drone.meadows=Луговой трутень
+for.bees.custom.drone.boggy=Болотистый трутень
+for.bees.custom.drone.miry=Топкий трутень
+for.bees.custom.drone.agrarian=Земельный трутень
+for.bees.custom.drone.farmerly=Прошлый трутень
 for.bees.custom.drone.common=Обычный трутень
 for.bees.custom.drone.cultivated=Культивированный трутень
 for.bees.custom.drone.noble=Благородный трутень
@@ -1363,6 +1533,10 @@ for.bees.custom.queen.ender=Королева Края
 
 for.bees.custom.beealyzer.drone.forest=Лесной
 for.bees.custom.beealyzer.drone.meadows=Луговой
+for.bees.custom.beealyzer.drone.boggy=Болотистый трутень
+for.bees.custom.beealyzer.drone.miry=Топкий трутень
+for.bees.custom.beealyzer.drone.agrarian=Земельный трутень
+for.bees.custom.beealyzer.drone.farmerly=Прошлый трутень
 for.bees.custom.beealyzer.drone.common=Обычный
 for.bees.custom.beealyzer.drone.cultivated=Культивированный
 for.bees.custom.beealyzer.drone.noble=Благородный
@@ -1472,3 +1646,54 @@ for.trees.custom.treealyzer.sapling.wenge=Дерево Венге
 for.trees.custom.treealyzer.sapling.whitePoplar=Белый тополь
 for.trees.custom.treealyzer.sapling.whiteWillow=Белая ива
 for.trees.custom.treealyzer.sapling.yellowMeranti=Жёлтое меранти
+
+for.gui.height.smallest=Самая низкая
+for.gui.height.smaller=Очень низкая
+for.gui.height.small=Низкая
+for.gui.height.average=Средняя
+for.gui.height.large=Большая
+for.gui.height.larger=Очень большая
+for.gui.height.largest=Наибольшая
+for.gui.height.gigantic=Гигантская
+
+for.gui.sappiness.lowest=Самая низкая
+for.gui.sappiness.lower=Очень низкая
+for.gui.sappiness.low=Низкая
+for.gui.sappiness.average=Средняя
+for.gui.sappiness.high=Высокая
+for.gui.sappiness.higher=Очень высокая
+for.gui.sappiness.highest=Наивысшая
+
+for.gui.maturity.slowest=Очень медленное
+for.gui.maturity.slower=Медленное
+for.gui.maturity.slow=Неторопливое
+for.gui.maturity.normal=Обычное
+for.gui.maturity.average=Среднее
+for.gui.maturity.fast=Быстрое
+for.gui.maturity.faster=Очень быстрое
+for.gui.maturity.fastest=Наибыстрейшее
+
+for.gui.speed.slowest=Очень медленная
+for.gui.speed.slower=Медленная
+for.gui.speed.slow=Неторопливая
+for.gui.speed.normal=Обычная
+for.gui.speed.fast=Быстрая
+for.gui.speed.faster=Очень быстрая
+for.gui.speed.fastest=Наибыстрейшая
+
+for.gui.flowering.slowest=Очень медленная
+for.gui.flowering.slower=Медленная
+for.gui.flowering.slow=Неторопливая
+for.gui.flowering.normal=Обычная
+for.gui.flowering.fast=Быстрая
+for.gui.flowering.faster=Очень быстрая
+for.gui.flowering.fastest=Наибыстрейшая
+for.gui.flowering.maximum=Максимально быстрая
+
+for.tooltip.worker.slowest=Очень медленный рабочий
+for.tooltip.worker.slower=Медленный рабочий
+for.tooltip.worker.slow=Неторопливый рабочий
+for.tooltip.worker.normal=Обычный рабочий
+for.tooltip.worker.fast=Быстрый рабочий
+for.tooltip.worker.faster=Очень быстрый рабочий
+for.tooltip.worker.fastest=Наибыстрейший рабочий
