@@ -1409,6 +1409,7 @@ item.PipeItemsPropolis.name=Apiarist's Pipe
 # PLUGINS
 ####################
 for.plugin.core.description=Core mechanics for Forestry. Required by all other plugins.
+for.plugin.fluids.description=Adds fluids, fluid blocks, and fluid containers.
 for.plugin.apiculture.description=Adds bees, beekeeping and bee products. Affects world generation.
 for.plugin.arboriculture.description=Adds additional tree species and products.
 for.plugin.energy.description=Adds several RF engines.
