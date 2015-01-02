@@ -1088,139 +1088,53 @@ for.trees.species.wenge=Wenge
 for.trees.species.whitePoplar=White Poplar
 for.trees.species.whiteWillow=White Willow
 for.trees.species.yellowMeranti=Yellow Meranti
+for.trees.species.ipe=Ipe
+for.trees.species.padauk=Padauk
+for.trees.species.cocobolo=Cocobolo
+for.trees.species.zebrawood=Zebrawood
+
+for.fences.grammar=%TYPE Fence
+for.log.grammar=%TYPE Wood
+for.planks.grammar=%TYPE Wood Planks
+for.slab.grammar=%TYPE Wood Slab
+for.stairs.grammar=%TYPE Stairs
+
+for.trees.woodType.larch=Larch
+for.trees.woodType.teak=Teak
+for.trees.woodType.acacia=Acacia
+for.trees.woodType.lime=Lime
+for.trees.woodType.chestnut=Chestnut
+for.trees.woodType.wenge=Wenge
+for.trees.woodType.baobab=Baobab
+for.trees.woodType.sequoia=Sequoia
+for.trees.woodType.kapok=Kapok
+for.trees.woodType.ebony=Ebony
+for.trees.woodType.mahogany=Mahogany
+for.trees.woodType.balsa=Balsa
+for.trees.woodType.willow=Willow
+for.trees.woodType.walnut=Walnut
+for.trees.woodType.greenheart=Greenheart
+for.trees.woodType.cherry=Cherry
+for.trees.woodType.mahoe=Mahoe
+for.trees.woodType.poplar=Poplar
+for.trees.woodType.palm=Palm
+for.trees.woodType.papaya=Papaya
+for.trees.woodType.pine=Pine
+for.trees.woodType.plum=Plum
+for.trees.woodType.maple=Maple
+for.trees.woodType.citrus=Citrus
+for.trees.woodType.giganteum=Giant Sequoia
+for.trees.woodType.ipe=Ipe
+for.trees.woodType.padauk=Padauk
+for.trees.woodType.cocobolo=Cocobolo
+for.trees.woodType.zebrawood=Zebrawood
+
+tile.for.fireproof=%s (Fireproof)
 
 item.for.grafter.name=Grafter
 item.for.grafterProven.name=Proven Grafter
 
 tile.for.arboriculture.0.name=Arborist's Chest
-
-tile.for.fences.0.name=Larch Fence
-tile.for.fences.1.name=Teak Fence
-tile.for.fences.2.name=Acacia Fence
-tile.for.fences.3.name=Lime Fence
-tile.for.fences.4.name=Chestnut Fence
-tile.for.fences.5.name=Wenge Fence
-tile.for.fences.6.name=Baobab Fence
-tile.for.fences.7.name=Sequoia Fence
-tile.for.fences.8.name=Kapok Fence
-tile.for.fences.9.name=Ebony Fence
-tile.for.fences.10.name=Mahogany Fence
-tile.for.fences.11.name=Balsa Fence
-tile.for.fences.12.name=Willow Fence
-tile.for.fences.13.name=Walnut Fence
-tile.for.fences.14.name=Greenheart Fence
-tile.for.fences.15.name=Cherry Fence
-tile.for.fences.16.name=Mahoe Fence
-tile.for.fences.17.name=Poplar Fence
-tile.for.fences.18.name=Palm Fence
-tile.for.fences.19.name=Papaya Fence
-tile.for.fences.20.name=Pine Fence
-tile.for.fences.21.name=Plum Fence
-tile.for.fences.22.name=Maple Fence
-tile.for.fences.23.name=Citrus Fence
-
-tile.for.log.0.name=Larch Wood
-tile.for.log.1.name=Teak Wood
-tile.for.log.2.name=Acacia Wood
-tile.for.log.3.name=Lime Wood
-tile.for.log.4.name=Chestnut Wood
-tile.for.log.5.name=Wenge Wood
-tile.for.log.6.name=Baobab Wood
-tile.for.log.7.name=Sequoia Wood
-tile.for.log.8.name=Kapok Wood
-tile.for.log.9.name=Ebony Wood
-tile.for.log.10.name=Mahogany Wood
-tile.for.log.11.name=Balsa Wood
-tile.for.log.12.name=Willow Wood
-tile.for.log.13.name=Walnut Wood
-tile.for.log.14.name=Greenheart Wood
-tile.for.log.15.name=Cherry Wood
-tile.for.log.16.name=Mahoe Wood
-tile.for.log.17.name=Poplar Wood
-tile.for.log.18.name=Palm Wood
-tile.for.log.19.name=Papaya Wood
-tile.for.log.20.name=Pine Wood
-tile.for.log.21.name=Plum Wood
-tile.for.log.22.name=Maple Wood
-tile.for.log.23.name=Citrus Wood
-tile.for.log.24.name=Giant Sequoia Wood
-
-tile.for.planks.0.name=Larch Wood Planks
-tile.for.planks.1.name=Teak Wood Planks
-tile.for.planks.2.name=Acacia Wood Planks
-tile.for.planks.3.name=Lime Wood Planks
-tile.for.planks.4.name=Chestnut Wood Planks
-tile.for.planks.5.name=Wenge Wood Planks
-tile.for.planks.6.name=Baobab Wood Planks
-tile.for.planks.7.name=Sequoia Wood Planks
-tile.for.planks.8.name=Kapok Wood Planks
-tile.for.planks.9.name=Ebony Wood Planks
-tile.for.planks.10.name=Mahogany Wood Planks
-tile.for.planks.11.name=Balsa Wood Planks
-tile.for.planks.12.name=Willow Wood Planks
-tile.for.planks.13.name=Walnut Wood Planks
-tile.for.planks.14.name=Greenheart Wood Planks
-tile.for.planks.15.name=Cherry Wood Planks
-tile.for.planks.16.name=Mahoe Wood Planks
-tile.for.planks.17.name=Poplar Wood Planks
-tile.for.planks.18.name=Palm Wood Planks
-tile.for.planks.19.name=Papaya Wood Planks
-tile.for.planks.20.name=Pine Wood Planks
-tile.for.planks.21.name=Plum Wood Planks
-tile.for.planks.22.name=Maple Wood Planks
-tile.for.planks.23.name=Citrus Wood Planks
-
-tile.for.slab.0.name=Larch Wood Slab
-tile.for.slab.1.name=Teak Wood Slab
-tile.for.slab.2.name=Acacia Wood Slab
-tile.for.slab.3.name=Lime Wood Slab
-tile.for.slab.4.name=Chestnut Wood Slab
-tile.for.slab.5.name=Wenge Wood Slab
-tile.for.slab.6.name=Baobab Wood Slab
-tile.for.slab.7.name=Sequoia Wood Slab
-tile.for.slab.8.name=Kapok Wood Slab
-tile.for.slab.9.name=Ebony Wood Slab
-tile.for.slab.10.name=Mahogany Wood Slab
-tile.for.slab.11.name=Balsa Wood Slab
-tile.for.slab.12.name=Willow Wood Slab
-tile.for.slab.13.name=Walnut Wood Slab
-tile.for.slab.14.name=Greenheart Wood Slab
-tile.for.slab.15.name=Cherry Wood Slab
-tile.for.slab.16.name=Mahoe Wood Slab
-tile.for.slab.17.name=Poplar Wood Slab
-tile.for.slab.18.name=Palm Wood Slab
-tile.for.slab.19.name=Papaya Wood Slab
-tile.for.slab.20.name=Pine Wood Slab
-tile.for.slab.21.name=Plum Wood Slab
-tile.for.slab.22.name=Maple Wood Slab
-tile.for.slab.23.name=Citrus Wood Slab
-
-tile.for.stairs.0.name=Larch Stairs
-tile.for.stairs.1.name=Teak Stairs
-tile.for.stairs.2.name=Acacia Stairs
-tile.for.stairs.3.name=Lime Stairs
-tile.for.stairs.4.name=Chestnut Stairs
-tile.for.stairs.5.name=Wenge Stairs
-tile.for.stairs.6.name=Baobab Stairs
-tile.for.stairs.7.name=Sequoia Stairs
-tile.for.stairs.8.name=Kapok Stairs
-tile.for.stairs.9.name=Ebony Stairs
-tile.for.stairs.10.name=Mahogany Stairs
-tile.for.stairs.11.name=Balsa Stairs
-tile.for.stairs.12.name=Willow Stairs
-tile.for.stairs.13.name=Walnut Stairs
-tile.for.stairs.14.name=Greenheart Stairs
-tile.for.stairs.15.name=Cherry Stairs
-tile.for.stairs.16.name=Mahoe Stairs
-tile.for.stairs.17.name=Poplar Stairs
-tile.for.stairs.18.name=Palm Stairs
-tile.for.stairs.19.name=Papaya Stairs
-tile.for.stairs.20.name=Pine Stairs
-tile.for.stairs.21.name=Plum Stairs
-tile.for.stairs.22.name=Maple Stairs
-tile.for.stairs.23.name=Citrus Stairs
-
-tile.for.fireproof=%s (Fireproof)
 
 tile.for.saplingGE.0.name=Sapling
 tile.for.leaves.0.name=Leaves
@@ -1477,3 +1391,14 @@ for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Add
 #
 # Example:
 # for.tooltip.worker.slowest=Slowest Worker
+
+###################################
+# CUSTOM WOOD NAMES
+###################################
+#
+# Examples:
+# tile.for.stairs.4.name=Chestnut Stairs
+# tile.for.planks.8.name=Kapok Wood Planks
+# tile.for.slab.5.name=Wenge Wood Slab
+# tile.for.log.10.name=Mahogany Wood
+# tile.for.fences.0.name=Larch Fence
