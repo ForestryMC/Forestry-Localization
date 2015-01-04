@@ -228,7 +228,6 @@ for.gui.empty=Пусто
 for.gui.emptysocket=Разъём для печатной платы
 for.gui.energy=Энергия
 for.gui.environment=Среда
-for.gui.escritoire.probe=Изучить образцы
 for.gui.evolution=Эволюция
 for.gui.fast=Быстрый
 for.gui.faster=Быстрейший
@@ -265,6 +264,51 @@ for.gui.longlife=Длинный
 for.gui.low=Низкий
 for.gui.lower=Очень низкий
 for.gui.lowest=Самый низкий
+
+for.gui.escritoire.probe=Изучить образцы
+for.gui.escritoire.instructions=Положите генетический образец в центр, чтобы начать. Также положите несколько в левые слоты и изучите их для помощи.
+
+# Write as many notes as you like, just set the count correctly.
+
+for.gui.escritoire.notes.level1.count=3
+for.gui.escritoire.notes.level1.1=Я нашёл любопытный образец во время путешествия.
+for.gui.escritoire.notes.level1.2=Этот странный малый нуждается в дальнейшем исследовании.
+for.gui.escritoire.notes.level1.3=Ликуя, я решил сразу начать с моего исследования.
+
+for.gui.escritoire.notes.level2.count=4
+for.gui.escritoire.notes.level2.1=Я был поражён дивной натурой этого образца.
+for.gui.escritoire.notes.level2.2=Образец дёрнулся, когда я осматривал его более внимательно.
+for.gui.escritoire.notes.level2.3=Странные знаки на нижней части удивили меня.
+for.gui.escritoire.notes.level2.4=Об этом будут говорить в обществе, когда я закончу исследование.
+
+for.gui.escritoire.notes.level3.count=4
+for.gui.escritoire.notes.level3.1=После некоторых мыслей, я обнаружил новое интересное направление.
+for.gui.escritoire.notes.level3.2=Я почесал голову над этим открытием и подверг всё сомнению.
+for.gui.escritoire.notes.level3.3=Я думал, что мои глаза обманывают меня, но не тут-то было.
+for.gui.escritoire.notes.level3.4=Ранее недоступная точка привела меня к вопросу о классификации образца.
+
+for.gui.escritoire.notes.level4.count=7
+for.gui.escritoire.notes.level4.1=Мои крики разочарования заставили домработника заглянуть в мой кабинет от беспокойства.
+for.gui.escritoire.notes.level4.2=В безумии и на грани отчаяния, я разорвал все заметки!
+for.gui.escritoire.notes.level4.3=Это... просто не имеет никакого смысла!
+for.gui.escritoire.notes.level4.4=Этого просто не может быть. Оно не делало этого раньше!
+for.gui.escritoire.notes.level4.5=Кувалда едва сделала вмятину, поэтому я отправился за пилой.
+for.gui.escritoire.notes.level4.6=Я клянусь, оно смотрит на меня, своими ужасными, маленькими, похожими на бусинки, глазами.
+for.gui.escritoire.notes.level4.7=Оно смеётся? Я слышал смех? Кто здесь смеётся?
+
+for.gui.escritoire.notes.success.count=5
+for.gui.escritoire.notes.success.1=Эврика!
+for.gui.escritoire.notes.success.2=Чудо! Моё имя войдёт в историю!
+for.gui.escritoire.notes.success.3=Мои коллеги будут впечатлены!
+for.gui.escritoire.notes.success.4=Все будут завидовать мне!
+for.gui.escritoire.notes.success.5=Да!
+
+for.gui.escritoire.notes.failure.count=5
+for.gui.escritoire.notes.failure.1=Всё потеряно.
+for.gui.escritoire.notes.failure.2=Я сжёг все мои заметки.
+for.gui.escritoire.notes.failure.3=Зачем? Поначалу я делал большие успехи...
+for.gui.escritoire.notes.failure.4=Неудача. Снова.
+for.gui.escritoire.notes.failure.5=О, мой...
 
 for.gui.mail.foreveryattached=за каждые прикреплённые
 for.gui.mail.from=От
@@ -1020,7 +1064,7 @@ for.fruits.plum=Слива
 for.fruits.walnut=Грецкий орех
 
 for.gui.family=Семейство
-for.gui.fireproof=Огнестойкие(-ая)
+for.gui.fireproof=Огнестойкость
 for.gui.fruits=Плоды
 for.gui.girth=Область посадки
 for.gui.growth=Условие роста
@@ -1082,139 +1126,53 @@ for.trees.species.wenge=дерева Венге
 for.trees.species.whitePoplar=белого тополя
 for.trees.species.whiteWillow=белой ивы
 for.trees.species.yellowMeranti=жёлтого меранти
+for.trees.species.ipe=муравьиного дерева
+for.trees.species.padauk=падука
+for.trees.species.cocobolo=кокоболо
+for.trees.species.zebrawood=зебрано
+
+for.fences.grammar=Забор из %TYPE
+for.log.grammar=Древесина %TYPE
+for.planks.grammar=Доски из %TYPE
+for.slab.grammar=Плита из %TYPE
+for.stairs.grammar=Ступеньки из %TYPE
+
+for.trees.woodType.larch=лиственницы
+for.trees.woodType.teak=тикового дерева
+for.trees.woodType.acacia=акации
+for.trees.woodType.lime=липы
+for.trees.woodType.chestnut=каштана
+for.trees.woodType.wenge=дерева Венге
+for.trees.woodType.baobab=баобаба
+for.trees.woodType.sequoia=секвойи
+for.trees.woodType.kapok=хлопкового дерева
+for.trees.woodType.ebony=мирта
+for.trees.woodType.mahogany=красного дерева
+for.trees.woodType.balsa=бальзы
+for.trees.woodType.willow=ивы
+for.trees.woodType.walnut=орехового дерева
+for.trees.woodType.greenheart=гринхарта
+for.trees.woodType.cherry=вишнёвого дерева
+for.trees.woodType.mahoe=гибискуса
+for.trees.woodType.poplar=тополя
+for.trees.woodType.palm=пальмы
+for.trees.woodType.papaya=дынного дерева
+for.trees.woodType.pine=сосны
+for.trees.woodType.plum=сливового дерева
+for.trees.woodType.maple=клёна
+for.trees.woodType.citrus=цитрусового дерева
+for.trees.woodType.giganteum=гигантской секвойи
+for.trees.woodType.ipe=муравьиного дерева
+for.trees.woodType.padauk=падука
+for.trees.woodType.cocobolo=кокоболо
+for.trees.woodType.zebrawood=зебрано
+
+tile.for.fireproof=%s (Огнестойкость)
 
 item.for.grafter.name=Садовый нож
 item.for.grafterProven.name=Проверенный садовый нож
 
 tile.for.arboriculture.0.name=Сундук лесовода
-
-tile.for.fences.0.name=Забор из лиственницы
-tile.for.fences.1.name=Забор из тикового дерева
-tile.for.fences.2.name=Забор из акации
-tile.for.fences.3.name=Забор из липы
-tile.for.fences.4.name=Забор из каштанового дерева
-tile.for.fences.5.name=Забор из дерева венге
-tile.for.fences.6.name=Забор из баобаба
-tile.for.fences.7.name=Забор из секвойи
-tile.for.fences.8.name=Забор из хлопкового дерева
-tile.for.fences.9.name=Забор из миртового дерева
-tile.for.fences.10.name=Забор из красного дерева
-tile.for.fences.11.name=Забор из бальзы
-tile.for.fences.12.name=Забор из ивы
-tile.for.fences.13.name=Забор из орехового дерева
-tile.for.fences.14.name=Забор из гринхарта
-tile.for.fences.15.name=Забор из вишнёвого дерева
-tile.for.fences.16.name=Забор из гибискуса
-tile.for.fences.17.name=Забор из тополя
-tile.for.fences.18.name=Забор из пальмы
-tile.for.fences.19.name=Забор из дынного дерева
-tile.for.fences.20.name=Забор из сосны
-tile.for.fences.21.name=Забор из сливового дерева
-tile.for.fences.22.name=Забор из клёна
-tile.for.fences.23.name=Забор из цитрусового дерева
-
-tile.for.log.0.name=Древесина лиственницы
-tile.for.log.1.name=Древесина тикового дерева
-tile.for.log.2.name=Древесина акации
-tile.for.log.3.name=Древесина липы
-tile.for.log.4.name=Древесина каштанового дерева
-tile.for.log.5.name=Древесина дерева венге
-tile.for.log.6.name=Древесина баобаба
-tile.for.log.7.name=Древесина секвойи
-tile.for.log.8.name=Древесина хлопкового дерева
-tile.for.log.9.name=Древесина миртового дерева
-tile.for.log.10.name=Древесина красного дерева
-tile.for.log.11.name=Древесина бальзы
-tile.for.log.12.name=Древесина ивы
-tile.for.log.13.name=Древесина орехового дерева
-tile.for.log.14.name=Древесина гринхарта
-tile.for.log.15.name=Древесина вишнёвого дерева
-tile.for.log.16.name=Древесина гибискуса
-tile.for.log.17.name=Древесина тополя
-tile.for.log.18.name=Древесина пальмы
-tile.for.log.19.name=Древесина дынного дерева
-tile.for.log.20.name=Древесина сосны
-tile.for.log.21.name=Древесина сливового дерева
-tile.for.log.22.name=Древесина клёна
-tile.for.log.23.name=Древесина цитрусового дерева
-tile.for.log.24.name=Древесина гигантской секвойи
-
-tile.for.planks.0.name=Доски из древесины лиственницы
-tile.for.planks.1.name=Доски из древесины тикового дерева
-tile.for.planks.2.name=Доски из древесины акации
-tile.for.planks.3.name=Доски из древесины липы
-tile.for.planks.4.name=Доски из древесины каштанового дерева
-tile.for.planks.5.name=Доски из древесины дерева венге
-tile.for.planks.6.name=Доски из древесины баобаба
-tile.for.planks.7.name=Доски из древесины секвойи
-tile.for.planks.8.name=Доски из древесины хлопкового дерева
-tile.for.planks.9.name=Доски из древесины миртового дерева
-tile.for.planks.10.name=Доски из древесины красного дерева
-tile.for.planks.11.name=Доски из древесины бальзы
-tile.for.planks.12.name=Доски из древесины ивы
-tile.for.planks.13.name=Доски из древесины орехового дерева
-tile.for.planks.14.name=Доски из древесины гринхарта
-tile.for.planks.15.name=Доски из древесины вишнёвого дерева
-tile.for.planks.16.name=Доски из древесины гибискуса
-tile.for.planks.17.name=Доски из древесины тополя
-tile.for.planks.18.name=Доски из древесины пальмы
-tile.for.planks.19.name=Доски из древесины дынного дерева
-tile.for.planks.20.name=Доски из древесины сосны
-tile.for.planks.21.name=Доски из древесины сливового дерева
-tile.for.planks.22.name=Доски из древесины клёна
-tile.for.planks.23.name=Доски из древесины цитрусового дерева
-
-tile.for.slab.0.name=Плита из древесины лиственницы
-tile.for.slab.1.name=Плита из древесины тикового дерева
-tile.for.slab.2.name=Плита из древесины акации
-tile.for.slab.3.name=Плита из древесины липы
-tile.for.slab.4.name=Плита из древесины каштанового дерева
-tile.for.slab.5.name=Плита из древесины дерева венге
-tile.for.slab.6.name=Плита из древесины баобаба
-tile.for.slab.7.name=Плита из древесины секвойи
-tile.for.slab.8.name=Плита из древесины хлопкового дерева
-tile.for.slab.9.name=Плита из древесины миртового дерева
-tile.for.slab.10.name=Плита из древесины красного дерева
-tile.for.slab.11.name=Плита из древесины бальзы
-tile.for.slab.12.name=Плита из древесины ивы
-tile.for.slab.13.name=Плита из древесины орехового дерева
-tile.for.slab.14.name=Плита из древесины гринхарта
-tile.for.slab.15.name=Плита из древесины вишнёвого дерева
-tile.for.slab.16.name=Плита из древесины гибискуса
-tile.for.slab.17.name=Плита из древесины тополя
-tile.for.slab.18.name=Плита из древесины пальмы
-tile.for.slab.19.name=Плита из древесины дынного дерева
-tile.for.slab.20.name=Плита из древесины сосны
-tile.for.slab.21.name=Плита из древесины сливового дерева
-tile.for.slab.22.name=Плита из древесины клёна
-tile.for.slab.23.name=Плита из древесины цитрусового дерева
-
-tile.for.stairs.0.name=Ступеньки из лиственницы
-tile.for.stairs.1.name=Ступеньки из тикового дерева
-tile.for.stairs.2.name=Ступеньки из акации
-tile.for.stairs.3.name=Ступеньки из липы
-tile.for.stairs.4.name=Ступеньки из каштанового дерева
-tile.for.stairs.5.name=Ступеньки из дерева венге
-tile.for.stairs.6.name=Ступеньки из баобаба
-tile.for.stairs.7.name=Ступеньки из секвойи
-tile.for.stairs.8.name=Ступеньки из хлопкового дерева
-tile.for.stairs.9.name=Ступеньки из миртового дерева
-tile.for.stairs.10.name=Ступеньки из красного дерева
-tile.for.stairs.11.name=Ступеньки из бальзы
-tile.for.stairs.12.name=Ступеньки из ивы
-tile.for.stairs.13.name=Ступеньки из орехового дерева
-tile.for.stairs.14.name=Ступеньки из гринхарта
-tile.for.stairs.15.name=Ступеньки из вишнёвого дерева
-tile.for.stairs.16.name=Ступеньки из гибискуса
-tile.for.stairs.17.name=Ступеньки из тополя
-tile.for.stairs.18.name=Ступеньки из пальмы
-tile.for.stairs.19.name=Ступеньки из дынного дерева
-tile.for.stairs.20.name=Ступеньки из сосны
-tile.for.stairs.21.name=Ступеньки из сливового дерева
-tile.for.stairs.22.name=Ступеньки из клёна
-tile.for.stairs.23.name=Ступеньки из цитрусового дерева
-
-tile.for.fireproof=%s (Огнестойкие(-ая))
 
 tile.for.saplingGE.0.name=Саженец
 tile.for.leaves.0.name=Листва
@@ -1533,10 +1491,10 @@ for.bees.custom.queen.ender=Королева Края
 
 for.bees.custom.beealyzer.drone.forest=Лесной
 for.bees.custom.beealyzer.drone.meadows=Луговой
-for.bees.custom.beealyzer.drone.boggy=Болотистый трутень
-for.bees.custom.beealyzer.drone.miry=Топкий трутень
-for.bees.custom.beealyzer.drone.agrarian=Земельный трутень
-for.bees.custom.beealyzer.drone.farmerly=Прошлый трутень
+for.bees.custom.beealyzer.drone.boggy=Болотистый
+for.bees.custom.beealyzer.drone.miry=Топкий
+for.bees.custom.beealyzer.drone.agrarian=Земельный
+for.bees.custom.beealyzer.drone.farmerly=Прошлый
 for.bees.custom.beealyzer.drone.common=Обычный
 for.bees.custom.beealyzer.drone.cultivated=Культивированный
 for.bees.custom.beealyzer.drone.noble=Благородный
@@ -1614,6 +1572,10 @@ for.trees.custom.treealyzer.pollen.wenge=Дерево Венге
 for.trees.custom.treealyzer.pollen.whitePoplar=Белый тополь
 for.trees.custom.treealyzer.pollen.whiteWillow=Белая ива
 for.trees.custom.treealyzer.pollen.yellowMeranti=Жёлтое меранти
+for.trees.custom.treealyzer.pollen.ipe=Муравьиное дерево
+for.trees.custom.treealyzer.pollen.padauk=Падук
+for.trees.custom.treealyzer.pollen.cocobolo=Кокоболо
+for.trees.custom.treealyzer.pollen.zebrawood=Зезбрано
 
 for.trees.custom.treealyzer.sapling.acacia=Акация
 for.trees.custom.treealyzer.sapling.appleOak=Яблочный дуб
@@ -1646,6 +1608,10 @@ for.trees.custom.treealyzer.sapling.wenge=Дерево Венге
 for.trees.custom.treealyzer.sapling.whitePoplar=Белый тополь
 for.trees.custom.treealyzer.sapling.whiteWillow=Белая ива
 for.trees.custom.treealyzer.sapling.yellowMeranti=Жёлтое меранти
+for.trees.custom.treealyzer.sapling.ipe=Муравьиное дерево
+for.trees.custom.treealyzer.sapling.padauk=Падук
+for.trees.custom.treealyzer.sapling.cocobolo=Кокоболо
+for.trees.custom.treealyzer.sapling.zebrawood=Зезбрано
 
 for.gui.height.smallest=Самая низкая
 for.gui.height.smaller=Очень низкая
@@ -1697,3 +1663,14 @@ for.tooltip.worker.normal=Обычный рабочий
 for.tooltip.worker.fast=Быстрый рабочий
 for.tooltip.worker.faster=Очень быстрый рабочий
 for.tooltip.worker.fastest=Наибыстрейший рабочий
+
+###################################
+# CUSTOM WOOD NAMES
+###################################
+#
+# Examples:
+# tile.for.stairs.4.name=Chestnut Stairs
+# tile.for.planks.8.name=Kapok Wood Planks
+# tile.for.slab.5.name=Wenge Wood Slab
+# tile.for.log.10.name=Mahogany Wood
+# tile.for.fences.0.name=Larch Fence
