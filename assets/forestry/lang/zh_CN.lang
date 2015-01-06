@@ -1038,142 +1038,53 @@ for.trees.species.wenge=崖豆
 for.trees.species.whitePoplar=白杨
 for.trees.species.whiteWillow=银柳
 for.trees.species.yellowMeranti=黄桉
+for.trees.species.ipe=重蚁树
+for.trees.species.padauk=紫檀树
+for.trees.species.cocobolo=黄檀树
+for.trees.species.zebrawood=斑木树
+
+for.fences.grammar=%TYPE栅栏
+for.log.grammar=%TYPE原木
+for.planks.grammar=%TYPE木板
+for.slab.grammar=%TYPE台阶
+for.stairs.grammar=%TYPE楼梯
+
+for.trees.woodType.larch=落叶树
+for.trees.woodType.teak=柚树
+for.trees.woodType.acacia=金合欢树
+for.trees.woodType.lime=酸橙树
+for.trees.woodType.chestnut=栗树
+for.trees.woodType.wenge=崖豆树
+for.trees.woodType.baobab=猴面包树
+for.trees.woodType.sequoia=红杉树
+for.trees.woodType.kapok=木棉树
+for.trees.woodType.ebony=乌檀树
+for.trees.woodType.mahogany=桃心树
+for.trees.woodType.balsa=巴尔杉树
+for.trees.woodType.willow=柳树
+for.trees.woodType.walnut=胡桃树
+for.trees.woodType.greenheart=绿樟树
+for.trees.woodType.cherry=樱树
+for.trees.woodType.mahoe=高槿树
+for.trees.woodType.poplar=白杨树
+for.trees.woodType.palm=棕榈树
+for.trees.woodType.papaya=木瓜树
+for.trees.woodType.pine=松树
+for.trees.woodType.plum=李子树
+for.trees.woodType.maple=枫树
+for.trees.woodType.citrus=柑橘树
+for.trees.woodType.giganteum=巨杉树
+for.trees.woodType.ipe=重蚁树
+for.trees.woodType.padauk=紫檀树
+for.trees.woodType.cocobolo=黄檀树
+for.trees.woodType.zebrawood=斑木树
+
+tile.for.fireproof=抗燃%s
 
 item.for.grafter.name=剪枝器
 item.for.grafterProven.name=标定剪枝器
 
 tile.for.arboriculture.0.name=林业员箱子
-
-tile.for.fences.0.name=落叶树栅栏
-tile.for.fences.1.name=柚树栅栏
-tile.for.fences.2.name=金合欢栅栏
-tile.for.fences.3.name=酸橙栅栏
-tile.for.fences.4.name=栗树栅栏
-tile.for.fences.5.name=崖豆栅栏
-tile.for.fences.6.name=猴面包栅栏
-tile.for.fences.7.name=红杉栅栏
-tile.for.fences.8.name=木棉栅栏
-tile.for.fences.9.name=乌檀栅栏
-tile.for.fences.10.name=桃心栅栏
-tile.for.fences.11.name=巴尔杉栅栏
-tile.for.fences.12.name=柳树栅栏
-tile.for.fences.13.name=胡桃栅栏
-tile.for.fences.14.name=绿心栅栏
-tile.for.fences.15.name=樱树栅栏
-tile.for.fences.16.name=高槿栅栏
-tile.for.fences.17.name=白杨栅栏
-tile.for.fences.18.name=棕榈栅栏
-tile.for.fences.19.name=木瓜栅栏
-tile.for.fences.20.name=松树栅栏
-tile.for.fences.21.name=李子栅栏
-tile.for.fences.22.name=枫树栅栏
-tile.for.fences.23.name=柑橘栅栏
-
-tile.for.log.0.name=落叶树原木
-tile.for.log.1.name=柚树原木
-tile.for.log.2.name=金合欢原木
-tile.for.log.3.name=酸橙原木
-tile.for.log.4.name=栗树原木
-tile.for.log.5.name=崖豆原木
-tile.for.log.6.name=猴面包原木
-tile.for.log.7.name=红杉原木
-tile.for.log.8.name=木棉原木
-tile.for.log.9.name=乌檀原木
-tile.for.log.10.name=桃心原木
-tile.for.log.11.name=巴尔杉原木
-tile.for.log.12.name=柳树原木
-tile.for.log.13.name=胡桃原木
-tile.for.log.14.name=绿心原木
-tile.for.log.15.name=樱树原木
-tile.for.log.16.name=高槿原木
-tile.for.log.17.name=白杨原木
-tile.for.log.18.name=棕榈原木
-tile.for.log.19.name=木瓜原木
-tile.for.log.20.name=松树原木
-tile.for.log.21.name=李子原木
-tile.for.log.22.name=枫树原木
-tile.for.log.23.name=柑橘原木
-tile.for.log.24.name=巨杉原木
-
-tile.for.planks.0.name=落叶树木板
-tile.for.planks.1.name=柚木板
-tile.for.planks.2.name=金合欢木板
-tile.for.planks.3.name=酸橙木板
-tile.for.planks.4.name=栗树木板
-tile.for.planks.5.name=崖豆木板
-tile.for.planks.6.name=猴面包木板
-tile.for.planks.7.name=红杉木板
-tile.for.planks.8.name=木棉木板
-tile.for.planks.9.name=乌檀木板
-tile.for.planks.10.name=桃心木板
-tile.for.planks.11.name=巴尔杉木板
-tile.for.planks.12.name=柳树木板
-tile.for.planks.13.name=胡桃木板
-tile.for.planks.14.name=绿心木板
-tile.for.planks.15.name=樱树木板
-tile.for.planks.16.name=高槿木板
-tile.for.planks.17.name=白杨木板
-tile.for.planks.18.name=棕榈木板
-tile.for.planks.19.name=木瓜木板
-tile.for.planks.20.name=松树木板
-tile.for.planks.21.name=李子木板
-tile.for.planks.22.name=枫树木板
-tile.for.planks.23.name=柑橘木板
-tile.for.planks.24.name=巨杉木板
-
-tile.for.slab.0.name=落叶树台阶
-tile.for.slab.1.name=柚台阶
-tile.for.slab.2.name=刺槐台阶
-tile.for.slab.3.name=酸橙台阶
-tile.for.slab.4.name=栗树台阶
-tile.for.slab.5.name=崖豆台阶
-tile.for.slab.6.name=猴面包台阶
-tile.for.slab.7.name=红杉台阶
-tile.for.slab.8.name=木棉台阶
-tile.for.slab.9.name=乌檀台阶
-tile.for.slab.10.name=桃心台阶
-tile.for.slab.11.name=巴尔杉台阶
-tile.for.slab.12.name=柳树台阶
-tile.for.slab.13.name=胡桃台阶
-tile.for.slab.14.name=绿心台阶
-tile.for.slab.15.name=樱树台阶
-tile.for.slab.16.name=高槿台阶
-tile.for.slab.17.name=白杨台阶
-tile.for.slab.18.name=棕榈台阶
-tile.for.slab.19.name=木瓜台阶
-tile.for.slab.20.name=松木台阶
-tile.for.slab.21.name=李子台阶
-tile.for.slab.22.name=枫树台阶
-tile.for.slab.23.name=柑橘台阶
-tile.for.slab.24.name=巨杉台阶
-
-tile.for.stairs.0.name=落叶树楼梯
-tile.for.stairs.1.name=柚楼梯
-tile.for.stairs.2.name=刺槐楼梯
-tile.for.stairs.3.name=酸橙楼梯
-tile.for.stairs.4.name=栗树楼梯
-tile.for.stairs.5.name=崖豆楼梯
-tile.for.stairs.6.name=猴面包楼梯
-tile.for.stairs.7.name=红杉楼梯
-tile.for.stairs.8.name=木棉楼梯
-tile.for.stairs.9.name=乌檀楼梯
-tile.for.stairs.10.name=桃心楼梯
-tile.for.stairs.11.name=巴尔杉楼梯
-tile.for.stairs.12.name=柳树楼梯
-tile.for.stairs.13.name=胡桃楼梯
-tile.for.stairs.14.name=绿心楼梯
-tile.for.stairs.15.name=樱树楼梯
-tile.for.stairs.16.name=高槿楼梯
-tile.for.stairs.17.name=白杨楼梯
-tile.for.stairs.18.name=棕榈楼梯
-tile.for.stairs.19.name=木瓜楼梯
-tile.for.stairs.20.name=松木楼梯
-tile.for.stairs.21.name=李子楼梯
-tile.for.stairs.22.name=枫树楼梯
-tile.for.stairs.23.name=柑橘楼梯
-tile.for.stairs.24.name=巨杉楼梯
-
-tile.for.fireproof=抗燃%s
 
 tile.for.saplingGE.0.name=树苗
 tile.for.leaves.0.name=树叶
@@ -1417,3 +1328,14 @@ for.plugin.farmcraftory.description=牧场物语FarmCraftory兼容组件。添�
 #
 # Example:
 # for.tooltip.worker.slowest=Slowest Worker
+
+###################################
+# CUSTOM WOOD NAMES
+###################################
+#
+# Examples:
+# tile.for.stairs.4.name=Chestnut Stairs
+# tile.for.planks.8.name=Kapok Wood Planks
+# tile.for.slab.5.name=Wenge Wood Slab
+# tile.for.log.10.name=Mahogany Wood
+# tile.for.fences.0.name=Larch Fenc
