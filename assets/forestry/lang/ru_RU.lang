@@ -531,21 +531,27 @@ item.for.beeswax.name=Пчелиный воск
 item.for.beverage.meadCurative.name=Целебный мёд
 item.for.beverage.meadShort.name=Питный мёд
 
-item.for.canEthanol.name=Банка этанола
-item.for.canBiomass.name=Банка биомассы
-
 item.for.biomeFinder.name=Определитель ареала
 item.for.bituminousPeat.name=Смолистый торф
 item.for.brokenBronzePickaxe.name=Сломанная кирка
 item.for.brokenBronzeShovel.name=Сломанная лопата
 item.for.bronzePickaxe.name=Кирка выживающего
 item.for.bronzeShovel.name=Лопата выживающего
-item.for.bucketEthanol.name=Ведро этанола
-item.for.bucketBiomass.name=Ведро биомассы
 item.for.builderBag.name=Рюкзак строителя
 item.for.builderBagT2.name=Тканный рюкзак строителя
 
+item.for.bucketEthanol.name=Ведро этанола
+item.for.bucketBiomass.name=Ведро биомассы
+item.for.bucketHoney.name=Ведро мёда
+item.for.bucketIce.name=Ведро молотого льда
+item.for.bucketJuice.name=Ведро фруктового сока
+item.for.bucketSeedoil.name=Ведро растительного масла
+item.for.bucketGlass.name=Ведро жидкого стекла
+item.for.bucketShortMead.name=Ведро питного мёда
+
 item.for.canEmpty.name=Банка
+item.for.canEthanol.name=Банка этанола
+item.for.canBiomass.name=Банка биомассы
 item.for.canFuel.name=Банка топлива
 item.for.canHoney.name=Банка мёда
 item.for.canIce.name=Банка льда
@@ -701,9 +707,9 @@ item.for.waxCast.name=Восковая форма
 item.for.woodPulp.name=Древесная масса
 item.for.wrench.name=Гаечный ключ
 
-itemGroup.forestry=Forestry
-itemGroup.arboriculture=Лесоводство
 itemGroup.apiculture=Пчеловодство
+itemGroup.arboriculture=Лесоводство
+itemGroup.forestry=Forestry
 itemGroup.lepidopterology=Лепидоптерология
 
 tile.for.core.0.name=Анализатор
@@ -1361,6 +1367,7 @@ item.PipeItemsPropolis.name=Труба пчеловода
 # PLUGINS
 ####################
 for.plugin.core.description=Основная механика для Forestry. Требуется для всех других плагинов.
+for.plugin.fluids.description=Добавляет жидкости, жидкостные блоки и жидкостные контейнеры.
 for.plugin.apiculture.description=Добавляет пчёл, пчеловодство и продукты пчёл. Влияет на генерацию мира.
 for.plugin.arboriculture.description=Добавляет дополнительные виды деревьев и продуктов.
 for.plugin.energy.description=Добавляет несколько двигателей, работающих на RF.
