@@ -1012,74 +1012,183 @@ tile.for.stump.0.name=Morceau de bougie
 # ARBORICULTURE
 ####################
 
-gui.maturity=Mature
-gui.treealyzer=Analyseur d'arbre
-gui.treealyzer.help=Ravitailler en jeunes pousses et fournir en miel ou en miellat comme catalyseur.
-gui.saplings=Jeune pousse
-gui.yield=Produire
-gui.sappiness=Résine
-gui.height=Sommet
-gui.fruits=Fruits
-gui.supports=Supports
-gui.family=Famille
-gui.girth=Circonférence
-gui.native=Ordure
-gui.tolerated=Tolérant
-gui.growth=Croissance
-description.treeOak=Espèces communes dont la propriétés de la procréation de la pomme font l'objet de beaucoup de chant et de danse.|Codex Lignum
-description.treeBirch=Bouleau répandue, qui est en moyenne de plus petite taille.|Codex Lignum
-description.treeLime=De grande taille, arbre à feuilles caduques. Il a été récemment reclassé comme étant dans la famille des Malvacées.|Codex Lignum
-description.treeWalnut=De grande taille, arbre à feuilles caduques avec un large tronc. Noyer d'origine naturelle qui portent des fruits qui nécessitent un certain temps pour arriver à maturité.|Codex Lignum
-description.treeChestnut=De grande taille, arbre à feuilles caduques avec un large tronc. Châtaigniers portant naturellement des fruits qui nécessitent un certain temps pour arriver à maturité.|Codex Lignum
-description.treeSipiri=Grands arbres toujours en verdure avec du bois précieux. Le bois et l'écorce sont agréablement parfumées. Ne peuvent se développer que dans des climats tropicaux.|Codex Lignum
-description.treeWillow=Grand arbre à feuilles caduques. Ces saules blancs sont en forte croissance. N'ont été observés à se produire dans les climats humides.|Codex Lignum
-description.treeCherry=Petit arbre. Dans sa forme naturelle il portera des cerises qui devront subir une période de maturation.|Codex Lignum
-family.pomes=fruits a pépins
-family.prunes=Pruneau
-family.nuts=Noix
-family.jungle=Jungle
-fruits.apple=Pomme
-fruits.cherry=Cerise
-fruits.chestnut=Châtaigne
-fruits.walnut=Noix
-fruits.cocoa=Cacao
-fruits.none=Aucun
-fruits.plum=Prune
-fruits.lemon=Citron
-fruits.dates=Datte
-fruits.papaya=Papaye
-item.grafter=Cadre
-item.grafterProven=Cadre eprouvée
+for.arboriculture.effect.none=Aucun
+
+for.chat.command.forestry.tree.desc=- %s : Commandes du garde forestier
+for.chat.command.forestry.tree.help=Commandes relatives aux arbres.
+for.chat.command.forestry.tree.format=Format:/%s <sous-commande>
+
+for.chat.command.forestry.tree.spawnTree.desc=- %s : Faire apparaitre un arbre
+for.chat.command.forestry.tree.spawnTree.help=Fait apparaitre un arbre près du joueur.
+for.chat.command.forestry.tree.spawnTree.format=Format:/%s <nom-espèce> [<nom-joueur>]
+
+for.chat.command.forestry.tree.spawnForest.desc=- %s : Faire apparaitre une forêt
+for.chat.command.forestry.tree.spawnForest.help=Fait apparaitre une forêt près du joueur.
+for.chat.command.forestry.tree.spawnForest.format=Format:/%s <nom-espèce> [<nom-joueur>]
+
+for.chat.command.forestry.tree.mode.desc=- %s : Commandes du mode du garde forestier
+for.chat.command.forestry.tree.mode.help=Commandes relatives mode de garde forestier.
+for.chat.command.forestry.tree.mode.format=Format: /%s <sous-commande>
+
+for.chat.command.forestry.tree.mode.info.desc=- %s : Informations du mode du garde forestier
+for.chat.command.forestry.tree.mode.info.help=Informations sur les modes du garde forestier courants et disponibles.
+for.chat.command.forestry.tree.mode.info.format=Format: /%s <nom-mode>
+
+for.chat.command.forestry.tree.mode.set.desc=- %s : Activation du mode du garde forestier
+for.chat.command.forestry.tree.mode.set.help=Active un mode du garde forestier pour le monde.
+for.chat.command.forestry.tree.mode.set.format=Format: /%s [<monde-#>] <nom-mode>
+
+for.chat.command.forestry.tree.save.desc=- %s : Sauver les statistiques du garde forestier
+for.chat.command.forestry.tree.save.help=Sauve les statistiques du garde forestier dans un fichier.
+for.chat.command.forestry.tree.save.format=Format: /%s [<nom-joueur>]
+
+for.chat.command.forestry.tree.save.stats=Statistiques du garde forestier %s sur %s:
+
+for.description.treeBirch=Bouleau répandue, qui est en moyenne de plus petite taille.|Codex Lignum
+for.description.treeCherry=Petit arbre. Dans sa forme naturelle il portera des cerises qui devront subir une période de maturation.|Codex Lignum
+for.description.treeChestnut=De grande taille, arbre à feuilles caduques avec un large tronc. Châtaigniers portant naturellement des fruits qui nécessitent un certain temps pour arriver à maturité.|Codex Lignum
+for.description.treeLime=De grande taille, arbre à feuilles caduques. Il a été récemment reclassé comme étant dans la famille des Malvacées.|Codex Lignum
+for.description.treeOak=Espèces communes dont la propriétés de la procréation de la pomme font l'objet de beaucoup de chant et de danse.|Codex Lignum
+for.description.treeSipiri=Grands arbres toujours en verdure avec du bois précieux. Le bois et l'écorce sont agréablement parfumées. Ne peuvent se développer que dans des climats tropicaux.|Codex Lignum
+for.description.treeWalnut=De grande taille, arbre à feuilles caduques avec un large tronc. Noyer d'origine naturelle qui portent des fruits qui nécessitent un certain temps pour arriver à maturité.|Codex Lignum
+for.description.treeWillow=Grand arbre à feuilles caduques. Ces saules blancs sont en forte croissance. N'ont été observés à se produire dans les climats humides.|Codex Lignum
+
+for.family.jungle=De jungle
+for.family.nuts=A coquille
+for.family.pomes=A pépins
+for.family.prunes=A noyau
+
+for.fruits.apple=Pomme
+for.fruits.cherry=Cerise
+for.fruits.chestnut=Châtaigne
+for.fruits.cocoa=Cacao
+for.fruits.dates=Datte
+for.fruits.lemon=Citron
+for.fruits.none=Aucun
+for.fruits.papaya=Papaye
+for.fruits.plum=Prune
+for.fruits.walnut=Noix
+
+for.gui.family=Famille
+for.gui.fireproof=Ignifugé
+for.gui.fruits=Fruits
+for.gui.girth=Circonférence
+for.gui.growth=Croissance
+for.gui.height=Hauteur
+for.gui.maturity=Maturité
+for.gui.native=Ordures
+for.gui.saplings=Jeune pousse
+for.gui.sappiness=Résine
+for.gui.supports=Supports
+for.gui.tolerated=Tolérances
+for.gui.treealyzer.help=Ravitailler de jeunes pousses et fournir en miel ou en miellat comme catalyseur.
+for.gui.treealyzer=Analyseur d'arbre
+for.gui.yield=Produit
+
+for.growth.normal=Simple
+for.growth.tropical=Tropicale
+
+for.trees.grammar.blossom.type=Fleur de
+for.trees.grammar.blossom=%TYPE %SPECIES 
+for.trees.grammar.germling.type=Greffe de
+for.trees.grammar.germling=%TYPE %SPECIES 
+for.trees.grammar.pollen.type=Pollen de
+for.trees.grammar.pollen=%TYPE %SPECIES 
+for.trees.grammar.sapling.type=Pousse de
+for.trees.grammar.sapling=%TYPE %SPECIES 
+for.trees.grammar.leaves.type=Feuilles de
+for.trees.grammar.leaves=%TYPE %SPECIES 
+
+for.trees.hybrid=Hybride %PRIMARY-%SECONDARY 
+
+for.trees.species.acacia=Acacia
+for.trees.species.appleOak=Pommier
+for.trees.species.balsa=Balsa
+for.trees.species.blueMahoe=Mahoe bleu
+for.trees.species.bullPine=Pin jaune
+for.trees.species.coastSequoia=Séquoia de côte
+for.trees.species.commonWalnut=Noyer commun
+for.trees.species.darkOak=Chêne noir
+for.trees.species.datePalm=Dattier
+for.trees.species.desertAcacia=Acacia du désert
+for.trees.species.giantSequoia=Séquoia géant
+for.trees.species.grandidierBaobab=Baobab de grandidier
+for.trees.species.hillCherry=Cerisier
+for.trees.species.jungle=Jungle
+for.trees.species.kapok=Kapok
+for.trees.species.lemon=Citronier
+for.trees.species.mundaneLarch=Mélèze banal
+for.trees.species.myrtleEbony=Ébène de myrte
+for.trees.species.papaya=Papayer
+for.trees.species.plum=Prunier
+for.trees.species.redSpruce=Sapin rouge
+for.trees.species.silverBirch=Bouleau argenté
+for.trees.species.silverLime=Citronier argenté
+for.trees.species.sipiri=Sipiri
+for.trees.species.sugarMaple=Érable sucré
+for.trees.species.sweetChestnut=Châtaignier doux 
+for.trees.species.teak=Teck
+for.trees.species.wenge=Wengé
+for.trees.species.whitePoplar=Peuplier blanc
+for.trees.species.whiteWillow=Saule blanc
+for.trees.species.yellowMeranti=Méranti jaune
+for.trees.species.ipe=Ipê
+for.trees.species.padauk=Padauk
+for.trees.species.cocobolo=Cocobolo
+for.trees.species.zebrawood=Zebrano
+
+for.fences.grammar=Cloture de %TYPE
+for.log.grammar=Bois de %TYPE
+for.planks.grammar=Planches de %TYPE 
+for.slab.grammar=Dalles de %TYPE 
+for.stairs.grammar=Escaliers de %TYPE 
+
+for.trees.woodType.larch=Mélèze
+for.trees.woodType.teak=Teck
+for.trees.woodType.acacia=Acacia
+for.trees.woodType.lime=Tilleul
+for.trees.woodType.chestnut=Châtaignier
+for.trees.woodType.wenge=Wengé
+for.trees.woodType.baobab=Baobab
+for.trees.woodType.sequoia=Séquoia
+for.trees.woodType.kapok=Kapok
+for.trees.woodType.ebony=Ébène
+for.trees.woodType.mahogany=Acajou
+for.trees.woodType.balsa=Balsa
+for.trees.woodType.willow=Saule
+for.trees.woodType.walnut=Noyer
+for.trees.woodType.greenheart=Chlorocardium rodiei 
+for.trees.woodType.cherry=Cerisier
+for.trees.woodType.mahoe=Mahoe
+for.trees.woodType.poplar=Peuplier
+for.trees.woodType.palm=Palmier
+for.trees.woodType.papaya=Papayer
+for.trees.woodType.pine=Sapin
+for.trees.woodType.plum=Prunier
+for.trees.woodType.maple=Érable
+for.trees.woodType.citrus=Citrus
+for.trees.woodType.giganteum=Séquoia géant
+for.trees.woodType.ipe=Ipé
+for.trees.woodType.padauk=Padauk
+for.trees.woodType.cocobolo=Cocobolo
+for.trees.woodType.zebrawood=Zebrano
+
+tile.for.fireproof=%s (Ignifugé)
+
 tile.log=Bois
 tile.planks=Planches de bois
 tile.slab=Dalle de bois
 tile.fences=Cloture
 tile.for.stairs=Escalier
-wood.0=Mélèze
-wood.1=Teck
-wood.2=Acacia
-wood.3=Citron
-wood.4=Châtaigne
-wood.5=Wengé
-wood.6=Baobab
-wood.7=Séquoia
-wood.8=Kapok
-wood.9=Ébène
-wood.10=Acajou
-wood.11=Balsa
-wood.12=Saule
-wood.13=Noix
-wood.14=Coeur vert
-wood.15=Cerise
-wood.16=Mahoe
-wood.17=Peuplier
-wood.18=Palmier
-wood.19=Papaye
-wood.20=Pin
-wood.21=Prune
-wood.22=Érable
-wood.23=Agrumes
-tile.for.arboriculture.0=Coffre de l'arboriste
+
+item.for.grafter.name=Croisement
+item.for.grafterProven.name=Croisement prouvé
+
+tile.for.arboriculture.0.name=Coffre d'arboriste
+
+tile.for.saplingGE.0.name=Pousse
+tile.for.leaves.0.name=Feuilles
+tile.for.pods.0.name=Cosses
 
 ####################
 # FARMING
