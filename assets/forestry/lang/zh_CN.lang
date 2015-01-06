@@ -37,7 +37,18 @@ for.circuit.electric.choke.1.description.1=输出减少10 RF/t
 for.circuit.electric.choke.1.description.2=内耗减少2 EU/t
 for.circuit.electric.efficiency.1=效率
 for.circuit.electric.efficiency.1.description.1=内耗减少1 EU/t
-for.circuit.usage.engineTin=当安装在电力机械中后
+
+for.circuit.layout.dummy.name=不可用
+for.circuit.layout.dummy.usage=无
+
+for.circuit.layout.engine.tin.name=电动引擎
+for.circuit.layout.engine.tin.usage=安装到电动引擎后
+
+for.circuit.layout.farms.managed.name=预设农场
+for.circuit.layout.farms.managed.usage=预设农场
+
+for.circuit.layout.farms.manual.name=手动农场
+for.circuit.layout.farms.manual.usage=手动农场
 
 for.errors.circuitMismatch.desc=电路不匹配
 for.errors.circuitMismatch.help=电子管与电子板不匹配
@@ -49,12 +60,14 @@ for.errors.isRaining.desc=雨
 for.errors.isRaining.help=只有在没有下雨的时候才能进行操作
 for.errors.noCircuitBoard.desc=缺少电子板
 for.errors.noCircuitBoard.help=插入电子板并焊接上合适的电子管
+for.errors.noCircuitLayout.desc=无可用农场设计
+for.errors.noCircuitLayout.help=根据当前游戏设置无可用的农场设计
 for.errors.noDisposal.desc=废料无法存放
 for.errors.noDisposal.help=没有充足空间来存放废料
 for.errors.noDrone.desc=无雄蜂
 for.errors.noDrone.help=配对需要雄蜂
 for.errors.noEnergyNet.desc=无电力
-for.errors.noEnergyNet.help=你的世界没有任何电力 (请安装Ic2)
+for.errors.noEnergyNet.help=你的世界没有任何电力(请安装Ic2)
 for.errors.noPower.desc=无能量
 for.errors.noPower.help=这台机器需要RF能量驱动
 for.errors.noFlower.desc=没有花
@@ -430,8 +443,6 @@ for.hints.usesofash.tag=善用你的灰烬哦!
 for.item.crated.adj=装箱的
 for.item.crated.unknown=装箱的未知物品
 
-for.layout.engine.tin=电动引擎
-
 for.no=否
 
 for.researchNote.chance.highest=最高
@@ -465,8 +476,6 @@ for.trigger.mailBuffer=缓存
 for.trigger.missingDrone=缺乏雄蜂
 for.trigger.missingQueen=缺乏蜂后或公主蜂
 for.trigger.noFrames=缺乏框架
-
-for.usage.engine.tin=当安装在电力引擎中后
 
 for.yes=是
 
@@ -1142,15 +1151,9 @@ for.hints.manualfarms.tag=DIY自己的农场！
 for.hints.valve.desc=各种农场都需要浇灌，使用水阀方块来实现自动化浇灌吧。
 for.hints.valve.tag=需要水！
 
-for.layout.farms.managed=预设农场
-for.layout.farms.manual=DIY农场
-
 for.trigger.lowFertilizer=肥料
 for.trigger.lowLiquid=蓄水槽
 for.trigger.lowSoil=土壤
-
-for.usage.farms.managed=预设农场
-for.usage.farms.manual=DIY农场
 
 tile.for.ffarm.0.name=农场方块
 tile.for.ffarm.2.name=农场齿轮箱
@@ -1338,4 +1341,4 @@ for.plugin.farmcraftory.description=牧场物语FarmCraftory兼容组件。添�
 # tile.for.planks.8.name=Kapok Wood Planks
 # tile.for.slab.5.name=Wenge Wood Slab
 # tile.for.log.10.name=Mahogany Wood
-# tile.for.fences.0.name=Larch Fenc
+# tile.for.fences.0.name=Larch Fence
