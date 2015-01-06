@@ -11,12 +11,25 @@ for.beverage.effect.antidote=解毒
 for.chat.accesslocked=%s是该机器的主人，并且他已关闭了访问权限。
 for.chat.cannotmemorizeagain=你已经记住了相关内容。
 
-for.chat.command.help.0=格式: '/%s <command> <arguments>'
-for.chat.command.help.1=可用命令:
-for.chat.command.help.2=- version : 版本信息。
-for.chat.command.help.3=- plugins : 林业拓展列表。
-for.chat.command.help.4=- plugins info <plugin-name>: 拓展信息。
+for.chat.command.aliases=可替代命令：%s
+for.chat.command.list=可用子命令：
+for.chat.command.permlevel=权限等级： %s
 for.chat.command.noperms=你没有权限使用该命令。
+
+for.chat.command.forestry.help=林业模组可用的许多命令.
+for.chat.command.forestry.format=格式： /%s <sub-command>
+
+for.chat.command.forestry.version.desc=- %s ：版本信息
+for.chat.command.forestry.version.help=显示当前版本
+for.chat.command.forestry.version.format=格式： /%s
+
+for.chat.command.forestry.plugins.desc=- %s ：林业组件列表
+for.chat.command.forestry.plugins.help=列出当前的林业组件。绿色为已激活的，红色为禁用的。
+for.chat.command.forestry.plugins.format=格式: /%s
+
+for.chat.command.forestry.plugins.info.desc=- %s : 林业组件信息
+for.chat.command.forestry.plugins.info.help=显示林业组件的信息
+for.chat.command.forestry.plugins.info.format=格式: /%s <plugin-name>
 
 for.chat.help=输入'%s'查看帮助。
 for.chat.memorizednote=你记录了笔记并扔掉了皱巴巴的小纸片。
@@ -839,20 +852,52 @@ for.bees.species.wintry=凛冬
 for.bees.stock.ignoble=卑贱种
 for.bees.stock.pristine=始祖种
 
-for.chat.bees.command.beekeeping.error=养蜂模式'%s'不可用。
-for.chat.bees.command.beekeeping.set=养蜂模式设为%s。
-for.chat.bees.command.help.0=格式: '/%s <command> <arguments>'
-for.chat.bees.command.help.1=可用命令:
-for.chat.bees.command.help.2=- list [<world-#>]: 列出当前可用养蜂模式。
-for.chat.bees.command.help.3=- info <mode-name> : 养蜂模式信息。
-for.chat.bees.command.help.4=- set [<world-#>] <mode-name>: 为某世界设置养蜂模式。
-for.chat.bees.command.help.5=- save [<world-#>] <player-name>: 保存指定玩家养蜂状态。
-for.chat.bees.command.mode.current=当前: %MODE (#%WORLD)
-for.chat.bees.command.mode.help=可用模式: %s
-for.chat.bees.command.stats.error1=无法创建日志文件。保存状态失败。
-for.chat.bees.command.stats.error2=无法写入日志文件。保存状态失败。
-for.chat.bees.command.stats.error3=写入操作抛出异常。保存状态失败。
-for.chat.bees.command.stats.saved=保存玩家%s的状态。
+for.chat.command.forestry.bee.desc=- %s ：养蜂命令
+for.chat.command.forestry.bee.help=与养蜂相关的命令。
+for.chat.command.forestry.bee.format=格式： /%s <sub-command>
+
+for.chat.command.forestry.bee.give.desc=- %s ：给予玩家蜜蜂
+for.chat.command.forestry.bee.give.help=给予玩家一只雄蜂，公主蜂，蜂后或幼蜂。
+for.chat.command.forestry.bee.give.format=格式： /%s <species-name> <bee-type> [<player-name>]
+for.chat.command.forestry.bee.give.available=可用蜜蜂类型: %s
+for.chat.command.forestry.bee.give.given=给予%1$s一只%2$s%3$s。
+
+for.chat.command.forestry.bee.mode.desc=- %s ：养蜂模式相关命令
+for.chat.command.forestry.bee.mode.help=与养蜂模式有关的命令。
+for.chat.command.forestry.bee.mode.format=格式： /%s <sub-command>
+
+for.chat.command.forestry.bee.mode.info.desc=- %s : 养蜂模式信息
+for.chat.command.forestry.bee.mode.info.help=有关当前和可用养蜂模式的信息。
+for.chat.command.forestry.bee.mode.info.format=格式： /%s <mode-name>
+
+for.chat.command.forestry.bee.mode.set.desc=- %s : 设置养蜂模式
+for.chat.command.forestry.bee.mode.set.help=设置当前世界的养蜂模式。
+for.chat.command.forestry.bee.mode.set.format=格式： /%s [<world-#>] <mode-name>
+
+for.chat.command.forestry.bee.save.desc=- %s : 保存养蜂状态。
+for.chat.command.forestry.bee.save.help=将养蜂状态保存到文件中。
+for.chat.command.forestry.bee.save.format=格式： /%s [<player-name>]
+for.chat.command.forestry.bee.save.stats=玩家%s的养蜂状态保存为%s：
+
+for.chat.command.forestry.mode.info.error=%s模式当前不可用。
+for.chat.command.forestry.mode.info.current=当前： %1$s (#%2$s)
+for.chat.command.forestry.mode.info.available=可用模式： %s
+
+for.chat.command.forestry.mode.set.success=模式设为%s。
+for.chat.command.forestry.mode.set.error=%s模式当前不可用。
+
+for.chat.command.forestry.stats.save.error1=无法创建日志文件。保存状态失败。
+for.chat.command.forestry.stats.save.error2=无法写入日志文件。保存状态失败。
+for.chat.command.forestry.stats.save.error3=写入操作抛出异常。保存状态失败。
+for.chat.command.forestry.stats.save.error4=未发现已保存的状态文件。
+for.chat.command.forestry.stats.save.saved=为玩家%s保存状态。
+for.chat.command.forestry.stats.save.key.discovered=已发现
+for.chat.command.forestry.stats.save.key.discovered.symbol=X
+for.chat.command.forestry.stats.save.key.blacklisted=已屏蔽
+for.chat.command.forestry.stats.save.key.blacklisted.symbol=BL
+for.chat.command.forestry.stats.save.key.notCounted=不计总共品种
+for.chat.command.forestry.stats.save.key.notCounted.symbol=NC
+for.chat.command.forestry.stats.save.mode=模式： %s
 
 for.description.speciesAustere=脾气火爆又危险;养蜂人靠近的时候要注意穿好全套专业护具。|101条养蜂人必知
 for.description.speciesAvenging="墙壁摇摇欲坠，屋顶咯吱作响，可是我不在乎。数以千计的小蜜蜂在我手套中飞舞，我抓住了蜂后！"|Anonymous
@@ -936,6 +981,7 @@ tile.for.beehives.4.name=热带蜂巢
 tile.for.beehives.5.name=末影蜂巢
 tile.for.beehives.6.name=凛冬蜂巢
 tile.for.beehives.7.name=沼泽蜂巢
+tile.for.beehives.8.name=迁居蜂巢
 
 tile.for.candle.dyed.lit.name=染色蜡烛(发光)
 tile.for.candle.dyed.stump.name=染色蜡烛(熄灭)
@@ -950,15 +996,35 @@ tile.for.stump.0.name=蜡烛
 
 for.arboriculture.effect.none=无效果
 
-for.chat.trees.command.help.0=格式: '/%s <command> <arguments>'
-for.chat.trees.command.help.1=可用命令:
-for.chat.trees.command.help.2=- list [<world-#>]: 列出当前可用的林木培育命令。
+for.chat.command.forestry.tree.desc=- %s ： 林木命令。
+for.chat.command.forestry.tree.help=树木相关的命令。
+for.chat.command.forestry.tree.format=格式： /%s <sub-command>
 
-for.chat.trees.command.help.3=- info <mode-name> : 林木培育模式的信息。
-for.chat.trees.command.help.4=- set [<world-#>] <mode-name>: 设置某世界的林木培育模式。
-for.chat.trees.command.help.5=- save [<world-#>] <player-name>: 保存指定玩家的林木培育状态。
-for.chat.trees.command.treekeeping.error=林木培育模式'%s'不可用。
-for.chat.trees.command.treekeeping.set=林木培育模式已设置为%s。
+for.chat.command.forestry.tree.spawnTree.desc=- %s ： 生成树木
+for.chat.command.forestry.tree.spawnTree.help=在玩家附近生成一棵树。
+for.chat.command.forestry.tree.spawnTree.format=格式： /%s <species-name> [<player-name>]
+
+for.chat.command.forestry.tree.spawnForest.desc=- %s : 生成树林
+for.chat.command.forestry.tree.spawnForest.help=在玩家附近生成一小片树林。
+for.chat.command.forestry.tree.spawnForest.format=格式：/%s <species-name> [<player-name>]
+
+for.chat.command.forestry.tree.mode.desc=- %s : 植树模式命令。
+for.chat.command.forestry.tree.mode.help=与植树模式相关的命令。
+for.chat.command.forestry.tree.mode.format=格式： /%s <sub-command>
+
+for.chat.command.forestry.tree.mode.info.desc=- %s : 植树模式信息。
+for.chat.command.forestry.tree.mode.info.help=有关当前和可用植树模式的信息。
+for.chat.command.forestry.tree.mode.info.format=格式： /%s <mode-name>
+
+for.chat.command.forestry.tree.mode.set.desc=- %s ： 设置植树模式
+for.chat.command.forestry.tree.mode.set.help=设置当前世界的植树模式。
+for.chat.command.forestry.tree.mode.set.format=格式： /%s [<world-#>] <mode-name>
+
+for.chat.command.forestry.tree.save.desc=- %s ： 保存当前植树状态。
+for.chat.command.forestry.tree.save.help=将当前植树状态保存至文件。
+for.chat.command.forestry.tree.save.format=格式： /%s [<player-name>]
+
+for.chat.command.forestry.tree.save.stats=玩家%s的植树状态保存为%s：
 
 for.description.treeBirch=常见的桦木，一般都很矮小。|林木圣书
 for.description.treeCherry=小型树。自然生长的植株结樱桃，需要一段时间来成熟。|林木圣书
@@ -1002,6 +1068,9 @@ for.gui.tolerated=结果
 for.gui.treealyzer.help=放入树苗并提供蜂蜜或者蜂蜜滴作为催化剂。
 for.gui.treealyzer=林木分析仪
 for.gui.yield=产量
+
+for.growth.normal=普通
+for.growth.tropical=热带
 
 for.trees.grammar.blossom.type=花朵
 for.trees.grammar.blossom=%SPECIES%TYPE
@@ -1168,6 +1237,14 @@ tile.for.mushroom.1.name=蘑菇
 # LEPIDOPTEROLOGY
 ####################
 
+for.chat.command.forestry.butterfly.desc=- %s ： 蝴蝶命令
+for.chat.command.forestry.butterfly.help=和蝴蝶相关的一些命令。
+for.chat.command.forestry.butterfly.format=格式： /%s <sub-command>
+
+for.chat.command.forestry.butterfly.kill.desc=- %s ： 杀死全部蝴蝶。
+for.chat.command.forestry.butterfly.kill.help=杀死已加载区块内的全部蝴蝶。
+for.chat.command.forestry.butterfly.kill.format=格式： /%s [<dimension#>]
+
 for.butterflies.hybrid=混血蝶：%PRIMARY-%SECONDARY
 
 for.butterflies.species.geometridae.brimstone=黄蛾
@@ -1222,11 +1299,20 @@ tile.for.lepidopterology.0.name=鳞翅目昆虫学家箱子
 ####################
 
 for.chat.mail.already_mailed=信件无法重发。
-for.chat.mail.command.help.0=格式: '/%s <command> <arguments>'
-for.chat.mail.command.help.1=可用命令:
-for.chat.mail.command.help.2=- trades : 贸易站全列表。
-for.chat.mail.command.help.3=- virtualize <tradestation-name>: 将指定贸易站设为虚拟模式。
-for.chat.mail.command.no_tradestation=未发现贸易站'%s'。
+
+for.chat.command.forestry.mail.desc=- %s ： 邮件系统命令
+for.chat.command.forestry.mail.help=与邮件系统相关的各种命令。
+for.chat.command.forestry.mail.format=格式： /%s <sub-command>
+
+for.chat.command.forestry.mail.trades.desc=- %s ：列出所有贸易站。
+for.chat.command.forestry.mail.trades.help=列出所有贸易站和它们的可用交易。
+for.chat.command.forestry.mail.trades.format=格式： /%s
+
+for.chat.command.forestry.mail.virtualize.desc=- %s ：将指定贸易站设为虚拟模式。
+for.chat.command.forestry.mail.virtualize.help=激活指定贸易站的虚拟模式。该模式不会有任何消耗。
+for.chat.command.forestry.mail.virtualize.format=格式： /%s <trade-station-name>
+for.chat.command.forestry.mail.virtualize.no_tradestation=没有发现名为'%s'的贸易站。
+for.chat.command.forestry.mail.virtualize.set=将'%s'的虚拟模式设为%s.
 
 for.chat.mail.insufficient_buffer=贸易站已满。
 for.chat.mail.insufficient_offer=贸易站需求更多物品。
@@ -1264,6 +1350,7 @@ item.PipeItemsPropolis.name=养蜂员管道
 # PLUGINS
 ####################
 for.plugin.core.description=林业核心组件，是其他组件的前置组件。
+for.plugin.fluids.description=添加流体，流体方块以及流体容器的组件。
 for.plugin.apiculture.description=添加蜜蜂，养蜂系统和蜜蜂产物的组件，会影响世界生成。
 for.plugin.arboriculture.description=添加更多树木以及相关产物的组件。
 for.plugin.energy.description=添加一些使用RF能量的引擎的组件。
