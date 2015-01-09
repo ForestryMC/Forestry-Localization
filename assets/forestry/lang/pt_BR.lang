@@ -1,881 +1,1448 @@
 ####################
-# CORE
+# NÚCLEO (tradução: 87%, verificação/revisão: 0%)
 ####################
 
-yes=Yes
-no=No
-beverage.effect.alcoholic=Alcoholic
-beverage.effect.antidote=Antidote
-chat.accesslocked=is the owner of this machine and has locked access.
-chat.memorizednote=You memorize the note and dispose of the crumpled scrap of paper.
-chat.cannotmemorizeagain=You already memorized this information.
-circuit.dampener.1=Fire Dampener
-circuit.electric.choke.1=Electric Choke
-circuit.electric.efficiency.1=Electric Efficiency
-circuit.electric.boost.1=Electric Boost I
-circuit.electric.boost.2=Electric Boost II
-circuit.usage.engineTin=In Electrical Engines
-death.engine.clockwork=%1$s was stabbed by a loose spring.
-death.engine.clockwork.player=%1$s was stabbed by a loose spring. %2$s was the negligent watchmaker.
-errors.unknown.desc=Unknown error
-errors.unknown.help=Congratulations, you found a glitch.
-errors.ok.desc=No error
-errors.ok.help=Everything is fine and dandy.
-errors.invalidBiome.desc=Hostile environment
-errors.invalidBiome.help=Machine or inhabitants cannot work in this biome.
-errors.isRaining.desc=Rain
-errors.isRaining.help=Operation is only possible when it is not raining.
-errors.notRaining.desc=No rain
-errors.notRaining.help=Operation is only possible when it is raining.
-errors.noFuel.desc=No fuel
-errors.noFuel.help=Replenish this machine's fuel supplies.
-errors.noHeat.desc=Not warmed up
-errors.noHeat.help=Refill the heating tank.
-errors.noDisposal.desc=Waste not disposable
-errors.noDisposal.help=Insufficient space to dispose of waste products.
-errors.noResource.desc=Missing resources
-errors.noResource.help=More resources need to be supplied for operation.
-errors.notGloomy.desc=Not dark enough
-errors.notGloomy.help=A lower light level is required for operation.
-errors.notLucid.desc=Not bright enough
-errors.notLucid.help=A higher light level is required for operation
-errors.notDay.desc=Not daytime
-errors.notDay.help=Operation is only possible during the day.
-errors.notNight.desc=Not nighttime
-errors.notNight.help=Operation is only possible during the night.
-errors.noFlower.desc=No flowers
-errors.noFlower.help=Hive members are not finding the right flowers.
-errors.noQueen.desc=No queen
-errors.noQueen.help=Supply this hive with a queen or a princess and a drone.
-errors.noDrone.desc=No drone
-errors.noDrone.help=Mating requires a drone present.
-errors.noSky.desc=Sky obstructed
-errors.noSky.help=Clear the area above the machine.
-errors.noSpace.desc=No inventory space
-errors.noSpace.help=Empty this machine's inventory.
-errors.noRecipe.desc=No recipe
-errors.noRecipe.help=No matching recipe was found for the supplied resources.
-errors.noEnergyNet.desc=No electricity
-errors.noEnergyNet.help=Your world is barren of any electricity. (Install IndustrialCraft\u00b2.)
-errors.noSpecimen.desc=Nothing to analyze
-errors.noSpecimen.help=Supply specimen to analyze.
-errors.forcedCooldown.desc=Forced Cooldown
-errors.forcedCooldown.help=Engine has overheated and is forced into cooldown.
-errors.noHoney.desc=Honey required
-errors.noHoney.help=This gadget requires honey drops or honeydew for operation.
-errors.notPostpaid.desc=Stamps Needed
-errors.notPostpaid.help=Apply more stamps to pay the postal service.
-errors.noRecipient.desc=No Recipient
-errors.noRecipient.help=You need to address your letter to a recipient to send it.
-errors.notAlphaNumeric.desc=Not Alphanumeric
-errors.notAlphaNumeric.help=Given string must consist of letters and numbers only.
-errors.notUnique.desc=Not Unique
-errors.notUnique.help=Given string must be unique in this world. Choose a different one.
-errors.noStamps.desc=No Stamps
-errors.noStamps.help=A trade station requires stamps to pay postage. This one has run out of them.
-errors.wrongStacksize.desc=Too Many Items
-errors.wrongStacksize.help=Only single items can be used here.
-errors.noCircuitBoard.desc=Board Missing
-errors.noCircuitBoard.help=Insert a circuit board to solder the selected tubes onto it.
-errors.circuitMismatch.desc=Layout Mismatch
-errors.circuitMismatch.help=Amount of tubes does not match size of circuit board.
-flowers.cacti=Cacti
-flowers.end=End
-flowers.jungle=Jungle
-flowers.mushroom=Mushroom
-flowers.nether=Nether
-flowers.vanilla=Flowers
-flowers.wheat=Wheat
-flowers.gourd=Gourds
-fluid.bioethanol=Ethanol
-fluid.biomass=Biomass
-fluid.milk=Milk
-fluid.seedoil=Seed Oil
-fluid.juice=Fruit Juice
-fluid.for.honey=Honey
-fluid.short.mead=Short Mead
-fluid.glass=Liquid Glass
-fluid.ice=Crushed Ice
-tile.forestry.fluid.bioethanol.name=Ethanol
-tile.forestry.fluid.biomass.name=Biomass
-tile.forestry.fluid.milk.name=Milk
-tile.forestry.fluid.seedoil.name=Seed Oil
-tile.forestry.fluid.juice.name=Fruit Juice
-tile.forestry.fluid.for.honey.name=Honey
-tile.forestry.fluid.short.mead.name=Short Mead
-tile.forestry.fluid.glass.name=Liquid Glass
-tile.forestry.fluid.ice.name=Crushed Ice
-gui.climate=Climate
-gui.empty=Empty
-gui.temptol=Temp.Tol
-gui.temperature=Temperature
-gui.humidity=Humidity
-gui.humidtol=Humid.Tol.
-gui.unknown=Unknown genome
-gui.hybrid=Hybrid
-gui.worker=Worker
-gui.life=Life
-gui.beealyzer=Beealyzer
-gui.beealyzer.help=Supply bee and provide honey or honeydew as a pacifier.
-gui.beealyzer.produce=Possible Produce
-gui.beealyzer.specialty=Possible Specialty
-gui.beealyzer.mutations=Possible Mutations
-gui.beealyzer.behaviour=Behaviour
-gui.beealyzer.natural=Natural Origin
-gui.beealyzer.artificial=Artificial Origin
-gui.beealyzer.generations=Generations in Captivity
-gui.alyzer.authority=Authority
-gui.alyzer.classification=Classification
-gui.alyzer.nodescription=Encyclopedia Minecraftia could not provide an entry for this specimen.
-gui.alyzer.extinct=Extinct
-gui.alyzer.overview=Testes Disponнveis
-gui.general=General
-gui.environment=Environment
-gui.produce=Produce
-gui.evolution=Evolution
-gui.active=Active
-gui.inactive=Inactive
-gui.species=Species
-gui.lifespan=Lifespan
-gui.speed=Speed
-gui.size=Size
-gui.metabolism=Metabolism
-gui.pollination=Pollin.
-gui.flowers=Flowers
-gui.fertility=Fertility
-gui.area=Area
-gui.effect=Effect
-gui.nocturnal=Nocturnal
-gui.diurnal=Diurnal
-gui.flyer=Flyer
-gui.cave=Cave
-gui.fireresist=Fireproof
-gui.derelict=Derelict
-gui.owner=Owner
-gui.hellish=Hellish
-gui.hot=Hot
-gui.warm=Warm
-gui.normal=Normal
-gui.cold=Cold
-gui.icy=Icy
-gui.arid=Arid
-gui.damp=Damp
-gui.energy=Energy
-gui.currentOutput=Current Output
-gui.stored=Stored
-gui.heat=Heat
-gui.habitatlocator=Habitat Locator
-gui.closetosearch=close to search
-gui.didyouknow=Did you know
-gui.maxspeed=Maximum
-gui.fastest=Fastest
-gui.faster=Faster
-gui.fast=Fast
-gui.slow=Slow
-gui.slower=Slower
-gui.slowest=Slowest
-gui.longestlife=Longest
-gui.longerlife=Longer
-gui.longlife=Long
-gui.elongatedlife=Elongated
-gui.normallife=Normal
-gui.shortenedlife=Shortened
-gui.shortlife=Short
-gui.shorterlife=Shorter
-gui.shortestlife=Shortest
-gui.speciescount=Species
-gui.queens=Queens
-gui.princesses=Princ.
-gui.drones=Drones
-gui.slots=Slots
-gui.access=Access
-gui.rule.shared=Shared
-gui.rule.restricted=Restricted
-gui.rule.private=Private
-gui.page=Page
-gui.maxenergy=Maximum Energy
-gui.maxenergyreceive=Maximum Input
-gui.noeffect=No effect
-gui.mail.from=From
-gui.mail.to=To
-gui.blank=Blank
-gui.mail.nametrader=Name your trade station
-gui.mail.pleasesend=Please send
-gui.mail.foreveryattached=for every attached
-gui.mail.nothingtotrade=Trade station has nothing to trade.
-gui.mail.notrader=No trade station of that name available.
-gui.addressee.player=Player
-gui.addressee.trader=Trader Station
-gui.pipe.filter.closed=Closed
-gui.pipe.filter.anything=Anything
-gui.pipe.filter.item=Items
-gui.pipe.filter.bee=Any Bees
-gui.pipe.filter.drone=Drones
-gui.pipe.filter.princess=Princesses
-gui.pipe.filter.queen=Queen
-gui.pipe.filter.pure_breed=Pure-Bred Bees
-gui.pipe.filter.nocturnal=Nocturnal Bees
-gui.pipe.filter.pure_nocturnal=Pure Nocturnal Bees
-gui.pipe.filter.flyer=Strong Flyers
-gui.pipe.filter.pure_flyer=Pure Flyers
-gui.pipe.filter.cave=Cave-Dwellers
-gui.pipe.filter.pure_cave=Pure Cave-Dwellers
-gui.emptysocket=Empty Socket
-gui.smallest=Smallest
-gui.smaller=Smaller
-gui.small=Small
-gui.average=Average
-gui.large=Large
-gui.larger=Larger
-gui.largest=Largest
-gui.gigantic=Gigantic
-gui.plains=Plains
-gui.desert=Desert
-gui.beach=Beach
-gui.water=Water
-gui.nether=Nether
-gui.crop=Crop
-gui.lowest=Lowest
-gui.lower=Lower
-gui.low=Low
-gui.triple=Triple
-gui.high=High
-gui.higher=Higher
-gui.highest=Highest
-gui.fecundated=Mated
-gui.tooltip.tmi=Hold shift for details
-gui.worktable.clear=Click to clear Grid
-gui.escritoire.probe=Examine Specimens
-hints.beebiomes.tag=Choose your biome!
-hints.beebiomes.desc=Bees only work in biomes that suit their species. Use your beealyzer and habitat locator to find out in which.
-hints.beebreeding.tag=Breed your bees!
-hints.beebreeding.desc=Crossbreeding drones and princesses of different species may net you offspring with a new species.
-hints.beejubilance.tag=Make your bee happy!
-hints.beejubilance.desc=Only jubilant bees will produce their specialty. Make sure to have them in their preferred climate.
-hints.enginebronzefuels.tag=Use all the fuels!
-hints.enginebronzefuels.desc=You can use a wide variety of fuels for your biogas engine: Biomass, seed oil, honey, milk and even water!
-hints.enginebronzeheatloss.tag=Careful with water!
-hints.enginebronzeheatloss.desc=Though you can use water in a biogas engine, it is terribly inefficient and will constantly consume lava.
-hints.enginebronzeoutput.tag=Choose your fuel!
-hints.enginebronzeoutput.desc=Different fuels will net you different energy outputs in a biogas engine. Outputs range from 1 MJ/t to 5 MJ/t.
-hints.pipette.tag=Empty tanks with the pipette
-hints.pipette.desc=If you are stuck with remaining liquid in a machine's tank, you can click the tank with a pipette to empty it.
-hints.enginecopperfuels.tag=Use all the fuels!
-hints.enginecopperfuels.desc=Peat-fired engines can use untreated peat, but they can also use bituminous peat to double their energy output.
-hints.usesofash.tag=Use your ash!
-hints.usesofash.desc=Ash can be used to create fertilizer and is required to refine bituminous peat.
-hints.shortmead.tag=Get your energy drink!
-hints.shortmead.desc=Your fermenter can not only create biomass, you can also use honeydew and liquid honey to make some short mead.
-hints.generatorfuels.tag=Use all the fuels!
-hints.generatorfuels.desc=Bio generators accept both biomass and biofuel. They are at their most efficient with biofuel.
-hints.moistenerproducts.tag=Want some mossy cobble?
-hints.moistenerproducts.desc=Given the correct ingredients, your moistener can also create mossy cobblestone or mossy stone bricks.
-hints.enginetinbatteries.tag=Charge those batteries!
-hints.enginetinbatteries.desc=You can use batteries to run your electrical engines without needing to wire them up.
-hints.energyunit.tag=Say Minecraft Joule!
-hints.energyunit.desc=An engine's energy output is measured in MJ/t, which stands for "Minecraft Joule per tick". Each second has 20 ticks.
-hints.crating.tag=Crate your Surplus!
-hints.crating.desc=Main task of carpenters is the compression of your surplus resources. Many bulk blocks and items can be packaged into crates.
-hints.enginebronzewaste.tag=Fuel is conserved.
-hints.enginebronzewaste.desc=Contrary to peat-fired engines disabled biogas engines will not waste the biomass currently in the system.
-hints.enginecopperwaste.tag=Beware wasting energy!
-hints.enginecopperwaste.desc=Disabled peat-fired engines continue to burn peat already removed from the stash without generating energy from it.
-hints.energybuffer.tag=Buffering Energy!
-hints.energybuffer.desc=Engines are capable of buffering a lesser amount of energy if it cannot be transmitted to the target.
-hints.forcedcooldown.tag=Beware Overheating!
-hints.forcedcooldown.desc=Engines can overheat if the energy they produce is not consumed. Reaching melting point will force them into cooldown.
-hints.cooldownloss.tag=Cooldown means energy loss!
-hints.cooldownloss.desc=Engines going into forced cooldown will also lose a significant chunk of their stored energy.
-hints.beeflowers.tag=Bees need flowers
-hints.beeflowers.desc=Any bee will need some type of flower in the vicinity. Some rather mundane flowers, others very exotic ones.
-hints.nopowerrequired.tag=No power required
-hints.nopowerrequired.desc=Machines of this type do not require any power to operate.
-hints.accesscontrol.tag=Access Control
-hints.accesscontrol.desc=A machine's owner can set it to three different types of access: Shared, restricted or private.
-hints.accessrules.tag=Access rules
-hints.accessrules.desc="Shared" access allows anyone to break the machine or interact with it. "Restricted" still allows interaction for anyone.
-hints.accesspipe.tag=Restricted Pipe Access
-hints.accesspipe.desc=A machine set to private will disallow any interaction with tubes or pipes.
-hints.flowerjungle.tag=What's a jungle flower?
-hints.flowerjungle.desc=Jungle flowers are ferns or vines.
-hints.flowernether.tag=What's a nether flower?
-hints.flowernether.desc=Netherwart are the nether flowers.
-hints.apiaristsuit.tag=Bee Suits!
-hints.apiaristsuit.desc=A full apiarist's suit will protect you from all negative bee effects.
-hints.honeyfood.tag=Grab foodstuff!
-hints.honeyfood.desc=Many different kinds of foods can be made from honey and other bee products.
-hints.powerrequired.tag=Requires Energy!
-hints.powerrequired.desc=This machine requires energy from an engine to function. Attach an engine and start it, to allow production.
-hints.powerraintank.tag=Bottling Requires Energy!
-hints.powerraintank.desc=Even an unpowered raintank will collect rain. However to bottle the water, energy from an engine is required.
-hints.manualpeat.tag=No Bog Needed!
-hints.manualpeat.desc=Peat can be farmed in automatic peat bogs, but when you start out, you might want to try harvesting a bit of peat by hand.
-hints.peatharvest.tag=Harvest Peat!
-hints.peatharvest.desc=Bog earth directly adjacent to water will mature to peat. Use a shovel to harvest it.
-hints.enginetinchoke.tag=Regulate Output
-hints.enginetinchoke.desc=Electrical engines can be outfitted with circuit boards to choke their power output to 1 MJ/t and also reduce their energy demand.
-hints.postage.tag=Pay the Ferryman
-hints.postage.desc=Sending letters costs stamps. To a base fee of 1n, every attachment adds another 1n of cost.
-item.beverage.meadShort=Short Mead
-item.beverage.meadCurative=Curative Mead
-item.circuitboard.basic=Basic Circuit Board
-item.circuitboard.enhanced=Enhanced Circuit Board
-item.circuitboard.refined=Refined Circuit Board
-item.circuitboard.intricate=Intricate Circuit Board
-item.comb.honey=Honey Comb
-item.comb.cocoa=Cocoa Comb
-item.comb.simmering=Simmering Comb
-item.comb.stringy=Stringy Comb
-item.comb.frozen=Frozen Comb
-item.comb.dripping=Dripping Comb
-item.comb.silky=Silky Comb
-item.comb.parched=Parched Comb
-item.comb.mysterious=Mysterious Comb
-item.comb.irradiated=Irradiated Comb
-item.comb.powdery=Powdery Comb
-item.comb.reddened=Reddened Comb
-item.comb.darkened=Darkened Comb
-item.comb.omega=Omega Comb
-item.comb.wheaten=Wheaten Comb
-item.comb.mossy=Mossy Comb
-item.comb.mellow=Mellow Comb
-item.crated.adj=Crated
-item.crated.unknown=Crate with unknown content
-item.dissipationCharge=Dissipation Charge
-item.honeyDrop.charged=Charged Drop
-item.honeyDrop.honey=Honey Drop
-item.honeyDrop.omega=Omega Drop
-item.pollen.normal=Pollen
-item.pollen.crystalline=Crystalline Pollen
-item.propolis.normal=Propolis
-item.propolis.sticky=Sticky Propolis
-item.propolis.pulsating=Pulsating Propolis
-item.propolis.silky=Silky Propolis
-item.thermionicTubes.ex-0=Copper Electron Tube
-item.thermionicTubes.ex-1=Tin Electron Tube
-item.thermionicTubes.ex-2=Bronze Electron Tube
-item.thermionicTubes.ex-3=Iron Electron Tube
-item.thermionicTubes.ex-4=Golden Electron Tube
-item.thermionicTubes.ex-5=Diamantine Electron Tube
-item.thermionicTubes.ex-6=Obsidian Electron Tube
-item.thermionicTubes.ex-7=Blazing Electron Tube
-item.thermionicTubes.ex-8=Rubberised Electron Tube
-item.thermionicTubes.ex-9=Emerald Electron Tube
-item.thermionicTubes.ex-10=Apatine Electron Tube
-item.thermionicTubes.ex-11=Lapis Electron Tube
-item.pulsatingDust=Pulsating Dust
-item.pulsatingMesh=Pulsating Mesh
-item.silkWisp=Silk Wisp
-item.wovenSilk=Woven Silk
-item.fertilizerBio=Compost
-item.fertilizerCompound=Fertilizer
-item.apatite=Apatite
-item.ingotCopper=Copper Ingot
-item.ingotTin=Tin Ingot
-item.ingotBronze=Bronze Ingot
-item.pipette=Pipette
-item.wrench=Wrench
-item.gearBronze=Bronze Gear
-item.bucketBiomass=Biomass Bucket
-item.sturdyMachine=Sturdy Casing
-item.bucketBiofuel=Ethanol Bucket
-item.peat=Peat
-item.ash=Ash
-item.gearCopper=Copper Gear
-item.waterCan=Water Can
-item.canEmpty=Can
-item.biomassCan=Biomass Can
-item.biofuelCan=Ethanol Can
-item.gearTin=Tin Gear
-item.hardenedMachine=Hardened Casing
-item.iodineCapsule=Iodine Capsule
-item.carton=Carton
-item.crate=Crate
-item.oakStick=Impregnated Stick
-item.woodPulp=Wood Pulp
-item.kitPickaxe=Pickaxe Kit
-item.bronzePickaxe=Survivalist's Pickaxe
-item.brokenBronzePickaxe=Broken Pickaxe
-item.kitShovel=Shovel Kit
-item.bronzeShovel=Survivalist's Shovel
-item.brokenBronzeShovel=Broken Shovel
-item.tent=Survivalist's Tent
-item.mouldyWheat=Mouldy Wheat
-item.decayingWheat=Decaying Wheat
-item.mulch=Mulch
-item.scoop=Scoop
-item.beeswax=Beeswax
-item.royalJelly=Royal Jelly
-item.honeydew=Honeydew
-item.waxCapsule=Wax Capsule
-item.honeyedSlice=Honeyed Slice
-item.ambrosia=Ambrosia
-item.canOil=Oil Can
-item.canFuel=Fuel Can
-item.canLava=Lava Can
-item.canSeedOil=Seed Oil Can
-item.canHoney=Honey Can
-item.canJuice=Juice Can
-item.canIce=Ice Can
-item.honeyPot=Honey Pot
-item.waxCapsuleWater=Water Capsule
-item.waxCapsuleBiomass=Biomass Capsule
-item.waxCapsuleBiofuel=Ethanol Capsule
-item.bituminousPeat=Bituminous Peat
-item.waxCapsuleOil=Oil Capsule
-item.waxCapsuleFuel=Fuel Capsule
-item.waxCapsuleSeedOil=Seed Oil Capsule
-item.waxCapsuleHoney=Honey Capsule
-item.waxCapsuleJuice=Juice Capsule
-item.waxCapsuleIce=Ice Capsule
-item.phosphor=Phosphor
-item.refractoryWax=Refractory Wax
-item.refractoryEmpty=Refractory Capsule
-item.refractoryLava=Lava Capsule
-item.refractoryWater=Water Capsule
-item.refractoryBiomass=Biomass Capsule
-item.refractoryBiofuel=Ethanol Capsule
-item.refractoryOil=Oil Capsule
-item.refractoryFuel=Fuel Capsule
-item.refractorySeedOil=Seed Oil Capsule
-item.refractoryHoney=Honey Capsule
-item.refractoryJuice=Juice Capsule
-item.refractoryIce=Ice Capsule
-item.beealyzer=Beealyzer
-item.apiaristHelmet=Apiarist's Hat
-item.apiaristChest=Apiarist's Shirt
-item.apiaristLegs=Apiarist's Pants
-item.apiaristBoots=Apiarist's Shoes
-item.naturalistHelmet=Spectacles
-item.biomeFinder=Habitat Locator
-item.infuser=Infuser
-item.imprinter=Imprinter
-item.solderingIron=Soldering Iron
-item.letters=Letter
-item.stamps=Stamp
-item.scentedPaneling=Scented Paneling
-item.impregnatedCasing=Impregnated Casing
-item.frameUntreated=Untreated Frame
-item.frameImpregnated=Impregnated Frame
-item.frameProven=Proven Frame
-item.iceShard=Ice Shard
-item.waxCast=Wax Cast
-item.treealyzer=Treealyzer
-item.fruit.cherry=Cherry
-item.fruit.walnut=Walnut
-item.fruit.chestnut=Chestnut
-item.fruit.lemon=Lemon
-item.fruit.plum=Plum
-item.fruit.papaya=Papaya
-item.fruit.dates=Date
+death.engine.clockwork.player=%1$s foi apunhalado por uma mola solta. %2$s era um relojoeiro negligente.
+death.engine.clockwork=%1$s foi apunhalado por uma mola solta.
+
+for.beverage.effect.alcoholic=Alcoólico
+for.beverage.effect.antidote=Antídoto
+
+for.chat.accesslocked=%s é o proprietário desta máquina e bloqueou o acesso.
+for.chat.cannotmemorizeagain=Você já memorizou esta informação.
+
+for.chat.command.aliases=Pseudónimo: %s
+for.chat.command.list=Subcomandos Disponíveis:
+for.chat.command.permlevel=Nível de Permissão: %s
+for.chat.command.noperms=Você não tem permissão para usar este comando.
+
+for.chat.command.forestry.help=Vários comandos para Forestry
+for.chat.command.forestry.format=Formato: /%s <sub-command>
+
+for.chat.command.forestry.version.desc=- %s : Informações da versão
+for.chat.command.forestry.version.help=Imprime a versão atual
+for.chat.command.forestry.version.format=Formato: /%s
+
+for.chat.command.forestry.plugins.desc=- %s : Lista de ´Plugins´ do Forestry
+for.chat.command.forestry.plugins.help=Lista todos os ´Plugins´ do Forestry. Verde estão ativos e em vermelho desabilitados.
+for.chat.command.forestry.plugins.format=Formato: /%s
+
+for.chat.command.forestry.plugins.info.desc=- %s : Informações sobre um ´Plugin´ específico
+for.chat.command.forestry.plugins.info.help=Imprime informações sobre um ´Plugin´ específico
+for.chat.command.forestry.plugins.info.format=Formato: /%s <plugin-name>
+
+
+for.chat.help=Digite '%s' para obter ajuda.
+for.chat.memorizednote=You memorize the note and dispose of the crumpled scrap of paper.
+for.chat.plugins.error=Não há informações disponíveis para o ´plugin´ %s.
+for.chat.version=Forestry %1$s para Minecraft %2$s (Mais recente: %3$s).
+
+for.circuit.dampener.1=Regulador de Tiragem
+for.circuit.dampener.1.description.1=Reduz a saída máxima para 10 RF/t
+for.circuit.dampener.1.description.2=Preserva a saída de combustível
+for.circuit.electric.boost.1=Impulso Elétrico I
+for.circuit.electric.boost.1.description.1=Aumenta a saída em 20 RF/t
+for.circuit.electric.boost.1.description.2=Aumenta o consumo em 7 EU/t
+for.circuit.electric.boost.2=Impulso Elétrico II
+for.circuit.electric.boost.2.description.1=Aumenta a saída em 40 RF/t
+for.circuit.electric.boost.2.description.2=Aumenta o consumo em 15 EU/t
+for.circuit.electric.choke.1=Choque Elétrico
+for.circuit.electric.choke.1.description.1=Reduz a saída em 10 RF/t
+for.circuit.electric.choke.1.description.2=Reduz o consumo em 2 EU/t
+for.circuit.electric.efficiency.1=Eficiência Elétrica
+for.circuit.electric.efficiency.1.description.1=Reduz o consumo em 1 EU/t
+
+for.circuit.layout.dummy.name=Não Disponível
+for.circuit.layout.dummy.usage=Nada
+
+for.circuit.layout.engine.tin.name=Motor Elétrico
+for.circuit.layout.engine.tin.usage=Em Motores Elétricos
+
+for.circuit.layout.farms.managed.name=Fazenda Gerenciada
+for.circuit.layout.farms.managed.usage=Fazendas Gerenciadas
+
+for.circuit.layout.farms.manual.name=Fazenda Manual
+for.circuit.layout.farms.manual.usage=Fazendas Manuais
+
+for.errors.circuitMismatch.desc=A Ordem Não Corresponde
+for.errors.circuitMismatch.help=A quantidade de tubos não coincide com o tamanho da placa de circuito.
+for.errors.forcedCooldown.desc=Resfriamento Forçado
+for.errors.forcedCooldown.help=Motor está superaquecido foi forçado a resfriar.
+for.errors.invalidBiome.desc=Ambiente hostil
+for.errors.invalidBiome.help=Máquina ou habitantes não podem trabalhar neste bioma.
+for.errors.isRaining.desc=Chuva
+for.errors.isRaining.help=O funcionamento só é possível quando não está chovendo.
+for.errors.noCircuitBoard.desc=Falta Placa
+for.errors.noCircuitBoard.help=Inserir uma placa de circuito para soldar os tubos selecionados para ele.
+for.errors.noCircuitLayout.desc=Nenhum Diagrama Encontrado
+for.errors.noCircuitLayout.help=Nenhum diagrama disponíveis devido às configurações atuais do jogo.
+for.errors.noDisposal.desc=Resíduo não descartável
+for.errors.noDisposal.help=Espaço insuficiente para eliminar resíduos do produtos.
+for.errors.noDrone.desc=Sem zangão
+for.errors.noDrone.help=O acasalamento requer um zangão presente.
+for.errors.noEnergyNet.desc=Sem eletricidade
+for.errors.noEnergyNet.help=Seu mundo é estéril de eletricidade. (Instale o IndustrialCraft\u00b2.)
+for.errors.noPower.desc=Sem Energia
+for.errors.noPower.help=Esta máquina requer potência de RF para trabalhar.
+for.errors.noFlower.desc=Sem flores
+for.errors.noFlower.help=Os membros da colméia não estão encontrando as flores certas.
+for.errors.noFuel.desc=Sem combustível
+for.errors.noFuel.help=Reponha as fontes de combustível desta máquina.
+for.errors.noHeat.desc=Não aquecido
+for.errors.noHeat.help=Encher o tanque de aquecimento.
+for.errors.noHoney.desc=Mel necessário
+for.errors.noHoney.help=Esta buginganga requer gotas de mel ou melaço para operar.
+for.errors.noQueen.desc=Não há rainha
+for.errors.noQueen.help=Ponha nesta colmeia uma rainha ou uma princesa e um zangão.
+for.errors.noRecipe.desc=Sem receita
+for.errors.noRecipe.help=Nenhuma receita correspondente foi encontrada para os recursos fornecidos.
+for.errors.noRecipient.desc=Sem Destinatário
+for.errors.noRecipient.help=Você precisa endereçar sua carta à um destinatário para enviá-la.
+for.errors.noResource.desc=Falta recursos
+for.errors.noResource.help=Mais recursos precisam ser fornecidos para operação.
+for.errors.noSky.desc=Céu obstruído
+for.errors.noSky.help=Limpe a área acima da máquina.
+for.errors.noSpace.desc=Sem espaço no inventário
+for.errors.noSpace.help=Esvazie o inventário desta máquina.
+for.errors.noSpecimen.desc=Nada para analisar
+for.errors.noSpecimen.help=Forneça uma espécime para analisar.
+for.errors.noStamps.desc=Precisa de Selos
+for.errors.noStamps.help=O posto de troca requer mais selos para pagar a postagem.
+for.errors.noPaper.desc=Precisa de Papel
+for.errors.noPaper.help=O posto de troca requer mais papel para enviar cartas.
+for.errors.noStampsNoPaper.desc=Precisa de Selos e Papeis
+for.errors.noStampsNoPaper.help=O posto de troca requer mais selos e papeis para enviar cartas..
+for.errors.noSupplies.desc=Precisa de Suprimentos
+for.errors.noSupplies.help=O posto de troca requer mais suprimentos para enviar.
+for.errors.noTrade.desc=Nenhuma Conjunto de Troca
+for.errors.noTrade.help=O posto de troca requer itens para Enviar e Receber.
+for.errors.notAlphaNumeric.desc=Não Alfanumérico
+for.errors.notAlphaNumeric.help=A ´string´ fornecida deve ser composta por letras e números.
+for.errors.notDay.desc=Não durante o dia
+for.errors.notDay.help=O funcionamento só é possível durante o dia.
+for.errors.notGloomy.desc=Não esta escuro o suficiente
+for.errors.notGloomy.help=Um baixo nível de luz é necessário para a operação.
+for.errors.notLucid.desc=Não brilhante o suficiente
+for.errors.notLucid.help=Um maior nível de luz é necessário para a operação.
+for.errors.notNight.desc=Não à noite
+for.errors.notNight.help=O funcionamento só é possível durante a noite.
+for.errors.notPostpaid.desc=Requer Selos
+for.errors.notPostpaid.help=Aplica mais selos para pagar o serviço postal.
+for.errors.notRaining.desc=Sem chuva
+for.errors.notRaining.help=O funcionamento só é possível quando está chovendo.
+for.errors.notUnique.desc=Não é Único
+for.errors.notUnique.help=A ´string´ fornecida deve ser única no mundo. Escolha uma diferente.
+for.errors.ok.desc=Nenhum erro
+for.errors.ok.help=Tudo está bem.
+for.errors.unknown.desc=Erro desconhecido
+for.errors.unknown.help=Parabéns, você encontrou uma falha.
+for.errors.wrongStacksize.desc=Muitos Itens
+for.errors.wrongStacksize.help=Somente itens individuais podem ser usados aqui.
+
+for.flowers.cacti=Cactos
+for.flowers.end=´End´
+for.flowers.gourd=Cabaça
+for.flowers.jungle=Selva
+for.flowers.mushroom=Cogumelo
+for.flowers.nether=Nether
+for.flowers.vanilla=Flores
+for.flowers.wheat=Trigo
+
+fluid.bioethanol=Etanol
+fluid.biomass=Biomassa
+fluid.glass=Vidro Líquido
+fluid.for.honey=Mel
+fluid.ice=Gelo Picado
+fluid.juice=Suco de Fruta
+fluid.short.mead=Hidromel
+fluid.milk=Leite
+fluid.seedoil=Óleo Vegetal
+tile.forestry.fluid.bioethanol.name=Etanol
+tile.forestry.fluid.biomass.name=Biomassa
+tile.forestry.fluid.glass.name=Vidro Líquido
+tile.forestry.fluid.for.honey.name=Mel
+tile.forestry.fluid.ice.name=Gelo Picado
+tile.forestry.fluid.juice.name=Suco de Fruta
+tile.forestry.fluid.short.mead.name=Hidromel
+tile.forestry.fluid.milk.name=Leite
+tile.forestry.fluid.seedoil.name=Óleo Vegetal
+
+for.gui.access=Acesso
+for.gui.active=Ativo
+for.gui.addressee.player=Jogador
+for.gui.addressee.trader=Posto de Troca
+
+for.gui.alyzer.authority=Autoridade
+for.gui.alyzer.classification=Classificação
+for.gui.alyzer.extinct=Extinto
+for.gui.alyzer.nodescription=A Enciclopédia Minecraftia não pode fornecer uma entrada para este espécime.
+for.gui.alyzer.overview=Análises disponíveis
+
+for.gui.area=Território
+for.gui.arid=Arido
+for.gui.average=Mediano
+for.gui.beach=Praia
+
+for.gui.beealyzer.artificial=Origem Artificial
+for.gui.beealyzer.behaviour=Comportamento
+for.gui.beealyzer.generations=%s Gerações em Cativeiro
+for.gui.beealyzer.help=Forneça à abelha mel ou melaço como pacificador.
+for.gui.beealyzer.mutations=Possível Mutação
+for.gui.beealyzer.natural=Origem Natural
+for.gui.beealyzer.produce=Possível Produzir
+for.gui.beealyzer.specialty=Possível Especialidade
+for.gui.beealyzer.tolerance.both1=Ambos 1
+for.gui.beealyzer.tolerance.both2=Ambos 2
+for.gui.beealyzer.tolerance.both3=Ambos 3
+for.gui.beealyzer.tolerance.both4=Ambos 4
+for.gui.beealyzer.tolerance.both5=Ambos 5
+for.gui.beealyzer.tolerance.down1=Descer 1
+for.gui.beealyzer.tolerance.down2=Descer 2
+for.gui.beealyzer.tolerance.down3=Descer 3
+for.gui.beealyzer.tolerance.down4=Descer 4
+for.gui.beealyzer.tolerance.down5=Descer 5
+for.gui.beealyzer.tolerance.none=Nenhum
+for.gui.beealyzer.tolerance.up1=Subir 1
+for.gui.beealyzer.tolerance.up2=Subir 2
+for.gui.beealyzer.tolerance.up3=Subir 3
+for.gui.beealyzer.tolerance.up4=Subir 4
+for.gui.beealyzer.tolerance.up5=Subir 5
+for.gui.beealyzer=Abelhanalizador
+
+for.gui.blank=Vazio
+for.gui.cave=Cavernícola
+for.gui.climate=Clima
+for.gui.closetosearch=Perto de pesquisar
+for.gui.cold=Frio
+for.gui.crop=Colheita
+for.gui.currentOutput=Corrente de Saída
+for.gui.damp=Úmido
+for.gui.derelict=Abandonado
+for.gui.desert=Deserto
+for.gui.didyouknow=Você sabia
+for.gui.diurnal=Diurnas
+for.gui.drones=Zangões
+for.gui.effect=Efeito
+for.gui.elongatedlife=Alongada
+for.gui.empty=Vazio
+for.gui.emptysocket=Soquete vazio
+for.gui.energy=Energia
+for.gui.environment=Meio Ambiente
+for.gui.evolution=Evolução
+for.gui.fast=Rápido
+for.gui.faster=Rapidamente
+for.gui.fastest=Mais Rápido
+for.gui.fecundated=Acoplado
+for.gui.fertility=Fertilidade
+for.gui.fireresist=À Prova de Fogo
+for.gui.flowers=Tipo de Flor
+for.gui.flyer=Inseto Tolerante
+for.gui.general=Geral
+for.gui.gigantic=Gigantesco
+for.gui.habitatlocator=Localizador de Habitat
+for.gui.heat=Calor
+for.gui.hellish=Infernal
+for.gui.high=Alta
+for.gui.higher=Superior
+for.gui.highest=Mais Alto
+for.gui.hot=Quente
+for.gui.humidity=Umidade
+for.gui.humidtol=Tolerância de Umidade
+for.gui.hybrid=Híbrido
+for.gui.icy=Gelada
+for.gui.imprinter.cheater=(Trapaceiro!)
+for.gui.imprinter.name=IMPRESSORA DE GENOMA
+for.gui.inactive=Inativo
+for.gui.large=Maior
+for.gui.larger=Ampliando
+for.gui.largest=Mais Ampliado
+for.gui.life=Vida
+for.gui.lifespan=Vida Útil
+for.gui.longerlife=Longa
+for.gui.longestlife=Mais Longa
+for.gui.longlife=Loguíssima
+for.gui.low=Baixa
+for.gui.lower=Mais Baixa
+for.gui.lowest=Baixíssima
+
+for.gui.escritoire.probe=Examinar Espécimes
+for.gui.escritoire.instructions=Coloca uma amostra genética no centro para começar. Coloque mais nas ranhuras a esquerda para examiná-los e obter ajuda.
+
+# Escreva as notas como você achar melhor, apenas defina corretamente a contagem.
+
+for.gui.escritoire.notes.level1.count=3
+for.gui.escritoire.notes.level1.1=I have found a curious specimen on my travels.
+for.gui.escritoire.notes.level1.2=This strange fellow needs further investigation.
+for.gui.escritoire.notes.level1.3=Elated, I wanted to start at once with my research.
+
+for.gui.escritoire.notes.level2.count=4
+for.gui.escritoire.notes.level2.1=I was amazed at the wondrous nature of it.
+for.gui.escritoire.notes.level2.2=The specimen twitched, while I inspected it more closely.
+for.gui.escritoire.notes.level2.3=Strange markings on the underside made me curious.
+for.gui.escritoire.notes.level2.4=This will be the talk of the society when I am done investigating.
+
+for.gui.escritoire.notes.level3.count=4
+for.gui.escritoire.notes.level3.1=After some prodding I discovered an interesting new lead.
+for.gui.escritoire.notes.level3.2=I scratched my head at this discovery and questioned everything.
+for.gui.escritoire.notes.level3.3=I thought my eyes deceived me, but there it was.
+for.gui.escritoire.notes.level3.4=A previously unseen dot led me to question the specimen's classification.
+
+for.gui.escritoire.notes.level4.count=7
+for.gui.escritoire.notes.level4.1=My screams of frustration had the housekeeper look into my study in worry.
+for.gui.escritoire.notes.level4.2=In a frenzy and on the verge of despair, I ripped up all the notes!
+for.gui.escritoire.notes.level4.3=This... just doesn't make any sense!
+for.gui.escritoire.notes.level4.4=It just cannot be. It didn't do that before!
+for.gui.escritoire.notes.level4.5=The sledgehammer barely made a dent, so I sent for the chainsaw.
+for.gui.escritoire.notes.level4.6=I swear it was looking at me, with its beady, cruel, little eyes.
+for.gui.escritoire.notes.level4.7=Is that laughter? Do I hear laughter? Who is laughing here?
+
+for.gui.escritoire.notes.success.count=5
+for.gui.escritoire.notes.success.1=EUREKA!
+for.gui.escritoire.notes.success.2=Wondrous! My name will go down in history!
+for.gui.escritoire.notes.success.3=My colleagues will be impressed!
+for.gui.escritoire.notes.success.4=I will be the envy of everyone at the society!
+for.gui.escritoire.notes.success.5=Sim!
+
+for.gui.escritoire.notes.failure.count=5
+for.gui.escritoire.notes.failure.1=All is lost.
+for.gui.escritoire.notes.failure.2=I consign my notes to the fire.
+for.gui.escritoire.notes.failure.3=Why? I had made such great strides at first...
+for.gui.escritoire.notes.failure.4=Failed. Again.
+for.gui.escritoire.notes.failure.5=Oh my...
+
+for.gui.mail.foreveryattached=para cada anexo
+for.gui.mail.from=De
+for.gui.mail.nametrader=O nome de seu posto de troca
+for.gui.mail.nothingtotrade=O posto de troca não tem nada para trocar.
+for.gui.mail.notrader=Nenhuma posto de troca de mesmo nome disponível.
+for.gui.mail.pleasesend=Por favor envie
+for.gui.mail.to=Para
+for.gui.mail.receive=Receber
+for.gui.mail.send=Enviar
+
+for.gui.maxenergy=Energia Máxima
+for.gui.maxenergyreceive=Corrente de Entrada Máxima
+for.gui.maxspeed=Máximo
+for.gui.metabolism=Metabolismo
+for.gui.nether=Nether
+for.gui.nocturnal=Noturno
+for.gui.noeffect=Sem Efeito
+for.gui.normal=Normal
+for.gui.normallife=Normal
+for.gui.owner=Dono
+for.gui.page=Página
+
+for.gui.pipe.filter.anything=Nada
+for.gui.pipe.filter.bee=Quaisquer Abelhas
+for.gui.pipe.filter.cave=Habitante de Cavernas
+for.gui.pipe.filter.closed=Fechado
+for.gui.pipe.filter.drone=Zangões
+for.gui.pipe.filter.flyer=Insetos Fortes
+for.gui.pipe.filter.item=Ítens
+for.gui.pipe.filter.nocturnal=Abelhas Noturnas
+for.gui.pipe.filter.princess=Princesas
+for.gui.pipe.filter.pure_breed=Abelhas de Raça Pura
+for.gui.pipe.filter.pure_cave=Puras Habitantes das Cavernas
+for.gui.pipe.filter.pure_flyer=Insetos Puros
+for.gui.pipe.filter.pure_nocturnal=Abelhas Noturnas Puras
+for.gui.pipe.filter.queen=Rainha
+
+for.gui.plains=Planície
+for.gui.pollination=Velocidade de polinização
+for.gui.princesses=Princ.
+for.gui.produce=Produzir
+for.gui.queens=Rainhas
+
+for.gui.rule.private=Privado
+for.gui.rule.restricted=Restrito
+for.gui.rule.shared=Compartilhado
+
+for.gui.shortenedlife=Encurtado
+for.gui.shorterlife=Curto
+for.gui.shortestlife=Mais Curto
+for.gui.shortlife=Curtíssimo
+
+for.gui.size=Tamanho
+for.gui.slots=%USED/%SIZE ´Slots´
+for.gui.slow=Devagar
+for.gui.slower=Lento
+for.gui.slowest=Lentíssimo
+for.gui.small=Menor
+for.gui.smaller=Pequeno
+for.gui.smallest=Pequeníssimo
+for.gui.species=Espécies
+for.gui.speciescount=Espécies
+for.gui.speed=Velocidade de Produção
+for.gui.stored=Armazenado
+for.gui.temperature=Temperatura
+for.gui.temptol=Temperatura Tol.
+for.gui.tooltip.tmi=Segure a tecla ´SHIFT´ para obter detalhes
+for.gui.triple=Triplo
+for.gui.unknown=Genoma desconhecido
+for.gui.warm=Quente
+for.gui.water=Água
+for.gui.worker=Trabalhador
+
+for.hints.accesscontrol.desc=A machine's owner can set it to three different types of access: Shared, restricted or private.
+for.hints.accesscontrol.tag=Access Control
+for.hints.accesspipe.desc=A machine set to private will disallow any interaction with tubes or pipes.
+for.hints.accesspipe.tag=Restricted Pipe Access
+for.hints.accessrules.desc="Shared" access allows anyone to break the machine or interact with it. "Restricted" still allows interaction for anyone.
+for.hints.accessrules.tag=Access rules
+for.hints.apiaristsuit.desc=A full apiarist's suit will protect you from all negative bee effects.
+for.hints.apiaristsuit.tag=Bee Suits!
+for.hints.beebiomes.desc=Bees only work in biomes that suit their species. Use your beealyzer and habitat locator to find out in which.
+for.hints.beebiomes.tag=Choose your biome!
+for.hints.beebreeding.desc=Crossbreeding drones and princesses of different species may net you offspring with a new species.
+for.hints.beebreeding.tag=Breed your bees!
+for.hints.beeflowers.desc=Any bee will need some type of flower in the vicinity. Some rather mundane flowers, others very exotic ones.
+for.hints.beeflowers.tag=Bees need flowers
+for.hints.beejubilance.desc=Only jubilant bees will produce their specialty. Make sure to have them in their preferred climate.
+for.hints.beejubilance.tag=Make your bee happy!
+for.hints.cooldownloss.desc=Engines going into forced cooldown will also lose a significant chunk of their stored energy.
+for.hints.cooldownloss.tag=Cooldown means energy loss!
+for.hints.crating.desc=Main task of carpenters is the compression of your surplus resources. Many bulk blocks and items can be packaged into crates.
+for.hints.crating.tag=Crate your Surplus!
+for.hints.energybuffer.desc=Engines are capable of buffering a lesser amount of energy if it cannot be transmitted to the target.
+for.hints.energybuffer.tag=Buffering Energy!
+for.hints.energyunit.desc=An engine's energy output is measured in RF/t, which stands for "Redstone Flux per tick". Each second has 20 ticks.
+for.hints.energyunit.tag=Say Redstone Flux!
+for.hints.enginebronzefuels.desc=You can use a wide variety of fuels for your biogas engine: Biomass, seed oil, honey, milk and even water!
+for.hints.enginebronzefuels.tag=Use all the fuels!
+for.hints.enginebronzeheatloss.desc=Though you can use water in a biogas engine, it is terribly inefficient and will constantly consume lava.
+for.hints.enginebronzeheatloss.tag=Careful with water!
+for.hints.enginebronzeoutput.desc=Different fuels will net you different energy outputs in a biogas engine. Outputs range from 10 RF/t to 50 RF/t.
+for.hints.enginebronzeoutput.tag=Choose your fuel!
+for.hints.enginebronzewaste.desc=Contrary to peat-fired engines disabled biogas engines will not waste the biomass currently in the system.
+for.hints.enginebronzewaste.tag=Fuel is conserved.
+for.hints.enginecopperfuels.desc=Peat-fired engines can use untreated peat, but they can also use bituminous peat to double their energy output.
+for.hints.enginecopperfuels.tag=Use all the fuels!
+for.hints.enginecopperwaste.desc=Disabled peat-fired engines continue to burn peat already removed from the stash without generating energy from it.
+for.hints.enginecopperwaste.tag=Beware wasting energy!
+for.hints.enginetinbatteries.desc=You can use batteries to run your electrical engines without needing to wire them up.
+for.hints.enginetinbatteries.tag=Charge those batteries!
+for.hints.enginetinchoke.desc=Electrical engines can be outfitted with circuit boards to choke their power output to 10 RF/t and also reduce their energy demand.
+for.hints.enginetinchoke.tag=Regulate Output
+for.hints.flowerjungle.desc=Jungle flowers are ferns or vines.
+for.hints.flowerjungle.tag=What's a jungle flower?
+for.hints.flowernether.desc=Netherwart are the nether flowers.
+for.hints.flowernether.tag=What's a nether flower?
+for.hints.forcedcooldown.desc=Engines can overheat if the energy they produce is not consumed. Reaching melting point will force them into cooldown.
+for.hints.forcedcooldown.tag=Beware Overheating!
+for.hints.generatorfuels.desc=Bio generators accept both biomass and biofuel. They are at their most efficient with biofuel.
+for.hints.generatorfuels.tag=Use all the fuels!
+for.hints.honeyfood.desc=Many different kinds of foods can be made from honey and other bee products.
+for.hints.honeyfood.tag=Grab foodstuff!
+for.hints.manualpeat.desc=Peat can be farmed in automatic peat bogs, but when you start out, you might want to try harvesting a bit of peat by hand.
+for.hints.manualpeat.tag=No Bog Needed!
+for.hints.moistenerproducts.desc=Given the correct ingredients, your moistener can also create mossy cobblestone or mossy stone bricks.
+for.hints.moistenerproducts.tag=Want some mossy cobble?
+for.hints.nopowerrequired.desc=Machines of this type do not require any power to operate.
+for.hints.nopowerrequired.tag=No power required
+for.hints.peatharvest.desc=Bog earth directly adjacent to water will mature to peat. Use a shovel to harvest it.
+for.hints.peatharvest.tag=Harvest Peat!
+for.hints.pipette.desc=If you are stuck with remaining liquid in a machine's tank, you can click the tank with a pipette to empty it.
+for.hints.pipette.tag=Empty tanks with the pipette
+for.hints.postage.desc=Sending letters costs stamps. To a base fee of 1n, every attachment adds another 1n of cost.
+for.hints.postage.tag=Pay the Ferryman
+for.hints.powerraintank.desc=Even an unpowered raintank will collect rain. However to bottle the water, energy from an engine is required.
+for.hints.powerraintank.tag=Bottling Requires Energy!
+for.hints.powerrequired.desc=This machine requires energy from an engine to function. Attach an engine and start it, to allow production.
+for.hints.powerrequired.tag=Requires Energy!
+for.hints.shortmead.desc=Your fermenter can not only create biomass, you can also use honeydew and liquid honey to make some short mead.
+for.hints.shortmead.tag=Get your energy drink!
+for.hints.usesofash.desc=Ash can be used to create fertilizer and is required to refine bituminous peat.
+for.hints.usesofash.tag=Use your ash!
+
+for.item.crated.adj=Encaixotado
+for.item.crated.unknown=Caixote com conteúdo desconhecido
+
+for.no=Não
+
+for.researchNote.chance.highest=ALTÍSSIMO
+for.researchNote.chance.higher=MAIS ALTO
+for.researchNote.chance.high=ALTO
+for.researchNote.chance.normal=NORMAL
+for.researchNote.chance.low=BAIXO
+for.researchNote.chance.lowest=MAIS BAIXO
+for.researchNote.error.0=É impossível decifrar os rabiscos borrados.
+for.researchNote.error.1=A nota tornou-se ilegível e não vale nada.
+for.researchNote.discovered.0=§aEspécie pesquisada!
+for.researchNote.discovered.1=§e'%1$s'§7 (%2$s)
+for.researchNote.discovery.0=§aMutação descoberta!
+for.researchNote.discovery.1=§e'%SPEC1'§7 e §e'%SPEC2'§7.
+for.researchNote.discovery.2=Chance de sucesso §9%s§7.
+for.researchNote.discovery.3=Nova espécie é §d'%s'§7.
+
+for.storage.backpack.mode.locked=(FECHADO)
+for.storage.backpack.mode.receiving=(RECEBENDO)
+for.storage.backpack.mode.resupply=(REABASTECIMENTO)
+
+for.trigger.hasMail=Tem Correspondência
+for.trigger.hasWork=Tem Trabalho
+for.trigger.lowFuel=Combustível
+for.trigger.lowGermlings=´Germlings´
+for.trigger.lowInput=Entrada
+for.trigger.lowPaper=Papel
+for.trigger.lowResources=Recursos
+for.trigger.lowStamps=Selos
+for.trigger.mailBuffer=´Buffer´
+for.trigger.missingDrone=Faltando Zangão
+for.trigger.missingQueen=Faltando Rainha ou Princesa
+for.trigger.noFrames=Sem Quadros
+
+for.yes=Sim
+
+item.for.adventurerBag.name=Mochila do Aventureiro
+item.for.adventurerBagT2.name=Mochila de Pano do Aventureiro
+item.for.ambrosia.name=Ambrosia
+item.for.apatite.name=Apatita
+
+item.for.apiaristBag.name=Mochila do Apicultor
+item.for.apiaristBoots.name=Sapatos do Apicultor
+item.for.apiaristChest.name=Camisa do Apicultor
+item.for.apiaristHelmet.name=Chapéu do Apicultor
+item.for.apiaristLegs.name=Calças do Apicultor
+
+item.for.ash.name=Cinzas
+
+item.for.beealyzer.name=Abelhanalizador
+
+item.for.beeCombs.cocoa.name=Favo de Cacau
+item.for.beeCombs.darkened.name=Favo Escurecido
+item.for.beeCombs.dripping.name=Favo Gotejante
+item.for.beeCombs.frozen.name=Favo Congelado
+item.for.beeCombs.honey.name=Favo de Mel
+item.for.beeCombs.irradiated.name=Favo Irradiado
+item.for.beeCombs.mellow.name=Favo Suave
+item.for.beeCombs.mossy.name=Favo de Musgo
+item.for.beeCombs.mysterious.name=Favo Misterioso
+item.for.beeCombs.omega.name=Favo Omega
+item.for.beeCombs.parched.name=Favo Resequido
+item.for.beeCombs.powdery.name=Favo em Pó
+item.for.beeCombs.reddened.name=Favo Encarnado
+item.for.beeCombs.silky.name=Favo Sedoso
+item.for.beeCombs.simmering.name=Favo Cozido
+item.for.beeCombs.stringy.name=Favo Fibroso
+item.for.beeCombs.wheaten.name=Favo de Trigo
+
+item.for.beeswax.name=Cera de Abelha
+
+item.for.beverage.meadCurative.name=Hidromel Curativo
+item.for.beverage.meadShort.name=Hidromel
+
+item.for.biomeFinder.name=Localizador de Habitates
+item.for.bituminousPeat.name=Turfa Betuminosa
+item.for.brokenBronzePickaxe.name=Picareta Quebrada
+item.for.brokenBronzeShovel.name=Pá Quebrada
+item.for.bronzePickaxe.name=Picareta do Sobrevivente
+item.for.bronzeShovel.name=Pá do Sobrevivente
+item.for.builderBag.name=Mochila do Construtor
+item.for.builderBagT2.name=Mochila de tecido do Construtor
+
+item.for.bucketEthanol.name=Balde de Etanol
+item.for.bucketBiomass.name=Balde de Biomassa
+item.for.bucketHoney.name=Balde de Mel
+item.for.bucketIce.name=Balde de Gelo Picado
+item.for.bucketJuice.name=Balde de Suco
+item.for.bucketSeedoil.name=Balde de Óleo Vegetal
+item.for.bucketGlass.name=Balde de Vidro Líquido
+item.for.bucketShortMead.name=Bande de Hidromel
+
+item.for.canEmpty.name=Lata
+item.for.canEthanol.name=Lata Etanol
+item.for.canBiomass.name=Lata Biomassa
+item.for.canFuel.name=Lata Combustível
+item.for.canHoney.name=Lata Mel
+item.for.canIce.name=Lata Gelo
+item.for.canJuice.name=Lata Suco
+item.for.canLava.name=Lata Lava
+item.for.canOil.name=Lata Óleo
+item.for.canSeedOil.name=Lata Óleo Vegetal
+item.for.carton.name=Cartão
+
+item.for.circuitboard.basic.name=Placa de Circuito Básica
+item.for.circuitboard.enhanced.name=Placa de Circuito Aprimorada
+item.for.circuitboard.intricate.name=Placa de Circuito Intrincada
+item.for.circuitboard.refined.name=Placa de Circuito Refinada
+
+item.for.craftingMaterial.dissipationCharge.name=Carga de Dissipação
+item.for.craftingMaterial.iceShard.name=Caco de Gelo
+item.for.craftingMaterial.pulsatingDust.name=Poeira Pulsante
+item.for.craftingMaterial.pulsatingMesh.name=Malha Pulsante
+item.for.craftingMaterial.scentedPaneling.name=Painéis Perfumados
+item.for.craftingMaterial.silkWisp.name=Fio de Seda
+item.for.craftingMaterial.wovenSilk.name=Tecido de Seda
+
+item.for.crate.name=Caixa
+item.for.decayingWheat.name=Trigo em Decomposição
+item.for.diggerBag.name=Mochila do Escavador
+item.for.diggerBagT2.name=Mochila de Tecido do Escavador
+
+item.for.fertilizerBio.name=Adubo
+item.for.fertilizerCompound.name=Fertilizante
+item.for.foresterBag.name=Mochila do 'Forestreiro'
+item.for.foresterBagT2.name=Mochila de Tecido do 'Forestreiro'
+
+item.for.frameImpregnated.name=Quadro Impregnado
+item.for.frameProven.name=Quadro Comprovado
+item.for.frameUntreated.name=Quadro Não Tratado
+
+item.for.fruits.cherry.name=Cereja
+item.for.fruits.chestnut.name=Castanha
+item.for.fruits.dates.name=Tâmara
+item.for.fruits.lemon.name=Limão
+item.for.fruits.papaya.name=Mamão
+item.for.fruits.plum.name=Ameixa
+item.for.fruits.walnut.name=Noz
+
+item.for.gearBronze.name=Engrenagem de Bronze
+item.for.gearCopper.name=Engrenagem de Cobre
+item.for.gearTin.name=Engrenagem de Estanho
+
+item.for.hardenedMachine.name=Revestimento Endurecido
+
+item.for.honeydew.name=Melado
+
+item.for.honeyDrop.charged.name=Gota Carregada
+item.for.honeyDrop.honey.name=Gota de Mel
+item.for.honeyDrop.omega.name=Gota de Omega
+item.for.honeyedSlice.name=Fatia de Doce
+
+item.for.honeyPot.name=Pote de Mel
+item.for.hunterBag.name=Mochila do Caçador
+item.for.hunterBagT2.name=Mochila de Tecido do Caçador
+
+item.for.impregnatedCasing.name=Invólucro Impregnado
+item.for.imprinter.name=Impressora
+item.for.infuser.name=Infusor
+
+item.for.ingotBronze.name=Lingote de Bronze
+item.for.ingotCopper.name=Lingote de Cobre
+item.for.ingotTin.name=Lingote de Estanho
+
+item.for.iodineCapsule.name=Cápsula de Iodo
+item.for.kitPickaxe.name=Jogo de Picaretas
+item.for.kitShovel.name=Jogo de Pás
+item.for.letters.name=Carta
+
+item.for.minerBag.name=Mochila do Minerador
+item.for.minerBagT2.name=Mochila de Tecido do Minerador
+
+item.for.mouldyWheat.name=Trigo Mofado
+item.for.mulch.name=Serragem de Palha
+item.for.naturalistHelmet.name=Óculos
+item.for.oakStick.name=Vara Impregnada
+item.for.peat.name=Turfa
+item.for.phosphor.name=Fósforo
+item.for.pipette.name=Pipeta
+
+item.for.pollen.crystalline.name=Conjunto Cristalino de Pólem
+item.for.pollen.normal.name=Conjunto de Pólem
+
+item.for.propolis.normal.name=Própolis
+item.for.propolis.pulsating.name=Própolis Pulsante
+item.for.propolis.silky.name=Própolis Sedosa
+item.for.propolis.sticky.name=Própolis Viscosa
+
+item.for.refractoryEthanol.name=Cápsula de Etanol
+item.for.refractoryBiomass.name=Cápsula de Biomassa
+item.for.refractoryEmpty.name=Cápsula Refratária
+item.for.refractoryFuel.name=Cápsula de Combustível
+item.for.refractoryHoney.name=Cápsula de Mel
+item.for.refractoryIce.name=Cápsula de Gelo
+item.for.refractoryJuice.name=Cápsula de Suco
+item.for.refractoryLava.name=Cápsula de Lava
+item.for.refractoryOil.name=Cápsula de Óleo
+item.for.refractorySeedOil.name=Cápsula de Óleo Vegatal
+item.for.refractoryWater.name=Cápsula D'água
+item.for.refractoryWax.name=Cera em Pó
+
+item.for.researchNote.name=Notas do %s
+item.for.royalJelly.name=Geléia Real
+item.for.scoop.name=Puça
+item.for.solderingIron.name=Ferro de solda
+
+item.for.stamps.1n.name=Selo (1n)
+item.for.stamps.2n.name=Selo (2n)
+item.for.stamps.5n.name=Selo (5n)
+item.for.stamps.10n.name=Selo (10n)
+item.for.stamps.20n.name=Selo (20n)
+item.for.stamps.50n.name=Selo (50n)
+item.for.stamps.100n.name=Selo (100n)
+item.for.stamps.name=Selo
+
+item.for.sturdyMachine.name=Carcaça Resistente
+item.for.tent.name=Tenda do Sobrevivente
+
+item.for.thermionicTubes.ex-0.name=Válvula Eletrónica de Cobre
+item.for.thermionicTubes.ex-1.name=Válvula Eletrónica de Estanho
+item.for.thermionicTubes.ex-2.name=Válvula Eletrónica de Bronze
+item.for.thermionicTubes.ex-3.name=Válvula Eletrónica de Ferro
+item.for.thermionicTubes.ex-4.name=Válvula Eletrónica de Ouro
+item.for.thermionicTubes.ex-5.name=Válvula Eletrónica de ´Diamantine´
+item.for.thermionicTubes.ex-6.name=Válvula Eletrónica de Obsidiana
+item.for.thermionicTubes.ex-7.name=Válvula Eletrónica de Ardende
+item.for.thermionicTubes.ex-8.name=Válvula Eletrónica de Emborrachado
+item.for.thermionicTubes.ex-9.name=Válvula Eletrónica de Esmeralda
+item.for.thermionicTubes.ex-10.name=Válvula Eletrónica de Apatita
+item.for.thermionicTubes.ex-11.name=Válvula Eletrónica de Lápis-lazúli
+
+item.for.treealyzer.name=Arvoranalizador
+
+item.for.canWater.name=Lata D'água
+
+item.for.waxCapsule.name=Cápsula de Cera
+item.for.waxCapsuleEthanol.name=Cápsula de Etanol
+item.for.waxCapsuleBiomass.name=Cápsula de Biomassa
+item.for.waxCapsuleFuel.name=Cápsula de Combustível
+item.for.waxCapsuleHoney.name=Cápsula de Mel
+item.for.waxCapsuleIce.name=Cápsula de Gelo
+item.for.waxCapsuleJuice.name=Cápsula de Suco
+item.for.waxCapsuleOil.name=Cápsula de Óleo
+item.for.waxCapsuleSeedOil.name=Cápsula de Óleo Vegetal
+item.for.waxCapsuleWater.name=Cápsula de D'água
+item.for.waxCast.name=Molde de Cera
+
+item.for.woodPulp.name=Serragem
+item.for.wrench.name=Chave Inglesa
+
+itemGroup.apiculture=Forestry - Apicultura
+itemGroup.arboriculture=Forestry - Arboricultura
 itemGroup.forestry=Forestry
-itemGroup.arboriculture=Arboriculture
-itemGroup.apiculture=Apiculture
-itemGroup.lepidopterology=Lepidopterology
-layout.engine.tin=Electric Engine
-storage.backpack.apiarist=Apiarist's Backpack
-storage.backpack.adventurer=Adventurer's Backpack
-storage.backpack.builder=Builder's Backpack
-storage.backpack.digger=Digger's Backpack
-storage.backpack.forester=Forester's Backpack
-storage.backpack.hunter=Hunter's Backpack
-storage.backpack.miner=Miner's Backpack
-storage.backpack.t2adj=Woven
-tile.for.engine.0=Electrical Engine
-tile.for.engine.1=Peat-fired Engine
-tile.for.engine.2=Biogas Engine
-tile.for.engine.3=Bio Generator
-tile.for.engine.4=Clockwork Engine
-tile.for.factory.0=Bottler
-tile.for.factory.1=Carpenter
-tile.for.factory.2=Centrifuge
-tile.for.factory.3=Fermenter
-tile.for.factory.4=Moistener
-tile.for.factory.5=Squeezer
-tile.for.factory.6=Still
-tile.for.factory.7=Rainmaker
-tile.for.factory2.0=Thermionic Fabricator
-tile.for.factory2.1=Raintank
-tile.for.factory2.2=Worktable
-tile.for.core.0=Analyzer
-tile.for.core.1=Escritoire
-tile.for.mail.0=Mailbox
-tile.for.mail.1=Trade Station
-tile.for.mail.2=Stamp Collector
-tile.beehives.1=Forest Hive
-tile.beehives.2=Meadows Hive
-tile.beehives.3=Desert Hive
-tile.beehives.4=Jungle Hive
-tile.beehives.5=End Hive
-tile.beehives.6=Snow Hive
-tile.beehives.7=Swamp Hive
-tile.resources.0=Apatite Ore
-tile.resources.1=Copper Ore
-tile.resources.2=Tin Ore
-tile.soil.0=Humus
-tile.soil.1=Bog Earth
-tile.stained.0=White Stained Glass
-tile.stained.1=Orange Stained Glass
-tile.stained.2=Magenta Stained Glass
-tile.stained.3=Light Blue Stained Glass
-tile.stained.4=Yellow Stained Glass
-tile.stained.5=Lime Stained Glass
-tile.stained.6=Pink Stained Glass
-tile.stained.7=Gray Stained Glass
-tile.stained.8=Light Gray Stained Glass
-tile.stained.9=Cyan Stained Glass
-tile.stained.10=Purple Stained Glass
-tile.stained.11=Blue Stained Glass
-tile.stained.12=Brown Stained Glass
-tile.stained.13=Green Stained Glass
-tile.stained.14=Red Stained Glass
-tile.stained.15=Black Stained Glass
-trigger.hasMail=Has Mail
-trigger.hasWork=Has Work
-trigger.lowFuel=Fuel
-trigger.lowGermlings=Germlings
-trigger.lowResources=Resources
-trigger.lowSoil=Soil
-trigger.missingDrone=Missing Drone
-trigger.missingQueen=Missing Queen or Princess
-trigger.noFrames=No Frames
-trigger.lowPaper=Paper
-trigger.lowLiquid=Liquid
-trigger.lowFertilizer=Fertilizer
-trigger.lowInput=Input
-trigger.lowStamps=Stamps
-trigger.mailBuffer=Buffer
-usage.engine.tin=In Electrical Engines
+itemGroup.lepidopterology=Forestry - Heteropterologia
+
+tile.for.core.0.name=Analisador
+tile.for.core.1.name=Escrivaninha
+
+tile.for.engine.0.name=Motor Elétrico
+tile.for.engine.1.name=Motor de Turfa
+tile.for.engine.2.name=Motor de Biogás
+tile.for.engine.3.name=Bio Gerador
+tile.for.engine.4.name=Motor de Relógio
+
+tile.for.factory.0.name=Engarrafador
+tile.for.factory.1.name=Carpinteiro
+tile.for.factory.2.name=Centrífuga
+tile.for.factory.3.name=Fermentador
+tile.for.factory.4.name=Humidificador
+tile.for.factory.5.name=Cantil
+tile.for.factory.6.name=´Still´
+tile.for.factory.7.name=Fazedor de Chuva
+tile.for.factory2.0.name=Fabricador Termiônico
+tile.for.factory2.1.name=Tanque de Chuva
+tile.for.factory2.2.name=Mesa de Trabalho
+
+tile.for.mail.0.name=Caixa de Correio
+tile.for.mail.1.name=Posto de Troca
+tile.for.mail.2.name=Filatelia
+
+tile.for.resources.0.name=Minério de Apatita
+tile.for.resources.1.name=Minério de Cobre
+tile.for.resources.2.name=Minério de Estanho
+
+tile.for.resourceStorage.0.name=Bloco de Apatita
+tile.for.resourceStorage.1.name=Bloco de Cobre
+tile.for.resourceStorage.2.name=Bloco de Estanho
+tile.for.resourceStorage.3.name=Bloco de Bronze
+
+tile.for.soil.0.name=Húmus
+tile.for.soil.1.name=Terra do Pântano
+tile.for.soil.2.name=Turfa
+
+tile.for.stained.0.name=Vitral Branco
+tile.for.stained.1.name=Vitral Laranja
+tile.for.stained.2.name=Vitral Magenta
+tile.for.stained.3.name=Vitral Azul Claro
+tile.for.stained.4.name=Vitral Amarelo
+tile.for.stained.5.name=Vitral Lima
+tile.for.stained.6.name=Vitral Rosa
+tile.for.stained.7.name=Vitral Cinza
+tile.for.stained.8.name=Vitral Cinza claro
+tile.for.stained.9.name=Vitral Ciano
+tile.for.stained.10.name=Vitral Lilás
+tile.for.stained.11.name=Vitral Azul
+tile.for.stained.12.name=Vitral Marrom
+tile.for.stained.13.name=Vitral Verde
+tile.for.stained.14.name=Vitral Vermelho
+tile.for.stained.15.name=Vitral Preto
 
 ####################
-# APICULTURE
+# APICULTURA (tradução: 90%, verificação/revisão: 0%)
 ####################
 
-apiculture.effect.aggressive=Aggress.
-apiculture.effect.beatific=Beatнfico
-apiculture.effect.creeper=Creeper
-apiculture.effect.exploration=Explorador
-apiculture.effect.glacial=Congelante
-apiculture.effect.heroic=Herуico
-apiculture.effect.ignition=Inflamбvel
-apiculture.effect.misasmic=Venenoso
-apiculture.effect.misanthrope=Fatal
-apiculture.effect.radioactive=Radioativo
-apiculture.effect.drunkard=Embriagante
-apiculture.effect.snowing=Neve
-apiculture.effect.resurrection=Ressureiзгo
-apiculture.effect.reanimation=Reanimaзгo
-apiculture.effect.repulsion=Repulsгo
-bees.hybrid.adj.add=
-bees.hyphen.adj.add=
-bees.drone=Zangгo
-bees.drone.adj.add=
-bees.larvae=Larvas
-bees.larvae.adj.add=
-bees.princess=Princesa
-bees.princess.adj.add=
-bees.queen=Rainha
-bees.queen.adj.add=
-death.bee.end=%1$s foi finalizado por uma ferroada pouco amigбvel.
-death.bee.end.player=%1$s foi finalizado por uma ferroada pouco amigбvel enquanto lutava com %2$s.
-death.bee.radioactive=%1$s foi para Chernobyl sem o seu capacete vestido.
-death.bee.radioactive.player=%1$s foi para Chernobyl sem o seu capacete vestido. %2$s viu e riu-se.
-death.bee.aggressive=%1$s encontrou um enxame de abelhas. Aquilo tinha que picar.
-death.bee.aggressive.player=%1$s encontrou um enxame de abelhas. %2$s roubou o seu Set de Apicultor.
-genus.bees.common=Comum
-genus.bees.noble=Nobre
-genus.bees.industrious=Industrioso
-genus.bees.heroic=Herуico
-genus.bees.infernal=Infernal
-genus.bees.austere=Austero
-genus.bees.end=Fim
-genus.bees.vengeful=Vingativo
-genus.bees.tropical=Tropical
-genus.bees.frozen=Congelado
-genus.bees.reddened=Avermelhado
-genus.bees.festive=Festivo
-genus.bees.agrarian=Agrбrio
-genus.bees.boggy=Pantanoso
-genus.bees.monastic=Monбstico
-bees.species.forest=Floresta
-bees.species.meadows=Prados
-bees.species.common=Comum
-bees.species.cultivated=Cultivada
-bees.species.noble=Nobre
-bees.species.majestic=Majйstica
-bees.species.imperial=Imperial
-bees.species.diligent=Diligente
-bees.species.unweary=Incansбvel
-bees.species.industrious=Industriosa
-bees.species.steadfast=Inabalбvel
-bees.species.valiant=Valente
-bees.species.heroic=Herуica
-bees.species.sinister=Sinistra
-bees.species.fiendish=Cruel
-bees.species.demonic=Demуnica
-bees.species.modest=Modesta
-bees.species.frugal=Moderada
-bees.species.austere=Austera
-bees.species.tropical=Tropical
-bees.species.exotic=Exуtica
-bees.species.edenic=Edйnica
-bees.species.ender=Fim
-bees.species.wintry=Invernal
-bees.species.icy=Gelada
-bees.species.glacial=Glacial
-bees.species.vindictive=Rancorosa
-bees.species.vengeful=Vindicativa
-bees.species.avenging=Vingativa
-bees.species.darkened=Escurecida
-bees.species.reddened=Avermelhada
-bees.species.omega=Omega
-bees.species.leporine=Leporina
-bees.species.rural=Rural
-bees.species.marshy=Pantanosa
-bees.species.merry=Natalicia
-bees.species.tipsy=Embriagada
-bees.species.monastic=Monбstica
-bees.species.secluded=Escondida
-bees.species.hermitic=Hermitica
-bees.species.spectral=Espectral
-bees.species.phantasmal=Irreal
-beemode.easy.desc=Simplifica o acasalamento com o aumento da probabilidade de mutaзгo e ao remover a possibiliade de fadiga genйtica.
-beemode.normal.desc=Modo recomendado para um jogador comum.
-beemode.hard.desc=Reduz a probabilidade de mutaзгo e aumenta a esperanзa de vida em 50%.
-beemode.hardcore.desc=Corta a probabilidade de mutaзгo para 50%, aumenta a esperanзa de vida das Rainhas em 5x e reduz a fertilidade em 20%.
-beemode.insane.desc=Corta a probabilidade de mutaзгo para 20%, aumenta a esperanзa de vida das Rainhas em 10x e reduz a fertilidade em 40%.
-description.speciesForest=Uma das pestes mais comuns nas Florestas; Bastante dуcil.|Apicultura Bбsica
-description.speciesMeadows=Infesta principalmete planнcies em climas amenos; Bastante dуcil.|Apicultura Bбsica
-description.speciesCommon=Considerada como sendo o prйmio de participaзгo de um apicultor principiante.|Apicultura Bбsica
-description.speciesCultivated=Trabalhadora rбpida; Pensa que tudo menos уpera estб por baixo dela.|Apicultura Bбsica
-description.speciesNoble="Nгo existe nenhuma ocupaзгo mais nobre do que criar uma nova abelha."|Binnie, Apicultor
-description.speciesMajestic="Cortem-lhes a cabeзa!"|Rainha de Copas
-description.speciesImperial=Espйcie muito procurada. Especializa-se na produзгo de Geleia Real.|Apicultura Bбsica
-description.speciesDiligent=Notбveis por serem o ponto inicial para a linhagem de abelhas industriosas.|Apicultura Bбsica
-description.speciesUnweary=Incansбveis. Mais depois morrem.|Apicultura Bбsica
-description.speciesIndustrious=Espйcie muito procurada. Especializa-se na produзгo de pуlen refinado.|Apicultura Bбsica
-description.speciesSteadfast=Considerada extinta atй que foi encontrada por alguns aventureiros numa masmorra.|Manual do Apicultor
-description.speciesValiant=Uma subespйcie rara que й raramente vista a habitar colmeias mundanas.|Manual do Apicultor
-description.speciesHeroic=Vбrias lendas existem acerca desta espйcie. Irб defender a sua colmeia atй а morte.|Manual do Apicultor
-description.speciesSinister=Nгo existem muitas espйcies que consigam sobreviver no Nether, mas mesmo as que conseguem ficam afectadas pelo ambiente infernal.|Apicultura Bбsica
-description.speciesFiendish=Apicultores especialistas do Nether reportaram ataques severos por parte das suas abelhas. Recomenda-se cautela.|Apicultura Bбsica
-description.speciesDemonic=Nascida a partir das chamas do Nether e sendo uma descendente de abelhas do Nether, esta espйcie й um verdadeiro demуnio.|Apicultura Bбsica
-description.speciesModest=Climas quentes e бridos forзaram esta espйcie a se adaptar ao ponto de nгo sobreviver em climas mais amigбveis.|Apicultura Bбsica
-description.speciesFrugal=Geraзхes de abelhas "cozinhadas" ao sol produzem esta espйcie.|Apicultura Bбsica
-description.speciesAustere=Perigosa e volбtil; й recomendado o uso de fatos de apicultor sempre que se esteja por perto.|Apicultura Bбsica
-description.speciesTropical=Habitantes comuns e venenosos das selvas e outros climas tropicais.|Apicultura Bбsica
-description.speciesExotic=Abelha com uma vida longa proveniente de climas mais quentes e hъmidos.|Apicultura Bбsica
-description.speciesEdenic=Viajante de longe, esta abelha traz consigo um ar de experiкncia que permeia todos aqueles que estгo por perto.|Apicultura Bбsica
-description.speciesWintry=Comum, mas enrijecida pelo Inverno; A cultivaзгo desta espйcie em climas mais quentes й um desafio.|Apicultura Bбsica
-description.speciesIcy=As temperaturas das colmeias habitadas por esta espйcie irгo cair atй que estilhaзos de gelo se formem.|Apicultura Bбsica
-description.speciesGlacial="O Inverno Estб Chegando!"|E. Stark, Apicultor
-description.speciesVindictive="Comeu a minha cara! Comeu a minha cara!"|K.M.
-description.speciesVengeful="Veni, Vidi, Vici!"|Apinus Julius Caesar
-description.speciesAvenging="Pode ter comido a minha cara, mas eu queria mais!"|Anуnimo
-description.speciesDarkened=Atraнda por matйria alquнmica, esta espйcie foi em tempos uma fonte poderosa de energia. Extinta.|Lйxico do Apicultor
-description.speciesReddened=Requer quantidades massivas de matйria alquнmica. Consegue inundar o mundo em energia. Extinta.|Lйxico do Apicultor
-description.speciesOmega="Eu sou o Alfa e o Уmega, o inнcio e o fim, o primeiro e o ъltimo."|Pahimar, Apicultor
-description.speciesLeporine="Eu juro! Era pequena, tinha asas e eu vi de certeza orelhas de coelho! (...) Nгo! Eu nгo estou bкbedo!"|"Sir" Sengir, Doido
-description.speciesMerry="Ho-Ho-Ho!"|Abelha do Natal
-description.speciesTipsy="Dancem, minhas queridas, dancem!"|Bruxa Bкbeda do oriente
-description.speciesRural="A chuva de Maio promete muita palha."|M. Ages, Apicultor Rural
-description.speciesMarshy="Cogumelos? A sйrio? Pisga-te!"|Apicultura Bбsica
-description.speciesMonastic="Eu permaneci austero e disse: 'Nгo sу uma Princesa, mas tambйm uma carrada de Esmeraldas por um miserбvel Zangгo? Isso й extorsгo!'"|Apicultura Bбsica
-description.speciesSecluded="Fazer o acasalamento com as espйcies do deserto foi um erro. As minhas abelhas querem cada vez mais fugir do mundo exterior."|Apicultura Bбsica
-description.speciesHermitic="Meu caro colega! As abelhas que me enviou recusam-se a tomar banho e estгo a ficar com uma barba enorme. Pode explicar-me porquк?"|Binnie, Apicultor
-description.speciesEnded="Eu encontrei um destes insectos no apiбrio de um aldeгo. Estava tуrpido e tinha claramente sido removido do seu mundo, do qual estava а espera de um fragmento."|Apicultura Bбsica
-description.speciesSpectral="Eu estava incerto se estava viva, jб que estava simplesmente ali, na palma da minha mгo a cintilar e a transmitir uma frieza que nunca tinha sentido antes, atй que ouvi um monte de ossos atrбs de mim a ranger..."|Apicultura Bбsica
-description.speciesPhantasmal="Faзas o que fizeres, NГO DEIXES CAIR o Ovo do Dr..."|"Sir" Sengir, Ъltimas Palavras
-tile.alveary.0=Colmeia
-tile.alveary.2=Enxame
-tile.alveary.3=Aquecedor de Colmeia
-tile.alveary.4=Refrigerador de Colmeia
-tile.alveary.5=Higrorregulador de Colmeia
-tile.alveary.6=Estabilizador de Colmeia
-tile.alveary.7=Peneira para Colmeia
-tile.candle.0=Vela
-tile.stump.0=Toco de Vela
-tile.for.apiculture.0=Apiбrio
-tile.for.apiculture.1=Baъ de Apicultor
-tile.for.apiculture.2=Ninho de Abelhas
-item.for.beeQueenGE.name=Unknown Queen
+death.bee.aggressive.player=%1$s encountered a swarm of bees. %2$s stole his apiarist's suit.
+death.bee.aggressive=%1$s encountered a swarm of bees. That had to sting.
+death.bee.end.player=%1$s was ended by an unfriendly sting while fighting %2$s.
+death.bee.end=%1$s was ended by an unfriendly sting.
+death.bee.radioactive.player=%1$s walked into Chernobyl without his helmet on. %2$s watched and cackled.
+death.bee.radioactive=%1$s walked into Chernobyl without his helmet on.
+
+for.apiculture.effect.aggressive=Agressivo
+for.apiculture.effect.beatific=Beatífico
+for.apiculture.effect.creeper=Explosiva
+for.apiculture.effect.drunkard=Bêbado
+for.apiculture.effect.exploration=Explorerador
+for.apiculture.effect.glacial=Congelante
+for.apiculture.effect.fertile=Fértil
+for.apiculture.effect.heroic=Heróico
+for.apiculture.effect.ignition=Inflamável
+for.apiculture.effect.misanthrope=´Ends´
+for.apiculture.effect.misasmic=Veneno
+for.apiculture.effect.mycophilic=´Mycophilic´
+for.apiculture.effect.none=Nenhum
+for.apiculture.effect.radioactive=Radioativo
+for.apiculture.effect.reanimation=Reanimação
+for.apiculture.effect.repulsion=Repulsão
+for.apiculture.effect.resurrection=Resurreição
+for.apiculture.effect.snowing=Neve
+
+for.beemode.easy.desc=Simplifies beebreeding by drastically increasing mutation rate and removing the chance for genetic fatigue.
+for.beemode.hard.desc=Reducing mutation rate slightly while increasing lifespan of individual queens by 50%%.
+for.beemode.hardcore.desc=Halves mutation rate, increases lifespan of individual queens by 500%% and reduces fertility by 20%%.
+for.beemode.insane.desc=Cuts mutation rate to 20%%, increases lifespan tenfold and reduces fertility by 40%%.
+for.beemode.normal.desc=Recommended mode for the normal player.
+
+for.bees.grammar.drone.type=Zangão
+for.bees.grammar.drone=%TYPE %SPECIES
+for.bees.grammar.larvae.type=Larva
+for.bees.grammar.larvae=%TYPE %SPECIES
+for.bees.grammar.princess.type=Princesa
+for.bees.grammar.princess=%TYPE %SPECIES
+for.bees.grammar.queen.type=Rainha
+for.bees.grammar.queen=%TYPE %SPECIES
+
+for.bees.hybrid=%PRIMARY-%SECONDARY Híbrido
+
+for.bees.species.austere=Austera
+for.bees.species.avenging=Vingadora
+for.bees.species.boggy=Alagadiça
+for.bees.species.common=Comum
+for.bees.species.cultivated=Cultivada
+for.bees.species.darkened=Sombria
+for.bees.species.demonic=Demoníaca
+for.bees.species.diligent=Diligente
+for.bees.species.edenic=Edênica
+for.bees.species.ender=Ender
+for.bees.species.exotic=Exótica
+for.bees.species.fiendish=Diabólica
+for.bees.species.forest=Florestal
+for.bees.species.frugal=Frugal
+for.bees.species.glacial=Glacial
+for.bees.species.hermitic=Eremítica
+for.bees.species.heroic=Heróica
+for.bees.species.icy=Gelada
+for.bees.species.imperial=Imperial
+for.bees.species.industrious=Industrial
+for.bees.species.leporine=Leporina
+for.bees.species.majestic=Majestosa
+for.bees.species.marshy=do Pantanal
+for.bees.species.meadows=dos Prados
+for.bees.species.merry=Alegre
+for.bees.species.miry=Lamacenta
+for.bees.species.modest=Modesta
+for.bees.species.monastic=Monástica
+for.bees.species.noble=Nobre
+for.bees.species.omega=Ómega
+for.bees.species.phantasmal=Fantasmagórica
+for.bees.species.reddened=Encarnada
+for.bees.species.rural=Rural
+for.bees.species.farmerly=Fazendeira
+for.bees.species.agrarian=Agrária
+for.bees.species.secluded=Solitária
+for.bees.species.sinister=Sinistra
+for.bees.species.spectral=Espectral
+for.bees.species.steadfast=Inabalável
+for.bees.species.tipsy=Embriagada
+for.bees.species.tricky=Enganadora
+for.bees.species.tropical=Tropical
+for.bees.species.unweary=´Unweary´
+for.bees.species.valiant=Valente
+for.bees.species.vengeful=Vingativa
+for.bees.species.vindictive=Retaliadora
+for.bees.species.wintry=Invernal
+
+for.bees.stock.ignoble=Estoque Ignóbil
+for.bees.stock.pristine=Estoque Imaculado
+
+for.chat.command.forestry.bee.desc=- %s : Comandos de Apicultura
+for.chat.command.forestry.bee.help=Comandos relacionados à apicultura.
+for.chat.command.forestry.bee.format=Formato: /%s <sub-command>
+
+for.chat.command.forestry.bee.give.desc=- %s : Me dê as abelhas
+for.chat.command.forestry.bee.give.help=Da ao jogador zangões, princesas, rainhas ou larvas.
+for.chat.command.forestry.bee.give.format=Formato: /%s <species-name> <bee-type> [<player-name>]
+for.chat.command.forestry.bee.give.available=Tipos de abelha disponíveis: %s
+for.chat.command.forestry.bee.give.given=%1$s foi dada uma %2$s %3$s.
+
+for.chat.command.forestry.bee.mode.desc=- %s : Comandos do Modo de Apicultura
+for.chat.command.forestry.bee.mode.help=Comandos relativos ao modo de apicultura.
+for.chat.command.forestry.bee.mode.format=Formato: /%s <sub-command>
+
+for.chat.command.forestry.bee.mode.info.desc=- %s : Informação do Modo de Apicultura
+for.chat.command.forestry.bee.mode.info.help=Informações sobre o modo de apicultura atual e disponível.
+for.chat.command.forestry.bee.mode.info.format=Formato: /%s <mode-name>
+
+for.chat.command.forestry.bee.mode.set.desc=- %s : Definições do Modo de Apicultura
+for.chat.command.forestry.bee.mode.set.help=Defina o modo de apicultura para o mundo.
+for.chat.command.forestry.bee.mode.set.format=Formato: /%s [<world-#>] <mode-name>
+
+for.chat.command.forestry.bee.save.desc=- %s : Salva Estatísticas de Apicultura
+for.chat.command.forestry.bee.save.help=Salva as estatísticas de apicultura em um arquivo.
+for.chat.command.forestry.bee.save.format=Formato: /%s [<player-name>]
+for.chat.command.forestry.bee.save.stats=Estatísticas de apicultura de %s a %s:
+
+for.chat.command.forestry.mode.info.error=Nenhum modo chamado '%s' está disponível.
+for.chat.command.forestry.mode.info.current=Corrente: %1$s (#%2$s)
+for.chat.command.forestry.mode.info.available=Modos disponíveis: %s
+
+for.chat.command.forestry.mode.set.success=Modo definido para %s.
+for.chat.command.forestry.mode.set.error=O modo chamado '%s' não está disponível.
+
+for.chat.command.forestry.stats.save.error1=Log file could not be created. Failed to save statistics.
+for.chat.command.forestry.stats.save.error2=Cannot write to log file. Failed to save statistics.
+for.chat.command.forestry.stats.save.error3=Write operation threw an exception. Failed to save statistics.
+for.chat.command.forestry.stats.save.error4=Não foram encontradas estatísticas.
+for.chat.command.forestry.stats.save.saved=Estatísticas salvas para o jogador %s
+for.chat.command.forestry.stats.save.key.discovered=Descoberto
+for.chat.command.forestry.stats.save.key.discovered.symbol=X
+for.chat.command.forestry.stats.save.key.blacklisted=Na lista negra
+for.chat.command.forestry.stats.save.key.blacklisted.symbol=LN
+for.chat.command.forestry.stats.save.key.notCounted=Não contado para as espécies no total
+for.chat.command.forestry.stats.save.key.notCounted.symbol=NC
+for.chat.command.forestry.stats.save.mode=Modo: %s
+
+for.description.speciesAgrarian="Doesn't reek as much as the alternative. Gets the job done, eh?"|Myrathi, Cannie Beekeeper
+for.description.speciesAustere=Dangerous and volatile; Beekeepers are advised to stay in full suit whenever near.|Beekeeping 101
+for.description.speciesAvenging="The walls of my house began to crumble and I heard the roof creaking over my head, but I cared not! I felt the stabs of a thousand little insects on my glove as I grabbed the new queen."|Anonymous
+for.description.speciesBoggy="I saw a cow get stung by one of these once. Seconds later, it started sprouting mushrooms all over! ... A photo? Uh, didn't take one."|"Sir" Sengir, madman
+for.description.speciesCommon=Considered the beginner apiarist's badge of participation.|Beekeeping 101
+for.description.speciesCultivated=Fast working bee; Thinks anything but opera is beneath it.|Beekeeping 101
+for.description.speciesDarkened=Attracted by the power of alchemically bound matter, this species was a powerful source of energy.|Beekeeper's Lexicon
+for.description.speciesDemonic=Born in the fires of the nether and being a descendant of generations of nether bees has caused this species to turn into a true demon.|Beekeeping 101
+for.description.speciesDiligent=Mostly noted as a stepping stone for the industrious line of bees.|Beekeeping 101
+for.description.speciesEdenic="I furiously scribbled in my notebook, drawing sketches of the images I felt seeping into my brain while I was watching the insects perform their strange little dance."|Beekeeping 101
+for.description.speciesEnded="I found one of these seemingly hermitical insects in a villager's apiary. It was torpid, obviously ripped from its world and longing for a fragment from it."|Beekeeping 101
+for.description.speciesExotic="The fever shook me and my apiarist's suit was drenched with cold sweat, but with trembling hands I finally managed to pull one of these from my apiary."|Beekeeping 101
+for.description.speciesFarmerly=Commonly seen in large expanses of prairie, the breadbasket of nations.|Beekeeping 101
+for.description.speciesFiendish=Experienced nether apiarist's have been reporting severe attacks by their bees. Caution is advised.|Beekeeping 101
+for.description.speciesForest=One of the most common pests in forests; Mostly docile.|Beekeeping 101
+for.description.speciesFrugal=Generations of bees baked in the sun to produce this species.|Beekeeping 101
+for.description.speciesGlacial="Winter is coming!"|E. Stark, beekeeper
+for.description.speciesHermitic="My dear colleague! I noticed the bees you sent me refuse to wash and are growing full beards. Care to explain?"|Binnie, Apiarist
+for.description.speciesHeroic=Elaborate legends have surrounded this species. Will defend its hive to its death against any hostiles.|Apiarist's Grimoire
+for.description.speciesIcy=Temperatures inside hives inhabited by this species will drop until ice shards form.|Beekeeping 101
+for.description.speciesImperial=Highly sought after bee; Specialises in the production of precious royal jelly.|Beekeeping 101
+for.description.speciesIndustrious=Highly sought after bee; Specialises in the production of exquisite pollen.|Beekeeping 101
+for.description.speciesLeporine="I swear! It was tiny, had wings and I definitely saw fluffy little rabbit ears! ... No! I am not drunk!"|"Sir" Sengir, madman
+for.description.speciesMajestic="Off with their heads!"|Queen of Hearts
+for.description.speciesMarshy="Seriously? Mushrooms? Get out of here!"|Beekeeping 101
+for.description.speciesMeadows=Infests mostly plains in temperate climates; Mostly docile.|Beekeeping 101
+for.description.speciesMerry="Hohoho!"|Merry bee
+for.description.speciesMiry="How do bees even pollinate fungi?"|Mezz, Junior Apiarist
+for.description.speciesModest=Hot and arid climates have forced this species to adapt to a degree which will not allow it to survive in significantly friendlier climates.|Beekeeping 101
+for.description.speciesMonastic="I remained austere and said to him: 'Not only a princess, but also a whole pile of emeralds for a measly drone? That's extortion!'|Beekeeping 101
+for.description.speciesNoble="There is no more noble occupation in the world than to breed another bee."|Binnie, Apiarist
+for.description.speciesOmega="I am Alpha and Omega, the beginning and the end, the first and the last."|Pahimar, beekeeper
+for.description.speciesPhantasmal="Whatever you do, do not, I repeat, DO NOT drop the dragon e..."|"Sir" Sengir, Last Words
+for.description.speciesReddened=Requiring massive amounts of alchemically bound matter, these little fellows could flood a world in energy.|Beekeeper's Lexicon
+for.description.speciesRural="Rain in May promises much hay."|M. Ages, Rural Beekeeper
+for.description.speciesSecluded="Crossbreeding with the desert kind was a mistake. My bees withdrew more and more from the outside world."|Beekeeping 101
+for.description.speciesSinister=Not many bee species are able to survive in the nether. And even those are severly affected by their hellish environment.|Beekeeping 101
+for.description.speciesSpectral="I was unsure whether it was alive as it lay there in the palm of my hand, glimmering and pulsating, oozing a coldness I never felt before. Then I heard the pile of bones behind me rattle..."|Beekeeping 101
+for.description.speciesSteadfast=Considered extinct until some were found by adventurers in a deep dungeon.|Apiarist's Grimoire
+for.description.speciesTipsy="Dance my pretties! Dance!"|Tipsy Witch of the East
+for.description.speciesTricky="Trick or Tricky Treat!"|Tricky Bee
+for.description.speciesTropical="My travels along the jungle river allowed me to catch many of these poisonous specimen. Unfortunately I had lost my only austere branch to crocodiles a while back."|Beekeeping 101
+for.description.speciesUnweary=Unweary. Then they die.|Beekeeping 101
+for.description.speciesValiant=A rare subspecies rarely seen cohabiting in mundane hives.|Apiarist's Grimoire
+for.description.speciesVengeful="Veni, vidi, vici!"|Apinus Julius Caesar
+for.description.speciesVindictive="It ate my face! It ate my face!"|K.M.
+for.description.speciesWintry=Common, but winter-hardened bee tribe; Cultivation in warmer climates is a challenge.|Beekeeping 101
+
+for.genus.bees.agrarian=Agrária
+for.genus.bees.austere=Austera
+for.genus.bees.boggy=Pantanal
+for.genus.bees.common=Comum
+for.genus.bees.end=´End´
+for.genus.bees.festive=Festiva
+for.genus.bees.frozen=Conelada
+for.genus.bees.heroic=Heroica
+for.genus.bees.industrious=Industrial
+for.genus.bees.infernal=Infernal
+for.genus.bees.monastic=Monastica
+for.genus.bees.noble=Nobre
+for.genus.bees.reddened=Encarnada
+for.genus.bees.tropical=Tropical
+for.genus.bees.vengeful=Vingativa
+
+item.for.beePrincessGE.name=Princesa
+item.for.beeQueenGE.name=Rainha
+
+tile.for.alveary.0.name=Apiaryum
+tile.for.alveary.1.name=Apiaryum, Entrada
+tile.for.alveary.2.name=Enxame
+tile.for.alveary.3.name=Apiaryum, Ventilador
+tile.for.alveary.4.name=Apiaryum, Aquecerdor
+tile.for.alveary.5.name=Apiaryum, Hidroregulador
+tile.for.alveary.6.name=Apiaryum, Estabilizador
+tile.for.alveary.7.name=Apiaryum, Peneira
+
+tile.for.apiculture.0.name=Apiário
+tile.for.apiculture.1.name=Baú do Apiarista
+tile.for.apiculture.2.name=Colméia
+
+tile.for.beehives.1.name=Colméia da Floresta
+tile.for.beehives.2.name=Colméia dos Prados
+tile.for.beehives.3.name=Colméia Modesta
+tile.for.beehives.4.name=Colméia Tropical
+tile.for.beehives.5.name=Colméia do Ender
+tile.for.beehives.6.name=Colméia Invernal
+tile.for.beehives.7.name=Colméia do Alagadiço
+tile.for.beehives.8.name=Colméia Enxameada
+
+tile.for.candle.dyed.lit.name=Vela Tingida Acesa
+tile.for.candle.dyed.stump.name=Vela Tingida Apagada
+tile.for.candle.lit.name=Vela Acesa
+tile.for.candle.stump.name=Vela Apagada
+
+tile.for.stump.0.name=Toco de Vela
 
 ####################
-# ARBORICULTURE
+# ARBORICULTURA (tradução: 1%, verificação/revisão: 0%)
 ####################
 
-gui.maturity=Amadurece
-gui.treealyzer=Analisador de Бrvores
-gui.treealyzer.help=Forneзa uma Muda e Mel ou Melado como catalisador.
-gui.saplings=Mudas
-gui.yield=Produзгo
-gui.sappiness=Suculкncia
-gui.height=Altura
-gui.fruits=Frutos
-gui.supports=Suporta
-gui.family=Famнlia
-gui.girth=Largura
-gui.native=Nativa
-gui.tolerated=Tolera
-gui.growth=Cresc.
-description.treeOak=Espйcie de бrvore comum cujas propriedades de produзгo de maзгs sгo o tнtulo de muitas canзхes e danзas.|Codex Lignum
-description.treeBirch=Bйtula corrente, que em mйdia й mais baixa.|Codex Lignum
-description.treeLime=Бrvore alta e de folha caduca. Foi reclassificada hб pouco tempo como sendo da famнlia Malvaceae.|Codex Lignum
-description.treeWalnut=Бrvore alta, de folha caduca e com tronco grande. As nogueiras naturais produzem frutos que demoram tempo a amadurecer.|Codex Lignum
-description.treeChestnut=Бrvore alta, de folha caduca e com tronco grande. As castanheiras naturais produzem frutos que demoram tempo a amadurecer.|Codex Lignum
-description.treeSipiri=Бrvores altas e de folha persistente, com madeira valiosa. A madeira e a casca tкm um aroma agradбvel. Apenas se desenvolve em climas tropicais.|Codex Lignum
-description.treeWillow=Бrvore grande e de folha caduca. Os salgueiros brancos crescem depressa. Sу foram observados em climas hъmidos.|Codex Lignum
-description.treeCherry=Бrvore pequena. Na sua forma natural, produz cerejas que irгo necessitar de amadurecer.|Codex Lignum
-family.pomes=Pomos
-family.prunes=Poda
-family.nuts=Nozes
-family.jungle=Selva
-fruits.apple=Maзг
-fruits.cherry=Cereja
-fruits.chestnut=Castanha
-fruits.walnut=Noz
-fruits.cocoa=Cacau
-fruits.none=Nenhum
-fruits.plum=Ameixa
-fruits.lemon=Limгo
-fruits.dates=Tвmara
-fruits.papaya=Papaia
-item.grafter=Enxertador
-item.grafterProven=Enxertador Aprovado
-tile.log=Madeira
-tile.planks=Tбbuas de Madeira
-tile.slab=Degrau de Madeira
-tile.fences=Cerca
-tile.for.stairs=Escadas
-wood.0=Lariзo
-wood.1=Teca
-wood.2=Acбcia
-wood.3=Limoeiro
-wood.4=Castanheira
-wood.5=Wengк
-wood.6=Baobб
-wood.7=Sequуia
-wood.8=Capoca
-wood.9=Йbano
-wood.10=Mogno
-wood.11=Balsa
-wood.12=Salgueiro
-wood.13=Nogueira
-wood.14=Colubrina
-wood.15=Cerejeira
-wood.16=Mahoe
-wood.17=Choupo
-wood.18=Palmeira
-wood.19=Papaia
-wood.20=Pinheiro
-wood.21=Ameixeira
-wood.22=Bordo
-wood.23=Citrus
-tile.for.arboriculture.0=Baъ do Arborista
+for.arboriculture.effect.none=Nenhum
+
+for.chat.command.forestry.tree.desc=- %s : Comandos de Arboricultura
+for.chat.command.forestry.tree.help=Comandos ralativos às árvores.
+for.chat.command.forestry.tree.format=Formato:/%s <sub-command>
+
+for.chat.command.forestry.tree.spawnTree.desc=- %s : Invocar Árvore
+for.chat.command.forestry.tree.spawnTree.help=Spawn a tree near the player.
+for.chat.command.forestry.tree.spawnTree.format=Formato:/%s <species-name> [<player-name>]
+
+for.chat.command.forestry.tree.spawnForest.desc=- %s : Invocar Floresta
+for.chat.command.forestry.tree.spawnForest.help=Spawn a small forest of trees near the player.
+for.chat.command.forestry.tree.spawnForest.format=Formato:/%s <species-name> [<player-name>]
+
+for.chat.command.forestry.tree.mode.desc=- %s : Comandos do Modo de Arboricultura
+for.chat.command.forestry.tree.mode.help=Commands relating to Treekeeping Modes.
+for.chat.command.forestry.tree.mode.format=Formatoo: /%s <sub-command>
+
+for.chat.command.forestry.tree.mode.info.desc=- %s : Informações do Modo de Arboricultura
+for.chat.command.forestry.tree.mode.info.help=Information about current and available treekeeping modes.
+for.chat.command.forestry.tree.mode.info.format=Formato: /%s <mode-name>
+
+for.chat.command.forestry.tree.mode.set.desc=- %s : Definições do Modo de Arboricultura
+for.chat.command.forestry.tree.mode.set.help=Set the treekeeping mode for world.
+for.chat.command.forestry.tree.mode.set.format=Formato: /%s [<world-#>] <mode-name>
+
+for.chat.command.forestry.tree.save.desc=- %s : Salvar Estatísticas da Arboricultura
+for.chat.command.forestry.tree.save.help=Save treekeeping statistics to file.
+for.chat.command.forestry.tree.save.format=Formato: /%s [<player-name>]
+
+for.chat.command.forestry.tree.save.stats=Treekeeping statistics for %s a %s:
+
+for.description.treeBirch=Widespread birch tree, which on average is of smaller height.|Codex Lignum
+for.description.treeCherry=Small tree. In its natural form it will bear cherries which will need to undergo a ripening period.|Codex Lignum
+for.description.treeChestnut=Tall, deciduous tree with large trunk. Naturally occuring chestnut trees carry fruits which require some time to ripe.|Codex Lignum
+for.description.treeLime=Tall, deciduous tree. It has been reclassified recently as being in the Malvaceae family.|Codex Lignum
+for.description.treeOak=Common tree species whose apple-bearing properties are the subject of much song and dance.|Codex Lignum
+for.description.treeSipiri=Tall, evergreen trees with valuable timber. Wood and bark are pleasantly scented. Will only thrive in tropical climes.|Codex Lignum
+for.description.treeWalnut=Tall, deciduous tree with large trunk. Naturally occuring walnut trees carry fruits which require some time to ripe.|Codex Lignum
+for.description.treeWillow=Large, deciduous tree. White willows are fast-growing. Have only been observed to occur in damp climates.|Codex Lignum
+
+for.family.jungle=Selva
+for.family.nuts=Nozes
+for.family.pomes=Maçãs
+for.family.prunes=Ameixas
+
+for.fruits.apple=Maçã
+for.fruits.cherry=Cereja
+for.fruits.chestnut=Castanha
+for.fruits.cocoa=Cacau
+for.fruits.dates=Tâmara
+for.fruits.lemon=Limão
+for.fruits.none=Mamão
+for.fruits.papaya=Mamão
+for.fruits.plum=Ameixa
+for.fruits.walnut=Nogueira
+
+for.gui.family=Família
+for.gui.fireproof=À Prova de Fogo
+for.gui.fruits=Frutas
+for.gui.girth=Circunferência
+for.gui.growth=Desenvolvimento
+for.gui.height=Altura
+for.gui.maturity=Maduros
+for.gui.native=Solo
+for.gui.saplings=Mudas
+for.gui.sappiness=Mudas
+for.gui.supports=Suporta
+for.gui.tolerated=Tolera
+for.gui.treealyzer.help=Fornecer muda e mel ou melado como catalisador.
+for.gui.treealyzer=Arvoranalizador
+for.gui.yield=Rendimento
+
+for.growth.normal=Luz
+for.growth.tropical=Tropical
+
+for.trees.grammar.blossom.type=Flor de
+for.trees.grammar.blossom=%TYPE %SPECIES
+for.trees.grammar.germling.type=Germinação
+for.trees.grammar.germling=%TYPE %SPECIES
+for.trees.grammar.pollen.type=Pólem de
+for.trees.grammar.pollen=%TYPE %SPECIES
+for.trees.grammar.sapling.type=Muda de
+for.trees.grammar.sapling=%TYPE %SPECIES
+for.trees.grammar.leaves.type=Folhas de
+for.trees.grammar.leaves=%TYPE %SPECIES
+
+for.trees.hybrid=%PRIMARY-%SECONDARY Híbrido
+
+for.trees.species.acacia=Acacia
+for.trees.species.appleOak=Carvalho Maça
+for.trees.species.balsa=Balsa
+for.trees.species.blueMahoe=Pau-de-Sebo
+for.trees.species.bullPine=Pinheiro Touro
+for.trees.species.coastSequoia=Sequóia da Costa
+for.trees.species.commonWalnut=Nogueira Comum
+for.trees.species.darkOak=Carvalho Escuro
+for.trees.species.datePalm=Tamareira
+for.trees.species.desertAcacia=Acacia do Deserto
+for.trees.species.giantSequoia=Sequóia Gigante
+for.trees.species.grandidierBaobab=Baobá do Grandidier
+for.trees.species.hillCherry=Monte da Cereja
+for.trees.species.jungle=Selva
+for.trees.species.kapok=Sumaúma
+for.trees.species.lemon=Limão
+for.trees.species.mundaneLarch=Lariço Mundano
+for.trees.species.myrtleEbony=Murta de Ébano
+for.trees.species.papaya=Mamão
+for.trees.species.plum=Ameixa
+for.trees.species.redSpruce=Abeto Vermelho
+for.trees.species.silverBirch=Vidoeiro de Prata
+for.trees.species.silverLime=Lima Prateada
+for.trees.species.sipiri=Sipiri
+for.trees.species.sugarMaple=Bordo de Açúcar
+for.trees.species.sweetChestnut=Castanha Doce
+for.trees.species.teak=Teca
+for.trees.species.wenge=Wengué
+for.trees.species.whitePoplar=Álamo
+for.trees.species.whiteWillow=Salgueiro Branco
+for.trees.species.yellowMeranti=Yellow Meranti
+for.trees.species.ipe=Ipê
+for.trees.species.padauk=Pau-Brasil
+for.trees.species.cocobolo=Cocobolo
+for.trees.species.zebrawood=Zebrano
+
+for.fences.grammar=Cerca de %TYPE
+for.log.grammar=Madeira de %TYPE
+for.planks.grammar=Placas de Madeira de %TYPE
+for.slab.grammar=Lajes de Madeira de %TYPE
+for.stairs.grammar=Escadas de Madeira de %TYPE
+
+for.trees.woodType.larch=Larício
+for.trees.woodType.teak=Teca
+for.trees.woodType.acacia=Acacia
+for.trees.woodType.lime=Lima
+for.trees.woodType.chestnut=Castanha
+for.trees.woodType.wenge=Wengué
+for.trees.woodType.baobab=Baobá
+for.trees.woodType.sequoia=Sequóia
+for.trees.woodType.kapok=Sumaúma
+for.trees.woodType.ebony=Ébano
+for.trees.woodType.mahogany=Mógno
+for.trees.woodType.balsa=Balsa
+for.trees.woodType.willow=Salgueiro
+for.trees.woodType.walnut=Nogueira
+for.trees.woodType.greenheart=Coração-Verde
+for.trees.woodType.cherry=Cereja
+for.trees.woodType.mahoe=Pau-de-Sebo
+for.trees.woodType.poplar=Álamo
+for.trees.woodType.palm=Palmeira
+for.trees.woodType.papaya=Mamão
+for.trees.woodType.pine=Pinho
+for.trees.woodType.plum=Ameixa
+for.trees.woodType.maple=Bordo
+for.trees.woodType.citrus=Citros
+for.trees.woodType.giganteum=Sequóia Gigante
+for.trees.woodType.ipe=Ipê
+for.trees.woodType.padauk=Pau-Brasil
+for.trees.woodType.cocobolo=Cocobolo
+for.trees.woodType.zebrawood=Zebrano
+
+tile.for.fireproof=%s (À Prova de Fogo)
+
+item.for.grafter.name=Enxerto
+item.for.grafterProven.name=Enxerto Comprovado
+
+tile.for.arboriculture.0.name=Baú do Arborista
+
+tile.for.saplingGE.0.name=Muda
+tile.for.leaves.0.name=Folhas
+tile.for.pods.0.name=Vagem
 
 ####################
-# FARMING
+# AGRICULTURA (tradução: 97%, verificação/revisão: 0%)
 ####################
 
-circuit.managedArboreal=Arboreto
-circuit.managedPeat=Turfeira
-circuit.managedCereal=Horta de Cereais
-circuit.managedVegetable=Horta de Vegetais
-circuit.managedInfernal=Horta Infernal
-circuit.managedShroom=Horta de Cogumelos
-circuit.manualOrchard=Pomar
-circuit.manualPeat=Turfeira
-circuit.manualCereal=Horta de Cereais
-circuit.manualVegetable=Horta de Vegetais
-circuit.manualSucculent=Horta Suculenta
-circuit.manualPoales=Horta de Cana-de-Aзъcar
-circuit.manualRubber=Plantaзгi de Borracha
-circuit.manualGourd=Horta de Porongos
-circuit.manualCocoa=Plantaзгo de Cacau
-circuit.manualShroom=Horta de Cogumelos
-errors.noFertilizer.desc=Sem Fertilizante
-errors.noFertilizer.help=As Hortas precisam de Fertilizante. Adubo nгo й suficiente.
-errors.noFarmland.desc=Sem Terras
-errors.noFarmland.help=Arenito, tijolos ou blocos de pedra criam uma plataforma ande serб construida a Fazenda.
-errors.noLiquid.desc=Sem Бgua
-errors.noLiquid.help=Dependendo de chuva, temperatura e umidade fazendas precisam ser fornecidos com diferentes quantidades de бgua.
-gui.hydration=Hidrataзгo Necessбria
-gui.hydr.heat=Pelo Calor
-gui.hydr.humid=Pela Humidade
-gui.hydr.rainfall=Pela Chuva
-gui.hydr.overall=Total
-hints.farmland.tag=Constrуi a Sua Horta!
-hints.farmland.desc=Arenito, tijolos ou blocos de pedra criam uma plataforma ande serб construida a Fazenda.
-hints.gearbox.tag=Fornece Energia!
-hints.gearbox.desc=Use Caixas Mecвnicas para ligares Motores ou fontes de Energia а sua Horta.
-hints.valve.tag=Fornece Бgua!
-hints.valve.desc=Quase todas as hortas precisam de бgua. Use Vбlvulas para automatizar o processo.
-hints.fertilizer.tag=Й necessбrio fertilizante!
-hints.fertilizer.desc=Todas as hortas precisam de fertilizante. Composto ou polpa nгo serгo suficiente.
-hints.hatch.tag=Prepare as Escotilhas!
-hints.hatch.desc=As Escotilhas sгo as melhores amigas dos Tubos. Usa-as para automatizaзгo.
-hints.circuitboard.tag=Programa as tuas Hortas!
-hints.circuitboard.desc=Usa um Ferro de Soldar para personalizar as suas hortas.
-hints.manualfarms.tag=Hortas Manuais!
-hints.manualfarms.desc=Alйm das hortas automбticas, existem tambйm hortas manuais, que apenas mantйm a horta, mas nгo a constroem.
-hints.farmgui.tag=Terreno para a Esquerda, Sementes para a Direita!
-hints.farmgui.desc=O Terreno (Terra, Hъmus, etc.) para a horta й colocado nos Slots da esquerda, e as Sementes ou Mudas sгo colocados nos Slots а direita, no canto superior direito.
-layout.farms.managed=Horta Automбtica
-layout.farms.manual=Horta Manual
-tile.ffarm.0=Bloco de Horta
-tile.ffarm.2=Caixa Mecвnica para Horta
-tile.ffarm.3=Escotilha para Horta
-tile.ffarm.4=Vбlvula para Horta
-tile.ffarm.5=Contole da Horta
-trigger.lowSoil=Solo
-trigger.lowLiquid=Tanque de Бgua
-trigger.lowFertilizer=Adubo
-usage.farms.managed=Hortas Autmomбticas
-usage.farms.manual=Hortas Manuais
+for.circuit.managedArboreal=Arboretum
+for.circuit.managedCereal=Colheita da Fazenda
+for.circuit.managedInfernal=Fazenda Infernal
+for.circuit.managedPeat=Turfeira
+for.circuit.managedShroom=Fazenda de ´Shroom´
+for.circuit.managedVegetable=Fazenda de Vegetais
+for.circuit.manualCereal=Colheita da Fazenda
+for.circuit.manualCocoa=Plantação de Cacau
+for.circuit.manualGourd=Fazenda de Cabaças
+for.circuit.manualOrchard=Pomar
+for.circuit.manualPeat=Tufeira
+for.circuit.manualPoales=Fazenda de Junco
+for.circuit.manualRubber=Plantação de Seringueira
+for.circuit.manualShroom=Fazenda de ´Shroom´
+for.circuit.manualSucculent=Fazenda de Suculentas
+for.circuit.manualVegetable=Fazenda de Vegetais
+
+for.errors.noFarmland.desc=Terra Não Cultivável
+for.errors.noFarmland.help=Smooth sandstone, bricks or stone bricks create a platform the farm will build on.
+for.errors.noFertilizer.desc=Sem Fertilizante
+for.errors.noFertilizer.help=Farms require fertilizer for function. Compost is insufficient.
+for.errors.noLiquid.desc=Sem Água
+for.errors.noLiquid.help=Depending on rainfall, temperature and humidity farms need to be supplied with varying amounts of water.
+
+for.gui.farm.title=Fazenda
+for.gui.hydr.heat=Pelo Calor
+for.gui.hydr.humid=Pela Humidade
+for.gui.hydr.overall=Geral
+for.gui.hydr.rainfall=Por Precipitação
+for.gui.hydration=Hidratação Necessária
+
+for.hints.circuitboard.desc=Use a soldering iron to turn your tree farm into any kind of farm you like.
+for.hints.circuitboard.tag=Programe suas fazendas!
+for.hints.farmgui.desc=Soil goes into the left slots, seeds or saplings into the right slots of the reservoir on the top right part.
+for.hints.farmgui.tag=Solo vai para a esquerda, sementes para a direita!
+for.hints.farmland.desc=Smooth sandstone, bricks or stone bricks create a platform the farm will build on.
+for.hints.farmland.tag=Lay out your farmland!
+for.hints.fertilizer.desc=All farms need fertilizer to work. Compost or mulch will not suffice.
+for.hints.fertilizer.tag=Necessita fertilizante!
+for.hints.gearbox.desc=Use gearboxes to attach engines or power lines to your farm.
+for.hints.gearbox.tag=Fonte de alimentação!
+for.hints.hatch.desc=Hatches are a pipe or tube's best friend. Use them to automate transport.
+for.hints.hatch.tag=Fechem as escotilhas!
+for.hints.manualfarms.desc=Apart from the managed farms there are manual farms which will only maintain the farm, but not build it.
+for.hints.manualfarms.tag=Fazendas manuais!
+for.hints.valve.desc=Almost all farms require water. Use valve blocks for automation.
+for.hints.valve.tag=Abastecimento de água!
+
+
+for.trigger.lowFertilizer=Fertilizante
+for.trigger.lowLiquid=Tanque de Água
+for.trigger.lowSoil=Solo
+
+tile.for.ffarm.0.name=Bloco da Fazenda
+tile.for.ffarm.2.name=Caixa de Engrenagens da Fazenda
+tile.for.ffarm.3.name=Hachura da Fazenda
+tile.for.ffarm.4.name=Válvula da Fazenda
+tile.for.ffarm.5.name=Controle da Fazenda
+
+tile.for.mushroom.0.name=Cogumelo
+tile.for.mushroom.1.name=Cogumelo
 
 ####################
-# LEPIDOPTEROLOGY
+# HETEROPTEROLOGIA (tradução: 100%, verificação/revisão: 0%)
 ####################
 
-gui.flutterlyzer.help=Fornece uma borboleta e mel ou melado como um pacificador.
-gui.loot.butterfly=Saque possнvel como Borboleta
-gui.loot.caterpillar=Saque possнvel como Lagarta
-item.butterfly=Borboleta
-item.moth=Mariposa
-item.flutterlyzer=Borboletizador
-storage.backpack.lepidopterist=Mala de Lepidopterologista
-tile.for.lepidopterology.0=Baъ de Lepidopterologista
+for.chat.command.forestry.butterfly.desc=- %s : Comandos de Borboleta
+for.chat.command.forestry.butterfly.help=Vários comandos relacionados à Borboletas
+for.chat.command.forestry.butterfly.format=Formato: /%s <sub-command>
+
+for.chat.command.forestry.butterfly.kill.desc=- %s : Elimina todas as Borboletas
+for.chat.command.forestry.butterfly.kill.help=Elimina todas as Borboletas nos ´chunks´ carregados
+for.chat.command.forestry.butterfly.kill.format=Formato: /%s [<dimension#>]
+
+for.butterflies.hybrid=Híbrido: %PRIMARY-%SECONDARY
+
+for.butterflies.species.geometridae.brimstone=Opisthograptis luteolata
+for.butterflies.species.geometridae.latticedHeath=Chiasmia clathrata
+for.butterflies.species.nymphalidae.blueDuke=Bassarona daraxa
+for.butterflies.species.nymphalidae.blueMorphoM=Morpho menelaus
+for.butterflies.species.nymphalidae.blueMorphoP=Morpho peleides
+for.butterflies.species.nymphalidae.blueMorphoR=Morpho rhetenor
+for.butterflies.species.nymphalidae.blueWing=Morpho
+for.butterflies.species.nymphalidae.comma=Polygonia c-album
+for.butterflies.species.nymphalidae.dianaFritillary=Speyeria diana
+for.butterflies.species.nymphalidae.glasswing=Greta oto
+for.butterflies.species.nymphalidae.glassyTiger=Parantica aglea
+for.butterflies.species.nymphalidae.leopardLacewing=Cethosia cyane
+for.butterflies.species.nymphalidae.malachite=Siproeta stelenes
+for.butterflies.species.nymphalidae.monarch=Danaus plexippus
+for.butterflies.species.nymphalidae.paintedBeauty=Cynthia
+for.butterflies.species.nymphalidae.postman=Heliconius melpomene
+for.butterflies.species.nymphalidae.speckledWood=Pararge aegeria
+for.butterflies.species.nymphalidae.speckledWoodC=Pararge aegeria (laranja)
+for.butterflies.species.nymphalidae.speckledWoodM=Pararge aegeria (madeira)
+for.butterflies.species.papilionidae.emeraldPeacock=Papilio palinurus
+for.butterflies.species.papilionidae.swallowtailB=Papilio polyxenes
+for.butterflies.species.papilionidae.swallowtailC=Papilio demodocus
+for.butterflies.species.papilionidae.swallowtailS=Papilio troilus
+for.butterflies.species.papilionidae.swallowtailT=Papilio thoas
+for.butterflies.species.papilionidae.swallowtailZ=Protographium marcellus
+for.butterflies.species.pieridae.brimstone=Gonepteryx rhamni
+for.butterflies.species.pieridae.cabbageWhite=Pieris rapae
+for.butterflies.species.pieridae.gozoraAzure=Celastrina gozora
+for.butterflies.species.pieridae.orangeTip=Anthocharis cardamines
+for.butterflies.species.pieridae.palaenoSulphur=Colias palaeno
+for.butterflies.species.pieridae.postillion=Papilio hyale
+for.butterflies.species.pieridae.reseda=Pontia edusa
+for.butterflies.species.pieridae.springAzure=Celastrina argiolus
+for.butterflies.species.saturniidae.atlas=Attacus atlas
+
+for.gui.flutterlyzer=Borbo-analizador
+for.gui.flutterlyzer.help=Fornece uma borboleta e mel ou melado como um pacificador.
+for.gui.loot.butterfly=Póssiveis Borboletas Precisosas
+for.gui.loot.caterpillar=Póssiveis Lagartas Precisosas
+
+for.lepidopterology.effect.none=Nenhum
+
+item.for.butterfly.name=Borboleta
+item.for.flutterlyzer.name=Borbo-analizador
+item.for.lepidopteristBag.name=Mochila do Heteropterologista
+item.for.moth.name=Mariposa
+tile.for.lepidopterology.0.name=Baú do Heteropterologista
 
 ####################
-# MAIL
+# CORREIO (tradução: 100%, verificação/revisão: 0%)
 ####################
 
-chat.mail.no_mailbox=O Destinatбrio nгo tem Caixa de Correio.
-chat.mail.not_mailable=Nгo й possнvel enviar esta Carta.
-chat.mail.not_postpaid=A Carta nгo tem Selos suficientes.
-chat.mail.mailbox_full=A Caixa de Correio do destinatбrio estб cheia.
-chat.mail.already_mailed=Й impossнvel re-enviar esta carta.
-chat.mail.response_not_mailable=A Estaзгo de Troca nгo podem enviar a carta resposta. Vocк precisa ter uma caixa de correio para entregar.
-chat.mail.insufficient_offer=A Estaзгo de Troca requer mais.
-chat.mail.insufficient_trade_good=A Estaзгo de Troca ficou sem recursos.
-chat.mail.insufficient_buffer=A Estaзгo de Troca estб cheia.
-chat.mail.insufficient_paper=A Estaзгo de Troca ficou sem Papel.
-chat.mail.insufficient_stamps=A Estaзгo de Troca ficou sem Selos.
-chat.mail.ok=A troca estб disponнvel.
-chat.mail.wrongstacksize=Sу se pode escrever uma carta de cada vez.
-gui.mail.catalogue.close=Fechar
-gui.mail.catalogue.trade=Trocar
-gui.mail.filter.all=Todos
-gui.mail.filter.online=Online
-gui.mail.filter.offline=Offline
-gui.mail.willtrade=%s vai trocar
-gui.mail.address.copy=Usa
-gui.mail.tradefor=para
-gui.mail.notrades=Nгo existem trocas disponнveis.
-item.catalogue=Catбlogo
+for.chat.mail.already_mailed=Não é possível reenviar a carta.
+
+for.chat.command.forestry.mail.desc=- %s : Comandos do Sistema de Correio
+for.chat.command.forestry.mail.help=Vários comandos relacionados ao sistema de correio
+for.chat.command.forestry.mail.format=Formato: /%s <sub-command>
+
+for.chat.command.forestry.mail.trades.desc=- %s : Uma lista de todas as estações de troca.
+for.chat.command.forestry.mail.trades.help=Lista todas as estações de troca e suas trocas disponíveis.
+for.chat.command.forestry.mail.trades.format=Formato: /%s
+
+for.chat.command.forestry.mail.virtualize.desc=- %s : Alternar modo virtual em uma estação de troca especificada.
+for.chat.command.forestry.mail.virtualize.help=Alterna para o modo virtual em uma estação de troca especificada. Este modo não consome itens.
+for.chat.command.forestry.mail.virtualize.format=Formato: /%s <trade-station-name>
+for.chat.command.forestry.mail.virtualize.no_tradestation=Nenhuma estação de troca com o nome de '%s' foi encontrada.
+for.chat.command.forestry.mail.virtualize.set=Marcar virtualização para '%s' %s.
+
+for.chat.mail.insufficient_buffer=A estação de troca está cheia.
+for.chat.mail.insufficient_offer=A estação de troca requer mais.
+for.chat.mail.insufficient_paper=A estação de troca ficou sem papel.
+for.chat.mail.insufficient_stamps=A estação de troca ficou sem selos.
+for.chat.mail.insufficient_trade_good=A estação de troca ficou sem recursos.
+for.chat.mail.mailbox_full=A caixa de correio do destinatário está cheia.
+for.chat.mail.not_mailable=Não é possível enviar esta carta.
+for.chat.mail.not_postpaid=A carta não tem selos suficientes.
+for.chat.mail.no_mailbox=O destinatário não tem caixa de correio.
+for.chat.mail.ok=A troca está disponível.
+for.chat.mail.response_not_mailable=A estação de troca não podem enviar a carta resposta. Você precisa ter uma caixa de correio para receber.
+for.chat.mail.wrongstacksize=Só é possível escrever uma carta de cada vez.
+
+for.gui.mail.address.copy=Usar
+for.gui.mail.catalogue.close=Fechar
+for.gui.mail.catalogue.trade=Trocar
+for.gui.mail.filter.all=Todos
+for.gui.mail.filter.offline=Off-line
+for.gui.mail.filter.online=On-line
+for.gui.mail.notrades=Não existem trocas disponíveis.
+for.gui.mail.tradefor=para
+for.gui.mail.willtrade=%s vai trocar
+
+item.for.catalogue.name=Catálogo
 
 ####################
-# PIPES
+# TUBOS (tradução: 100%, verificação/revisão: 0%)
 ####################
 
-item.PipeItemsPropolis.name=Tubo de Apicultor
+item.PipeItemsPropolis.name=Tubo do Apicultor
+
+####################
+# PLUGINS (tradução: 100%, verificação/revisão: 0%)
+####################
+for.plugin.core.description=Mecânica central do Forestry. Exigido por todos os outros plugins.
+for.plugin.fluids.description=Adiciona fluidos, blocos fluidos e recipientes de fluido.
+for.plugin.apiculture.description=Adiciona abelhas, apicultura e produtos de abelha. Afeta a geração do mundo.
+for.plugin.arboriculture.description=Adiciona produtos e espécies adicionais.
+for.plugin.energy.description=Adiciona vários motores de RF.
+for.plugin.factory.description=Adiciona uma grande variedade de máquinas de criação, processar e produzir produtos.
+for.plugin.farming.description=Adiciona fazendas automáticas e colheitadeiras para uma grande variedade de produtos.
+for.plugin.food.description=Adiciona o alimento.
+for.plugin.lepidopterology.description=Borboletas. Brilhantes.
+for.plugin.mail.description=Adiciona correspondências e sistema de trocas.
+for.plugin.storage.description=Adiciona mochilas e caixas.
+
+for.plugin.buildcraft6.description=Compatibilidade do ´plugin´ para 'BuildCraft 6'.
+for.plugin.pipes.description=Adiciona a tubulação do apicultor para apicultura se apicultura estiver habilitada e 'BuildCraft 6' estiver presente.
+for.plugin.ic2.description=´Plugin´ de compatibilidade para o IC2. Adiciona o motor elétrico e gerador para a conversão de energia.
+for.plugin.natura.description=´Plugin´ de compatibilidade para 'Natura'. Permite o cultivo de mudas de 'Natura'.
+for.plugin.ee2.description=´Plugin´ de compatibilidade para 'Equivalent Exchange 2'. Permite o ramo Omega de abelhas. Requer que a apicultura esteja habilitado.
+for.plugin.farmcraftory.description=Permite a compatibilidade com 'FarmCraftory'. Adiciona colheitas e legumes às fazendas.
+
+###################################
+# CUSTOM BEE AND TREE SPECIES NAMES (tradução: 0%, verificação/revisão: 0%)
+###################################
+# Syntax:
+# for.bees.custom.<type>.<species>=New custom bee name
+# for.trees.custom.<type>.<species>=New custom tree name
+# Examples:
+# for.bees.custom.drone.forest=Forest Drone
+# for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
+# Abelhanalizador/Treealyzer syntax:
+# for.bees.custom.beealyzer.<type>.<species>=New custom bee species name
+# for.trees.custom.treealyzer.<type>.<species>=New custom tree species name
+# Examples:
+# for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
+# for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
+
+###################################
+# CUSTOM ALLELE ADJECTIVES (tradução: 0%, verificação/revisão: 0%)
+###################################
+# Replaces for.gui.<adjective>
+#
+# Syntax:
+# for.gui.<category>.<adjective>=New custom adjective
+#
+# Available categories and [adjectives]:
+# speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
+# maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
+#
+# size: 		[smallest, smaller, average, large, larger, largest]
+# height: 		[smallest, smaller, average, large, larger, largest, gigantic]
+# territory:	[average, large, larger, largest]
+#
+# saplings: 	[lowest, lower, low, average, high, higher, highest]
+# yield: 		[lowest, lower, low, average, high, higher, highest]
+# sappiness:	[lowest, lower, low, average, high, higher, highest]
+#
+# Examples:
+# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
+# for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
+# for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
+
+###################################
+# DICAS CUSTOMIZADAS (tradução: 0%, verificação/revisão: 0%)
+###################################
+# Available custom tooltips:
+# for.tooltip.worker.<speed adjective> for bee worker speed.
+#
+# Example:
+# for.tooltip.worker.slowest=Slowest Worker
+
+###################################
+# CUSTOM WOOD NAMES (tradução: 0%, verificação/revisão: 0%)
+###################################
+#
+# Examples:
+# tile.for.stairs.4.name=Chestnut Stairs
+# tile.for.planks.8.name=Sumaúma Wood Planks
+# tile.for.slab.5.name=Wenge Wood Slab
+# tile.for.log.10.name=Mógno Wood
+# tile.for.fences.0.name=Larício Fence
