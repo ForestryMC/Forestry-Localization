@@ -1256,14 +1256,63 @@ tile.for.mushroom.1.name=Champignon
 # LEPIDOPTEROLOGY
 ####################
 
-gui.flutterlyzer.help=Fournir papillon et fournir du miel ou du miellat.
-gui.loot.butterfly=Butin papillon possible
-gui.loot.caterpillar=Butin chenille possible
-item.butterfly=Papillon
-item.moth=Papillon de nuit
-item.flutterlyzer=Analyseur de papillon
-storage.backpack.lepidopterist=Sac à dos de lépidoptériste
-tile.for.lepidopterology.0=Coffre de lépidoptériste
+for.chat.command.forestry.butterfly.desc=- %s : Commandes de lépidoptérologie.
+for.chat.command.forestry.butterfly.help=Commandes relatives aux papillons
+for.chat.command.forestry.butterfly.format=Format: /%s <sous-commande>
+
+for.chat.command.forestry.butterfly.kill.desc=- %s : Tuez tous les papillons
+for.chat.command.forestry.butterfly.kill.help=Tue tous les papillons des chunks chargés
+for.chat.command.forestry.butterfly.kill.format=Format: /%s [<dimension#>]
+
+for.butterflies.hybrid=Hybride : %PRIMARY-%SECONDARY
+
+for.butterflies.species.geometridae.brimstone=Mite de soufre
+for.butterflies.species.geometridae.latticedHeath=Bruyère treillagée
+for.butterflies.species.nymphalidae.blueDuke=Duc bleu
+for.butterflies.species.nymphalidae.blueMorphoM=Morpho menelaus bleu 
+for.butterflies.species.nymphalidae.blueMorphoP=Morpho peleides bleu
+for.butterflies.species.nymphalidae.blueMorphoR=Morpho rhetenor bleu
+for.butterflies.species.nymphalidae.blueWing=Aile Bleue
+for.butterflies.species.nymphalidae.comma=Virgule
+for.butterflies.species.nymphalidae.dianaFritillary=Diana fritillaire
+for.butterflies.species.nymphalidae.glasswing=Glasswing
+for.butterflies.species.nymphalidae.glassyTiger=Glassy Tiger
+for.butterflies.species.nymphalidae.leopardLacewing=Leopard Lacewing
+for.butterflies.species.nymphalidae.malachite=Malachite
+for.butterflies.species.nymphalidae.monarch=Monarque
+for.butterflies.species.nymphalidae.paintedBeauty=Painted Beauty
+for.butterflies.species.nymphalidae.postman=Postman
+for.butterflies.species.nymphalidae.speckledWood=Speckled Wood
+for.butterflies.species.nymphalidae.speckledWoodC=Canary Speckled Wood
+for.butterflies.species.nymphalidae.speckledWoodM=Madeiran Speckled Wood
+for.butterflies.species.papilionidae.emeraldPeacock=Emerald Peacock
+for.butterflies.species.papilionidae.swallowtailB=Black Swallowtail
+for.butterflies.species.papilionidae.swallowtailC=Citrus Swallowtail
+for.butterflies.species.papilionidae.swallowtailS=Spicebush Swallowtail
+for.butterflies.species.papilionidae.swallowtailT=Thoas Swallowtail
+for.butterflies.species.papilionidae.swallowtailZ=Zebra Swallowtail
+for.butterflies.species.pieridae.brimstone=Brimstone
+for.butterflies.species.pieridae.cabbageWhite=Cabbage White
+for.butterflies.species.pieridae.gozoraAzure=Gozora Azure
+for.butterflies.species.pieridae.orangeTip=Anthocharis sara 
+for.butterflies.species.pieridae.palaenoSulphur=Palaeno Sulphur
+for.butterflies.species.pieridae.postillion=Colias commun
+for.butterflies.species.pieridae.reseda=Eastern Bath White
+for.butterflies.species.pieridae.springAzure=Holly Blue
+for.butterflies.species.saturniidae.atlas=Mite de l'Atlas
+
+for.gui.flutterlyzer=Analyseur de papillon
+for.gui.flutterlyzer.help=Fournir un papillon et placer du miel ou du miellat pour pacifier.
+for.gui.loot.butterfly=Butin papillon possible
+for.gui.loot.caterpillar=Butin chenille possible
+
+for.lepidopterology.effect.none=Aucun
+
+item.for.butterfly.name=Papillon
+item.for.flutterlyzer.name=Analyseur de papillon
+item.for.lepidopteristBag.name=Sac à dos de lépidoptériste
+item.for.moth.name=Papillon de nuit
+tile.for.lepidopterology.0.name=Coffre de lépidoptériste
 
 ####################
 # MAIL
@@ -1298,3 +1347,87 @@ item.catalogue=Catalogue
 ####################
 
 item.PipeItemsPropolis.name=Tuyau de transport d'apiculteur
+
+####################
+# PLUGINS
+####################
+for.plugin.core.description=Core mechanics for Forestry. Required by all other plugins.
+for.plugin.fluids.description=Adds fluids, fluid blocks, and fluid containers.
+for.plugin.apiculture.description=Adds bees, beekeeping and bee products. Affects world generation.
+for.plugin.arboriculture.description=Adds additional tree species and products.
+for.plugin.energy.description=Adds several RF engines.
+for.plugin.factory.description=Adds a wide variety of machines to craft, produce and process products.
+for.plugin.farming.description=Adds automatic farms and harvesters for a wide variety of products.
+for.plugin.food.description=Adds food.
+for.plugin.lepidopterology.description=Butterflies. Shiny.
+for.plugin.mail.description=Adds Forestry's mail and trade system.
+for.plugin.storage.description=Adds backpacks and crates.
+
+for.plugin.buildcraft6.description=Compatibility plugin for BuildCraft 6.
+for.plugin.pipes.description=Adds the apiarist's pipe for beekeeping if apiculture is enabled and BuildCraft 6 is present.
+for.plugin.ic2.description=Compatibility plugin for IC2. Adds electrical engine and generator for power conversion.
+for.plugin.natura.description=Compatibility plugin for Natura. Enables farming Natura saplings.
+for.plugin.ee2.description=Compatibility plugin for Equivalent Exchange 2. Enables the Omega branch of bees. Requires Apiculture to be enabled.
+for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Adds crops and vegetables to farms.
+
+###################################
+# CUSTOM BEE AND TREE SPECIES NAMES
+###################################
+# Syntax:
+# for.bees.custom.<type>.<species>=New custom bee name
+# for.trees.custom.<type>.<species>=New custom tree name
+# Examples:
+# for.bees.custom.drone.forest=Forest Drone
+# for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
+# Beealyzer/Treealyzer syntax:
+# for.bees.custom.beealyzer.<type>.<species>=New custom bee species name
+# for.trees.custom.treealyzer.<type>.<species>=New custom tree species name
+# Examples:
+# for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
+# for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
+
+###################################
+# CUSTOM ALLELE ADJECTIVES
+###################################
+# Replaces for.gui.<adjective>
+#
+# Syntax:
+# for.gui.<category>.<adjective>=New custom adjective
+#
+# Available categories and [adjectives]:
+# speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
+# maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
+#
+# size: 		[smallest, smaller, average, large, larger, largest]
+# height: 		[smallest, smaller, average, large, larger, largest, gigantic]
+# territory:	[average, large, larger, largest]
+#
+# saplings: 	[lowest, lower, low, average, high, higher, highest]
+# yield: 		[lowest, lower, low, average, high, higher, highest]
+# sappiness:	[lowest, lower, low, average, high, higher, highest]
+#
+# Examples:
+# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
+# for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
+# for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
+
+###################################
+# CUSTOM TOOLTIPS
+###################################
+# Available custom tooltips:
+# for.tooltip.worker.<speed adjective> for bee worker speed.
+#
+# Example:
+# for.tooltip.worker.slowest=Slowest Worker
+
+###################################
+# CUSTOM WOOD NAMES
+###################################
+#
+# Examples:
+# tile.for.stairs.4.name=Chestnut Stairs
+# tile.for.planks.8.name=Kapok Wood Planks
+# tile.for.slab.5.name=Wenge Wood Slab
+# tile.for.log.10.name=Mahogany Wood
+# tile.for.fences.0.name=Larch Fence
