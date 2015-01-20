@@ -1318,29 +1318,46 @@ tile.for.lepidopterology.0.name=Coffre de lépidoptériste
 # MAIL
 ####################
 
-chat.mail.no_mailbox=Le bénéficiaire n'a pas de boîte aux lettres.
-chat.mail.not_mailable=La lettre n'est pas expédiable.
-chat.mail.not_postpaid=La lettre n'est pas suffisamment timbré.
-chat.mail.mailbox_full=La boîte aux lettres du destinataire est pleine.
-chat.mail.already_mailed=Vous ne pouvez pas renvoyer la lettre.
-chat.mail.response_not_mailable=La station de commerce ne peut pas envoyer la lettre de réponse. Vous avez besoin d'une boîte aux lettres pour la livrer.
-chat.mail.insufficient_offer=La station de commerce exige plus.
-chat.mail.insufficient_trade_good=La station de commerce est à court de fournitures.
-chat.mail.insufficient_buffer=La station de commerce est pleine.
-chat.mail.insufficient_paper=La station de commerce à court de papier.
-chat.mail.insufficient_stamps=La station de commerce à court de timbres.
-chat.mail.ok=L'échange est disponible.
-chat.mail.wrongstacksize=Ne peut écrire q'une lettre à la fois.
-gui.mail.catalogue.close=Fermer
-gui.mail.catalogue.trade=Echanger
-gui.mail.filter.all=Tout
-gui.mail.filter.online=En ligne
-gui.mail.filter.offline=Hors ligne
-gui.mail.willtrade=%s désir commercer
-gui.mail.address.copy=Utiliser
-gui.mail.tradefor=pour
-gui.mail.notrades=Pas de commerce disponibles.
-item.catalogue=Catalogue
+for.chat.mail.already_mailed=Vous ne pouvez pas renvoyer la lettre.
+
+for.chat.command.forestry.mail.desc=- %s : Commandes du système de courrier
+for.chat.command.forestry.mail.help=Diverses commandes relatives au système de courrier
+for.chat.command.forestry.mail.format=Format: /%s <sous-commande>
+
+for.chat.command.forestry.mail.trades.desc=- %s : Liste des station de commerce
+for.chat.command.forestry.mail.trades.help=Liste tous les station de commerce et leurs machandises disponibles.
+for.chat.command.forestry.mail.trades.format=Format: /%s
+
+for.chat.command.forestry.mail.virtualize.desc=- %s : Bascule en mode virtuel une station de commerce spécifié.
+for.chat.command.forestry.mail.virtualize.help=Bascule en mode virtuel une station de commerce spécifié. Ce mode ne consomme pas d'éléments.
+for.chat.command.forestry.mail.virtualize.format=Format: /%s <station-commerce>
+for.chat.command.forestry.mail.virtualize.no_tradestation=Aucune station de commerce du nom de '%s' n'a été trouvé.
+for.chat.command.forestry.mail.virtualize.set=Active la virtualisation de '%s' à %s.
+
+for.chat.mail.insufficient_buffer=La station de commerce est pleine.
+for.chat.mail.insufficient_offer=La station de commerce exige plus.
+for.chat.mail.insufficient_paper=La station de commerce à court de papier.
+for.chat.mail.insufficient_stamps=La station de commerce à court de timbres.
+for.chat.mail.insufficient_trade_good=La station de commerce est à court de fournitures.
+for.chat.mail.mailbox_full=La boîte aux lettres du destinataire est pleine.
+for.chat.mail.not_mailable=La lettre n'est pas expédiable.
+for.chat.mail.not_postpaid=La lettre n'est pas suffisamment affranchie.
+for.chat.mail.no_mailbox=Le destinataire n'a pas de boîte aux lettres.
+for.chat.mail.ok=L'échange est disponible.
+for.chat.mail.response_not_mailable=La station de commerce ne peut pas envoyer la lettre de réponse. Vous avez besoin d'une boîte aux lettres pour la livrer.
+for.chat.mail.wrongstacksize=on ne peut écrire q'une lettre à la fois.
+
+for.gui.mail.address.copy=Utiliser
+for.gui.mail.catalogue.close=Fermer
+for.gui.mail.catalogue.trade=Echanger
+for.gui.mail.filter.all=Tout
+for.gui.mail.filter.offline=Hors ligne
+for.gui.mail.filter.online=En ligne
+for.gui.mail.notrades=Pas de commerce disponibles.
+for.gui.mail.tradefor=pour
+for.gui.mail.willtrade=%s désir commercer
+
+item.for.catalogue.name=Catalogue
 
 ####################
 # PIPES
@@ -1351,15 +1368,15 @@ item.PipeItemsPropolis.name=Tuyau de transport d'apiculteur
 ####################
 # PLUGINS
 ####################
-for.plugin.core.description=Core mechanics for Forestry. Required by all other plugins.
-for.plugin.fluids.description=Adds fluids, fluid blocks, and fluid containers.
-for.plugin.apiculture.description=Adds bees, beekeeping and bee products. Affects world generation.
-for.plugin.arboriculture.description=Adds additional tree species and products.
-for.plugin.energy.description=Adds several RF engines.
+for.plugin.core.description=Coeur des machines pour Forestry. Requis par tous les autres plugins.
+for.plugin.fluids.description=Ajoute des fluides, des blocs de fluide, et des réservoirs.
+for.plugin.apiculture.description=Ajoute des abeilles, l'apiculture et ses produits. Affecte la génération de monde.
+for.plugin.arboriculture.description=Ajoute des espèces d'arbre et leurs produits.
+for.plugin.energy.description=Ajoute quelque moteurs RF.
 for.plugin.factory.description=Adds a wide variety of machines to craft, produce and process products.
 for.plugin.farming.description=Adds automatic farms and harvesters for a wide variety of products.
-for.plugin.food.description=Adds food.
-for.plugin.lepidopterology.description=Butterflies. Shiny.
+for.plugin.food.description=Ajoute de la nouriture.
+for.plugin.lepidopterology.description=Papillons. Shiny.
 for.plugin.mail.description=Adds Forestry's mail and trade system.
 for.plugin.storage.description=Adds backpacks and crates.
 
