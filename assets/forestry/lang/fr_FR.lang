@@ -1373,32 +1373,33 @@ for.plugin.fluids.description=Ajoute des fluides, des blocs de fluide, et des r�
 for.plugin.apiculture.description=Ajoute des abeilles, l'apiculture et ses produits. Affecte la génération de monde.
 for.plugin.arboriculture.description=Ajoute des espèces d'arbre et leurs produits.
 for.plugin.energy.description=Ajoute quelque moteurs RF.
-for.plugin.factory.description=Adds a wide variety of machines to craft, produce and process products.
-for.plugin.farming.description=Adds automatic farms and harvesters for a wide variety of products.
-for.plugin.food.description=Ajoute de la nouriture.
-for.plugin.lepidopterology.description=Papillons. Shiny.
-for.plugin.mail.description=Adds Forestry's mail and trade system.
-for.plugin.storage.description=Adds backpacks and crates.
+for.plugin.factory.description=Ajoute une large variété de machines pour bâtir, produire et leur production.
+for.plugin.farming.description=Ajoute des fermes automatiques et des moissonneuses pour une large variété de produits.
+for.plugin.food.description=Ajoute de la nourriture.
+for.plugin.lepidopterology.description=Papillons. Brillant.
+for.plugin.mail.description=Ajoute un système de courrier et de commerce à Forestry.
+for.plugin.storage.description=Ajoute des sacs à dos et des caisses.
 
-for.plugin.buildcraft6.description=Compatibility plugin for BuildCraft 6.
-for.plugin.pipes.description=Adds the apiarist's pipe for beekeeping if apiculture is enabled and BuildCraft 6 is present.
-for.plugin.ic2.description=Compatibility plugin for IC2. Adds electrical engine and generator for power conversion.
-for.plugin.natura.description=Compatibility plugin for Natura. Enables farming Natura saplings.
-for.plugin.ee2.description=Compatibility plugin for Equivalent Exchange 2. Enables the Omega branch of bees. Requires Apiculture to be enabled.
-for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Adds crops and vegetables to farms.
+for.plugin.buildcraft6.description=Plugin de compatibilité pour BuildCraft 6.
+for.plugin.pipes.description=Ajoute le tuyau de transport d'apiculteur si l'apiculture est activée et que BuildCraft 6 est présent.
+for.plugin.ic2.description=Plugin de compatibilité pour IC2. Ajoute des moteurs électrique et des générateur pour la conversion d'énergie.
+for.plugin.natura.description=Plugin de compatibilité pour Natura. Permet la culture des pousses Natura.
+for.plugin.ee2.description=Plugin de compatibilité pour Equivalent Exchange 2. Active la branche d'abeille Omega. Exige que l'Apiculture soit permise.
+for.plugin.farmcraftory.description=Active la compatibilité avec FarmCraftory. Ajoute des cultures et des légumes à cultiver.
+for.plugin.undergroundBiomes.description=Active la compatibilité avec Underground Biomes. Ajoute des textures aux minerais Forestry.
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
 ###################################
 # Syntax:
-# for.bees.custom.<type>.<species>=New custom bee name
-# for.trees.custom.<type>.<species>=New custom tree name
+# for.bees.custom.<type>.<species>=Nouveau nom d'abeille personnalisé
+# for.trees.custom.<type>.<species>=Nouveau nom d'arbre personnalisé
 # Examples:
 # for.bees.custom.drone.forest=Forest Drone
 # for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
 # Beealyzer/Treealyzer syntax:
-# for.bees.custom.beealyzer.<type>.<species>=New custom bee species name
-# for.trees.custom.treealyzer.<type>.<species>=New custom tree species name
+# for.bees.custom.beealyzer.<type>.<species>=Nouvelle espèce d'abeille personnalisé
+# for.trees.custom.treealyzer.<type>.<species>=Nouvelle espèce d'arbre personnalisé
 # Examples:
 # for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
 # for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
@@ -1433,7 +1434,7 @@ for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Add
 # CUSTOM TOOLTIPS
 ###################################
 # Available custom tooltips:
-# for.tooltip.worker.<speed adjective> for bee worker speed.
+# for.tooltip.worker.<speed adjective> pour la vitesse de l'ouvrière.
 #
 # Example:
 # for.tooltip.worker.slowest=Slowest Worker
