@@ -214,7 +214,6 @@ for.gui.beealyzer=Analyseur d'abeilles
 for.gui.blank=Vide
 for.gui.cave=Grotte
 for.gui.climate=Climat
-for.gui.closetosearch=Près de recherche
 for.gui.cold=Froid
 for.gui.crop=Cultures
 for.gui.currentOutput=Courant de sortie
@@ -241,7 +240,6 @@ for.gui.flowers=Fleurs
 for.gui.flyer=Volante
 for.gui.general=Général
 for.gui.gigantic=Gigantesque
-for.gui.habitatlocator=Localisateur d'habitat
 for.gui.heat=Température
 for.gui.hellish=Infernal
 for.gui.high=Haute
@@ -509,6 +507,7 @@ item.for.apiaristLegs.name=Pantalon de l'apiculteur
 item.for.ash.name=Cendres
 
 item.for.beealyzer.name=Analyseur d'abeilles
+item.for.habitatLocator.name=Localisateur d'habitat
 
 item.for.beeCombs.cocoa.name=Alvéole de cacao
 item.for.beeCombs.darkened.name=Alvéole noircie

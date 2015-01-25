@@ -201,7 +201,6 @@ for.gui.beealyzer=벌 분석기
 for.gui.blank=내용없음
 for.gui.cave=동굴 생활
 for.gui.climate=환경
-for.gui.closetosearch=close to search
 for.gui.cold=냉대기후
 for.gui.crop=작물
 for.gui.currentOutput=현재 출력
@@ -229,7 +228,6 @@ for.gui.flowers=꽃 종류
 for.gui.flyer=우천활동
 for.gui.general=개체 정보
 for.gui.gigantic=초거대
-for.gui.habitatlocator=서식지 분석기
 for.gui.heat=열
 for.gui.hellish=지옥
 for.gui.high=높음
@@ -456,6 +454,7 @@ item.for.apiaristLegs.name=양봉업자의 바지
 item.for.ash.name=재
 
 item.for.beealyzer.name=꿀벌 유전분석기
+item.for.habitatLocator.name=서식지 분석기
 
 item.for.beeCombs.cocoa.name=코코아 벌집
 item.for.beeCombs.darkened.name=어둠의 벌집

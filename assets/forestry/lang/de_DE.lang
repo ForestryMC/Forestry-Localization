@@ -166,7 +166,6 @@ for.gui.beealyzer=Bienalyzer
 for.gui.blank=Leer
 for.gui.cave=Höhle
 for.gui.climate=Klima
-for.gui.closetosearch=Schließen um zu suchen
 for.gui.cold=Kalt
 for.gui.crop=Feldfrucht
 for.gui.currentOutput=Aktuelle Leistung
@@ -194,7 +193,6 @@ for.gui.flowers=Blumen
 for.gui.flyer=Flieger
 for.gui.general=Allgemein
 for.gui.gigantic=Gigantisches
-for.gui.habitatlocator=Habitatsucher
 for.gui.heat=Temperatur
 for.gui.hellish=Höllish
 for.gui.high=Hohe
@@ -419,6 +417,7 @@ item.for.apiaristLegs.name=Imkerhose
 item.for.ash.name=Asche
 
 item.for.beealyzer.name=Bienalyzer
+item.for.habitatLocator.name=Habitatsucher
 
 item.for.beeCombs.cocoa.name=Schokowabe
 item.for.beeCombs.darkened.name=Gedunkelte Wabe

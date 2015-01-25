@@ -214,7 +214,6 @@ for.gui.beealyzer=Abelhanalizador
 for.gui.blank=Vazio
 for.gui.cave=Cavernícola
 for.gui.climate=Clima
-for.gui.closetosearch=Perto de pesquisar
 for.gui.cold=Frio
 for.gui.crop=Colheita
 for.gui.currentOutput=Corrente de Saída
@@ -241,7 +240,6 @@ for.gui.flowers=Tipo de Flor
 for.gui.flyer=Inseto Tolerante
 for.gui.general=Geral
 for.gui.gigantic=Gigantesco
-for.gui.habitatlocator=Localizador de Habitats
 for.gui.heat=Temepratura
 for.gui.hellish=Infernal
 for.gui.high=Alta
@@ -509,6 +507,7 @@ item.for.apiaristLegs.name=Calças do Apicultor
 item.for.ash.name=Cinzas
 
 item.for.beealyzer.name=Abelhanalizador
+item.for.habitatLocator.name=Localizador de Habitats
 
 item.for.beeCombs.cocoa.name=Favo de Cacau
 item.for.beeCombs.darkened.name=Favo Escurecido

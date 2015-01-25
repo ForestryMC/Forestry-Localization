@@ -166,7 +166,6 @@ for.gui.beealyzer=蜜蜂分析儀
 for.gui.blank=空白
 for.gui.cave=穴居性
 for.gui.climate=溫度
-for.gui.closetosearch=接近搜索
 for.gui.cold=寒冷
 for.gui.crop=作物
 for.gui.currentOutput=當前輸出
@@ -194,7 +193,6 @@ for.gui.flowers=采蜜對象
 for.gui.flyer=耐雨飛行性
 for.gui.general=普通
 for.gui.gigantic=巨大
-for.gui.habitatlocator=棲息地定位儀
 for.gui.heat=熱量
 for.gui.hellish=地獄
 for.gui.high=高
@@ -419,6 +417,7 @@ item.for.apiaristLegs.name=養蜂員褲子
 item.for.ash.name=灰燼
 
 item.for.beealyzer.name=蜜蜂分析儀
+item.for.habitatLocator.name=棲息地定位儀
 
 item.for.comb.cocoa.name=可可蜂巢
 item.for.comb.darkened.name=暗黑蜂巢

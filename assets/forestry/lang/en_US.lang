@@ -214,9 +214,9 @@ for.gui.beealyzer=Beealyzer
 for.gui.blank=Blank
 for.gui.cave=Cave Dwelling
 for.gui.climate=Climate
-for.gui.closetosearch=close to search
 for.gui.cold=Cold
 for.gui.crop=Crop
+for.gui.currentBiome=Current Biome
 for.gui.currentOutput=Current Output
 for.gui.damp=Damp
 for.gui.derelict=Derelict
@@ -241,7 +241,6 @@ for.gui.flowers=Flower Type
 for.gui.flyer=Tolerant Flyer
 for.gui.general=General
 for.gui.gigantic=Gigantic
-for.gui.habitatlocator=Habitat Locator
 for.gui.heat=Heat
 for.gui.hellish=Hellish
 for.gui.high=High
@@ -509,6 +508,7 @@ item.for.apiaristLegs.name=Apiarist's Pants
 item.for.ash.name=Ash
 
 item.for.beealyzer.name=Beealyzer
+item.for.habitatLocator.name=Habitat Locator
 
 item.for.beeCombs.cocoa.name=Cocoa Comb
 item.for.beeCombs.darkened.name=Darkened Comb

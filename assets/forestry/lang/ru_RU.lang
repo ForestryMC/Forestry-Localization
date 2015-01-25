@@ -214,7 +214,6 @@ for.gui.beealyzer=Анализатор пчёл
 for.gui.blank=Пусто
 for.gui.cave=Пещерная
 for.gui.climate=Температура
-for.gui.closetosearch=закройте для поиска
 for.gui.cold=Холодная
 for.gui.crop=Жёрдочка
 for.gui.currentOutput=Текущая мощность
@@ -241,7 +240,6 @@ for.gui.flowers=Тип цветка
 for.gui.flyer=Устойчивый летун
 for.gui.general=Общий
 for.gui.gigantic=Гигантская
-for.gui.habitatlocator=Определитель ареала
 for.gui.heat=Нагрев
 for.gui.hellish=Адский
 for.gui.high=Высокий
@@ -509,6 +507,7 @@ item.for.apiaristLegs.name=Штаны пчеловода
 item.for.ash.name=Зола
 
 item.for.beealyzer.name=Анализатор пчёл
+item.for.habitatLocator.name=Определитель ареала
 
 item.for.beeCombs.cocoa.name=Какао-соты
 item.for.beeCombs.darkened.name=Потемневшие соты
