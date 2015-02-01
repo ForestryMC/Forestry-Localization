@@ -216,6 +216,7 @@ for.gui.cave=Cavernícola
 for.gui.climate=Clima
 for.gui.cold=Frio
 for.gui.crop=Colheita
+for.gui.currentBiome=Bioma Atual
 for.gui.currentOutput=Corrente de Saída
 for.gui.damp=Úmido
 for.gui.derelict=Abandonado
