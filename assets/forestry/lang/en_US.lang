@@ -1391,6 +1391,7 @@ for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Add
 for.plugin.undergroundBiomes.description=Enables compatibility with Underground Biomes. Adds textures for Forestry ores.
 for.plugin.biomesoplenty.description=Compatibility plugin for Biomes O Plenty. Enables farming BoP saplings.
 for.plugin.extrautilities.description=Compatibility plugin for Extra Utilities. Enables farming ender lilies.
+for.plugin.harvestcraft.description=Compatibility plugin for HarvestCraft. Enables farming HarvestCraft plants and trees.
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
