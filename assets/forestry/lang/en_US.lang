@@ -1392,6 +1392,7 @@ for.plugin.undergroundBiomes.description=Enables compatibility with Underground 
 for.plugin.biomesoplenty.description=Compatibility plugin for Biomes O Plenty. Enables farming BoP saplings.
 for.plugin.extrautilities.description=Compatibility plugin for Extra Utilities. Enables farming ender lilies.
 for.plugin.harvestcraft.description=Compatibility plugin for HarvestCraft. Enables farming HarvestCraft plants and trees.
+for.plugin.magicalcrops.description=Compatibility plugin for Magical Crops.
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
