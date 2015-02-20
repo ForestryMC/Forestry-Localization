@@ -1,5 +1,5 @@
 ####################
-# NÚCLEO
+# CORE
 ####################
 
 death.engine.clockwork.player=%1$s foi apunhalado por uma mola solta. %2$s era um mecânico negligente.
@@ -269,7 +269,7 @@ for.gui.lowest=Baixíssimo
 for.gui.escritoire.probe=Examinar Espécimes
 for.gui.escritoire.instructions=Coloca uma amostra genética no centro para começar. Coloque mais nas ranhuras (slots) a esquerda para examiná-los e obter ajuda.
 
-# Escreva as notas como você achar melhor, apenas defina corretamente a contagem.
+# Write as many notes as you like, just set the count correctly.
 
 for.gui.escritoire.notes.level1.count=3
 for.gui.escritoire.notes.level1.1=Eu encontrei um espécime curioso em minhas viagens.
@@ -689,6 +689,7 @@ item.for.thermionicTubes.ex-8.name=Válvula Eletrónica de Emborrachado
 item.for.thermionicTubes.ex-9.name=Válvula Eletrónica de Esmeralda
 item.for.thermionicTubes.ex-10.name=Válvula Eletrónica de Apatita
 item.for.thermionicTubes.ex-11.name=Válvula Eletrónica de Lápis-lazúli
+item.for.thermionicTubes.ex-12.name=Válvula Eletrónica de Ender
 
 item.for.treealyzer.name=Arvoranalizador
 
@@ -770,7 +771,7 @@ tile.for.stained.14.name=Vitral Vermelho
 tile.for.stained.15.name=Vitral Preto
 
 ####################
-# APICULTURA
+# APICULTURE
 ####################
 
 death.bee.aggressive.player=%1$s encontrou um enxame de abelhas. %2$s roubou a roupa de apicultor.
@@ -1011,7 +1012,7 @@ tile.for.candle.stump.name=Vela Apagada
 tile.for.stump.0.name=Toco de Vela
 
 ####################
-# ARBORICULTURA
+# ARBORICULTURE
 ####################
 
 for.arboriculture.effect.none=Nenhum
@@ -1187,7 +1188,7 @@ tile.for.leaves.0.name=Folhas
 tile.for.pods.0.name=Vagem
 
 ####################
-# AGRICULTURA
+# FARMING
 ####################
 
 for.circuit.managedArboreal=Arboretum
@@ -1196,6 +1197,7 @@ for.circuit.managedInfernal=Fazenda Infernal
 for.circuit.managedPeat=Turfeira
 for.circuit.managedShroom=Fazenda de Cogumelos
 for.circuit.managedVegetable=Fazenda de Vegetais
+for.circuit.managedEnder=Fazenda de Ender
 for.circuit.manualCereal=Colheita da Fazenda
 for.circuit.manualCocoa=Plantação de Cacau
 for.circuit.manualGourd=Fazenda de Morangas
@@ -1253,7 +1255,7 @@ tile.for.mushroom.0.name=Cogumelo
 tile.for.mushroom.1.name=Cogumelo
 
 ####################
-# HETEROPTEROLOGIA
+# LEPIDOPTEROLOGY
 ####################
 
 for.chat.command.forestry.butterfly.desc=- %s : Comandos de Borboleta
@@ -1315,7 +1317,7 @@ item.for.moth.name=Mariposa
 tile.for.lepidopterology.0.name=Baú do Heteropterologista
 
 ####################
-# CORREIO
+# MAIL
 ####################
 
 for.chat.mail.already_mailed=Não é possível reenviar a carta.
@@ -1360,7 +1362,7 @@ for.gui.mail.willtrade=%s vai trocar
 item.for.catalogue.name=Catálogo
 
 ####################
-# TUBOS
+# PIPES
 ####################
 
 item.PipeItemsPropolis.name=Tubo do Apicultor
@@ -1380,12 +1382,17 @@ for.plugin.lepidopterology.description=Borboletas. Brilhantes.
 for.plugin.mail.description=Adiciona correspondências e sistema de trocas.
 for.plugin.storage.description=Adiciona mochilas e caixas.
 
-for.plugin.buildcraft6.description=Compatibilidade do ´plugin´ para 'BuildCraft 6'.
+for.plugin.buildcraft6.description=Plugin de compatibilidade para o 'BuildCraft 6'.
 for.plugin.pipes.description=Adiciona a tubulação do apicultor para apicultura se apicultura estiver habilitada e 'BuildCraft 6' estiver presente.
-for.plugin.ic2.description=´Plugin´ de compatibilidade para o IC2. Adiciona o motor elétrico e gerador para a conversão de energia.
-for.plugin.natura.description=´Plugin´ de compatibilidade para 'Natura'. Permite o cultivo de mudas de 'Natura'.
-for.plugin.ee2.description=´Plugin´ de compatibilidade para 'Equivalent Exchange 2'. Permite o ramo Omega de abelhas. Requer que a apicultura esteja habilitado.
-for.plugin.farmcraftory.description=Permite a compatibilidade com 'FarmCraftory'. Adiciona colheitas e legumes às fazendas.
+for.plugin.ic2.description=Plugin de compatibilidade para o 'IC2'. Adiciona o motor elétrico e gerador para a conversão de energia.
+for.plugin.natura.description=Plugin de compatibilidade para o 'Natura'. Permite o cultivo de mudas do 'Natura'.
+for.plugin.ee2.description=Plugin de compatibilidade para o 'Equivalent Exchange 2'. Permite o ramo Omega de abelhas. Requer que a apicultura esteja habilitado.
+for.plugin.farmcraftory.description=Permite a compatibilidade com o 'FarmCraftory'. Adiciona colheitas e legumes às fazendas.
+for.plugin.undergroundBiomes.description=Permite a compatibilidade com o 'Underground Biomes'. Adiciona texturas para minérios do Forestry.
+for.plugin.biomesoplenty.description=Plugin de compatibilidade para o 'Biomes O Plenty'. Permite o cultivo de mudas do BoP.
+for.plugin.extrautilities.description=Plugin de compatibilidade para o 'Extra Utilities'. Permite o cultivo de 'Ender Lilies'.
+for.plugin.harvestcraft.description=Plugin de compatibilidade para o 'HarvestCraft'. Permite o cultivo de árvores e plantas do 'HarvestCraft'.
+for.plugin.magicalcrops.description=Plugin de compatibilidade para o 'Magical Crops'.
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
@@ -1412,17 +1419,17 @@ for.plugin.farmcraftory.description=Permite a compatibilidade com 'FarmCraftory'
 # for.gui.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
-# speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
-# maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
-# flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
+# speed: 
+# maturity: [slowest, slower, slow, normal, fast, faster, fastest]
+# flowering: [slowest, slower, slow, normal, fast, faster, fastest, maximum]
 #
-# size: 		[smallest, smaller, average, large, larger, largest]
-# height: 		[smallest, smaller, average, large, larger, largest, gigantic]
-# territory:	[average, large, larger, largest]
+# size: 
+# height: 
+# territory: [average, large, larger, largest]
 #
-# saplings: 	[lowest, lower, low, average, high, higher, highest]
-# yield: 		[lowest, lower, low, average, high, higher, highest]
-# sappiness:	[lowest, lower, low, average, high, higher, highest]
+# saplings: [lowest, lower, low, average, high, higher, highest]
+# yield: 
+# sappiness: [lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
 # for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
@@ -1448,3 +1455,6 @@ for.plugin.farmcraftory.description=Permite a compatibilidade com 'FarmCraftory'
 # tile.for.slab.5.name=Wenge Wood Slab
 # tile.for.log.10.name=Mahogany Wood
 # tile.for.fences.0.name=Larch Fence
+
+
+# Localization File: Português Brasileiro (pt_BR) – por: Al-Myr /  Last Update: 20/2/2015 – por: Al-Myr
