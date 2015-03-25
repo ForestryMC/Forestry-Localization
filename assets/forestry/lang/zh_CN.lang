@@ -793,7 +793,7 @@ for.apiculture.effect.ignition=燃烧
 for.apiculture.effect.misanthrope=末影
 for.apiculture.effect.misasmic=剧毒
 for.apiculture.effect.mycophilic=嗜菇
-for.for.apiculture.effect.none=无效果
+for.apiculture.effect.none=无效果
 for.apiculture.effect.radioactive=辐射
 for.apiculture.effect.reanimation=重生
 for.apiculture.effect.repulsion=抗拒
@@ -1392,7 +1392,7 @@ for.plugin.undergroundBiomes.description=地质结构Underground Biomes兼容组
 for.plugin.biomesoplenty.description=更多生物群系Biomes O Plenty兼容组件。激活后农场能够支持BoP的树苗。
 for.plugin.extrautilities.description=更多实用设备Extra Utilities兼容组件. 激活后农场能够支持末影百合。
 for.plugin.harvestcraft.description=潘马斯的丰收HarvestCraft兼容组件。激活后农场能够支持HarvestCraft的植物和树苗。
-for.plugin.magicalcrops.description=魔法农作物Magical Crops兼容组件。激活后农场能够支持。
+for.plugin.magicalcrops.description=魔法农作物Magical Crops兼容组件。激活后农场能够支持Magical Crops作物。
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
