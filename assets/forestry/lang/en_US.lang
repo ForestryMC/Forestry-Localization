@@ -1388,7 +1388,6 @@ for.plugin.ic2.description=Compatibility plugin for IC2. Adds electrical engine 
 for.plugin.natura.description=Compatibility plugin for Natura. Enables farming Natura saplings.
 for.plugin.ee2.description=Compatibility plugin for Equivalent Exchange 2. Enables the Omega branch of bees. Requires Apiculture to be enabled.
 for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Adds crops and vegetables to farms.
-for.plugin.undergroundBiomes.description=Enables compatibility with Underground Biomes. Adds textures for Forestry ores.
 for.plugin.biomesoplenty.description=Compatibility plugin for Biomes O Plenty. Enables farming BoP saplings.
 for.plugin.extrautilities.description=Compatibility plugin for Extra Utilities. Enables farming ender lilies.
 for.plugin.harvestcraft.description=Compatibility plugin for HarvestCraft. Enables farming HarvestCraft plants and trees.
