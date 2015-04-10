@@ -1394,7 +1394,8 @@ for.plugin.harvestcraft.description=潘马斯的丰收HarvestCraft兼容组件�
 for.plugin.magicalcrops.description=魔法农作物Magical Crops兼容组件。
 for.plugin.chisel.description=凿子Chisel兼容组件。添加生成方块背包支持。
 for.plugin.plantmegapack.description=Plant Mega Pack兼容组件。
-for.plugin.witchery.description =巫术Witchery兼容组件。
+for.plugin.witchery.description=巫术Witchery兼容组件。
+for.plugin.agricraft.description=AgriCraft兼容组件。
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
