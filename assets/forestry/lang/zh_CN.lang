@@ -1389,9 +1389,12 @@ for.plugin.natura.description=Natura兼容组件。激活后农场能够支持Na
 for.plugin.ee2.description=等价交换2兼容组件。激活后开启蜜蜂的终结分支。需要前置的养蜂组件激活。
 for.plugin.farmcraftory.description=牧场物语FarmCraftory兼容组件。添加作物和蔬菜的自动化农场支持。
 for.plugin.biomesoplenty.description=更多生物群系Biomes O Plenty兼容组件。激活后农场能够支持BoP的树苗。
-for.plugin.extrautilities.description=更多实用设备Extra Utilities兼容组件. 激活后农场能够支持末影百合。
+for.plugin.extrautilities.description=更多实用设备Extra Utilities兼容组件。激活后农场能够支持末影百合。
 for.plugin.harvestcraft.description=潘马斯的丰收HarvestCraft兼容组件。激活后农场能够支持HarvestCraft的植物和树苗。
-for.plugin.magicalcrops.description=魔法农作物Magical Crops兼容组件。激活后农场能够支持Magical Crops作物。
+for.plugin.magicalcrops.description=魔法农作物Magical Crops兼容组件。
+for.plugin.chisel.description=凿子Chisel兼容组件。添加生成方块背包支持。
+for.plugin.plantmegapack.description=Plant Mega Pack兼容组件。
+for.plugin.witchery.description =巫术Witchery兼容组件。
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
