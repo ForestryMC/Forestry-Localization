@@ -1386,6 +1386,8 @@ for.plugin.natura.description=Plugin de compatibilité pour Natura. Permet la cu
 for.plugin.ee2.description=Plugin de compatibilité pour Equivalent Exchange 2. Active la branche d'abeille Omega. Exige que l'Apiculture soit permise.
 for.plugin.farmcraftory.description=Active la compatibilité avec FarmCraftory. Ajoute des cultures et des légumes à cultiver.
 for.plugin.undergroundBiomes.description=Active la compatibilité avec Underground Biomes. Ajoute des textures aux minerais Forestry.
+for.plugin.witchery.description=Active la compatibilité avec Witchery. 
+for.plugin.agricraft.description=Active la compatibilité avec AgriCraft. 
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
