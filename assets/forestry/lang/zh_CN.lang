@@ -337,7 +337,7 @@ for.gui.pipe.filter.anything=任意物品
 for.gui.pipe.filter.bee=任意蜜蜂
 for.gui.pipe.filter.cave=穴居蜂
 for.gui.pipe.filter.closed=已关闭
-for.gui.pipe.filter.drone=雄峰
+for.gui.pipe.filter.drone=雄蜂
 for.gui.pipe.filter.flyer=强壮飞蜂
 for.gui.pipe.filter.item=物品
 for.gui.pipe.filter.nocturnal=夜行蜜蜂
@@ -394,7 +394,7 @@ for.hints.apiaristsuit.desc=全副武装让你远离蜜蜂带来的各种负面�
 for.hints.apiaristsuit.tag=养蜂套装!
 for.hints.beebiomes.desc=蜜蜂只能生存在其适合的环境中，通过分析仪和栖息地定位仪来寻找合适的环境吧。
 for.hints.beebiomes.tag=选择合适的生态群落!
-for.hints.beebreeding.desc=不同种群的雄峰和公主蜂交配可能产生新种群的后代。
+for.hints.beebreeding.desc=不同种群的雄蜂和公主蜂交配可能产生新种群的后代。
 for.hints.beebreeding.tag=饲养你的蜜蜂!
 for.hints.beeflowers.desc=蜜蜂所在，鲜花飘香，有的罕见，有的寻常。
 for.hints.beeflowers.tag=蜜蜂需要鲜花
@@ -806,7 +806,7 @@ for.beemode.hardcore.desc=变异几率减半,增加单个蜂后500%的寿命并�
 for.beemode.insane.desc=变异率减少到正常的20%,增加蜜蜂10倍的寿命并降低40%的生育率。
 for.beemode.normal.desc=对一般玩家推荐使用的养蜂模式。
 
-for.bees.grammar.drone.type=雄峰
+for.bees.grammar.drone.type=雄蜂
 for.bees.grammar.drone=%SPECIES%TYPE
 for.bees.grammar.larvae.type=幼体
 for.bees.grammar.larvae=%SPECIES%TYPE
@@ -1388,11 +1388,14 @@ for.plugin.ic2.description=IC2兼容组件。添加电力引擎和新的发电�
 for.plugin.natura.description=Natura兼容组件。激活后农场能够支持Natura的树苗。
 for.plugin.ee2.description=等价交换2兼容组件。激活后开启蜜蜂的终结分支。需要前置的养蜂组件激活。
 for.plugin.farmcraftory.description=牧场物语FarmCraftory兼容组件。添加作物和蔬菜的自动化农场支持。
-for.plugin.undergroundBiomes.description=地质结构Underground Biomes兼容组件。添加林业矿物材质。
 for.plugin.biomesoplenty.description=更多生物群系Biomes O Plenty兼容组件。激活后农场能够支持BoP的树苗。
-for.plugin.extrautilities.description=更多实用设备Extra Utilities兼容组件. 激活后农场能够支持末影百合。
+for.plugin.extrautilities.description=更多实用设备Extra Utilities兼容组件。激活后农场能够支持末影百合。
 for.plugin.harvestcraft.description=潘马斯的丰收HarvestCraft兼容组件。激活后农场能够支持HarvestCraft的植物和树苗。
-for.plugin.magicalcrops.description=魔法农作物Magical Crops兼容组件。激活后农场能够支持Magical Crops作物。
+for.plugin.magicalcrops.description=魔法农作物Magical Crops兼容组件。
+for.plugin.chisel.description=凿子Chisel兼容组件。添加生成方块背包支持。
+for.plugin.plantmegapack.description=Plant Mega Pack兼容组件。
+for.plugin.witchery.description=巫术Witchery兼容组件。
+for.plugin.agricraft.description=AgriCraft兼容组件。
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES

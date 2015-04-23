@@ -1394,7 +1394,8 @@ for.plugin.harvestcraft.description=Compatibility plugin for HarvestCraft. Enabl
 for.plugin.magicalcrops.description=Compatibility plugin for Magical Crops.
 for.plugin.chisel.description=Compatibility plugin for Chisel. Adds worldgen blocks to Backpacks.
 for.plugin.plantmegapack.description=Compatibility plugin for Plant Mega Pack.
-for.plugin.witchery.description =Compatibility plugin for Witchery.
+for.plugin.witchery.description=Compatibility plugin for Witchery.
+for.plugin.agricraft.description=Compatibility plugin for AgriCraft.
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
