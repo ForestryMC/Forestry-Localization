@@ -176,7 +176,7 @@ for.gui.didyouknow=妳知道嗎
 for.gui.diurnal=晝夜型
 for.gui.drones=雄峰
 for.gui.effect=特殊效果
-for.gui.elongatedlife=足壽
+for.gui.lifespan.elongated=足壽
 for.gui.empty=空
 for.gui.emptysocket=空的插槽
 for.gui.energy=能量
@@ -211,9 +211,9 @@ for.gui.larger=較大
 for.gui.largest=最大
 for.gui.life=生命
 for.gui.lifespan=生命周期
-for.gui.longerlife=較長壽
-for.gui.longestlife=最長壽
-for.gui.longlife=長壽
+for.gui.lifespan.longer較長壽
+for.gui.lifespan.longest最長壽
+for.gui.lifespan.long長壽
 for.gui.low=低
 for.gui.lower=較低
 for.gui.lowest=最低
@@ -234,7 +234,7 @@ for.gui.nether=地獄
 for.gui.nocturnal=夜行性
 for.gui.noeffect=無效果
 for.gui.normal=普通
-for.gui.normallife=普壽
+for.gui.lifespan.normal=普壽
 for.gui.owner=主人
 for.gui.page=頁面
 
@@ -263,10 +263,10 @@ for.gui.rule.private=私用
 for.gui.rule.restricted=受限
 for.gui.rule.shared=共享
 
-for.gui.shortenedlife=不足壽
-for.gui.shorterlife=較短壽
-for.gui.shortestlife=早夭
-for.gui.shortlife=短壽
+for.gui.lifespan.shortened=不足壽
+for.gui.lifespan.shorter=較短壽
+for.gui.lifespan.shortest=早夭
+for.gui.lifespan.short=短壽
 
 for.gui.size=大小
 for.gui.slots=格子
