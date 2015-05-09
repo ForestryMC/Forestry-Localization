@@ -145,7 +145,7 @@ for.flowers.cacti=Cacti
 for.flowers.end=End
 for.flowers.gourd=Gourds
 for.flowers.jungle=Jungle
-for.flowers.mushroom=Mushroom
+for.flowers.mushrooms=Mushroom
 for.flowers.nether=Nether
 for.flowers.vanilla=Flowers
 for.flowers.wheat=Wheat
@@ -183,7 +183,6 @@ for.gui.alyzer.overview=Analytics available
 
 for.gui.area=Territory
 for.gui.arid=Arid
-for.gui.average=Average
 for.gui.beach=Beach
 
 for.gui.beealyzer.artificial=Artificial Origin
@@ -194,22 +193,6 @@ for.gui.beealyzer.mutations=Possible Mutations
 for.gui.beealyzer.natural=Natural Origin
 for.gui.beealyzer.produce=Possible Produce
 for.gui.beealyzer.specialty=Possible Specialty
-for.gui.beealyzer.tolerance.both1=Both 1
-for.gui.beealyzer.tolerance.both2=Both 2
-for.gui.beealyzer.tolerance.both3=Both 3
-for.gui.beealyzer.tolerance.both4=Both 4
-for.gui.beealyzer.tolerance.both5=Both 5
-for.gui.beealyzer.tolerance.down1=Down 1
-for.gui.beealyzer.tolerance.down2=Down 2
-for.gui.beealyzer.tolerance.down3=Down 3
-for.gui.beealyzer.tolerance.down4=Down 4
-for.gui.beealyzer.tolerance.down5=Down 5
-for.gui.beealyzer.tolerance.none=None
-for.gui.beealyzer.tolerance.up1=Up 1
-for.gui.beealyzer.tolerance.up2=Up 2
-for.gui.beealyzer.tolerance.up3=Up 3
-for.gui.beealyzer.tolerance.up4=Up 4
-for.gui.beealyzer.tolerance.up5=Up 5
 for.gui.beealyzer=Beealyzer
 
 for.gui.blank=Blank
@@ -226,27 +209,20 @@ for.gui.didyouknow=Did you know
 for.gui.diurnal=Diurnal
 for.gui.drones=Drones
 for.gui.effect=Effect
-for.gui.lifespan.elongated=Elongated
 for.gui.empty=Empty
 for.gui.emptysocket=Empty Socket
 for.gui.energy=Energy
 for.gui.environment=Environment
 for.gui.evolution=Evolution
-for.gui.fast=Fast
-for.gui.faster=Faster
-for.gui.fastest=Fastest
 for.gui.fecundated=Mated
 for.gui.fertility=Fertility
 for.gui.fireresist=Fireproof
 for.gui.flowers=Flower Type
 for.gui.flyer=Tolerant Flyer
 for.gui.general=General
-for.gui.gigantic=Gigantic
+forestry.allele.gigantic=Gigantic
 for.gui.heat=Heat
 for.gui.hellish=Hellish
-for.gui.high=High
-for.gui.higher=Higher
-for.gui.highest=Highest
 for.gui.hot=Hot
 for.gui.humidity=Humidity
 for.gui.humidtol=Humidity Tolerance
@@ -255,17 +231,9 @@ for.gui.icy=Icy
 for.gui.imprinter.cheater=(You Cheater!)
 for.gui.imprinter.name=GENOME IMPRINTER
 for.gui.inactive=Inactive
-for.gui.large=Large
-for.gui.larger=Larger
-for.gui.largest=Largest
 for.gui.life=Life
 for.gui.lifespan=Lifespan
-for.gui.lifespan.longer=Longer
-for.gui.lifespan.longest=Longest
-for.gui.lifespan.long=Long
-for.gui.low=Low
-for.gui.lower=Lower
-for.gui.lowest=Lowest
+for.gui.normal=Normal
 
 for.gui.escritoire.probe=Examine Specimens
 for.gui.escritoire.instructions=Place a genetic sample in the center to begin. Place more in the left slots and examine them for help.
@@ -329,8 +297,6 @@ for.gui.metabolism=Metabolism
 for.gui.nether=Nether
 for.gui.nocturnal=Nocturnal
 for.gui.noeffect=No effect
-for.gui.normal=Normal
-for.gui.lifespan.normal=Normal
 for.gui.owner=Owner
 for.gui.page=Page
 
@@ -359,19 +325,59 @@ for.gui.rule.private=Private
 for.gui.rule.restricted=Restricted
 for.gui.rule.shared=Shared
 
-for.gui.lifespan.shortened=Shortened
-for.gui.lifespan.shorter=Shorter
-for.gui.lifespan.shortest=Shortest
-for.gui.lifespan.short=Short
+forestry.allele.normal=Normal
+forestry.allele.average=Average
+
+forestry.allele.slowest=Slowest
+forestry.allele.slower=Slower
+forestry.allele.slow=Slow
+forestry.allele.fast=Fast
+forestry.allele.faster=Faster
+forestry.allele.fastest=Fastest
+
+forestry.allele.smallest=Smallest
+forestry.allele.smaller=Smaller
+forestry.allele.small=Small
+forestry.allele.large=Large
+forestry.allele.larger=Larger
+forestry.allele.largest=Largest
+
+forestry.allele.lowest=Lowest
+forestry.allele.lower=Lower
+forestry.allele.low=Low
+forestry.allele.high=High
+forestry.allele.higher=Higher
+forestry.allele.highest=Highest
+
+forestry.allele.tolerance.both1=Both 1
+forestry.allele.tolerance.both2=Both 2
+forestry.allele.tolerance.both3=Both 3
+forestry.allele.tolerance.both4=Both 4
+forestry.allele.tolerance.both5=Both 5
+forestry.allele.tolerance.down1=Down 1
+forestry.allele.tolerance.down2=Down 2
+forestry.allele.tolerance.down3=Down 3
+forestry.allele.tolerance.down4=Down 4
+forestry.allele.tolerance.down5=Down 5
+forestry.allele.tolerance.none=None
+forestry.allele.tolerance.up1=Up 1
+forestry.allele.tolerance.up2=Up 2
+forestry.allele.tolerance.up3=Up 3
+forestry.allele.tolerance.up4=Up 4
+forestry.allele.tolerance.up5=Up 5
+
+forestry.allele.lifespan.shortest=Shortest
+forestry.allele.lifespan.shorter=Shorter
+forestry.allele.lifespan.short=Short
+forestry.allele.lifespan.shortened=Shortened
+forestry.allele.lifespan.normal=Normal
+forestry.allele.lifespan.elongated=Elongated
+forestry.allele.lifespan.long=Long
+forestry.allele.lifespan.longer=Longer
+forestry.allele.lifespan.longest=Longest
 
 for.gui.size=Size
 for.gui.slots=%USED/%SIZE Slots
-for.gui.slow=Slow
-for.gui.slower=Slower
-for.gui.slowest=Slowest
-for.gui.small=Small
-for.gui.smaller=Smaller
-for.gui.smallest=Smallest
 for.gui.species=Species
 for.gui.speciescount=Species
 for.gui.speed=Production Speed
@@ -782,24 +788,24 @@ death.bee.end=%1$s was ended by an unfriendly sting.
 death.bee.radioactive.player=%1$s walked into Chernobyl without his helmet on. %2$s watched and cackled.
 death.bee.radioactive=%1$s walked into Chernobyl without his helmet on.
 
-for.apiculture.effect.aggressive=Aggress.
-for.apiculture.effect.beatific=Beatific
-for.apiculture.effect.creeper=Creeper
-for.apiculture.effect.drunkard=Drunkard
-for.apiculture.effect.exploration=Explorer
-for.apiculture.effect.glacial=Freezing
-for.apiculture.effect.fertile=Fertile
-for.apiculture.effect.heroic=Heroic
-for.apiculture.effect.ignition=Flammable
-for.apiculture.effect.misanthrope=Ends
-for.apiculture.effect.misasmic=Poison
-for.apiculture.effect.mycophilic=Mycophilic
-for.apiculture.effect.none=None
-for.apiculture.effect.radioactive=Radioact.
-for.apiculture.effect.reanimation=Reanimation
-for.apiculture.effect.repulsion=Repulsion
-for.apiculture.effect.resurrection=Resurrection
-for.apiculture.effect.snowing=Snow
+forestry.allele.effect.aggressive=Aggress.
+forestry.allele.effect.beatific=Beatific
+forestry.allele.effect.creeper=Creeper
+forestry.allele.effect.drunkard=Drunkard
+forestry.allele.effect.exploration=Explorer
+forestry.allele.effect.glacial=Freezing
+forestry.allele.effect.fertile=Fertile
+forestry.allele.effect.heroic=Heroic
+forestry.allele.effect.ignition=Flammable
+forestry.allele.effect.misanthrope=Ends
+forestry.allele.effect.miasmic=Poison
+forestry.allele.effect.mycophilic=Mycophilic
+forestry.allele.effect.none=None
+forestry.allele.effect.radioactive=Radioact.
+forestry.allele.effect.reanimation=Reanimation
+forestry.allele.effect.repulsion=Repulsion
+forestry.allele.effect.resurrection=Resurrection
+forestry.allele.effect.snowing=Snow
 
 for.beemode.easy.desc=Simplifies beebreeding by drastically increasing mutation rate and removing the chance for genetic fatigue.
 for.beemode.hard.desc=Reducing mutation rate slightly while increasing lifespan of individual queens by 50%%.
@@ -1417,10 +1423,10 @@ for.plugin.agricraft.description=Compatibility plugin for AgriCraft.
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces for.gui.<adjective>
+# Replaces forestry.allele.<adjective>
 #
 # Syntax:
-# for.gui.<category>.<adjective>=New custom adjective
+# forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1436,9 +1442,9 @@ for.plugin.agricraft.description=Compatibility plugin for AgriCraft.
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
-# for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
-# for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
+# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
+# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
+# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS

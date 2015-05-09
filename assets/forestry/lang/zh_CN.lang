@@ -182,7 +182,7 @@ for.gui.alyzer.overview=可分析
 
 for.gui.area=活动范围
 for.gui.arid=干旱
-for.gui.average=平均
+forestry.allele.normal=平均
 for.gui.beach=沙滩
 
 for.gui.beealyzer.artificial=人工培育
@@ -193,22 +193,22 @@ for.gui.beealyzer.mutations=可能的变异
 for.gui.beealyzer.natural=自然捕捉
 for.gui.beealyzer.produce=可能的产物
 for.gui.beealyzer.specialty=可能的专长
-for.gui.beealyzer.tolerance.both1=全1
-for.gui.beealyzer.tolerance.both2=全2
-for.gui.beealyzer.tolerance.both3=全3
-for.gui.beealyzer.tolerance.both4=全4
-for.gui.beealyzer.tolerance.both5=全5
-for.gui.beealyzer.tolerance.down1=降1
-for.gui.beealyzer.tolerance.down2=降2
-for.gui.beealyzer.tolerance.down3=降3
-for.gui.beealyzer.tolerance.down4=降4
-for.gui.beealyzer.tolerance.down5=降5
-for.gui.beealyzer.tolerance.none=无
-for.gui.beealyzer.tolerance.up1=加1
-for.gui.beealyzer.tolerance.up2=加2
-for.gui.beealyzer.tolerance.up3=加3
-for.gui.beealyzer.tolerance.up4=加4
-for.gui.beealyzer.tolerance.up5=加5
+forestry.allele.tolerance.both1=全1
+forestry.allele.tolerance.both2=全2
+forestry.allele.tolerance.both3=全3
+forestry.allele.tolerance.both4=全4
+forestry.allele.tolerance.both5=全5
+forestry.allele.tolerance.down1=降1
+forestry.allele.tolerance.down2=降2
+forestry.allele.tolerance.down3=降3
+forestry.allele.tolerance.down4=降4
+forestry.allele.tolerance.down5=降5
+forestry.allele.tolerance.none=无
+forestry.allele.tolerance.up1=加1
+forestry.allele.tolerance.up2=加2
+forestry.allele.tolerance.up3=加3
+forestry.allele.tolerance.up4=加4
+forestry.allele.tolerance.up5=加5
 for.gui.beealyzer=蜜蜂分析仪
 
 for.gui.blank=空白
@@ -225,27 +225,27 @@ for.gui.didyouknow=你知道吗
 for.gui.diurnal=昼夜型
 for.gui.drones=雄蜂
 for.gui.effect=特殊效果
-for.gui.lifespan.elongated=足寿
+forestry.allele.lifespan.elongated=足寿
 for.gui.empty=空
 for.gui.emptysocket=空插槽
 for.gui.energy=能量
 for.gui.environment=环境
 for.gui.evolution=进化
-for.gui.fast=快速
-for.gui.faster=较快
-for.gui.fastest=最快
+forestry.allele.fast=快速
+forestry.allele.faster=较快
+forestry.allele.fastest=最快
 for.gui.fecundated=已交配
 for.gui.fertility=生育能力
 for.gui.fireresist=耐火
 for.gui.flowers=采蜜对象
 for.gui.flyer=耐雨飞行性
 for.gui.general=普通
-for.gui.gigantic=巨大
+forestry.allele.gigantic=巨大
 for.gui.heat=热量
 for.gui.hellish=地狱
-for.gui.high=高
-for.gui.higher=更高
-for.gui.highest=最高
+forestry.allele.high=高
+forestry.allele.higher=更高
+forestry.allele.highest=最高
 for.gui.hot=炙热
 for.gui.humidity=湿度
 for.gui.humidtol=湿度适应性
@@ -254,17 +254,17 @@ for.gui.icy=严寒
 for.gui.imprinter.cheater=(你丫作弊!)
 for.gui.imprinter.name=染色体变换仪
 for.gui.inactive=隐性
-for.gui.large=大
-for.gui.larger=较大
-for.gui.largest=最大
+forestry.allele.large=大
+forestry.allele.larger=较大
+forestry.allele.largest=最大
 for.gui.life=生命
 for.gui.lifespan=寿命
-for.gui.lifespan.longer=较长寿
-for.gui.lifespan.longest=最长寿
-for.gui.lifespan.long=长寿
-for.gui.low=低
-for.gui.lower=较低
-for.gui.lowest=最低
+forestry.allele.lifespan.longer=较长寿
+forestry.allele.lifespan.longest=最长寿
+forestry.allele.lifespan.long=长寿
+forestry.allele.low=低
+forestry.allele.lower=较低
+forestry.allele.lowest=最低
 
 for.gui.escritoire.probe=检测样本
 for.gui.escritoire.instructions=将基因样本放在中央以开始。在左侧格子中放入更多样本，检测它们以寻求帮助。 
@@ -329,7 +329,7 @@ for.gui.nether=下界
 for.gui.nocturnal=夜行性
 for.gui.noeffect=无效果
 for.gui.normal=普通
-for.gui.lifespan.normal=普寿
+forestry.allele.lifespan.normal=普寿
 for.gui.owner=主人
 for.gui.page=页面
 
@@ -358,19 +358,19 @@ for.gui.rule.private=私用
 for.gui.rule.restricted=受限
 for.gui.rule.shared=共享
 
-for.gui.lifespan.shortened=不足寿
-for.gui.lifespan.shorter=较短寿
-for.gui.lifespan.shortest=早夭
-for.gui.lifespan.short=短寿
+forestry.allele.lifespan.shortened=不足寿
+forestry.allele.lifespan.shorter=较短寿
+forestry.allele.lifespan.shortest=早夭
+forestry.allele.lifespan.short=短寿
 
 for.gui.size=大小
 for.gui.slots=%USED/%SIZE格子
-for.gui.slow=慢速
-for.gui.slower=较慢速
-for.gui.slowest=最慢速
-for.gui.small=小
-for.gui.smaller=较小
-for.gui.smallest=最小
+forestry.allele.slow=慢速
+forestry.allele.slower=较慢速
+forestry.allele.slowest=最慢速
+forestry.allele.small=小
+forestry.allele.smaller=较小
+forestry.allele.smallest=最小
 for.gui.species=品种
 for.gui.speciescount=种族
 for.gui.speed=工作速度
@@ -781,24 +781,24 @@ death.bee.end=%1$s死于一根不坏好意的毒刺。
 death.bee.radioactive.player=%1$s没戴头盔就闯进了切尔诺贝利遗址。%2$s围观并幸灾乐祸地咯咯笑着。
 death.bee.radioactive=%1$s没戴头盔就闯进了切尔诺贝利遗址。
 
-for.apiculture.effect.aggressive=举世皆敌
-for.apiculture.effect.beatific=皆大欢喜
-for.apiculture.effect.creeper=爆炸就是艺术
-for.apiculture.effect.drunkard=沉醉
-for.apiculture.effect.exploration=探索
-for.apiculture.effect.glacial=冻结
-for.apiculture.effect.fertile=丰饶
-for.apiculture.effect.heroic=勇士
-for.apiculture.effect.ignition=燃烧
-for.apiculture.effect.misanthrope=末影
-for.apiculture.effect.misasmic=剧毒
-for.apiculture.effect.mycophilic=嗜菇
-for.apiculture.effect.none=无效果
-for.apiculture.effect.radioactive=辐射
-for.apiculture.effect.reanimation=重生
-for.apiculture.effect.repulsion=抗拒
-for.apiculture.effect.resurrection=复苏
-for.apiculture.effect.snowing=落雪
+forestry.allele.effect.aggressive=举世皆敌
+forestry.allele.effect.beatific=皆大欢喜
+forestry.allele.effect.creeper=爆炸就是艺术
+forestry.allele.effect.drunkard=沉醉
+forestry.allele.effect.exploration=探索
+forestry.allele.effect.glacial=冻结
+forestry.allele.effect.fertile=丰饶
+forestry.allele.effect.heroic=勇士
+forestry.allele.effect.ignition=燃烧
+forestry.allele.effect.misanthrope=末影
+forestry.allele.effect.misasmic=剧毒
+forestry.allele.effect.mycophilic=嗜菇
+forestry.allele.effect.none=无效果
+forestry.allele.effect.radioactive=辐射
+forestry.allele.effect.reanimation=重生
+forestry.allele.effect.repulsion=抗拒
+forestry.allele.effect.resurrection=复苏
+forestry.allele.effect.snowing=落雪
 
 for.beemode.easy.desc=该养蜂模式下变异几率大幅度增加,发生遗传疲劳的可能也很小。
 for.beemode.hard.desc=在增加蜂后50%的寿命的同时稍微减少了变异几率。
@@ -1416,10 +1416,10 @@ for.plugin.agricraft.description=AgriCraft兼容组件。
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces for.gui.<adjective>
+# Replaces forestry.allele.<adjective>
 #
 # Syntax:
-# for.gui.<category>.<adjective>=New custom adjective
+# forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1435,9 +1435,9 @@ for.plugin.agricraft.description=AgriCraft兼容组件。
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
-# for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
-# for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
+# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
+# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
+# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS

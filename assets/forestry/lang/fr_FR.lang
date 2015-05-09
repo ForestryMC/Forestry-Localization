@@ -145,7 +145,7 @@ for.flowers.cacti=Cactus
 for.flowers.end=Fin
 for.flowers.gourd=Courges
 for.flowers.jungle=Jungle
-for.flowers.mushroom=Champignon
+for.flowers.mushrooms=Champignon
 for.flowers.nether=Nether
 for.flowers.vanilla=Fleurs
 for.flowers.wheat=Blé
@@ -182,7 +182,7 @@ for.gui.alyzer.overview=Analytiques disponibles
 
 for.gui.area=Région
 for.gui.arid=Aride
-for.gui.average=Moyenne
+forestry.allele.normal=Moyenne
 for.gui.beach=Plage
 
 for.gui.beealyzer.artificial=Origine artificielle
@@ -193,22 +193,22 @@ for.gui.beealyzer.mutations=Mutations possibles
 for.gui.beealyzer.natural=Origine naturelle
 for.gui.beealyzer.produce=Production possible
 for.gui.beealyzer.specialty=Spécialité possible
-for.gui.beealyzer.tolerance.both1=Tant 1
-for.gui.beealyzer.tolerance.both2=Tant 2
-for.gui.beealyzer.tolerance.both3=Tant 3
-for.gui.beealyzer.tolerance.both4=Tant 4
-for.gui.beealyzer.tolerance.both5=Tant 5
-for.gui.beealyzer.tolerance.down1=Descend 1
-for.gui.beealyzer.tolerance.down2=Descend 2
-for.gui.beealyzer.tolerance.down3=Descend 3
-for.gui.beealyzer.tolerance.down4=Descend 4
-for.gui.beealyzer.tolerance.down5=Descend 5
-for.gui.beealyzer.tolerance.none=Rien
-for.gui.beealyzer.tolerance.up1=Monte 1
-for.gui.beealyzer.tolerance.up2=Monte 2
-for.gui.beealyzer.tolerance.up3=Monte 3
-for.gui.beealyzer.tolerance.up4=Monte 4
-for.gui.beealyzer.tolerance.up5=Monte 5
+forestry.allele.tolerance.both1=Tant 1
+forestry.allele.tolerance.both2=Tant 2
+forestry.allele.tolerance.both3=Tant 3
+forestry.allele.tolerance.both4=Tant 4
+forestry.allele.tolerance.both5=Tant 5
+forestry.allele.tolerance.down1=Descend 1
+forestry.allele.tolerance.down2=Descend 2
+forestry.allele.tolerance.down3=Descend 3
+forestry.allele.tolerance.down4=Descend 4
+forestry.allele.tolerance.down5=Descend 5
+forestry.allele.tolerance.none=Rien
+forestry.allele.tolerance.up1=Monte 1
+forestry.allele.tolerance.up2=Monte 2
+forestry.allele.tolerance.up3=Monte 3
+forestry.allele.tolerance.up4=Monte 4
+forestry.allele.tolerance.up5=Monte 5
 for.gui.beealyzer=Analyseur d'abeilles
 
 for.gui.blank=Vide
@@ -224,27 +224,27 @@ for.gui.didyouknow=Saviez-vous
 for.gui.diurnal=Diurne
 for.gui.drones=Ouvriers
 for.gui.effect=Effet
-for.gui.lifespan.elongated=Allongée
+forestry.allele.lifespan.elongated=Allongée
 for.gui.empty=Vide
 for.gui.emptysocket=Emplacement vide
 for.gui.energy=Énergie
 for.gui.environment=Environment
 for.gui.evolution=Évolution
-for.gui.fast=Rapide
-for.gui.faster=Très rapide
-for.gui.fastest=Le plus rapide
+forestry.allele.fast=Rapide
+forestry.allele.faster=Très rapide
+forestry.allele.fastest=Le plus rapide
 for.gui.fecundated=Fécondée
 for.gui.fertility=Fertilité
 for.gui.fireresist=A l'épreuve du feu
 for.gui.flowers=Fleurs
 for.gui.flyer=Volante
 for.gui.general=Général
-for.gui.gigantic=Gigantesque
+forestry.allele.gigantic=Gigantesque
 for.gui.heat=Température
 for.gui.hellish=Infernal
-for.gui.high=Haute
-for.gui.higher=Très haute
-for.gui.highest=La plus haute
+forestry.allele.high=Haute
+forestry.allele.higher=Très haute
+forestry.allele.highest=La plus haute
 for.gui.hot=Chaud
 for.gui.humidity=Humidité
 for.gui.humidtol=humdité tolérée
@@ -253,17 +253,17 @@ for.gui.icy=Glacé
 for.gui.imprinter.cheater=(Vous trichez !)
 for.gui.imprinter.name=IMPLANTEUR de GENOME
 for.gui.inactive=Inactive
-for.gui.large=Grande
-for.gui.larger=Très grande
-for.gui.largest=La plus grande
+forestry.allele.large=Grande
+forestry.allele.larger=Très grande
+forestry.allele.largest=La plus grande
 for.gui.life=Vie
 for.gui.lifespan=Durée de vie
-for.gui.lifespan.longer=Très longue
-for.gui.lifespan.longest=La plus longue
-for.gui.lifespan.long=Longue
-for.gui.low=Basse
-for.gui.lower=Très basse
-for.gui.lowest=La plus basse
+forestry.allele.lifespan.longer=Très longue
+forestry.allele.lifespan.longest=La plus longue
+forestry.allele.lifespan.long=Longue
+forestry.allele.low=Basse
+forestry.allele.lower=Très basse
+forestry.allele.lowest=La plus basse
 
 for.gui.escritoire.probe=Examine les spécimens
 for.gui.escritoire.instructions=Placez un examplaire génétique au centre pour débuter. Placez en plus dans les emplacements de gauche et examinez-les pour aider.
@@ -328,7 +328,8 @@ for.gui.nether=Nether
 for.gui.nocturnal=Nocturne
 for.gui.noeffect=Sans effet
 for.gui.normal=Normal
-for.gui.lifespan.normal=Normale
+forestry.allele.normal=Normal
+forestry.allele.lifespan.normal=Normale
 for.gui.owner=Propriétaire
 for.gui.page=Page
 
@@ -357,19 +358,19 @@ for.gui.rule.private=Privé
 for.gui.rule.restricted=Restreint
 for.gui.rule.shared=Partagé
 
-for.gui.lifespan.shortened=Raccoucie
-for.gui.lifespan.shorter=Très courte
-for.gui.lifespan.shortest=La plus courte
-for.gui.lifespan.short=Courte
+forestry.allele.lifespan.shortened=Raccoucie
+forestry.allele.lifespan.shorter=Très courte
+forestry.allele.lifespan.shortest=La plus courte
+forestry.allele.lifespan.short=Courte
 
 for.gui.size=Taille
 for.gui.slots=%USED/%SIZE Emplacements
-for.gui.slow=Lente
-for.gui.slower=Très lente
-for.gui.slowest=La plus lante
-for.gui.small=Petite
-for.gui.smaller=Très petite
-for.gui.smallest=La plus petite
+forestry.allele.slow=Lente
+forestry.allele.slower=Très lente
+forestry.allele.slowest=La plus lante
+forestry.allele.small=Petite
+forestry.allele.smaller=Très petite
+forestry.allele.smallest=La plus petite
 for.gui.species=Espèces
 for.gui.speciescount=Espèces
 for.gui.speed=Vitesse de production
@@ -779,24 +780,24 @@ death.bee.end=%1$s a été tué par une mauvaise piqûre.
 death.bee.radioactive.player=%1$s est entré dans Tchernobyl sans son casque. %2$s regardait et rigolait.
 death.bee.radioactive=%1$s est entré dans Tchernobyl sans son casque.
 
-for.apiculture.effect.aggressive=Aggress.
-for.apiculture.effect.beatific=Pacifique
-for.apiculture.effect.creeper=Creeper
-for.apiculture.effect.drunkard=Ivre
-for.apiculture.effect.exploration=Exploratrice
-for.apiculture.effect.fertile=Fertile
-for.apiculture.effect.glacial=Glaciale
-for.apiculture.effect.heroic=Héroique
-for.apiculture.effect.ignition=Inflammable
-for.apiculture.effect.misanthrope=Mortelle
-for.apiculture.effect.misasmic=Vénéneuse
-for.apiculture.effect.mycophilic=Mycophilique
-for.apiculture.effect.none=Aucun
-for.apiculture.effect.radioactive=Radioactive
-for.apiculture.effect.reanimation=Réanimation
-for.apiculture.effect.repulsion=Répulsion
-for.apiculture.effect.resurrection=Résurrection
-for.apiculture.effect.snowing=Neige
+forestry.allele.effect.aggressive=Aggress.
+forestry.allele.effect.beatific=Pacifique
+forestry.allele.effect.creeper=Creeper
+forestry.allele.effect.drunkard=Ivre
+forestry.allele.effect.exploration=Exploratrice
+forestry.allele.effect.fertile=Fertile
+forestry.allele.effect.glacial=Glaciale
+forestry.allele.effect.heroic=Héroique
+forestry.allele.effect.ignition=Inflammable
+forestry.allele.effect.misanthrope=Mortelle
+forestry.allele.effect.miasmic=Vénéneuse
+forestry.allele.effect.mycophilic=Mycophilique
+forestry.allele.effect.none=Aucun
+forestry.allele.effect.radioactive=Radioactive
+forestry.allele.effect.reanimation=Réanimation
+forestry.allele.effect.repulsion=Répulsion
+forestry.allele.effect.resurrection=Résurrection
+forestry.allele.effect.snowing=Neige
 
 for.beemode.easy.desc=Un niveau facile augmente drastiquement les chances de mutations et réduit voir annule les chance d'éffet négative.
 for.beemode.hard.desc=Réduit un peux les mutations mais augmentre la longévité du règne de 50%.
@@ -1408,10 +1409,10 @@ for.plugin.agricraft.description=Active la compatibilité avec AgriCraft.
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces for.gui.<adjective>
+# Replaces forestry.allele.<adjective>
 #
 # Syntax:
-# for.gui.<category>.<adjective>=New custom adjective
+# forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1427,9 +1428,9 @@ for.plugin.agricraft.description=Active la compatibilité avec AgriCraft.
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
-# for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
-# for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
+# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
+# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
+# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS

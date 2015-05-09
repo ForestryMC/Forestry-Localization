@@ -145,7 +145,7 @@ for.flowers.cacti=Кактусы
 for.flowers.end=Край
 for.flowers.gourd=Бахчевые
 for.flowers.jungle=Лианы и папоротники
-for.flowers.mushroom=Грибы
+for.flowers.mushrooms=Грибы
 for.flowers.nether=Нарост Нижнего мира
 for.flowers.vanilla=Цветы
 for.flowers.wheat=Пшеница
@@ -182,7 +182,7 @@ for.gui.alyzer.overview=Доступные анализы
 
 for.gui.area=Территория
 for.gui.arid=Сухая
-for.gui.average=Средний
+forestry.allele.normal=Средний
 for.gui.beach=Пляж
 
 for.gui.beealyzer.artificial=Исскуственного происх.
@@ -193,22 +193,22 @@ for.gui.beealyzer.mutations=Возможные мутации
 for.gui.beealyzer.natural=Естественного происх.
 for.gui.beealyzer.produce=Возможная продукция
 for.gui.beealyzer.specialty=Возможная специальная продукция
-for.gui.beealyzer.tolerance.both1=Обе 1
-for.gui.beealyzer.tolerance.both2=Обе 2
-for.gui.beealyzer.tolerance.both3=Обе 3
-for.gui.beealyzer.tolerance.both4=Обе 4
-for.gui.beealyzer.tolerance.both5=Обе 5
-for.gui.beealyzer.tolerance.down1=Вниз 1
-for.gui.beealyzer.tolerance.down2=Вниз 2
-for.gui.beealyzer.tolerance.down3=Вниз 3
-for.gui.beealyzer.tolerance.down4=Вниз 4
-for.gui.beealyzer.tolerance.down5=Вниз 5
-for.gui.beealyzer.tolerance.none=Нет
-for.gui.beealyzer.tolerance.up1=Вверх 1
-for.gui.beealyzer.tolerance.up2=Вверх 2
-for.gui.beealyzer.tolerance.up3=Вверх 3
-for.gui.beealyzer.tolerance.up4=Вверх 4
-for.gui.beealyzer.tolerance.up5=Вверх 5
+forestry.allele.tolerance.both1=Обе 1
+forestry.allele.tolerance.both2=Обе 2
+forestry.allele.tolerance.both3=Обе 3
+forestry.allele.tolerance.both4=Обе 4
+forestry.allele.tolerance.both5=Обе 5
+forestry.allele.tolerance.down1=Вниз 1
+forestry.allele.tolerance.down2=Вниз 2
+forestry.allele.tolerance.down3=Вниз 3
+forestry.allele.tolerance.down4=Вниз 4
+forestry.allele.tolerance.down5=Вниз 5
+forestry.allele.tolerance.none=Нет
+forestry.allele.tolerance.up1=Вверх 1
+forestry.allele.tolerance.up2=Вверх 2
+forestry.allele.tolerance.up3=Вверх 3
+forestry.allele.tolerance.up4=Вверх 4
+forestry.allele.tolerance.up5=Вверх 5
 for.gui.beealyzer=Анализатор пчёл
 
 for.gui.blank=Пусто
@@ -225,27 +225,27 @@ for.gui.didyouknow=А Вы знаете
 for.gui.diurnal=Дневная
 for.gui.drones=Трутней
 for.gui.effect=Эффект
-for.gui.lifespan.elongated=Продлённая
+forestry.allele.lifespan.elongated=Продлённая
 for.gui.empty=Пусто
 for.gui.emptysocket=Разъём для печатной платы
 for.gui.energy=Энергия
 for.gui.environment=Среда
 for.gui.evolution=Эволюция
-for.gui.fast=Быстрый
-for.gui.faster=Быстрейший
-for.gui.fastest=Наибыстрейший
+forestry.allele.fast=Быстрый
+forestry.allele.faster=Быстрейший
+forestry.allele.fastest=Наибыстрейший
 for.gui.fecundated=Соединяемый
 for.gui.fertility=Плодовитость
 for.gui.fireresist=Огнеупорность
 for.gui.flowers=Тип цветка
 for.gui.flyer=Устойчивый летун
 for.gui.general=Общий
-for.gui.gigantic=Гигантская
+forestry.allele.gigantic=Гигантская
 for.gui.heat=Нагрев
 for.gui.hellish=Адский
-for.gui.high=Высокий
-for.gui.higher=Высший
-for.gui.highest=Наивысший
+forestry.allele.high=Высокий
+forestry.allele.higher=Высший
+forestry.allele.highest=Наивысший
 for.gui.hot=Горячая
 for.gui.humidity=Влажность
 for.gui.humidtol=Устойчивость к влажности
@@ -254,17 +254,17 @@ for.gui.icy=Ледяная
 for.gui.imprinter.cheater=(Вы жулик!)
 for.gui.imprinter.name=ИМПРИНТЕР ГЕНОМА
 for.gui.inactive=Неактивно
-for.gui.large=Большой
-for.gui.larger=Очень большой
-for.gui.largest=Крупнейший
+forestry.allele.large=Большой
+forestry.allele.larger=Очень большой
+forestry.allele.largest=Крупнейший
 for.gui.life=срок жизни
 for.gui.lifespan=Срок жизни
-for.gui.lifespan.longer=Длиннейший
-for.gui.lifespan.longest=Самый длинный
-for.gui.lifespan.long=Длинный
-for.gui.low=Низкий
-for.gui.lower=Очень низкий
-for.gui.lowest=Самый низкий
+forestry.allele.lifespan.longer=Длиннейший
+forestry.allele.lifespan.longest=Самый длинный
+forestry.allele.lifespan.long=Длинный
+forestry.allele.low=Низкий
+forestry.allele.lower=Очень низкий
+forestry.allele.lowest=Самый низкий
 
 for.gui.escritoire.probe=Изучить образцы
 for.gui.escritoire.instructions=Положите генетический образец в центр, чтобы начать. Также положите несколько в левые слоты и изучите их для помощи.
@@ -329,7 +329,8 @@ for.gui.nether=Нижний мир
 for.gui.nocturnal=Ночная
 for.gui.noeffect=Нет эффекта
 for.gui.normal=Нормальная
-for.gui.lifespan.normal=Обычная
+forestry.allele.normal=Нормальная
+forestry.allele.lifespan.normal=Обычная
 for.gui.owner=Владелец
 for.gui.page=Страница
 
@@ -358,19 +359,19 @@ for.gui.rule.private=Приватный
 for.gui.rule.restricted=Ограниченный
 for.gui.rule.shared=Общий
 
-for.gui.lifespan.shortened=Короткий
-for.gui.lifespan.shorter=Кратчайший
-for.gui.lifespan.shortest=Наикратчайший
-for.gui.lifespan.short=Краткий
+forestry.allele.lifespan.shortened=Короткий
+forestry.allele.lifespan.shorter=Кратчайший
+forestry.allele.lifespan.shortest=Наикратчайший
+forestry.allele.lifespan.short=Краткий
 
 for.gui.size=Размер
 for.gui.slots=Слоты: %USED/%SIZE
-for.gui.slow=Медленный
-for.gui.slower=Очень медленный
-for.gui.slowest=Самый медленный
-for.gui.small=Маленький
-for.gui.smaller=Очень маленький
-for.gui.smallest=Самый маленький
+forestry.allele.slow=Медленный
+forestry.allele.slower=Очень медленный
+forestry.allele.slowest=Самый медленный
+forestry.allele.small=Маленький
+forestry.allele.smaller=Очень маленький
+forestry.allele.smallest=Самый маленький
 for.gui.species=Вид
 for.gui.speciescount=Видов
 for.gui.speed=Скорость производства
@@ -781,24 +782,24 @@ death.bee.end=%1$s был прикончен недружественным жа
 death.bee.radioactive.player=%1$s вошёл в Чернобыль без своего шлема. %2$s смотрел и хихикал.
 death.bee.radioactive=%1$s вошёл в Чернобыль без своего шлема.
 
-for.apiculture.effect.aggressive=Агресор.
-for.apiculture.effect.beatific=Блаженність
-for.apiculture.effect.creeper=Кріпер
-for.apiculture.effect.drunkard=П'яниця
-for.apiculture.effect.exploration=Дослідник
-for.apiculture.effect.glacial=Замерзання
-for.apiculture.effect.fertile=Плодородие
-for.apiculture.effect.heroic=Героїчність
-for.apiculture.effect.ignition=Легкозаймистий
-for.apiculture.effect.misanthrope=Кінець
-for.apiculture.effect.misasmic=Отруєння
-for.apiculture.effect.mycophilic=Mycophilic
-for.apiculture.effect.none=Немає
-for.apiculture.effect.radioactive=Радіоактив.
-for.apiculture.effect.reanimation=Реанімація
-for.apiculture.effect.repulsion=Огида
-for.apiculture.effect.resurrection=Воскресіння
-for.apiculture.effect.snowing=Сніг
+forestry.allele.effect.aggressive=Агресор.
+forestry.allele.effect.beatific=Блаженність
+forestry.allele.effect.creeper=Кріпер
+forestry.allele.effect.drunkard=П'яниця
+forestry.allele.effect.exploration=Дослідник
+forestry.allele.effect.glacial=Замерзання
+forestry.allele.effect.fertile=Плодородие
+forestry.allele.effect.heroic=Героїчність
+forestry.allele.effect.ignition=Легкозаймистий
+forestry.allele.effect.misanthrope=Кінець
+forestry.allele.effect.miasmic=Отруєння
+forestry.allele.effect.mycophilic=Mycophilic
+forestry.allele.effect.none=Немає
+forestry.allele.effect.radioactive=Радіоактив.
+forestry.allele.effect.reanimation=Реанімація
+forestry.allele.effect.repulsion=Огида
+forestry.allele.effect.resurrection=Воскресіння
+forestry.allele.effect.snowing=Сніг
 
 for.beemode.easy.desc=Упрощает пчеловодство за счёт резкого увеличения скорости мутаций и устранения возможности генетической усталости.
 for.beemode.hard.desc=Незначительное сокращение скорости мутаций при увеличении продолжительности жизни отдельных королев на 50%.
@@ -1416,10 +1417,10 @@ for.plugin.agricraft.description=Плагин совместимости для 
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces for.gui.<adjective>
+# Replaces forestry.allele.<adjective>
 #
 # Syntax:
-# for.gui.<category>.<adjective>=New custom adjective
+# forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1435,9 +1436,9 @@ for.plugin.agricraft.description=Плагин совместимости для 
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# for.gui.speed.slowest=New custom adjective for slowest worker speed, replacing for.gui.slowest
-# for.gui.flowering.slowest=New custom adjective for slowest flower pollination, replacing for.gui.slowest
-# for.gui.yield.low=New custom adjective for low yield, replacing for.gui.low
+# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
+# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
+# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS
@@ -1632,48 +1633,48 @@ for.trees.custom.treealyzer.sapling.padauk=Падук
 for.trees.custom.treealyzer.sapling.cocobolo=Кокоболо
 for.trees.custom.treealyzer.sapling.zebrawood=Зезбрано
 
-for.gui.height.smallest=Самая низкая
-for.gui.height.smaller=Очень низкая
-for.gui.height.small=Низкая
-for.gui.height.average=Средняя
-for.gui.height.large=Большая
-for.gui.height.larger=Очень большая
-for.gui.height.largest=Наибольшая
-for.gui.height.gigantic=Гигантская
+forestry.allele.height.smallest=Самая низкая
+forestry.allele.height.smaller=Очень низкая
+forestry.allele.height.small=Низкая
+forestry.allele.height.average=Средняя
+forestry.allele.height.large=Большая
+forestry.allele.height.larger=Очень большая
+forestry.allele.height.largest=Наибольшая
+forestry.allele.height.gigantic=Гигантская
 
-for.gui.sappiness.lowest=Самая низкая
-for.gui.sappiness.lower=Очень низкая
-for.gui.sappiness.low=Низкая
-for.gui.sappiness.average=Средняя
-for.gui.sappiness.high=Высокая
-for.gui.sappiness.higher=Очень высокая
-for.gui.sappiness.highest=Наивысшая
+forestry.allele.sappiness.lowest=Самая низкая
+forestry.allele.sappiness.lower=Очень низкая
+forestry.allele.sappiness.low=Низкая
+forestry.allele.sappiness.average=Средняя
+forestry.allele.sappiness.high=Высокая
+forestry.allele.sappiness.higher=Очень высокая
+forestry.allele.sappiness.highest=Наивысшая
 
-for.gui.maturity.slowest=Очень медленное
-for.gui.maturity.slower=Медленное
-for.gui.maturity.slow=Неторопливое
-for.gui.maturity.normal=Обычное
-for.gui.maturity.average=Среднее
-for.gui.maturity.fast=Быстрое
-for.gui.maturity.faster=Очень быстрое
-for.gui.maturity.fastest=Наибыстрейшее
+forestry.allele.maturity.slowest=Очень медленное
+forestry.allele.maturity.slower=Медленное
+forestry.allele.maturity.slow=Неторопливое
+forestry.allele.maturity.normal=Обычное
+forestry.allele.maturity.average=Среднее
+forestry.allele.maturity.fast=Быстрое
+forestry.allele.maturity.faster=Очень быстрое
+forestry.allele.maturity.fastest=Наибыстрейшее
 
-for.gui.speed.slowest=Очень медленная
-for.gui.speed.slower=Медленная
-for.gui.speed.slow=Неторопливая
-for.gui.speed.normal=Обычная
-for.gui.speed.fast=Быстрая
-for.gui.speed.faster=Очень быстрая
-for.gui.speed.fastest=Наибыстрейшая
+forestry.allele.speed.slowest=Очень медленная
+forestry.allele.speed.slower=Медленная
+forestry.allele.speed.slow=Неторопливая
+forestry.allele.speed.normal=Обычная
+forestry.allele.speed.fast=Быстрая
+forestry.allele.speed.faster=Очень быстрая
+forestry.allele.speed.fastest=Наибыстрейшая
 
-for.gui.flowering.slowest=Очень медленная
-for.gui.flowering.slower=Медленная
-for.gui.flowering.slow=Неторопливая
-for.gui.flowering.normal=Обычная
-for.gui.flowering.fast=Быстрая
-for.gui.flowering.faster=Очень быстрая
-for.gui.flowering.fastest=Наибыстрейшая
-for.gui.flowering.maximum=Максимально быстрая
+forestry.allele.flowering.slowest=Очень медленная
+forestry.allele.flowering.slower=Медленная
+forestry.allele.flowering.slow=Неторопливая
+forestry.allele.flowering.normal=Обычная
+forestry.allele.flowering.fast=Быстрая
+forestry.allele.flowering.faster=Очень быстрая
+forestry.allele.flowering.fastest=Наибыстрейшая
+forestry.allele.flowering.maximum=Максимально быстрая
 
 for.tooltip.worker.slowest=Очень медленный рабочий
 for.tooltip.worker.slower=Медленный рабочий
