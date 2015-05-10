@@ -149,6 +149,7 @@ for.flowers.mushrooms=Грибы
 for.flowers.nether=Нарост Нижнего мира
 for.flowers.vanilla=Цветы
 for.flowers.wheat=Пшеница
+for.flowers.snow=Зимние
 
 fluid.bioethanol=Этанол
 fluid.biomass=Биомасса
@@ -174,7 +175,7 @@ for.gui.active=Активно
 for.gui.addressee.player=Игрок
 for.gui.addressee.trader=Торговая станция
 
-for.gui.alyzer.authority=Начальник
+for.gui.alyzer.authority=Говорит
 for.gui.alyzer.classification=Классификация
 for.gui.alyzer.extinct=Вымерший
 for.gui.alyzer.nodescription=Энциклопедия Minecraftia не может предоставить запись для этого образца.
@@ -182,7 +183,6 @@ for.gui.alyzer.overview=Доступные анализы
 
 for.gui.area=Территория
 for.gui.arid=Сухая
-forestry.allele.normal=Средний
 for.gui.beach=Пляж
 
 for.gui.beealyzer.artificial=Исскуственного происх.
@@ -193,22 +193,6 @@ for.gui.beealyzer.mutations=Возможные мутации
 for.gui.beealyzer.natural=Естественного происх.
 for.gui.beealyzer.produce=Возможная продукция
 for.gui.beealyzer.specialty=Возможная специальная продукция
-forestry.allele.tolerance.both1=Обе 1
-forestry.allele.tolerance.both2=Обе 2
-forestry.allele.tolerance.both3=Обе 3
-forestry.allele.tolerance.both4=Обе 4
-forestry.allele.tolerance.both5=Обе 5
-forestry.allele.tolerance.down1=Вниз 1
-forestry.allele.tolerance.down2=Вниз 2
-forestry.allele.tolerance.down3=Вниз 3
-forestry.allele.tolerance.down4=Вниз 4
-forestry.allele.tolerance.down5=Вниз 5
-forestry.allele.tolerance.none=Нет
-forestry.allele.tolerance.up1=Вверх 1
-forestry.allele.tolerance.up2=Вверх 2
-forestry.allele.tolerance.up3=Вверх 3
-forestry.allele.tolerance.up4=Вверх 4
-forestry.allele.tolerance.up5=Вверх 5
 for.gui.beealyzer=Анализатор пчёл
 
 for.gui.blank=Пусто
@@ -225,27 +209,20 @@ for.gui.didyouknow=А Вы знаете
 for.gui.diurnal=Дневная
 for.gui.drones=Трутней
 for.gui.effect=Эффект
-forestry.allele.lifespan.elongated=Продлённая
 for.gui.empty=Пусто
 for.gui.emptysocket=Разъём для печатной платы
 for.gui.energy=Энергия
 for.gui.environment=Среда
 for.gui.evolution=Эволюция
-forestry.allele.fast=Быстрый
-forestry.allele.faster=Быстрейший
-forestry.allele.fastest=Наибыстрейший
 for.gui.fecundated=Соединяемый
 for.gui.fertility=Плодовитость
 for.gui.fireresist=Огнеупорность
-for.gui.flowers=Тип цветка
-for.gui.flyer=Устойчивый летун
+for.gui.flowers=Вид цветка
+for.gui.flyer=устойчивый летун
 for.gui.general=Общий
 forestry.allele.gigantic=Гигантская
 for.gui.heat=Нагрев
 for.gui.hellish=Адский
-forestry.allele.high=Высокий
-forestry.allele.higher=Высший
-forestry.allele.highest=Наивысший
 for.gui.hot=Горячая
 for.gui.humidity=Влажность
 for.gui.humidtol=Устойчивость к влажности
@@ -254,17 +231,9 @@ for.gui.icy=Ледяная
 for.gui.imprinter.cheater=(Вы жулик!)
 for.gui.imprinter.name=ИМПРИНТЕР ГЕНОМА
 for.gui.inactive=Неактивно
-forestry.allele.large=Большой
-forestry.allele.larger=Очень большой
-forestry.allele.largest=Крупнейший
 for.gui.life=срок жизни
 for.gui.lifespan=Срок жизни
-forestry.allele.lifespan.longer=Длиннейший
-forestry.allele.lifespan.longest=Самый длинный
-forestry.allele.lifespan.long=Длинный
-forestry.allele.low=Низкий
-forestry.allele.lower=Очень низкий
-forestry.allele.lowest=Самый низкий
+for.gui.normal=Обычная
 
 for.gui.escritoire.probe=Изучить образцы
 for.gui.escritoire.instructions=Положите генетический образец в центр, чтобы начать. Также положите несколько в левые слоты и изучите их для помощи.
@@ -328,9 +297,6 @@ for.gui.metabolism=Метаболизм
 for.gui.nether=Нижний мир
 for.gui.nocturnal=Ночная
 for.gui.noeffect=Нет эффекта
-for.gui.normal=Нормальная
-forestry.allele.normal=Нормальная
-forestry.allele.lifespan.normal=Обычная
 for.gui.owner=Владелец
 for.gui.page=Страница
 
@@ -359,19 +325,59 @@ for.gui.rule.private=Приватный
 for.gui.rule.restricted=Ограниченный
 for.gui.rule.shared=Общий
 
-forestry.allele.lifespan.shortened=Короткий
-forestry.allele.lifespan.shorter=Кратчайший
+forestry.allele.normal=Обычный
+forestry.allele.average=Средний
+
+forestry.allele.slowest=Самый медленный
+forestry.allele.slower=Очень медленный
+forestry.allele.slow=Медленный
+forestry.allele.fast=Быстрый
+forestry.allele.faster=Очень быстрый
+forestry.allele.fastest=Быстрейший
+
+forestry.allele.smallest=Самый маленький
+forestry.allele.smaller=Очень маленький
+forestry.allele.small=Маленький
+forestry.allele.large=Большой
+forestry.allele.larger=Очень большой
+forestry.allele.largest=Крупнейший
+
+forestry.allele.lowest=Самый низкий
+forestry.allele.lower=Очень низкий
+forestry.allele.low=Низкий
+forestry.allele.high=Высокий
+forestry.allele.higher=Очень высокий
+forestry.allele.highest=Наивысший
+
+forestry.allele.tolerance.both1=Обе 1
+forestry.allele.tolerance.both2=Обе 2
+forestry.allele.tolerance.both3=Обе 3
+forestry.allele.tolerance.both4=Обе 4
+forestry.allele.tolerance.both5=Обе 5
+forestry.allele.tolerance.down1=Вниз 1
+forestry.allele.tolerance.down2=Вниз 2
+forestry.allele.tolerance.down3=Вниз 3
+forestry.allele.tolerance.down4=Вниз 4
+forestry.allele.tolerance.down5=Вниз 5
+forestry.allele.tolerance.none=Нет
+forestry.allele.tolerance.up1=Вверх 1
+forestry.allele.tolerance.up2=Вверх 2
+forestry.allele.tolerance.up3=Вверх 3
+forestry.allele.tolerance.up4=Вверх 4
+forestry.allele.tolerance.up5=Вверх 5
+
 forestry.allele.lifespan.shortest=Наикратчайший
+forestry.allele.lifespan.shorter=Кратчайший
 forestry.allele.lifespan.short=Краткий
+forestry.allele.lifespan.shortened=Короткий
+forestry.allele.lifespan.normal=Обычный
+forestry.allele.lifespan.elongated=Продлённый
+forestry.allele.lifespan.long=Длинный
+forestry.allele.lifespan.longer=Очень длинный
+forestry.allele.lifespan.longest=Длиннейший
 
 for.gui.size=Размер
 for.gui.slots=Слоты: %USED/%SIZE
-forestry.allele.slow=Медленный
-forestry.allele.slower=Очень медленный
-forestry.allele.slowest=Самый медленный
-forestry.allele.small=Маленький
-forestry.allele.smaller=Очень маленький
-forestry.allele.smallest=Самый маленький
 for.gui.species=Вид
 for.gui.speciescount=Видов
 for.gui.speed=Скорость производства
@@ -385,19 +391,19 @@ for.gui.warm=Жаркая
 for.gui.water=Вода
 for.gui.worker=рабочий
 
-for.hints.accesscontrol.desc=Владелец механизма может устанавливать три типа доступа: общий, ограниченный и приватный.
+for.hints.accesscontrol.desc=Владелец механизма может устанавливать три вида доступа: общий, ограниченный и приватный.
 for.hints.accesscontrol.tag=Контроль доступа
 for.hints.accesspipe.desc=Механизм с приватным доступом никаким образом не будет взаимодействовать с трубами и лампами.
 for.hints.accesspipe.tag=Ограничение доступа к трубам
 for.hints.accessrules.desc=Общий доступ - это когда любой может демонтировать механизм или взаимодействовать с ним. Ограниченный позволяет только взаимодействовать с ним.
-for.hints.accessrules.tag=Типы доступа
+for.hints.accessrules.tag=Виды доступа
 for.hints.apiaristsuit.desc=Полный костюм пчеловода будет защищать Вас от всех негативных эффектов пчёл.
 for.hints.apiaristsuit.tag=Костюм от пчёл!
 for.hints.beebiomes.desc=Пчёлы работают только в тех биомах, что подходят их виду. Используйте анализатор пчёл и определитель ареала для их выяснения.
 for.hints.beebiomes.tag=Выберете Ваш биом!
 for.hints.beebreeding.desc=Скрещивайте трутней и принцесс разных видов, чтобы получить в потомстве новые виды.
 for.hints.beebreeding.tag=Разводите Ваших пчёл!
-for.hints.beeflowers.desc=Любой пчеле нужен определенный тип цветов поблизости. Некоторые типы цветов достаточно экзотичны.
+for.hints.beeflowers.desc=Любой пчеле нужен определенный вид цветов поблизости. Некоторые виды цветов достаточно экзотичны.
 for.hints.beeflowers.tag=Пчелам нужны цветы
 for.hints.beejubilance.desc=Только довольные пчёлы будут производить свой спец.продукт. Убедитесь, что разместили их в предпочитаемом климате.
 for.hints.beejubilance.tag=Сделайте Ваших пчёл счастливыми!
@@ -875,7 +881,7 @@ for.chat.command.forestry.bee.format=Формат: /%s <подкоманда>
 
 for.chat.command.forestry.bee.give.desc=- %s : Получение пчёл
 for.chat.command.forestry.bee.give.help=Даёт игроку трутней, принцесс, королев или личинок.
-for.chat.command.forestry.bee.give.format=Формат: /%s <название вида> <тип пчелы> [<имя игрока>]
+for.chat.command.forestry.bee.give.format=Формат: /%s <название вида> <вид пчелы> [<имя игрока>]
 for.chat.command.forestry.bee.give.available=Доступные виды пчёл: %s
 for.chat.command.forestry.bee.give.given=%1$s получил %2$s %3$s.
 
@@ -916,52 +922,52 @@ for.chat.command.forestry.stats.save.key.notCounted=Not counted for the species 
 for.chat.command.forestry.stats.save.key.notCounted.symbol=NC
 for.chat.command.forestry.stats.save.mode=Режим: %s
 
-for.description.speciesAgrarian="Doesn't reek as much as the alternative. Gets the job done, eh?"|Myrathi, Cannie Beekeeper
-for.description.speciesAustere=Dangerous and volatile; Beekeepers are advised to stay in full suit whenever near.|Пчеловодство 101
+for.description.speciesAgrarian="Doesn't reek as much as the alternative. Gets the job done, eh?"|Myrathi, благоразумный пчеловод
+for.description.speciesAustere=Опасные и изменчивые; Пчеловодам рекомендуются находится в костюмах рядом с ними.|Пчеловодство 101
 for.description.speciesAvenging="The walls of my house began to crumble and I heard the roof creaking over my head, but I cared not! I felt the stabs of a thousand little insects on my glove as I grabbed the new queen."|Аноним
-for.description.speciesBoggy="I saw a cow get stung by one of these once. Seconds later, it started sprouting mushrooms all over! ... A photo? Uh, didn't take one."|"Sir" Sengir, madman
-for.description.speciesCommon=Считается значком участия у начинающего пчеловода.|Пчеловодство 101
-for.description.speciesCultivated=Трудолюбивая пчела; Thinks anything but opera is beneath it.|Пчеловодство 101
-for.description.speciesDarkened=Attracted by the power of alchemically bound matter, this species was a powerful source of energy.|Beekeeper's Lexicon
-for.description.speciesDemonic=Born in the fires of the nether and being a descendant of generations of nether bees has caused this species to turn into a true demon.|Пчеловодство 101
-for.description.speciesDiligent=Mostly noted as a stepping stone for the industrious line of bees.|Пчеловодство 101
+for.description.speciesBoggy="Я видел как одна из них ужалила корову. Через несколько секунд, она стала зарастать грибами! ... Фотографию? Э-э, не успел сделать."|"Sir" Sengir, безумец
+for.description.speciesCommon=Считается значком участия начинающего пчеловода.|Пчеловодство 101
+for.description.speciesCultivated=Трудолюбивая пчела; Думает что она лучше всего и всех, кроме оперы.|Пчеловодство 101
+for.description.speciesDarkened=Привлечённые силой алхимического вещества, этот вид был могущественным источником энергии.|Лексикон пчеловода
+for.description.speciesDemonic=Рождены в пламени Нижнего мира и будучи потомками поколений пчёл Нижнего мира, этот вид превратился в настоящего демона.|Пчеловодство 101
+for.description.speciesDiligent=В основном отмечены ступенькой в списке трудолюбивых пчёл.|Пчеловодство 101
 for.description.speciesEdenic="I furiously scribbled in my notebook, drawing sketches of the images I felt seeping into my brain while I was watching the insects perform their strange little dance."|Пчеловодство 101
 for.description.speciesEnded="I found one of these seemingly hermitical insects in a villager's apiary. It was torpid, obviously ripped from its world and longing for a fragment from it."|Пчеловодство 101
 for.description.speciesExotic="The fever shook me and my apiarist's suit was drenched with cold sweat, but with trembling hands I finally managed to pull one of these from my apiary."|Пчеловодство 101
-for.description.speciesFarmerly=Commonly seen in large expanses of prairie, the breadbasket of nations.|Пчеловодство 101
-for.description.speciesFiendish=Experienced nether apiarist's have been reporting severe attacks by their bees. Caution is advised.|Пчеловодство 101
-for.description.speciesForest=Один из наиболее распространённых вредителей в лесах; В основном послушна.|Пчеловодство 101
-for.description.speciesFrugal=Generations of bees baked in the sun to produce this species.|Пчеловодство 101
+for.description.speciesFarmerly=Часто встречается на больших просторах прерий, кормилицы народов.|Пчеловодство 101
+for.description.speciesFiendish=Опытные пчеловоды Нижнего мира сообщали о нападениях этих пчёл на людей. Будьте осторожны.|Пчеловодство 101
+for.description.speciesForest=Один из наиболее распространённых лесных вредителей; В основном послушны.|Пчеловодство 101
+for.description.speciesFrugal=Целые поколения пчёл сгорели на солнце, чтобы произвести этот вид.|Пчеловодство 101
 for.description.speciesGlacial="Зима близко!"|Эддард Старк, пчеловод
-for.description.speciesHermitic="My dear colleague! I noticed the bees you sent me refuse to wash and are growing full beards. Care to explain?"|Binnie, Apiarist
-for.description.speciesHeroic=Elaborate legends have surrounded this species. Will defend its hive to its death against any hostiles.|Apiarist's Grimoire
-for.description.speciesIcy=Temperatures inside hives inhabited by this species will drop until ice shards form.|Пчеловодство 101
+for.description.speciesHermitic="Дорогой коллега! Я заметил, что пчёлы, которых Вы мне послали, отказываются мыться и отращивают бороды. Не хотите объясниться?"|Binnie, пчеловод
+for.description.speciesHeroic=Продуманные легенды окружают этих пчёл. Они будут защищать свои улья до последнего вздоха от любых врагов.|Гримуар пчеловода
+for.description.speciesIcy=Температура внутри ульев, населённых этим видом, будет падать пока не сформируются осколки льда.|Пчеловодство 101
 for.description.speciesImperial=Высоко ценящаяся пчела; Специализируется на производстве драгоценного маточного молочка.|Пчеловодство 101
 for.description.speciesIndustrious=Высоко ценящаяся пчела; Специализируется на производстве изысканной пыльцы.|Пчеловодство 101
-for.description.speciesLeporine="I swear! It was tiny, had wings and I definitely saw fluffy little rabbit ears! ... No! I am not drunk!"|"Sir" Sengir, madman
+for.description.speciesLeporine="Я клянусь! Она была маленькой, с крыльями и я точно видел пушистые маленькие уши кролика! ... Нет! Я не пьян!"|"Sir" Sengir, безумец
 for.description.speciesMajestic="Головы с плеч!"|Королева сердец
 for.description.speciesMarshy="Серьёзно? Грибы? Валим отсюда!"|Пчеловодство 101
 for.description.speciesMeadows=Наводняет в основном равнины, в условиях умеренного климата; В основном послушна.|Пчеловодство 101
-for.description.speciesMerry="Hohoho!"|Merry bee
-for.description.speciesMiry="How do bees even pollinate fungi?"|Mezz, Junior Apiarist
+for.description.speciesMerry="Хо Хо Хо!"|Весёлая пчела
+for.description.speciesMiry="Как пчёлы вообще опыляют грибы?"|Mezz, юный пчеловод
 for.description.speciesModest=Hot and arid climates have forced this species to adapt to a degree which will not allow it to survive in significantly friendlier climates.|Пчеловодство 101
 for.description.speciesMonastic="I remained austere and said to him: 'Not only a princess, but also a whole pile of emeralds for a measly drone? That's extortion!'|Пчеловодство 101
-for.description.speciesNoble="There is no more noble occupation in the world than to breed another bee."|Binnie, Apiarist
-for.description.speciesOmega="I am Alpha and Omega, the beginning and the end, the first and the last."|Pahimar, beekeeper
-for.description.speciesPhantasmal="Whatever you do, do not, I repeat, DO NOT drop the dragon e..."|"Sir" Sengir, Last Words
-for.description.speciesReddened=Requiring massive amounts of alchemically bound matter, these little fellows could flood a world in energy.|Beekeeper's Lexicon
-for.description.speciesRural="Rain in May promises much hay."|M. Ages, Rural Beekeeper
+for.description.speciesNoble="There is no more noble occupation in the world than to breed another bee."|Binnie, пчеловод
+for.description.speciesOmega="I am Alpha and Omega, the beginning and the end, the first and the last."|Pahimar, пчеловод
+for.description.speciesPhantasmal="Whatever you do, do not, I repeat, DO NOT drop the dragon e..."|"Sir" Sengir, последние слова
+for.description.speciesReddened=Requiring massive amounts of alchemically bound matter, these little fellows could flood a world in energy.|Лексикон пчеловода
+for.description.speciesRural="Дождь в мае обещает многа сена."|M. Ages, сельский пчеловод
 for.description.speciesSecluded="Crossbreeding with the desert kind was a mistake. My bees withdrew more and more from the outside world."|Пчеловодство 101
 for.description.speciesSinister=Not many bee species are able to survive in the nether. And even those are severly affected by their hellish environment.|Пчеловодство 101
 for.description.speciesSpectral="I was unsure whether it was alive as it lay there in the palm of my hand, glimmering and pulsating, oozing a coldness I never felt before. Then I heard the pile of bones behind me rattle..."|Пчеловодство 101
-for.description.speciesSteadfast=Считались вымершими, пока некоторые не были найдены путешественниками в глубоком подземелье.|Apiarist's Grimoire
-for.description.speciesTipsy="Dance my pretties! Dance!"|Tipsy Witch of the East
-for.description.speciesTricky="Trick or Tricky Treat!"|Tricky Bee
+for.description.speciesSteadfast=Считались вымершими, пока некоторые не были найдены путешественниками в глубоком подземелье.|Гримуар пчеловода
+for.description.speciesTipsy="Танцуйте мои красотульки! Тануцуйте!"|Пьяная ведьма востока
+for.description.speciesTricky="Кошелёк или жизнь!"|Хитрая пчела
 for.description.speciesTropical="My travels along the jungle river allowed me to catch many of these poisonous specimen. Unfortunately I had lost my only austere branch to crocodiles a while back."|Пчеловодство 101
 for.description.speciesUnweary=Неутомимые. Потом они умирают.|Пчеловодство 101
-for.description.speciesValiant=A rare subspecies rarely seen cohabiting in mundane hives.|Apiarist's Grimoire
+for.description.speciesValiant=A rare subspecies rarely seen cohabiting in mundane hives.|Гримуар пчеловода
 for.description.speciesVengeful="Veni, vidi, vici!"|Apinus Julius Caesar
-for.description.speciesVindictive="It ate my face! It ate my face!"|K.M.
+for.description.speciesVindictive="Они съели моё лицо! Они съели моё лицо!"|K.M.
 for.description.speciesWintry=Common, but winter-hardened bee tribe; Cultivation in warmer climates is a challenge.|Пчеловодство 101
 
 for.genus.bees.agrarian=Agrarian
@@ -1068,7 +1074,7 @@ for.fruits.chestnut=Каштан
 for.fruits.cocoa=Какао
 for.fruits.dates=Финики
 for.fruits.lemon=Лемон
-for.fruits.none=Нету
+for.fruits.none=Нет
 for.fruits.papaya=Папайя
 for.fruits.plum=Слива
 for.fruits.walnut=Грецкий орех
@@ -1081,9 +1087,9 @@ for.gui.growth=Условие роста
 for.gui.height=Высота
 for.gui.maturity=Созревание
 for.gui.native="Родной" биом
-for.gui.saplings=Тип саженца
+for.gui.saplings=Вид саженца
 for.gui.sappiness=Жизнеспособность
-for.gui.supports=Типы плодов
+for.gui.supports=Вид плодов
 for.gui.tolerated=Нужный биом
 for.gui.treealyzer.help=Положите саженец и предоставьте мёд или нектар, в качестве катализатора.
 for.gui.treealyzer=Анализатор деревьев
@@ -1450,6 +1456,17 @@ for.plugin.agricraft.description=Плагин совместимости для 
 # for.tooltip.worker.slowest=Slowest Worker
 
 ###################################
+# CUSTOM WOOD NAMES
+###################################
+#
+# Examples:
+# tile.for.stairs.4.name=Chestnut Stairs
+# tile.for.planks.8.name=Kapok Wood Planks
+# tile.for.slab.5.name=Wenge Wood Slab
+# tile.for.log.10.name=Mahogany Wood
+# tile.for.fences.0.name=Larch Fence
+
+###################################
 # CUSTOM BEES NAMES
 ###################################
 
@@ -1479,7 +1496,7 @@ for.bees.custom.drone.austere=Суровый трутень
 for.bees.custom.drone.tropical=Тропический трутень
 for.bees.custom.drone.exotic=Экзотический трутень
 for.bees.custom.drone.edenic=Райский трутень
-for.bees.custom.drone.ender=Трутень Края
+for.bees.custom.drone.ended=Трутень Края
 for.bees.custom.drone.wintry=Зимний трутень
 for.bees.custom.drone.icy=Ледяной трутень
 for.bees.custom.drone.glacial=Ледниковый трутень
@@ -1501,9 +1518,9 @@ for.bees.custom.drone.hermitic=Отшельнический трутень
 for.bees.custom.drone.spectral=Призрачный трутень
 for.bees.custom.drone.phantasmal=Воображаемый трутень
 
-for.bees.custom.larvae.ender=Личинка Края
-for.bees.custom.princess.ender=Принцесса Края
-for.bees.custom.queen.ender=Королева Края
+for.bees.custom.larvae.ended=Личинка Края
+for.bees.custom.princess.ended=Принцесса Края
+for.bees.custom.queen.ended=Королева Края
 
 ###################################
 # CUSTOM Beealyzer/Treealyzer NAMES
@@ -1535,7 +1552,7 @@ for.bees.custom.beealyzer.drone.austere=Суровый
 for.bees.custom.beealyzer.drone.tropical=Тропический
 for.bees.custom.beealyzer.drone.exotic=Экзотический
 for.bees.custom.beealyzer.drone.edenic=Райский
-for.bees.custom.beealyzer.drone.ender=из Края
+for.bees.custom.beealyzer.drone.ended=из Края
 for.bees.custom.beealyzer.drone.wintry=Зимний
 for.bees.custom.beealyzer.drone.icy=Ледяной
 for.bees.custom.beealyzer.drone.glacial=Ледниковый
@@ -1557,9 +1574,9 @@ for.bees.custom.beealyzer.drone.hermitic=Отшельнический
 for.bees.custom.beealyzer.drone.spectral=Призрачный
 for.bees.custom.beealyzer.drone.phantasmal=Воображаемый
 
-for.bees.custom.beealyzer.larvae.ender=из Края
-for.bees.custom.beealyzer.princess.ender=из Края
-for.bees.custom.beealyzer.queen.ender=из Края
+for.bees.custom.beealyzer.larvae.ended=из Края
+for.bees.custom.beealyzer.princess.ended=из Края
+for.bees.custom.beealyzer.queen.ended=из Края
 
 for.trees.custom.treealyzer.pollen.acacia=Акация
 for.trees.custom.treealyzer.pollen.appleOak=Яблочный дуб
@@ -1683,14 +1700,3 @@ for.tooltip.worker.normal=Обычный рабочий
 for.tooltip.worker.fast=Быстрый рабочий
 for.tooltip.worker.faster=Очень быстрый рабочий
 for.tooltip.worker.fastest=Наибыстрейший рабочий
-
-###################################
-# CUSTOM WOOD NAMES
-###################################
-#
-# Examples:
-# tile.for.stairs.4.name=Chestnut Stairs
-# tile.for.planks.8.name=Kapok Wood Planks
-# tile.for.slab.5.name=Wenge Wood Slab
-# tile.for.log.10.name=Mahogany Wood
-# tile.for.fences.0.name=Larch Fence
