@@ -149,6 +149,7 @@ for.flowers.mushrooms=Champignon
 for.flowers.nether=Nether
 for.flowers.vanilla=Fleurs
 for.flowers.wheat=Blé
+for.flowers.snow=Neige
 
 fluid.bioethanol=Éthanol
 fluid.biomass=Biomasse
@@ -182,7 +183,6 @@ for.gui.alyzer.overview=Analytiques disponibles
 
 for.gui.area=Région
 for.gui.arid=Aride
-forestry.allele.normal=Moyenne
 for.gui.beach=Plage
 
 for.gui.beealyzer.artificial=Origine artificielle
@@ -193,30 +193,15 @@ for.gui.beealyzer.mutations=Mutations possibles
 for.gui.beealyzer.natural=Origine naturelle
 for.gui.beealyzer.produce=Production possible
 for.gui.beealyzer.specialty=Spécialité possible
-forestry.allele.tolerance.both1=Tant 1
-forestry.allele.tolerance.both2=Tant 2
-forestry.allele.tolerance.both3=Tant 3
-forestry.allele.tolerance.both4=Tant 4
-forestry.allele.tolerance.both5=Tant 5
-forestry.allele.tolerance.down1=Descend 1
-forestry.allele.tolerance.down2=Descend 2
-forestry.allele.tolerance.down3=Descend 3
-forestry.allele.tolerance.down4=Descend 4
-forestry.allele.tolerance.down5=Descend 5
-forestry.allele.tolerance.none=Rien
-forestry.allele.tolerance.up1=Monte 1
-forestry.allele.tolerance.up2=Monte 2
-forestry.allele.tolerance.up3=Monte 3
-forestry.allele.tolerance.up4=Monte 4
-forestry.allele.tolerance.up5=Monte 5
 for.gui.beealyzer=Analyseur d'abeilles
 
 for.gui.blank=Vide
-for.gui.cave=Grotte
+for.gui.cave=Troglodite
 for.gui.climate=Climat
 for.gui.cold=Froid
 for.gui.crop=Cultures
-for.gui.currentOutput=Courant de sortie
+for.gui.currentBiome=Biome courrant
+for.gui.currentOutput=Sortie courrante
 for.gui.damp=Humide
 for.gui.derelict=Abandonnée
 for.gui.desert=Désert
@@ -224,15 +209,11 @@ for.gui.didyouknow=Saviez-vous
 for.gui.diurnal=Diurne
 for.gui.drones=Ouvriers
 for.gui.effect=Effet
-forestry.allele.lifespan.elongated=Allongée
 for.gui.empty=Vide
 for.gui.emptysocket=Emplacement vide
 for.gui.energy=Énergie
 for.gui.environment=Environment
 for.gui.evolution=Évolution
-forestry.allele.fast=Rapide
-forestry.allele.faster=Très rapide
-forestry.allele.fastest=Le plus rapide
 for.gui.fecundated=Fécondée
 for.gui.fertility=Fertilité
 for.gui.fireresist=A l'épreuve du feu
@@ -242,28 +223,17 @@ for.gui.general=Général
 forestry.allele.gigantic=Gigantesque
 for.gui.heat=Température
 for.gui.hellish=Infernal
-forestry.allele.high=Haute
-forestry.allele.higher=Très haute
-forestry.allele.highest=La plus haute
 for.gui.hot=Chaud
 for.gui.humidity=Humidité
-for.gui.humidtol=humdité tolérée
+for.gui.humidtol=Tolérance humidité
 for.gui.hybrid=Hybride
 for.gui.icy=Glacé
 for.gui.imprinter.cheater=(Vous trichez !)
 for.gui.imprinter.name=IMPLANTEUR de GENOME
 for.gui.inactive=Inactive
-forestry.allele.large=Grande
-forestry.allele.larger=Très grande
-forestry.allele.largest=La plus grande
 for.gui.life=Vie
-for.gui.lifespan=Durée de vie
-forestry.allele.lifespan.longer=Très longue
-forestry.allele.lifespan.longest=La plus longue
-forestry.allele.lifespan.long=Longue
-forestry.allele.low=Basse
-forestry.allele.lower=Très basse
-forestry.allele.lowest=La plus basse
+for.gui.lifespan=Longévité
+for.gui.normal=Normal
 
 for.gui.escritoire.probe=Examine les spécimens
 for.gui.escritoire.instructions=Placez un examplaire génétique au centre pour débuter. Placez en plus dans les emplacements de gauche et examinez-les pour aider.
@@ -321,15 +291,12 @@ for.gui.mail.receive=Recevoir
 for.gui.mail.send=Envoyer
 
 for.gui.maxenergy=Énergie maximum
-for.gui.maxenergyreceive=En trée maximum 
+for.gui.maxenergyreceive=Entrée maximum 
 for.gui.maxspeed=Maximum
 for.gui.metabolism=Métabolisme
 for.gui.nether=Nether
 for.gui.nocturnal=Nocturne
 for.gui.noeffect=Sans effet
-for.gui.normal=Normal
-forestry.allele.normal=Normal
-forestry.allele.lifespan.normal=Normale
 for.gui.owner=Propriétaire
 for.gui.page=Page
 
@@ -358,19 +325,59 @@ for.gui.rule.private=Privé
 for.gui.rule.restricted=Restreint
 for.gui.rule.shared=Partagé
 
-forestry.allele.lifespan.shortened=Raccoucie
+forestry.allele.normal=Normal
+forestry.allele.average=Moyenne
+
+forestry.allele.slowest=La plus lente
+forestry.allele.slower=Très lente
+forestry.allele.slow=Lente
+forestry.allele.fast=Rapide
+forestry.allele.faster=Très rapide
+forestry.allele.fastest=la plus rapide
+
+forestry.allele.smallest=La plus petite
+forestry.allele.smaller=Très petite
+forestry.allele.small=Petite
+forestry.allele.large=Grande
+forestry.allele.larger=Très grande
+forestry.allele.largest=La plus grande
+
+forestry.allele.lowest=La plus basse
+forestry.allele.lower=Très basse
+forestry.allele.low=Basse
+forestry.allele.high=Haute
+forestry.allele.higher=Très haute
+forestry.allele.highest=La plus haute
+
+forestry.allele.tolerance.both1=Ecart 1
+forestry.allele.tolerance.both2=Ecart 2
+forestry.allele.tolerance.both3=Ecart 3
+forestry.allele.tolerance.both4=Ecart 4
+forestry.allele.tolerance.both5=Ecart 5
+forestry.allele.tolerance.down1=Inf. 1
+forestry.allele.tolerance.down2=Inf. 2
+forestry.allele.tolerance.down3=Inf. 3
+forestry.allele.tolerance.down4=Inf. 4
+forestry.allele.tolerance.down5=Inf. 5
+forestry.allele.tolerance.none=Aucun
+forestry.allele.tolerance.up1=Sup. 1
+forestry.allele.tolerance.up2=Sup. 2
+forestry.allele.tolerance.up3=Sup. 3
+forestry.allele.tolerance.up4=Sup. 4
+forestry.allele.tolerance.up5=Sup. 5
+
+forestry.allele.lifespan.shortest=la plus courte
 forestry.allele.lifespan.shorter=Très courte
-forestry.allele.lifespan.shortest=La plus courte
 forestry.allele.lifespan.short=Courte
+forestry.allele.lifespan.shortened=Raccoucie
+forestry.allele.lifespan.normal=Normale
+forestry.allele.lifespan.elongated=Allongée
+forestry.allele.lifespan.long=Longue
+forestry.allele.lifespan.longer=Très longue
+forestry.allele.lifespan.longest=La plus longue
 
 for.gui.size=Taille
 for.gui.slots=%USED/%SIZE Emplacements
-forestry.allele.slow=Lente
-forestry.allele.slower=Très lente
-forestry.allele.slowest=La plus lante
-forestry.allele.small=Petite
-forestry.allele.smaller=Très petite
-forestry.allele.smallest=La plus petite
 for.gui.species=Espèces
 for.gui.speciescount=Espèces
 for.gui.speed=Vitesse de production
@@ -379,7 +386,7 @@ for.gui.temperature=Température
 for.gui.temptol=Tolérance temp.
 for.gui.tooltip.tmi=Tapez Maj pour les détails
 for.gui.triple=Triple
-for.gui.unknown=genome inconnu
+for.gui.unknown=Génome inconnu
 for.gui.warm=Tempéré
 for.gui.water=Eau
 for.gui.worker=Ouvrier
@@ -689,6 +696,7 @@ item.for.thermionicTubes.ex-8.name=Tube Electronique (Caoutchouc)
 item.for.thermionicTubes.ex-9.name=Tube Electronique (Emeraude)
 item.for.thermionicTubes.ex-10.name=Tube Electronique (Apatite)
 item.for.thermionicTubes.ex-11.name=Tube Electronique (Lapis)
+item.for.thermionicTubes.ex-12.name=Tube Electronique (Ender)
 
 item.for.treealyzer.name=Analyseur d'arbre
 
@@ -797,7 +805,7 @@ forestry.allele.effect.radioactive=Radioactive
 forestry.allele.effect.reanimation=Réanimation
 forestry.allele.effect.repulsion=Répulsion
 forestry.allele.effect.resurrection=Résurrection
-forestry.allele.effect.snowing=Neige
+forestry.allele.effect.snowing=Neigeante
 
 for.beemode.easy.desc=Un niveau facile augmente drastiquement les chances de mutations et réduit voir annule les chance d'éffet négative.
 for.beemode.hard.desc=Réduit un peux les mutations mais augmentre la longévité du règne de 50%.
@@ -864,8 +872,8 @@ for.bees.species.vengeful=Vengeuse
 for.bees.species.vindictive=Vindicative
 for.bees.species.wintry=Hivernale
 
-for.bees.stock.pristine=Stock d'origine
 for.bees.stock.ignoble=Stock ignoble
+for.bees.stock.pristine=Stock d'origine
 
 for.chat.command.forestry.bee.desc=- %s : Commandes d'apiculture
 for.chat.command.forestry.bee.help=Commandes relative à l'apiculture.
@@ -1196,6 +1204,7 @@ for.circuit.managedInfernal=Ferme infernal
 for.circuit.managedPeat=Tourbière
 for.circuit.managedShroom=Champignonnière
 for.circuit.managedVegetable=Ferme de légumes
+for.circuit.managedEnder=Ferme du néant
 for.circuit.manualCereal=Ferme agricole
 for.circuit.manualCocoa=Plantation de cacao
 for.circuit.manualGourd=Ferme de courge
@@ -1275,30 +1284,30 @@ for.butterflies.species.nymphalidae.blueMorphoR=Morpho rhetenor bleu
 for.butterflies.species.nymphalidae.blueWing=Aile Bleue
 for.butterflies.species.nymphalidae.comma=Virgule
 for.butterflies.species.nymphalidae.dianaFritillary=Diana fritillaire
-for.butterflies.species.nymphalidae.glasswing=Glasswing
-for.butterflies.species.nymphalidae.glassyTiger=Glassy Tiger
-for.butterflies.species.nymphalidae.leopardLacewing=Leopard Lacewing
+for.butterflies.species.nymphalidae.glasswing=Greta oto
+for.butterflies.species.nymphalidae.glassyTiger=Parantica aglea
+for.butterflies.species.nymphalidae.leopardLacewing=Cethosia cyane 
 for.butterflies.species.nymphalidae.malachite=Malachite
 for.butterflies.species.nymphalidae.monarch=Monarque
-for.butterflies.species.nymphalidae.paintedBeauty=Painted Beauty
-for.butterflies.species.nymphalidae.postman=Postman
-for.butterflies.species.nymphalidae.speckledWood=Speckled Wood
-for.butterflies.species.nymphalidae.speckledWoodC=Canary Speckled Wood
-for.butterflies.species.nymphalidae.speckledWoodM=Madeiran Speckled Wood
-for.butterflies.species.papilionidae.emeraldPeacock=Emerald Peacock
-for.butterflies.species.papilionidae.swallowtailB=Black Swallowtail
-for.butterflies.species.papilionidae.swallowtailC=Citrus Swallowtail
-for.butterflies.species.papilionidae.swallowtailS=Spicebush Swallowtail
-for.butterflies.species.papilionidae.swallowtailT=Thoas Swallowtail
-for.butterflies.species.papilionidae.swallowtailZ=Zebra Swallowtail
-for.butterflies.species.pieridae.brimstone=Brimstone
-for.butterflies.species.pieridae.cabbageWhite=Cabbage White
-for.butterflies.species.pieridae.gozoraAzure=Gozora Azure
+for.butterflies.species.nymphalidae.paintedBeauty=Vanesse du chardon
+for.butterflies.species.nymphalidae.postman=Melpomène
+for.butterflies.species.nymphalidae.speckledWood=Tircis
+for.butterflies.species.nymphalidae.speckledWoodC=Tircis canarien
+for.butterflies.species.nymphalidae.speckledWoodM=Tircis madérois 
+for.butterflies.species.papilionidae.emeraldPeacock=Machaon émeraude
+for.butterflies.species.papilionidae.swallowtailB=Papillon du céleri
+for.butterflies.species.papilionidae.swallowtailC=Voilier des citronniers
+for.butterflies.species.papilionidae.swallowtailS=Voilier des épices
+for.butterflies.species.papilionidae.swallowtailT=Voilier géant 
+for.butterflies.species.papilionidae.swallowtailZ=Voilier zébré
+for.butterflies.species.pieridae.brimstone=Citron
+for.butterflies.species.pieridae.cabbageWhite=Piéride du chou 
+for.butterflies.species.pieridae.gozoraAzure=Mexicain azuré
 for.butterflies.species.pieridae.orangeTip=Anthocharis sara 
-for.butterflies.species.pieridae.palaenoSulphur=Palaeno Sulphur
+for.butterflies.species.pieridae.palaenoSulphur=Colias souffré
 for.butterflies.species.pieridae.postillion=Colias commun
-for.butterflies.species.pieridae.reseda=Eastern Bath White
-for.butterflies.species.pieridae.springAzure=Holly Blue
+for.butterflies.species.pieridae.reseda=Marbré vert oriental
+for.butterflies.species.pieridae.springAzure=Azuré des nerpruns 
 for.butterflies.species.saturniidae.atlas=Mite de l'Atlas
 
 for.gui.flutterlyzer=Analyseur de papillon
@@ -1385,36 +1394,42 @@ for.plugin.pipes.description=Ajoute le tuyau de transport d'apiculteur si l'apic
 for.plugin.ic2.description=Plugin de compatibilité pour IC2. Ajoute des moteurs électrique et des générateur pour la conversion d'énergie.
 for.plugin.natura.description=Plugin de compatibilité pour Natura. Permet la culture des pousses Natura.
 for.plugin.ee2.description=Plugin de compatibilité pour Equivalent Exchange 2. Active la branche d'abeille Omega. Exige que l'Apiculture soit permise.
+for.plugin.ee3.description=Plugin de compatibilité pour Equivalent Exchange 3.
 for.plugin.farmcraftory.description=Active la compatibilité avec FarmCraftory. Ajoute des cultures et des légumes à cultiver.
-for.plugin.undergroundBiomes.description=Active la compatibilité avec Underground Biomes. Ajoute des textures aux minerais Forestry.
+for.plugin.biomesoplenty.description=Plugin de compatibilité pour Biomes O Plenty. Permet la culture des pousses BoP.
+for.plugin.extrautilities.description=Plugin de compatibilité pour Extra Utilities. Permet la culture des lotus du néant.
+for.plugin.harvestcraft.description=Plugin de compatibilité pour HarvestCraft. Permet la culture des plantes et des arbres HarvestCraft.
+for.plugin.magicalcrops.description=Plugin de compatibilité pour Magical Crops.
+for.plugin.chisel.description=Plugin de compatibilité pour Chisel. Ajoute des blocs générés du monde aux sacs à dos.
+for.plugin.plantmegapack.description=Plugin de compatibilité pour Plant Mega Pack.
 for.plugin.witchery.description=Active la compatibilité avec Witchery. 
 for.plugin.agricraft.description=Active la compatibilité avec AgriCraft. 
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
 ###################################
-# Syntax:
+# Syntaxe:
 # for.bees.custom.<type>.<species>=Nouveau nom d'abeille personnalisé
 # for.trees.custom.<type>.<species>=Nouveau nom d'arbre personnalisé
 # Examples:
-# for.bees.custom.drone.forest=Forest Drone
-# for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
-# Beealyzer/Treealyzer syntax:
+# for.bees.custom.drone.forest=Ouvrière des forêts
+# for.trees.custom.pollen.darkOak=Nouveau nom du pollen de chêne noir
+# Syntaxe Beealyzer/Treealyzer:
 # for.bees.custom.beealyzer.<type>.<species>=Nouvelle espèce d'abeille personnalisé
 # for.trees.custom.treealyzer.<type>.<species>=Nouvelle espèce d'arbre personnalisé
 # Examples:
-# for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
-# for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
+# for.bees.custom.beealyzer.drone.forest=Nouveau nom des ouvrières des forêts utilisé par l'analyseur d'abeille
+# for.trees.custom.treealyzer.pollen.darkOak=Nouveau nom du pollen de chêne noir utilisé par l'analyseur d'arbre
 
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
 # Replaces forestry.allele.<adjective>
 #
-# Syntax:
+# Syntaxe:
 # forestry.allele.<category>.<adjective>=New custom adjective
 #
-# Available categories and [adjectives]:
+# catégories et [adjectifs] disponibles :
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
 # maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
 # flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
@@ -1439,7 +1454,7 @@ for.plugin.agricraft.description=Active la compatibilité avec AgriCraft.
 # for.tooltip.worker.<speed adjective> pour la vitesse de l'ouvrière.
 #
 # Example:
-# for.tooltip.worker.slowest=Slowest Worker
+# for.tooltip.worker.slowest=Ouvrière la plus lente
 
 ###################################
 # CUSTOM WOOD NAMES
