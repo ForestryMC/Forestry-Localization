@@ -191,6 +191,7 @@ for.gui.fertility=Fruchtb.
 for.gui.fireresist=Feuerfest
 for.gui.flowers=Blumen
 for.gui.flyer=Flieger
+for.gui.flyer.tooltip=Flieger
 for.gui.general=Allgemein
 forestry.allele.gigantic=Gigantisches
 for.gui.heat=Temperatur

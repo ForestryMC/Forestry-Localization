@@ -226,6 +226,7 @@ for.gui.fertility=번식력
 for.gui.fireresist=불연성
 for.gui.flowers=꽃 종류
 for.gui.flyer=우천활동
+for.gui.flyer.tooltip=우천활동
 for.gui.general=개체 정보
 forestry.allele.gigantic=초거대
 for.gui.heat=열

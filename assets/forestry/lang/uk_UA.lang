@@ -219,6 +219,7 @@ for.gui.fertility=Плодовитость
 for.gui.fireresist=Огнеупорность
 for.gui.flowers=Вид цветка
 for.gui.flyer=устойчивый летун
+for.gui.flyer.tooltip=устойчивый летун
 for.gui.general=Общий
 forestry.allele.gigantic=Гигантская
 for.gui.heat=Нагрев

@@ -219,6 +219,7 @@ for.gui.fertility=Fertility
 for.gui.fireresist=Fireproof
 for.gui.flowers=Flower Type
 for.gui.flyer=Tolerant Flyer
+for.gui.flyer.tooltip=Tolerant Flyer
 for.gui.general=General
 forestry.allele.gigantic=Gigantic
 for.gui.heat=Heat

@@ -239,6 +239,7 @@ for.gui.fertility=Fertilidade
 for.gui.fireresist=À Prova de Fogo
 for.gui.flowers=Tipo de Flor
 for.gui.flyer=Inseto Tolerante
+for.gui.flyer.tooltip=Inseto Tolerante
 for.gui.general=Geral
 forestry.allele.gigantic=Gigantesco
 for.gui.heat=Temepratura
