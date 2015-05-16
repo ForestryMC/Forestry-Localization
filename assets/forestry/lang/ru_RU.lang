@@ -1431,7 +1431,7 @@ for.plugin.agricraft.description=Плагин совместимости для 
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
-# maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# maturation: 	[slowest, slower, slow, normal, fast, faster, fastest]
 # flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
 #
 # size: 		[smallest, smaller, average, large, larger, largest]
@@ -1668,14 +1668,14 @@ forestry.allele.sappiness.high=Высокая
 forestry.allele.sappiness.higher=Очень высокая
 forestry.allele.sappiness.highest=Наивысшая
 
-forestry.allele.maturity.slowest=Очень медленное
-forestry.allele.maturity.slower=Медленное
-forestry.allele.maturity.slow=Неторопливое
-forestry.allele.maturity.normal=Обычное
-forestry.allele.maturity.average=Среднее
-forestry.allele.maturity.fast=Быстрое
-forestry.allele.maturity.faster=Очень быстрое
-forestry.allele.maturity.fastest=Наибыстрейшее
+forestry.allele.maturation.slowest=Очень медленное
+forestry.allele.maturation.slower=Медленное
+forestry.allele.maturation.slow=Неторопливое
+forestry.allele.maturation.normal=Обычное
+forestry.allele.maturation.average=Среднее
+forestry.allele.maturation.fast=Быстрое
+forestry.allele.maturation.faster=Очень быстрое
+forestry.allele.maturation.fastest=Наибыстрейшее
 
 forestry.allele.speed.slowest=Очень медленная
 forestry.allele.speed.slower=Медленная

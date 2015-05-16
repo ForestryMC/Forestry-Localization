@@ -1432,7 +1432,7 @@ for.plugin.agricraft.description=Active la compatibilité avec AgriCraft.
 #
 # catégories et [adjectifs] disponibles :
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
-# maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# maturation: 	[slowest, slower, slow, normal, fast, faster, fastest]
 # flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
 #
 # size: 		[smallest, smaller, average, large, larger, largest]

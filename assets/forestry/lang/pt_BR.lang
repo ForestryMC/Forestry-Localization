@@ -1421,7 +1421,7 @@ for.plugin.magicalcrops.description=Plugin de compatibilidade para o 'Magical Cr
 #
 # Available categories and [adjectives]:
 # speed: 
-# maturity: [slowest, slower, slow, normal, fast, faster, fastest]
+# maturation: [slowest, slower, slow, normal, fast, faster, fastest]
 # flowering: [slowest, slower, slow, normal, fast, faster, fastest, maximum]
 #
 # size: 

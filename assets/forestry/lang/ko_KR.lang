@@ -1408,7 +1408,7 @@ for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Add
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
-# maturity: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# maturation: 	[slowest, slower, slow, normal, fast, faster, fastest]
 # flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
 #
 # size: 		[smallest, smaller, average, large, larger, largest]
