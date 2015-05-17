@@ -11,12 +11,26 @@ for.beverage.effect.antidote=Gegengift
 for.chat.accesslocked=%s ist Eigentümer dieser Maschine und hat sie verschlossen.
 for.chat.cannotmemorizeagain=Du hast dir diese Information bereits gemerkt.
 
-for.chat.command.help.0=Format: '/%s <Befehl> <Parameter>'
-for.chat.command.help.1=Verfügbare Befehle:
-for.chat.command.help.2=- version : Versionsinformationen.
-for.chat.command.help.3=- plugins : Liste der Forestry-Plugins.
-for.chat.command.help.4=- plugins info <Plugin-Name>: Informationen zu einem Plugin.
+for.chat.command.aliases=Aliase: %s
+for.chat.command.list=Verfügbare Sub-Befehle:
+for.chat.command.permlevel=Berechtigungslevel: %s
 for.chat.command.noperms=Du hast nicht die Berechtigungen, um diesen Befehl zu nutzen.
+
+for.chat.command.forestry.help=Verschiedene Befehle für Forestry
+for.chat.command.forestry.format=Format: /%s <Sub-Befehl>
+
+for.chat.command.forestry.version.desc=- %s : Versionsinformationen
+for.chat.command.forestry.version.help=Gibt die aktuelle Version aus
+for.chat.command.forestry.version.format=Format: /%s
+
+for.chat.command.forestry.plugins.desc=- %s : Liste der Forestry-Plugins
+for.chat.command.forestry.plugins.help=Listet alle Forestry-Plugins auf. Grüne sind aktiv, rote deaktiviert.
+for.chat.command.forestry.plugins.format=Format: /%s
+
+for.chat.command.forestry.plugins.info.desc= - %s : Informationen zu einem bestimmten Plugin
+for.chat.command.forestry.plugins.info.help=Gibt Infomationen zu einem bestimmten Plugin aus
+for.chat.command.forestry.plugins.info.format=Format: /%s <Plugin-Name>
+
 
 for.chat.help=Gib '%s' für Hilfe ein.
 for.chat.memorizednote=Du merkst dir die Notiz und entsorgst das zerknüllte Stück Papier.
@@ -24,11 +38,31 @@ for.chat.plugins.error=Keine Informationen für das Plugin %s verfügbar.
 for.chat.version=Forestry %1$s für Minecraft %2$s (Aktuell: %3$s).
 
 for.circuit.dampener.1=Feuerdämpfer
-for.circuit.electric.boost.1=Boost I
-for.circuit.electric.boost.2=Boost II
+for.circuit.dampener.1.description.1=Reduziert maximalen Output auf 10 RF/t
+for.circuit.dampener.1.description.2=Erhält Treibstoff-Output
+for.circuit.electric.boost.1=Elektrischer Boost I
+for.circuit.electric.boost.1.description.1=Erhöht Output um 20 RF/t
+for.circuit.electric.boost.1.description.2=Erhöht Verbrauch um 7 EU/t
+for.circuit.electric.boost.2=Elektrischer Boost II
+for.circuit.electric.boost.2.description.1=Erhöht Output um 40 RF/t
+for.circuit.electric.boost.2.description.2=Erhöht Verbrauch um 15 EU/t
 for.circuit.electric.choke.1=Elektrische Drossel
-for.circuit.electric.efficiency.1=Effizienz
-for.circuit.usage.engineTin=In elektrischen Motoren
+for.circuit.electric.choke.1.description.1=Reduziert Output um 10 RF/t
+for.circuit.electric.choke.1.description.2=Reduziert Verbrauch um 2 EU/t
+for.circuit.electric.efficiency.1=Elektrische Effizienz
+for.circuit.electric.efficiency.1.description.1=Reduziert Verbrauch um 1 EU/t
+
+for.circuit.layout.dummy.name=Nicht verfügbar
+for.circuit.layout.dummy.usage=Nichts
+
+for.circuit.layout.engine.tin.name=Elektromotor
+for.circuit.layout.engine.tin.usage=In Elektromotoren
+
+for.circuit.layout.farms.managed.name=Automatische Farm
+for.circuit.layout.farms.managed.usage=Automatische Farmen
+
+for.circuit.layout.farms.manual.name=Manuelle Farm
+for.circuit.layout.farms.manual.usage=Manuelle Farmen
 
 for.errors.circuitMismatch.desc=Falsches Layout
 for.errors.circuitMismatch.help=Die Menge der Elektronenröhren stimmt nicht mit der Größe der Platine überein
@@ -40,12 +74,20 @@ for.errors.isRaining.desc=Regen
 for.errors.isRaining.help=Kann im Regen nicht arbeiten.
 for.errors.noCircuitBoard.desc=Keine Platine
 for.errors.noCircuitBoard.help=Platziere eine Platine um die gewählten Elektronenröhren aufzulöten
+for.errors.noCircuitLayout.desc=Keine Layouts gefunden
+for.errors.noCircuitLayout.help=Aufgrund der Spieleinstellungen sind keine Layouts verfügbar
 for.errors.noDisposal.desc=Abfallstau
 for.errors.noDisposal.help=Nicht genügend Platz um Abfall zwischenzulagern.
 for.errors.noDrone.desc=Keine Drone
 for.errors.noDrone.help=Zur Befruchtung wird noch eine Drone benötigt.
 for.errors.noEnergyNet.desc=Keine Elektrizität
 for.errors.noEnergyNet.help=In deiner Welt gibt es keine Elektrizität. (Installier IndustrialCraft².)
+for.errors.noPower.desc=Keine Energie
+for.errors.noPower.help=Diese Maschine benötigt RF zum Arbeiten.
+for.errors.noRedstone.desc=Kein Redstone
+for.errors.noRedstone.help=Diese Machine benötigt ein Redstone-Signal zum Funktionieren.
+for.errors.disabledRedstone.desc=Deaktiviert
+for.errors.disabledRedstone.help=Diese Maschine ist durch ein Redstone-Signal deaktiviert.
 for.errors.noFlower.desc=Keine Blumen
 for.errors.noFlower.help=Bewohner finden keine zu ihrer Art passenden Blumen.
 for.errors.noFuel.desc=Kein Treibstoff
@@ -66,10 +108,20 @@ for.errors.noSky.desc=Sicht blockiert
 for.errors.noSky.help=Sorge für freie Sicht nach oben zum Himmel.
 for.errors.noSpace.desc=Kein Lagerplatz
 for.errors.noSpace.help=Das Lager dieser Maschine muss geleert werden.
+for.errors.noSpaceTank.desc=Kein Platz im Tank
+for.errors.noSpaceTank.help=Leere den Flüssigkeitstank dieser Maschine.
 for.errors.noSpecimen.desc=Kein Proband
 for.errors.noSpecimen.help=Es ist kein Proband vorhanden, der analysiert werden könnte.
 for.errors.noStamps.desc=Keine Briefmarken
 for.errors.noStamps.help=Eine Handelsstation benötigt Briefmarken, um Handelsbriefe zu bezahlen.
+for.errors.noPaper.desc=Benötigt Papier
+for.errors.noPaper.help=Die Handelsstation benötigt mehr Papier, um Briefe zu versenden.
+for.errors.noStampsNoPaper.desc=Benötigt Briefmarken, Papier
+for.errors.noStampsNoPaper.help=Die Handelsstation benötigt mehr Papier und Briefmarken, um Briefe zu versenden.
+for.errors.noSupplies.desc=Benötigt Vorräte
+for.errors.noSupplies.help=Die Handelsstation benötigt mehr Vorräte zum Verschicken.
+for.errors.noTrade.desc=Kein Handel festgelegt
+for.errors.noTrade.help=Die Handelsstation benötigt Items zum Senden und Empfangen.
 for.errors.notAlphaNumeric.desc=Buchstaben und Zahlen
 for.errors.notAlphaNumeric.help=Der Name darf nur aus Buchstaben und Zahlen bestehen.
 for.errors.notDay.desc=Nicht Tag
@@ -101,6 +153,7 @@ for.flowers.mushrooms=Pilze
 for.flowers.nether=Nether
 for.flowers.vanilla=Blumen
 for.flowers.wheat=Getreide
+for.flowers.snow=Schnee
 
 fluid.bioethanol=Ethanol
 fluid.biomass=Biomasse
@@ -134,7 +187,6 @@ for.gui.alyzer.overview=Mögliche Analytik
 
 for.gui.area=Gebiet
 for.gui.arid=Trocken
-forestry.allele.normal=Durchschnittliches
 for.gui.beach=Strand
 
 for.gui.beealyzer.artificial=Gezüchtet
@@ -145,22 +197,6 @@ for.gui.beealyzer.mutations=Mögliche Mutationen
 for.gui.beealyzer.natural=Natürlicher Ursprung
 for.gui.beealyzer.produce=Mögliche Produkte
 for.gui.beealyzer.specialty=Mögliche Spezialitäten
-forestry.allele.tolerance.both1=Beides 1
-forestry.allele.tolerance.both2=Beides 2
-forestry.allele.tolerance.both3=Beides 3
-forestry.allele.tolerance.both4=Beides 4
-forestry.allele.tolerance.both5=Beides 5
-forestry.allele.tolerance.down1=Unten 1
-forestry.allele.tolerance.down2=Unten 2
-forestry.allele.tolerance.down3=Unten 3
-forestry.allele.tolerance.down4=Unten 4
-forestry.allele.tolerance.down5=Unten 5
-forestry.allele.tolerance.none=Nichts
-forestry.allele.tolerance.up1=Oben 1
-forestry.allele.tolerance.up2=Oben 2
-forestry.allele.tolerance.up3=Oben 3
-forestry.allele.tolerance.up4=Oben 4
-forestry.allele.tolerance.up5=Oben 5
 for.gui.beealyzer=Bienalyzer
 
 for.gui.blank=Leer
@@ -168,6 +204,7 @@ for.gui.cave=Höhle
 for.gui.climate=Klima
 for.gui.cold=Kalt
 for.gui.crop=Feldfrucht
+for.gui.currentBiome=Aktuelles Biom
 for.gui.currentOutput=Aktuelle Leistung
 for.gui.damp=Feucht
 for.gui.derelict=Verlassen
@@ -176,16 +213,11 @@ for.gui.didyouknow=Wusstest du schon
 for.gui.diurnal=Tagaktiv
 for.gui.drones=Dronen
 for.gui.effect=Effekt
-forestry.allele.lifespan.elongated=Verlängerte
 for.gui.empty=Leer
 for.gui.emptysocket=Leerer Steckplatz
 for.gui.energy=Energie
 for.gui.environment=Umgebung
-for.gui.escritoire.probe=Untersuche Exemplare
 for.gui.evolution=Evolution
-forestry.allele.fast=Schnelle
-forestry.allele.faster=Schnellere
-forestry.allele.fastest=Schnellste
 for.gui.fecundated=Gepaart
 for.gui.fertility=Fruchtb.
 for.gui.fireresist=Feuerfest
@@ -196,9 +228,6 @@ for.gui.general=Allgemein
 forestry.allele.gigantic=Gigantisches
 for.gui.heat=Temperatur
 for.gui.hellish=Höllish
-forestry.allele.high=Hohe
-forestry.allele.higher=Höhere
-forestry.allele.highest=Höchste
 for.gui.hot=Heiß
 for.gui.humidity=Feuchtigk.
 for.gui.humidtol=Fcht.Tol.
@@ -207,17 +236,54 @@ for.gui.icy=Eisig
 for.gui.imprinter.cheater=(Du Schummler!)
 for.gui.imprinter.name=Gendrucker
 for.gui.inactive=Inaktiv
-forestry.allele.large=Groß
-forestry.allele.larger=Größer
-forestry.allele.largest=Größte
 for.gui.life=Leben
 for.gui.lifespan=Lebensd.
-forestry.allele.lifespan.longer=Längere
-forestry.allele.lifespan.longest=Längste
-forestry.allele.lifespan.long=Lange
-forestry.allele.low=Geringe
-forestry.allele.lower=Geringere
-forestry.allele.lowest=Geringste
+for.gui.normal=Normal
+
+for.gui.escritoire.probe=Untersuche Exemplare
+for.gui.escritoire.instructions=Platziere eine genetische Probe im Zentrum, um zu beginnen. Platziere mehr in den linken Slots und untersuche diese zur Unterstützung.
+
+# Write as many notes as you like, just set the count correctly.
+
+for.gui.escritoire.notes.level1.count=3
+for.gui.escritoire.notes.level1.1=Auf meinen Reisen habe ich ein kurioses Exemplar gefunden.
+for.gui.escritoire.notes.level1.2=Dieser eigenartige Geselle bedarf weiterer Erforschung.
+for.gui.escritoire.notes.level1.3=Hocherfreut wollte ich sofort mit der Forschung beginnen.
+
+for.gui.escritoire.notes.level2.count=4
+for.gui.escritoire.notes.level2.1=Ich war über seine wundersame Natur erstaunt.
+for.gui.escritoire.notes.level2.2=Das Exemplar zuckte, während ich es genauer unter die Lupe nahm.
+for.gui.escritoire.notes.level2.3=Seltsame Markierungen auf der Unterseite machten mich neugierig.
+for.gui.escritoire.notes.level2.4=Das wird das Gespräch der ganzen Vereinigung, sobald ich fertig bin.
+
+for.gui.escritoire.notes.level3.count=4
+for.gui.escritoire.notes.level3.1=Nach etwas Leerlauf kam ich auf eine interessante neue Idee.
+for.gui.escritoire.notes.level3.2=Nach dieser Entdeckung kratze ich mir am Kopf und verstand die Welt nicht mehr.
+for.gui.escritoire.notes.level3.3=Ich traute meinen Augen nicht, aber da war es.
+for.gui.escritoire.notes.level3.4=Ein zuvor übersehenes Pünktchen ließ mich die Klassifikation des Exemplares hinterfragen.
+
+for.gui.escritoire.notes.level4.count=7
+for.gui.escritoire.notes.level4.1=Mein frustriertes Geschrei muss im gesamten Haus zuhören gewesen sein.
+for.gui.escritoire.notes.level4.2=In Raserei und am Rande des Wahnsinns zeriss ich alle Notizen!
+for.gui.escritoire.notes.level4.3=Das... ergibt einfach überhaubt keinen Sinn!
+for.gui.escritoire.notes.level4.4=Das kann nicht sein! Das ist bisher noch nie passiert!
+for.gui.escritoire.notes.level4.5=Der Vorschlaghammer machte kaum eine Beule, also rief ich nach der Kettensäge.
+for.gui.escritoire.notes.level4.6=Ich schwöre, es sah mich mit seinen grausamen kleinen Knopfaugen an.
+for.gui.escritoire.notes.level4.7=Höre ich da Gelächter? Lachst du mich aus? Wer ist hier am Lachen?
+
+for.gui.escritoire.notes.success.count=5
+for.gui.escritoire.notes.success.1=HEUREKA!
+for.gui.escritoire.notes.success.2=Wunderbar! Mein Name wird in die Geschichte eingehen!
+for.gui.escritoire.notes.success.3=Meine Kollegen werden beeindruckt sein!
+for.gui.escritoire.notes.success.4=Ich werde jeden in der Vereinigung grün vor Neid machen!
+for.gui.escritoire.notes.success.5=Juchhe!
+
+for.gui.escritoire.notes.failure.count=5
+for.gui.escritoire.notes.failure.1=Es ist alles verloren.
+for.gui.escritoire.notes.failure.2=Ich opfere meine Notizen dem Feuer.
+for.gui.escritoire.notes.failure.3=Wieso? Es fing alles so gut an....
+for.gui.escritoire.notes.failure.4=Fehlgeschlagen. Schon wieder.
+for.gui.escritoire.notes.failure.5=Nicht schon wieder...
 
 for.gui.mail.foreveryattached=für jeweils
 for.gui.mail.from=Von
@@ -226,6 +292,8 @@ for.gui.mail.nothingtotrade=Handelsstation hat nichts anzubieten.
 for.gui.mail.notrader=Es existiert keine Handelsstation mit diesem Namen.
 for.gui.mail.pleasesend=Bitte sende
 for.gui.mail.to=An
+for.gui.mail.receive=Empfangen
+for.gui.mail.send=Senden
 
 for.gui.maxenergy=Maximale Energie
 for.gui.maxenergyreceive=Maximale Aufnahme
@@ -234,9 +302,6 @@ for.gui.metabolism=Metabolis.
 for.gui.nether=Nether
 for.gui.nocturnal=Nachtaktiv
 for.gui.noeffect=Kein Effekt
-for.gui.normal=Normal
-forestry.allele.normal=Normal
-forestry.allele.lifespan.normal=Normale
 for.gui.owner=Besitzer
 for.gui.page=Seite
 
@@ -256,7 +321,7 @@ for.gui.pipe.filter.pure_nocturnal=Reinrassig nachtaktive
 for.gui.pipe.filter.queen=Königinnen
 
 for.gui.plains=Ebenen
-for.gui.pollinatiom=Pollenvert.
+for.gui.pollination=Bestäubungsgeschw.
 for.gui.princesses=Prinz.
 for.gui.produce=Produktion
 for.gui.queens=Königinnen
@@ -265,19 +330,59 @@ for.gui.rule.private=Verschlossen
 for.gui.rule.restricted=Eingeschränkt
 for.gui.rule.shared=Öffentlich
 
-forestry.allele.lifespan.shortened=Verkürzte
-forestry.allele.lifespan.shorter=Kürzere
+forestry.allele.normal=Normal
+forestry.allele.average=Durschschnittlich
+
+forestry.allele.slowest=Langsamste
+forestry.allele.slower=Langsamere
+forestry.allele.slow=Langsame
+forestry.allele.fast=Schnelle
+forestry.allele.faster=Schnellere
+forestry.allele.fastest=Schnellste
+
+forestry.allele.smallest=Niedrigste
+forestry.allele.smaller=Niedriger
+forestry.allele.small=Niedrig
+forestry.allele.large=Groß
+forestry.allele.larger=Größer
+forestry.allele.largest=Größte
+
+forestry.allele.lowest=Geringste
+forestry.allele.lower=Geringere
+forestry.allele.low=Geringe
+forestry.allele.high=Hohe
+forestry.allele.higher=Höhere
+forestry.allele.highest=Höchste
+
+forestry.allele.tolerance.both1=Beides 1
+forestry.allele.tolerance.both2=Beides 2
+forestry.allele.tolerance.both3=Beides 3
+forestry.allele.tolerance.both4=Beides 4
+forestry.allele.tolerance.both5=Beides 5
+forestry.allele.tolerance.down1=Unten 1
+forestry.allele.tolerance.down2=Unten 2
+forestry.allele.tolerance.down3=Unten 3
+forestry.allele.tolerance.down4=Unten 4
+forestry.allele.tolerance.down5=Unten 5
+forestry.allele.tolerance.none=Nichts
+forestry.allele.tolerance.up1=Oben 1
+forestry.allele.tolerance.up2=Oben 2
+forestry.allele.tolerance.up3=Oben 3
+forestry.allele.tolerance.up4=Oben 4
+forestry.allele.tolerance.up5=Oben 5
+
 forestry.allele.lifespan.shortest=Kürzeste
+forestry.allele.lifespan.shorter=Kürzere
 forestry.allele.lifespan.short=Kurze
+forestry.allele.lifespan.shortened=Verkürzte
+forestry.allele.lifespan.normal=Normale
+forestry.allele.lifespan.elongated=Verlängerte
+forestry.allele.lifespan.long=Lange
+forestry.allele.lifespan.longer=Längere
+forestry.allele.lifespan.longest=Längste
 
 for.gui.size=Größe
 for.gui.slots=%USED/%SIZE Slots
-forestry.allele.slow=Langsame
-forestry.allele.slower=Langsamere
-forestry.allele.slowest=Langsamste
-forestry.allele.small=Niedrig
-forestry.allele.smaller=Niedriger
-forestry.allele.smallest=Niedrigste
 for.gui.species=Art
 for.gui.speciescount=Völker
 for.gui.speed=Geschwind.
@@ -289,7 +394,7 @@ for.gui.triple=Dreifache
 for.gui.unknown=Unbekannt
 for.gui.warm=Warm
 for.gui.water=Wasser
-for.gui.worker=Arbeiter
+for.gui.worker=Arbeiterin
 
 for.hints.accesscontrol.desc=Der Besitzer einer Maschine kann drei Zugriffslevel einstellen: öffentlich, eingeschränkt oder verschlossen.
 for.hints.accesscontrol.tag=Zugriffskontrolle
@@ -362,10 +467,8 @@ for.hints.shortmead.tag=Lust auf 'nen Drink?
 for.hints.usesofash.desc=Asche kann benutzt werden, um Dünger zu produzieren, und ist eine Voraussetzung für pechartigen Torf.
 for.hints.usesofash.tag=Nutze die Asche!
 
-for.item.crated.adj.name=Kiste mit
-for.item.crated.unknown.name=Kiste unbekannten Inhalts
-
-for.layout.engine.tin=Elektromotor
+for.item.crated.adj=Kiste mit
+for.item.crated.unknown=Kiste mit unbekanntem Inhalt
 
 for.no=Nein
 
@@ -400,8 +503,6 @@ for.trigger.mailBuffer=Postpuffer
 for.trigger.missingDrone=Keine Drone
 for.trigger.missingQueen=Keine Königin oder Prinzessin
 for.trigger.noFrames=Keine Rähmchen
-
-for.usage.engine.tin=In Elektromotoren
 
 for.yes=Ja
 
@@ -444,21 +545,27 @@ item.for.beeswax.name=Bienenwachs
 item.for.beverage.meadCurative.name=Heilsamer Met
 item.for.beverage.meadShort.name=Met
 
-item.for.canEthanol.name=Büchse Bioethanol
-item.for.canBiomass.name=Büchse Biomasse
-
 item.for.biomeFinder.name=Habitatsucher
 item.for.bituminousPeat.name=Pechartiger Torf
 item.for.brokenBronzePickaxe.name=Zerbrochene Spitzhacke
 item.for.brokenBronzeShovel.name=Zerbrochene Schaufel
 item.for.bronzePickaxe.name=Überlebensspitzhacke
 item.for.bronzeShovel.name=Überlebensschaufel
-item.for.bucketEthanol.name=Eimer Bioethanol
-item.for.bucketBiomass.name=Eimer Biomasse
 item.for.builderBag.name=Handwerkerrucksack
 item.for.builderBagT2.name=Gewobener Handwerkerrucksack
 
+item.for.bucketEthanol.name=Eimer mit Bioethanol
+item.for.bucketBiomass.name=Eimer mit Biomasse
+item.for.bucketHoney.name=Eimer mit Honig
+item.for.bucketIce.name=Eimer mit Zerstoßenem Eis
+item.for.bucketJuice.name=Eimer mit Fruchtsaft
+item.for.bucketSeedoil.name=Eimer mit Samenkernöl
+item.for.bucketGlass.name=Eimer mit geschmolzemen Glas
+item.for.bucketShortMead.name=Eimer mit Met
+
 item.for.canEmpty.name=Büchse
+item.for.canEthanol.name=Büchse Bioethanol
+item.for.canBiomass.name=Büchse Biomasse
 item.for.canFuel.name=Büchse Diesel
 item.for.canHoney.name=Büchse Honig
 item.for.canIce.name=Büchse Zerstoßenes Eis
@@ -594,6 +701,7 @@ item.for.thermionicTubes.ex-8.name=Elektronenröhre (Gummi
 item.for.thermionicTubes.ex-9.name=Elektronenröhre (Smaragd))
 item.for.thermionicTubes.ex-10.name=Elektronenröhre (Apatit)
 item.for.thermionicTubes.ex-11.name=Elektronenröhre (Lapislazuli)
+item.for.thermionicTubes.ex-12.name=Elektronenröhre (Ender)
 
 item.for.treealyzer.name=Baumanalyser
 
@@ -648,8 +756,14 @@ tile.for.resources.0.name=Apatiterz
 tile.for.resources.1.name=Kupfererz
 tile.for.resources.2.name=Zinnerz
 
+tile.for.resourceStorage.0.name=Apatitblock
+tile.for.resourceStorage.1.name=Kupferblock
+tile.for.resourceStorage.2.name=Zinnblock
+tile.for.resourceStorage.3.name=Bronzeblock
+
 tile.for.soil.0.name=Humus
 tile.for.soil.1.name=Moorerde
+tile.for.soil.2.name=Torf
 
 tile.for.stained.0.name=Weiß getöntes Glas
 tile.for.stained.1.name=Orange getöntes Glas
@@ -685,10 +799,12 @@ forestry.allele.effect.creeper=Creeper
 forestry.allele.effect.drunkard=Betrunken
 forestry.allele.effect.exploration=Erforscher
 forestry.allele.effect.glacial=Überfrieren
+forestry.allele.effect.fertile=Fruchtbar
 forestry.allele.effect.heroic=Heroisch
 forestry.allele.effect.ignition=Entzündlich
 forestry.allele.effect.misanthrope=Endend
 forestry.allele.effect.miasmic=Giftig
+forestry.allele.effect.mycophilic=Mykophil
 forestry.allele.effect.none=Nichts
 forestry.allele.effect.radioactive=Radioakt.
 forestry.allele.effect.reanimation=Wiederbelebung
@@ -715,6 +831,7 @@ for.bees.hybrid=%PRIMARY-%SECONDARYer Hybrid
 
 for.bees.species.austere=Herb
 for.bees.species.avenging=Ahnend
+for.bees.species.boggy=Moorig
 for.bees.species.common=Gemein
 for.bees.species.cultivated=Kultiviert
 for.bees.species.darkened=Geschwärzt
@@ -737,6 +854,7 @@ for.bees.species.majestic=Majestätisch
 for.bees.species.marshy=Morastig
 for.bees.species.meadows=Wiesig
 for.bees.species.merry=Froh
+for.bees.species.miry=Sumpfig
 for.bees.species.modest=Bescheiden
 for.bees.species.monastic=Klösterlich
 for.bees.species.noble=Nobel
@@ -744,8 +862,10 @@ for.bees.species.omega=Letzt
 for.bees.species.phantasmal=Trügerisch
 for.bees.species.reddened=Gerötet
 for.bees.species.rural=Ländlich
+for.bees.species.farmerly=Bäuerlich
+for.bees.species.agrarian=Agrarisch
 for.bees.species.secluded=Abgelegen
-for.bees.species.sinsister=Unheimlich
+for.bees.species.sinister=Unheimlich
 for.bees.species.spectral=Spektral
 for.bees.species.steadfast=Standhaft
 for.bees.species.tipsy=Beschwipst
@@ -760,23 +880,57 @@ for.bees.species.wintry=Winterlich
 for.bees.stock.ignoble=Unedle Abstammung
 for.bees.stock.pristine=Makellose Abstammung
 
-for.chat.bees.command.beekeeping.error=Ein Bienenzuchtmodus namens '%s' ist nicht verfügbar.
-for.chat.bees.command.beekeeping.set=Bienenzuchtmodus auf %s gesetzt.
-for.chat.bees.command.help.0=Format: '/%s <Befehl> <Parameter>'
-for.chat.bees.command.help.1=Verfügbare Befehle:
-for.chat.bees.command.help.2=- list [<Welt-#>]: Listet momentanen sowie verfügbare Bienenzuchtmodi auf.
-for.chat.bees.command.help.3=- info <Modusname> : Informationen zu einem Bienenzuchtmodus.
-for.chat.bees.command.help.4=- set [<Welt-#>] <Modusname>: Stellt den Bienenzuchtmodus für diese Welt ein.
-for.chat.bees.command.help.5=- save [<Welt-#>] <Spielername>: Speichert Bienenzuchtstatistiken eines bestimmten Spielers.
-for.chat.bees.command.mode.current=Aktuell: %MODE (#%WORLD)
-for.chat.bees.command.mode.help=Verfügbare Modi: %s
-for.chat.bees.command.stats.error1=Log-Datei konnte nicht kreiert werden. Statistik-Speichern fehlgeschlagen.
-for.chat.bees.command.stats.error2=Konnte Log-Datei nicht beschreiben. Statistik-Speichern fehlgeschlagen.
-for.chat.bees.command.stats.error3=Schreiboperation hatte einen Fehler. Statistik-Speichern fehlgeschlagen.
-for.chat.bees.command.stats.saved=Statistiken für Spieler %s gespeichert.
+for.chat.command.forestry.bee.desc=- %s : Bienenzuchtbefehle
+for.chat.command.forestry.bee.help=Befehle bezüglich Bienenzucht.
+for.chat.command.forestry.bee.format=Format: /%s <Sub-Befehl>
 
+for.chat.command.forestry.bee.give.desc=- %s: Bienen Geben
+for.chat.command.forestry.bee.give.help=Gib einem Spieler Drohnen, Prinzessinnen, Königinnen oder Larven.
+for.chat.command.forestry.bee.give.format=Format: /%s <Arten-Name> <Bienen-Typ> [<Spielername>]
+for.chat.command.forestry.bee.give.available=Verfügbare Bienentypen: %s
+for.chat.command.forestry.bee.give.given=%1$s wurde eine %2$se %3$ gegeben.
+
+for.chat.command.forestry.bee.mode.desc=- %s : Bienenzuchtmodus-Befehle
+for.chat.command.forestry.bee.mode.help=Befehle bezüglich Bienenzuchtmodi.
+for.chat.command.forestry.bee.mode.format=Format: /%s <Sub-Befehl>
+
+for.chat.command.forestry.bee.mode.info.desc=- %s : Bienenzuchtmodus-Info
+for.chat.command.forestry.bee.mode.info.help=Informationen über den aktuellen sowie verfügbare Bienenzuchtmodi.
+for.chat.command.forestry.bee.mode.info.format=Format: /%s <Modusname>
+
+for.chat.command.forestry.bee.mode.set.desc=- %s : Bienenzuchtmodus einstellen
+for.chat.command.forestry.bee.mode.set.help=Setzt den aktuellen Bienenzuchtmodus für diese Welt.
+for.chat.command.forestry.bee.mode.set.format=Format: /%s [<welt-#>] <Modusname>
+
+for.chat.command.forestry.bee.save.desc=- %s : Bienenzuchtstatistik speichern
+for.chat.command.forestry.bee.save.help=Speichert Bienenzuchtstatistik in einer Datei.
+for.chat.command.forestry.bee.save.format=Format: /%s [<Spielername>]
+for.chat.command.forestry.bee.save.stats=Bienenzuchtstatistik für %s über %s:
+
+for.chat.command.forestry.mode.info.error=Es ist kein Modus namens '%s' verfügbar
+for.chat.command.forestry.mode.info.current=Aktuell: %1$s (#%2$s)
+for.chat.command.forestry.mode.info.available=Verfügbare Modi: %s
+
+for.chat.command.forestry.mode.set.success=Modus auf %s gesetzt.
+for.chat.command.forestry.mode.set.error=Ein Modus namens '%s' ist nicht verfügbar.
+
+for.chat.command.forestry.stats.save.error1=Log-Datei konnte nicht erstellt werden. Statistik-Speichern fehlgeschlagen.
+for.chat.command.forestry.stats.save.error2=Konnte Log-Datei nicht beschreiben. Statistik-Speichern fehlgeschlagen.
+for.chat.command.forestry.stats.save.error3=Schreiboperation hatte einen Fehler. Statistik-Speichern fehlgeschlagen.
+for.chat.command.forestry.stats.save.error4=Keine Statistik gefunden
+for.chat.command.forestry.stats.save.saved=Statistik für Spieler %s gespeichert.
+for.chat.command.forestry.stats.save.key.discovered=Entdeckt
+for.chat.command.forestry.stats.save.key.discovered.symbol=X
+for.chat.command.forestry.stats.save.key.blacklisted=Verboten
+for.chat.command.forestry.stats.save.key.blacklisted.symbol=V
+for.chat.command.forestry.stats.save.key.notCounted=Nicht zur Speziessumme hinzuzählend
+for.chat.command.forestry.stats.save.key.notCounted.symbol=NC
+for.chat.command.forestry.stats.save.mode=Modus: %s
+
+for.description.speciesAgrarian="Stinkt nicht so wie die anderen und erledigt seinen Job, eh?"|Myrathi, Bienenzüchter
 for.description.speciesAustere=Gefährlich und unberechenbar; Imker sind darauf hingewiesen, sich ihr nur in voller Ausrüstung zu nähern. |Beekeeping 101
 for.description.speciesAvenging="Das Mauerwerk meines Heims begann zu zerfallen, ich hörte, wie das Dach über mir brach, aber jenes war mir gleich! Ich spürte die Stiche von tausend kleinen Insekten auf meinem Handschuh, während ich mir die Königin nahm." |Anonym
+for.description.speciesBoggy="Ich sah, wie eine Kuh von einer dieser Bienen gestochen wurde. Sekunden später wucherten Pilze überall aus ihr heraus! ... Ein Foto? Ähm, habe ich nicht."|"Sir" Sengir, Verrückter
 for.description.speciesCommon=Wird meist als Anfang der hohen Kunst der Bienenzucht verstanden. |Beekeeping 101
 for.description.speciesCultivated=Schnell arbeitende Biene; Denkt, dass alles außer Oper unter ihrer Würde ist. |Beekeeping 101
 for.description.speciesDarkened=Angezogen von der Macht von alchemisch gebundener Materie war diese Spezies eine mächtige Energiequelle. |Lexikon der Bienenzucht
@@ -785,6 +939,7 @@ for.description.speciesDiligent=Meist als Meilenstein für den Industriellen Zwe
 for.description.speciesEdenic="Ich habe wütend in meinem Notizbuch herumekritzelt, Bilder malend, die in mein Gehirn sickerten, während ich diesen Insekten zusah, wie sie ihren komischen kleinen Tanz vollführten." |Beekeeping 101
 for.description.speciesEnded="Ich habe eines dieser eremitischen Insekten im Bienenstock eines Dorfbewohners gefunden. Es war starr, offensichtlich wurde es seiner Welt entrissen und sehnt sich nach einem Fragment von ihr." |Beekeeping 101
 for.description.speciesExotic="Mein fieber schüttelte mich und meine Imkerausrüstung war nass vor Schweiß, aber mit zitternden Händen gelang es mir, eine davon aus meinem Bienenstock zu ziehen." |Beekeeping 101
+for.description.speciesFarmerly=Häufig zu sehen in weiten Bereichen der Prärie, der Kornkammer der Nationen.|Beekeeping 101
 for.description.speciesFiendish=Erfahrene Nether-Imker haben von schwerwiegenden Angriffen ihrer Bienen berichtete. Sie sollten daher mit Vorsicht behandelt werden. |Beekeeping 101
 for.description.speciesForest=Eine der häfigsten Plagen in Wäldern; Meist gutmütig. |Beekeeping 101
 for.description.speciesFrugal=Generationen von Bienen haben in der Sonne vor sich hin geschmort, um diese Spezies zu erzeugen. |Beekeeping 101
@@ -799,6 +954,7 @@ for.description.speciesMajestic="Lasst ihre Köpfe rollen!"|Königin der Herzen
 for.description.speciesMarshy="Ernsthaft? Pilze? Raus hier!" |Beekeeping 101
 for.description.speciesMeadows=Sucht v.a. Wiesen in normalen Klimaten heim; Meist gutmütig. |Beekeeping 101
 for.description.speciesMerry="Hohoho!" |Frohe Biene
+for.description.speciesMiry="Wie können Bienen überhaupt Pilze bestäuben?"|Mezz, Junior-Bienenzüchter
 for.description.speciesModest=Das heiße und aride Klima hat diese Biene gezwungen, sich so anzupassen, dass sie nicht mehr in freundlicherem Klima überleben. |Beekeeping 101
 for.description.speciesMonastic="Ich blieb ernst und sagte ihm: 'Nicht nur eine Prinzessin, sondern noch ein ganzer Haufen Smaragde für eine poplige Drone? Das ist Wucher!'" |Beekeeping 101
 for.description.speciesNoble="Es gibt keine noblere Beschäftigung als jene, eine neue Biene zu züchten." |Binnie, Imker
@@ -821,7 +977,7 @@ for.description.speciesWintry=Häufiger, aber winterfester Bienenstamm; Zucht in
 
 for.genus.bees.agrarian=Landwirtschaftlich
 for.genus.bees.austere=Herb
-for.genus.bees.boggy=Sumpfig
+for.genus.bees.boggy=Moorig
 for.genus.bees.common=Gemein
 for.genus.bees.end=End
 for.genus.bees.festive=Festlich
@@ -835,13 +991,8 @@ for.genus.bees.reddened=Gerötet
 for.genus.bees.tropical=Tropisch
 for.genus.bees.vengeful=Nachtragend
 
-for.genus.bees.honey.Branch=Einfache Bienen
-for.genus.bees.honey.description=Eine ganz normale Honigbiene. Aber was ist normal?
-for.genus.bees.noble.description=Edel sei die Biene, hilfreich und gut; denn das allein unterscheidet sie von allen anderen!
-for.genus.bees.industrious.description=Industrielle Bienen
-for.genus.bees.agrarian.description=Sie fühlen sich auf dem Land am wohlsten
-
-item.for.beeQueenGE.name=Unbekannte Königin
+item.for.beePrincessGE.name=Prinzessin
+item.for.beeQueenGE.name=Königin
 
 tile.for.alveary.0.name=Bienenstock
 tile.for.alveary.1.name=Bienenstockeingang
@@ -863,6 +1014,7 @@ tile.for.beehives.4.name=Tropischer Bienenstock
 tile.for.beehives.5.name=Ender-Bienenstock
 tile.for.beehives.6.name=Winterlicher Bienenstock
 tile.for.beehives.7.name=Marschiger Bienenstock
+tile.for.beehives.8.name=Schwarmstock
 
 tile.for.candle.dyed.lit.name=Brennende gefärbte Kerze
 tile.for.candle.dyed.stump.name=Nicht brennende gefärbte Kerze
@@ -877,14 +1029,35 @@ tile.for.stump.0.name=Kerzenstumpf
 
 for.arboriculture.effect.none=Nichts
 
-for.chat.trees.command.help.0=Format: '/%s <Befehl> <Parameter>'
-for.chat.trees.command.help.1=Verfügbare Befehle:
-for.chat.trees.command.help.2=- list [<Welt-#>]: Listet momentanen sowie verfügbare Baumzuchtmodi auf.
-for.chat.trees.command.help.3=- info <Modusname> : Informationen zu einem Baumzuchtmodus.
-for.chat.trees.command.help.4=- set [<Welt-#>] <Modusnameame>: Stellt den Baumzuchtmodus für diese Welt ein.
-for.chat.trees.command.help.5=- save [<Welt-#>] <Spielername>: Speichert Bienenzuchtstatistiken eines bestimmten Spielers.
-for.chat.trees.command.treekeeping.error=Ein Baumzuchtmodus namens '%s' ist nicht verfügbar.
-for.chat.trees.command.treekeeping.set=Baumzuchtmodus auf %s gesetzt.
+for.chat.command.forestry.tree.desc=- %s : Baumzuchtbefehle
+for.chat.command.forestry.tree.help=Befehle bezüglich Baumzucht.
+for.chat.command.forestry.tree.format=Format: /%s <Sub-Befehl>
+
+for.chat.command.forestry.tree.spawnTree.desc=- %s : Baum erschaffen
+for.chat.command.forestry.tree.spawnTree.help=Erschafft einen Baum nahe des Spielers.
+for.chat.command.forestry.tree.spawnTree.format=Format:/%s <Arten-Name> [<Spielername>]
+
+for.chat.command.forestry.tree.spawnForest.desc=- %s : Wald erschaffen
+for.chat.command.forestry.tree.spawnForest.help=Erschafft einen kleinen Wald nahe des Spielers.
+for.chat.command.forestry.tree.spawnForest.format=Format:/%s <Arten-Name> [<Spielername>]
+
+for.chat.command.forestry.tree.mode.desc=- %s : Baumzuchtmodus-Befehle
+for.chat.command.forestry.tree.mode.help=Befehle bezüglich Baumzuchtmodi.
+for.chat.command.forestry.tree.mode.format=Format: /%s <Sub-Befehl>
+
+for.chat.command.forestry.tree.mode.info.desc=- %s : Baumzuchtmodus-Info
+for.chat.command.forestry.tree.mode.info.help=Informationen über den aktuellen sowie verfügbare Baumzuchtmodi.
+for.chat.command.forestry.tree.mode.info.format=Format: /%s <Modusname>
+
+for.chat.command.forestry.tree.mode.set.desc=- %s : Baumzuchtmodus einstellen
+for.chat.command.forestry.tree.mode.set.help=Setzt den aktuellen Baumzuchtmodus für diese Welt.
+for.chat.command.forestry.tree.mode.set.format=Format: /%s [<welt-#>] <Modusname>
+
+for.chat.command.forestry.tree.save.desc=- %s : Baumzuchtstatistik speichern
+for.chat.command.forestry.tree.save.help=Speichert Baumzuchtstatistik in einer Datei.
+for.chat.command.forestry.tree.save.format=Format: /%s [<Spielername>]
+
+for.chat.command.forestry.tree.save.stats=Baumzucht-Statistik für %s über %s:
 
 for.description.treeBirch=Verbreitete Birke, welche für gewöhnlich von niedrigerem Wuchs ist. |Codex Lignum
 for.description.treeCherry=Kleiner Baum. Trägt in seiner natürlichen Form Kirschen, die sich erst einem Reifevorgang unterziehen müssen. |Codex Lignum
@@ -912,6 +1085,7 @@ for.fruits.plum=Pflaume
 for.fruits.walnut=Walnuss
 
 for.gui.family=Familie
+for.gui.fireproof=Feuerfest
 for.gui.fruits=Früchte
 for.gui.girth=Stamm
 for.gui.growth=Wachstum
@@ -921,7 +1095,7 @@ for.gui.native=Boden
 for.gui.saplings=Setzlinge
 for.gui.sappiness=Saftigkeit
 for.gui.supports=Unterst.
-for.gui.tolerates=Toleriert
+for.gui.tolerated=Toleriert
 for.gui.treealyzer.help=Platziere einen Setzling und füge Honig oder Honigtau als Katalysator hinzu
 for.gui.treealyzer=Baumanalyser
 for.gui.yield=Ertrag
@@ -937,6 +1111,8 @@ for.trees.grammar.pollen.type=pollen
 for.trees.grammar.pollen=%SPECIES%TYPE
 for.trees.grammar.sapling.type=setzling
 for.trees.grammar.sapling=%SPECIES%TYPE
+for.trees.grammar.leaves.type=blätter
+for.trees.grammar.leaves=%SPECIES%TYPE
 
 for.trees.hybrid=Hybrid: %PRIMARY-%SECONDARY
 
@@ -971,137 +1147,53 @@ for.trees.species.wenge=Wenge
 for.trees.species.whitePoplar=Silberpappel
 for.trees.species.whiteWillow=Silberweide
 for.trees.species.yellowMeranti=Meranti
+for.trees.species.ipe=Ipé
+for.trees.species.padauk=Padouk
+for.trees.species.cocobolo=Cocobolo
+for.trees.species.zebrawood=Urunday
+
+for.fences.grammar=%TYPEholzzaun
+for.log.grammar=%TYPEholz
+for.planks.grammar=%TYPEholzbretter
+for.slab.grammar=%TYPEholzstufe
+for.stairs.grammar=%TYPEholztreppe
+
+for.trees.woodType.larch=Lärchen
+for.trees.woodType.teak=Teak
+for.trees.woodType.acacia=Akazien
+for.trees.woodType.lime=Limetten
+for.trees.woodType.chestnut=Kastanien
+for.trees.woodType.wenge=Wengen
+for.trees.woodType.baobab=Baobab
+for.trees.woodType.sequoia=Mammutbaum
+for.trees.woodType.kapok=Kapok
+for.trees.woodType.ebony=Eben
+for.trees.woodType.mahogany=Mahagoni
+for.trees.woodType.balsa=Balsa
+for.trees.woodType.willow=Weiden
+for.trees.woodType.walnut=Walnuss
+for.trees.woodType.greenheart=Grünherz
+for.trees.woodType.cherry=Kirsch
+for.trees.woodType.mahoe=Mahoe
+for.trees.woodType.poplar=Pappel
+for.trees.woodType.palm=Palm
+for.trees.woodType.papaya=Papaya
+for.trees.woodType.pine=Kiefern
+for.trees.woodType.plum=Pflaumen
+for.trees.woodType.maple=Ahorn
+for.trees.woodType.citrus=Zitrus
+for.trees.woodType.giganteum=Riesenmammutbaum
+for.trees.woodType.ipe=Ipé
+for.trees.woodType.padauk=Padauk
+for.trees.woodType.cocobolo=Cocobolo
+for.trees.woodType.zebrawood=Urunday
+
+tile.for.fireproof=%s (Feuerfest)
 
 item.for.grafter.name=Gartenschere
 item.for.grafterProven.name=Bewährte Gartenschere
 
 tile.for.arboriculture.0.name=Truhe des Arboristen
-
-tile.for.fences.0.name=Lärchenholzzaun
-tile.for.fences.1.name=Teakholzzaun
-tile.for.fences.2.name=Akazienholzzaun
-tile.for.fences.3.name=Limettenholzzaun
-tile.for.fences.4.name=Kastanienholzzaun
-tile.for.fences.5.name=Wengenholzzaun
-tile.for.fences.6.name=Baobabholzzaun
-tile.for.fences.7.name=Mammutbaumholzzaun
-tile.for.fences.8.name=Kapokholzzaun
-tile.for.fences.9.name=Ebenholzzaun
-tile.for.fences.10.name=Mahagoniholzzaun
-tile.for.fences.11.name=Balsaholzzaun
-tile.for.fences.12.name=Weidenholzzaun
-tile.for.fences.13.name=Walnussholzzaun
-tile.for.fences.14.name=Grünherzholzzaun
-tile.for.fences.15.name=Kirschholzzaun
-tile.for.fences.16.name=Mahoe-Holzzaun
-tile.for.fences.17.name=Pappelholzzaun
-tile.for.fences.18.name=Palmholzzaun
-tile.for.fences.19.name=Papayaholzzaun
-tile.for.fences.20.name=Kiefernholzzaun
-tile.for.fences.21.name=Pflaumenholzzaun
-tile.for.fences.22.name=Ahornholzzaun
-tile.for.fences.23.name=Zitrusholzzaun
-
-tile.for.log.0.name=Lärchenholz
-tile.for.log.1.name=Teakholz
-tile.for.log.2.name=Akazienholz
-tile.for.log.3.name=Limettenholz
-tile.for.log.4.name=Kastanienholznholz
-tile.for.log.5.name=Wengenholz
-tile.for.log.6.name=Baobabholz
-tile.for.log.7.name=Mammutbaumholz
-tile.for.log.8.name=Kapokholz
-tile.for.log.9.name=Ebenholz
-tile.for.log.10.name=Mahagoniholz
-tile.for.log.11.name=Balsaholz
-tile.for.log.12.name=Weidenholz
-tile.for.log.13.name=Walnussholz
-tile.for.log.14.name=Grünherzholz
-tile.for.log.15.name=Kirschholz
-tile.for.log.16.name=Mahoe-Holz
-tile.for.log.17.name=Pappelholz
-tile.for.log.18.name=Palmholz
-tile.for.log.19.name=Papayaholz
-tile.for.log.20.name=Kiefernholz
-tile.for.log.21.name=Pflaumenholz
-tile.for.log.22.name=Ahornholz
-tile.for.log.23.name=Zitrusholz
-tile.for.log.24.name=Riesenmammutbaumholz
-
-tile.for.planks.0.name=Lärchenholzbretter
-tile.for.planks.1.name=Teakholzbretter
-tile.for.planks.2.name=Akazienholzbretter
-tile.for.planks.3.name=Limettenholzbretter
-tile.for.planks.4.name=Kastanienholzbretter
-tile.for.planks.5.name=Wengenholzbretter
-tile.for.planks.6.name=Baobabholzbretter
-tile.for.planks.7.name=Mammutbaumholzbretter
-tile.for.planks.8.name=Kapokholzbretter
-tile.for.planks.9.name=Ebenholzbretter
-tile.for.planks.10.name=Mahagoniholzbretter
-tile.for.planks.11.name=Balsaholzbretter
-tile.for.planks.12.name=Weidenholzbretter
-tile.for.planks.13.name=Walnussholzbretter
-tile.for.planks.14.name=Grünherzholzbretter
-tile.for.planks.15.name=Kirschholzbretter
-tile.for.planks.16.name=Mahoe-Holzbretter
-tile.for.planks.17.name=Pappelholzbretter
-tile.for.planks.18.name=Palmholzbretter
-tile.for.planks.19.name=Papayaholzbretter
-tile.for.planks.20.name=Kiefernholzbretter
-tile.for.planks.21.name=Pflaumenholzbretter
-tile.for.planks.22.name=Ahornholzbretter
-tile.for.planks.23.name=Zitrusholzbretter
-
-tile.for.slab.0.name=Lärchenholzstufe
-tile.for.slab.1.name=Teakholzstufe
-tile.for.slab.2.name=Akazienholzstufe
-tile.for.slab.3.name=Limettenholzstufe
-tile.for.slab.4.name=Kastanienholzstufe
-tile.for.slab.5.name=Wengenholzstufe
-tile.for.slab.6.name=Baobabholzstufe
-tile.for.slab.7.name=Mammutbaumholzstufe
-tile.for.slab.8.name=Kapokholzstufe
-tile.for.slab.9.name=Ebenholzstufe
-tile.for.slab.10.name=Mahagoniholzstufe
-tile.for.slab.11.name=Balsaholzstufe
-tile.for.slab.12.name=Weidenholzstufe
-tile.for.slab.13.name=Walnussholzstufe
-tile.for.slab.14.name=Grünherzholzstufe
-tile.for.slab.15.name=Kirschholzstufe
-tile.for.slab.16.name=Mahoe-Holzstufe
-tile.for.slab.17.name=Pappelholzstufe
-tile.for.slab.18.name=Palmholzstufe
-tile.for.slab.19.name=Papayaholzstufe
-tile.for.slab.20.name=Kiefernholzstufe
-tile.for.slab.21.name=Pflaumenholzstufe
-tile.for.slab.22.name=Ahornholzstufe
-tile.for.slab.23.name=Zitrusholzstufe
-
-tile.for.stairs.0.name=Lärchenholztreppe
-tile.for.stairs.1.name=Teakholztreppe
-tile.for.stairs.2.name=Akazienholztreppe
-tile.for.stairs.3.name=Limettenholztreppe
-tile.for.stairs.4.name=Kastanienholztreppe
-tile.for.stairs.5.name=Wengenholztreppe
-tile.for.stairs.6.name=Baobabholztreppe
-tile.for.stairs.7.name=Mammutbaumholztreppe
-tile.for.stairs.8.name=Kapokholztreppe
-tile.for.stairs.9.name=Ebenholztreppe
-tile.for.stairs.10.name=Mahagoniholztreppe
-tile.for.stairs.11.name=Balsaholztreppe
-tile.for.stairs.12.name=Weidenholztreppe
-tile.for.stairs.13.name=Walnussholztreppe
-tile.for.stairs.14.name=Grünherzholztreppe
-tile.for.stairs.15.name=Kirschholztreppe
-tile.for.stairs.16.name=Mahoe-Holztreppe
-tile.for.stairs.17.name=Pappelholztreppe
-tile.for.stairs.18.name=Palmholztreppe
-tile.for.stairs.19.name=Papayaholztreppe
-tile.for.stairs.20.name=Kiefernholztreppe
-tile.for.stairs.21.name=Pflaumenholztreppe
-tile.for.stairs.22.name=Ahornholztreppe
-tile.for.stairs.23.name=Zitrusholztreppe
 
 tile.for.saplingGE.0.name=Unbekannter Setzling
 tile.for.leaves.0.name=Blätter
@@ -1117,6 +1209,7 @@ for.circuit.managedInfernal=Infernalisches Feld
 for.circuit.managedPeat=Torfmoor
 for.circuit.managedShroom=Pilzfeld
 for.circuit.managedVegetable=Gemüsefeld
+for.circuit.managedEnder=Enderfarm
 for.circuit.manualCereal=Manuelles Getreidefeld
 for.circuit.manualCocoa=Manuelles Kakaofeld
 for.circuit.manualGourd=Kürbisbeet
@@ -1135,6 +1228,7 @@ for.errors.noFertilizer.help=Diese Pflanzen benötigen Dünger zum Wachsen.
 for.errors.noLiquid.desc=Kein Wasser
 for.errors.noLiquid.help=Aufgrund von langer Trockenheit mangelt es den Pflanzen an Wasser
 
+for.gui.farm.title=Farm
 for.gui.hydr.heat=Durch Hitze
 for.gui.hydr.humid=Durch Feuchtigkeit
 for.gui.hydr.overall=Insgesamt
@@ -1158,15 +1252,10 @@ for.hints.manualfarms.tag=Manuelle Farmen
 for.hints.valve.desc=Fast alle Farmen benötigen Wasser. Durchlassventile ermöglichen die Zufuhr von jenem.
 for.hints.valve.tag=Wasserversorgung
 
-for.layout.farms.managed=Automatischer Anbau
-for.layout.farms.manual=Manueller Anbau
 
 for.trigger.lowFertilizer=Wenig Dünger
 for.trigger.lowLiquid=Wenig Wasser
 for.trigger.lowSoil=Wenig Boden
-
-for.usage.farms.managed=Automatische Farm
-for.usage.farms.manual=Manuelle Farm
 
 tile.for.ffarm.0.name=Farmblock
 tile.for.ffarm.2.name=Getriebebox für die Farm
@@ -1180,6 +1269,14 @@ tile.for.mushroom.1.name=Pilz
 ####################
 # LEPIDOPTEROLOGY
 ####################
+
+for.chat.command.forestry.butterfly.desc=- %s : Schmetterlingsbefehle
+for.chat.command.forestry.butterfly.help=Befehle bezüglich Schmetterlingen
+for.chat.command.forestry.butterfly.format=Format: /%s <Sub-Befehl>
+
+for.chat.command.forestry.butterfly.kill.desc=- %s: Alle Schmetterlinge töten
+for.chat.command.forestry.butterfly.kill.help=Tötet alle Schmetterlinge in geladenen Chunks
+for.chat.command.forestry.butterfly.kill.format=Format: /%s [<dimensions#>]
 
 for.butterflies.hybrid=Hybrid: %PRIMARY-%SECONDARY
 
@@ -1236,11 +1333,20 @@ tile.for.lepidopterology.0.name=Truhe des Lepidopterologen
 ####################
 
 for.chat.mail.already_mailed=Man kann den Brief nicht nochmal versenden.
-for.chat.mail.command.help.0=Format: '/%s <Befehl> <Parameter>'
-for.chat.mail.command.help.1=Verfügbare Befehle:
-for.chat.mail.command.help.2=- trades : Eine Liste aller Handelsstationen.
-for.chat.mail.command.help.3=- virtualize <Handelsstationsname>: Schaltet den Virtualisierungsmodus für die Handelsstation um.
-for.chat.mail.command.no_tradestation=Es wurde keine Handelsstation mit dem Namen '%s' gefunden.
+
+for.chat.command.forestry.mail.desc=- %s : Postsystembefehle
+for.chat.command.forestry.mail.help=Verschiedene Befehle bezüglich des Postsystems
+for.chat.command.forestry.mail.format=Format: /%s <Sub-Befehl>
+
+for.chat.command.forestry.mail.trades.desc=- %s : Eine Liste aller Handelsstationen
+for.chat.command.forestry.mail.trades.help=Listet alle Handelsstationen und ihre verfügbaren Angebote auf.
+for.chat.command.forestry.mail.trades.format=Format: /%s
+
+for.chat.command.forestry.mail.virtualize.desc=- %s : Virtuellen Modus (de-)aktievieren
+for.chat.command.forestry.mail.virtualize.help=(De-)Aktiviert den Virtuellen Modus für eine bestimmte Handelsstation. In diesem Modus verbraucht sie keine Items.
+for.chat.command.forestry.mail.virtualize.format=Format: /%s <Handelsstationsname>
+for.chat.command.forestry.mail.virtualize.no_tradestation=Keine Station mit dem Namen '%s' gefunden.
+for.chat.command.forestry.mail.virtualize.set=Virtualisierung für '%s' wurde auf %s gesetzt.
 
 for.chat.mail.insufficient_buffer=Die Handelsstation ist bereits voll.
 for.chat.mail.insufficient_offer=Die Handelsstation verlangt mehr.
@@ -1273,11 +1379,42 @@ item.for.catalogue.name=Katalog
 
 item.PipeItemsPropolis.name=Bienenrohr
 
+####################
+# PLUGINS
+####################
+for.plugin.core.description=Grundlegende Mechaniken für Forestry. Von allen Plugins benötigt.
+for.plugin.fluids.description=Beinhaltet Flüssigkeiten, Flüssigkeitsblöcke sowie Flüssigkeitscontainer.
+for.plugin.apiculture.description=Beinhaltet Bienen, Bienenzucht und Bienenprodukte. Beeinflust Weltgenerierung.
+for.plugin.arboriculture.description=Beinhaltet zusätzliche Baumspezies und ihre Produkte.
+for.plugin.energy.description=Beinhaltet verschiedene RF-Motoren.
+for.plugin.factory.description=Beinhaltet unterschiedliche Maschinen zur Fertigung, Herstellung und Verarbeitung von Produkten.
+for.plugin.farming.description=Beinhaltet automatisches Farmen und Ernten einer Vielzahl von Produkten.
+for.plugin.food.description=Beinhaltet Nahrungsmittel.
+for.plugin.lepidopterology.description=Schmetterlinge. Schick.
+for.plugin.mail.description=Beinhaltet Forestry's Post- und Handelssystem.
+for.plugin.storage.description=Beinhaltet Rucksäcke und Kisten.
+
+for.plugin.buildcraft6.description=Kompatibilitätsplugin für BuildCraft 6.
+for.plugin.pipes.description=Beinhaltet das Bienenrohr wenn das Bienenzucht-Plugin aktiviert und BuildCraft 6 präsent ist.
+for.plugin.ic2.description=Kompatibilitätsplugin für IC2. Beinhaltet den Elektromotor und Generator für Energieumwandlung.
+for.plugin.natura.description=Kompatibilitätsplugin für Natura. Erlaubt Natura-Setzlinge in Farmen.
+for.plugin.ee2.description=Kompatibilitätsplugin für Equivalent Exchange 2. Aktiviert die Omega-Gattung von Bienen. Benötigt das Bienenzucht-Plugin.
+for.plugin.ee3.description=Kompatibilitätsplugin für Equivalent Exchange 3.
+for.plugin.farmcraftory.description=Kompatibilitätsplugin für FarmCraftory. Erlaubt Feldfrüchte in Farmen.
+for.plugin.biomesoplenty.description=Kompatibilitätsplugin für Biomes O' Plenty. Erlaubt BoP-Setzlinge in Farmen.
+for.plugin.extrautilities.description=Kompatibilitätsplugin für Extra Utilities. Erlaubt Enderlilien in Farmen.
+for.plugin.harvestcraft.description=Kompatibilitätsplugin für HarvestCraft. Erlaubt Pflanzen und Bäume von HarvestCraft in Farmen.
+for.plugin.magicalcrops.description=Kompatibilitätsplugin für Magical Crops.
+for.plugin.chisel.description=Kompatibilitätsplugin für Chisel. Erlaubt das Lagern der generierten Blöcke in Rucksäcken.
+for.plugin.plantmegapack.description=Kompatibilitätsplugin für Plant Mega Pack.
+for.plugin.witchery.description=Kompatibilitätsplugin für Witchery.
+for.plugin.agricraft.description=Kompatibilitätsplugin für AgriCraft.
+
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
 ###################################
 # Syntax:
-# for.bees.custom.<type>.<species>=New custom name
+# for.bees.custom.<type>.<species>=New custom bee name
 # for.trees.custom.<type>.<species>=New custom tree name
 # Examples:
 # for.bees.custom.drone.forest=Forest Drone
@@ -1288,6 +1425,52 @@ item.PipeItemsPropolis.name=Bienenrohr
 # Examples:
 # for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
 # for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
+
+###################################
+# CUSTOM ALLELE ADJECTIVES
+###################################
+# Replaces forestry.allele.<adjective>
+#
+# Syntax:
+# forestry.allele.<category>.<adjective>=New custom adjective
+#
+# Available categories and [adjectives]:
+# speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
+# maturation: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
+#
+# size: 		[smallest, smaller, average, large, larger, largest]
+# height: 		[smallest, smaller, average, large, larger, largest, gigantic]
+# territory:	[average, large, larger, largest]
+#
+# saplings: 	[lowest, lower, low, average, high, higher, highest]
+# yield: 		[lowest, lower, low, average, high, higher, highest]
+# sappiness:	[lowest, lower, low, average, high, higher, highest]
+#
+# Examples:
+# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
+# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
+# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
+
+###################################
+# CUSTOM TOOLTIPS
+###################################
+# Available custom tooltips:
+# for.tooltip.worker.<speed adjective> for bee worker speed.
+#
+# Example:
+# for.tooltip.worker.slowest=Slowest Worker
+
+###################################
+# CUSTOM WOOD NAMES
+###################################
+#
+# Examples:
+# tile.for.stairs.4.name=Chestnut Stairs
+# tile.for.planks.8.name=Kapok Wood Planks
+# tile.for.slab.5.name=Wenge Wood Slab
+# tile.for.log.10.name=Mahogany Wood
+# tile.for.fences.0.name=Larch Fence
 
 for.trees.custom.sapling.acacia=Akaziensetzling
 for.trees.custom.sapling.appleOak=Apfeleichensetzling
@@ -1307,6 +1490,7 @@ for.trees.custom.sapling.silverLime=Silberlindensetzling
 for.trees.custom.sapling.sweetChestnut=Edelkastaniensetzling
 for.trees.custom.sapling.wenge=Wengensetzling
 for.trees.custom.sapling.whiteWillow=Silberweidensetzling
+for.trees.custom.sapling.ipe=Ipé-Setzling
 
 for.trees.custom.germling.acacia=Akazienkeimling
 for.trees.custom.germling.appleOak=Apfeleichenkeimling
@@ -1326,6 +1510,7 @@ for.trees.custom.germling.silverLime=Silberlindenkeimling
 for.trees.custom.germling.sweetChestnut=Edelkastanienkeimling
 for.trees.custom.germling.wenge=Wengenkeimling
 for.trees.custom.germling.whiteWillow=Silberweidenkeimling
+for.trees.custom.germling.ipe=Ipé-Keimling
 
 for.trees.custom.pollen.acacia=Akazienpollen
 for.trees.custom.pollen.appleOak=Apfeleichenpollen
@@ -1345,6 +1530,7 @@ for.trees.custom.pollen.silverLime=Silberlindenpollen
 for.trees.custom.pollen.sweetChestnut=Edelkastanienpollen
 for.trees.custom.pollen.wenge=Wengenpollen
 for.trees.custom.pollen.whiteWillow=Silberweidenpollen
+for.trees.custom.pollen.ipe=Ipé-Pollen
 
 for.trees.custom.blossom.acacia=Akazienblüten
 for.trees.custom.blossom.appleOak=Apfeleichenblüten
@@ -1364,3 +1550,36 @@ for.trees.custom.blossom.silverLime=Silberlindenblüten
 for.trees.custom.blossom.sweetChestnut=Edelkastanienblüten
 for.trees.custom.blossom.wenge=Wengenblüten
 for.trees.custom.blossom.whiteWillow=Silberweidenblüten
+for.trees.custom.blossom.ipe=Ipé-Blüten
+
+for.trees.custom.leaves.acacia=Akazienblätter
+for.trees.custom.leaves.appleOak=Apfeleichenblätter
+for.trees.custom.leaves.blueMahoe=Mahoe-Blätter
+for.trees.custom.leaves.commonWalnut=Walnussblätter
+for.trees.custom.leaves.darkOak=Schwarzeichenblätter
+for.trees.custom.leaves.datePalm=Dattelpalmenblätter
+for.trees.custom.leaves.desertAcacia=Kameldornakazienblätter
+for.trees.custom.leaves.grandidierBaobab=Afrikanische Baobabblätter
+for.trees.custom.leaves.hillCherry=Japanische Blütenkirschblätter
+for.trees.custom.leaves.lemon=Zitronenblätter
+for.trees.custom.leaves.mundaneLarch=Europäische Lärchenblätter
+for.trees.custom.leaves.plum=Pflaumenblätter
+for.trees.custom.leaves.redSpruce=Rotfichtenblätter
+for.trees.custom.leaves.silverBirch=Hängebirkenblätter
+for.trees.custom.leaves.silverLime=Silberlindenblätter
+for.trees.custom.leaves.sweetChestnut=Edelkastanienblätter
+for.trees.custom.leaves.wenge=Wengenblätter
+for.trees.custom.leaves.whiteWillow=Silberweidenblätter
+for.trees.custom.leaves.ipe=Ipé-Blätter
+
+tile.for.stairs.16.name=Mahoe-Holztreppe
+tile.for.planks.16.name=Mahoe-Holzbretter
+tile.for.slab.16.name=Mahoe-Holzstufe
+tile.for.log.16.name=Mahoe-Holz
+tile.for.fences.16.name=Mahoe-Holzzaun
+
+tile.for.stairs.25.name=Ipé-Holztreppe
+tile.for.planks.25.name=Ipé-Holzbretter
+tile.for.slab.25.name=Ipé-Holzstufe
+tile.for.log.25.name=Ipé-Holz
+tile.for.fences.25.name=Ipé-Holzzaun
