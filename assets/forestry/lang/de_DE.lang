@@ -467,7 +467,7 @@ for.hints.shortmead.tag=Lust auf 'nen Drink?
 for.hints.usesofash.desc=Asche kann benutzt werden, um Dünger zu produzieren, und ist eine Voraussetzung für pechartigen Torf.
 for.hints.usesofash.tag=Nutze die Asche!
 
-for.item.crated.adj=Kiste mit
+for.item.crated.grammar=Kiste mit %s
 for.item.crated.unknown=Kiste mit unbekanntem Inhalt
 
 for.no=Nein
