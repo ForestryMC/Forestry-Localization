@@ -456,7 +456,7 @@ for.hints.shortmead.tag=Pegue sua bebida energética!
 for.hints.usesofash.desc=Cinzas podem ser usadas para criar fertilizante e é necessária para refinar turfa betuminosa.
 for.hints.usesofash.tag=Use suas cinzas!!
 
-for.item.crated.adj=Encaixotado
+for.item.crated.grammar=Encaixotado %s
 for.item.crated.unknown=Caixote com conteúdo desconhecido
 
 for.no=Não

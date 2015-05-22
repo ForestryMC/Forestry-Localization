@@ -463,7 +463,7 @@ for.hints.shortmead.tag=Une boisson énergisante ?
 for.hints.usesofash.desc=La cendre est le produit des Moteurs à tourbe et est utilisée pour créer la tourbe bitumineuse.
 for.hints.usesofash.tag=Utilisez la cendre !
 
-for.item.crated.adj=Cageot
+for.item.crated.grammar=Cageot %s
 for.item.crated.unknown=Contenu du cageot inconnu
 
 for.no=Non

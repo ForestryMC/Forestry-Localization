@@ -398,7 +398,7 @@ for.hints.shortmead.tag=에너지드링크를 얻었어!
 for.hints.usesofash.desc=Ash can be used to create fertilizer and is required to refine bituminous peat.
 for.hints.usesofash.tag=재를 사용하자!
 
-for.item.crated.adj=상자에 저장된
+for.item.crated.grammar=상자에 저장된 %s
 for.item.crated.unknown=정체불명의 아이템을 담고 있는 상자
 
 for.layout.engine.tin=전기 엔진

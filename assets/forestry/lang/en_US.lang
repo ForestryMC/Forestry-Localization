@@ -467,7 +467,7 @@ for.hints.shortmead.tag=Get your energy drink!
 for.hints.usesofash.desc=Ash can be used to create fertilizer and is required to refine bituminous peat.
 for.hints.usesofash.tag=Use your ash!
 
-for.item.crated.adj=Crated
+for.item.crated.grammar=Crated %s
 for.item.crated.unknown=Crate with unknown content
 
 for.no=No
