@@ -1409,6 +1409,7 @@ for.plugin.chisel.description=Compatibility plugin for Chisel. Adds worldgen blo
 for.plugin.plantmegapack.description=Compatibility plugin for Plant Mega Pack.
 for.plugin.witchery.description=Compatibility plugin for Witchery.
 for.plugin.agricraft.description=Compatibility plugin for AgriCraft.
+for.plugin.enderIO.description=Compatibility plugin for EnderIO.
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
