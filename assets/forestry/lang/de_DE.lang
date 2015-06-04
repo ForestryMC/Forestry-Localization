@@ -1409,6 +1409,7 @@ for.plugin.chisel.description=Kompatibilitätsplugin für Chisel. Erlaubt das La
 for.plugin.plantmegapack.description=Kompatibilitätsplugin für Plant Mega Pack.
 for.plugin.witchery.description=Kompatibilitätsplugin für Witchery.
 for.plugin.agricraft.description=Kompatibilitätsplugin für AgriCraft.
+for.plugin.enderIO.description=Kompatibilitätsplugin für EnderIO.
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
