@@ -1410,6 +1410,7 @@ for.plugin.plantmegapack.description=Plant Mega Pack兼容组件。
 for.plugin.witchery.description=巫术Witchery兼容组件。
 for.plugin.agricraft.description=AgriCraft兼容组件。
 for.plugin.enderIO.description=EnderIO兼容组件。
+for.plugin.immersiveengineering=Immersive Engineering兼容组件。
 
 ####################
 # CONFIG FILES
