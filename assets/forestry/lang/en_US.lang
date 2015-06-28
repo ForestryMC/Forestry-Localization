@@ -1410,6 +1410,7 @@ for.plugin.plantmegapack.description=Compatibility plugin for Plant Mega Pack.
 for.plugin.witchery.description=Compatibility plugin for Witchery.
 for.plugin.agricraft.description=Compatibility plugin for AgriCraft.
 for.plugin.enderIO.description=Compatibility plugin for EnderIO.
+for.plugin.immersiveengineering=Compatibility plugin for Immersive Engineering.
 
 ####################
 # CONFIG FILES
