@@ -674,7 +674,7 @@ item.for.refractoryWax.name=耐火石蜡
 
 item.for.researchNote.name=%s之笔记
 item.for.royalJelly.name=蜂王浆
-item.for.scoop.name=捕蜂网
+item.for.scoop.name=捕虫网
 item.for.solderingIron.name=电烙铁
 
 item.for.stamps.1n.name=邮票（1n）
@@ -1096,7 +1096,7 @@ for.gui.saplings=树苗
 for.gui.sappiness=多汁
 for.gui.supports=载体
 for.gui.tolerated=结果
-for.gui.treealyzer.help=放入树苗并提供蜂蜜或者蜂蜜滴作为催化剂。
+for.gui.treealyzer.help=放入树苗并提供蜂蜜滴或蜂蜜汁者作为催化剂。
 for.gui.treealyzer=林木分析仪
 for.gui.yield=产量
 
@@ -1316,7 +1316,7 @@ for.butterflies.species.pieridae.springAzure=冬青小灰蝶
 for.butterflies.species.saturniidae.atlas=乌柏巨蚕蛾
 
 for.gui.flutterlyzer=蝴蝶分析仪
-for.gui.flutterlyzer.help=提供蜂蜜底或蜂蜜汁来安抚这些躁动的蝴蝶。
+for.gui.flutterlyzer.help=提供蜂蜜滴或蜂蜜汁来安抚这些躁动的蝴蝶。
 for.gui.loot.butterfly=蝴蝶可能的产物
 for.gui.loot.caterpillar=毛毛虫可能的产物
 
