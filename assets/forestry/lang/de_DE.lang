@@ -10,6 +10,8 @@ for.beverage.effect.antidote=Gegengift
 
 for.chat.accesslocked=%s ist Eigentümer dieser Maschine und hat sie verschlossen.
 for.chat.cannotmemorizeagain=Du hast dir diese Information bereits gemerkt.
+for.chat.memorizednote=Du merkst dir die Notiz und entsorgst das zerknüllte Stück Papier.
+for.chat.memorizednote2=Du fühlst dich zuversichtlicher, %1$s mit %2$s zu kreuzen, um %3$s zu erhalten!
 
 for.chat.command.aliases=Aliase: %s
 for.chat.command.list=Verfügbare Sub-Befehle:
@@ -33,7 +35,6 @@ for.chat.command.forestry.plugins.info.format=Format: /%s <Plugin-Name>
 
 
 for.chat.help=Gib '%s' für Hilfe ein.
-for.chat.memorizednote=Du merkst dir die Notiz und entsorgst das zerknüllte Stück Papier.
 for.chat.plugins.error=Keine Informationen für das Plugin %s verfügbar.
 for.chat.version=Forestry %1$s für Minecraft %2$s (Aktuell: %3$s).
 
@@ -1410,6 +1411,7 @@ for.plugin.plantmegapack.description=Kompatibilitätsplugin für Plant Mega Pack
 for.plugin.witchery.description=Kompatibilitätsplugin für Witchery.
 for.plugin.agricraft.description=Kompatibilitätsplugin für AgriCraft.
 for.plugin.enderIO.description=Kompatibilitätsplugin für EnderIO.
+for.plugin.immersiveengineering=Kompatibilitätsplugin für Immersive Engineering.
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
