@@ -1025,6 +1025,30 @@ tile.for.candle.stump.name=Unlit Candle
 tile.for.stump.0.name=Candle Stump
 
 ####################
+# MULTIBLOCK
+####################
+
+for.multiblock.error.notConnected=The MultiBlock is not connected to a controller. This could be due to lag, or a bug. If the problem persists, try breaking and re-placing the block.
+for.multiblock.error.invalid.interior=%d, %d, %d - (%s) Block is not valid for use in the machine's interior.
+for.multiblock.error.invalid.part=The multiblock part @ %d, %d, %d is incompatible with machines of type %s.
+for.multiblock.error.small=The multiblock is too small. It must be at least %d X, %d Y, %d Z.
+for.multiblock.error.large.x=The multiblock is too large, it may be at most %d blocks in the X dimension.
+for.multiblock.error.large.y=The multiblock is too large, it may be at most %d blocks in the Y dimension.
+for.multiblock.error.large.z=The multiblock is too large, it may be at most %d blocks in the Z dimension.
+for.multiblock.error.small.x=The multiblock is too small, it must be at least %d blocks in the X dimension.
+for.multiblock.error.small.y=The multiblock is too small, it must be at least %d blocks in the Y dimension.
+for.multiblock.error.small.z=The multiblock is too small, it must be at least %d blocks in the Z dimension.
+
+for.multiblock.alveary.error.needSlabs=The Alveary must have wooden slabs on top.
+for.multiblock.alveary.error.needSpace=The alveary needs space around the top for the bees to enter and exit.
+for.multiblock.alveary.error.needPlainOnTop=The Alveary must have plain alveary blocks for the top level.
+for.multiblock.alveary.error.needPlainInterior=The Alveary must have plain alveary blocks for the interior.
+
+for.multiblock.farm.error.needPlainBand=The Farm must have plain farm blocks for the third level.
+for.multiblock.farm.error.needPlainInterior=The Farm must have plain farm blocks for the interior.
+for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept power and do work.
+
+####################
 # ARBORICULTURE
 ####################
 
@@ -1473,6 +1497,8 @@ for.config.tweaks.permissions.comment=Enables access restrictions on forestry ma
 for.config.tweaks.version.check=Version Check
 for.config.tweaks.version.check.comment=Enables update and version check notice.
 
+for.config.tweaks.farms.size=Farm Size
+for.config.tweaks.farms.size.comment=Sets the size multiplier of the farmland.
 for.config.tweaks.farms.square=Square Farms
 for.config.tweaks.farms.square.comment=Makes farms use a square layout instead of a diamond one.
 for.config.tweaks.farms.enderlily=EnderLily Farm Support
