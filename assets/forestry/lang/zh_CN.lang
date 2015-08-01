@@ -1543,7 +1543,7 @@ for.config.beekeeping.second.princess.comment=后代出现第二只公主蜂百�
 for.config.beekeeping.flowers.accepted=采蜜对象
 for.config.beekeeping.flowers.accepted.comment=能够使蜜蜂工作的鲜花类型。按下面格式进行添加：'modid:name:meta'，按行分割。也可使用通配格式'modid:name'。
 for.config.beekeeping.flowers.plantable=可播种鲜花
-for.config.beekeeping.flowers.plantable.comment=蜜蜂可以播种的鲜花类型。能够播种的鲜花都会自动视为采蜜对象。添加格式：'weight:modid:name:meta'，按行分割。其中'weight'的值介于0~1之间。也可使用通配格式'weight:modid:name'。
+for.config.beekeeping.flowers.plantable.comment=蜜蜂可以播种的鲜花类型。能够播种的鲜花都会自动视为采蜜对象。添加格式：'modid:name:meta'，按行分割。也可使用通配格式'modid:name'。
 
 for.config.species.blacklist=物种黑名单
 for.config.species.blacklist.comment=以uid为识别将物品加入黑名单中，按行添加。
