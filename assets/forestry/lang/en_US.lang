@@ -216,6 +216,7 @@ for.gui.drones=Drones
 for.gui.effect=Effect
 for.gui.empty=Empty
 for.gui.emptysocket=Empty Socket
+for.gui.socket.remove=Removable with a Soldering Iron
 for.gui.energy=Energy
 for.gui.environment=Environment
 for.gui.evolution=Evolution
