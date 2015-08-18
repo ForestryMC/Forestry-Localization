@@ -52,6 +52,14 @@ for.circuit.electric.choke.1.description.1=Reduces output by 10 RF/t
 for.circuit.electric.choke.1.description.2=Reduces intake by 2 EU/t
 for.circuit.electric.efficiency.1=Electric Efficiency
 for.circuit.electric.efficiency.1.description.1=Reduces intake by 1 EU/t
+for.circuit.machine.speed.boost.1=Speed Boost I
+for.circuit.machine.speed.boost.1.description.1=Increases Speed by 12.5%
+for.circuit.machine.speed.boost.1.description.2=Increases Power Use by 5%
+for.circuit.machine.speed.boost.2=Speed Boost II
+for.circuit.machine.speed.boost.2.description.1=Increases Speed by 25%
+for.circuit.machine.speed.boost.2.description.2=Increases Power Use by 10%
+for.circuit.machine.efficiency.1=Machine Efficiency
+for.circuit.machine.efficiency.1.description.1=Decreases Power Use by 10%
 
 for.circuit.layout.dummy.name=Not Available
 for.circuit.layout.dummy.usage=Nothing
@@ -64,6 +72,9 @@ for.circuit.layout.farms.managed.usage=Managed Farms
 
 for.circuit.layout.farms.manual.name=Manual Farm
 for.circuit.layout.farms.manual.usage=Manual Farms
+
+for.circuit.layout.machine.upgrade.name=Machine Upgrade
+for.circuit.layout.machine.upgrade.usage=Socketed Machines
 
 for.errors.circuitMismatch.desc=Layout Mismatch
 for.errors.circuitMismatch.help=Amount of tubes does not match size of circuit board.
