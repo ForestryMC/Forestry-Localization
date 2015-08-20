@@ -778,6 +778,13 @@ tile.for.stained.13.name=Зелёное стекло
 tile.for.stained.14.name=Красное стекло
 tile.for.stained.15.name=Чёрное стекло
 
+neiintegration.chance=Шанс: %s
+neiintegration.chance.never=Нулевой
+neiintegration.chance.lessThan1=<1%
+neiintegration.handler.forestry.shaped=Forestry: Форменное
+neiintegration.handler.forestry.shapeless=Forestry: Бесформенное
+neiintegration.handler.forestry.fabricator.worth=Стоимость:
+
 ####################
 # APICULTURE
 ####################

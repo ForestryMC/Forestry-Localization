@@ -539,6 +539,13 @@ trigger.lowStamps=Stamps
 trigger.mailBuffer=Buffer
 usage.engine.tin=In Electrical Engines
 
+neiintegration.chance=Šance: %s
+neiintegration.chance.never=Nikdy
+neiintegration.chance.lessThan1=<1%
+neiintegration.handler.forestry.shaped=Výhodné v lesnictví
+neiintegration.handler.forestry.shapeless=Nevýhodné v lesnictví
+neiintegration.handler.forestry.fabricator.worth=Cena:
+
 ####################
 # APICULTURE
 ####################

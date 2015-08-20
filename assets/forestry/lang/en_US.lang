@@ -796,6 +796,13 @@ tile.for.stained.13.name=Green Stained Glass
 tile.for.stained.14.name=Red Stained Glass
 tile.for.stained.15.name=Black Stained Glass
 
+neiintegration.chance=Chance: %s
+neiintegration.chance.never=Never
+neiintegration.chance.lessThan1=<1%
+neiintegration.handler.forestry.shaped=Forestry Shaped
+neiintegration.handler.forestry.shapeless=Forestry Shapeless
+neiintegration.handler.forestry.fabricator.worth=Worth:
+
 ####################
 # APICULTURE
 ####################
