@@ -52,6 +52,14 @@ for.circuit.electric.choke.1.description.1=Reduziert Output um 10 RF/t
 for.circuit.electric.choke.1.description.2=Reduziert Verbrauch um 2 EU/t
 for.circuit.electric.efficiency.1=Elektrische Effizienz
 for.circuit.electric.efficiency.1.description.1=Reduziert Verbrauch um 1 EU/t
+for.circuit.machine.speed.boost.1=Geschwindigkeits-Boost I
+for.circuit.machine.speed.boost.1.description.1=Erhöht Geschwindigkeit um 12.5%
+for.circuit.machine.speed.boost.1.description.2=Erhöht Energieverbrauch um 5%
+for.circuit.machine.speed.boost.2=Geschwindigkeits-Boost II
+for.circuit.machine.speed.boost.2.description.1=Erhöht Geschwindigkeit um 25%
+for.circuit.machine.speed.boost.2.description.2=Erhöht Energieverbrauch um 10%
+for.circuit.machine.efficiency.1=Maschineneffizienz
+for.circuit.machine.efficiency.1.description.1=Verringert Energieverbrauch um 10%
 
 for.circuit.layout.dummy.name=Nicht verfügbar
 for.circuit.layout.dummy.usage=Nichts
@@ -64,6 +72,9 @@ for.circuit.layout.farms.managed.usage=Automatische Farmen
 
 for.circuit.layout.farms.manual.name=Manuelle Farm
 for.circuit.layout.farms.manual.usage=Manuelle Farmen
+
+for.circuit.layout.machine.upgrade.name=Maschinen-Upgrade
+for.circuit.layout.machine.upgrade.usage=Maschinen mit Sockeln
 
 for.errors.circuitMismatch.desc=Falsches Layout
 for.errors.circuitMismatch.help=Die Menge der Elektronenröhren stimmt nicht mit der Größe der Platine überein
@@ -216,6 +227,7 @@ for.gui.drones=Dronen
 for.gui.effect=Effekt
 for.gui.empty=Leer
 for.gui.emptysocket=Leerer Steckplatz
+for.gui.socket.remove=Mit Lötkolben entfernbar
 for.gui.energy=Energie
 for.gui.environment=Umgebung
 for.gui.evolution=Evolution
@@ -322,7 +334,6 @@ for.gui.pipe.filter.pure_nocturnal=Reinrassig nachtaktive
 for.gui.pipe.filter.queen=Königinnen
 
 for.gui.plains=Ebenen
-for.gui.pollination=Bestäubungsgeschw.
 for.gui.princesses=Prinz.
 for.gui.produce=Produktion
 for.gui.queens=Königinnen
@@ -387,8 +398,10 @@ for.gui.slots=%USED/%SIZE Slots
 for.gui.species=Art
 for.gui.speciescount=Völker
 for.gui.speed=Geschwind.
+for.gui.pollination=Bestäubung
 for.gui.stored=Speicher
 for.gui.temperature=Temperatur
+for.gui.tolerance=Toleranz
 for.gui.temptol=Temp.Tol
 for.gui.tooltip.tmi=Drücke die Umschalttaste für mehr Infos.
 for.gui.triple=Dreifache
@@ -782,6 +795,13 @@ tile.for.stained.12.name=Braun getöntes Glas
 tile.for.stained.13.name=Grün getöntes Glas
 tile.for.stained.14.name=Rot getöntes Glas
 tile.for.stained.15.name=Schwarz getöntes Glas
+
+neiintegration.chance=Chance: %s
+neiintegration.chance.never=Nie
+neiintegration.chance.lessThan1=<1%
+neiintegration.handler.forestry.shaped=Forestry: Geformt
+neiintegration.handler.forestry.shapeless=Forestry: Formlos
+neiintegration.handler.forestry.fabricator.worth=Wert:
 
 ####################
 # APICULTURE
