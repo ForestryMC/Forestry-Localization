@@ -41,17 +41,25 @@ for.chat.version=林业%1$s适用于Minecraft%2$s （最新版本： %3$s）。
 for.circuit.dampener.1=阻尼
 for.circuit.dampener.1.description.1=最大输出减少到10 RF/t
 for.circuit.dampener.1.description.2=保留燃料输出
-for.circuit.electric.boost.1=加速I
+for.circuit.electric.boost.1=升压I
 for.circuit.electric.boost.1.description.1=输出增加20 RF/t
 for.circuit.electric.boost.1.description.2=内耗增加7 EU/t
-for.circuit.electric.boost.2=加速II
+for.circuit.electric.boost.2=升压II
 for.circuit.electric.boost.2.description.1=输出增加40 RF/t
 for.circuit.electric.boost.2.description.2=内耗增加15 EU/t
 for.circuit.electric.choke.1=扼流
 for.circuit.electric.choke.1.description.1=输出减少10 RF/t
 for.circuit.electric.choke.1.description.2=内耗减少2 EU/t
-for.circuit.electric.efficiency.1=效率
+for.circuit.electric.efficiency.1=电效率
 for.circuit.electric.efficiency.1.description.1=内耗减少1 EU/t
+for.circuit.machine.speed.boost.1=加速I
+for.circuit.machine.speed.boost.1.description.1=速度增加12.5%
+for.circuit.machine.speed.boost.1.description.2=能量消耗增加5%
+for.circuit.machine.speed.boost.2=加速II
+for.circuit.machine.speed.boost.2.description.1=速度增加25%
+for.circuit.machine.speed.boost.2.description.2=能量消耗增加10%
+for.circuit.machine.efficiency.1=机器效率
+for.circuit.machine.efficiency.1.description.1=能量消耗减少10%
 
 for.circuit.layout.dummy.name=不可用
 for.circuit.layout.dummy.usage=无
@@ -64,6 +72,9 @@ for.circuit.layout.farms.managed.usage=预设农场
 
 for.circuit.layout.farms.manual.name=手动农场
 for.circuit.layout.farms.manual.usage=手动农场
+
+for.circuit.layout.machine.upgrade.name=机器升级
+for.circuit.layout.machine.upgrade.usage=插入机器
 
 for.errors.circuitMismatch.desc=电路不匹配
 for.errors.circuitMismatch.help=电子管与电子板不匹配
@@ -785,6 +796,13 @@ tile.for.stained.13.name=绿色玻璃
 tile.for.stained.14.name=红色玻璃
 tile.for.stained.15.name=黑色玻璃
 
+neiintegration.chance=几率:%s
+neiintegration.chance.never=无
+neiintegration.chance.lessThan1=<1%
+neiintegration.handler.forestry.shaped=林业有序
+neiintegration.handler.forestry.shapeless=林业无序
+neiintegration.handler.forestry.fabricator.worth=值:
+
 ####################
 # APICULTURE
 ####################
@@ -1437,7 +1455,8 @@ for.plugin.plantmegapack.description=Plant Mega Pack兼容组件。
 for.plugin.witchery.description=巫术Witchery兼容组件。
 for.plugin.agricraft.description=AgriCraft兼容组件。
 for.plugin.enderIO.description=EnderIO兼容组件。
-for.plugin.immersiveengineering=Immersive Engineering兼容组件。
+for.plugin.immersiveengineering.description=Immersive Engineering兼容组件。
+for.plugin.growthcraft.description=GrowthCraft兼容组件。
 
 
 ####################
