@@ -1025,7 +1025,7 @@ tile.for.alveary.6.name=Stabilisator (Bienenstock)
 tile.for.alveary.7.name=Sieb (Bienenstock)
 
 tile.for.apiculture.0.name=Bienenkorb
-tile.for.apiculture.1.name=Bienentruhe
+tile.for.apicultureChest.0.name=Bienentruhe
 tile.for.apiculture.2.name=Bienenhaus
 
 tile.for.beehives.1.name=Waldbienenstock

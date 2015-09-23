@@ -993,7 +993,7 @@ tile.for.alveary.6.name=Apiaryum, Estabilizador
 tile.for.alveary.7.name=Apiaryum, Peneira
 
 tile.for.apiculture.0.name=Apiário
-tile.for.apiculture.1.name=Baú do Apiarista
+tile.for.apicultureChest.0.name=Baú do Apiarista
 tile.for.apiculture.2.name=Colméia
 
 tile.for.beehives.1.name=Colméia da Floresta

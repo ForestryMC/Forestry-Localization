@@ -917,7 +917,7 @@ tile.for.alveary.6.name=알베어리 안정장치
 tile.for.alveary.7.name=알베어리 화분 채취 장치
 
 tile.for.apiculture.0.name=양봉기
-tile.for.apiculture.1.name=양봉가의 상자
+tile.for.apicultureChest.0.name=양봉가의 상자
 tile.for.apiculture.2.name=비 하우스
 
 tile.for.beehives.1.name=숲 벌집

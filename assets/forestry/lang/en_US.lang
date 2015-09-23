@@ -1025,7 +1025,7 @@ tile.for.alveary.6.name=Alveary Stabiliser
 tile.for.alveary.7.name=Alveary Sieve
 
 tile.for.apiculture.0.name=Apiary
-tile.for.apiculture.1.name=Apiarist's Chest
+tile.for.apicultureChest.0.name=Apiarist's Chest
 tile.for.apiculture.2.name=Bee House
 
 tile.for.beehives.1.name=Forest Hive

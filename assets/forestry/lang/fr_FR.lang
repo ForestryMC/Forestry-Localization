@@ -1005,7 +1005,7 @@ tile.for.alveary.6.name=Stabilisateur pour ruche
 tile.for.alveary.7.name=Tamis pour ruche
 
 tile.for.apiculture.0.name=Rucher
-tile.for.apiculture.1.name=Coffre de l'apiculteur
+tile.for.apicultureChest.0.name=Coffre de l'apiculteur
 tile.for.apiculture.2.name=Abri pour abeilles
 
 tile.for.beehives.1.name=Ruche de forêt

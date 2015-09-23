@@ -1000,7 +1000,7 @@ tile.for.alveary.6.name=Стабилизатор улья
 tile.for.alveary.7.name=Сито улья
 
 tile.for.apiculture.0.name=Пасека
-tile.for.apiculture.1.name=Сундук пчеловода
+tile.for.apicultureChest.0.name=Сундук пчеловода
 tile.for.apiculture.2.name=Пчелиный домик
 
 tile.for.beehives.1.name=Лесной улей
