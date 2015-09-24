@@ -950,7 +950,7 @@ for.chat.command.forestry.stats.save.mode=模式： %s
 
 for.description.speciesAgrarian=“不像别的蜜蜂那样浑身臭烘烘，可照样还是能干好活儿，对吧？”|Myrathi，精明养蜂人
 for.description.speciesAustere=脾气火爆又危险；养蜂人靠近的时候要注意穿好全套专业护具。|101条养蜂人必知
-for.description.speciesAvenging=“墙壁摇摇欲坠，屋顶咯吱作响，可是我不在乎。数以千计的小蜜蜂在我手套中飞舞，我抓住了蜂后！”|Anonymous
+for.description.speciesAvenging=“墙壁摇摇欲坠，屋顶咯吱作响，可是我不在乎。数以千计的小蜜蜂在我手套中飞舞，我抓住了蜂后！”|佚名
 for.description.speciesBoggy=“有一回我看见一头牛被这种蜜蜂蛰了一下，数秒功夫后它浑身便爬满了蘑菇！……你说要看照片，额，我没拍到！”|Sengir先生，狂人
 for.description.speciesCommon=被认为是养蜂新手入门的标志。|101条养蜂人必知
 for.description.speciesCultivated=小蜜蜂，嗡嗡嗡，工作快速，干劲高昂；偶尔跳跳八字舞，其他什么也不想。|101条养蜂人必知
@@ -1025,7 +1025,7 @@ tile.for.alveary.6.name=蜂箱组稳定器
 tile.for.alveary.7.name=蜂箱组滤网
 
 tile.for.apiculture.0.name=蜂箱
-tile.for.apiculture.1.name=养蜂人箱子
+tile.for.apicultureChest.0.name=养蜂人箱子
 tile.for.apiculture.2.name=简易蜂房
 
 tile.for.beehives.1.name=森林蜂巢
@@ -1445,19 +1445,19 @@ for.plugin.ic2.description=IC2兼容组件。添加电力引擎和新的发电�
 for.plugin.natura.description=Natura兼容组件。激活后农场能够支持Natura的树苗。
 for.plugin.ee2.description=等价交换2兼容组件。激活后开启蜜蜂的终结分支。需要前置的养蜂组件激活。
 for.plugin.ee3.description=等价交换3兼容组件。
-for.plugin.farmcraftory.description=牧场物语FarmCraftory兼容组件。添加作物和蔬菜的自动化农场支持。
-for.plugin.biomesoplenty.description=更多生物群系Biomes O Plenty兼容组件。激活后农场能够支持BoP的树苗。
-for.plugin.extrautilities.description=更多实用设备Extra Utilities兼容组件。激活后农场能够支持末影百合。
-for.plugin.harvestcraft.description=潘马斯的丰收HarvestCraft兼容组件。激活后农场能够支持HarvestCraft的植物和树苗。
-for.plugin.magicalcrops.description=魔法农作物Magical Crops兼容组件。
-for.plugin.chisel.description=凿子Chisel兼容组件。添加生成方块背包支持。
+for.plugin.farmcraftory.description=牧场物语（FarmCraftory）兼容组件。添加作物和蔬菜的自动化农场支持。
+for.plugin.biomesoplenty.description=更多生物群系（Biomes O' Plenty）兼容组件。激活后农场能够支持BoP的树苗。
+for.plugin.extrautilities.description=更多实用设备（Extra Utilities）兼容组件。激活后农场能够支持末影百合。
+for.plugin.harvestcraft.description=潘马斯的丰收（HarvestCraft）兼容组件。激活后农场能够支持HarvestCraft的植物和树苗。
+for.plugin.magicalcrops.description=魔法作物（Magical Crops）兼容组件。
+for.plugin.chisel.description=凿子（Chisel）兼容组件。添加背包对其方块的支持。
 for.plugin.plantmegapack.description=Plant Mega Pack兼容组件。
-for.plugin.witchery.description=巫术Witchery兼容组件。
-for.plugin.agricraft.description=AgriCraft兼容组件。
-for.plugin.enderIO.description=EnderIO兼容组件。
+for.plugin.witchery.description=巫术（Witchery）兼容组件。
+for.plugin.agricraft.description=农业工艺（AgriCraft）兼容组件。
+for.plugin.enderIO.description=末影接口（EnderIO）兼容组件。
 for.plugin.immersiveengineering.description=Immersive Engineering兼容组件。
-for.plugin.growthcraft.description=GrowthCraft兼容组件。
-
+for.plugin.growthcraft.description=生长工艺（GrowthCraft）兼容组件。
+for.plugin.erebus.description=Erebus兼容组件。
 
 ####################
 # CONFIG FILES
@@ -1473,7 +1473,7 @@ for.config.world.generate=世界生成设置
 
 for.config.world.generate.retrogen.normal=资源重生成
 for.config.world.generate.retrogen.normal.comment=在模组未加入钱已载入的区块生成林业模组中的资源。
-for.config.world.generate.retrogen.forced=强制资源重生成Forced Retrogen
+for.config.world.generate.retrogen.forced=强制资源重生成
 for.config.world.generate.retrogen.forced.comment=强制在所有区块生成林业模组中的资源，即使这些地方已经生成过林业资源。
 
 for.config.world.generate.ore.apatite=生成高度
@@ -1519,8 +1519,8 @@ for.config.tweaks.permissions.comment=开启林业机器的访问限制功能。
 for.config.tweaks.version.check=版本检查
 for.config.tweaks.version.check.comment=开启更新与版本检查通知。
 
-for.config.tweaks.farms.size=Farm Size
-for.config.tweaks.farms.size.comment=Sets the size multiplier of the farmland.
+for.config.tweaks.farms.size=农场工作范围
+for.config.tweaks.farms.size.comment=设定耕地范围的放大倍数。
 for.config.tweaks.farms.square=方形农场
 for.config.tweaks.farms.square.comment=使农场使用正方形而非钻石形的布局。
 for.config.tweaks.farms.enderlily=末影百合支持。
@@ -1531,8 +1531,8 @@ for.config.tweaks.farms.magicalcrops.comment=使得农场支持魔法作物模�
 for.config.genetics=遗传
 for.config.genetics.clear.invalid.chromosomes=清除无效染色体
 for.config.genetics.clear.invalid.chromosomes.comment=清除含有无效基因的染色体。在移除林业拓展后这样操作也许可以恢复你因此崩溃的存档。
-for.config.genetics.pollinate.vanilla.trees=Pollinate Vanilla Trees
-for.config.genetics.pollinate.vanilla.trees.comment=Allow bees, butterflies, and players to pollinate vanilla tree leaves. When disabled, vanilla trees must be analyzed before they can be pollinated.
+for.config.genetics.pollinate.vanilla.trees=原版树授粉
+for.config.genetics.pollinate.vanilla.trees.comment=允许蜜蜂、蝴蝶和玩家对原版�授粉。禁用后原版树必须经过分析方可授粉。
 for.config.genetics.research.boost.multiplier=研究突变率倍数
 for.config.genetics.research.boost.multiplier.comment=在抄写台中研究时突变几率的倍数
 for.config.genetics.research.boost.max.percent=最大研究突变率
@@ -1542,7 +1542,7 @@ for.config.difficulty=难度
 for.config.difficulty.game.mode=游戏模式
 for.config.difficulty.game.mode.comment=设置你偏好的游戏模式。若与服务器设置不匹配可能会导致出现合成表界面的视觉错误。
 for.config.difficulty.recreate.definitions=重定义
-for.config.difficulty.recreate.definitions.comment=强制重建config/forestry/gamemodes下的所有游戏模式配置。
+for.config.difficulty.recreate.definitions.comment=强制重构config/forestry/gamemodes下的所有游戏模式配置。
 for.config.difficulty.loot.rare=稀有战利品
 for.config.difficulty.loot.rare.comment=使林业生成的地牢战利品更加稀有。
 
