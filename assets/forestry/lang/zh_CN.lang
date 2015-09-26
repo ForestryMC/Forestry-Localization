@@ -39,19 +39,19 @@ for.chat.plugins.error=拓展%s并无可查看信息。
 for.chat.version=林业%1$s适用于Minecraft%2$s （最新版本： %3$s）。
 
 for.circuit.dampener.1=阻尼
-for.circuit.dampener.1.description.1=最大输出减少到10 RF/t
+for.circuit.dampener.1.description.1=最大输出减少到10RF/t
 for.circuit.dampener.1.description.2=保留燃料输出
 for.circuit.electric.boost.1=升压I
-for.circuit.electric.boost.1.description.1=输出增加20 RF/t
-for.circuit.electric.boost.1.description.2=内耗增加7 EU/t
+for.circuit.electric.boost.1.description.1=输出增加20RF/t
+for.circuit.electric.boost.1.description.2=内耗增加7EU/t
 for.circuit.electric.boost.2=升压II
-for.circuit.electric.boost.2.description.1=输出增加40 RF/t
-for.circuit.electric.boost.2.description.2=内耗增加15 EU/t
+for.circuit.electric.boost.2.description.1=输出增加40RF/t
+for.circuit.electric.boost.2.description.2=内耗增加15EU/t
 for.circuit.electric.choke.1=扼流
-for.circuit.electric.choke.1.description.1=输出减少10 RF/t
-for.circuit.electric.choke.1.description.2=内耗减少2 EU/t
+for.circuit.electric.choke.1.description.1=输出减少10RF/t
+for.circuit.electric.choke.1.description.2=内耗减少2EU/t
 for.circuit.electric.efficiency.1=电效率
-for.circuit.electric.efficiency.1.description.1=内耗减少1 EU/t
+for.circuit.electric.efficiency.1.description.1=内耗减少1EU/t
 for.circuit.machine.speed.boost.1=加速I
 for.circuit.machine.speed.boost.1.description.1=速度增加12.5%
 for.circuit.machine.speed.boost.1.description.2=能量消耗增加5%
@@ -93,7 +93,7 @@ for.errors.noDisposal.help=没有充足空间来存放废料
 for.errors.noDrone.desc=无雄蜂
 for.errors.noDrone.help=配对需要雄蜂
 for.errors.noEnergyNet.desc=无电力
-for.errors.noEnergyNet.help=你的世界没有任何电力（请安装Ic2）
+for.errors.noEnergyNet.help=你的世界没有任何电力（请安装IC2）
 for.errors.noPower.desc=无能量
 for.errors.noPower.help=这台机器需要RF能量驱动
 for.errors.noRedstone.desc=无红石信号
@@ -165,7 +165,7 @@ for.flowers.mushrooms=蘑菇
 for.flowers.nether=下界
 for.flowers.vanilla=鲜花
 for.flowers.wheat=小麦
-for.flowers.snow=Snow
+for.flowers.snow=雪地
 
 fluid.bioethanol=乙醇
 fluid.biomass=生物质
@@ -194,7 +194,7 @@ for.gui.addressee.trader=贸易站
 for.gui.alyzer.authority=创造该物种的神灵
 for.gui.alyzer.classification=学名|纲属
 for.gui.alyzer.extinct=灭绝
-for.gui.alyzer.nodescription=百科全书无法为该样本提供合适条目
+for.gui.alyzer.nodescription=百科全书找不到与该样本相关的条目
 for.gui.alyzer.overview=可分析
 
 for.gui.area=活动范围
@@ -285,7 +285,7 @@ for.gui.escritoire.notes.level4.6=我发誓它在盯着我看，用它那双透�
 for.gui.escritoire.notes.level4.7=那些可是笑声？我可曾听闻笑声？又是谁在那大笑不止？
 
 for.gui.escritoire.notes.success.count=5
-for.gui.escritoire.notes.success.1=EUREKA！(ง •̀_•́)ง
+for.gui.escritoire.notes.success.1=我发现了！(ง •̀_•́)ง
 for.gui.escritoire.notes.success.2=棒极了！我将名垂青史！
 for.gui.escritoire.notes.success.3=我的学院将引以为荣！
 for.gui.escritoire.notes.success.4=我会招致来自所有社会人氏的羡慕嫉妒恨！
@@ -433,7 +433,7 @@ for.hints.crating.tag=装箱储存！
 for.hints.energybuffer.desc=引擎可以缓存少量未被使用的能量。
 for.hints.energybuffer.tag=能量缓存
 for.hints.energyunit.desc=引擎输出能量的单位为RF/t，意为“RF每tick”。每秒有20tick。
-for.hints.energyunit.tag=所谓RF（Red Flux）
+for.hints.energyunit.tag=所谓RF（Redstone Flux，红石通量）
 for.hints.enginebronzefuels.desc=生物燃油引擎可以使用多种燃料：生物质，种子油，蜂蜜，牛奶甚至水！
 for.hints.enginebronzefuels.tag=可使用多种燃料！
 for.hints.enginebronzeheatloss.desc=尽管你可以在生物燃油引擎中使用水，但这效率低下，还持续消耗岩浆。
@@ -448,7 +448,7 @@ for.hints.enginecopperwaste.desc=关掉的泥炭引擎即使没有产生能量�
 for.hints.enginecopperwaste.tag=防止能量流失！
 for.hints.enginetinbatteries.desc=用电池来为机械供电可以避免使用线缆。
 for.hints.enginetinbatteries.tag=为电池充电。
-for.hints.enginetinchoke.desc=可以通过为电力引擎加装电子板来扼流，以减少输出（减少为1MJ/t）和燃料消耗。
+for.hints.enginetinchoke.desc=可以通过为电力引擎加装电子板来扼流，以减少输出（减少为10RF/t）和燃料消耗。
 for.hints.enginetinchoke.tag=调节输出
 for.hints.flowerjungle.desc=指蕨类和藤蔓。
 for.hints.flowerjungle.tag=何谓丛林花？
@@ -796,12 +796,12 @@ tile.for.stained.13.name=绿色玻璃
 tile.for.stained.14.name=红色玻璃
 tile.for.stained.15.name=黑色玻璃
 
-neiintegration.chance=几率:%s
+neiintegration.chance=几率：%s
 neiintegration.chance.never=无
 neiintegration.chance.lessThan1=<1%
 neiintegration.handler.forestry.shaped=林业有序
 neiintegration.handler.forestry.shapeless=林业无序
-neiintegration.handler.forestry.fabricator.worth=值:
+neiintegration.handler.forestry.fabricator.worth=可熔出：
 
 ####################
 # APICULTURE
@@ -949,52 +949,52 @@ for.chat.command.forestry.stats.save.key.notCounted.symbol=NC
 for.chat.command.forestry.stats.save.mode=模式： %s
 
 for.description.speciesAgrarian=“不像别的蜜蜂那样浑身臭烘烘，可照样还是能干好活儿，对吧？”|Myrathi，精明养蜂人
-for.description.speciesAustere=脾气火爆又危险；养蜂人靠近的时候要注意穿好全套专业护具。|101条养蜂人必知
+for.description.speciesAustere=脾气火爆又危险；养蜂人靠近的时候要注意穿好全套专业护具。|养蜂人入门指南
 for.description.speciesAvenging=“墙壁摇摇欲坠，屋顶咯吱作响，可是我不在乎。数以千计的小蜜蜂在我手套中飞舞，我抓住了蜂后！”|佚名
 for.description.speciesBoggy=“有一回我看见一头牛被这种蜜蜂蛰了一下，数秒功夫后它浑身便爬满了蘑菇！……你说要看照片，额，我没拍到！”|Sengir先生，狂人
-for.description.speciesCommon=被认为是养蜂新手入门的标志。|101条养蜂人必知
-for.description.speciesCultivated=小蜜蜂，嗡嗡嗡，工作快速，干劲高昂；偶尔跳跳八字舞，其他什么也不想。|101条养蜂人必知
+for.description.speciesCommon=被认为是养蜂新手入门的标志。|养蜂人入门指南
+for.description.speciesCultivated=小蜜蜂，嗡嗡嗡，工作快速，干劲高昂；偶尔跳跳八字舞，其他什么也不想。|养蜂人入门指南
 for.description.speciesDarkened=被炼金能量吸引，这些小东西拥有巨大的能量。|养蜂辞典
-for.description.speciesDemonic=诞生于地狱烈火中，一代一代的变异让这种蜜蜂成为了真正的恶魔。|101条养蜂人必知
-for.description.speciesDiligent=培育敬业蜂产生的中间品种。|101条养蜂人必知
-for.description.speciesEdenic=四处旅行的蜜蜂会让经验球弥漫在四周。|101条养蜂人必知
-for.description.speciesEnded=“偶然间，在村民的蜂房里我发现一只遁世蜂，这种蜜蜂看上去十分迟钝木讷，它彷佛从它的世界里撕裂出了一个碎片，并渴望保持这种状态。”|101条养蜂人必知
-for.description.speciesExotic=出没于温暖潮湿地带的长寿蜂种。|101条养蜂人必知
-for.description.speciesFarmerly=常出没于大片的原野，那些可以作为国家粮仓的地方。|101条养蜂人必知
-for.description.speciesFiendish=据闻下界的养蜂人有时会被他们的蜜蜂袭击。所以小心为妙！|101条养蜂人必知
-for.description.speciesForest=林中寻常可见的一种昆虫；一般很友善。|101条养蜂人必知
-for.description.speciesFrugal=若干代在太阳下的暴晒导致了该蜂种的诞生。|101条养蜂人必知
+for.description.speciesDemonic=诞生于地狱烈火中，一代一代的变异让这种蜜蜂成为了真正的恶魔。|养蜂人入门指南
+for.description.speciesDiligent=培育敬业蜂产生的中间品种。|养蜂人入门指南
+for.description.speciesEdenic=四处旅行的蜜蜂会让经验球弥漫在四周。|养蜂人入门指南
+for.description.speciesEnded=“偶然间，在村民的蜂房里我发现一只遁世蜂，这种蜜蜂看上去十分迟钝木讷，它彷佛从它的世界里撕裂出了一个碎片，并渴望保持这种状态。”|养蜂人入门指南
+for.description.speciesExotic=出没于温暖潮湿地带的长寿蜂种。|养蜂人入门指南
+for.description.speciesFarmerly=常出没于大片的原野，那些可以作为国家粮仓的地方。|养蜂人入门指南
+for.description.speciesFiendish=据闻下界的养蜂人有时会被他们的蜜蜂袭击。所以小心为妙！|养蜂人入门指南
+for.description.speciesForest=林中寻常可见的一种昆虫；一般很友善。|养蜂人入门指南
+for.description.speciesFrugal=若干代在太阳下的暴晒导致了该蜂种的诞生。|养蜂人入门指南
 for.description.speciesGlacial=“凛冬将至！”|E. Stark，养蜂人
 for.description.speciesHermitic=“亲爱的同事啊，你发给我的这种蜜蜂从不洗澡，还留着茂密的大胡子，请给我仔细解释这是神马情况！”|Binnie，养蜂人
 for.description.speciesHeroic=这种蜜蜂的传说脍炙人口：它们将会为保卫自己的蜂巢与敌人死磕到底。|养蜂编年史
-for.description.speciesIcy=饲育该蜂种将会使得蜂巢内部温度下降直到冰片形成。|101条养蜂人必知
-for.description.speciesImperial=志远心高的帝皇蜂专门生产宝贵的蜂王浆。|101条养蜂人必知
-for.description.speciesIndustrious=志远心高的敬业蜂专门生产宝贵的花粉。|101条养蜂人必知
+for.description.speciesIcy=饲育该蜂种将会使得蜂巢内部温度下降直到冰片形成。|养蜂人入门指南
+for.description.speciesImperial=志远心高的帝皇蜂专门生产宝贵的蜂王浆。|养蜂人入门指南
+for.description.speciesIndustrious=志远心高的敬业蜂专门生产宝贵的花粉。|养蜂人入门指南
 for.description.speciesLeporine=“我发誓，它很小，有翅膀，而且我确定我看见它长着毛茸茸的兔子耳朵，我真没喝醉！”|Sengir先生，狂人
 for.description.speciesMajestic=“砍掉他们的脑袋！”|红心皇后
-for.description.speciesMarshy=常出没于寒冷潮湿的地带； 喜欢蘑菇。|101条养蜂人必知
-for.description.speciesMeadows=主要分布于温带平原地带；一般很友善。|101条养蜂人必知
+for.description.speciesMarshy=常出没于寒冷潮湿的地带； 喜欢蘑菇。|养蜂人入门指南
+for.description.speciesMeadows=主要分布于温带平原地带；一般很友善。|养蜂人入门指南
 for.description.speciesMerry=“\(^o^)/哦哈也！”|欢乐蜂
 for.description.speciesMiry=“蜜蜂怎可能会为蘑菇授粉呢？”|Mezz，养蜂新手
-for.description.speciesModest=干旱和炎热的环境令该蜂种适应了高温环境，但这却使得它们无法适应一些环境明显更好的地带。|101条养蜂人必知
-for.description.speciesMonastic=“我保持着朴素，并告诫他，‘那些低贱的雄蜂不仅希望得到漂亮的公主蜂，还贪得无厌地要求提供大堆的绿宝石，这简直就是敲诈勒索！’”|101条养蜂人必知
+for.description.speciesModest=干旱和炎热的环境令该蜂种适应了高温环境，但这却使得它们无法适应一些环境明显更好的地带。|养蜂人入门指南
+for.description.speciesMonastic=“我保持着朴素，并告诫他，‘那些低贱的雄蜂不仅希望得到漂亮的公主蜂，还贪得无厌地要求提供大堆的绿宝石，这简直就是敲诈勒索！’”|养蜂人入门指南
 for.description.speciesNoble=“世界上再没有比饲养蜜蜂更加高贵的职业了！”|Binnie，养蜂人
 for.description.speciesOmega=“我是阿尔法，我是欧米伽；我是元始，我是终结；我是最初，我是最后。”|Pahimar，养蜂人
 for.description.speciesPhantasmal=“不管你做啥，或者不做啥，我再重复一遍，不要，不要再下龙#SF$#d@%c%@$dfe^@%……”
 for.description.speciesReddened=需要大量的炼金能源，这些小东西能够消耗能量用洪水淹没世界。|养蜂辞典
 for.description.speciesRural=“五月的雨水会让草木更加茂盛.”|M. Ages，田园养蜂人
-for.description.speciesSecluded=“和沙漠种的蜂类杂交就是个错误！我的小蜜蜂们越来越宅了！”|101条养蜂人必知
-for.description.speciesSinister=适合下界环境的蜂种并不多，即使是这种蜜蜂有时也会受不了地狱的糟糕环境！|101条养蜂人必知
-for.description.speciesSpectral=“我并不确定它是否还活着，它静静躺在我掌心，微微闪光，向我的手掌渗出一种我从未感受过的凉意。之后，我突然听到身后一堆骨头咯咯作响！”|101条养蜂人必知
+for.description.speciesSecluded=“和沙漠种的蜂类杂交就是个错误！我的小蜜蜂们越来越宅了！”|养蜂人入门指南
+for.description.speciesSinister=适合下界环境的蜂种并不多，即使是这种蜜蜂有时也会受不了地狱的糟糕环境！|养蜂人入门指南
+for.description.speciesSpectral=“我并不确定它是否还活着，它静静躺在我掌心，微微闪光，向我的手掌渗出一种我从未感受过的凉意。之后，我突然听到身后一堆骨头咯咯作响！”|养蜂人入门指南
 for.description.speciesSteadfast=一度被认为已灭绝，直到被冒险家发现于幽深的地牢。|养蜂编年史
 for.description.speciesTipsy=“善舞，美人善舞兮！”|东方微醺巫女
 for.description.speciesTricky=“给糖果吧，否则我们可就捣蛋啦！”|捣蛋蜂
-for.description.speciesTropical=分布在丛林或其他热带气候的有毒蜂种，常见。|101条养蜂人必知
-for.description.speciesUnweary=鞠躬尽瘁，死而后已。|101条养蜂人必知
+for.description.speciesTropical=分布在丛林或其他热带气候的有毒蜂种，常见。|养蜂人入门指南
+for.description.speciesUnweary=鞠躬尽瘁，死而后已。|养蜂人入门指南
 for.description.speciesValiant=罕见的亚种，在普通的蜂巢中极难出现。|养蜂编年史
 for.description.speciesVengeful=“来之，见之，征服之。”|尤利乌斯.凯撒
 for.description.speciesVindictive=“吃我一脸！ 吃我一脸！”|K.M.
-for.description.speciesWintry=很常见，但属于寒带蜂种，若在温暖环境饲养会是个挑战。|101条养蜂人必知
+for.description.speciesWintry=很常见，但属于寒带蜂种，若在温暖环境饲养会是个挑战。|养蜂人入门指南
 
 for.genus.bees.agrarian=农耕
 for.genus.bees.austere=苦行
@@ -1048,25 +1048,25 @@ tile.for.stump.0.name=蜡烛
 # MULTIBLOCK
 ####################
 
-for.multiblock.error.notConnected=The MultiBlock is not connected to a controller. This could be due to lag, or a bug. If the problem persists, try breaking and re-placing the block.
-for.multiblock.error.invalid.interior=%d, %d, %d - (%s) Block is not valid for use in the machine's interior.
-for.multiblock.error.invalid.part=The multiblock part @ %d, %d, %d is incompatible with machines of type %s.
-for.multiblock.error.small=The multiblock is too small. It must be at least %d X, %d Y, %d Z.
-for.multiblock.error.large.x=The multiblock is too large, it may be at most %d blocks in the X dimension.
-for.multiblock.error.large.y=The multiblock is too large, it may be at most %d blocks in the Y dimension.
-for.multiblock.error.large.z=The multiblock is too large, it may be at most %d blocks in the Z dimension.
-for.multiblock.error.small.x=The multiblock is too small, it must be at least %d blocks in the X dimension.
-for.multiblock.error.small.y=The multiblock is too small, it must be at least %d blocks in the Y dimension.
-for.multiblock.error.small.z=The multiblock is too small, it must be at least %d blocks in the Z dimension.
+for.multiblock.error.notConnected=多方块结构未与控制器连接，这可能是由延迟或者错误引起的。如果无法修复，试着破坏方块并重新放置。
+for.multiblock.error.invalid.interior=位于%d, %d, %d - (%s)的方块不能用于该机械的内部。
+for.multiblock.error.invalid.part=位于%d, %d, %d的机械不能用于%s的结构中。
+for.multiblock.error.small=这个多方块结构太小了，它至少要有%d X, %d Y, %d Z的大小。
+for.multiblock.error.large.x=这个多方块结构太大了，在X轴方向上至多只能有%d个方块。
+for.multiblock.error.large.y=这个多方块结构太大了，在Y轴方向上至多只能有%d个方块。
+for.multiblock.error.large.z=这个多方块结构太大了，在Z轴方向上至多只能有%d个方块。
+for.multiblock.error.small.x=这个多方块结构太小了，在X轴方向上还需要至少%d个方块。
+for.multiblock.error.small.y=这个多方块结构太小了，在Y轴方向上还需要至少%d个方块。
+for.multiblock.error.small.z=这个多方块结构太小了，在Z轴方向上还需要至少%d个方块。
 
-for.multiblock.alveary.error.needSlabs=The Alveary must have wooden slabs on top.
-for.multiblock.alveary.error.needSpace=The alveary needs space around the top for the bees to enter and exit.
-for.multiblock.alveary.error.needPlainOnTop=The Alveary must have plain alveary blocks for the top level.
-for.multiblock.alveary.error.needPlainInterior=The Alveary must have plain alveary blocks for the interior.
+for.multiblock.alveary.error.needSlabs=这个大蜂箱的顶部没有被木台阶覆盖。
+for.multiblock.alveary.error.needSpace=这个大蜂箱的顶部需要留出给蜜蜂进出的空间。
+for.multiblock.alveary.error.needPlainOnTop=这个大蜂箱的顶层必须全部是普通蜂箱组方块。
+for.multiblock.alveary.error.needPlainInterior=这个大蜂箱的内部必须是普通蜂箱组方块。
 
-for.multiblock.farm.error.needPlainBand=The Farm must have plain farm blocks for the third level.
-for.multiblock.farm.error.needPlainInterior=The Farm must have plain farm blocks for the interior.
-for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept power and do work.
+for.multiblock.farm.error.needPlainBand=这个农场的第三层必须全部是普通农场方块。
+for.multiblock.farm.error.needPlainInterior=这个农场的内部必须全部是普通农场方块。
+for.multiblock.farm.error.needGearbox=这个农场还需要一个齿轮箱才能输入能源并开始工作。
 
 ####################
 # ARBORICULTURE
@@ -1486,7 +1486,7 @@ for.config.world.generate.ore.tin.comment=在世界中生成锡矿。
 for.config.world.generate.beehives.amount=蜂巢生成数量
 for.config.world.generate.beehives.amount.comment=设置在世界中生成多少蜂巢。
 for.config.world.generate.beehives.debug=蜂巢生成调试
-for.config.world.generate.beehives.debug.comment=强制林业在所有可能位置生成蜂巢。(该选项会破坏掉存档，仅供开发者使用)
+for.config.world.generate.beehives.debug.comment=强制林业在所有可能位置生成蜂巢。(该选项会损坏存档，仅供开发者使用)
 
 for.config.world.generate.villagers=生成村民
 for.config.world.generate.villagers.comment=在他们的宅邸中生成林业添加的村民。
@@ -1501,8 +1501,8 @@ for.config.crafting.stamps.disabled.comment=禁止某种邮票的合成表。
 
 for.config.tweak=机制调整
 
-for.config.tweaks.gui.mail.alert=邮箱报警
-for.config.tweaks.gui.mail.alert.comment=开启新邮件报警。
+for.config.tweaks.gui.mail.alert=邮箱提醒
+for.config.tweaks.gui.mail.alert.comment=开启新邮件提醒。
 
 for.config.tweaks.gui.tabs.hints=提示窗口
 for.config.tweaks.gui.tabs.hints.comment=开启机器和引擎界面的提示窗口。
@@ -1522,7 +1522,7 @@ for.config.tweaks.version.check.comment=开启更新与版本检查通知。
 for.config.tweaks.farms.size=农场工作范围
 for.config.tweaks.farms.size.comment=设定耕地范围的放大倍数。
 for.config.tweaks.farms.square=方形农场
-for.config.tweaks.farms.square.comment=使农场使用正方形而非钻石形的布局。
+for.config.tweaks.farms.square.comment=使农场使用正方形而非菱形的布局。
 for.config.tweaks.farms.enderlily=末影百合支持。
 for.config.tweaks.farms.enderlily.comment=使得农场支持更多实用设备中的末影百合种子。
 for.config.tweaks.farms.magicalcrops=魔法作物农场支持
@@ -1532,31 +1532,31 @@ for.config.genetics=遗传
 for.config.genetics.clear.invalid.chromosomes=清除无效染色体
 for.config.genetics.clear.invalid.chromosomes.comment=清除含有无效基因的染色体。在移除林业拓展后这样操作也许可以恢复你因此崩溃的存档。
 for.config.genetics.pollinate.vanilla.trees=原版树授粉
-for.config.genetics.pollinate.vanilla.trees.comment=允许蜜蜂、蝴蝶和玩家对原版�授粉。禁用后原版树必须经过分析方可授粉。
+for.config.genetics.pollinate.vanilla.trees.comment=允许蜜蜂、蝴蝶和玩家对原版树木授粉。禁用后，原版树须经过分析方可授粉。
 for.config.genetics.research.boost.multiplier=研究突变率倍数
-for.config.genetics.research.boost.multiplier.comment=在抄写台中研究时突变几率的倍数
+for.config.genetics.research.boost.multiplier.comment=在抄写台中研究时突变几率的倍数。
 for.config.genetics.research.boost.max.percent=最大研究突变率
 for.config.genetics.research.boost.max.percent.comment=在抄写台中研究图片能够获得的最大百分比加成。
  
 for.config.difficulty=难度
 for.config.difficulty.game.mode=游戏模式
-for.config.difficulty.game.mode.comment=设置你偏好的游戏模式。若与服务器设置不匹配可能会导致出现合成表界面的视觉错误。
+for.config.difficulty.game.mode.comment=设置你偏好的游戏模式。若与服务器设置不匹配可能会导致出现合成表界面显示错误。
 for.config.difficulty.recreate.definitions=重定义
-for.config.difficulty.recreate.definitions.comment=强制重构config/forestry/gamemodes下的所有游戏模式配置。
+for.config.difficulty.recreate.definitions.comment=强制重构config/forestry/gamemodes目录下的所有游戏模式配置。
 for.config.difficulty.loot.rare=稀有战利品
 for.config.difficulty.loot.rare.comment=使林业生成的地牢战利品更加稀有。
 
 for.config.structures=多方块结构
-for.config.structures.disabled=禁止多方块结构
-for.config.structures.disabled.comment=禁止多方块结构的列表。
+for.config.structures.disabled=禁用多方块结构
+for.config.structures.disabled.comment=禁用多方块结构的列表。
 
 for.config.fluids=流体
-for.config.fluids.enable.format=允许%s流体。
+for.config.fluids.enable.format=启用%s流体。
 for.config.fluid.blocks=流体方块
-for.config.fluid.blocks.enable.format=允许%s流体方块。
+for.config.fluid.blocks.enable.format=启用%s流体方块。
 
 for.config.debug.enabled=调试模式
-for.config.debug.enabled.comment=开启调试模式(仅适用于开发者)。
+for.config.debug.enabled.comment=开启调试模式（仅适用于开发者）。
 
 for.config.beekeeping.mode=养蜂模式
 for.config.beekeeping.mode.comment=调整养蜂模式。
@@ -1577,46 +1577,46 @@ for.config.butterfly.entities.maximum.comment=当达到阈值时新出现的蝴�
 for.config.butterfly.entities.pollination=蝴蝶授粉
 for.config.butterfly.entities.pollination.comment=允许蝴蝶为树木授粉。
 
-for.config.backpacks.item.stacks.format=Add itemStacks for the %s's backpack here in the format 'modid:name:meta'. For wildcard metadata the format is 'modid:name'.
-for.config.backpacks.ore.dict.format=Add ore dictionary names for the %s's backpack here in the format 'oreDictName'.
+for.config.backpacks.item.stacks.format=在此添加%s的背包对物品的支持，格式为'modid:name:meta'，也可以使用忽略附加值的通配格式'modid:name'。
+for.config.backpacks.ore.dict.format=在此添加%s的背包对矿物字典的支持，格式为'oreDictName'。
 
 for.config.gamemode=游戏模式
 
-for.config.gamemode.energy.demand.modifier.comment=Modifies the energy required to activate machines, as well as the max amount of energy stored and accepted.
-for.config.gamemode.farms.fertilizer.value.comment=Modifies the time a piece of fertilizer lasts in a farm.
+for.config.gamemode.energy.demand.modifier.comment=修改机器运行时的能量需求量，最大能源接受速率和最大能源存储量。
+for.config.gamemode.farms.fertilizer.value.comment=修改一份肥料可供农场运行的时间。
 
-for.config.gamemode.fuel.ethanol.generator.comment=modifies the energy provided by ethanol in a Bio Generator.
-for.config.gamemode.fuel.ethanol.combustion.comment=modifies the energy provided by ethanol in Buildcraft Combustion Engines.
-for.config.gamemode.fuel.biomass.generator.comment=modifies the energy provided by Biomass in a Bio Generator.
-for.config.gamemode.fuel.biomass.biogas.comment=modifies the energy provided by Biomass in Biogas Engines.
+for.config.gamemode.fuel.ethanol.generator.comment=修改乙醇在生物质发电机里的产能数量。
+for.config.gamemode.fuel.ethanol.combustion.comment=修改乙醇在Bulidcraft的燃烧引擎里的产能数量。
+for.config.gamemode.fuel.biomass.generator.comment=修改生物质在生物质发电机里的产能数量。
+for.config.gamemode.fuel.biomass.biogas.comment=修改生物质在沼气引擎里的产能数量。
 
-for.config.gamemode.recipe.output.fertilizer.apatite.comment=amount of fertilizer yielded by the recipe using apatite.
-for.config.gamemode.recipe.output.fertilizer.ash.comment=amount of fertilizer yielded by the recipe using ash.
-for.config.gamemode.recipe.output.compost.wheat.comment=amount of compost yielded by the recipe using wheat.
-for.config.gamemode.recipe.output.compost.ash.comment=amount of compost yielded by the recipe using ash.
-for.config.gamemode.recipe.output.humus.fertilizer.comment=amount of humus yielded by the recipe using fertilizer.
-for.config.gamemode.recipe.output.humus.compost.comment=amount of humus yielded by the recipe using compost.
-for.config.gamemode.recipe.output.bogearth.bucket.comment=amount of bog earth yielded by the recipe using buckets.
-for.config.gamemode.recipe.output.bogearth.can.comment=amount of bog earth yielded by the recipes using cans, cells or capsules.
-for.config.gamemode.recipe.output.can.comment=amount yielded by the recipe for tin cans.
-for.config.gamemode.recipe.output.capsule.comment=amount yielded by the recipe for wax capsules.
-for.config.gamemode.recipe.output.refractory.comment=amount yielded by the recipe for refractory capsules.
+for.config.gamemode.recipe.output.fertilizer.apatite.comment=使用磷灰石合成肥料时后者的产量。
+for.config.gamemode.recipe.output.fertilizer.ash.comment=使用灰烬合成肥料时后者的产量。
+for.config.gamemode.recipe.output.compost.wheat.comment=使用小麦合成堆肥时后者的产量。
+for.config.gamemode.recipe.output.compost.ash.comment=使用灰烬合成堆肥时后者的产量。
+for.config.gamemode.recipe.output.humus.fertilizer.comment=使用肥料合成腐植土时后者的产量。
+for.config.gamemode.recipe.output.humus.compost.comment=使用堆肥合成腐植土时后者的产量。
+for.config.gamemode.recipe.output.bogearth.bucket.comment=使用桶合成沼泽泥时后者的产量。
+for.config.gamemode.recipe.output.bogearth.can.comment=使用罐，单元或者胶囊合成沼泽泥时后者的产量。
+for.config.gamemode.recipe.output.can.comment=锡罐合成配方的产量。
+for.config.gamemode.recipe.output.capsule.comment=蜂蜡胶囊合成配方的产量。
+for.config.gamemode.recipe.output.refractory.comment=耐火胶囊合成配方的产量。
 
-for.config.gamemode.fermenter.cycles.fertilizer.comment=modifies the amount of cycles fertilizer can keep a fermenter going.
-for.config.gamemode.fermenter.cycles.compost.comment=modifies the amount of cycles compost can keep a fermenter going.
-for.config.gamemode.fermenter.value.fertilizer.comment=modifies the amount of biomass per cycle a fermenter will produce using fertilizer.
-for.config.gamemode.fermenter.value.compost.comment=modifies the amount of biomass per cycle a fermenter will produce using compost.
-for.config.gamemode.fermenter.yield.sapling.comment=modifies the base amount of biomass a sapling will yield in a fermenter, affected by sappiness trait.
-for.config.gamemode.fermenter.yield.cactus.comment=modifies the amount of biomass a piece of cactus will yield in a fermenter.
-for.config.gamemode.fermenter.yield.wheat.comment=modifies the amount of biomass a piece of wheat will yield in a fermenter.
-for.config.gamemode.fermenter.yield.cane.comment=modifies the amount of biomass a piece of sugar cane will yield in a fermenter.
-for.config.gamemode.fermenter.yield.mushroom.comment=modifies the amount of biomass a mushroom will yield in a fermenter.
+for.config.gamemode.fermenter.cycles.fertilizer.comment=修改单份肥料可使发酵机工作的周期数。
+for.config.gamemode.fermenter.cycles.compost.comment=修改单份堆肥可使发酵机工作的周期数。
+for.config.gamemode.fermenter.value.fertilizer.comment=修改使用肥料时每个工作周期生物质的产量。
+for.config.gamemode.fermenter.value.compost.comment=修改使用堆肥时每个工作周期生物质的产量。
+for.config.gamemode.fermenter.yield.sapling.comment=修改树苗在发酵机中产出生物质的量， 其数值会受多汁属性的影响。
+for.config.gamemode.fermenter.yield.cactus.comment=修改仙人掌在发酵机中产出生物质的量。
+for.config.gamemode.fermenter.yield.wheat.comment=修改小麦在发酵机中产出生物质的量。
+for.config.gamemode.fermenter.yield.cane.comment=修改甘蔗在发酵机中产出生物质的量。
+for.config.gamemode.fermenter.yield.mushroom.comment=修改蘑菇在发酵机中产出生物质的量。
 
-for.config.gamemode.squeezer.liquid.seed.comment=modifies the amount of seed oil squeezed from a single seed. other sources are based off this.
-for.config.gamemode.squeezer.liquid.apple.comment=modifies the amount of juice squeezed from a single apple. other sources are based off this.
-for.config.gamemode.squeezer.mulch.apple.comment=modifies the chance of mulch per squeezed apple.
+for.config.gamemode.squeezer.liquid.seed.comment=修改压榨种子时的种子油产量。其它种子油来源将基于此数值计算。
+for.config.gamemode.squeezer.liquid.apple.comment=修改压榨苹果时的果汁产量。其它果汁来源将基于此数值计算。
+for.config.gamemode.squeezer.mulch.apple.comment=修改压榨苹果时产生覆盖戍的概率。
 
-for.config.gamemode.energy.engine.clockwork.comment=允许发条引擎。
+for.config.gamemode.energy.engine.clockwork.comment=启用发条引擎。
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
