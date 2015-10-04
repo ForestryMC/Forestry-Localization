@@ -1679,3 +1679,23 @@ for.config.gamemode.energy.engine.clockwork.comment=启用发条引擎。
 # tile.for.slab.5.name=Wenge Wood Slab
 # tile.for.log.10.name=Mahogany Wood
 # tile.for.fences.0.name=Larch Fence
+
+####################
+# NEI Categories
+####################
+
+nei.subsets.Forestry=林业
+nei.subsets.Forestry.Bees=蜜蜂
+nei.subsets.Forestry.Bees.Combs=蜂巢
+nei.subsets.Forestry.Bees.Drones=雄蜂
+nei.subsets.Forestry.Bees.Princesses=公主蜂
+nei.subsets.Forestry.Bees.Queens=蜂后
+nei.subsets.Forestry.Blocks=方块
+nei.subsets.Forestry.Butterflies=蝴蝶
+nei.subsets.Forestry.Butterflies.Butterflies=蝴蝶
+nei.subsets.Forestry.Butterflies.Caterpillars=毛虫
+nei.subsets.Forestry.Butterflies.Serums=血清
+nei.subsets.Forestry.Items=物品
+nei.subsets.Forestry.Trees=树木
+nei.subsets.Forestry.Trees.Pollen=花粉
+nei.subsets.Forestry.Trees.Saplings=树苗

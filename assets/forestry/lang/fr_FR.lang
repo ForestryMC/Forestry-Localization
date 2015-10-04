@@ -1655,3 +1655,23 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 # tile.for.slab.5.name=Wenge Wood Slab
 # tile.for.log.10.name=Mahogany Wood
 # tile.for.fences.0.name=Larch Fence
+
+####################
+# NEI Categories
+####################
+
+nei.subsets.Forestry=Forestry
+nei.subsets.Forestry.Bees=Abeille
+nei.subsets.Forestry.Bees.Combs=Alvéoles
+nei.subsets.Forestry.Bees.Drones=Ourvrières
+nei.subsets.Forestry.Bees.Princesses=Princesses
+nei.subsets.Forestry.Bees.Queens=Reines
+nei.subsets.Forestry.Blocks=Blocs
+nei.subsets.Forestry.Butterflies=Papillons
+nei.subsets.Forestry.Butterflies.Butterflies=Papillons
+nei.subsets.Forestry.Butterflies.Caterpillars=Chenilles
+nei.subsets.Forestry.Butterflies.Serums=Sérums
+nei.subsets.Forestry.Items=Eléments
+nei.subsets.Forestry.Trees=Arbres
+nei.subsets.Forestry.Trees.Pollen=Pollen
+nei.subsets.Forestry.Trees.Saplings=Pousses
