@@ -1630,3 +1630,23 @@ tile.for.planks.25.name=Ipé-Holzbretter
 tile.for.slab.25.name=Ipé-Holzstufe
 tile.for.log.25.name=Ipé-Holz
 tile.for.fences.25.name=Ipé-Holzzaun
+
+####################
+# NEI Categories
+####################
+
+nei.subsets.Forestry=Forestry
+nei.subsets.Forestry.Bees=Bienen
+nei.subsets.Forestry.Bees.Combs=Waben
+nei.subsets.Forestry.Bees.Drones=Drohnen
+nei.subsets.Forestry.Bees.Princesses=Prinzessinnen
+nei.subsets.Forestry.Bees.Queens=Königinnen
+nei.subsets.Forestry.Blocks=Blöcke
+nei.subsets.Forestry.Butterflies=Schmetterlinge
+nei.subsets.Forestry.Butterflies.Butterflies=Schmetterlinge
+nei.subsets.Forestry.Butterflies.Caterpillars=Raupen
+nei.subsets.Forestry.Butterflies.Serums=Seren
+nei.subsets.Forestry.Items=Items
+nei.subsets.Forestry.Trees=Bäume
+nei.subsets.Forestry.Trees.Pollen=Pollen
+nei.subsets.Forestry.Trees.Saplings=Setzlinge
