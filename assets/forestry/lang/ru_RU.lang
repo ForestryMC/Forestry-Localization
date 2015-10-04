@@ -1474,6 +1474,26 @@ for.plugin.agricraft.description=Плагин совместимости для 
 # tile.for.log.10.name=Mahogany Wood
 # tile.for.fences.0.name=Larch Fence
 
+####################
+# NEI Categories
+####################
+
+nei.subsets.Forestry=Forestry
+nei.subsets.Forestry.Bees=Пчёлы
+nei.subsets.Forestry.Bees.Combs=Соты
+nei.subsets.Forestry.Bees.Drones=Трутни
+nei.subsets.Forestry.Bees.Princesses=Принцессы
+nei.subsets.Forestry.Bees.Queens=Королевы
+nei.subsets.Forestry.Blocks=Блоки
+nei.subsets.Forestry.Butterflies=Бабочки
+nei.subsets.Forestry.Butterflies.Butterflies=Бабочки
+nei.subsets.Forestry.Butterflies.Caterpillars=Гусеницы
+nei.subsets.Forestry.Butterflies.Serums=Сыворотки
+nei.subsets.Forestry.Items=Предметы
+nei.subsets.Forestry.Trees=Деревья
+nei.subsets.Forestry.Trees.Pollen=Пыльца
+nei.subsets.Forestry.Trees.Saplings=Саженцы
+
 ###################################
 # CUSTOM BEES NAMES
 ###################################
