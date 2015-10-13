@@ -342,6 +342,11 @@ for.gui.rule.private=私用
 for.gui.rule.restricted=受限
 for.gui.rule.shared=共享
 
+for.gui.solder.north=北
+for.gui.solder.south=南
+for.gui.solder.east=东
+for.gui.solder.west=西
+
 forestry.allele.normal=普通
 forestry.allele.average=平均
 
@@ -401,8 +406,8 @@ for.gui.speed=工作速度
 for.gui.pollination=授粉速度
 for.gui.stored=已储存
 for.gui.temperature=温度
-for.gui.temptol=温度适应性
 for.gui.tolerance=适应性
+for.gui.temptol=温度适应性
 for.gui.tooltip.tmi=按住shift来查看详细信息
 for.gui.triple=三倍
 for.gui.unknown=未知
@@ -1499,7 +1504,7 @@ for.config.crafting.stamps.enabled.comment=允许合成邮票，如禁止，则�
 for.config.crafting.stamps.disabled=禁止合成邮票
 for.config.crafting.stamps.disabled.comment=禁止某种邮票的合成表。
 
-for.config.tweak=机制调整
+for.config.tweaks=调整
 
 for.config.tweaks.gui.mail.alert=邮箱提醒
 for.config.tweaks.gui.mail.alert.comment=开启新邮件提醒。
@@ -1537,7 +1542,7 @@ for.config.genetics.research.boost.multiplier=研究突变率倍数
 for.config.genetics.research.boost.multiplier.comment=在抄写台中研究时突变几率的倍数。
 for.config.genetics.research.boost.max.percent=最大研究突变率
 for.config.genetics.research.boost.max.percent.comment=在抄写台中研究图片能够获得的最大百分比加成。
- 
+
 for.config.difficulty=难度
 for.config.difficulty.game.mode=游戏模式
 for.config.difficulty.game.mode.comment=设置你偏好的游戏模式。若与服务器设置不匹配可能会导致出现合成表界面显示错误。
