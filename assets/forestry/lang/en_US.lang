@@ -541,6 +541,8 @@ item.for.ash.name=Ash
 item.for.beealyzer.name=Beealyzer
 item.for.habitatLocator.name=Habitat Locator
 
+item.for.cart.beehouse.name=Minecart with Bee House
+
 item.for.beeCombs.cocoa.name=Cocoa Comb
 item.for.beeCombs.darkened.name=Darkened Comb
 item.for.beeCombs.dripping.name=Dripping Comb
@@ -1048,6 +1050,8 @@ tile.for.candle.lit.name=Lit Candle
 tile.for.candle.stump.name=Unlit Candle
 
 tile.for.stump.0.name=Candle Stump
+
+entity.Forestry.cart.beehouse.name=Minecart with Bee House
 
 ####################
 # MULTIBLOCK
