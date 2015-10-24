@@ -559,7 +559,7 @@ item.for.beeCombs.simmering.name=激化蜂巢
 item.for.beeCombs.stringy.name=纤维蜂巢
 item.for.beeCombs.wheaten.name=麦香蜂巢
 
-item.for.beeswax.name=蜜蜡
+item.for.beeswax.name=蜂蜡
 
 item.for.beverage.meadCurative.name=蜂蜜药酒
 item.for.beverage.meadShort.name=小瓶蜂蜜酒
@@ -689,7 +689,7 @@ item.for.refractoryLava.name=耐火岩浆胶囊
 item.for.refractoryOil.name=耐火石油胶囊
 item.for.refractorySeedOil.name=耐火种子油胶囊
 item.for.refractoryWater.name=耐火水胶囊
-item.for.refractoryWax.name=耐火石蜡
+item.for.refractoryWax.name=耐火蜂蜡
 
 item.for.researchNote.name=%s之笔记
 item.for.royalJelly.name=蜂王浆
@@ -726,7 +726,7 @@ item.for.treealyzer.name=林木分析仪
 
 item.for.canWater.name=水罐
 
-item.for.waxCapsule.name=石蜡胶囊
+item.for.waxCapsule.name=蜂蜡胶囊
 item.for.waxCapsuleEthanol.name=乙醇胶囊
 item.for.waxCapsuleBiomass.name=生物质胶囊
 item.for.waxCapsuleFuel.name=燃料胶囊
@@ -1539,9 +1539,9 @@ for.config.genetics.clear.invalid.chromosomes.comment=清除含有无效基因�
 for.config.genetics.pollinate.vanilla.trees=原版树授粉
 for.config.genetics.pollinate.vanilla.trees.comment=允许蜜蜂、蝴蝶和玩家对原版树木授粉。禁用后，原版树须经过分析方可授粉。
 for.config.genetics.research.boost.multiplier=研究突变率倍数
-for.config.genetics.research.boost.multiplier.comment=在抄写台中研究时突变几率的倍数。
+for.config.genetics.research.boost.multiplier.comment=在写字台中研究时突变几率的倍数。
 for.config.genetics.research.boost.max.percent=最大研究突变率
-for.config.genetics.research.boost.max.percent.comment=在抄写台中研究图片能够获得的最大百分比加成。
+for.config.genetics.research.boost.max.percent.comment=在写字台中研究图片能够获得的最大百分比加成。
 
 for.config.difficulty=难度
 for.config.difficulty.game.mode=游戏模式
