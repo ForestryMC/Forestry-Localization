@@ -67,8 +67,8 @@ for.circuit.layout.dummy.usage=无
 for.circuit.layout.engine.tin.name=电动引擎
 for.circuit.layout.engine.tin.usage=安装到电动引擎后
 
-for.circuit.layout.farms.managed.name=预设农场
-for.circuit.layout.farms.managed.usage=预设农场
+for.circuit.layout.farms.managed.name=自动农场
+for.circuit.layout.farms.managed.usage=自动农场
 
 for.circuit.layout.farms.manual.name=手动农场
 for.circuit.layout.farms.manual.usage=手动农场
@@ -187,7 +187,7 @@ tile.forestry.fluid.milk.name=牛奶
 tile.forestry.fluid.seedoil.name=种子油
 
 for.gui.access=权限
-for.gui.active=显性
+for.gui.active=活动
 for.gui.addressee.player=玩家
 for.gui.addressee.trader=贸易站
 
@@ -222,7 +222,7 @@ for.gui.damp=潮湿
 for.gui.derelict=遗弃
 for.gui.desert=沙漠
 for.gui.didyouknow=你知道吗
-for.gui.diurnal=昼夜型
+for.gui.diurnal=昼行性
 for.gui.drones=雄蜂
 for.gui.effect=特殊效果
 for.gui.empty=空
@@ -248,7 +248,7 @@ for.gui.hybrid=混血
 for.gui.icy=严寒
 for.gui.imprinter.cheater=（你丫作弊！）
 for.gui.imprinter.name=染色体变换仪
-for.gui.inactive=隐性
+for.gui.inactive=非活动
 for.gui.life=生命
 for.gui.lifespan=寿命
 for.gui.normal=普通
@@ -541,23 +541,23 @@ item.for.ash.name=灰烬
 item.for.beealyzer.name=蜜蜂分析仪
 item.for.habitatLocator.name=栖息地定位仪
 
-item.for.beeCombs.cocoa.name=可可蜂巢
-item.for.beeCombs.darkened.name=暗黑蜂巢
-item.for.beeCombs.dripping.name=滴水蜂巢
-item.for.beeCombs.frozen.name=冻结蜂巢
-item.for.beeCombs.honey.name=蜜蜂蜂巢
-item.for.beeCombs.irradiated.name=辐射蜂巢
-item.for.beeCombs.mellow.name=醇厚蜂巢
-item.for.beeCombs.mossy.name=苔藓蜂巢
-item.for.beeCombs.mysterious.name=神秘蜂巢
-item.for.beeCombs.omega.name=终结蜂巢
-item.for.beeCombs.parched.name=炎热蜂巢
-item.for.beeCombs.powdery.name=粉末蜂巢
-item.for.beeCombs.reddened.name=泛红蜂巢
-item.for.beeCombs.silky.name=丝滑蜂巢
-item.for.beeCombs.simmering.name=激化蜂巢
-item.for.beeCombs.stringy.name=纤维蜂巢
-item.for.beeCombs.wheaten.name=麦香蜂巢
+item.for.beeCombs.cocoa.name=可可蜂窝
+item.for.beeCombs.darkened.name=暗黑蜂窝
+item.for.beeCombs.dripping.name=滴水蜂窝
+item.for.beeCombs.frozen.name=冻结蜂窝
+item.for.beeCombs.honey.name=蜜蜂蜂窝
+item.for.beeCombs.irradiated.name=辐射蜂窝
+item.for.beeCombs.mellow.name=醇厚蜂窝
+item.for.beeCombs.mossy.name=苔藓蜂窝
+item.for.beeCombs.mysterious.name=神秘蜂窝
+item.for.beeCombs.omega.name=终结蜂窝
+item.for.beeCombs.parched.name=炎热蜂窝
+item.for.beeCombs.powdery.name=粉末蜂窝
+item.for.beeCombs.reddened.name=泛红蜂窝
+item.for.beeCombs.silky.name=丝滑蜂窝
+item.for.beeCombs.simmering.name=激化蜂窝
+item.for.beeCombs.stringy.name=纤维蜂窝
+item.for.beeCombs.wheaten.name=麦香蜂窝
 
 item.for.beeswax.name=蜜蜡
 
@@ -726,7 +726,7 @@ item.for.treealyzer.name=林木分析仪
 
 item.for.canWater.name=水罐
 
-item.for.waxCapsule.name=石蜡胶囊
+item.for.waxCapsule.name=蜜蜡胶囊
 item.for.waxCapsuleEthanol.name=乙醇胶囊
 item.for.waxCapsuleBiomass.name=生物质胶囊
 item.for.waxCapsuleFuel.name=燃料胶囊
