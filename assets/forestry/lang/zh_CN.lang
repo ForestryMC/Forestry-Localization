@@ -67,8 +67,8 @@ for.circuit.layout.dummy.usage=无
 for.circuit.layout.engine.tin.name=电动引擎
 for.circuit.layout.engine.tin.usage=安装到电动引擎后
 
-for.circuit.layout.farms.managed.name=预设农场
-for.circuit.layout.farms.managed.usage=预设农场
+for.circuit.layout.farms.managed.name=自动农场
+for.circuit.layout.farms.managed.usage=自动农场
 
 for.circuit.layout.farms.manual.name=手动农场
 for.circuit.layout.farms.manual.usage=手动农场
@@ -506,6 +506,17 @@ for.researchNote.discovery.1=§e‘%SPEC1’§7以及§e‘%SPEC2’§7。
 for.researchNote.discovery.2=成功率为§9%s§7。
 for.researchNote.discovery.3=新种为§d‘%s’§7。
 
+for.mutation.condition.biome.single=该突变只可能在%s生物群系中发生。
+for.mutation.condition.biome.multiple=该突变会在和%s类似的生物群系中。
+for.mutation.condition.daytime.day=该突变仅在白天时发生。
+for.mutation.condition.daytime.night=该突变仅在夜晚时发生。
+for.mutation.condition.humidity.range=该突变会在湿度处于%LOW和%HIGH之间时发生。
+for.mutation.condition.humidity.single=该突变仅在湿度为%s时发生。
+for.mutation.condition.temperature.range=该突变会在温度处于%LOW和%HIGH之间时发生。
+for.mutation.condition.temperature.single=该突变仅在温度为%s时发生。
+for.mutation.condition.resource=该突变需要%s作为蜂箱的基石才可发生。
+for.mutation.condition.date=该突变只在%START到%END这段时间内发生。
+
 for.storage.backpack.mode.locked=（已锁定）
 for.storage.backpack.mode.receiving=（接收中）
 for.storage.backpack.mode.resupply=（再补给）
@@ -543,23 +554,23 @@ item.for.habitatLocator.name=栖息地定位仪
 
 item.for.cart.beehouse.name=蜂房车
 
-item.for.beeCombs.cocoa.name=可可蜂巢
-item.for.beeCombs.darkened.name=暗黑蜂巢
-item.for.beeCombs.dripping.name=滴水蜂巢
-item.for.beeCombs.frozen.name=冻结蜂巢
-item.for.beeCombs.honey.name=蜜蜂蜂巢
-item.for.beeCombs.irradiated.name=辐射蜂巢
-item.for.beeCombs.mellow.name=醇厚蜂巢
-item.for.beeCombs.mossy.name=苔藓蜂巢
-item.for.beeCombs.mysterious.name=神秘蜂巢
-item.for.beeCombs.omega.name=终结蜂巢
-item.for.beeCombs.parched.name=炎热蜂巢
-item.for.beeCombs.powdery.name=粉末蜂巢
-item.for.beeCombs.reddened.name=泛红蜂巢
-item.for.beeCombs.silky.name=丝滑蜂巢
-item.for.beeCombs.simmering.name=激化蜂巢
-item.for.beeCombs.stringy.name=纤维蜂巢
-item.for.beeCombs.wheaten.name=麦香蜂巢
+item.for.beeCombs.cocoa.name=可可蜂窝
+item.for.beeCombs.darkened.name=暗黑蜂窝
+item.for.beeCombs.dripping.name=滴水蜂窝
+item.for.beeCombs.frozen.name=冻结蜂窝
+item.for.beeCombs.honey.name=蜜蜂蜂窝
+item.for.beeCombs.irradiated.name=辐射蜂窝
+item.for.beeCombs.mellow.name=醇厚蜂窝
+item.for.beeCombs.mossy.name=苔藓蜂窝
+item.for.beeCombs.mysterious.name=神秘蜂窝
+item.for.beeCombs.omega.name=终结蜂窝
+item.for.beeCombs.parched.name=炎热蜂窝
+item.for.beeCombs.powdery.name=粉末蜂窝
+item.for.beeCombs.reddened.name=泛红蜂窝
+item.for.beeCombs.silky.name=丝滑蜂窝
+item.for.beeCombs.simmering.name=激化蜂窝
+item.for.beeCombs.stringy.name=纤维蜂窝
+item.for.beeCombs.wheaten.name=麦香蜂窝
 
 item.for.beeswax.name=蜂蜡
 
