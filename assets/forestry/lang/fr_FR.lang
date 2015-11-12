@@ -52,6 +52,14 @@ for.circuit.electric.choke.1.description.1=Réduit la sortie de 10 RF/t
 for.circuit.electric.choke.1.description.2=Réduit la consommation de 2 EU/t
 for.circuit.electric.efficiency.1=Efficacité électrique
 for.circuit.electric.efficiency.1.description.1=Réduit la consommation de 1 EU/t
+for.circuit.machine.speed.boost.1=Amélioration vitesse I
+for.circuit.machine.speed.boost.1.description.1=Augmente la vitesse de 12,5%
+for.circuit.machine.speed.boost.1.description.2=Augmente la consommation de 5%
+for.circuit.machine.speed.boost.2=Amélioration vitesse II
+for.circuit.machine.speed.boost.2.description.1=Augmente la vitesse de 25%
+for.circuit.machine.speed.boost.2.description.2=Augmente la consommation de 10%
+for.circuit.machine.efficiency.1=Efficacité de machine
+for.circuit.machine.efficiency.1.description.1=Réduit la consommation de 10%
 
 for.circuit.layout.dummy.name=Non disponible
 for.circuit.layout.dummy.usage=Rien
@@ -65,82 +73,8 @@ for.circuit.layout.farms.managed.usage=pour les fermes gérées
 for.circuit.layout.farms.manual.name=Ferme manuelle
 for.circuit.layout.farms.manual.usage=pour les fermes manuelles
 
-for.errors.circuitMismatch.desc=Disposition incompatible
-for.errors.circuitMismatch.help=Le nombre des tubes électiques ne correspond pas à la taille du circuit imprimé.
-for.errors.forcedCooldown.desc=Refroidissement forcé
-for.errors.forcedCooldown.help=Le moteur a surchauffé et il est forcé de refroidir.
-for.errors.invalidBiome.desc=Environnement hostile
-for.errors.invalidBiome.help=les machines ou les habitants ne peuvent pas travailler dans ce biome.
-for.errors.isRaining.desc=Pluie
-for.errors.isRaining.help=Le fonctionnement est seulement possible quand il ne pleut pas.
-for.errors.noCircuitBoard.desc=Circuit manquant
-for.errors.noCircuitBoard.help=Insérez un circuit imprimé pour souder dessus les tubes électriques sélectionnés. 
-for.errors.noCircuitLayout.desc=Dispositions non trouvées
-for.errors.noCircuitLayout.help=Pas de dispositions disponible en raison des options de jeu actuelles.
-for.errors.noDisposal.desc=Déchets non jetable
-for.errors.noDisposal.help=Espace insuffisant pour jeter des déchets.
-for.errors.noDrone.desc=Pas d'ouvrières
-for.errors.noDrone.help=La ponte nécessite la présence d'une ouvrière.
-for.errors.noEnergyNet.desc=Pas d'électricité
-for.errors.noEnergyNet.help=Votre Monde ne possède pas l'électricité. (Installez IndustrialCraft\u00b2.)
-for.errors.noPower.desc=Pas de puissance
-for.errors.noPower.help=Cette machine demande de la puissance RF pour fonctionner.
-for.errors.noRedstone.desc=Pas de signal
-for.errors.noRedstone.help=Cette machine demande un signal redstone pour s'activer.
-for.errors.disabledRedstone.desc=Désactivée
-for.errors.disabledRedstone.help=Cette machine est mise hors de service par un signal redstone.
-for.errors.noFlower.desc=Pas de fleurs
-for.errors.noFlower.help=Les membres de la ruche ne trouvent pas les bonnes fleurs.
-for.errors.noFuel.desc=Pas de carburant
-for.errors.noFuel.help=Réapprovisionner les réserves en carburant de cette machine.
-for.errors.noHeat.desc=Non chauffé
-for.errors.noHeat.help=Remplir le réservoir de chauffage.
-for.errors.noHoney.desc=Miel demandé
-for.errors.noHoney.help=Ce gadget nécessite des gouttes de miel ou de miellat pour l'opération.
-for.errors.noQueen.desc=Pas de reine
-for.errors.noQueen.help=Approvisionner cette ruche soit avec une reine, soit avec une princesse et une ouvrière.
-for.errors.noRecipe.desc=Aucune recette
-for.errors.noRecipe.help=Aucune recette ne correspond aux ressources fournies.
-for.errors.noRecipient.desc=Pas de destinataire
-for.errors.noRecipient.help=Vous devez adresser votre lettre à un destinataire pour l'envoyer.
-for.errors.noResource.desc=Ressources manquantes
-for.errors.noResource.help=Davantage de ressources doivent être fournis pour l'opération.
-for.errors.noSky.desc=Ciel obstrué
-for.errors.noSky.help=Dégagez la zone au-dessus de la machine.
-for.errors.noSpace.desc=Inventaire plein
-for.errors.noSpace.help=Videz l'inventaire de cette machine.
-for.errors.noSpaceTank.desc=Plus d'espace au réservoir
-for.errors.noSpaceTank.help=Videz le liquide de ce réservoir.
-for.errors.noSpecimen.desc=Rien à analyser
-for.errors.noSpecimen.help=Fournissez des échantillons à analyser.
-for.errors.noStamps.desc=Timbres demandés
-for.errors.noStamps.help=Le service postal demande plus de timbres pour payer l'affranchissement.
-for.errors.noPaper.desc=Papier demandé
-for.errors.noPaper.help=Le service postal demande plus de papier pour envoyer des lettres.
-for.errors.noSupplies.desc=Besoin de provisions
-for.errors.noSupplies.help=Le service postal demande plus de provisions pour envoyer.
-for.errors.noTrade.desc=Pas de service actif
-for.errors.noTrade.help=Le service postal demande des éléments pour envoyer et recevoir.
-for.errors.notAlphaNumeric.desc=Non alphanumérique
-for.errors.notAlphaNumeric.help=La chaîne donnée doit comporter uniquement des nombres et des lettres.
-for.errors.notDay.desc=Pas de journée
-for.errors.notDay.help=L'opération n'est possible que pendant la journée.
-for.errors.notGloomy.desc=Pas assez sombre
-for.errors.notGloomy.help=Un niveau de luminosité plus faible est nécessaire pour l'opération.
-for.errors.notLucid.desc=Pas assez lumineux
-for.errors.notLucid.help=Un niveau de lumière élevé est nécessaire pour l'opération.
-for.errors.notNight.desc=Pas de nuit
-for.errors.notNight.help=L'opération n'est possible que durant la nuit.
-for.errors.notPostpaid.desc=Timbres demandés
-for.errors.notPostpaid.help=Appliquez plus de timbre pour payer le service postal.
-for.errors.notRaining.desc=Pas de pluie
-for.errors.notRaining.help=L'opération n'est possible que lorsqu'il pleut.
-for.errors.notUnique.desc=Pas unique
-for.errors.notUnique.help=La chaîne donnée doit être unique dans ce monde. Choisis en une autre.
-for.errors.unknown.desc=Erreur inconnue
-for.errors.unknown.help=Félicitations, vous avez trouvé une coquille.
-for.errors.wrongStacksize.desc=Trop d'éléments
-for.errors.wrongStacksize.help=Seuls les éléments unitaires peuvent être utilisées ici.
+for.circuit.layout.machine.upgrade.name=Amélioration de machine
+for.circuit.layout.machine.upgrade.usage=Machines électrifiées
 
 for.flowers.cacti=Cactus
 for.flowers.end=Fin
@@ -212,6 +146,7 @@ for.gui.drones=Ouvriers
 for.gui.effect=Effet
 for.gui.empty=Vide
 for.gui.emptysocket=Emplacement vide
+for.gui.socket.remove=Retirable avec le fer à souder
 for.gui.energy=Énergie
 for.gui.environment=Environment
 for.gui.evolution=Évolution
@@ -318,7 +253,6 @@ for.gui.pipe.filter.pure_nocturnal=Nocturne pures
 for.gui.pipe.filter.queen=Reines
 
 for.gui.plains=Plaines
-for.gui.pollination=Vitesse de pollinisation
 for.gui.princesses=Princesses
 for.gui.produce=Produit
 for.gui.queens=Reines
@@ -326,6 +260,11 @@ for.gui.queens=Reines
 for.gui.rule.private=Privé
 for.gui.rule.restricted=Restreint
 for.gui.rule.shared=Partagé
+
+for.gui.solder.north=N
+for.gui.solder.south=S
+for.gui.solder.east=E
+for.gui.solder.west=O
 
 forestry.allele.normal=Normal
 forestry.allele.average=Moyenne
@@ -382,9 +321,11 @@ for.gui.size=Taille
 for.gui.slots=%USED/%SIZE Emplacements
 for.gui.species=Espèces
 for.gui.speciescount=Espèces
-for.gui.speed=Vitesse de production
+for.gui.speed=Production
+for.gui.pollination=Pollinisation
 for.gui.stored=Stocké
 for.gui.temperature=Température
+for.gui.tolerance=Tolérance
 for.gui.temptol=Tolérance temp.
 for.gui.tooltip.tmi=Tapez Maj pour les détails
 for.gui.triple=Triple
@@ -441,6 +382,8 @@ for.hints.forcedcooldown.desc=Les moteurs peuvent surchauffer si l'énergie n'es
 for.hints.forcedcooldown.tag=Evitez la surchauffe !
 for.hints.generatorfuels.desc=Les Biogénérateurs acceptent aussi bien la biomasse que le biocarburant. Ils sont plus efficaces avec ce dernier.
 for.hints.generatorfuels.tag=Utilisez tous les carburants !
+for.hints.habitatlocatoruse.desc=Après quelque temps, le localisatuer d'habitat vous indiquera tout directement le biome approprié le plus proche. Une fois trouvé, l'indicateur tournera.
+for.hints.habitatlocatoruse.tag=Localisateur d'habitat 101!
 for.hints.honeyfood.desc=Vous pouvez créer plusieurs type de nourriture a base de miel et autres produit des abeilles.
 for.hints.honeyfood.tag=Plus de nourriture !
 for.hints.manualpeat.desc=La production de tourbe peut être automatisée avec une ferme, mais vous pouvez aussi la récolter manuellement.
@@ -484,6 +427,17 @@ for.researchNote.discovery.1=§e'%SPEC1'§7 et §e'%SPEC2'§7.
 for.researchNote.discovery.2=La chance de succès est §9%s§7.
 for.researchNote.discovery.3=La nouvelle espèce est §d'%s'§7.
 
+for.mutation.condition.biome.single=Se produit dans un biome %s.
+for.mutation.condition.biome.multiple=Se produit dans les biomes tel que : %s
+for.mutation.condition.daytime.day=Durant le jour.
+for.mutation.condition.daytime.night=Durant la nuit.
+for.mutation.condition.humidity.range=Exige une humidité entre %LOW et %HIGH.
+for.mutation.condition.humidity.single=Exige une humidité de %s.
+for.mutation.condition.temperature.range=Exige une température entre %LOW et %HIGH.
+for.mutation.condition.temperature.single=Exige une température de %s.
+for.mutation.condition.resource=Exige un(e) %s comme fondation.
+for.mutation.condition.date=Se produit entre %START et %END.
+
 for.storage.backpack.mode.locked=(FERMÉ)
 for.storage.backpack.mode.receiving=(RÉCEPTION)
 for.storage.backpack.mode.resupply=(RÉAPPROVISIONNEMENT)
@@ -518,6 +472,9 @@ item.for.ash.name=Cendres
 
 item.for.beealyzer.name=Analyseur d'abeilles
 item.for.habitatLocator.name=Localisateur d'habitat
+
+item.for.cart.beehouse.name=Wagonnet avec ruche
+item.for.cart.apiary.name=Wagonnet avec ruchet
 
 item.for.beeCombs.cocoa.name=Alvéole de cacao
 item.for.beeCombs.darkened.name=Alvéole noircie
@@ -778,6 +735,139 @@ tile.for.stained.12.name=Verre teinté marron
 tile.for.stained.13.name=Verre teinté vert
 tile.for.stained.14.name=Verre teinté rouge
 tile.for.stained.15.name=Verre teinté noir
+
+neiintegration.chance=Chance : %s
+neiintegration.chance.never=Aucune
+neiintegration.chance.lessThan1=<1%
+neiintegration.handler.forestry.shaped=Sylviculture formée
+neiintegration.handler.forestry.shapeless=Sylviculture sans forme
+neiintegration.handler.forestry.fabricator.worth=Valeur :
+
+################
+# ERRORS
+################
+
+# BEES
+for.errors.isRaining.desc=Pluie
+for.errors.isRaining.help=Seules les ouvrières tolérante peuvent voler sous la pluie.
+for.errors.noDrone.desc=Pas d'ouvrière
+for.errors.noDrone.help=La reproduction exige la présence d'une ouvrière.
+for.errors.noFlower.desc=Pas de fleurs
+for.errors.noFlower.help=Les membres de la ruche ne trouvent pas les bonnes fleurs . Utilisez l'analyseur d'abeilles pour connaître leur fleur préférée.
+for.errors.noQueen.desc=Pas de reine
+for.errors.noQueen.help=Fournissez à cette ruche d'une reine ou une princesse et une ouvrière.
+for.errors.noSky.desc=Ciel obstrué
+for.errors.noSky.help=La ruche exige la lumière du soleil au-dessus.
+for.errors.notDay.desc=Pas de jour
+for.errors.notDay.help=Les abeilles peuvent seulement travailler durant le jour.
+for.errors.notGloomy.desc=Pas assez sombre
+for.errors.notGloomy.help=Les abeilles peuvent seulement travailler dans l'obscurité.
+for.errors.notLucid.desc=Pas assez lumineux
+for.errors.notLucid.help=Les abeilles ont des problèmes de navigation dans le noir.
+for.errors.notNight.desc=Pas de nuit
+for.errors.notNight.help=Les abeilles peuvent seulement travailler durant la nuit.
+for.errors.tooHot.desc=Trop chaud
+for.errors.tooHot.help=Les abeilles fondent de chaleur ici et sont incapable de travailler. Utilisez un localisateur d'habitat pour trouver un climat plus frais.
+for.errors.tooCold.desc=Trop froid
+for.errors.tooCold.help=Les abeilles se serrent les une au autres pour réchapper du froid glacial d'ici. Utilisez un localisateur d'habitat pour trouver un climat plus chaud.
+for.errors.tooHumid.desc=Trop humide
+for.errors.tooHumid.help=Le climat d'ici a rendu les ailes des abeilles trop humides pour voler. Utilisez un localisateur d'habitat pour trouver un climat plus sec.
+for.errors.tooArid.desc=Trop sec
+for.errors.tooArid.help=Le climat sec d'ici a desséchée les abeilles et les a rendu incapable de travailler. Utilisez un localisateur d'habitat pour trouver un climat plus humide.
+
+# MACHINES
+for.errors.noPower.desc=Pas de puissance
+for.errors.noPower.help=Cette machine demande de l'énergie RF pour fonctionner.
+for.errors.noRedstone.desc=Exige un signal redstone
+for.errors.noRedstone.help=Cette machine a besoin d'un signal redstone pour s'activer.
+for.errors.disabledRedstone.desc=Désactivé par redstone
+for.errors.disabledRedstone.help=Cette machine a été désactivé par un signal redstone.
+for.errors.noRecipe.desc=Pas de recette
+for.errors.noRecipe.help=Aucune recette ne correspond aux ressources fournies.
+for.errors.noResource.desc=Ressources manquantes
+for.errors.noResource.help=Davantage de ressources doivent être fournis pour l'opération.
+for.errors.noResourceInventory.desc=L'inventaire demande des ressources
+for.errors.noResourceInventory.help=Des ressources doivent être ajoutées à l'inventaire de la machine pour fabriquer cette recette.
+for.errors.noResourceLiquid.desc=Ressources liquides manquantes
+for.errors.noResourceLiquid.help=Plus de ressources liquides doivent être fournies pour l'opération.
+for.errors.noSpace.desc=Inventaire plein
+for.errors.noSpace.help=Videz l'inventaire de cette machine.
+for.errors.noSpaceTank.desc=Plus d'espace au réservoir
+for.errors.noSpaceTank.help=Videz le liquide de ce réservoir.
+for.errors.notDark.desc=Pas assez sombre
+for.errors.notDark.help=Un niveau de lumière plus faible est exigé pour l'opération.
+
+# RAIN TANK
+for.errors.notRaining.desc=Pas de pluie
+for.errors.notRaining.help=L'opération est possible seulement s'il pleut.
+for.errors.noRainBiome.desc=Aucunes pluies
+for.errors.noRainBiome.help=Cet emplacement ne reçoit jamais de pluie.
+for.errors.noSkyRainTank.desc=Ciel obstrué
+for.errors.noSkyRainTank.help=Nettoyez la zone au-dessus de cet machine afin qu'elle récolte la pluie.
+
+# ALYZERS
+for.errors.noHoney.desc=Miel demandé
+for.errors.noHoney.help=Ce gadget nécessite des gouttes de miel ou de miellat pour l'opération.
+for.errors.noSpecimen.desc=Rien à analyser
+for.errors.noSpecimen.help=Fournissez un spécimen à analyser.
+
+# ENGINES
+for.errors.forcedCooldown.desc=Refroidissement forcé
+for.errors.forcedCooldown.help=Le moteur a surchauffé et il est forcé de refroidir.
+for.errors.noEnergyNet.desc=Pas d'électricité
+for.errors.noEnergyNet.help=Votre Monde ne possède pas l'électricité. (Installez IndustrialCraft\u00b2.)
+for.errors.noFuel.desc=Pas de carburant
+for.errors.noFuel.help=Réapprovisionner les réserves en carburant de cette machine.
+for.errors.noHeat.desc=Non chauffé
+for.errors.noHeat.help=Remplir le réservoir de chauffage.
+
+# TRADE STATION
+for.errors.noStamps.desc=Timbres demandés
+for.errors.noStamps.help=Le service postal demande plus de timbres pour payer l'affranchissement.
+for.errors.noPaper.desc=Papier demandé
+for.errors.noPaper.help=Le service postal demande plus de papier pour envoyer des lettres.
+for.errors.noSupplies.desc=Besoin de provisions
+for.errors.noSupplies.help=Le service postal demande plus de provisions pour envoyer.
+for.errors.noTrade.desc=Pas de service actif
+for.errors.noTrade.help=Le service postal demande des éléments pour envoyer et recevoir.
+
+# TRADE STATION NAMING
+for.errors.notAlphaNumeric.desc=Non alphanumérique
+for.errors.notAlphaNumeric.help=La chaîne donnée doit comporter uniquement des nombres et des lettres.
+for.errors.notUnique.desc=Pas unique
+for.errors.notUnique.help=La chaîne donnée doit être unique dans ce monde. Choisis en une autre.
+
+# LETTERS
+for.errors.noRecipient.desc=Pas de destinataire
+for.errors.noRecipient.help=Vous devez adresser votre lettre à un destinataire pour l'envoyer.
+for.errors.notPostpaid.desc=Timbres demandés
+for.errors.notPostpaid.help=Appliquez plus de timbre pour payer le service postal.
+
+# CIRCUIT BOARDS
+for.errors.circuitMismatch.desc=Disposition incompatible
+for.errors.circuitMismatch.help=Le nombre des tubes électiques ne correspond pas à la taille du circuit imprimé.
+for.errors.noCircuitBoard.desc=Circuit manquant
+for.errors.noCircuitBoard.help=Insérez un circuit imprimé pour souder dessus les tubes électriques sélectionnés. 
+for.errors.noCircuitLayout.desc=Dispositions non trouvées
+for.errors.noCircuitLayout.help=Pas de dispositions disponible en raison des options de jeu actuelles.
+
+# FARMS
+for.errors.noFarmland.desc=Aucune terres agricoles
+for.errors.noFarmland.help=Le grès poli, les briques ou les briques de pierre forment une plateforme sur laquelle la ferme se construira.
+for.errors.noFertilizer.desc=Pas d'engrais
+for.errors.noFertilizer.help=Les fermes exigent de l'engrais pour fonctionner. Le compost est insuffisant.
+for.errors.noLiquid.desc=Pas d'eau
+for.errors.noLiquid.help=Dépendant de la pluie, de la température et de l'humidité, les fermes demmandent d'être fournies supplied avec des quantités variables d'eau.
+
+# DEPRECATED
+for.errors.invalidBiome.desc=Environnement hostile
+for.errors.invalidBiome.help=les machines ou les habitants ne peuvent pas travailler dans ce biome.
+for.errors.noDisposal.desc=Déchets non jetable
+for.errors.noDisposal.help=Espace insuffisant pour jeter des déchets.
+for.errors.unknown.desc=Erreur inconnue
+for.errors.unknown.help=Félicitations, vous avez trouvé une coquille.
+for.errors.wrongStacksize.desc=Trop d'éléments
+for.errors.wrongStacksize.help=Seuls les éléments unitaires peuvent être utilisées ici.
 
 ####################
 # APICULTURE
@@ -1173,7 +1263,7 @@ for.trees.species.padauk=Padauk
 for.trees.species.cocobolo=Cocobolo
 for.trees.species.zebrawood=Zebrano
 
-for.fences.grammar=Cloture de %TYPE
+for.fences.grammar=Barrière de %TYPE
 for.log.grammar=Bois de %TYPE
 for.planks.grammar=Planches de %TYPE 
 for.slab.grammar=Dalles de %TYPE 
@@ -1242,13 +1332,6 @@ for.circuit.manualShroom=Champignonnière
 for.circuit.manualSucculent=Ferme de plante
 for.circuit.manualVegetable=Ferme de légumes
 
-for.errors.noFarmland.desc=Pas de terres agricoles
-for.errors.noFarmland.help=Le grès, les briques ou les pierres taillées créent une platforme où la ferme se construira.
-for.errors.noFertilizer.desc=Pas d'engrais
-for.errors.noFertilizer.help=La ferme a besoin d'engrais pour fonctionner. Le composte est insuffisant.
-for.errors.noLiquid.desc=Pas d'eau
-for.errors.noLiquid.help=La quantitée d'eau fourni aux fermes varie selon le pluviométrie, la température et l'humidité.
-
 for.gui.farm.title=Ferme
 for.gui.hydr.heat=Par la chaleur
 for.gui.hydr.humid=Par l'humidité
@@ -1271,7 +1354,7 @@ for.hints.hatch.tag=Fermez les écoutilles !
 for.hints.manualfarms.desc=Mise a part les fermes automatique il y a aussi les fermes manuel qui ne maintiendront que la ferme, mais ne plantera pas.
 for.hints.manualfarms.tag=Ferme manuelle !
 for.hints.valve.desc=Presque toutes les exploitations agricoles ont besoin d'eau. Utiliser des vannes pour l'automatisation.
-for.hints.valve.tag=Fournir de l'eau !
+for.hints.valve.tag=Fournissez de l'eau !
 
 
 for.trigger.lowFertilizer=Engrais
@@ -1415,23 +1498,25 @@ for.plugin.lepidopterology.description=Papillons. Brillant.
 for.plugin.mail.description=Ajoute un système de courrier et de commerce à Forestry.
 for.plugin.storage.description=Ajoute des sacs à dos et des caisses.
 
-for.plugin.buildcraft6.description=Plugin de compatibilité pour BuildCraft 6.
+for.plugin.buildcraft6.description=Plug-in de compatibilité pour BuildCraft 6.
 for.plugin.pipes.description=Ajoute le tuyau de transport d'apiculteur si l'apiculture est activée et que BuildCraft 6 est présent.
-for.plugin.ic2.description=Plugin de compatibilité pour IC2. Ajoute des moteurs électrique et des générateur pour la conversion d'énergie.
-for.plugin.natura.description=Plugin de compatibilité pour Natura. Permet la culture des pousses Natura.
-for.plugin.ee2.description=Plugin de compatibilité pour Equivalent Exchange 2. Active la branche d'abeille Omega. Exige que l'Apiculture soit permise.
-for.plugin.ee3.description=Plugin de compatibilité pour Equivalent Exchange 3.
+for.plugin.ic2.description=Plug-in de compatibilité pour IC2. Ajoute des moteurs électrique et des générateur pour la conversion d'énergie.
+for.plugin.natura.description=Plug-in de compatibilité pour Natura. Permet la culture des pousses Natura.
+for.plugin.ee2.description=Plug-in de compatibilité pour Equivalent Exchange 2. Active la branche d'abeille Omega. Exige que l'Apiculture soit permise.
+for.plugin.ee3.description=Plug-in de compatibilité pour Equivalent Exchange 3.
 for.plugin.farmcraftory.description=Active la compatibilité avec FarmCraftory. Ajoute des cultures et des légumes à cultiver.
-for.plugin.biomesoplenty.description=Plugin de compatibilité pour Biomes O Plenty. Permet la culture des pousses BoP.
-for.plugin.extrautilities.description=Plugin de compatibilité pour Extra Utilities. Permet la culture des lotus du néant.
-for.plugin.harvestcraft.description=Plugin de compatibilité pour HarvestCraft. Permet la culture des plantes et des arbres HarvestCraft.
-for.plugin.magicalcrops.description=Plugin de compatibilité pour Magical Crops.
-for.plugin.chisel.description=Plugin de compatibilité pour Chisel. Ajoute des blocs générés du monde aux sacs à dos.
-for.plugin.plantmegapack.description=Plugin de compatibilité pour Plant Mega Pack.
+for.plugin.biomesoplenty.description=Plug-in de compatibilité pour Biomes O Plenty. Permet la culture des pousses BoP.
+for.plugin.extrautilities.description=Plug-in de compatibilité pour Extra Utilities. Permet la culture des lotus du néant.
+for.plugin.harvestcraft.description=Plug-in de compatibilité pour HarvestCraft. Permet la culture des plantes et des arbres HarvestCraft.
+for.plugin.magicalcrops.description=Plug-in de compatibilité pour Magical Crops.
+for.plugin.chisel.description=Plug-in de compatibilité pour Chisel. Ajoute des blocs générés du monde aux sacs à dos.
+for.plugin.plantmegapack.description=Plug-in de compatibilité pour Plant Mega Pack.
 for.plugin.witchery.description=Active la compatibilité avec Witchery. 
 for.plugin.agricraft.description=Active la compatibilité avec AgriCraft. 
-for.plugin.enderIO.description=Plugin de compatibilité pour EnderIO.
-for.plugin.immersiveengineering=Plugin de compatibilité pour Immersive Engineering.
+for.plugin.enderIO.description=Plug-in de compatibilité pour EnderIO.
+for.plugin.immersiveengineering=Plug-in de compatibilité pour Immersive Engineering.
+for.plugin.growthcraft.description=Plug-in de compatibilité pour GrowthCraft
+for.plugin.erebus.description=Plug-in de compatibilité pour Erebus
 
 ####################
 # CONFIG FILES
@@ -1503,20 +1588,22 @@ for.config.tweaks.farms.magicalcrops=Support de la ferme à Magical Crops
 for.config.tweaks.farms.magicalcrops.comment=Activez le support de la ferme pour Magical Crops.
 
 for.config.genetics=Génétiques
-for.config.genetics.clear.invalid.chromosomes=Clear Invalid Chromosomes
-for.config.genetics.clear.invalid.chromosomes.comment=Clears chromosomes which contain invalid alleles. Might rescue your save if it is crashing after the removal of a bee addon.
-for.config.genetics.research.boost.multiplier=Research Mutation Multiplier
-for.config.genetics.research.boost.multiplier.comment=Multiplies the chance of a mutation when it has been discovered in the Escritoire.
-for.config.genetics.research.boost.max.percent=Research Mutation Max
-for.config.genetics.research.boost.max.percent.comment=The maximum percentage boost that can be applied by researching a mutation in the Escritoire.
+for.config.genetics.clear.invalid.chromosomes=Effacer les chromosomes non-valides
+for.config.genetics.clear.invalid.chromosomes.comment=Efface les chromosomes qui contiennent des allèles non-valides. Pourrait sauver votre sauvegarde si elle plante après la supression d'un ajout d'abeille.
+for.config.genetics.pollinate.vanilla.trees=Pollinise les arbres minecraft
+for.config.genetics.pollinate.vanilla.trees.comment=Permet aux abeilles, aux papillons, et au joueur de polliniser les feuilles des arbres Minecraft. Lorsque vous le désactivez, Les arbres Minecraft doivent être analysés avant de pouvoir les polliniser.
+for.config.genetics.research.boost.multiplier=Multiplicateur de mutation de recherche
+for.config.genetics.research.boost.multiplier.comment=Multiplie les chance d'une mutation quand on l'a découvert dans le secrétaire.
+for.config.genetics.research.boost.max.percent=Maximum de mutation de recherche
+for.config.genetics.research.boost.max.percent.comment=L'augmentation de pourcentage maximale qui peut être appliquée en faisant des recherches d'une mutation dans le Secrétaire.
 
 for.config.difficulty=Difficulté
 for.config.difficulty.game.mode=Mode de jeu
-for.config.difficulty.game.mode.comment=Set to your preferred game mode. Mismatch with the server may cause visual glitches with recipes.
-for.config.difficulty.recreate.definitions=Recreate Definitions
-for.config.difficulty.recreate.definitions.comment=Forces recreation of the game mode definitions in config/forestry/gamemodes.
-for.config.difficulty.loot.rare=Rare Loot
-for.config.difficulty.loot.rare.comment=Makes dungeon loot generated by forestry rarer.
+for.config.difficulty.game.mode.comment=Mettez votre mode de jeu préféré. Un décalage avec le serveur peut causer des problèmes visuels avec les recettes.
+for.config.difficulty.recreate.definitions=Recréer les définitions
+for.config.difficulty.recreate.definitions.comment=Force la recréation des définitions du mode de jeu dans les configs, Forestry ou les modes de jeu
+for.config.difficulty.loot.rare=Récompenses rares
+for.config.difficulty.loot.rare.comment=Rend les récompenses de dunjon généré par forestry rares.
 
 for.config.structures=Structures
 for.config.structures.disabled=Désactivez les structures
@@ -1527,52 +1614,52 @@ for.config.fluids.enable.format=Activez %s fluides.
 for.config.fluid.blocks=Blocs de fluides
 for.config.fluid.blocks.enable.format=Activez %s blocs de fluide en jeu.
 
-for.config.debug.enabled=Debug Mode
-for.config.debug.enabled.comment=Enable Debug mode (only useful to developers).
+for.config.debug.enabled=Mode débogueur
+for.config.debug.enabled.comment=Active le mode de dégogueur (seulement utile aux développeurs).
 
-for.config.beekeeping.mode=Beekeeping Mode
-for.config.beekeeping.mode.comment=Change the beekeeping mode.
-for.config.beekeeping.second.princess=Second Princess Chance
-for.config.beekeeping.second.princess.comment=Percent chance of a second princess drop, for limited/skyblock maps.
-for.config.beekeeping.flowers.accepted=Accepted Flowers
-for.config.beekeeping.flowers.accepted.comment=Accepted flowers allow bees to work. Format is 'modid:name:meta', one per line. The format for wildcard  metadata is 'modid:name'.
-for.config.beekeeping.flowers.plantable=Plantable Flowers
-for.config.beekeeping.flowers.plantable.comment=Plantable flowers are placed by bees. All plantable flowers are automatically accepted flowers. Format is 'weight:modid:name:meta', one per line. 'weight' is between 0.0 and 1.0. The format for wildcard  metadata is 'weight:modid:name'.
+for.config.beekeeping.mode=Mode d'apiculture
+for.config.beekeeping.mode.comment=Change le mode d'apiculture.
+for.config.beekeeping.second.princess=Chance de seconde princesse
+for.config.beekeeping.second.princess.comment=pourcentage de chance d'obtenir une seconde princesse, pour les cartes limité/skyblock.
+for.config.beekeeping.flowers.accepted=Fleurs acceptées
+for.config.beekeeping.flowers.accepted.comment=Les fleurs acceptées permettent aux abeilles de travailler. Le format est 'modid:name:meta', une par ligne. Le format de joker de metadata est 'modid:name'.
+for.config.beekeeping.flowers.plantable=Fleurs plantables
+for.config.beekeeping.flowers.plantable.comment=Les fleurs plantables sont placées par les abeilles. Toute fleur plantable est automatiquement une fleur acceptée. Le format est 'weight:modid:name:meta', une par ligne. 'weight' est entre 0.0 et 1.0. Le format de joker de metadata est 'weight:modid:name'.
 
-for.config.species.blacklist=Species Blacklist
-for.config.species.blacklist.comment=Add species to blacklist identified by their uid, one per line.
+for.config.species.blacklist=Liste noire d'espèce
+for.config.species.blacklist.comment=Ajoute des espèces à la liste noire en les identifiant pas leur uid, une par ligne.
 
-for.config.butterfly.entities.spawn.limit=Butterfly Spawn Limit
-for.config.butterfly.entities.spawn.limit.comment=Butterflies will stop natural spawning once this limit is reached.
-for.config.butterfly.entities.maximum=Butterfly Maximum
-for.config.butterfly.entities.maximum.comment=New butterflies will stay in item form and will not take flight once this limit is reached.
-for.config.butterfly.entities.pollination=Butterfly Pollination
-for.config.butterfly.entities.pollination.comment=Allow butterflies to pollinate leaves.
+for.config.butterfly.entities.spawn.limit=Limite d'apparition de papillons
+for.config.butterfly.entities.spawn.limit.comment=Les papillons stopperons leur apparition naturelle dès que cette limite sera atteinte.
+for.config.butterfly.entities.maximum=Maximum de papillons
+for.config.butterfly.entities.maximum.comment=Les nouveaux papillons resterons en forme d'élément et ne s'envollerons pas take flight dès que cette limite sera atteinte.
+for.config.butterfly.entities.pollination=Pollinisation des papillons
+for.config.butterfly.entities.pollination.comment=Autorise les papillons de polliniser les feuilles.
 
 for.config.backpacks.item.stacks.format=Add itemStacks for the %s's backpack here in the format 'modid:name:meta'. For wildcard metadata the format is 'modid:name'.
 for.config.backpacks.ore.dict.format=Add ore dictionary names for the %s's backpack here in the format 'oreDictName'.
 
 for.config.gamemode=Mode de jeu
 
-for.config.gamemode.energy.demand.modifier.comment=Modifies the energy required to activate machines, as well as the max amount of energy stored and accepted.
-for.config.gamemode.farms.fertilizer.value.comment=Modifies the time a piece of fertilizer lasts in a farm.
+for.config.gamemode.energy.demand.modifier.comment=Modifie l'énergie exigée pour activer les machines, ainsi que la quantité maxi d'énergie stockée et acceptée.
+for.config.gamemode.farms.fertilizer.value.comment=Modifie le temps que reste une pièce d'engrais dans une ferme.
 
-for.config.gamemode.fuel.ethanol.generator.comment=modifies the energy provided by ethanol in a Bio Generator.
-for.config.gamemode.fuel.ethanol.combustion.comment=modifies the energy provided by ethanol in Buildcraft Combustion Engines.
-for.config.gamemode.fuel.biomass.generator.comment=modifies the energy provided by Biomass in a Bio Generator.
-for.config.gamemode.fuel.biomass.biogas.comment=modifies the energy provided by Biomass in Biogas Engines.
+for.config.gamemode.fuel.ethanol.generator.comment=Modifie l'énergie fournie par l'éthanol dans un bio-générateur.
+for.config.gamemode.fuel.ethanol.combustion.comment=Modifie l'énergie fournie par l'éthanol dans la machine de conbustion Buildcraft.
+for.config.gamemode.fuel.biomass.generator.comment=Modifie l'énergie fournie par la biomasse dans un bio-générateur.
+for.config.gamemode.fuel.biomass.biogas.comment=Modifie l'énergie fournie par la biomasse dans un moteur à biogaz.
 
-for.config.gamemode.recipe.output.fertilizer.apatite.comment=amount of fertilizer yielded by the recipe using apatite.
-for.config.gamemode.recipe.output.fertilizer.ash.comment=amount of fertilizer yielded by the recipe using ash.
-for.config.gamemode.recipe.output.compost.wheat.comment=amount of compost yielded by the recipe using wheat.
-for.config.gamemode.recipe.output.compost.ash.comment=amount of compost yielded by the recipe using ash.
-for.config.gamemode.recipe.output.humus.fertilizer.comment=amount of humus yielded by the recipe using fertilizer.
-for.config.gamemode.recipe.output.humus.compost.comment=amount of humus yielded by the recipe using compost.
-for.config.gamemode.recipe.output.bogearth.bucket.comment=amount of bog earth yielded by the recipe using buckets.
-for.config.gamemode.recipe.output.bogearth.can.comment=amount of bog earth yielded by the recipes using cans, cells or capsules.
-for.config.gamemode.recipe.output.can.comment=amount yielded by the recipe for tin cans.
-for.config.gamemode.recipe.output.capsule.comment=amount yielded by the recipe for wax capsules.
-for.config.gamemode.recipe.output.refractory.comment=amount yielded by the recipe for refractory capsules.
+for.config.gamemode.recipe.output.fertilizer.apatite.comment=Quantité d'engrais rapporté par la recette utilisant l'apatite.
+for.config.gamemode.recipe.output.fertilizer.ash.comment=Quantité d'engrais rapporté par la recette utilisant la cendre.
+for.config.gamemode.recipe.output.compost.wheat.comment=Quantité de compost rapporté par la recette utilisant le blé.
+for.config.gamemode.recipe.output.compost.ash.comment=Quantité de compost rapporté par la recette utilisant la cendre.
+for.config.gamemode.recipe.output.humus.fertilizer.comment=Quantité d'humus rapporté par la recette utilisant l'engrais.
+for.config.gamemode.recipe.output.humus.compost.comment=Quantité d'humus rapporté par la recette utilisant le compost.
+for.config.gamemode.recipe.output.bogearth.bucket.comment=Quantité de tourbe rapporté par la recette utilisant les seaux.
+for.config.gamemode.recipe.output.bogearth.can.comment=Quantité de tourbe rapporté par la recette utilisant les cannettes, cellules ou capsules.
+for.config.gamemode.recipe.output.can.comment=Quantité rapporté par la recette pour des cannettes d'étain.
+for.config.gamemode.recipe.output.capsule.comment=Quantité rapporté par la recette pour des capsules en cire.
+for.config.gamemode.recipe.output.refractory.comment=Quantité rapporté par la recette pour des capsules recyclées.
 
 for.config.gamemode.fermenter.cycles.fertilizer.comment=modifies the amount of cycles fertilizer can keep a fermenter going.
 for.config.gamemode.fermenter.cycles.compost.comment=modifies the amount of cycles compost can keep a fermenter going.
@@ -1656,10 +1743,10 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 # NEI Categories
 ####################
 
-nei.subsets.Forestry=Forestry
+nei.subsets.Forestry=Sylviculture
 nei.subsets.Forestry.Bees=Abeille
 nei.subsets.Forestry.Bees.Combs=Alvéoles
-nei.subsets.Forestry.Bees.Drones=Ourvrières
+nei.subsets.Forestry.Bees.Drones=Ouvrières
 nei.subsets.Forestry.Bees.Princesses=Princesses
 nei.subsets.Forestry.Bees.Queens=Reines
 nei.subsets.Forestry.Blocks=Blocs
@@ -1667,7 +1754,7 @@ nei.subsets.Forestry.Butterflies=Papillons
 nei.subsets.Forestry.Butterflies.Butterflies=Papillons
 nei.subsets.Forestry.Butterflies.Caterpillars=Chenilles
 nei.subsets.Forestry.Butterflies.Serums=Sérums
-nei.subsets.Forestry.Items=Eléments
+nei.subsets.Forestry.Items=Éléments
 nei.subsets.Forestry.Trees=Arbres
 nei.subsets.Forestry.Trees.Pollen=Pollen
 nei.subsets.Forestry.Trees.Saplings=Pousses
