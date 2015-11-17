@@ -879,6 +879,8 @@ death.bee.end.player=%1$s was ended by an unfriendly sting while fighting %2$s.
 death.bee.end=%1$s was ended by an unfriendly sting.
 death.bee.radioactive.player=%1$s walked into Chernobyl without his helmet on. %2$s watched and cackled.
 death.bee.radioactive=%1$s walked into Chernobyl without his helmet on.
+death.bee.heroic.player=%1$s was slain by heroic bees! %2$s is forever in their debt.
+death.bee.heroic=%1$s was slain by heroic bees!
 
 forestry.allele.effect.aggressive=Aggress.
 forestry.allele.effect.beatific=Beatific
