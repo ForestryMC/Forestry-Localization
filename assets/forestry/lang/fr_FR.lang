@@ -879,6 +879,8 @@ death.bee.end.player=%1$s a été tué par une mauvaise piqûre tout en combatta
 death.bee.end=%1$s a été tué par une mauvaise piqûre.
 death.bee.radioactive.player=%1$s est entré dans Tchernobyl sans son casque. %2$s regardait et rigolait.
 death.bee.radioactive=%1$s est entré dans Tchernobyl sans son casque.
+death.bee.heroic.player=%1$s a été tué par une abeille héroïque ! %2$s a pour toujours une dette envers vous.  
+death.bee.heroic=%1$s a été tué par une abeille héroïque !
 
 forestry.allele.effect.aggressive=Aggress.
 forestry.allele.effect.beatific=Pacifique
