@@ -513,7 +513,7 @@ item.for.bucketBiomass.name=Biomass Bucket
 item.for.bucketHoney.name=Honey Bucket
 item.for.bucketIce.name=Crushed Ice Bucket
 item.for.bucketJuice.name=Juice Bucket
-item.for.bucketSeedoil.name=Seed Oil Bucket
+item.for.bucketSeedOil.name=Seed Oil Bucket
 item.for.bucketGlass.name=Molten Glass Bucket
 item.for.bucketShortMead.name=Short Mead Bucket
 
