@@ -1562,8 +1562,12 @@ for.config.crafting.stamps.disabled.comment=Disables the crafting recipe for cer
 
 for.config.tweaks=Tweaks
 
-for.config.tweaks.gui.mail.alert=Mail Alert
-for.config.tweaks.gui.mail.alert.comment=Enables the new mail alert box.
+for.config.tweaks.gui.mail.alert.enabled=Mail Alert
+for.config.tweaks.gui.mail.alert.enabled.comment=Enables the new mail alert box.
+for.config.tweaks.gui.mail.alert.xPosition=Horizontal Position
+for.config.tweaks.gui.mail.alert.xPosition.comment=Horizontal Position of the mail alert box on the screen.
+for.config.tweaks.gui.mail.alert.yPosition=Vertical Position
+for.config.tweaks.gui.mail.alert.yPosition.comment=Vertical Position of the mail alert box on the screen.
 
 for.config.tweaks.gui.tabs.hints=Hints
 for.config.tweaks.gui.tabs.hints.comment=Enables the hints tab on machine and engine guis.

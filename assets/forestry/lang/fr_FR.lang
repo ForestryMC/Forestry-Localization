@@ -1562,8 +1562,8 @@ for.config.crafting.stamps.disabled.comment=Désactivez la recette de fabricatio
 
 for.config.tweaks=Bidouilles
 
-for.config.tweaks.gui.mail.alert=Alerte de courrier
-for.config.tweaks.gui.mail.alert.comment=Activez la boite d'alerte des nouveaux courriers.
+for.config.tweaks.gui.mail.alert.enabled=Alerte de courrier
+for.config.tweaks.gui.mail.alert.enabled.comment=Activez la boite d'alerte des nouveaux courriers.
 
 for.config.tweaks.gui.tabs.hints=Conseils
 for.config.tweaks.gui.tabs.hints.comment=Activez l'onglet des conseils sur l'interface d'une machine ou d'un moteur.

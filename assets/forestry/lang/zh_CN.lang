@@ -1516,8 +1516,8 @@ for.config.crafting.stamps.disabled.comment=禁止某种邮票的合成表。
 
 for.config.tweaks=调整
 
-for.config.tweaks.gui.mail.alert=邮箱提醒
-for.config.tweaks.gui.mail.alert.comment=开启新邮件提醒。
+for.config.tweaks.gui.mail.alert.enabled=邮箱提醒
+for.config.tweaks.gui.mail.alert.enabled.comment=开启新邮件提醒。
 
 for.config.tweaks.gui.tabs.hints=提示窗口
 for.config.tweaks.gui.tabs.hints.comment=开启机器和引擎界面的提示窗口。
