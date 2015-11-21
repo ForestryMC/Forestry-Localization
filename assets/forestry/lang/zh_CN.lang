@@ -1518,6 +1518,10 @@ for.config.tweaks=调整
 
 for.config.tweaks.gui.mail.alert.enabled=邮箱提醒
 for.config.tweaks.gui.mail.alert.enabled.comment=开启新邮件提醒。
+for.config.tweaks.gui.mail.alert.xPosition=水平位置
+for.config.tweaks.gui.mail.alert.xPosition.comment=邮件提醒窗口在屏幕中的水平位置。
+for.config.tweaks.gui.mail.alert.yPosition=垂直位置
+for.config.tweaks.gui.mail.alert.yPosition.comment=邮件提醒窗口在屏幕中的垂直位置。
 
 for.config.tweaks.gui.tabs.hints=提示窗口
 for.config.tweaks.gui.tabs.hints.comment=开启机器和引擎界面的提示窗口。
