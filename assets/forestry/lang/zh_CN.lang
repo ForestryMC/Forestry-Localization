@@ -76,83 +76,6 @@ for.circuit.layout.farms.manual.usage=手动农场
 for.circuit.layout.machine.upgrade.name=机器升级
 for.circuit.layout.machine.upgrade.usage=插入机器
 
-for.errors.circuitMismatch.desc=电路不匹配
-for.errors.circuitMismatch.help=电子管与电子板不匹配
-for.errors.forcedCooldown.desc=强制冷却中
-for.errors.forcedCooldown.help=引擎过热，处于强制冷却中
-for.errors.invalidBiome.desc=恶劣环境
-for.errors.invalidBiome.help=机器/居民在这个群落里无法正常工作
-for.errors.isRaining.desc=雨
-for.errors.isRaining.help=只有在没有下雨的时候才能进行操作
-for.errors.noCircuitBoard.desc=缺少电子板
-for.errors.noCircuitBoard.help=插入电子板并焊接上合适的电子管
-for.errors.noCircuitLayout.desc=无可用农场设计
-for.errors.noCircuitLayout.help=根据当前游戏设置无可用的农场设计
-for.errors.noDisposal.desc=废料无法存放
-for.errors.noDisposal.help=没有充足空间来存放废料
-for.errors.noDrone.desc=无雄蜂
-for.errors.noDrone.help=配对需要雄蜂
-for.errors.noEnergyNet.desc=无电力
-for.errors.noEnergyNet.help=你的世界没有任何电力(请安装IC2)
-for.errors.noPower.desc=无能量
-for.errors.noPower.help=这台机器需要RF能量驱动
-for.errors.noRedstone.desc=无红石信号
-for.errors.noRedstone.help=这台机器需要红石信号激活。
-for.errors.disabledRedstone.desc=被关闭
-for.errors.disabledRedstone.help=这台机器被红石信号关闭。
-for.errors.noFlower.desc=没有花
-for.errors.noFlower.help=蜂群找不到合适的花
-for.errors.noFuel.desc=无燃料
-for.errors.noFuel.help=请为这台机器补充燃料
-for.errors.noHeat.desc=未预热
-for.errors.noHeat.help=请为机器补充加热槽
-for.errors.noHoney.desc=需要蜂蜜
-for.errors.noHoney.help=此物品需要用到蜂蜜(蜂蜜滴/蜂蜜汁均可)
-for.errors.noQueen.desc=无蜂后
-for.errors.noQueen.help=请提供一只蜂后或者一对公主蜂与雄蜂
-for.errors.noRecipe.desc=无合成表
-for.errors.noRecipe.help=未发现与提供的资源匹配的合成表
-for.errors.noRecipient.desc=无收件人
-for.errors.noRecipient.help=你需要填写信件的收信人
-for.errors.noResource.desc=缺乏资源
-for.errors.noResource.help=需要更多的资源来进行操作
-for.errors.noSky.desc=被遮蔽
-for.errors.noSky.help=清除机器上方的物体
-for.errors.noSpace.desc=无内部空间
-for.errors.noSpace.help=清空该机器的储物空间
-for.errors.noSpaceTank.desc=储液槽无空间
-for.errors.noSpaceTank.help=清空机器内储液槽
-for.errors.noSpecimen.desc=没有可分析对象
-for.errors.noSpecimen.help=请提供用来分析的样本
-for.errors.noStamps.desc=需要邮票
-for.errors.noStamps.help=贸易站需要更多邮票来支付邮资
-for.errors.noPaper.desc=需要纸张
-for.errors.noPaper.help=贸易站需要更多纸张来发送信件
-for.errors.noSupplies.desc=需要供给物
-for.errors.noSupplies.help=贸易站需要更多供给物来发送
-for.errors.noTrade.desc=需要进行贸易设置
-for.errors.noTrade.help=贸易站设置物品用来发送或接收
-for.errors.notAlphaNumeric.desc=不是字母/数字
-for.errors.notAlphaNumeric.help=填写的字符串只能包含字母或数字
-for.errors.notDay.desc=不是白天
-for.errors.notDay.help=操作需要在白天进行
-for.errors.notGloomy.desc=不够暗
-for.errors.notGloomy.help=需要更暗的环境来进行操作
-for.errors.notLucid.desc=不够亮
-for.errors.notLucid.help=需要更亮的环境来进行操作
-for.errors.notNight.desc=不是夜晚
-for.errors.notNight.help=操作需要在夜晚进行
-for.errors.notPostpaid.desc=需要邮票
-for.errors.notPostpaid.help=提供更多邮票支付邮资
-for.errors.notRaining.desc=未下雨
-for.errors.notRaining.help=只有在下雨的时候才能进行操作
-for.errors.notUnique.desc=有重名
-for.errors.notUnique.help=填写的字符串已被使用，请选择一个不同的
-for.errors.unknown.desc=未知错误
-for.errors.unknown.help=恭喜，你可能发现了一个小bug
-for.errors.wrongStacksize.desc=物品过多
-for.errors.wrongStacksize.help=这里只能放置单个物品
-
 for.flowers.cacti=仙人掌
 for.flowers.end=末影
 for.flowers.gourd=葫芦
@@ -251,6 +174,7 @@ for.gui.normal=普通
 
 for.gui.escritoire.probe=检测样本
 for.gui.escritoire.instructions=将基因样本放在中央以开始。在左侧格子中放入更多样本，检测它们以寻求帮助。 
+for.gui.escritoire.attempt.number=第%s次尝试
 
 # Write as many notes as you like, just set the count correctly.
 
@@ -300,6 +224,9 @@ for.gui.mail.nametrader=为你的贸易站命名
 for.gui.mail.nothingtotrade=贸易站没有可以用来参与贸易的物品
 for.gui.mail.notrader=无重名贸易站
 for.gui.mail.pleasesend=请邮寄
+for.gui.mail.order.attached=Please find your order attached.
+for.gui.mail.order.filled.one=1 order from %SENDER was filled.
+for.gui.mail.order.filled.multiple=%COUNT orders from %SENDER were filled.
 for.gui.mail.to=寄往
 for.gui.mail.receive=接收
 for.gui.mail.send=发送
@@ -352,6 +279,7 @@ forestry.allele.slow=慢速
 forestry.allele.fast=快速
 forestry.allele.faster=较快
 forestry.allele.fastest=最快
+forestry.allele.maximum=Maximum
 
 forestry.allele.smallest=最小
 forestry.allele.smaller=较小
@@ -459,6 +387,8 @@ for.hints.forcedcooldown.desc=机器产生的能量若不能及时消耗将会�
 for.hints.forcedcooldown.tag=注意防止机器过热
 for.hints.generatorfuels.desc=生物能发电机可以用生物质和生物燃油作为燃料，后者更高效。
 for.hints.generatorfuels.tag=可使用多种燃料！
+for.hints.habitatlocatoruse.desc=等待一段时间后，栖息地定位仪会自动指向最近的合适栖息地。找到目的地后，定位仪的指针会失控并到处乱转。
+for.hints.habitatlocatoruse.tag=栖息地定位仪使用指南!
 for.hints.honeyfood.desc=蜂蜜和蜜蜂的一些其他产物可以用来制作多种食物。
 for.hints.honeyfood.tag=来点好吃的！
 for.hints.manualpeat.desc=泥炭田能给自动生成泥炭，但是你得亲手挖。
@@ -636,7 +566,7 @@ item.for.fruits.chestnut.name=栗子
 item.for.fruits.dates.name=枣椰
 item.for.fruits.lemon.name=柠檬
 item.for.fruits.papaya.name=木瓜
-item.for.fruits.plum.name=梅子
+item.for.fruits.plum.name=李子
 item.for.fruits.walnut.name=核桃
 
 item.for.gearBronze.name=青铜齿轮
@@ -818,6 +748,132 @@ neiintegration.handler.forestry.shaped=林业有序
 neiintegration.handler.forestry.shapeless=林业无序
 neiintegration.handler.forestry.fabricator.worth=可熔出：
 
+################
+# ERRORS
+################
+
+# BEES
+for.errors.isRaining.desc=雨
+for.errors.isRaining.help=只有在没有下雨的时候才能进行操作。
+for.errors.noDrone.desc=无雄蜂
+for.errors.noDrone.help=配对需要雄蜂。
+for.errors.noFlower.desc=没有花
+for.errors.noFlower.help=蜂群找不到合适的花。
+for.errors.noQueen.desc=无蜂后
+for.errors.noQueen.help=请提供一只蜂后或者一对公主蜂与雄蜂。
+for.errors.noSky.desc=被遮蔽
+for.errors.noSky.help=清除机器上方的物体。
+for.errors.notDay.desc=不是白天
+for.errors.notDay.help=操作需要在白天进行。
+for.errors.notGloomy.desc=不够暗
+for.errors.notGloomy.help=需要更暗的环境来进行操作。
+for.errors.notLucid.desc=不够亮
+for.errors.notLucid.help=需要更亮的环境来进行操作。
+for.errors.notNight.desc=不是夜晚
+for.errors.notNight.help=操作需要在夜晚进行。
+for.errors.tooHot.desc=过于炎热
+for.errors.tooHot.help=蜜蜂在这熔化一切的环境中无法工作。请使用栖息地定位仪来为蜜蜂们找一个更凉爽的地方。
+for.errors.tooCold.desc=过于寒冷
+for.errors.tooCold.help=蜜蜂在这滴水成冰的环境中只能选择抱团取暖。请使用栖息地定位仪来为蜜蜂们找一个更温暖的地方。
+for.errors.tooHumid.desc=过于潮湿
+for.errors.tooHumid.help=蜜蜂的翅膀因为厚重的水汽而无法飞行。请使用栖息地定位仪来为蜜蜂们找一个更干燥的地方。
+for.errors.tooArid.desc=过于干旱
+for.errors.tooArid.help=蜜蜂已经在这干旱的环境中几近脱水。请使用栖息地定位仪来为蜜蜂们找一个更湿润的地方。
+
+# MACHINES
+for.errors.noPower.desc=无能量
+for.errors.noPower.help=这台机器需要RF能量驱动。
+for.errors.noRedstone.desc=无红石信号
+for.errors.noRedstone.help=这台机器需要红石信号激活。
+for.errors.disabledRedstone.desc=被关闭
+for.errors.disabledRedstone.help=这台机器被红石信号关闭。
+for.errors.noRecipe.desc=无合成表
+for.errors.noRecipe.help=未发现与提供的资源匹配的合成表。
+for.errors.noResource.desc=缺乏资源
+for.errors.noResource.help=需要更多的资源来进行操作。
+for.errors.noResourceInventory.desc=物品栏中需要物品
+for.errors.noResourceInventory.help=机器需要物品放入其自带的物品栏中才可以开始合成。
+for.errors.noResourceLiquid.desc=需要液体资源
+for.errors.noResourceLiquid.help=要执行当前操作还需要更多液体资源。
+for.errors.noSpace.desc=无内部空间
+for.errors.noSpace.help=清空该机器的储物空间。
+for.errors.noSpaceTank.desc=储液槽无空间
+for.errors.noSpaceTank.help=清空机器内储液槽。
+for.errors.notDark.desc=不够黑暗
+for.errors.notDark.help=此操作需要更低的亮度。
+
+# RAIN TANK
+for.errors.notRaining.desc=未下雨
+for.errors.notRaining.help=只有在下雨的时候才能进行操作。
+for.errors.noRainBiome.desc=无雨
+for.errors.noRainBiome.help=这个地方从来没有下过雨。
+for.errors.noSkyRainTank.desc=天空被遮蔽
+for.errors.noSkyRainTank.help=清理顶部，使其可以正常集雨。
+
+# ALYZERS
+for.errors.noHoney.desc=需要蜂蜜
+for.errors.noHoney.help=此物品需要用到蜂蜜(蜂蜜滴/蜂蜜汁均可)。
+for.errors.noSpecimen.desc=没有可分析对象
+for.errors.noSpecimen.help=请提供用来分析的样本。
+
+# ENGINES
+for.errors.forcedCooldown.desc=强制冷却中
+for.errors.forcedCooldown.help=引擎过热，处于强制冷却中。
+for.errors.noEnergyNet.desc=无电力
+for.errors.noEnergyNet.help=你的世界没有任何电力(请安装IC2)。
+for.errors.noFuel.desc=无燃料
+for.errors.noFuel.help=请为这台机器补充燃料。
+for.errors.noHeat.desc=未预热
+for.errors.noHeat.help=请为机器补充加热槽。
+
+# TRADE STATION
+for.errors.noStamps.desc=需要邮票
+for.errors.noStamps.help=贸易站需要更多邮票来支付邮资。
+for.errors.noPaper.desc=需要纸张
+for.errors.noPaper.help=贸易站需要更多纸张来发送信件。
+for.errors.noSupplies.desc=需要供给物
+for.errors.noSupplies.help=贸易站需要更多供给物来发送。
+for.errors.noTrade.desc=需要进行贸易设置
+for.errors.noTrade.help=贸易站设置物品用来发送或接收。
+
+# TRADE STATION NAMING
+for.errors.notAlphaNumeric.desc=不是字母/数字
+for.errors.notAlphaNumeric.help=填写的字符串只能包含字母或数字。
+for.errors.notUnique.desc=有重名
+for.errors.notUnique.help=填写的字符串已被使用，请选择一个不同的名字。
+
+# LETTERS
+for.errors.noRecipient.desc=无收件人
+for.errors.noRecipient.help=你需要填写信件的收信人。
+for.errors.notPostpaid.desc=需要邮票
+for.errors.notPostpaid.help=提供更多邮票支付邮资。
+
+# CIRCUIT BOARDS
+for.errors.circuitMismatch.desc=电路不匹配
+for.errors.circuitMismatch.help=电子管数量与电子板尺寸不匹配。
+for.errors.noCircuitBoard.desc=缺少电子板
+for.errors.noCircuitBoard.help=插入电子板并焊接上合适的电子管。
+for.errors.noCircuitLayout.desc=无可用农场设计
+for.errors.noCircuitLayout.help=根据当前游戏设置无可用的农场设计。
+
+# FARMS
+for.errors.noFarmland.desc=无农田
+for.errors.noFarmland.help=用光滑沙石，砖块，或者石砖来搭建一个用以建立农场的平台。
+for.errors.noFertilizer.desc=无肥料
+for.errors.noFertilizer.help=农场需要使用肥料来驱动，靠堆肥不足以驱动。
+for.errors.noLiquid.desc=缺水
+for.errors.noLiquid.help=根据农场所在地的降雨量，湿度和温度，所需的供水量不一。
+
+# DEPRECATED
+for.errors.invalidBiome.desc=恶劣环境
+for.errors.invalidBiome.help=机器/居民在这个群落里无法正常工作。
+for.errors.noDisposal.desc=废料无法存放
+for.errors.noDisposal.help=没有充足空间来存放废料。
+for.errors.unknown.desc=未知错误
+for.errors.unknown.help=恭喜，你可能发现了一个小bug。
+for.errors.wrongStacksize.desc=物品过多
+for.errors.wrongStacksize.help=这里只能放置单个物品。
+
 ####################
 # APICULTURE
 ####################
@@ -828,6 +884,8 @@ death.bee.end.player=%1$s在与%2$s战斗时死于一根不坏好意的毒刺。
 death.bee.end=%1$s死于一根不坏好意的毒刺。
 death.bee.radioactive.player=%1$s没戴头盔就闯进了切尔诺贝利遗址。%2$s围观并幸灾乐祸地咯咯笑着。
 death.bee.radioactive=%1$s没戴头盔就闯进了切尔诺贝利遗址。
+death.bee.heroic.player=%1$s被英雄蜂击杀！%2$s再也无法从债务中翻身。
+death.bee.heroic=%1$s被英雄蜂击杀!
 
 forestry.allele.effect.aggressive=举世皆敌
 forestry.allele.effect.beatific=皆大欢喜
@@ -1281,13 +1339,6 @@ for.circuit.manualShroom=蘑菇农场
 for.circuit.manualSucculent=仙人掌农场
 for.circuit.manualVegetable=蔬菜农场
 
-for.errors.noFarmland.desc=无农田
-for.errors.noFarmland.help=用光滑沙石，砖块，或者石砖来搭建一个用以建立农场的平台。
-for.errors.noFertilizer.desc=无肥料
-for.errors.noFertilizer.help=农场需要使用肥料来驱动，靠堆肥不足以驱动。
-for.errors.noLiquid.desc=缺水
-for.errors.noLiquid.help=根据农场所在地的降雨量，湿度和温度，所需的供水量不一。
-
 for.gui.farm.title=农场
 for.gui.hydr.heat=基于温度
 for.gui.hydr.humid=基于湿度
@@ -1516,12 +1567,12 @@ for.config.crafting.stamps.disabled.comment=禁止某种邮票的合成表。
 
 for.config.tweaks=调整
 
-for.config.tweaks.gui.mail.alert.enabled=邮箱提醒
-for.config.tweaks.gui.mail.alert.enabled.comment=开启新邮件提醒。
+for.config.tweaks.gui.mail.alert=邮箱提醒
+for.config.tweaks.gui.mail.alert.comment=开启新邮件提醒。
 for.config.tweaks.gui.mail.alert.xPosition=水平位置
-for.config.tweaks.gui.mail.alert.xPosition.comment=邮件提醒窗口在屏幕中的水平位置。
+for.config.tweaks.gui.mail.alert.xPosition.comment=邮箱提醒盒子在屏幕中的水平位置。
 for.config.tweaks.gui.mail.alert.yPosition=垂直位置
-for.config.tweaks.gui.mail.alert.yPosition.comment=邮件提醒窗口在屏幕中的垂直位置。
+for.config.tweaks.gui.mail.alert.yPosition.comment=邮箱提醒盒子在屏幕中的垂直位置。
 
 for.config.tweaks.gui.tabs.hints=提示窗口
 for.config.tweaks.gui.tabs.hints.comment=开启机器和引擎界面的提示窗口。
