@@ -440,7 +440,7 @@ for.mutation.condition.humidity.range=Requires humidity between %LOW and %HIGH.
 for.mutation.condition.humidity.single=Requires %s humidity.
 for.mutation.condition.temperature.range=Requires temperature between %LOW and %HIGH.
 for.mutation.condition.temperature.single=Requires %s temperature.
-for.mutation.condition.resource=Requires a %s as a foundation.
+for.mutation.condition.resource=Requires %s as a foundation.
 for.mutation.condition.date=Occurs between %START and %END.
 
 for.storage.backpack.mode.locked=(LOCKED)
