@@ -157,7 +157,6 @@ for.gui.flowers=Flower Type
 for.gui.flyer=Tolerant Flyer
 for.gui.flyer.tooltip=Tolerant Flyer
 for.gui.general=General
-forestry.allele.gigantic=Gigantic
 for.gui.heat=Heat
 for.gui.hellish=Hellish
 for.gui.hot=Hot
@@ -270,8 +269,9 @@ for.gui.solder.south=S
 for.gui.solder.east=E
 for.gui.solder.west=W
 
-forestry.allele.normal=Normal
 forestry.allele.average=Average
+forestry.allele.gigantic=Gigantic
+forestry.allele.normal=Normal
 
 forestry.allele.slowest=Slowest
 forestry.allele.slower=Slower
@@ -1362,7 +1362,6 @@ for.hints.manualfarms.desc=Apart from the managed farms there are manual farms w
 for.hints.manualfarms.tag=Manual farms!
 for.hints.valve.desc=Almost all farms require water. Use valve blocks for automation.
 for.hints.valve.tag=Supply water!
-
 
 for.trigger.lowFertilizer=Fertilizer
 for.trigger.lowLiquid=Water Tank
