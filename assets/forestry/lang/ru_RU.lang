@@ -499,7 +499,7 @@ for.trigger.noFrames=Нет рамок
 for.yes=Да
 
 item.for.adventurerBag.name=Рюкзак авантюриста
-item.for.adventurerBagT2.name=Тканный рюкзак авантюриста
+item.for.adventurerBagT2.name=Тканый рюкзак авантюриста
 item.for.ambrosia.name=Амброзия
 item.for.apatite.name=Апатит
 
@@ -544,7 +544,7 @@ item.for.brokenBronzeShovel.name=Сломанная лопата
 item.for.bronzePickaxe.name=Кирка выживающего
 item.for.bronzeShovel.name=Лопата выживающего
 item.for.builderBag.name=Рюкзак строителя
-item.for.builderBagT2.name=Тканный рюкзак строителя
+item.for.builderBagT2.name=Тканый рюкзак строителя
 
 item.for.bucketEthanol.name=Ведро этанола
 item.for.bucketBiomass.name=Ведро биомассы
@@ -583,12 +583,12 @@ item.for.craftingMaterial.wovenSilk.name=Тканый шёлк
 item.for.crate.name=Ящик
 item.for.decayingWheat.name=Загнивающая пшеница
 item.for.diggerBag.name=Рюкзак землекопа
-item.for.diggerBagT2.name=Тканный рюкзак землекопа
+item.for.diggerBagT2.name=Тканый рюкзак землекопа
 
 item.for.fertilizerBio.name=Компост
 item.for.fertilizerCompound.name=Минеральное удобрение
 item.for.foresterBag.name=Рюкзак лесника
-item.for.foresterBagT2.name=Тканный рюкзак лесника
+item.for.foresterBagT2.name=Тканый рюкзак лесника
 
 item.for.frameImpregnated.name=Пропитанная рамка
 item.for.frameProven.name=Проверенная рамка
@@ -617,7 +617,7 @@ item.for.honeyedSlice.name=Бутерброд с мёдом
 
 item.for.honeyPot.name=Горшочек мёда
 item.for.hunterBag.name=Рюкзак охотника
-item.for.hunterBagT2.name=Тканный рюкзак охотника
+item.for.hunterBagT2.name=Тканый рюкзак охотника
 
 item.for.impregnatedCasing.name=Пропитанный корпус
 item.for.imprinter.name=Импринтер
@@ -633,7 +633,7 @@ item.for.kitShovel.name=Сборная лопата
 item.for.letters.name=Письмо
 
 item.for.minerBag.name=Рюкзак шахтёра
-item.for.minerBagT2.name=Тканный рюкзак шахтёра
+item.for.minerBagT2.name=Тканый рюкзак шахтёра
 
 item.for.mouldyWheat.name=Плесневелая пшеница
 item.for.mulch.name=Мульча
