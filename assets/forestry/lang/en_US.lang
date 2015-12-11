@@ -1523,6 +1523,7 @@ for.plugin.enderIO.description=Compatibility plugin for EnderIO.
 for.plugin.immersiveengineering.description=Compatibility plugin for Immersive Engineering.
 for.plugin.growthcraft.description=Compatibility plugin for GrowthCraft
 for.plugin.erebus.description=Compatibility plugin for Erebus
+for.plugin.rotarycraft.description=Compatibility plugin for RotaryCraft
 
 ####################
 # CONFIG FILES
