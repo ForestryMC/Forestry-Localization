@@ -141,7 +141,7 @@ for.gui.damp=潮湿
 for.gui.derelict=遗弃
 for.gui.desert=沙漠
 for.gui.didyouknow=你知道吗
-for.gui.diurnal=昼夜型
+for.gui.diurnal=昼行
 for.gui.drones=雄蜂
 for.gui.effect=特殊效果
 for.gui.empty=空
@@ -224,9 +224,9 @@ for.gui.mail.nametrader=为你的贸易站命名
 for.gui.mail.nothingtotrade=贸易站没有可以用来参与贸易的物品
 for.gui.mail.notrader=无重名贸易站
 for.gui.mail.pleasesend=请邮寄
-for.gui.mail.order.attached=Please find your order attached.
-for.gui.mail.order.filled.one=1 order from %SENDER was filled.
-for.gui.mail.order.filled.multiple=%COUNT orders from %SENDER were filled.
+for.gui.mail.order.attached=请找到你附带的订单。
+for.gui.mail.order.filled.one=来自%SENDER的一份订单已填写。
+for.gui.mail.order.filled.multiple=来自%SENDER的%COUNT份订单已填写。
 for.gui.mail.to=寄往
 for.gui.mail.receive=接收
 for.gui.mail.send=发送
@@ -1337,7 +1337,7 @@ for.circuit.manualPoales=甘蔗农场
 for.circuit.manualRubber=橡胶种植园
 for.circuit.manualShroom=蘑菇农场
 for.circuit.manualSucculent=仙人掌农场
-for.circuit.manualVegetable=蔬菜农场
+for.circuit.manualVegetable=蔬菜田
 
 for.gui.farm.title=农场
 for.gui.hydr.heat=基于温度
@@ -1358,8 +1358,8 @@ for.hints.gearbox.desc=使用连接了引擎或者能量管道的齿轮箱来为
 for.hints.gearbox.tag=需要动力！
 for.hints.hatch.desc=在出货箱上连接管道来产出你的各种作物吧！
 for.hints.hatch.tag=未雨绸缪！
-for.hints.manualfarms.desc=除去使用预设模式来自动构建农场外你还可以自己搭建农场来提高效率。
-for.hints.manualfarms.tag=DIY自己的农场！
+for.hints.manualfarms.desc=除自动模式外，你还可以选择手动模式，自己搭建农场，来提高效率。
+for.hints.manualfarms.tag=自己动手搭建自己的农场！
 for.hints.valve.desc=各种农场都需要浇灌，使用水阀方块来实现自动化浇灌吧。
 for.hints.valve.tag=需要水！
 
@@ -1514,7 +1514,7 @@ for.plugin.ee3.description=等价交换3兼容组件。
 for.plugin.farmcraftory.description=牧场物语(FarmCraftory)兼容组件。添加作物和蔬菜的自动化农场支持。
 for.plugin.biomesoplenty.description=更多生物群系(Biomes O' Plenty)兼容组件。激活后农场能够支持BoP的树苗。
 for.plugin.extrautilities.description=更多实用设备(Extra Utilities)兼容组件。激活后农场能够支持末影百合。
-for.plugin.harvestcraft.description=潘马斯的丰收(HarvestCraft)兼容组件。激活后农场能够支持HarvestCraft的植物和树苗。
+for.plugin.harvestcraft.description=潘马斯的丰收(HarvestCraft)兼容组件。激活后农场能够支持HarvestCraft的植物及树苗。
 for.plugin.magicalcrops.description=魔法作物(Magical Crops)兼容组件。
 for.plugin.chisel.description=凿子(Chisel)兼容组件。添加背包对其方块的支持。
 for.plugin.plantmegapack.description=Plant Mega Pack兼容组件。
@@ -1524,6 +1524,7 @@ for.plugin.enderIO.description=末影接口(EnderIO)兼容组件。
 for.plugin.immersiveengineering.description=Immersive Engineering兼容组件。
 for.plugin.growthcraft.description=生长工艺(GrowthCraft)兼容组件。
 for.plugin.erebus.description=Erebus兼容组件。
+for.plugin.rotarycraft.description=旋转工艺(RotaryCraft)兼容组件。
 
 ####################
 # CONFIG FILES
@@ -1567,8 +1568,8 @@ for.config.crafting.stamps.disabled.comment=禁止某种邮票的合成表。
 
 for.config.tweaks=调整
 
-for.config.tweaks.gui.mail.alert=邮箱提醒
-for.config.tweaks.gui.mail.alert.comment=开启新邮件提醒。
+for.config.tweaks.gui.mail.alert.enabled=邮箱提醒
+for.config.tweaks.gui.mail.alert.enabled.comment=开启新邮件提醒。
 for.config.tweaks.gui.mail.alert.xPosition=水平位置
 for.config.tweaks.gui.mail.alert.xPosition.comment=邮箱提醒盒子在屏幕中的水平位置。
 for.config.tweaks.gui.mail.alert.yPosition=垂直位置
