@@ -718,60 +718,43 @@ itemGroup.arboriculture=林業|植樹
 itemGroup.forestry=林業
 itemGroup.lepidopterology=林業|蝴蝶
 
-tile.for.core.0.name=分析儀
-tile.for.core.1.name=寫字檯
+tile.for.core.analyzer.name=分析儀
+tile.for.core.escritoire.name=寫字檯
 
-tile.for.engine.0.name=電動引擎
-tile.for.engine.1.name=泥炭引擎
-tile.for.engine.2.name=生物燃油引擎
-tile.for.engine.3.name=生物質引擎
-tile.for.engine.4.name=發條引擎
+tile.for.engine.electrical.name=電動引擎
+tile.for.engine.peat.name=泥炭引擎
+tile.for.engine.biogas.name=生物燃油引擎
+tile.for.engine.bio.generator.name=生物質引擎
+tile.for.engine.clockwork.name=發條引擎
 
-tile.for.factory.0.name=裝瓶機
-tile.for.factory.1.name=木工機
-tile.for.factory.2.name=離心機
-tile.for.factory.3.name=發酵機
-tile.for.factory.4.name=加濕器
-tile.for.factory.5.name=榨汁機
-tile.for.factory.6.name=蒸餾器
-tile.for.factory.7.name=造雨機
-tile.for.factory2.0.name=熱電子加工台
-tile.for.factory2.1.name=集雨蓄水槽
-tile.for.factory2.2.name=工作台
+tile.for.factory.bottler.name=裝瓶機
+tile.for.factory.carpenter.name=木工機
+tile.for.factory.centrifuge.name=離心機
+tile.for.factory.fermenter.name=發酵機
+tile.for.factory.moistener.name=加濕器
+tile.for.factory.squeezer.name=榨汁機
+tile.for.factory.still.name=蒸餾器
+tile.for.factory.rainmaker.name=造雨機
+tile.for.factory2.fabricator.name=熱電子加工台
+tile.for.factory2.raintank.name=集雨蓄水槽
+tile.for.factory2.worktable.name=工作台
 
-tile.for.mail.0.name=信箱
-tile.for.mail.1.name=貿易站
-tile.for.mail.2.name=集郵箱
+tile.for.mail.mailbox.name=信箱
+tile.for.mail.trade.station.name=貿易站
+tile.for.mail.stamp.collector.name=集郵箱
 
-tile.for.resources.0.name=磷礦石
-tile.for.resources.1.name=銅礦石
-tile.for.resources.2.name=錫礦石
+tile.for.resources.apatite.name=磷礦石
+tile.for.resources.copper.name=銅礦石
+tile.for.resources.tin.name=錫礦石
 
-tile.for.resourceStorage.0.name=磷灰石塊
-tile.for.resourceStorage.1.name=銅塊
-tile.for.resourceStorage.2.name=錫塊
-tile.for.resourceStorage.3.name=青銅塊
+tile.for.resourceStorage.apatite.name=磷灰石塊
+tile.for.resourceStorage.copper.name=銅塊
+tile.for.resourceStorage.tin.name=錫塊
+tile.for.resourceStorage.bronze.name=青銅塊
 
-tile.for.soil.0.name=腐殖土
-tile.for.soil.1.name=沼澤泥
-tile.for.soil.2.name=泥炭
-
-tile.for.stained.0.name=白色玻璃
-tile.for.stained.1.name=桔色玻璃
-tile.for.stained.2.name=品紅色玻璃
-tile.for.stained.3.name=淺藍色玻璃
-tile.for.stained.4.name=黃色玻璃
-tile.for.stained.5.name=檸檬色玻璃
-tile.for.stained.6.name=粉色玻璃
-tile.for.stained.7.name=灰色玻璃
-tile.for.stained.8.name=淺灰色玻璃
-tile.for.stained.9.name=青色玻璃
-tile.for.stained.10.name=紫色玻璃
-tile.for.stained.11.name=藍色玻璃
-tile.for.stained.12.name=棕色玻璃
-tile.for.stained.13.name=綠色玻璃
-tile.for.stained.14.name=紅色玻璃
-tile.for.stained.15.name=黑色玻璃
+tile.for.soil.humus.name=腐殖土
+tile.for.soil.bog.earth.name=沼澤泥
+tile.for.soil.peat.name=泥炭
 
 ####################
 # APICULTURE
@@ -1184,7 +1167,7 @@ tile.for.fireproof=抗燃%s
 item.for.grafter.name=剪枝器
 item.for.grafterProven.name=標定剪枝器
 
-tile.for.arboriculture.0.name=林業員箱子
+tile.for.arboriculture.arb.chest.name=林業員箱子
 
 tile.for.saplingGE.0.name=樹苗
 tile.for.leaves.0.name=樹葉
@@ -1317,7 +1300,7 @@ item.for.butterfly.name=蝴蝶
 item.for.flutterlyzer.name=蝴蝶分析儀
 item.for.lepidopteristBag.name=鱗翅目昆蟲學家背包
 item.for.moth.name=飛蛾
-tile.for.lepidopterology.0.name=鱗翅目昆蟲學家箱子
+tile.for.lepidopterology.lepi.chest.name=鱗翅目昆蟲學家箱子
 
 ####################
 # MAIL

@@ -712,60 +712,43 @@ itemGroup.arboriculture=Forestry - Arboricultura
 itemGroup.forestry=Forestry
 itemGroup.lepidopterology=Forestry - Heteropterologia
 
-tile.for.core.0.name=Analisador
-tile.for.core.1.name=Escrivaninha
+tile.for.core.analyzer.name=Analisador
+tile.for.core.escritoire.name=Escrivaninha
 
-tile.for.engine.0.name=Motor Elétrico
-tile.for.engine.1.name=Motor de Turfa
-tile.for.engine.2.name=Motor de Biogás
-tile.for.engine.3.name=Bio Gerador
-tile.for.engine.4.name=Motor de Engrenagem
+tile.for.engine.electrical.name=Motor Elétrico
+tile.for.engine.peat.name=Motor de Turfa
+tile.for.engine.biogas.name=Motor de Biogás
+tile.for.engine.bio.generator.name=Bio Gerador
+tile.for.engine.clockwork.name=Motor de Engrenagem
 
-tile.for.factory.0.name=Engarrafador
-tile.for.factory.1.name=Carpinteiro
-tile.for.factory.2.name=Centrífuga
-tile.for.factory.3.name=Fermentador
-tile.for.factory.4.name=Humidificador
-tile.for.factory.5.name=Hidratador
-tile.for.factory.6.name=Refinador
-tile.for.factory.7.name=Fazedor de Chuva
-tile.for.factory2.0.name=Fabricador Termiônico
-tile.for.factory2.1.name=Tanque de Chuva
-tile.for.factory2.2.name=Mesa de Trabalho
+tile.for.factory.bottler.name=Engarrafador
+tile.for.factory.carpenter.name=Carpinteiro
+tile.for.factory.centrifuge.name=Centrífuga
+tile.for.factory.fermenter.name=Fermentador
+tile.for.factory.moistener.name=Humidificador
+tile.for.factory.squeezer.name=Hidratador
+tile.for.factory.still.name=Refinador
+tile.for.factory.rainmaker.name=Fazedor de Chuva
+tile.for.factory2.fabricator.name=Fabricador Termiônico
+tile.for.factory2.raintank.name=Tanque de Chuva
+tile.for.factory2.worktable.name=Mesa de Trabalho
 
-tile.for.mail.0.name=Caixa de Correio
-tile.for.mail.1.name=Posto de Troca
-tile.for.mail.2.name=Filatelia
+tile.for.mail.mailbox.name=Caixa de Correio
+tile.for.mail.trade.station.name=Posto de Troca
+tile.for.mail.stamp.collector.name=Filatelia
 
-tile.for.resources.0.name=Minério de Apatita
-tile.for.resources.1.name=Minério de Cobre
-tile.for.resources.2.name=Minério de Estanho
+tile.for.resources.apatite.name=Minério de Apatita
+tile.for.resources.copper.name=Minério de Cobre
+tile.for.resources.tin.name=Minério de Estanho
 
-tile.for.resourceStorage.0.name=Bloco de Apatita
-tile.for.resourceStorage.1.name=Bloco de Cobre
-tile.for.resourceStorage.2.name=Bloco de Estanho
-tile.for.resourceStorage.3.name=Bloco de Bronze
+tile.for.resourceStorage.apatite.name=Bloco de Apatita
+tile.for.resourceStorage.copper.name=Bloco de Cobre
+tile.for.resourceStorage.tin.name=Bloco de Estanho
+tile.for.resourceStorage.bronze.name=Bloco de Bronze
 
-tile.for.soil.0.name=Húmus
-tile.for.soil.1.name=Terra do Pântano
-tile.for.soil.2.name=Turfa
-
-tile.for.stained.0.name=Vitral Branco
-tile.for.stained.1.name=Vitral Laranja
-tile.for.stained.2.name=Vitral Magenta
-tile.for.stained.3.name=Vitral Azul Claro
-tile.for.stained.4.name=Vitral Amarelo
-tile.for.stained.5.name=Vitral Lima
-tile.for.stained.6.name=Vitral Rosa
-tile.for.stained.7.name=Vitral Cinza
-tile.for.stained.8.name=Vitral Cinza claro
-tile.for.stained.9.name=Vitral Ciano
-tile.for.stained.10.name=Vitral Lilás
-tile.for.stained.11.name=Vitral Azul
-tile.for.stained.12.name=Vitral Marrom
-tile.for.stained.13.name=Vitral Verde
-tile.for.stained.14.name=Vitral Vermelho
-tile.for.stained.15.name=Vitral Preto
+tile.for.soil.humus.name=Húmus
+tile.for.soil.bog.earth.name=Terra do Pântano
+tile.for.soil.peat.name=Turfa
 
 ####################
 # APICULTURE
@@ -1178,7 +1161,7 @@ tile.for.fireproof=%s (À Prova de Fogo)
 item.for.grafter.name=Enxerto
 item.for.grafterProven.name=Enxerto Comprovado
 
-tile.for.arboriculture.0.name=Baú do Arborista
+tile.for.arboriculture.arb.chest.name=Baú do Arborista
 
 tile.for.saplingGE.0.name=Muda
 tile.for.leaves.0.name=Folhas
@@ -1311,7 +1294,7 @@ item.for.butterfly.name=Borboleta
 item.for.flutterlyzer.name=Borbo-analizador
 item.for.lepidopteristBag.name=Mochila do Heteropterologista
 item.for.moth.name=Mariposa
-tile.for.lepidopterology.0.name=Baú do Heteropterologista
+tile.for.lepidopterology.lepi.chest.name=Baú do Heteropterologista
 
 ####################
 # MAIL

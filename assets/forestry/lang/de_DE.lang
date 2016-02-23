@@ -737,67 +737,43 @@ itemGroup.arboriculture=Baumzucht
 itemGroup.forestry=Forestry
 itemGroup.lepidopterology=Lepidopterologie
 
-tile.for.core.0.name=Analysierer
-tile.for.core.1.name=Schreibtisch
+tile.for.core.analyzer.name=Analysierer
+tile.for.core.escritoire.name=Schreibtisch
 
-tile.for.engine.0.name=Elektromotor
-tile.for.engine.1.name=Torfbefeuerter Motor
-tile.for.engine.2.name=Biomassemotor
-tile.for.engine.3.name=Biogenerator
-tile.for.engine.4.name=Motor mit Uhrwerk
+tile.for.engine.electrical.name=Elektromotor
+tile.for.engine.peat.name=Torfbefeuerter Motor
+tile.for.engine.biogas.name=Biomassemotor
+tile.for.engine.bio.generator.name=Biogenerator
+tile.for.engine.clockwork.name=Motor mit Uhrwerk
 
-tile.for.factory.0.name=Abfüller
-tile.for.factory.1.name=Schreinerei
-tile.for.factory.2.name=Zentrifuge
-tile.for.factory.3.name=Gärbottich
-tile.for.factory.4.name=Befeuchter
-tile.for.factory.5.name=Presse
-tile.for.factory.6.name=Destille
-tile.for.factory.7.name=Regenmacher
-tile.for.factory2.0.name=Elektronenröhrenmacher
-tile.for.factory2.1.name=Regentank
-tile.for.factory2.2.name=Werkbank
+tile.for.factory.bottler.name=Abfüller
+tile.for.factory.carpenter.name=Schreinerei
+tile.for.factory.centrifuge.name=Zentrifuge
+tile.for.factory.fermenter.name=Gärbottich
+tile.for.factory.moistener.name=Befeuchter
+tile.for.factory.squeezer.name=Presse
+tile.for.factory.still.name=Destille
+tile.for.factory.rainmaker.name=Regenmacher
+tile.for.factory2.fabricator.name=Elektronenröhrenmacher
+tile.for.factory2.raintank.name=Regentank
+tile.for.factory2.worktable.name=Werkbank
 
-tile.for.mail.0.name=Briefkasten
-tile.for.mail.1.name=Handelsstation
-tile.for.mail.2.name=Briefmarkensammler
+tile.for.mail.mailbox.name=Briefkasten
+tile.for.mail.trade.station.name=Handelsstation
+tile.for.mail.stamp.collector.name=Briefmarkensammler
 
-tile.for.resources.0.name=Apatiterz
-tile.for.resources.1.name=Kupfererz
-tile.for.resources.2.name=Zinnerz
+tile.for.resources.apatite.name=Apatiterz
+tile.for.resources.copper.name=Kupfererz
+tile.for.resources.tin.name=Zinnerz
 
-tile.for.resourceStorage.0.name=Apatitblock
-tile.for.resourceStorage.1.name=Kupferblock
-tile.for.resourceStorage.2.name=Zinnblock
-tile.for.resourceStorage.3.name=Bronzeblock
+tile.for.resourceStorage.apatite.name=Apatitblock
+tile.for.resourceStorage.copper.name=Kupferblock
+tile.for.resourceStorage.tin.name=Zinnblock
+tile.for.resourceStorage.bronze.name=Bronzeblock
 
-tile.for.soil.0.name=Humus
-tile.for.soil.1.name=Moorerde
-tile.for.soil.2.name=Torf
-
-tile.for.stained.0.name=Weiß getöntes Glas
-tile.for.stained.1.name=Orange getöntes Glas
-tile.for.stained.2.name=Magenta getöntes Glas
-tile.for.stained.3.name=Hellblau getöntes Glas
-tile.for.stained.4.name=Gelb getöntes Glas
-tile.for.stained.5.name=Hellgrün getöntes Glas
-tile.for.stained.6.name=Rosa getöntes Glas
-tile.for.stained.7.name=Grau getöntes Glas
-tile.for.stained.8.name=Hellgrau getöntes Glas
-tile.for.stained.9.name=Zyan getöntes Glas
-tile.for.stained.10.name=Violett getöntes Glas
-tile.for.stained.11.name=Blau getöntes Glas
-tile.for.stained.12.name=Braun getöntes Glas
-tile.for.stained.13.name=Grün getöntes Glas
-tile.for.stained.14.name=Rot getöntes Glas
-tile.for.stained.15.name=Schwarz getöntes Glas
-
-neiintegration.chance=Chance: %s
-neiintegration.chance.never=Nie
-neiintegration.chance.lessThan1=<1%
-neiintegration.handler.forestry.shaped=Forestry: Geformt
-neiintegration.handler.forestry.shapeless=Forestry: Formlos
-neiintegration.handler.forestry.fabricator.worth=Wert:
+tile.for.soil.humus.name=Humus
+tile.for.soil.bog.earth.name=Moorerde
+tile.for.soil.peat.name=Torf
 
 ####################
 # APICULTURE
@@ -1234,7 +1210,7 @@ tile.for.fireproof=%s (Feuerfest)
 item.for.grafter.name=Gartenschere
 item.for.grafterProven.name=Bewährte Gartenschere
 
-tile.for.arboriculture.0.name=Truhe des Arboristen
+tile.for.arboriculture.arb.chest.name=Truhe des Arboristen
 
 tile.for.saplingGE.0.name=Unbekannter Setzling
 tile.for.leaves.0.name=Blätter
@@ -1367,7 +1343,7 @@ item.for.butterfly.name=Schmetterling
 item.for.flutterlyzer.name=Schmetterlyzer
 item.for.lepidopteristBag.name=Rucksack des Lepidopterologen
 item.for.moth.name=Motte
-tile.for.lepidopterology.0.name=Truhe des Lepidopterologen
+tile.for.lepidopterology.lepi.chest.name=Truhe des Lepidopterologen
 
 ####################
 # MAIL

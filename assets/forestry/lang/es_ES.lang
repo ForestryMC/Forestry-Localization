@@ -535,13 +535,6 @@ trigger.lowStamps=Sellos
 trigger.mailBuffer=Buffer
 usage.engine.tin=En Motores Elйctricos
 
-neiintegration.chance=Oportunidad: %s
-neiintegration.chance.never=Nunca
-neiintegration.chance.lessThan1=<1%
-neiintegration.handler.forestry.shaped=Forestry Shaped
-neiintegration.handler.forestry.shapeless=Forestry Shapeless
-neiintegration.handler.forestry.fabricator.worth=Valor:
-
 ####################
 # APICULTURE
 ####################

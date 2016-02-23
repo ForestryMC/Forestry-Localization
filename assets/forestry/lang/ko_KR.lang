@@ -651,60 +651,43 @@ itemGroup.arboriculture=수목재배학
 itemGroup.forestry=삼림학
 itemGroup.lepidopterology=인시류학
 
-tile.for.core.0.name=유전 정보 분석기
-tile.for.core.1.name=연구 책상
+tile.for.core.analyzer.name=유전 정보 분석기
+tile.for.core.escritoire.name=연구 책상
 
-tile.for.engine.0.name=전기 엔진
-tile.for.engine.1.name=토탄 엔진
-tile.for.engine.2.name=바이오가스 엔진
-tile.for.engine.3.name=바이오연료 발전기
-tile.for.engine.4.name=시계태엽 엔진
+tile.for.engine.electrical.name=전기 엔진
+tile.for.engine.peat.name=토탄 엔진
+tile.for.engine.biogas.name=바이오가스 엔진
+tile.for.engine.bio.generator.name=바이오연료 발전기
+tile.for.engine.clockwork.name=시계태엽 엔진
 
-tile.for.factory.0.name=보틀러
-tile.for.factory.1.name=카펜터
-tile.for.factory.2.name=원심분리기
-tile.for.factory.3.name=발효기
-tile.for.factory.4.name=습윤기
-tile.for.factory.5.name=압착기
-tile.for.factory.6.name=증류기
-tile.for.factory.7.name=기후 제어기
-tile.for.factory2.0.name=열이온 세공기
-tile.for.factory2.1.name=빗물저류조
-tile.for.factory2.2.name=목공 작업대
+tile.for.factory.bottler.name=보틀러
+tile.for.factory.carpenter.name=카펜터
+tile.for.factory.centrifuge.name=원심분리기
+tile.for.factory.fermenter.name=발효기
+tile.for.factory.moistener.name=습윤기
+tile.for.factory.squeezer.name=압착기
+tile.for.factory.still.name=증류기
+tile.for.factory.rainmaker.name=기후 제어기
+tile.for.factory2.fabricator.name=열이온 세공기
+tile.for.factory2.raintank.name=빗물저류조
+tile.for.factory2.worktable.name=목공 작업대
 
-tile.for.mail.0.name=편지함
-tile.for.mail.1.name=거래소
-tile.for.mail.2.name=스탬프 콜랙션
+tile.for.mail.mailbox.name=편지함
+tile.for.mail.trade.station.name=거래소
+tile.for.mail.stamp.collector.name=스탬프 콜랙션
 
-tile.for.resources.0.name=인회석 광석
-tile.for.resources.1.name=구리 광석
-tile.for.resources.2.name=주석 광석
+tile.for.resources.apatite.name=인회석 광석
+tile.for.resources.copper.name=구리 광석
+tile.for.resources.tin.name=주석 광석
 
-tile.for.resourceStorage.0.name=인회석 블럭
-tile.for.resourceStorage.1.name=구리 블럭
-tile.for.resourceStorage.2.name=주석 블럭
-tile.for.resourceStorage.3.name=청동 블럭
+tile.for.resourceStorage.apatite.name=인회석 블럭
+tile.for.resourceStorage.copper.name=구리 블럭
+tile.for.resourceStorage.tin.name=주석 블럭
+tile.for.resourceStorage.bronze.name=청동 블럭
 
-tile.for.soil.0.name=부엽토
-tile.for.soil.1.name=퇴적토
-tile.for.soil.2.name=Peat
-
-tile.for.stained.0=흰색 색유리
-tile.for.stained.1=주황색 색유리
-tile.for.stained.2=자홍색 색유리
-tile.for.stained.3=하늘색 색유리
-tile.for.stained.4=노란색 색유리
-tile.for.stained.5=연두색 색유리
-tile.for.stained.6=분홍색 색유리
-tile.for.stained.7=회색 색유리
-tile.for.stained.8=밝은 회색 색유리
-tile.for.stained.9=청록색 색유리
-tile.for.stained.10=보라색 색유리
-tile.for.stained.11=파란색 색유리
-tile.for.stained.12=갈색 색유리
-tile.for.stained.13=초록색 색유리
-tile.for.stained.14=빨간색 색유리
-tile.for.stained.15.name=검은색 색유리
+tile.for.soil.humus.name=부엽토
+tile.for.soil.bog.earth.name=퇴적토
+tile.for.soil.peat.name=Peat
 
 ####################
 # APICULTURE
@@ -1040,7 +1023,7 @@ for.trees.species.yellowMeranti=옐로우세라야
 item.for.grafter.name=묘목 채취기
 item.for.grafterProven.name=검증된 묘목 채취기
 
-tile.for.arboriculture.0.name=수목 재배가의 상자
+tile.for.arboriculture.arb.chest.name=수목 재배가의 상자
 
 tile.for.fences.0.name=낙엽송 울타리
 tile.for.fences.1.name=티크 울타리
@@ -1305,7 +1288,7 @@ item.for.butterfly.name=나비
 item.for.flutterlyzer.name=나비 분석기
 item.for.lepidopteristBag.name=인시류학자의 가방
 item.for.moth.name=Moth
-tile.for.lepidopterology.0.name=인시류학자의 가방
+tile.for.lepidopterology.lepi.chest.name=인시류학자의 가방
 
 ####################
 # MAIL

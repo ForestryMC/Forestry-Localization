@@ -719,60 +719,43 @@ itemGroup.arboriculture=Лесоводство
 itemGroup.forestry=Forestry
 itemGroup.lepidopterology=Лепидоптерология
 
-tile.for.core.0.name=Анализатор
-tile.for.core.1.name=Секретер
+tile.for.core.analyzer.name=Анализатор
+tile.for.core.escritoire.name=Секретер
 
-tile.for.engine.0.name=Электродвигатель
-tile.for.engine.1.name=Торфяной двигатель
-tile.for.engine.2.name=Биогазовый двигатель
-tile.for.engine.3.name=Биогенератор
-tile.for.engine.4.name=Заводной двигатель
+tile.for.engine.electrical.name=Электродвигатель
+tile.for.engine.peat.name=Торфяной двигатель
+tile.for.engine.biogas.name=Биогазовый двигатель
+tile.for.engine.bio.generator.name=Биогенератор
+tile.for.engine.clockwork.name=Заводной двигатель
 
-tile.for.factory.0.name=Разливочный механизм
-tile.for.factory.1.name=Плотник
-tile.for.factory.2.name=Центрифуга
-tile.for.factory.3.name=Бродильный аппарат
-tile.for.factory.4.name=Увлажнитель
-tile.for.factory.5.name=Соковыжималка
-tile.for.factory.6.name=Дистиллятор
-tile.for.factory.7.name=Вызыватель дождя
-tile.for.factory2.0.name=Электроламповый завод
-tile.for.factory2.1.name=Сборщик дождя
-tile.for.factory2.2.name=Рабочий стол
+tile.for.factory.bottler.name=Разливочный механизм
+tile.for.factory.carpenter.name=Плотник
+tile.for.factory.centrifuge.name=Центрифуга
+tile.for.factory.fermenter.name=Бродильный аппарат
+tile.for.factory.moistener.name=Увлажнитель
+tile.for.factory.squeezer.name=Соковыжималка
+tile.for.factory.still.name=Дистиллятор
+tile.for.factory.rainmaker.name=Вызыватель дождя
+tile.for.factory2.fabricator.name=Электроламповый завод
+tile.for.factory2.raintank.name=Сборщик дождя
+tile.for.factory2.worktable.name=Рабочий стол
 
-tile.for.mail.0.name=Почтовый ящик
-tile.for.mail.1.name=Торговая станция
-tile.for.mail.2.name=Сборщик марок
+tile.for.mail.mailbox.name=Почтовый ящик
+tile.for.mail.trade.station.name=Торговая станция
+tile.for.mail.stamp.collector.name=Сборщик марок
 
-tile.for.resources.0.name=Апатитовая руда
-tile.for.resources.1.name=Медная руда
-tile.for.resources.2.name=Оловянная руда
+tile.for.resources.apatite.name=Апатитовая руда
+tile.for.resources.copper.name=Медная руда
+tile.for.resources.tin.name=Оловянная руда
 
-tile.for.resourceStorage.0.name=Апатитовый блок
-tile.for.resourceStorage.1.name=Медный блок
-tile.for.resourceStorage.2.name=Оловянный блок
-tile.for.resourceStorage.3.name=Бронзовый блок
+tile.for.resourceStorage.apatite.name=Апатитовый блок
+tile.for.resourceStorage.copper.name=Медный блок
+tile.for.resourceStorage.tin.name=Оловянный блок
+tile.for.resourceStorage.bronze.name=Бронзовый блок
 
-tile.for.soil.0.name=Гумус
-tile.for.soil.1.name=Болотная земля
-tile.for.soil.2.name=Торф
-
-tile.for.stained.0.name=Белое стекло
-tile.for.stained.1.name=Оранжевое стекло
-tile.for.stained.2.name=Сиреневое стекло
-tile.for.stained.3.name=Светло-синее стекло
-tile.for.stained.4.name=Жёлтое стекло
-tile.for.stained.5.name=Лаймовое стекло
-tile.for.stained.6.name=Розовое стекло
-tile.for.stained.7.name=Серое стекло
-tile.for.stained.8.name=Светло-серое стекло
-tile.for.stained.9.name=Бирюзовое стекло
-tile.for.stained.10.name=Фиолетовое стекло
-tile.for.stained.11.name=Синее стекло
-tile.for.stained.12.name=Коричневое стекло
-tile.for.stained.13.name=Зелёное стекло
-tile.for.stained.14.name=Красное стекло
-tile.for.stained.15.name=Чёрное стекло
+tile.for.soil.humus.name=Гумус
+tile.for.soil.bog.earth.name=Болотная земля
+tile.for.soil.peat.name=Торф
 
 ####################
 # APICULTURE
@@ -1185,7 +1168,7 @@ tile.for.fireproof=%s (Огнестойкость)
 item.for.grafter.name=Садовый нож
 item.for.grafterProven.name=Проверенный садовый нож
 
-tile.for.arboriculture.0.name=Сундук лесовода
+tile.for.arboriculture.arb.chest.name=Сундук лесовода
 
 tile.for.saplingGE.0.name=Саженец
 tile.for.leaves.0.name=Листва
@@ -1318,7 +1301,7 @@ item.for.butterfly.name=Бабочка
 item.for.flutterlyzer.name=Анализатор бабочек
 item.for.lepidopteristBag.name=Рюкзак лепидоптеролога
 item.for.moth.name=Мотылёк
-tile.for.lepidopterology.0.name=Сундук лепидоптеролога
+tile.for.lepidopterology.lepi.chest.name=Сундук лепидоптеролога
 
 ####################
 # MAIL
