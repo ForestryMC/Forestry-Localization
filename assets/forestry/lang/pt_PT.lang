@@ -500,22 +500,6 @@ tile.resource.1=Minйrio de Cobre
 tile.resource.2=Minйrio de Estanho
 tile.soil.0=Hъmus
 tile.soil.1=Terra do Paъl
-tile.stained.0=Vitral Branco
-tile.stained.1=Vitral Laranja
-tile.stained.2=Vitral Magenta
-tile.stained.3=Vitral Azul-Claro
-tile.stained.4=Vitral Amarelo
-tile.stained.5=Vitral Verde Lima
-tile.stained.6=Vitral Cor-de-Rosa
-tile.stained.7=Vitral Cinzento
-tile.stained.8=Vitral Cinzento Claro
-tile.stained.9=Vitral Azul Ciano
-tile.stained.10=Vitral Roxo
-tile.stained.11=Vitral Azul
-tile.stained.12=Vitral Castanho
-tile.stained.13=Vitral Verde
-tile.stained.14=Vitral Vermelho
-tile.stained.15=Vitral Preto
 trigger.hasMail=Tem Correio
 trigger.hasWork=Tem Trabalho
 trigger.lowFuel=Combustнvel
@@ -855,9 +839,3 @@ gui.mail.address.copy=Usa
 gui.mail.tradefor=para
 gui.mail.notrades=Nгo existem trocas disponнveis.
 item.catalogue=Catбlogo
-
-####################
-# PIPES
-####################
-
-item.PipeItemsPropolis.name=Tubo de Apicultor

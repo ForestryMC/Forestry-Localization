@@ -1335,12 +1335,6 @@ for.gui.mail.willtrade=%s 가 다음과 같은 아이템을 팔고 있습니다:
 item.for.catalogue.name=카탈로그
 
 ####################
-# PIPES
-####################
-
-item.PipeItemsPropolis.name=양봉업자의 파이프
-
-####################
 # PLUGINS
 ####################
 for.plugin.core.description=Core mechanics for Forestry. Required by all other plugins.

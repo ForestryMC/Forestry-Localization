@@ -1456,12 +1456,6 @@ for.gui.mail.willtrade=%s désir commercer
 item.for.catalogue.name=Catalogue
 
 ####################
-# PIPES
-####################
-
-item.PipeItemsPropolis.name=Tuyau de transport d'apiculteur
-
-####################
 # PLUGINS
 ####################
 for.plugin.core.description=Coeur des machines pour Forestry. Requis par tous les autres plugins.

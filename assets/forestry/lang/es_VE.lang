@@ -502,22 +502,6 @@ tile.resource.1=Mineral de Cobre
 tile.resource.2=Mineral de Estaсo
 tile.soil.0=Humus
 tile.soil.1=Tierra de Pantano
-tile.stained.0=Vitral Blanco
-tile.stained.1=Vitral Naranja
-tile.stained.2=Vitral Magenta
-tile.stained.3=Vitral Celeste
-tile.stained.4=Vitral Amarillo
-tile.stained.5=Vitral Lima
-tile.stained.6=Vitral Rosa
-tile.stained.7=Vitral Gris
-tile.stained.8=Vitral Gris Claro
-tile.stained.9=Vitral Cian
-tile.stained.10=Vitral Violeta
-tile.stained.11=Vitral Azul
-tile.stained.12=Vitral Marrуn
-tile.stained.13=Vitral Verde
-tile.stained.14=Vitral Rojo
-tile.stained.15=Vitral Negro
 trigger.hasMail=Tienes Correo
 trigger.hasWork=Tiene Trabajo
 trigger.lowFuel=Combustible
@@ -863,9 +847,3 @@ gui.mail.address.copy=Use
 gui.mail.tradefor=para
 gui.mail.notrades=No hay comercio disponibles. 
 item.catalogue=Catбlogo
-
-####################
-# PIPES
-####################
-
-item.PipeItemsPropolis.name=Tuberнa de Apicultor

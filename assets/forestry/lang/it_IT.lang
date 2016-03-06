@@ -540,22 +540,6 @@ tile.resource.1=Minerale rame
 tile.resource.2=Minerale stagno
 tile.soil.0=Humus
 tile.soil.1=Torbiera
-tile.stained.0=Vetro bianco
-tile.stained.1=Vetro arancione
-tile.stained.2=Vetro magenta
-tile.stained.3=Vetro celeste
-tile.stained.4=Vetro giallo
-tile.stained.5=Vetro verde chiaro
-tile.stained.6=Vetro rosa
-tile.stained.7=Vetro grigio
-tile.stained.8=Vetro grigio chiaro
-tile.stained.9=Vetro azzurro
-tile.stained.10=Vetro rosso
-tile.stained.11=Vetro blu
-tile.stained.12=Vetro marrone
-tile.stained.13=Vetro verde
-tile.stained.14=Vetro rosso
-tile.stained.15=Vetro nero
 tile.stump.0=Mozzicone di candela
 tile.swarmer.0=Sciame
 trigger.hasMail=Ha della posta
@@ -700,19 +684,6 @@ item.for.beeQueenGE.name=Unknown Queen
 ####################
 
 gui.maturity=Maturo
-gui.treealyzer=Treealyzer
-gui.treealyzer.help=Supply sapling and provide honey or honeydew as catalyst.
-gui.saplings=Saplings
-gui.yield=Yield
-gui.sappiness=Sappiness
-gui.height=Height
-gui.fruits=Fruits
-gui.supports=Supports
-gui.family=Family
-gui.girth=Girth
-gui.native=Soil
-gui.tolerated=Tolerates
-gui.growth=Growth
 description.treeOak=La specie di alberi più comune che produce delle ottime mele, la quercia è anche il soggetto di molte canzoni e ballate.|Codex Lignum
 description.treeBirch=La betulla è abbastanza comune, è un albero caratterizzato dalla bassa altezza.|Codex Lignum
 description.treeLime=Albero alto e deciduo. Recentemente è stato riclassificato come appartenente alla famiglia delle Malvaceae.|Codex Lignum
@@ -721,52 +692,6 @@ description.treeChestnut=Albero alto e deciduo dal grande tronco. In genere i ca
 description.treeSipiri=Albero alto e sempreverde dalla legna pregiata. La legna e la corteccia emanano un piacevole profumo. Cresce solo nei climi tropicali.|Codex Lignum
 description.treeWillow=Albero alto e deciduo. I salici bianchi crescono molto rapidamente. Si osservano spesso nei climi umidi.|Codex Lignum
 description.treeCherry=Albero piccolo. Nella sua forma naturale produce delle ciliegie che hanno bisogno di un certo periodo di tempo per maturare.|Codex Lignum
-family.pomes=Pomes
-family.prunes=Prunes
-family.nuts=Nuts
-family.jungle=Jungle
-fruits.apple=Apple
-fruits.cherry=Cherry
-fruits.chestnut=Chestnut
-fruits.walnut=Walnut
-fruits.cocoa=Cocoa
-fruits.none=None
-fruits.plum=Plum
-fruits.lemon=Lemon
-fruits.dates=Dates
-fruits.papaya=Papaya
-item.grafter=Innestatore
-item.grafterProven=Proven Grafter
-tile.log=Wood
-tile.planks=Wood Planks
-tile.slab=Wood Slab
-tile.fences=Fence
-tile.for.stairs=Stairs
-wood.0=Larch
-wood.1=Teak
-wood.2=Acacia
-wood.3=Lime
-wood.4=Chestnut
-wood.5=Wenge
-wood.6=Baobab
-wood.7=Sequoia
-wood.8=Kapok
-wood.9=Ebony
-wood.10=Mahogany
-wood.11=Balsa
-wood.12=Willow
-wood.13=Walnut
-wood.14=Greenheart
-wood.15=Cherry
-wood.16=Mahoe
-wood.17=Poplar
-wood.18=Palm
-wood.19=Papaya
-wood.20=Pine
-wood.21=Plum
-wood.22=Maple
-wood.23=Citrus
-tile.for.arboriculture.0=Arborist's Chest
 
 ####################
 # FARMING
@@ -824,53 +749,6 @@ trigger.lowLiquid=Tanica d'acqua
 trigger.lowFertilizer=Fertilizzatore
 usage.farms.managed=Nelle fattorie automatiche
 usage.farms.manual=Nelle fattorie manuali
-
-####################
-# LEPIDOPTEROLOGY
-####################
-
-gui.flutterlyzer.help=Supply butterfly and provide honey or honeydew as a pacifier.
-gui.loot.butterfly=Possible Butterfly Loot
-gui.loot.caterpillar=Possible Caterpillar Loot
-item.butterfly=Butterfly
-item.moth=Moth
-item.flutterlyzer=Flutterlyzer
-storage.backpack.lepidopterist=Lepidopterist's Backpack
-tile.for.lepidopterology.0=Lepidopterist's Chest
-
-####################
-# MAIL
-####################
-
-chat.mail.no_mailbox=Recipient has no mailbox.
-chat.mail.not_mailable=Letter is not sendable.
-chat.mail.not_postpaid=Letter is not sufficiently stamped.
-chat.mail.mailbox_full=Recipient's mailbox is full.
-chat.mail.already_mailed=Cannot resend letter.
-chat.mail.response_not_mailable=Trade station cannot send the response letter. You need to have a mailbox to deliver to.
-chat.mail.insufficient_offer=Trade station demands more.
-chat.mail.insufficient_trade_good=Trade station has run out of supplies.
-chat.mail.insufficient_buffer=Trade station is full.
-chat.mail.insufficient_paper=Trade station ran out of paper.
-chat.mail.insufficient_stamps=Trade station ran out of stamps.
-chat.mail.ok=Trade is available.
-chat.mail.wrongstacksize=Can only write one letter at a time.
-gui.mail.catalogue.close=Close
-gui.mail.catalogue.trade=Trade
-gui.mail.filter.all=All
-gui.mail.filter.online=Online
-gui.mail.filter.offline=Offline
-gui.mail.willtrade=%s will trade
-gui.mail.address.copy=Use
-gui.mail.tradefor=for
-gui.mail.notrades=No trades available.
-item.catalogue=Catalogue
-
-####################
-# PIPES
-####################
-
-item.PipeItemsPropolis.name=Tubo dell'apicoltore
 
 ####################
 # NEI Categories

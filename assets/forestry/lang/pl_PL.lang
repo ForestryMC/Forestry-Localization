@@ -86,24 +86,6 @@ flowers.mushroom=Grzyb
 flowers.nether=Piekło
 flowers.vanilla=Kwiaty
 flowers.wheat=Zborze
-fluid.bioethanol=Ethanol
-fluid.biomass=Biomass
-fluid.milk=Milk
-fluid.seedoil=Seed Oil
-fluid.juice=Fruit Juice
-fluid.for.honey=Honey
-fluid.short.mead=Short Mead
-fluid.glass=Liquid Glass
-fluid.ice=Crushed Ice
-tile.forestry.fluid.bioethanol.name=Ethanol
-tile.forestry.fluid.biomass.name=Biomass
-tile.forestry.fluid.milk.name=Milk
-tile.forestry.fluid.seedoil.name=Seed Oil
-tile.forestry.fluid.juice.name=Fruit Juice
-tile.forestry.fluid.for.honey.name=Honey
-tile.forestry.fluid.short.mead.name=Short Mead
-tile.forestry.fluid.glass.name=Liquid Glass
-tile.forestry.fluid.ice.name=Crushed Ice
 gui.climate=Klimat
 gui.empty=Puste
 gui.temptol=Temp.Tol
@@ -512,22 +494,6 @@ tile.resource.1=Złoże Miedzi
 tile.resource.2=Złoże Cyny
 tile.soil.0=Czarnoziem
 tile.soil.1=Bagnista Ziemia
-tile.stained.0=Białe Szkło
-tile.stained.1=Pomarańczowe Szkło
-tile.stained.2=Karmazynowe Szkło
-tile.stained.3=Jasno Niebieskie Szkło
-tile.stained.4=żółte Szkło
-tile.stained.5=Limonkowe Szkło
-tile.stained.6=Różowe Szkło
-tile.stained.7=Szare Szkło
-tile.stained.8=Jasno Szare Szkło
-tile.stained.9=Cyjankowe Szkło
-tile.stained.10=Purpurowe Szkło
-tile.stained.11=Niebieskie Szkło
-tile.stained.12=Brązowe Szkło
-tile.stained.13=Zielone Szkło
-tile.stained.14=Czerwone Szkło
-tile.stained.15=Czarne Szkło
 trigger.hasMail=Ma List
 trigger.hasWork=Ma Pracę
 trigger.lowFuel=Paliwo
@@ -873,9 +839,3 @@ gui.mail.address.copy=Używać
 gui.mail.tradefor=do
 gui.mail.notrades=Brak ofert.
 item.catalogue=Katalog
-
-####################
-# PIPES
-####################
-
-item.PipeItemsPropolis.name=Rura Pszczelarska
