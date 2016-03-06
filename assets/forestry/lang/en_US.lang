@@ -86,7 +86,7 @@ for.flowers.vanilla=Flowers
 for.flowers.wheat=Wheat
 for.flowers.snow=Snow
 
-fluid.bioethanol=Ethanol
+fluid.bio.ethanol=Ethanol
 fluid.biomass=Biomass
 fluid.glass=Liquid Glass
 fluid.for.honey=Honey
@@ -94,8 +94,8 @@ fluid.ice=Crushed Ice
 fluid.juice=Fruit Juice
 fluid.short.mead=Short Mead
 fluid.milk=Milk
-fluid.seedoil=Seed Oil
-tile.forestry.fluid.bioethanol.name=Ethanol
+fluid.seed.oil=Seed Oil
+tile.forestry.fluid.bio.ethanol.name=Ethanol
 tile.forestry.fluid.biomass.name=Biomass
 tile.forestry.fluid.glass.name=Liquid Glass
 tile.forestry.fluid.for.honey.name=Honey
@@ -103,7 +103,7 @@ tile.forestry.fluid.ice.name=Crushed Ice
 tile.forestry.fluid.juice.name=Fruit Juice
 tile.forestry.fluid.short.mead.name=Short Mead
 tile.forestry.fluid.milk.name=Milk
-tile.forestry.fluid.seedoil.name=Seed Oil
+tile.forestry.fluid.seed.oil.name=Seed Oil
 
 for.gui.access=Access
 for.gui.active=Active
@@ -513,25 +513,9 @@ item.for.bronzeShovel.name=Survivalist's Shovel
 item.for.builderBag.name=Builder's Backpack
 item.for.builderBagT2.name=Builder's WovenBackpack
 
-item.for.bucketEthanol.name=Ethanol Bucket
-item.for.bucketBiomass.name=Biomass Bucket
-item.for.bucketHoney.name=Honey Bucket
-item.for.bucketIce.name=Crushed Ice Bucket
-item.for.bucketJuice.name=Juice Bucket
-item.for.bucketSeedOil.name=Seed Oil Bucket
-item.for.bucketGlass.name=Molten Glass Bucket
-item.for.bucketShortMead.name=Short Mead Bucket
+item.for.can.empty.name=Can
+item.for.can.grammar=%s Can
 
-item.for.canEmpty.name=Can
-item.for.canEthanol.name=Ethanol Can
-item.for.canBiomass.name=Biomass Can
-item.for.canFuel.name=Fuel Can
-item.for.canHoney.name=Honey Can
-item.for.canIce.name=Ice Can
-item.for.canJuice.name=Juice Can
-item.for.canLava.name=Lava Can
-item.for.canOil.name=Oil Can
-item.for.canSeedOil.name=Seed Oil Can
 item.for.carton.name=Carton
 
 item.for.circuitboard.basic.name=Basic Circuit Board
@@ -618,17 +602,9 @@ item.for.propolis.pulsating.name=Pulsating Propolis
 item.for.propolis.silky.name=Silky Propolis
 item.for.propolis.sticky.name=Sticky Propolis
 
-item.for.refractoryEthanol.name=Ethanol Capsule
-item.for.refractoryBiomass.name=Biomass Capsule
-item.for.refractoryEmpty.name=Refractory Capsule
-item.for.refractoryFuel.name=Fuel Capsule
-item.for.refractoryHoney.name=Honey Capsule
-item.for.refractoryIce.name=Ice Capsule
-item.for.refractoryJuice.name=Juice Capsule
-item.for.refractoryLava.name=Lava Capsule
-item.for.refractoryOil.name=Oil Capsule
-item.for.refractorySeedOil.name=Seed Oil Capsule
-item.for.refractoryWater.name=Water Capsule
+item.for.refractory.empty.name=Refractory Capsule
+item.for.refractory.grammar=%s Capsule
+
 item.for.refractoryWax.name=Refractory Wax
 
 item.for.researchNote.name=%s's Notes
@@ -664,18 +640,9 @@ item.for.thermionicTubes.ex-12.name=Ender Electron Tube
 
 item.for.treealyzer.name=Treealyzer
 
-item.for.canWater.name=Water Can
+item.for.capsule.empty.name=Wax Capsule
+item.for.capsule.grammar=%s Capsule
 
-item.for.waxCapsule.name=Wax Capsule
-item.for.waxCapsuleEthanol.name=Ethanol Capsule
-item.for.waxCapsuleBiomass.name=Biomass Capsule
-item.for.waxCapsuleFuel.name=Fuel Capsule
-item.for.waxCapsuleHoney.name=Honey Capsule
-item.for.waxCapsuleIce.name=Ice Capsule
-item.for.waxCapsuleJuice.name=Juice Capsule
-item.for.waxCapsuleOil.name=Oil Capsule
-item.for.waxCapsuleSeedOil.name=Seed Oil Capsule
-item.for.waxCapsuleWater.name=Water Capsule
 item.for.waxCast.name=Wax Cast
 
 item.for.woodPulp.name=Wood Pulp

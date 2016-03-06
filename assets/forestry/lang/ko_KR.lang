@@ -133,7 +133,7 @@ for.flowers.nether=지옥
 for.flowers.vanilla=꽃
 for.flowers.wheat=밀
 
-fluid.bioethanol=에탄올
+fluid.bio.ethanol=에탄올
 fluid.biomass=바이오매스
 fluid.glass=액화 유리
 fluid.for.honey=꿀
@@ -141,8 +141,8 @@ fluid.ice=얼음물
 fluid.juice=과즙
 fluid.short.mead=벌꿀술
 fluid.milk=우유
-fluid.seedoil=씨앗기름
-tile.forestry.fluid.bioethanol.name=에탄올
+fluid.seed.oil=씨앗기름
+tile.forestry.fluid.bio.ethanol.name=에탄올
 tile.forestry.fluid.biomass.name=바이오매스
 tile.forestry.fluid.glass.name=액화 유리
 tile.forestry.fluid.for.honey.name=꿀
@@ -150,7 +150,7 @@ tile.forestry.fluid.ice.name=얼음물
 tile.forestry.fluid.juice.name=과즙
 tile.forestry.fluid.short.mead.name=벌꿀술
 tile.forestry.fluid.milk.name=우유
-tile.forestry.fluid.seedoil.name=씨앗기름
+tile.forestry.fluid.seed.oil.name=씨앗기름
 
 for.gui.access=접근
 for.gui.active=활성화
@@ -476,8 +476,7 @@ item.for.beeswax.name=밀랍
 item.for.beverage.meadCurative.name=약재가 들어간 벌꿀술
 item.for.beverage.meadShort.name=벌꿀술
 
-item.for.canEthanol.name=에탄올 캔
-item.for.canBiomass.name=바이오매스 캔
+
 
 item.for.biomeFinder.name=서식지 분석기
 item.for.bituminousPeat.name=역청 토탄
@@ -485,19 +484,12 @@ item.for.brokenBronzePickaxe.name=부러진 곡괭이
 item.for.brokenBronzeShovel.name=부러진 삽
 item.for.bronzePickaxe.name=생존가의 곡괭이
 item.for.bronzeShovel.name=생존가의 삽
-item.for.bucketEthanol.name=에탄올 양동이
-item.for.bucketBiomass.name=바이오매스 양동이
 item.for.builderBag.name=건축가의 가방
 item.for.builderBagT2.name=건축가의 실크가방
 
-item.for.canEmpty.name=캔
-item.for.canFuel.name=정제유 캔
-item.for.canHoney.name=꿀 캔
-item.for.canIce.name=얼음 캔
-item.for.canJuice.name=과즙 캔
-item.for.canLava.name=용암 캔
-item.for.canOil.name=석유 캔
-item.for.canSeedOil.name=씨앗기름 캔
+item.for.can.empty.name=캔
+item.for.can.grammar=%s 캔
+
 item.for.carton.name=곽
 
 item.for.circuitboard.basic.name=기본 회로
@@ -584,17 +576,9 @@ item.for.propolis.pulsating.name=맥동하는 프로폴리스
 item.for.propolis.silky.name=부드러운 프로폴리스
 item.for.propolis.sticky.name=끈적끈적한 프로폴리스
 
-item.for.refractoryEthanol.name=에탄올 캡슐
-item.for.refractoryBiomass.name=바이오매스 캡슐
-item.for.refractoryEmpty.name=내화 캡슐
-item.for.refractoryFuel.name=정제유 캡슐
-item.for.refractoryHoney.name=꿀 캡슐
-item.for.refractoryIce.name=얼음 캡슐
-item.for.refractoryJuice.name=과즙 캡슐
-item.for.refractoryLava.name=욤암 캡슐
-item.for.refractoryOil.name=석유 캡슐
-item.for.refractorySeedOil.name=씨앗기름 캡슐
-item.for.refractoryWater.name=물 캡슐
+item.for.refractory.empty.name=내화 캡슐
+item.for.refractory.grammar=%s 캡슐
+
 item.for.refractoryWax.name=내화밀랍
 
 item.for.researchNote.name=%s의 노트
@@ -629,18 +613,11 @@ item.for.thermionicTubes.ex-11.name=청금석 진공관
 
 item.for.treealyzer.name=묘목 분석기
 
-item.for.canWater.name=물 캔
+item.for.can.water.name=물 캔
 
-item.for.waxCapsule.name=Wax 캡슐
-item.for.waxCapsuleEthanol.name=에탄올 캡슐
-item.for.waxCapsuleBiomass.name=바이오매스 캡슐
-item.for.waxCapsuleFuel.name=정제유 캡슐
-item.for.waxCapsuleHoney.name=꿀 캡슐
-item.for.waxCapsuleIce.name=얼음 캡슐
-item.for.waxCapsuleJuice.name=과즙 캡슐
-item.for.waxCapsuleOil.name=석유 캡슐
-item.for.waxCapsuleSeedOil.name=시앗기름 캡슐
-item.for.waxCapsuleWater.name=물 캡슐
+item.for.capsule.empty.name=Wax 캡슐
+item.for.capsule.grammar=%s 캡슐
+
 item.for.waxCast.name=밀랍 틀
 
 item.for.woodPulp.name=목재 펄프

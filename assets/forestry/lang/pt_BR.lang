@@ -146,7 +146,7 @@ for.flowers.nether=Nether
 for.flowers.vanilla=Flores
 for.flowers.wheat=Trigo
 
-fluid.bioethanol=Etanol
+fluid.bio.ethanol=Etanol
 fluid.biomass=Biomassa
 fluid.glass=Vidro Líquido
 fluid.for.honey=Mel
@@ -154,8 +154,8 @@ fluid.ice=Gelo Picado
 fluid.juice=Suco de Fruta
 fluid.short.mead=Hidromel
 fluid.milk=Leite
-fluid.seedoil=Óleo Vegetal
-tile.forestry.fluid.bioethanol.name=Etanol
+fluid.seed.oil=Óleo Vegetal
+tile.forestry.fluid.bio.ethanol.name=Etanol
 tile.forestry.fluid.biomass.name=Biomassa
 tile.forestry.fluid.glass.name=Vidro Líquido
 tile.forestry.fluid.for.honey.name=Mel
@@ -163,7 +163,7 @@ tile.forestry.fluid.ice.name=Gelo Picado
 tile.forestry.fluid.juice.name=Suco de Fruta
 tile.forestry.fluid.short.mead.name=Hidromel
 tile.forestry.fluid.milk.name=Leite
-tile.forestry.fluid.seedoil.name=Óleo Vegetal
+tile.forestry.fluid.seed.oil.name=Óleo Vegetal
 
 for.gui.access=Acesso
 for.gui.active=Ativo
@@ -539,25 +539,9 @@ item.for.bronzeShovel.name=Pá do Sobrevivente
 item.for.builderBag.name=Bolsa do Construtor
 item.for.builderBagT2.name=Mochila do Construtor
 
-item.for.bucketEthanol.name=Balde de Etanol
-item.for.bucketBiomass.name=Balde de Biomassa
-item.for.bucketHoney.name=Balde de Mel
-item.for.bucketIce.name=Balde de Gelo Picado
-item.for.bucketJuice.name=Balde de Suco
-item.for.bucketSeedOil.name=Balde de Óleo Vegetal
-item.for.bucketGlass.name=Balde de Vidro Líquido
-item.for.bucketShortMead.name=Balde de Hidromel
+item.for.can.empty.name=Lata
+item.for.can.grammar=Lata de %s
 
-item.for.canEmpty.name=Lata
-item.for.canEthanol.name=Lata de Etanol
-item.for.canBiomass.name=Lata de Biomassa
-item.for.canFuel.name=Lata de Combustível
-item.for.canHoney.name=Lata Mel
-item.for.canIce.name=Lata de Gelo
-item.for.canJuice.name=Lata de Suco
-item.for.canLava.name=Lata de Lava
-item.for.canOil.name=Lata de Óleo
-item.for.canSeedOil.name=Lata de Óleo Vegetal
 item.for.carton.name=Cartão
 
 item.for.circuitboard.basic.name=Placa de Circuito Básica
@@ -644,17 +628,10 @@ item.for.propolis.pulsating.name=Própolis Pulsante
 item.for.propolis.silky.name=Própolis Sedoso
 item.for.propolis.sticky.name=Própolis Viscoso
 
-item.for.refractoryEthanol.name=Cápsula de Etanol
-item.for.refractoryBiomass.name=Cápsula de Biomassa
-item.for.refractoryEmpty.name=Cápsula Refratária
-item.for.refractoryFuel.name=Cápsula de Combustível
-item.for.refractoryHoney.name=Cápsula de Mel
-item.for.refractoryIce.name=Cápsula de Gelo
-item.for.refractoryJuice.name=Cápsula de Suco
-item.for.refractoryLava.name=Cápsula de Lava
-item.for.refractoryOil.name=Cápsula de Óleo
-item.for.refractorySeedOil.name=Cápsula de Óleo Vegatal
-item.for.refractoryWater.name=Cápsula D'água
+item.for.refractory.empty.name=Cápsula Refratária
+item.for.refractory.grammar=Cápsula de %s
+item.for.refractory.water.name=Cápsula D'água
+
 item.for.refractoryWax.name=Cera em Pó
 
 item.for.researchNote.name=Notas do %s
@@ -690,18 +667,11 @@ item.for.thermionicTubes.ex-12.name=Válvula Eletrónica de Ender
 
 item.for.treealyzer.name=Arvoranalizador
 
-item.for.canWater.name=Lata D'água
+item.for.can.water.name=Lata D'água
 
-item.for.waxCapsule.name=Cápsula de Cera
-item.for.waxCapsuleEthanol.name=Cápsula de Etanol
-item.for.waxCapsuleBiomass.name=Cápsula de Biomassa
-item.for.waxCapsuleFuel.name=Cápsula de Combustível
-item.for.waxCapsuleHoney.name=Cápsula de Mel
-item.for.waxCapsuleIce.name=Cápsula de Gelo
-item.for.waxCapsuleJuice.name=Cápsula de Suco
-item.for.waxCapsuleOil.name=Cápsula de Óleo
-item.for.waxCapsuleSeedOil.name=Cápsula de Óleo Vegetal
-item.for.waxCapsuleWater.name=Cápsula de D'água
+item.for.capsule.empty.name=Cápsula de Cera
+item.for.capsule.grammar=Cápsula de %s
+
 item.for.waxCast.name=Molde de Cera
 
 item.for.woodPulp.name=Polpa de Árvore

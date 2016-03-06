@@ -513,25 +513,9 @@ item.for.bronzeShovel.name=Лопата выживающего
 item.for.builderBag.name=Рюкзак строителя
 item.for.builderBagT2.name=Тканый рюкзак строителя
 
-item.for.bucketEthanol.name=Ведро этанола
-item.for.bucketBiomass.name=Ведро биомассы
-item.for.bucketHoney.name=Ведро мёда
-item.for.bucketIce.name=Ведро молотого льда
-item.for.bucketJuice.name=Ведро фруктового сока
-item.for.bucketSeedOil.name=Ведро растительного масла
-item.for.bucketGlass.name=Ведро жидкого стекла
-item.for.bucketShortMead.name=Ведро питного мёда
+item.for.can.empty.name=Банка
+item.for.can.grammar=Банка %s
 
-item.for.canEmpty.name=Банка
-item.for.canEthanol.name=Банка этанола
-item.for.canBiomass.name=Банка биомассы
-item.for.canFuel.name=Банка топлива
-item.for.canHoney.name=Банка мёда
-item.for.canIce.name=Банка льда
-item.for.canJuice.name=Банка сока
-item.for.canLava.name=Банка лавы
-item.for.canOil.name=Банка нефти
-item.for.canSeedOil.name=Банка растительного масла
 item.for.carton.name=Картон
 
 item.for.circuitboard.basic.name=Основная печатная плата
@@ -618,17 +602,9 @@ item.for.propolis.sticky.name=Липкий прополис
 item.for.propolis.pulsating.name=Пульсирующий прополис
 item.for.propolis.silky.name=Шелковистый прополис
 
-item.for.refractoryEthanol.name=Капсула этанола
-item.for.refractoryBiomass.name=Капсула биомассы
-item.for.refractoryEmpty.name=Огнеупорная капсула
-item.for.refractoryFuel.name=Капсула топлива
-item.for.refractoryHoney.name=Капсула мёда
-item.for.refractoryIce.name=Капсула льда
-item.for.refractoryJuice.name=Капсула сока
-item.for.refractoryLava.name=Капсула лавы
-item.for.refractoryOil.name=Капсула нефти
-item.for.refractorySeedOil.name=Капсула растительного масла
-item.for.refractoryWater.name=Капсула воды
+item.for.refractory.empty.name=Огнеупорная капсула
+item.for.refractory.grammar=Капсула %s
+
 item.for.refractoryWax.name=Огнеупорный воск
 
 item.for.researchNote.name=Записки игрока %s

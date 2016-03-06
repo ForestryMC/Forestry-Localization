@@ -86,7 +86,7 @@ for.flowers.vanilla=Fleurs
 for.flowers.wheat=Blé
 for.flowers.snow=Neige
 
-fluid.bioethanol=Éthanol
+fluid.bio.ethanol=Éthanol
 fluid.biomass=Biomasse
 fluid.glass=Verre liquide
 fluid.for.honey=Miel
@@ -94,15 +94,15 @@ fluid.ice=Glace pilée
 fluid.juice=Jus de fruits
 fluid.short.mead=Petit hydromel
 fluid.milk=Lait
-fluid.seedoil=Huile de graines 
-tile.forestry.fluid.bioethanol.name=Éthanol
+fluid.seed.oil=Huile de graines
+tile.forestry.fluid.bio.ethanol.name=Éthanol
 tile.forestry.fluid.biomass.name=Biomasse
 tile.forestry.fluid.glass.name=Verre liquide
 tile.forestry.fluid.for.honey.name=Miel
 tile.forestry.fluid.ice.name=Glace pilée
 tile.forestry.fluid.juice.name=Jus de fruits
 tile.forestry.fluid.milk.name=Lait
-tile.forestry.fluid.seedoil.name=Huile de graines
+tile.forestry.fluid.seed.oil.name=Huile de graines
 tile.forestry.fluid.short.mead.name=Petit hydromel
 
 for.gui.access=Accès
@@ -508,25 +508,17 @@ item.for.bronzeShovel.name=Pelle du survivaliste
 item.for.builderBag.name=Sac à dos du maçon
 item.for.builderBagT2.name=Sac à dos tissé du maçon
 
-item.for.bucketEthanol.name=Seau d'éthanol
-item.for.bucketBiomass.name=Seau de biomasse
-item.for.bucketHoney.name=Seau de miel
-item.for.bucketIce.name=Seau de glasse pilée
-item.for.bucketJuice.name=Seau de jus
-item.for.bucketSeedOil.name=Seau d'huile végétale
-item.for.bucketGlass.name=Seau de verre
-item.for.bucketShortMead.name=Seau de petit hydromel
-
-item.for.canEmpty.name=Cannette
-item.for.canEthanol.name=Cannette de biocarburant
-item.for.canBiomass.name=Cannette de biomasse
-item.for.canFuel.name=Cannette de carburant
-item.for.canHoney.name=Cannette de miel
-item.for.canIce.name=Cannette de glace
-item.for.canJuice.name=Cannette de jus
-item.for.canLava.name=Cannette de lave
-item.for.canOil.name=Cannette de pétrole
-item.for.canSeedOil.name=Cannette d'huile végétale
+item.for.can.empty.name=Cannette
+item.for.can.grammar=Cannette de %s
+item.for.can.bio.ethanol.name=Cannette de biocarburant
+item.for.can.biomass.name=Cannette de biomasse
+item.for.can.fuel.name=Cannette de carburant
+item.for.can.for.honey.name=Cannette de miel
+item.for.can.ice.name=Cannette de glace
+item.for.can.juice.name=Cannette de jus
+item.for.can.lava.name=Cannette de lave
+item.for.can.oil.name=Cannette de pétrole
+item.for.can.seed.oil.name=Cannette d'huile végétale
 item.for.carton.name=Carton
 
 item.for.circuitboard.basic.name=Circuit imprimé de base
@@ -613,17 +605,11 @@ item.for.propolis.pulsating.name=Propolis vibrante
 item.for.propolis.silky.name=Propolis soyeuse
 item.for.propolis.sticky.name=Propolis adhésive
 
-item.for.refractoryEthanol.name=Capsule de biocarburant
-item.for.refractoryBiomass.name=Capsule de biomasse
-item.for.refractoryEmpty.name=Capsule réusinée
-item.for.refractoryFuel.name=Capsule de carburant
-item.for.refractoryHoney.name=Capsule de miel
-item.for.refractoryIce.name=Capsule de glace
-item.for.refractoryJuice.name=Capsule de jus
-item.for.refractoryLava.name=Capsule de lave
-item.for.refractoryOil.name=Capsule de pétrole
-item.for.refractorySeedOil.name=Capsule d'huile végétale
-item.for.refractoryWater.name=Capsule d'eau
+item.for.refractory.empty.name=Capsule réusinée
+item.for.refractory.grammar=Capsule de %s
+item.for.refractory.seed.oil.name=Capsule d'huile végétale
+item.for.refractory.water.name=Capsule d'eau
+
 item.for.refractoryWax.name=Cire réusinée
 
 item.for.researchNote.name=Notes de %s
@@ -661,16 +647,18 @@ item.for.treealyzer.name=Analyseur d'arbre
 
 item.for.waterCan.name=Cannette d'eau
 
-item.for.waxCapsule.name=Capsule de cire
-item.for.waxCapsuleEthanol.name=Capsule d'éthanol
-item.for.waxCapsuleBiomass.name=Capsule de biomasse
-item.for.waxCapsuleFuel.name=Capsule de carburant
-item.for.waxCapsuleHoney.name=Capsule de miel
-item.for.waxCapsuleIce.name=Capsule de glace
-item.for.waxCapsuleJuice.name=Capsule de jus
-item.for.waxCapsuleOil.name=Capsule de pétrole
-item.for.waxCapsuleSeedOil.name=Capsule d'huile végétale
-item.for.waxCapsuleWater.name=Capsule d'eau
+item.for.capsule.empty.name=Capsule de cire
+item.for.capsule.grammar=Capsule de %s
+item.for.capsule.bio.ethanol.name=Capsule d'éthanol
+item.for.capsule.biomass.name=Capsule de biomasse
+item.for.capsule.fuel.name=Capsule de carburant
+item.for.capsule.for.honey.name=Capsule de miel
+item.for.capsule.ice.name=Capsule de glace
+item.for.capsule.juice.name=Capsule de jus
+item.for.capsule.oil.name=Capsule de pétrole
+item.for.capsule.seed.oil.name=Capsule d'huile végétale
+item.for.capsule.water.name=Capsule d'eau
+
 item.for.waxCast.name=Moule en cire
 
 item.for.woodPulp.name=Pâte à papier

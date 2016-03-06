@@ -513,25 +513,17 @@ item.for.bronzeShovel.name=幸存者之铲
 item.for.builderBag.name=建筑师背包
 item.for.builderBagT2.name=建筑师编织背包
 
-item.for.bucketEthanol.name=乙醇桶
-item.for.bucketBiomass.name=生物质桶
-item.for.bucketHoney.name=蜂蜜桶
-item.for.bucketIce.name=碎冰桶
-item.for.bucketJuice.name=果汁桶
-item.for.bucketSeedOil.name=种子油桶
-item.for.bucketGlass.name=液态玻璃桶
-item.for.bucketShortMead.name=蜂蜜酒桶
+item.for.can.empty.name=罐
+item.for.can.ethanol.name=乙醇罐
+item.for.can.biomass.name=生物质罐
+item.for.can.fuel.name=燃料罐
+item.for.can.for.honey.name=蜜罐
+item.for.can.ice.name=冰罐
+item.for.can.juice.name=果汁罐
+item.for.can.lava.name=岩浆罐
+item.for.can.oil.name=石油罐
+item.for.can.seed.oil.name=种子油罐
 
-item.for.canEmpty.name=罐
-item.for.canEthanol.name=乙醇罐
-item.for.canBiomass.name=生物质罐
-item.for.canFuel.name=燃料罐
-item.for.canHoney.name=蜜罐
-item.for.canIce.name=冰罐
-item.for.canJuice.name=果汁罐
-item.for.canLava.name=岩浆罐
-item.for.canOil.name=石油罐
-item.for.canSeedOil.name=种子油罐
 item.for.carton.name=纸板箱
 
 item.for.circuitboard.basic.name=小型电子板
@@ -618,17 +610,18 @@ item.for.propolis.pulsating.name=脉动蜂胶
 item.for.propolis.silky.name=丝滑蜂胶
 item.for.propolis.sticky.name=粘性蜂胶
 
-item.for.refractoryEthanol.name=耐火乙醇胶囊
-item.for.refractoryBiomass.name=耐火生物质胶囊
-item.for.refractoryEmpty.name=耐火胶囊
-item.for.refractoryFuel.name=耐火燃料胶囊
-item.for.refractoryHoney.name=耐火蜂蜜胶囊
-item.for.refractoryIce.name=耐火冰胶囊
-item.for.refractoryJuice.name=耐火果汁胶囊
-item.for.refractoryLava.name=耐火岩浆胶囊
-item.for.refractoryOil.name=耐火石油胶囊
-item.for.refractorySeedOil.name=耐火种子油胶囊
-item.for.refractoryWater.name=耐火水胶囊
+item.for.refractory.empty.name=耐火胶囊
+item.for.refractory.bio.ethanol.name=耐火乙醇胶囊
+item.for.refractory.biomass.name=耐火生物质胶囊
+item.for.refractory.fuel.name=耐火燃料胶囊
+item.for.refractory.for.honey.name=耐火蜂蜜胶囊
+item.for.refractory.ice.name=耐火冰胶囊
+item.for.refractory.juice.name=耐火果汁胶囊
+item.for.refractory.lava.name=耐火岩浆胶囊
+item.for.refractory.oil.name=耐火石油胶囊
+item.for.refractory.seed.oil.name=耐火种子油胶囊
+item.for.refractory.water.name=耐火水胶囊
+
 item.for.refractoryWax.name=耐火蜂蜡
 
 item.for.researchNote.name=%s之笔记

@@ -163,7 +163,7 @@ for.flowers.vanilla=Blumen
 for.flowers.wheat=Getreide
 for.flowers.snow=Schnee
 
-fluid.bioethanol=Ethanol
+fluid.bio.ethanol=Ethanol
 fluid.biomass=Biomasse
 fluid.glass=Flüssigglas
 fluid.for.honey=Honig
@@ -171,8 +171,8 @@ fluid.ice=Zerstoßenes Eis
 fluid.juice=Fruchtsaft
 fluid.short.mead=Met
 fluid.milk=Milch
-fluid.seedoil=Samenkernöl
-tile.forestry.fluid.bioethanol.name=Ethanol
+fluid.seed.oil=Samenkernöl
+tile.forestry.fluid.bio.ethanol.name=Ethanol
 tile.forestry.fluid.biomass.name=Biomasse
 tile.forestry.fluid.glass.name=Flüssigglas
 tile.forestry.fluid.for.honey.name=Honig
@@ -180,7 +180,7 @@ tile.forestry.fluid.ice.name=Zerstoßenes Eis
 tile.forestry.fluid.juice.name=Fruchtsaft
 tile.forestry.fluid.short.mead.name=Met
 tile.forestry.fluid.milk.name=Milch
-tile.forestry.fluid.seedoil.name=Samenkernöl
+tile.forestry.fluid.seed.oil.name=Samenkernöl
 
 for.gui.access=Zugriff
 for.gui.active=Aktiv
@@ -564,25 +564,9 @@ item.for.bronzeShovel.name=Überlebensschaufel
 item.for.builderBag.name=Handwerkerrucksack
 item.for.builderBagT2.name=Gewobener Handwerkerrucksack
 
-item.for.bucketEthanol.name=Eimer mit Bioethanol
-item.for.bucketBiomass.name=Eimer mit Biomasse
-item.for.bucketHoney.name=Eimer mit Honig
-item.for.bucketIce.name=Eimer mit Zerstoßenem Eis
-item.for.bucketJuice.name=Eimer mit Fruchtsaft
-item.for.bucketSeedOil.name=Eimer mit Samenkernöl
-item.for.bucketGlass.name=Eimer mit geschmolzemen Glas
-item.for.bucketShortMead.name=Eimer mit Met
+item.for.can.empty.name=Büchse
+item.for.can.grammar=Büchse %s
 
-item.for.canEmpty.name=Büchse
-item.for.canEthanol.name=Büchse Bioethanol
-item.for.canBiomass.name=Büchse Biomasse
-item.for.canFuel.name=Büchse Diesel
-item.for.canHoney.name=Büchse Honig
-item.for.canIce.name=Büchse Zerstoßenes Eis
-item.for.canJuice.name=Büchse Fruchtsaft
-item.for.canLava.name=Büchse Lava
-item.for.canOil.name=Büchse Öl
-item.for.canSeedOil.name=Büchse Samenkernöl
 item.for.carton.name=Karton
 
 item.for.circuitboard.basic.name=Kleine Leiterplatte
@@ -669,17 +653,9 @@ item.for.propolis.pulsating.name=Pulsierende Propolis
 item.for.propolis.silky.name=Seidige Propolis
 item.for.propolis.sticky.name=Zähe Propolis
 
-item.for.refractoryEthanol.name=Kapsel Bioethanol
-item.for.refractoryBiomass.name=Kapsel Biomasse
-item.for.refractoryEmpty.name=Hitzebeständige Kapsel
-item.for.refractoryFuel.name=Kapsel Diesel
-item.for.refractoryHoney.name=Kapsel Honig
-item.for.refractoryIce.name=Kapsel zerstoßenes Eis
-item.for.refractoryJuice.name=Kapsel Fruchtsaft
-item.for.refractoryLava.name=Kapsel Lava
-item.for.refractoryOil.name=Kapsel Öl
-item.for.refractorySeedOil.name=Kapsel Samenkernöl
-item.for.refractoryWater.name=Kapsel Wasser
+item.for.refractory.empty.name=Hitzebeständige Kapsel
+item.for.refractory.grammar=Kapsel %s
+
 item.for.refractoryWax.name=Hitzebeständiges Wachs
 
 item.for.researchNote.name=Notizen von %s
@@ -715,18 +691,10 @@ item.for.thermionicTubes.ex-12.name=Elektronenröhre (Ender)
 
 item.for.treealyzer.name=Baumanalyser
 
-item.for.canWater.name=Büchse Wasser
+item.for.capsule.empty.name=Wachskapsel
+item.for.capsule.grammar=Kapsel %s
+item.for.capsule.water.name=Wasserkapsel
 
-item.for.waxCapsule.name=Wachskapsel
-item.for.waxCapsuleEthanol.name=Kapsel Bioethanol
-item.for.waxCapsuleBiomass.name=Kapsel Biomasse
-item.for.waxCapsuleFuel.name=Kapsel Diesel
-item.for.waxCapsuleHoney.name=Kapsel Honig
-item.for.waxCapsuleIce.name=Kapsel zerstoßenes Eis
-item.for.waxCapsuleJuice.name=Kapsel Fruchtsaft
-item.for.waxCapsuleOil.name=Kapsel Öl
-item.for.waxCapsuleSeedOil.name=Kapsel Samenkernöl
-item.for.waxCapsuleWater.name=Wasserkapsel
 item.for.waxCast.name=Wachsform
 
 item.for.woodPulp.name=Holzbrei
