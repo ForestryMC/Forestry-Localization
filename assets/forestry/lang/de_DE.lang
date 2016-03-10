@@ -1141,6 +1141,7 @@ for.fences.grammar=%TYPEholzzaun
 for.log.grammar=%TYPEholz
 for.planks.grammar=%TYPEholzbretter
 for.slab.grammar=%TYPEholzstufe
+for.slab.double.grammar=%TYPEholzstufe
 for.stairs.grammar=%TYPEholztreppe
 
 for.trees.woodType.larch=Lärchen

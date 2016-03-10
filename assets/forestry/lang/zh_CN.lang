@@ -1267,6 +1267,7 @@ for.fences.grammar=%TYPE栅栏
 for.log.grammar=%TYPE原木
 for.planks.grammar=%TYPE木板
 for.slab.grammar=%TYPE台阶
+for.slab.double.grammar=%TYPE台阶
 for.stairs.grammar=%TYPE楼梯
 
 for.trees.woodType.larch=落叶树

@@ -1094,6 +1094,7 @@ for.fences.grammar=Cerca de %TYPE
 for.log.grammar=Madeira de %TYPE
 for.planks.grammar=Placas de Madeira de %TYPE
 for.slab.grammar=Lajes de Madeira de %TYPE
+for.slab.double.grammar=Lajes de Madeira de %TYPE
 for.stairs.grammar=Escadas de Madeira de %TYPE
 
 for.trees.woodType.larch=Larício

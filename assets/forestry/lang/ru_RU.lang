@@ -1250,6 +1250,7 @@ for.fences.grammar=Забор из %TYPE
 for.log.grammar=Древесина %TYPE
 for.planks.grammar=Доски из %TYPE
 for.slab.grammar=Плита из %TYPE
+for.slab.double.grammar=Плита из %TYPE
 for.stairs.grammar=Ступеньки из %TYPE
 
 for.trees.woodType.larch=лиственницы

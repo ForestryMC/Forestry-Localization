@@ -1232,7 +1232,8 @@ for.trees.species.zebrawood=Zebrano
 for.fences.grammar=Barrière de %TYPE
 for.log.grammar=Bois de %TYPE
 for.planks.grammar=Planches de %TYPE 
-for.slab.grammar=Dalles de %TYPE 
+for.slab.grammar=Dalles de %TYPE
+for.slab.double.grammar=Dalles de %TYPE
 for.stairs.grammar=Escaliers de %TYPE 
 
 for.trees.woodType.larch=Mélèze

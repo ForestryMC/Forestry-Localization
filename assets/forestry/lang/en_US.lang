@@ -1217,6 +1217,7 @@ for.fences.grammar=%TYPE Fence
 for.log.grammar=%TYPE Wood
 for.planks.grammar=%TYPE Wood Planks
 for.slab.grammar=%TYPE Wood Slab
+for.slab.double.grammar=%TYPE Wood Slab
 for.stairs.grammar=%TYPE Stairs
 
 for.trees.woodType.larch=Larch

@@ -1122,6 +1122,7 @@ for.fences.grammar=%TYPE柵欄
 for.log.grammar=%TYPE原木
 for.planks.grammar=%TYPE木板
 for.slab.grammar=%TYPE台階
+for.slab.double.grammar=%TYPE台階
 for.stairs.grammar=%TYPE樓梯
 
 for.trees.woodType.larch=落葉樹
