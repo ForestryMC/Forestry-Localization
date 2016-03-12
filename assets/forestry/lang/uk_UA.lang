@@ -936,14 +936,13 @@ for.genus.bees.vengeful=Vengeful
 item.for.beePrincessGE.name=Принцесса
 item.for.beeQueenGE.name=Королева
 
-tile.for.alveary.0.name=Пчелиный улей
-tile.for.alveary.1.name=Вход улья
-tile.for.alveary.2.name=Роевня
-tile.for.alveary.3.name=Вентилятор улья
-tile.for.alveary.4.name=Обогреватель улья
-tile.for.alveary.5.name=Регулятор влажности улья
-tile.for.alveary.6.name=Стабилизатор улья
-tile.for.alveary.7.name=Сито улья
+tile.for.alveary.plain.name=Пчелиный улей
+tile.for.alveary.swarmer.name=Роевня
+tile.for.alveary.fan.name=Вентилятор улья
+tile.for.alveary.heater.name=Обогреватель улья
+tile.for.alveary.hygro.name=Регулятор влажности улья
+tile.for.alveary.stabiliser.name=Стабилизатор улья
+tile.for.alveary.sieve.name=Сито улья
 
 tile.for.apiculture.0.name=Пасека
 tile.for.apicultureChest.0.name=Сундук пчеловода

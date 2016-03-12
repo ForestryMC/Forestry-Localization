@@ -1047,14 +1047,13 @@ for.genus.bees.vengeful=Vengeur
 item.for.beePrincessGE.name=Princesse inconnue
 item.for.beeQueenGE.name=Reine inconnue
 
-tile.for.alveary.0.name=Ruche
-tile.for.alveary.1.name=Entrée de ruche
-tile.for.alveary.2.name=Essaim
-tile.for.alveary.3.name=Ventilateur pour ruche
-tile.for.alveary.4.name=Chauffage pour ruche
-tile.for.alveary.5.name=Hydrorégulateur pour ruche
-tile.for.alveary.6.name=Stabilisateur pour ruche
-tile.for.alveary.7.name=Tamis pour ruche
+tile.for.alveary.plain.name=Ruche
+tile.for.alveary.swarmer.name=Essaim
+tile.for.alveary.fan.name=Ventilateur pour ruche
+tile.for.alveary.heater.name=Chauffage pour ruche
+tile.for.alveary.hygro.name=Hydrorégulateur pour ruche
+tile.for.alveary.stabiliser.name=Stabilisateur pour ruche
+tile.for.alveary.sieve.name=Tamis pour ruche
 
 tile.for.apiculture.0.name=Rucher
 tile.for.apicultureChest.0.name=Coffre de l'apiculteur

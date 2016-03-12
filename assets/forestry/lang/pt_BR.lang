@@ -932,14 +932,13 @@ for.genus.bees.vengeful=Vingativa
 item.for.beePrincessGE.name=Princesa
 item.for.beeQueenGE.name=Rainha
 
-tile.for.alveary.0.name=Apiaryum
-tile.for.alveary.1.name=Apiaryum, Entrada
-tile.for.alveary.2.name=Enxame
-tile.for.alveary.3.name=Apiaryum, Ventilador
-tile.for.alveary.4.name=Apiaryum, Aquecedor
-tile.for.alveary.5.name=Apiaryum, Hidroregulador
-tile.for.alveary.6.name=Apiaryum, Estabilizador
-tile.for.alveary.7.name=Apiaryum, Peneira
+tile.for.alveary.plain.name=Apiaryum
+tile.for.alveary.swarmer.name=Enxame
+tile.for.alveary.fan.name=Apiaryum, Ventilador
+tile.for.alveary.heater.name=Apiaryum, Aquecedor
+tile.for.alveary.hygro.name=Apiaryum, Hidroregulador
+tile.for.alveary.stabiliser.name=Apiaryum, Estabilizador
+tile.for.alveary.sieve.name=Apiaryum, Peneira
 
 tile.for.apiculture.0.name=Apiário
 tile.for.apicultureChest.0.name=Baú do Apiarista

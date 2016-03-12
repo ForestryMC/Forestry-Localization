@@ -1081,14 +1081,13 @@ for.genus.bees.vengeful=复仇
 item.for.beePrincessGE.name=未知公主蜂
 item.for.beeQueenGE.name=未知蜂后
 
-tile.for.alveary.0.name=蜂箱组
-tile.for.alveary.1.name=蜂箱组接口
-tile.for.alveary.2.name=蜂箱组克隆盒
-tile.for.alveary.3.name=蜂箱组风扇
-tile.for.alveary.4.name=蜂箱组加热器
-tile.for.alveary.5.name=蜂箱组保湿器
-tile.for.alveary.6.name=蜂箱组稳定器
-tile.for.alveary.7.name=蜂箱组滤网
+tile.for.alveary.plain.name=蜂箱组
+tile.for.alveary.swarmer.name=蜂箱组克隆盒
+tile.for.alveary.fan.name=蜂箱组风扇
+tile.for.alveary.heater.name=蜂箱组加热器
+tile.for.alveary.hygro.name=蜂箱组保湿器
+tile.for.alveary.stabiliser.name=蜂箱组稳定器
+tile.for.alveary.sieve.name=蜂箱组滤网
 
 tile.for.apiculture.0.name=蜂箱
 tile.for.apicultureChest.0.name=养蜂人箱子

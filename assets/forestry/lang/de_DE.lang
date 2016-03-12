@@ -955,14 +955,13 @@ for.genus.bees.vengeful=Nachtragend
 item.for.beePrincessGE.name=Prinzessin
 item.for.beeQueenGE.name=Königin
 
-tile.for.alveary.0.name=Bienenstock
-tile.for.alveary.1.name=Bienenstockeingang
-tile.for.alveary.2.name=Schwärmer
-tile.for.alveary.3.name=Ventilator (Bienenstock)
-tile.for.alveary.4.name=Heizung (Bienenstock)
-tile.for.alveary.5.name=Wasserregulator (Bienenstock)
-tile.for.alveary.6.name=Stabilisator (Bienenstock)
-tile.for.alveary.7.name=Sieb (Bienenstock)
+tile.for.alveary.plain.name=Bienenstock
+tile.for.alveary.swarmer.name=Schwärmer
+tile.for.alveary.fan.name=Ventilator (Bienenstock)
+tile.for.alveary.heater.name=Heizung (Bienenstock)
+tile.for.alveary.hygro.name=Wasserregulator (Bienenstock)
+tile.for.alveary.stabiliser.name=Stabilisator (Bienenstock)
+tile.for.alveary.sieve.name=Sieb (Bienenstock)
 
 tile.for.apiculture.0.name=Bienenkorb
 tile.for.apicultureChest.0.name=Bienentruhe

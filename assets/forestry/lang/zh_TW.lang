@@ -960,14 +960,13 @@ for.genus.bees.vengeful=復仇
 item.for.beePrincessGE.name=公主蜂
 item.for.beeQueenGE.name=蜂后
 
-tile.for.alveary.0.name=蜂箱組
-tile.for.alveary.1.name=蜂箱組介面
-tile.for.alveary.2.name=蜂箱組克隆盒
-tile.for.alveary.3.name=蜂箱組風扇
-tile.for.alveary.4.name=蜂箱組加熱器
-tile.for.alveary.5.name=蜂箱組保濕器
-tile.for.alveary.6.name=蜂箱組穩定器
-tile.for.alveary.7.name=蜂箱組濾網
+tile.for.alveary.plain.name=蜂箱組
+tile.for.alveary.swarmer.name=蜂箱組克隆盒
+tile.for.alveary.fan.name=蜂箱組風扇
+tile.for.alveary.heater.name=蜂箱組加熱器
+tile.for.alveary.hygro.name=蜂箱組保濕器
+tile.for.alveary.stabiliser.name=蜂箱組穩定器
+tile.for.alveary.sieve.name=蜂箱組濾網
 
 tile.for.apiculture.0.name=蜂箱
 tile.for.apiculture.1.name=養蜂人箱子

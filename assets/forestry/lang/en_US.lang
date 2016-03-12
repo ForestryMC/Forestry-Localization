@@ -1031,14 +1031,13 @@ for.genus.bees.vengeful=Vengeful
 item.for.beePrincessGE.name=Princess
 item.for.beeQueenGE.name=Queen
 
-tile.for.alveary.0.name=Alveary
-tile.for.alveary.1.name=Alveary Entrance
-tile.for.alveary.2.name=Swarmer
-tile.for.alveary.3.name=Alveary Fan
-tile.for.alveary.4.name=Alveary Heater
-tile.for.alveary.5.name=Alveary Hygroregulator
-tile.for.alveary.6.name=Alveary Stabiliser
-tile.for.alveary.7.name=Alveary Sieve
+tile.for.alveary.plain.name=Alveary
+tile.for.alveary.swarmer.name=Alveary Swarmer
+tile.for.alveary.fan.name=Alveary Fan
+tile.for.alveary.heater.name=Alveary Heater
+tile.for.alveary.hygro.name=Alveary Hygroregulator
+tile.for.alveary.stabiliser.name=Alveary Stabiliser
+tile.for.alveary.sieve.name=Alveary Sieve
 
 tile.for.apiculture.apiary.name=Apiary
 tile.for.apicultureChest.api.chest.name=Apiarist's Chest

@@ -863,14 +863,13 @@ for.genus.bees.reddened=레든드
 for.genus.bees.tropical=트로피컬
 for.genus.bees.vengeful=벤지풀
 
-tile.for.alveary.0.name=알베어리
-tile.for.alveary.1.name=알베어리 엔트러스
-tile.for.alveary.2.name=스워머
-tile.for.alveary.3.name=알베어리 냉방장치
-tile.for.alveary.4.name=알베어리 난방장치
-tile.for.alveary.5.name=알베어리 습도 안정장치
-tile.for.alveary.6.name=알베어리 안정장치
-tile.for.alveary.7.name=알베어리 화분 채취 장치
+tile.for.alveary.plain.name=알베어리
+tile.for.alveary.swarmer.name=스워머
+tile.for.alveary.fan.name=알베어리 냉방장치
+tile.for.alveary.heater.name=알베어리 난방장치
+tile.for.alveary.hygro.name=알베어리 습도 안정장치
+tile.for.alveary.stabiliser.name=알베어리 안정장치
+tile.for.alveary.sieve.name=알베어리 화분 채취 장치
 
 tile.for.apiculture.0.name=양봉기
 tile.for.apicultureChest.0.name=양봉가의 상자
