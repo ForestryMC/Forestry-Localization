@@ -33,7 +33,6 @@ for.chat.command.forestry.plugins.info.desc=- %s : Information on a specific Plu
 for.chat.command.forestry.plugins.info.help=Prints information on a specific Plugin
 for.chat.command.forestry.plugins.info.format=Format: /%s <plugin-name>
 
-
 for.chat.help=Type '%s' for help.
 for.chat.plugins.error=No information available for plugin %s.
 for.chat.version=Forestry %1$s for Minecraft %2$s (Latest: %3$s).
@@ -146,6 +145,10 @@ for.gui.drones=Drones
 for.gui.effect=Effect
 for.gui.empty=Empty
 for.gui.emptysocket=Empty Socket
+for.gui.empty.slot.camouflage.multiblock.default=Default Multiblock Camouflage Slot
+for.gui.empty.slot.camouflage.multiblock.glass=Glass Multiblock Camouflage Slot
+for.gui.empty.slot.camouflage.multiblock.door=Door Multiblock Camouflage Slot
+for.gui.empty.slot.camouflage=Camouflage Slot
 for.gui.socket.remove=Removable with a Soldering Iron
 for.gui.energy=Energy
 for.gui.environment=Environment
@@ -1318,6 +1321,24 @@ tile.for.ffarm.5.name=Farm Control
 
 tile.for.mushroom.0.name=Mushroom
 tile.for.mushroom.1.name=Mushroom
+
+####################
+# GREENHOUSE
+####################
+for.gui.greenhouse.title=Greenhouse
+
+tile.for.greenhouse.plain.name=Greenhouse Block
+tile.for.greenhouse.glass.name=Greenhouse Glass
+tile.for.greenhouse.gearbox.name=Greenhouse Gearbox
+tile.for.greenhouse.hatch_output.name=Greenhouse Output Hatch
+tile.for.greenhouse.hatch_input.name=Greenhouse Input Hatch
+tile.for.greenhouse.valve.name=Greenhouse Valve
+tile.for.greenhouse.fan.name=Greenhouse Fan
+tile.for.greenhouse.heater.name=Greenhouse Heater
+tile.for.greenhouse.dryer.name=Greenhouse Dryer
+tile.for.greenhouse.control.name=Greenhouse Control
+tile.for.greenhouse.sprinkler.name=Greenhouse Sprinkler
+tile.for.greenhouse.door.name=Greenhouse Door
 
 ####################
 # LEPIDOPTEROLOGY
