@@ -33,7 +33,6 @@ for.chat.command.forestry.plugins.info.desc= - %s : Informationen zu einem besti
 for.chat.command.forestry.plugins.info.help=Gibt Infomationen zu einem bestimmten Plugin aus
 for.chat.command.forestry.plugins.info.format=Format: /%s <Plugin-Name>
 
-
 for.chat.help=Gib '%s' für Hilfe ein.
 for.chat.plugins.error=Keine Informationen für das Plugin %s verfügbar.
 for.chat.version=Forestry %1$s für Minecraft %2$s (Aktuell: %3$s).
@@ -146,6 +145,10 @@ for.gui.drones=Dronen
 for.gui.effect=Effekt
 for.gui.empty=Leer
 for.gui.emptysocket=Leerer Steckplatz
+for.gui.empty.slot.camouflage.multiblock.default=Standard-Tarnslot
+for.gui.empty.slot.camouflage.multiblock.glass=Glas-Tarnslot
+for.gui.empty.slot.camouflage.multiblock.door=Türen-Tarnslot
+for.gui.empty.slot.camouflage=Tarnslot
 for.gui.socket.remove=Mit Lötkolben entfernbar
 for.gui.energy=Energie
 for.gui.environment=Umgebung
@@ -642,7 +645,6 @@ item.for.treealyzer.name=Baumanalyser
 
 item.for.capsule.empty.name=Wachskapsel
 item.for.capsule.grammar=Kapsel %s
-item.for.capsule.water.name=Wasserkapsel
 
 item.for.waxCast.name=Wachsform
 
@@ -1033,16 +1035,16 @@ item.for.beePrincessGE.name=Prinzessin
 item.for.beeQueenGE.name=Königin
 
 tile.for.alveary.plain.name=Bienenstock
-tile.for.alveary.swarmer.name=Schwärmer
+tile.for.alveary.swarmer.name=Schwärmer (Bienenstock)
 tile.for.alveary.fan.name=Ventilator (Bienenstock)
 tile.for.alveary.heater.name=Heizung (Bienenstock)
 tile.for.alveary.hygro.name=Wasserregulator (Bienenstock)
 tile.for.alveary.stabiliser.name=Stabilisator (Bienenstock)
 tile.for.alveary.sieve.name=Sieb (Bienenstock)
 
-tile.for.apiculture.0.name=Bienenkorb
-tile.for.apicultureChest.0.name=Bienentruhe
-tile.for.apiculture.2.name=Bienenhaus
+tile.for.apiculture.apiary.name=Bienenkorb
+tile.for.apicultureChest.api.chest.name=Bienentruhe
+tile.for.apiculture.bee.house.name=Bienenhaus
 
 tile.for.beehives.1.name=Waldbienenstock
 tile.for.beehives.2.name=Wiesenbienenstock
@@ -1312,13 +1314,31 @@ for.trigger.lowLiquid=Wenig Wasser
 for.trigger.lowSoil=Wenig Boden
 
 tile.for.ffarm.0.name=Farmblock
-tile.for.ffarm.2.name=Getriebebox für die Farm
-tile.for.ffarm.3.name=Luke für die Farm
-tile.for.ffarm.4.name=Durchlassventil
+tile.for.ffarm.2.name=Farmgetriebebox
+tile.for.ffarm.3.name=Farmluke
+tile.for.ffarm.4.name=Farm-Durchlassventil
 tile.for.ffarm.5.name=Farmkontrolle
 
 tile.for.mushroom.0.name=Pilz
 tile.for.mushroom.1.name=Pilz
+
+####################
+# GREENHOUSE
+####################
+for.gui.greenhouse.title=Gewächshaus
+
+tile.for.greenhouse.plain.name=Gewächshausblock
+tile.for.greenhouse.glass.name=Gewächshausglas
+tile.for.greenhouse.gearbox.name=Gewächshausgetriebebox
+tile.for.greenhouse.hatch_output.name=Gewächshaus-Ausgangsluke
+tile.for.greenhouse.hatch_input.name=Gewächshaus-Eingangsluke
+tile.for.greenhouse.valve.name=Gewächshaus-Durchlassventil
+tile.for.greenhouse.fan.name=Ventilator (Gewächshaus)
+tile.for.greenhouse.heater.name=Heizung (Gewächshaus)
+tile.for.greenhouse.dryer.name=Trockner (Gewächshaus)
+tile.for.greenhouse.control.name=Gewächshauskontrolle
+tile.for.greenhouse.sprinkler.name=Sprinkler (Gewächshaus)
+tile.for.greenhouse.door.name=Gewächshaustür
 
 ####################
 # LEPIDOPTEROLOGY
