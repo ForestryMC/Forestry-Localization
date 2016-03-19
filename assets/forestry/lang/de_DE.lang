@@ -76,83 +76,6 @@ for.circuit.layout.farms.manual.usage=Manuelle Farmen
 for.circuit.layout.machine.upgrade.name=Maschinen-Upgrade
 for.circuit.layout.machine.upgrade.usage=Maschinen mit Sockeln
 
-for.errors.circuitMismatch.desc=Falsches Layout
-for.errors.circuitMismatch.help=Die Menge der Elektronenröhren stimmt nicht mit der Größe der Platine überein
-for.errors.forcedCooldown.desc=Abkühlphase
-for.errors.forcedCooldown.help=Motor ist überhitzt und muss eine zwangsweise Abkühlphase durchlaufen.
-for.errors.invalidBiome.desc=Feindliche Umwelt
-for.errors.invalidBiome.help=Maschine oder Bewohner können in dieser Umgebung nicht arbeiten.
-for.errors.isRaining.desc=Regen
-for.errors.isRaining.help=Kann im Regen nicht arbeiten.
-for.errors.noCircuitBoard.desc=Keine Platine
-for.errors.noCircuitBoard.help=Platziere eine Platine um die gewählten Elektronenröhren aufzulöten
-for.errors.noCircuitLayout.desc=Keine Layouts gefunden
-for.errors.noCircuitLayout.help=Aufgrund der Spieleinstellungen sind keine Layouts verfügbar
-for.errors.noDisposal.desc=Abfallstau
-for.errors.noDisposal.help=Nicht genügend Platz um Abfall zwischenzulagern.
-for.errors.noDrone.desc=Keine Drone
-for.errors.noDrone.help=Zur Befruchtung wird noch eine Drone benötigt.
-for.errors.noEnergyNet.desc=Keine Elektrizität
-for.errors.noEnergyNet.help=In deiner Welt gibt es keine Elektrizität. (Installier IndustrialCraft².)
-for.errors.noPower.desc=Keine Energie
-for.errors.noPower.help=Diese Maschine benötigt RF zum Arbeiten.
-for.errors.noRedstone.desc=Kein Redstone
-for.errors.noRedstone.help=Diese Machine benötigt ein Redstone-Signal zum Funktionieren.
-for.errors.disabledRedstone.desc=Deaktiviert
-for.errors.disabledRedstone.help=Diese Maschine ist durch ein Redstone-Signal deaktiviert.
-for.errors.noFlower.desc=Keine Blumen
-for.errors.noFlower.help=Bewohner finden keine zu ihrer Art passenden Blumen.
-for.errors.noFuel.desc=Kein Treibstoff
-for.errors.noFuel.help=Diese Maschine benötigt mehr Treibstoff.
-for.errors.noHeat.desc=Zu kalt
-for.errors.noHeat.help=Die Maschine hat die notwendige Temperatur noch nicht erreicht.
-for.errors.noHoney.desc=Honig benötigt
-for.errors.noHoney.help=Dieses Gerät benötigt Honig oder Honigtau um zu arbeiten.
-for.errors.noQueen.desc=Keine Königin
-for.errors.noQueen.help=Dieses Bienenhaus benötigt eine Königin oder eine Prinzessin und Drone.
-for.errors.noRecipe.desc=Kein Rezept
-for.errors.noRecipe.help=Es wurde kein passendes Rezept gefunden. Benötigt andere Resourcen.
-for.errors.noRecipient.desc=Kein Empfänger
-for.errors.noRecipient.help=Du musst deinen Brief an einen Spieler oder eine Handelsstation addressieren.
-for.errors.noResource.desc=Rohstoffe fehlen
-for.errors.noResource.help=Es müssen mehr Rohstoffe herangeschafft werden.
-for.errors.noSky.desc=Sicht blockiert
-for.errors.noSky.help=Sorge für freie Sicht nach oben zum Himmel.
-for.errors.noSpace.desc=Kein Lagerplatz
-for.errors.noSpace.help=Das Lager dieser Maschine muss geleert werden.
-for.errors.noSpaceTank.desc=Kein Platz im Tank
-for.errors.noSpaceTank.help=Leere den Flüssigkeitstank dieser Maschine.
-for.errors.noSpecimen.desc=Kein Proband
-for.errors.noSpecimen.help=Es ist kein Proband vorhanden, der analysiert werden könnte.
-for.errors.noStamps.desc=Keine Briefmarken
-for.errors.noStamps.help=Eine Handelsstation benötigt Briefmarken, um Handelsbriefe zu bezahlen.
-for.errors.noPaper.desc=Benötigt Papier
-for.errors.noPaper.help=Die Handelsstation benötigt mehr Papier, um Briefe zu versenden.
-for.errors.noSupplies.desc=Benötigt Vorräte
-for.errors.noSupplies.help=Die Handelsstation benötigt mehr Vorräte zum Verschicken.
-for.errors.noTrade.desc=Kein Handel festgelegt
-for.errors.noTrade.help=Die Handelsstation benötigt Items zum Senden und Empfangen.
-for.errors.notAlphaNumeric.desc=Buchstaben und Zahlen
-for.errors.notAlphaNumeric.help=Der Name darf nur aus Buchstaben und Zahlen bestehen.
-for.errors.notDay.desc=Nicht Tag
-for.errors.notDay.help=Keine Funktion bei Nacht.
-for.errors.notGloomy.desc=Zu hell
-for.errors.notGloomy.help=Die Umgebung muss dunkler sein.
-for.errors.notLucid.desc=Zu dunkel
-for.errors.notLucid.help=Die Umgebung muss heller sein.
-for.errors.notNight.desc=Nicht Nacht
-for.errors.notNight.help=Keine Funktion tagsüber.
-for.errors.notPostpaid.desc=Briefmarken benötigt
-for.errors.notPostpaid.help=Frankiere den Brief mit mehr Briefmarken.
-for.errors.notRaining.desc=Kein Regen
-for.errors.notRaining.help=Keine Funktion wegen fehlenden Regens.
-for.errors.notUnique.desc=Nicht einzigartig
-for.errors.notUnique.help=Der Name muss einzigartig sein. Dieser ist schon vergeben.
-for.errors.unknown.desc=Unbekannter Fehler
-for.errors.unknown.help=Glückwunsch! Du hast einen Bug gefunden.
-for.errors.wrongStacksize.desc=Zu viele Items
-for.errors.wrongStacksize.help=Hier können nur einzelne Items verwendet werden.
-
 for.flowers.cacti=Kakteen
 for.flowers.end=Ender
 for.flowers.gourd=Kürbisse
@@ -234,7 +157,6 @@ for.gui.flowers=Blumen
 for.gui.flyer=Flieger
 for.gui.flyer.tooltip=Flieger
 for.gui.general=Allgemein
-forestry.allele.gigantic=Gigantisches
 for.gui.heat=Temperatur
 for.gui.hellish=Höllish
 for.gui.hot=Heiß
@@ -251,6 +173,7 @@ for.gui.normal=Normal
 
 for.gui.escritoire.probe=Untersuche Exemplare
 for.gui.escritoire.instructions=Platziere eine genetische Probe im Zentrum, um zu beginnen. Platziere mehr in den linken Slots und untersuche diese zur Unterstützung.
+for.gui.escritoire.attempt.number=Versuch Nr. %s
 
 # Write as many notes as you like, just set the count correctly.
 
@@ -300,6 +223,9 @@ for.gui.mail.nametrader=Benenne deine Handelsstation
 for.gui.mail.nothingtotrade=Handelsstation hat nichts anzubieten.
 for.gui.mail.notrader=Es existiert keine Handelsstation mit diesem Namen.
 for.gui.mail.pleasesend=Bitte sende
+for.gui.mail.order.attached=Bitte finde deine Bestellung anbei.
+for.gui.mail.order.filled.one=1 Auftrag von %SENDER wurde ausgeführt.
+for.gui.mail.order.filled.multiple=%COUNT Aufträge von %SENDER wurden ausgeführt.
 for.gui.mail.to=An
 for.gui.mail.receive=Empfangen
 for.gui.mail.send=Senden
@@ -338,8 +264,14 @@ for.gui.rule.private=Verschlossen
 for.gui.rule.restricted=Eingeschränkt
 for.gui.rule.shared=Öffentlich
 
-forestry.allele.normal=Normal
+for.gui.solder.north=N
+for.gui.solder.south=S
+for.gui.solder.east=O
+for.gui.solder.west=W
+
 forestry.allele.average=Durschschnittlich
+forestry.allele.gigantic=Gigantisches
+forestry.allele.normal=Normal
 
 forestry.allele.slowest=Langsamste
 forestry.allele.slower=Langsamere
@@ -347,6 +279,7 @@ forestry.allele.slow=Langsame
 forestry.allele.fast=Schnelle
 forestry.allele.faster=Schnellere
 forestry.allele.fastest=Schnellste
+forestry.allele.maximum=Maximale
 
 forestry.allele.smallest=Niedrigste
 forestry.allele.smaller=Niedriger
@@ -454,6 +387,8 @@ for.hints.forcedcooldown.desc=Motoren können überhitzen, falls die prouzierte 
 for.hints.forcedcooldown.tag=Vermeide Überhitzung!
 for.hints.generatorfuels.desc=Biogeneratoren können sowohl mit Biomasse als auch mit Bioethanol befüllt werden. Die höchste Effizienz wird mit Bioethanol erreicht.
 for.hints.generatorfuels.tag=Nutze alle Treibstoffe!
+for.hints.habitatlocatoruse.desc=Nach einiger Zeit wird der Habitatsucher geradezu auf das nächste passende Areal deuten. Sobald erreicht, wird der Indikator sich drehen.
+for.hints.habitatlocatoruse.tag=Habitatsuchen leicht gemacht!
 for.hints.honeyfood.desc=Viele verschiedene Nahrungsmittel können aus Honig und anderen Bienenprodukten gemacht werden.
 for.hints.honeyfood.tag=Essen fassen!
 for.hints.manualpeat.desc=Torf kann in automatischen Farmen angebaut werden, aber wahlweise auch von Hand hergestellt werden.
@@ -497,6 +432,17 @@ for.researchNote.discovery.1=§e'%SPEC1'§7 und §e'%SPEC2'§7.
 for.researchNote.discovery.2=Erfolgschance ist §9%s§7.
 for.researchNote.discovery.3=Die neue Spezies ist §d'%s'§7.
 
+for.mutation.condition.biome.single=Passiert in bestimmten Biomen: %s
+for.mutation.condition.biome.multiple=Passiert in bestimmten Biomen wie: %s
+for.mutation.condition.daytime.day=Am Tage.
+for.mutation.condition.daytime.night=In der nacht.
+for.mutation.condition.humidity.range=Benötigt Feuchtigkeit von %LOW bis %HIGH.
+for.mutation.condition.humidity.single=Benötigt %s Feuchtigkeit.
+for.mutation.condition.temperature.range=Benötigt Temperaturen von %LOW bis %HIGH.
+for.mutation.condition.temperature.single=Benötigt %s Temperatur.
+for.mutation.condition.resource=Benötigt Bestimmtes Fundament: %s
+for.mutation.condition.date=Passiert zwischen %START und %END.
+
 for.storage.backpack.mode.locked=(GESPERRT)
 for.storage.backpack.mode.receiving=(EMPFANGEND)
 for.storage.backpack.mode.resupply=(NACHSTOCKEND)
@@ -531,6 +477,9 @@ item.for.ash.name=Asche
 
 item.for.beealyzer.name=Bienalyzer
 item.for.habitatLocator.name=Habitatsucher
+
+item.for.cart.beehouse.name=Bienenhauswaggon
+item.for.cart.apiary.name=Bienenkorbwaggon
 
 item.for.beeCombs.cocoa.name=Schokowabe
 item.for.beeCombs.darkened.name=Gedunkelte Wabe
@@ -743,6 +692,132 @@ tile.for.soil.humus.name=Humus
 tile.for.soil.bog.earth.name=Moorerde
 tile.for.soil.peat.name=Torf
 
+################
+# ERRORS
+################
+
+# BEES
+for.errors.isRaining.desc=Regen
+for.errors.isRaining.help=Kann im Regen nicht arbeiten.
+for.errors.noDrone.desc=Keine Drone
+for.errors.noDrone.help=Zur Befruchtung wird noch eine Drone benötigt.
+for.errors.noFlower.desc=Keine Blumen
+for.errors.noFlower.help=Bewohner finden keine zu ihrer Art passenden Blumen.
+for.errors.noQueen.desc=Keine Königin
+for.errors.noQueen.help=Dieses Bienenhaus benötigt eine Königin oder eine Prinzessin und Drone.
+for.errors.noSky.desc=Sicht blockiert
+for.errors.noSky.help=Sorge für freie Sicht nach oben zum Himmel.
+for.errors.notDay.desc=Nicht Tag
+for.errors.notDay.help=Keine Funktion bei Nacht.
+for.errors.notGloomy.desc=Zu hell
+for.errors.notGloomy.help=Die Umgebung muss dunkler sein.
+for.errors.notLucid.desc=Zu dunkel
+for.errors.notLucid.help=Die Umgebung muss heller sein.
+for.errors.notNight.desc=Nicht Nacht
+for.errors.notNight.help=Keine Funktion tagsüber.
+for.errors.tooHot.desc=Zu heiß
+for.errors.tooHot.help=Die Bienen können wegen der Hitze das Nest nicht verlassen und daher nicht arbeiten. Verwende einen Habitatsucher, um kälteres Klima zu finden.
+for.errors.tooCold.desc=Zu kalt
+for.errors.tooCold.help=Die Bienen drängen sich zusammen, um der Eiseskälte zu entfliehen. Verwende einen Habitatsucher, um wärmeres Klima zu finden.
+for.errors.tooHumid.desc=Zu feucht
+for.errors.tooHumid.help=Das Klima hier hat die Bienenflügelchen zu feucht zum Fliegen gemacht. Verwende einen Habitatsucher, um trockeneres Klima zu finden.
+for.errors.tooArid.desc=Zu trocken
+for.errors.tooArid.help=Das trockene Klima hat die Bienen ausgetrocknet und arbeitsunfähig gemacht. Verwende einen Habitatsucher, um feuchteres Klima zu finden.
+
+# MACHINES
+for.errors.noPower.desc=Keine Energie
+for.errors.noPower.help=Diese Maschine benötigt RF zum Arbeiten.
+for.errors.noRedstone.desc=Kein Redstone
+for.errors.noRedstone.help=Diese Machine benötigt ein Redstone-Signal zum Funktionieren.
+for.errors.disabledRedstone.desc=Deaktiviert
+for.errors.disabledRedstone.help=Diese Maschine ist durch ein Redstone-Signal deaktiviert.
+for.errors.noRecipe.desc=Kein Rezept
+for.errors.noRecipe.help=Es wurde kein passendes Rezept gefunden. Benötigt andere Resourcen.
+for.errors.noResource.desc=Rohstoffe fehlen
+for.errors.noResource.help=Es müssen mehr Rohstoffe herangeschafft werden.
+for.errors.noResourceInventory.desc=Inventar benötigt Rohstoffe
+for.errors.noResourceInventory.help=Es müssen mehr Rohstoffe in das Maschineninventar geschafft werden.
+for.errors.noResourceLiquid.desc=Flüssige Rohstoffe fehlen
+for.errors.noResourceLiquid.help=Es müssen mehr flüssige Rohstoffe herangeschafft werden.
+for.errors.noSpace.desc=Kein Lagerplatz
+for.errors.noSpace.help=Das Lager dieser Maschine muss geleert werden.
+for.errors.noSpaceTank.desc=Kein Platz im Tank
+for.errors.noSpaceTank.help=Leere den Flüssigkeitstank dieser Maschine.
+for.errors.notDark.desc=Nicht dunkel genug
+for.errors.notDark.help=Diese Maschine muss es dunkler haben.
+
+# RAIN TANK
+for.errors.notRaining.desc=Kein Regen
+for.errors.notRaining.help=Keine Funktion wegen fehlenden Regens.
+for.errors.noRainBiome.desc=Niemals Regen
+for.errors.noRainBiome.help=An diesem Ort wird es niemals regnen.
+for.errors.noSkyRainTank.desc=Himmel bedeckt
+for.errors.noSkyRainTank.help=Räume den Bereicht über dieser Maschine frei, damit sie Regen sammeln kann.
+
+# ALYZERS
+for.errors.noHoney.desc=Honig benötigt
+for.errors.noHoney.help=Dieses Gerät benötigt Honig oder Honigtau um zu arbeiten.
+for.errors.noSpecimen.desc=Kein Proband
+for.errors.noSpecimen.help=Es ist kein Proband vorhanden, der analysiert werden könnte.
+
+# ENGINES
+for.errors.forcedCooldown.desc=Abkühlphase
+for.errors.forcedCooldown.help=Motor ist überhitzt und muss eine zwangsweise Abkühlphase durchlaufen.
+for.errors.noEnergyNet.desc=Keine Elektrizität
+for.errors.noEnergyNet.help=In deiner Welt gibt es keine Elektrizität. (Installier IndustrialCraft².)
+for.errors.noFuel.desc=Kein Treibstoff
+for.errors.noFuel.help=Diese Maschine benötigt mehr Treibstoff.
+for.errors.noHeat.desc=Zu kalt
+for.errors.noHeat.help=Die Maschine hat die notwendige Temperatur noch nicht erreicht.
+
+# TRADE STATION
+for.errors.noStamps.desc=Keine Briefmarken
+for.errors.noStamps.help=Eine Handelsstation benötigt Briefmarken, um Handelsbriefe zu bezahlen.
+for.errors.noPaper.desc=Benötigt Papier
+for.errors.noPaper.help=Die Handelsstation benötigt mehr Papier, um Briefe zu versenden.
+for.errors.noSupplies.desc=Benötigt Vorräte
+for.errors.noSupplies.help=Die Handelsstation benötigt mehr Vorräte zum Verschicken.
+for.errors.noTrade.desc=Kein Handel festgelegt
+for.errors.noTrade.help=Die Handelsstation benötigt Items zum Senden und Empfangen.
+
+# TRADE STATION NAMING
+for.errors.notAlphaNumeric.desc=Buchstaben und Zahlen
+for.errors.notAlphaNumeric.help=Der Name darf nur aus Buchstaben und Zahlen bestehen.
+for.errors.notUnique.desc=Nicht einzigartig
+for.errors.notUnique.help=Der Name muss einzigartig sein. Dieser ist schon vergeben.
+
+# LETTERS
+for.errors.noRecipient.desc=Kein Empfänger
+for.errors.noRecipient.help=Du musst deinen Brief an einen Spieler oder eine Handelsstation addressieren.
+for.errors.notPostpaid.desc=Briefmarken benötigt
+for.errors.notPostpaid.help=Frankiere den Brief mit mehr Briefmarken.
+
+# CIRCUIT BOARDS
+for.errors.circuitMismatch.desc=Falsches Layout
+for.errors.circuitMismatch.help=Die Menge der Elektronenröhren stimmt nicht mit der Größe der Platine überein
+for.errors.noCircuitBoard.desc=Keine Platine
+for.errors.noCircuitBoard.help=Platziere eine Platine um die gewählten Elektronenröhren aufzulöten
+for.errors.noCircuitLayout.desc=Keine Layouts gefunden
+for.errors.noCircuitLayout.help=Aufgrund der Spieleinstellungen sind keine Layouts verfügbar
+
+# FARMS
+for.errors.noFarmland.desc=Kein Ackerland
+for.errors.noFarmland.help=Sandstein, Ziegel oder Stein schaffen eine Plattform, auf der die Farm basieren wird
+for.errors.noFertilizer.desc=Kein Dünger
+for.errors.noFertilizer.help=Diese Pflanzen benötigen Dünger zum Wachsen.
+for.errors.noLiquid.desc=Kein Wasser
+for.errors.noLiquid.help=Aufgrund von langer Trockenheit mangelt es den Pflanzen an Wasser
+
+# DEPRECATED
+for.errors.invalidBiome.desc=Feindliche Umwelt
+for.errors.invalidBiome.help=Maschine oder Bewohner können in dieser Umgebung nicht arbeiten.
+for.errors.noDisposal.desc=Abfallstau
+for.errors.noDisposal.help=Nicht genügend Platz um Abfall zwischenzulagern.
+for.errors.unknown.desc=Unbekannter Fehler
+for.errors.unknown.help=Glückwunsch! Du hast einen Bug gefunden.
+for.errors.wrongStacksize.desc=Zu viele Items
+for.errors.wrongStacksize.help=Hier können nur einzelne Items verwendet werden.
+
 ####################
 # APICULTURE
 ####################
@@ -753,6 +828,8 @@ death.bee.end.player=Das Leben von %1$s wurde während eines Kampfes mit %2$s vo
 death.bee.end=%1$ss Leben wurde von einem unfreundlichen Stich beendet
 death.bee.radioactive.player=%1$s ging ohne Ausrüstung nach Tschernobyl. %2$s sah zu und lachte.
 death.bee.radioactive=%1$s ging ohne Ausrüstung nach Tschernobyl.
+death.bee.heroic.player=%1$s ist von heroischen Bienen besiegt worden! %2$s steht auf ewig in ihrer Schuld.
+death.bee.heroic=%1$s ist von heroischen Bienen besiegt worden!
 
 forestry.allele.effect.aggressive=Aggress.
 forestry.allele.effect.beatific=Gütig
@@ -1206,13 +1283,6 @@ for.circuit.manualShroom=Pilzgarten
 for.circuit.manualSucculent=Manuelles Kaktuszucht
 for.circuit.manualVegetable=Manuelles Gemüsebeet
 
-for.errors.noFarmland.desc=Kein Ackerland
-for.errors.noFarmland.help=Sandstein, Ziegel oder Stein schaffen eine Plattform, auf der die Farm basieren wird
-for.errors.noFertilizer.desc=Kein Dünger
-for.errors.noFertilizer.help=Diese Pflanzen benötigen Dünger zum Wachsen.
-for.errors.noLiquid.desc=Kein Wasser
-for.errors.noLiquid.help=Aufgrund von langer Trockenheit mangelt es den Pflanzen an Wasser
-
 for.gui.farm.title=Farm
 for.gui.hydr.heat=Durch Hitze
 for.gui.hydr.humid=Durch Feuchtigkeit
@@ -1236,7 +1306,6 @@ for.hints.manualfarms.desc=Neben den automatischen Äckern existieren auch manue
 for.hints.manualfarms.tag=Manuelle Farmen
 for.hints.valve.desc=Fast alle Farmen benötigen Wasser. Durchlassventile ermöglichen die Zufuhr von jenem.
 for.hints.valve.tag=Wasserversorgung
-
 
 for.trigger.lowFertilizer=Wenig Dünger
 for.trigger.lowLiquid=Wenig Wasser
@@ -1395,7 +1464,43 @@ for.plugin.plantmegapack.description=Kompatibilitätsplugin für Plant Mega Pack
 for.plugin.witchery.description=Kompatibilitätsplugin für Witchery.
 for.plugin.agricraft.description=Kompatibilitätsplugin für AgriCraft.
 for.plugin.enderIO.description=Kompatibilitätsplugin für EnderIO.
-for.plugin.immersiveengineering=Kompatibilitätsplugin für Immersive Engineering.
+for.plugin.immersiveengineering.description=Kompatibilitätsplugin für Immersive Engineering.
+for.plugin.growthcraft.description=Kompatibilitätsplugin für GrowthCraft.
+for.plugin.erebus.description=Kompatibilitätsplugin für Erebus.
+for.plugin.rotarycraft.description=Kompatibilitätsplugin für RotaryCraft.
+
+####################
+# CONFIG FILES
+####################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES
