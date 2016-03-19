@@ -33,7 +33,6 @@ for.chat.command.forestry.plugins.info.desc=- %s ：林业组件信息
 for.chat.command.forestry.plugins.info.help=显示林业组件的信息
 for.chat.command.forestry.plugins.info.format=格式： /%s <plugin-name>
 
-
 for.chat.help=输入‘%s’查看帮助。
 for.chat.plugins.error=拓展%s并无可查看信息。
 for.chat.version=林业%1$s适用于Minecraft%2$s(最新版本：%3$s)。
@@ -146,6 +145,10 @@ for.gui.drones=雄蜂
 for.gui.effect=特殊效果
 for.gui.empty=空
 for.gui.emptysocket=空插槽
+for.gui.empty.slot.camouflage.multiblock.default=Default Multiblock Camouflage Slot
+for.gui.empty.slot.camouflage.multiblock.glass=Glass Multiblock Camouflage Slot
+for.gui.empty.slot.camouflage.multiblock.door=Door Multiblock Camouflage Slot
+for.gui.empty.slot.camouflage=Camouflage Slot
 for.gui.socket.remove=可用电烙铁拆卸
 for.gui.energy=能量
 for.gui.environment=环境
@@ -157,7 +160,6 @@ for.gui.flowers=采蜜对象
 for.gui.flyer=耐雨飞行性
 for.gui.flyer.tooltip=耐雨飞行性
 for.gui.general=普通
-forestry.allele.gigantic=巨大
 for.gui.heat=热量
 for.gui.hellish=地狱
 for.gui.hot=炙热
@@ -271,6 +273,7 @@ for.gui.solder.east=东
 for.gui.solder.west=西
 
 forestry.allele.normal=普通
+forestry.allele.gigantic=巨大
 forestry.allele.average=平均
 
 forestry.allele.slowest=最慢速
@@ -279,7 +282,7 @@ forestry.allele.slow=慢速
 forestry.allele.fast=快速
 forestry.allele.faster=较快
 forestry.allele.fastest=最快
-forestry.allele.maximum=Maximum
+forestry.allele.maximum=MAX
 
 forestry.allele.smallest=最小
 forestry.allele.smaller=较小
@@ -514,15 +517,7 @@ item.for.builderBag.name=建筑师背包
 item.for.builderBagT2.name=建筑师编织背包
 
 item.for.can.empty.name=罐
-item.for.can.ethanol.name=乙醇罐
-item.for.can.biomass.name=生物质罐
-item.for.can.fuel.name=燃料罐
-item.for.can.for.honey.name=蜜罐
-item.for.can.ice.name=冰罐
-item.for.can.juice.name=果汁罐
-item.for.can.lava.name=岩浆罐
-item.for.can.oil.name=石油罐
-item.for.can.seed.oil.name=种子油罐
+item.for.can.grammar=%s罐
 
 item.for.carton.name=纸板箱
 
@@ -611,16 +606,7 @@ item.for.propolis.silky.name=丝滑蜂胶
 item.for.propolis.sticky.name=粘性蜂胶
 
 item.for.refractory.empty.name=耐火胶囊
-item.for.refractory.bio.ethanol.name=耐火乙醇胶囊
-item.for.refractory.biomass.name=耐火生物质胶囊
-item.for.refractory.fuel.name=耐火燃料胶囊
-item.for.refractory.for.honey.name=耐火蜂蜜胶囊
-item.for.refractory.ice.name=耐火冰胶囊
-item.for.refractory.juice.name=耐火果汁胶囊
-item.for.refractory.lava.name=耐火岩浆胶囊
-item.for.refractory.oil.name=耐火石油胶囊
-item.for.refractory.seed.oil.name=耐火种子油胶囊
-item.for.refractory.water.name=耐火水胶囊
+item.for.refractory.grammar=耐火%s胶囊
 
 item.for.refractoryWax.name=耐火蜂蜡
 
@@ -657,18 +643,9 @@ item.for.thermionicTubes.ex-12.name=末影电子管
 
 item.for.treealyzer.name=林木分析仪
 
-item.for.canWater.name=水罐
+item.for.capsule.empty.name=蜂蜡胶囊
+item.for.capsule.grammar=%s胶囊
 
-item.for.waxCapsule.name=蜂蜡胶囊
-item.for.waxCapsuleEthanol.name=乙醇胶囊
-item.for.waxCapsuleBiomass.name=生物质胶囊
-item.for.waxCapsuleFuel.name=燃料胶囊
-item.for.waxCapsuleHoney.name=蜂蜜胶囊
-item.for.waxCapsuleIce.name=冰胶囊
-item.for.waxCapsuleJuice.name=果汁胶囊
-item.for.waxCapsuleOil.name=石油胶囊
-item.for.waxCapsuleSeedOil.name=种子油胶囊
-item.for.waxCapsuleWater.name=水胶囊
 item.for.waxCast.name=打蜡工具
 
 item.for.woodPulp.name=木浆
@@ -716,30 +693,6 @@ tile.for.resourceStorage.3.name=青铜块
 tile.for.soil.0.name=腐殖土
 tile.for.soil.1.name=沼泽泥
 tile.for.soil.2.name=泥炭
-
-tile.for.stained.0.name=白色玻璃
-tile.for.stained.1.name=桔色玻璃
-tile.for.stained.2.name=品红色玻璃
-tile.for.stained.3.name=浅蓝色玻璃
-tile.for.stained.4.name=黄色玻璃
-tile.for.stained.5.name=柠檬色玻璃
-tile.for.stained.6.name=粉色玻璃
-tile.for.stained.7.name=灰色玻璃
-tile.for.stained.8.name=浅灰色玻璃
-tile.for.stained.9.name=青色玻璃
-tile.for.stained.10.name=紫色玻璃
-tile.for.stained.11.name=蓝色玻璃
-tile.for.stained.12.name=棕色玻璃
-tile.for.stained.13.name=绿色玻璃
-tile.for.stained.14.name=红色玻璃
-tile.for.stained.15.name=黑色玻璃
-
-neiintegration.chance=几率：%s
-neiintegration.chance.never=无
-neiintegration.chance.lessThan1=<1%
-neiintegration.handler.forestry.shaped=林业有序
-neiintegration.handler.forestry.shapeless=林业无序
-neiintegration.handler.forestry.fabricator.worth=可熔出：
 
 ################
 # ERRORS
@@ -1356,7 +1309,6 @@ for.hints.manualfarms.tag=自己动手搭建自己的农场！
 for.hints.valve.desc=各种农场都需要浇灌，使用水阀方块来实现自动化浇灌吧。
 for.hints.valve.tag=需要水！
 
-
 for.trigger.lowFertilizer=肥料
 for.trigger.lowLiquid=蓄水槽
 for.trigger.lowSoil=土壤
@@ -1369,6 +1321,24 @@ tile.for.ffarm.5.name=农场控制盒
 
 tile.for.mushroom.0.name=蘑菇
 tile.for.mushroom.1.name=蘑菇
+
+####################
+# GREENHOUSE
+####################
+for.gui.greenhouse.title=温室
+
+tile.for.greenhouse.plain.name=温室方块
+tile.for.greenhouse.glass.name=温室玻璃幕墙
+tile.for.greenhouse.gearbox.name=温室齿轮箱
+tile.for.greenhouse.hatch_output.name=温室出货箱
+tile.for.greenhouse.hatch_input.name=温室进货箱
+tile.for.greenhouse.valve.name=温室水阀
+tile.for.greenhouse.fan.name=温室风扇
+tile.for.greenhouse.heater.name=温室加热器
+tile.for.greenhouse.dryer.name=温室干燥器
+tile.for.greenhouse.control.name=温室控制器
+tile.for.greenhouse.sprinkler.name=温室洒水器
+tile.for.greenhouse.door.name=温室大门
 
 ####################
 # LEPIDOPTEROLOGY
