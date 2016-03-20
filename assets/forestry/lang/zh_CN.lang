@@ -1046,14 +1046,13 @@ tile.for.apiculture.0.name=蜂箱
 tile.for.apicultureChest.0.name=养蜂人箱子
 tile.for.apiculture.2.name=简易蜂房
 
-tile.for.beehives.1.name=森林蜂巢
-tile.for.beehives.2.name=草地蜂巢
-tile.for.beehives.3.name=温和蜂巢
-tile.for.beehives.4.name=热带蜂巢
-tile.for.beehives.5.name=末影蜂巢
-tile.for.beehives.6.name=凛冬蜂巢
-tile.for.beehives.7.name=沼泽蜂巢
-tile.for.beehives.8.name=迁居蜂巢
+tile.for.beehives.forest.name=森林蜂巢
+tile.for.beehives.meadows.name=草地蜂巢
+tile.for.beehives.desert.name=温和蜂巢
+tile.for.beehives.jungle.name=热带蜂巢
+tile.for.beehives.end.name=末影蜂巢
+tile.for.beehives.snow.name=凛冬蜂巢
+tile.for.beehives.swamp.name=迁居蜂巢
 
 tile.for.candle.dyed.lit.name=染色蜡烛(发光)
 tile.for.candle.dyed.stump.name=染色蜡烛(熄灭)
@@ -1216,6 +1215,7 @@ for.trees.species.cocobolo=黄檀树
 for.trees.species.zebrawood=斑木树
 
 for.fences.grammar=%TYPE栅栏
+for.fence_gates.grammar=%TYPE栅栏门
 for.log.grammar=%TYPE原木
 for.planks.grammar=%TYPE木板
 for.slab.grammar=%TYPE台阶
@@ -1733,3 +1733,6 @@ nei.subsets.Forestry.Items=物品
 nei.subsets.Forestry.Trees=树木
 nei.subsets.Forestry.Trees.Pollen=花粉
 nei.subsets.Forestry.Trees.Saplings=树苗
+
+#tile.for.beehives.7.name=沼泽蜂巢
+# ^ Archive it temporarily
