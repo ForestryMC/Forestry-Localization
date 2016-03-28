@@ -1605,6 +1605,7 @@ for.config.beekeeping.flowers.plantable.comment=Plantable flowers are placed by 
 for.config.species.blacklist=Species Blacklist
 for.config.species.blacklist.comment=Add species to blacklist identified by their uid, one per line.
 
+for.config.butterfly.alleles.rarity=Get the butterfly spawn rarity by their uid, one per line.
 for.config.butterfly.entities.spawn.limit=Butterfly Spawn Limit
 for.config.butterfly.entities.spawn.limit.comment=Butterflies will stop natural spawning once this limit is reached.
 for.config.butterfly.entities.maximum=Butterfly Maximum
