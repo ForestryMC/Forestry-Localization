@@ -894,6 +894,7 @@ forestry.allele.effect.drunkard=Drunkard
 forestry.allele.effect.exploration=Explorer
 forestry.allele.effect.glacial=Freezing
 forestry.allele.effect.fertile=Fertile
+forestry.allele.effect.festiveEaster=Festive
 forestry.allele.effect.heroic=Heroic
 forestry.allele.effect.ignition=Flammable
 forestry.allele.effect.misanthrope=Ends
@@ -1087,6 +1088,7 @@ for.genus.bees.vengeful=Vengeful
 
 item.for.beePrincessGE.name=Princess
 item.for.beeQueenGE.name=Queen
+item.for.beeDroneGE.name=Drone
 
 tile.for.alveary.0.name=Alveary
 tile.for.alveary.1.name=Alveary Entrance
