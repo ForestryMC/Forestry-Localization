@@ -1222,6 +1222,7 @@ for.planks.grammar=%TYPE Wood Planks
 for.slab.grammar=%TYPE Wood Slab
 for.slab.double.grammar=%TYPE Wood Slab
 for.stairs.grammar=%TYPE Stairs
+for.doors.grammar=%TYPE Door
 
 for.trees.woodType.larch=Larch
 for.trees.woodType.teak=Teak
