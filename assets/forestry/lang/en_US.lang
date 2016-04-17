@@ -93,6 +93,7 @@ fluid.for.honey=Honey
 fluid.ice=Crushed Ice
 fluid.juice=Fruit Juice
 fluid.short.mead=Short Mead
+fluid.mead=Mead
 fluid.milk=Milk
 fluid.seedoil=Seed Oil
 tile.forestry.fluid.bioethanol.name=Ethanol
@@ -102,6 +103,7 @@ tile.forestry.fluid.for.honey.name=Honey
 tile.forestry.fluid.ice.name=Crushed Ice
 tile.forestry.fluid.juice.name=Fruit Juice
 tile.forestry.fluid.short.mead.name=Short Mead
+tile.forestry.fluid.mead.name=Mead
 tile.forestry.fluid.milk.name=Milk
 tile.forestry.fluid.seedoil.name=Seed Oil
 
@@ -503,6 +505,7 @@ item.for.beeswax.name=Beeswax
 
 item.for.beverage.meadCurative.name=Curative Mead
 item.for.beverage.meadShort.name=Short Mead
+item.for.beverage.mead.name=Mead
 
 item.for.biomeFinder.name=Habitat Locator
 item.for.bituminousPeat.name=Bituminous Peat
@@ -521,6 +524,7 @@ item.for.bucketJuice.name=Juice Bucket
 item.for.bucketSeedOil.name=Seed Oil Bucket
 item.for.bucketGlass.name=Molten Glass Bucket
 item.for.bucketShortMead.name=Short Mead Bucket
+item.for.bucketMead.name=Mead Bucket
 
 item.for.canEmpty.name=Can
 item.for.canEthanol.name=Ethanol Can
