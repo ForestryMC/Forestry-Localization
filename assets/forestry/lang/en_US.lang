@@ -1750,3 +1750,11 @@ for.jei.description.frames=Place Forestry Frames in an Apiary to improve the bee
 for.jei.description.apiarist.suit=Pieces of the Apiarist's Suit protect the wearer from negative bee effects. A full suit offers complete protection.
 for.jei.description.habitat.locator=The Habitat Locator searches for the closest ideal habitat for a bee. When it has located a spot, it will point the way there. When the current location is ideal, it will spin steadily.
 for.jei.description.scoop=The Scoop is used to break bee hives found in the world, it will collect the bees inside. It can also be used to catch butterflies by right-clicking them.
+
+####################
+# JEI Recipes
+####################
+for.jei.rainmaker.causes.rain=Causes Rain
+for.jei.rainmaker.stops.rain=Stops Rain
+for.jei.rainmaker.speed=Speed: %s
+for.jei.rainmaker.duration=Duration: %s ticks
