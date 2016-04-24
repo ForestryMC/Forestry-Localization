@@ -1403,7 +1403,7 @@ for.chat.command.forestry.butterfly.kill.format=Format: /%s [<dimension#>]
 for.butterflies.hybrid=Hybrid: %PRIMARY-%SECONDARY
 
 for.butterflies.species.geometridae.brimstone=Brimstone Moth
-for.butterflies.species.geometridae.latticedHeath=Latticed Heath
+for.butterflies.species.geometridae.latticeHeath=Latticed Heath
 for.butterflies.species.nymphalidae.blueDuke=Blue Duke
 for.butterflies.species.nymphalidae.blueMorphoM=Menelaus Blue Morpho
 for.butterflies.species.nymphalidae.blueMorphoP=Peleides Blue Morpho
