@@ -1063,7 +1063,8 @@ tile.for.beehives.desert.name=Modest Hive
 tile.for.beehives.jungle.name=Tropical Hive
 tile.for.beehives.end.name=Ender Hive
 tile.for.beehives.snow.name=Wintry Hive
-tile.for.beehives.swamp.name=Swarm Hive
+tile.for.beehives.swamp.name=Marshy Hive
+tile.for.beehives.swarm.name=Swarm Hive
 
 tile.for.candle.dyed.lit.name=Lit Dyed Candle
 tile.for.candle.dyed.stump.name=Unlit Dyed Candle
