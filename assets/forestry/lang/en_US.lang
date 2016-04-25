@@ -621,6 +621,8 @@ item.for.researchNote.name=%s's Notes
 item.for.royalJelly.name=Royal Jelly
 item.for.scoop.name=Scoop
 item.for.solderingIron.name=Soldering Iron
+item.for.smoker.name=Smoker
+item.for.smoker.description=Calms wild bees
 
 item.for.stamps.1n.name=Stamp (1n)
 item.for.stamps.2n.name=Stamp (2n)
@@ -833,6 +835,8 @@ for.errors.wrongStacksize.help=Only single items can be used here.
 
 death.bee.aggressive.player=%1$s encountered a swarm of bees. %2$s stole his apiarist's suit.
 death.bee.aggressive=%1$s encountered a swarm of bees. That had to sting.
+death.bee.hive.player=%1$s was killed by wild bees. %2$s stole his apiarist's suit.
+death.bee.hive=%1$s was killed by wild bees. They should have used a Smoker.
 death.bee.end.player=%1$s was ended by an unfriendly sting while fighting %2$s.
 death.bee.end=%1$s was ended by an unfriendly sting.
 death.bee.radioactive.player=%1$s walked into Chernobyl without his helmet on. %2$s watched and cackled.
