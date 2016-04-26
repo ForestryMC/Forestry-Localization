@@ -651,19 +651,19 @@ item.for.stamps.name=Selo
 item.for.sturdyMachine.name=Carcaça Resistente
 item.for.tent.name=Tenda do Sobrevivente
 
-item.for.thermionicTubes.ex-0.name=Válvula Eletrónica de Cobre
-item.for.thermionicTubes.ex-1.name=Válvula Eletrónica de Estanho
-item.for.thermionicTubes.ex-2.name=Válvula Eletrónica de Bronze
-item.for.thermionicTubes.ex-3.name=Válvula Eletrónica de Ferro
-item.for.thermionicTubes.ex-4.name=Válvula Eletrónica de Ouro
-item.for.thermionicTubes.ex-5.name=Válvula Eletrónica de ´Diamantine´
-item.for.thermionicTubes.ex-6.name=Válvula Eletrónica de Obsidiana
-item.for.thermionicTubes.ex-7.name=Válvula Eletrónica de Ardende
-item.for.thermionicTubes.ex-8.name=Válvula Eletrónica de Emborrachado
-item.for.thermionicTubes.ex-9.name=Válvula Eletrónica de Esmeralda
-item.for.thermionicTubes.ex-10.name=Válvula Eletrónica de Apatita
-item.for.thermionicTubes.ex-11.name=Válvula Eletrónica de Lápis-lazúli
-item.for.thermionicTubes.ex-12.name=Válvula Eletrónica de Ender
+item.for.thermionicTubes.copper.name=Válvula Eletrónica de Cobre
+item.for.thermionicTubes.tin.name=Válvula Eletrónica de Estanho
+item.for.thermionicTubes.bronze.name=Válvula Eletrónica de Bronze
+item.for.thermionicTubes.iron.name=Válvula Eletrónica de Ferro
+item.for.thermionicTubes.gold.name=Válvula Eletrónica de Ouro
+item.for.thermionicTubes.diamond.name=Válvula Eletrónica de ´Diamantine´
+item.for.thermionicTubes.obsidian.name=Válvula Eletrónica de Obsidiana
+item.for.thermionicTubes.blaze.name=Válvula Eletrónica de Ardende
+item.for.thermionicTubes.rubber.name=Válvula Eletrónica de Emborrachado
+item.for.thermionicTubes.emerald.name=Válvula Eletrónica de Esmeralda
+item.for.thermionicTubes.apatite.name=Válvula Eletrónica de Apatita
+item.for.thermionicTubes.lapis.name=Válvula Eletrónica de Lápis-lazúli
+item.for.thermionicTubes.ender.name=Válvula Eletrónica de Ender
 
 item.for.treealyzer.name=Arvoranalizador
 

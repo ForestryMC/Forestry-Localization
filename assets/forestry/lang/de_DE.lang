@@ -636,19 +636,19 @@ item.for.stamps.name=Briefmarke
 item.for.sturdyMachine.name=Robustes Gehäuse
 item.for.tent.name=Bastlerzelt
 
-item.for.thermionicTubes.ex-0.name=Elektronenröhre (Kupfer)
-item.for.thermionicTubes.ex-1.name=Elektronenröhre (Zinn)
-item.for.thermionicTubes.ex-2.name=Elektronenröhre (Bronze)
-item.for.thermionicTubes.ex-3.name=Elektronenröhre (Eisen)
-item.for.thermionicTubes.ex-4.name=Elektronenröhre (Gold)
-item.for.thermionicTubes.ex-5.name=Elektronenröhre (Diamant)
-item.for.thermionicTubes.ex-6.name=Elektronenröhre (Obsidian)
-item.for.thermionicTubes.ex-7.name=Elektronenröhre (Lohe)
-item.for.thermionicTubes.ex-8.name=Elektronenröhre (Gummi
-item.for.thermionicTubes.ex-9.name=Elektronenröhre (Smaragd))
-item.for.thermionicTubes.ex-10.name=Elektronenröhre (Apatit)
-item.for.thermionicTubes.ex-11.name=Elektronenröhre (Lapislazuli)
-item.for.thermionicTubes.ex-12.name=Elektronenröhre (Ender)
+item.for.thermionicTubes.copper.name=Elektronenröhre (Kupfer)
+item.for.thermionicTubes.tin.name=Elektronenröhre (Zinn)
+item.for.thermionicTubes.bronze.name=Elektronenröhre (Bronze)
+item.for.thermionicTubes.iron.name=Elektronenröhre (Eisen)
+item.for.thermionicTubes.gold.name=Elektronenröhre (Gold)
+item.for.thermionicTubes.diamond.name=Elektronenröhre (Diamant)
+item.for.thermionicTubes.obsidian.name=Elektronenröhre (Obsidian)
+item.for.thermionicTubes.blaze.name=Elektronenröhre (Lohe)
+item.for.thermionicTubes.rubber.name=Elektronenröhre (Gummi
+item.for.thermionicTubes.emerald.name=Elektronenröhre (Smaragd))
+item.for.thermionicTubes.apatite.name=Elektronenröhre (Apatit)
+item.for.thermionicTubes.lapis.name=Elektronenröhre (Lapislazuli)
+item.for.thermionicTubes.ender.name=Elektronenröhre (Ender)
 
 item.for.treealyzer.name=Baumanalyser
 

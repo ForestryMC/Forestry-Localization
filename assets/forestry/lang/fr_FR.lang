@@ -629,19 +629,19 @@ item.for.stamps.name=Timbre
 item.for.sturdyMachine.name=Boitier robuste
 item.for.tent.name=Tente du survivaliste
 
-item.for.thermionicTubes.ex-0.name=Tube Electronique (Cuivre)
-item.for.thermionicTubes.ex-1.name=Tube Electronique (Étain)
-item.for.thermionicTubes.ex-2.name=Tube Electronique (Bronze)
-item.for.thermionicTubes.ex-3.name=Tube Electronique (Fer)
-item.for.thermionicTubes.ex-4.name=Tube Electronique (Or)
-item.for.thermionicTubes.ex-5.name=Tube Electronique (Diamant)
-item.for.thermionicTubes.ex-6.name=Tube Electronique (Obsidienne)
-item.for.thermionicTubes.ex-7.name=Tube Electronique (Éclatant)
-item.for.thermionicTubes.ex-8.name=Tube Electronique (Caoutchouc)
-item.for.thermionicTubes.ex-9.name=Tube Electronique (Emeraude)
-item.for.thermionicTubes.ex-10.name=Tube Electronique (Apatite)
-item.for.thermionicTubes.ex-11.name=Tube Electronique (Lapis)
-item.for.thermionicTubes.ex-12.name=Tube Electronique (Ender)
+item.for.thermionicTubes.copper.name=Tube Electronique (Cuivre)
+item.for.thermionicTubes.tin.name=Tube Electronique (Étain)
+item.for.thermionicTubes.bronze.name=Tube Electronique (Bronze)
+item.for.thermionicTubes.iron.name=Tube Electronique (Fer)
+item.for.thermionicTubes.gold.name=Tube Electronique (Or)
+item.for.thermionicTubes.diamond.name=Tube Electronique (Diamant)
+item.for.thermionicTubes.obsidian.name=Tube Electronique (Obsidienne)
+item.for.thermionicTubes.blaze.name=Tube Electronique (Éclatant)
+item.for.thermionicTubes.rubber.name=Tube Electronique (Caoutchouc)
+item.for.thermionicTubes.emerald.name=Tube Electronique (Emeraude)
+item.for.thermionicTubes.apatite.name=Tube Electronique (Apatite)
+item.for.thermionicTubes.lapis.name=Tube Electronique (Lapis)
+item.for.thermionicTubes.ender.name=Tube Electronique (Ender)
 
 item.for.treealyzer.name=Analyseur d'arbre
 

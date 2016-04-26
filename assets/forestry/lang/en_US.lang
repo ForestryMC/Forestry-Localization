@@ -636,19 +636,19 @@ item.for.stamps.name=Stamp
 item.for.sturdyMachine.name=Sturdy Casing
 item.for.tent.name=Survivalist's Tent
 
-item.for.thermionicTubes.ex-0.name=Copper Electron Tube
-item.for.thermionicTubes.ex-1.name=Tin Electron Tube
-item.for.thermionicTubes.ex-2.name=Bronze Electron Tube
-item.for.thermionicTubes.ex-3.name=Iron Electron Tube
-item.for.thermionicTubes.ex-4.name=Golden Electron Tube
-item.for.thermionicTubes.ex-5.name=Diamantine Electron Tube
-item.for.thermionicTubes.ex-6.name=Obsidian Electron Tube
-item.for.thermionicTubes.ex-7.name=Blazing Electron Tube
-item.for.thermionicTubes.ex-8.name=Rubberised Electron Tube
-item.for.thermionicTubes.ex-9.name=Emerald Electron Tube
-item.for.thermionicTubes.ex-10.name=Apatine Electron Tube
-item.for.thermionicTubes.ex-11.name=Lapis Electron Tube
-item.for.thermionicTubes.ex-12.name=Ender Electron Tube
+item.for.thermionicTubes.copper.name=Copper Electron Tube
+item.for.thermionicTubes.tin.name=Tin Electron Tube
+item.for.thermionicTubes.bronze.name=Bronze Electron Tube
+item.for.thermionicTubes.iron.name=Iron Electron Tube
+item.for.thermionicTubes.gold.name=Golden Electron Tube
+item.for.thermionicTubes.diamond.name=Diamantine Electron Tube
+item.for.thermionicTubes.obsidian.name=Obsidian Electron Tube
+item.for.thermionicTubes.blaze.name=Blazing Electron Tube
+item.for.thermionicTubes.rubber.name=Rubberised Electron Tube
+item.for.thermionicTubes.emerald.name=Emerald Electron Tube
+item.for.thermionicTubes.apatite.name=Apatine Electron Tube
+item.for.thermionicTubes.lapis.name=Lapis Electron Tube
+item.for.thermionicTubes.ender.name=Ender Electron Tube
 
 item.for.treealyzer.name=Treealyzer
 

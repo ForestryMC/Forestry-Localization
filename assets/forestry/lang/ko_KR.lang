@@ -598,18 +598,18 @@ item.for.stamps.name=스탬프
 item.for.sturdyMachine.name=튼튼한 케에싱
 item.for.tent.name=생존가의 탠트
 
-item.for.thermionicTubes.ex-0.name=구리 진공관
-item.for.thermionicTubes.ex-1.name=주석 진공관
-item.for.thermionicTubes.ex-2.name=청동 진공관
-item.for.thermionicTubes.ex-3.name=철 진공관
-item.for.thermionicTubes.ex-4.name=금 진공관
-item.for.thermionicTubes.ex-5.name=다이아몬드 진공관
-item.for.thermionicTubes.ex-6.name=흑요석 진공관
-item.for.thermionicTubes.ex-7.name=불타오르는 진공관
-item.for.thermionicTubes.ex-8.name=말랑말랑한 진공관
-item.for.thermionicTubes.ex-9.name=에메랄드 진공관
-item.for.thermionicTubes.ex-10.name=인회석 진공관
-item.for.thermionicTubes.ex-11.name=청금석 진공관
+item.for.thermionicTubes.copper.name=구리 진공관
+item.for.thermionicTubes.tin.name=주석 진공관
+item.for.thermionicTubes.bronze.name=청동 진공관
+item.for.thermionicTubes.iron.name=철 진공관
+item.for.thermionicTubes.gold.name=금 진공관
+item.for.thermionicTubes.diamond.name=다이아몬드 진공관
+item.for.thermionicTubes.obsidian.name=흑요석 진공관
+item.for.thermionicTubes.blaze.name=불타오르는 진공관
+item.for.thermionicTubes.rubber.name=말랑말랑한 진공관
+item.for.thermionicTubes.emerald.name=에메랄드 진공관
+item.for.thermionicTubes.apatite.name=인회석 진공관
+item.for.thermionicTubes.lapis.name=청금석 진공관
 
 item.for.treealyzer.name=묘목 분석기
 

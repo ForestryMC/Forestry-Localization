@@ -657,19 +657,19 @@ item.for.stamps.name=Почтовая марка
 item.for.sturdyMachine.name=Прочный корпус
 item.for.tent.name=Палатка выжившего
 
-item.for.thermionicTubes.ex-0.name=Медная электронная лампа
-item.for.thermionicTubes.ex-1.name=Оловянная электронная лампа
-item.for.thermionicTubes.ex-2.name=Бронзовая электронная лампа
-item.for.thermionicTubes.ex-3.name=Железная электронная лампа
-item.for.thermionicTubes.ex-4.name=Золотая электронная лампа
-item.for.thermionicTubes.ex-5.name=Алмазная электронная лампа
-item.for.thermionicTubes.ex-6.name=Обсидиановая электронная лампа
-item.for.thermionicTubes.ex-7.name=Огненная электронная лампа
-item.for.thermionicTubes.ex-8.name=Прорезиненная электронная лампа
-item.for.thermionicTubes.ex-9.name=Изумрудная электронная лампа
-item.for.thermionicTubes.ex-10.name=Апатитовая электронная лампа
-item.for.thermionicTubes.ex-11.name=Лазуритовая электронная лампа
-item.for.thermionicTubes.ex-12.name=Электронная лампа Края
+item.for.thermionicTubes.copper.name=Медная электронная лампа
+item.for.thermionicTubes.tin.name=Оловянная электронная лампа
+item.for.thermionicTubes.bronze.name=Бронзовая электронная лампа
+item.for.thermionicTubes.iron.name=Железная электронная лампа
+item.for.thermionicTubes.gold.name=Золотая электронная лампа
+item.for.thermionicTubes.diamond.name=Алмазная электронная лампа
+item.for.thermionicTubes.obsidian.name=Обсидиановая электронная лампа
+item.for.thermionicTubes.blaze.name=Огненная электронная лампа
+item.for.thermionicTubes.rubber.name=Прорезиненная электронная лампа
+item.for.thermionicTubes.emerald.name=Изумрудная электронная лампа
+item.for.thermionicTubes.apatite.name=Апатитовая электронная лампа
+item.for.thermionicTubes.lapis.name=Лазуритовая электронная лампа
+item.for.thermionicTubes.ender.name=Электронная лампа Края
 
 item.for.treealyzer.name=Анализатор деревьев
 
