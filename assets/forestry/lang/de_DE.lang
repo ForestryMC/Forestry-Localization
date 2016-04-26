@@ -336,6 +336,7 @@ for.gui.temperature=Temperatur
 for.gui.tolerance=Toleranz
 for.gui.temptol=Temp.Tol
 for.gui.tooltip.tmi=Drücke die Umschalttaste für mehr Infos.
+for.gui.tooltip.liquid.amount=%,d / %,d mB
 for.gui.triple=Dreifache
 for.gui.unknown=Unbekannt
 for.gui.warm=Warm
@@ -531,6 +532,7 @@ item.for.craftingMaterial.iceShard.name=Eiszapfen
 item.for.craftingMaterial.pulsatingDust.name=Pulsierender Staub
 item.for.craftingMaterial.pulsatingMesh.name=Pulsierendes Gewebe
 item.for.craftingMaterial.scentedPaneling.name=Duftende Vertäfelung
+item.for.craftingMaterial.camouflagedPaneling.name=Tarnvertäfelung
 item.for.craftingMaterial.silkWisp.name=Seidenfransen
 item.for.craftingMaterial.wovenSilk.name=Seidengewebe
 
@@ -547,6 +549,11 @@ item.for.foresterBagT2.name=Gewobener Försterrucksack
 item.for.frameImpregnated.name=Imprägniertes Rähmchen
 item.for.frameProven.name=Bewährtes Rähmchen
 item.for.frameUntreated.name=Unbehandeltes Rähmchen
+
+item.for.frame.durability=Haltbarkeit: %,d
+
+item.for.bee.modifier.production=Produktion: %.2fx
+item.for.bee.modifier.genetic.decay=Genetischer Verfall: %.2fx
 
 item.for.fruits.cherry.name=Kirsche
 item.for.fruits.chestnut.name=Kastanie
@@ -614,6 +621,8 @@ item.for.researchNote.name=Notizen von %s
 item.for.royalJelly.name=Gelée royale
 item.for.scoop.name=Kescher
 item.for.solderingIron.name=Lötkolben
+item.for.smoker.name=Bienen-Smoker
+item.for.smoker.description=Stellt wilde Bienen ruhig
 
 item.for.stamps.1n.name=Briefmarke (1n)
 item.for.stamps.2n.name=Briefmarke (2n)
@@ -824,8 +833,10 @@ for.errors.wrongStacksize.help=Hier können nur einzelne Items verwendet werden.
 # APICULTURE
 ####################
 
-death.bee.aggressive.player=%1$s machte Bekanntschaft mit einem Bienenschwarm. %2$s hat seine Ausrüstung gestohlen.
+death.bee.aggressive.player=%1$s machte Bekanntschaft mit einem Bienenschwarm. %2$s hat die Imkerkleidung gestohlen.
 death.bee.aggressive=%1$s machte Bekanntschaft mit einem Bienenschwarm. Das muss wehgetan haben.
+death.bee.hive.player=%1$s wurde von wilden Bienen getötet. %2$s hat die Imkerkleidung gestohlen.
+death.bee.hive=%1$s wurde von wilden Bienen getötet. Sollte wohl einen Smoker verwendet haben.
 death.bee.end.player=Das Leben von %1$s wurde während eines Kampfes mit %2$s von einem unfreundlichen Stich beendet.
 death.bee.end=%1$ss Leben wurde von einem unfreundlichen Stich beendet
 death.bee.radioactive.player=%1$s ging ohne Ausrüstung nach Tschernobyl. %2$s sah zu und lachte.
@@ -1046,14 +1057,14 @@ tile.for.apiculture.apiary.name=Bienenkorb
 tile.for.apicultureChest.api.chest.name=Bienentruhe
 tile.for.apiculture.bee.house.name=Bienenhaus
 
-tile.for.beehives.1.name=Waldbienenstock
-tile.for.beehives.2.name=Wiesenbienenstock
-tile.for.beehives.3.name=Bescheidener Bienenstock
-tile.for.beehives.4.name=Tropischer Bienenstock
-tile.for.beehives.5.name=Ender-Bienenstock
-tile.for.beehives.6.name=Winterlicher Bienenstock
-tile.for.beehives.7.name=Marschiger Bienenstock
-tile.for.beehives.8.name=Schwarmstock
+tile.for.beehives.forest.name=Waldbienenstock
+tile.for.beehives.meadows.name=Wiesenbienenstock
+tile.for.beehives.desert.name=Bescheidener Bienenstock
+tile.for.beehives.jungle.name=Tropischer Bienenstock
+tile.for.beehives.end.name=Ender-Bienenstock
+tile.for.beehives.snow.name=Winterlicher Bienenstock
+tile.for.beehives.swamp.name=Marschiger Bienenstock
+tile.for.beehives.swarm.name=Schwarmstock
 
 tile.for.candle.dyed.lit.name=Brennende gefärbte Kerze
 tile.for.candle.dyed.stump.name=Nicht brennende gefärbte Kerze
@@ -1216,11 +1227,13 @@ for.trees.species.cocobolo=Cocobolo
 for.trees.species.zebrawood=Urunday
 
 for.fences.grammar=%TYPEholzzaun
+for.fence_gates.grammar=%TYPEholzzauntor
 for.log.grammar=%TYPEholz
 for.planks.grammar=%TYPEholzbretter
 for.slab.grammar=%TYPEholzstufe
 for.slab.double.grammar=%TYPEholzstufe
 for.stairs.grammar=%TYPEholztreppe
+for.doors.grammar=%TYPEholztür
 
 for.trees.woodType.larch=Lärchen
 for.trees.woodType.teak=Teak
@@ -1584,6 +1597,7 @@ for.plugin.rotarycraft.description=Kompatibilitätsplugin für RotaryCraft.
 # tile.for.log.10.name=Mahogany Wood
 # tile.for.fences.0.name=Larch Fence
 
+
 for.trees.custom.sapling.acacia=Akaziensetzling
 for.trees.custom.sapling.appleOak=Apfeleichensetzling
 for.trees.custom.sapling.blueMahoe=Mahoe-Setzling
@@ -1687,14 +1701,20 @@ for.trees.custom.leaves.ipe=Ipé-Blätter
 tile.for.stairs.16.name=Mahoe-Holztreppe
 tile.for.planks.16.name=Mahoe-Holzbretter
 tile.for.slab.16.name=Mahoe-Holzstufe
+tile.for.slab.double.16.name=Mahoe-Holzstufe
 tile.for.log.16.name=Mahoe-Holz
 tile.for.fences.16.name=Mahoe-Holzzaun
+tile.for.fence_gates.16.name=Mahoe-Holzzauntor
+tile.for.doors.16.name=Mahoe-Holztür
 
 tile.for.stairs.25.name=Ipé-Holztreppe
 tile.for.planks.25.name=Ipé-Holzbretter
 tile.for.slab.25.name=Ipé-Holzstufe
+tile.for.slab.double.25.name=Ipé-Holzstufe
 tile.for.log.25.name=Ipé-Holz
 tile.for.fences.25.name=Ipé-Holzzaun
+tile.for.fence_gates.25.name=Ipé-Holzzauntor
+tile.for.doors.25.name=Ipé-Holztür
 
 ####################
 # NEI Categories
@@ -1715,3 +1735,19 @@ nei.subsets.Forestry.Items=Items
 nei.subsets.Forestry.Trees=Bäume
 nei.subsets.Forestry.Trees.Pollen=Pollen
 nei.subsets.Forestry.Trees.Saplings=Setzlinge
+
+####################
+# JEI Descriptions
+####################
+for.jei.description.frames=Platziere Rähmchen in einen Bienenkorb, um die Produktionsrate der Bienen zu erhöhen und den Genetischen Verfall unedler Bienen zu verringern.
+for.jei.description.apiarist.suit=Teile der Imkerkleidung schützen den Träger vor negativen Bieneneffekten. Ein voller Anzug bietet vollständingen Schutz.
+for.jei.description.habitat.locator=Der Habitatsucher sucht das nächste ideale Habitat für eine Biene. Sobald ein Ort gefunden ist, wird er dorthin zeigen. Sollte die aktuelle Position ideal sein, wird er sich gleichmäßig drehen.
+for.jei.description.scoop=Mit dem Kescher werden wilde Bienenstöcke zerstört und die Bienen im Inneren erhalten. Mit ihm können auch Schmetterlinge durch Rechtsklick eingefangen werden.
+
+####################
+# JEI Recipes
+####################
+for.jei.rainmaker.causes.rain=Sorgt für Regen
+for.jei.rainmaker.stops.rain=Stoppt Regen
+for.jei.rainmaker.speed=Geschw.: %s
+for.jei.rainmaker.duration=Dauer: %s ticks
