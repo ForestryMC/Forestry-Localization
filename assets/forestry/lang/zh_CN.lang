@@ -178,26 +178,20 @@ for.gui.escritoire.probe=检测样本
 for.gui.escritoire.instructions=将基因样本放在中央以开始。在左侧格子中放入更多样本，检测它们以寻求帮助。 
 for.gui.escritoire.attempt.number=第%s次尝试
 
-# Write as many notes as you like, just set the count correctly.
-
-for.gui.escritoire.notes.level1.count=3
 for.gui.escritoire.notes.level1.1=旅途之中我发现了一个奇异的样本。
 for.gui.escritoire.notes.level1.2=这个奇怪的家伙需要更深入的研究。
 for.gui.escritoire.notes.level1.3=我当即欣然投入到了研究之中。
 
-for.gui.escritoire.notes.level2.count=4
 for.gui.escritoire.notes.level2.1=奇妙的大自然屡屡令我惊诧。
 for.gui.escritoire.notes.level2.2=当我想要更仔细地观察它，样本扭动挣扎起来。
 for.gui.escritoire.notes.level2.3=下腹的奇特纹饰让我倍感好奇。
 for.gui.escritoire.notes.level2.4=当我完成研究后这一定会成为社交的热门话题。
 
-for.gui.escritoire.notes.level3.count=4
 for.gui.escritoire.notes.level3.1=经过一些扎针刺激我发现了一个有趣的新思路。
 for.gui.escritoire.notes.level3.2=我挠挠脑袋，开始质疑一切。
 for.gui.escritoire.notes.level3.3=原以为我的眼睛欺骗了我，但这次它没有。
 for.gui.escritoire.notes.level3.4=之前忽视掉的一个斑点让我开始重新思考样本的分类问题。
 
-for.gui.escritoire.notes.level4.count=7
 for.gui.escritoire.notes.level4.1=我懊恼的咆哮引得管家焦急跑来查看我的研究。
 for.gui.escritoire.notes.level4.2=陷入疯狂和绝望的边缘，我撕碎了所有的笔记！
 for.gui.escritoire.notes.level4.3=这些……完全……没有任何意义！
@@ -206,14 +200,12 @@ for.gui.escritoire.notes.level4.5=大锤既无望有功，长锯遂粉墨登场�
 for.gui.escritoire.notes.level4.6=我发誓它在盯着我看，用它那双透着残忍的亮晶晶的小眼睛。
 for.gui.escritoire.notes.level4.7=那些可是笑声？我可曾听闻笑声？又是谁在那大笑不止？
 
-for.gui.escritoire.notes.success.count=5
 for.gui.escritoire.notes.success.1=我发现了！(ง •̀_•́)ง
 for.gui.escritoire.notes.success.2=棒极了！我将名垂青史！
 for.gui.escritoire.notes.success.3=我的学院将引以为荣！
 for.gui.escritoire.notes.success.4=我会招致来自所有社会人氏的羡慕嫉妒恨！
 for.gui.escritoire.notes.success.5=是滴！
 
-for.gui.escritoire.notes.failure.count=5
 for.gui.escritoire.notes.failure.1=什么都没了。
 for.gui.escritoire.notes.failure.2=我将笔记投入火中。
 for.gui.escritoire.notes.failure.3=为什么呢？我起先曾取得过那么多突破性的进展…
