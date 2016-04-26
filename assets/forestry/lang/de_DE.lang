@@ -92,7 +92,8 @@ fluid.glass=Flüssigglas
 fluid.for.honey=Honig
 fluid.ice=Zerstoßenes Eis
 fluid.juice=Fruchtsaft
-fluid.short.mead=Met
+fluid.short.mead=Dünner Met
+fluid.mead=Met
 fluid.milk=Milch
 fluid.seedoil=Samenkernöl
 tile.forestry.fluid.bioethanol.name=Ethanol
@@ -101,7 +102,8 @@ tile.forestry.fluid.glass.name=Flüssigglas
 tile.forestry.fluid.for.honey.name=Honig
 tile.forestry.fluid.ice.name=Zerstoßenes Eis
 tile.forestry.fluid.juice.name=Fruchtsaft
-tile.forestry.fluid.short.mead.name=Met
+tile.forestry.fluid.short.mead.name=Dünner Met
+tile.forestry.fluid.mead.name=Met
 tile.forestry.fluid.milk.name=Milch
 tile.forestry.fluid.seedoil.name=Samenkernöl
 
@@ -502,7 +504,8 @@ item.for.beeCombs.wheaten.name=Weizenartige Wabe
 item.for.beeswax.name=Bienenwachs
 
 item.for.beverage.meadCurative.name=Heilsamer Met
-item.for.beverage.meadShort.name=Met
+item.for.beverage.meadShort.name=Dünner Met
+item.for.beverage.mead.name=Met
 
 item.for.biomeFinder.name=Habitatsucher
 item.for.bituminousPeat.name=Pechartiger Torf
@@ -520,7 +523,8 @@ item.for.bucketIce.name=Eimer mit Zerstoßenem Eis
 item.for.bucketJuice.name=Eimer mit Fruchtsaft
 item.for.bucketSeedOil.name=Eimer mit Samenkernöl
 item.for.bucketGlass.name=Eimer mit geschmolzemen Glas
-item.for.bucketShortMead.name=Eimer mit Met
+item.for.bucketShortMead.name=Eimer mit Dünnem Met
+item.for.bucketMead.name=Eimer mit Met
 
 item.for.canEmpty.name=Büchse
 item.for.canEthanol.name=Büchse Bioethanol
@@ -530,8 +534,10 @@ item.for.canHoney.name=Büchse Honig
 item.for.canIce.name=Büchse Zerstoßenes Eis
 item.for.canJuice.name=Büchse Fruchtsaft
 item.for.canLava.name=Büchse Lava
+item.for.canMead.name=Büchse Met
 item.for.canOil.name=Büchse Öl
 item.for.canSeedOil.name=Büchse Samenkernöl
+item.for.canShortMead.name=Büchse Dünnen Mets
 item.for.carton.name=Karton
 
 item.for.circuitboard.basic.name=Kleine Leiterplatte
@@ -626,8 +632,10 @@ item.for.refractoryHoney.name=Kapsel Honig
 item.for.refractoryIce.name=Kapsel zerstoßenes Eis
 item.for.refractoryJuice.name=Kapsel Fruchtsaft
 item.for.refractoryLava.name=Kapsel Lava
+item.for.refractoryMead.name=Kapsel Met
 item.for.refractoryOil.name=Kapsel Öl
 item.for.refractorySeedOil.name=Kapsel Samenkernöl
+item.for.refractoryShortMead.name=Kapsel Dünnen Mets
 item.for.refractoryWater.name=Kapsel Wasser
 item.for.refractoryWax.name=Hitzebeständiges Wachs
 
@@ -673,8 +681,10 @@ item.for.waxCapsuleFuel.name=Kapsel Diesel
 item.for.waxCapsuleHoney.name=Kapsel Honig
 item.for.waxCapsuleIce.name=Kapsel zerstoßenes Eis
 item.for.waxCapsuleJuice.name=Kapsel Fruchtsaft
+item.for.waxCapsuleMead.name=Kapsel Met
 item.for.waxCapsuleOil.name=Kapsel Öl
 item.for.waxCapsuleSeedOil.name=Kapsel Samenkernöl
+item.for.waxCapsuleShortMead.name=Kapsel Dünnen Mets
 item.for.waxCapsuleWater.name=Wasserkapsel
 item.for.waxCast.name=Wachsform
 
@@ -894,6 +904,7 @@ forestry.allele.effect.drunkard=Betrunken
 forestry.allele.effect.exploration=Erforscher
 forestry.allele.effect.glacial=Überfrieren
 forestry.allele.effect.fertile=Fruchtbar
+forestry.allele.effect.festiveEaster=Feierlich
 forestry.allele.effect.heroic=Heroisch
 forestry.allele.effect.ignition=Entzündlich
 forestry.allele.effect.misanthrope=Endend
@@ -1087,6 +1098,7 @@ for.genus.bees.vengeful=Nachtragend
 
 item.for.beePrincessGE.name=Prinzessin
 item.for.beeQueenGE.name=Königin
+item.for.beeDroneGE.name=Drohne
 
 tile.for.alveary.0.name=Bienenstock
 tile.for.alveary.1.name=Bienenstockeingang
@@ -1391,7 +1403,7 @@ for.chat.command.forestry.butterfly.kill.format=Format: /%s [<dimensions#>]
 for.butterflies.hybrid=Hybrid: %PRIMARY-%SECONDARY
 
 for.butterflies.species.geometridae.brimstone=Gelbspanner
-for.butterflies.species.geometridae.latticedHeath=Gitterspanner
+for.butterflies.species.geometridae.latticeHeath=Gitterspanner
 for.butterflies.species.nymphalidae.blueDuke=Bassarona durga
 for.butterflies.species.nymphalidae.blueMorphoM=Morpho menelaus
 for.butterflies.species.nymphalidae.blueMorphoP=Himmelsfalter
