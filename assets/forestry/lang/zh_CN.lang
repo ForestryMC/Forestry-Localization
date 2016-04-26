@@ -336,6 +336,7 @@ for.gui.temperature=温度
 for.gui.tolerance=适应性
 for.gui.temptol=温度适应性
 for.gui.tooltip.tmi=按住shift来查看详细信息
+for.gui.tooltip.liquid.amount=%,d/%,d mB
 for.gui.triple=三倍
 for.gui.unknown=未知
 for.gui.warm=温暖
@@ -531,6 +532,7 @@ item.for.craftingMaterial.iceShard.name=碎冰
 item.for.craftingMaterial.pulsatingDust.name=脉动之尘
 item.for.craftingMaterial.pulsatingMesh.name=脉动网格
 item.for.craftingMaterial.scentedPaneling.name=飘香镶板
+item.for.craftingMaterial.camouflagedPaneling.name=Camouflaged Paneling
 item.for.craftingMaterial.silkWisp.name=丝缕
 item.for.craftingMaterial.wovenSilk.name=丝绸
 
@@ -547,6 +549,11 @@ item.for.foresterBagT2.name=林业员编织背包
 item.for.frameImpregnated.name=浸渍框架
 item.for.frameProven.name=标定框架
 item.for.frameUntreated.name=未处理框架
+
+item.for.frame.durability=耐久：%,d
+
+item.for.bee.modifier.production=产量：%.2fx
+item.for.bee.modifier.genetic.decay=基因衰减：%.2fx
 
 item.for.fruits.cherry.name=樱桃
 item.for.fruits.chestnut.name=栗子
@@ -614,10 +621,12 @@ item.for.researchNote.name=%s之笔记
 item.for.royalJelly.name=蜂王浆
 item.for.scoop.name=捕虫网
 item.for.solderingIron.name=电烙铁
+item.for.smoker.name=驱蜂烟雾
+item.for.smoker.description=让野生的蜜蜂冷静下来
 
 item.for.stamps.1n.name=邮票(1n)
 item.for.stamps.2n.name=邮票(2n)
-item.for.stamps.5n.name=邮票（5n）
+item.for.stamps.5n.name=邮票(5n)
 item.for.stamps.10n.name=邮票(10n)
 item.for.stamps.20n.name=邮票(20n)
 item.for.stamps.50n.name=邮票(50n)
@@ -826,6 +835,8 @@ for.errors.wrongStacksize.help=这里只能放置单个物品。
 
 death.bee.aggressive.player=%1$s遭遇蜂群。%2$s趁机偷走了他的养蜂套装。
 death.bee.aggressive=%1$s遭遇蜂群。不得不刺！
+death.bee.hive.player=%1$s被野生蜜蜂蜇死了。%2$s趁机偷走了他的养蜂人套装。
+death.bee.hive=%1$s被野生蜜蜂蜇死了。他们本应用发烟器的。
 death.bee.end.player=%1$s在与%2$s战斗时死于一根不坏好意的毒刺。
 death.bee.end=%1$s死于一根不坏好意的毒刺。
 death.bee.radioactive.player=%1$s没戴头盔就闯进了切尔诺贝利遗址。%2$s围观并幸灾乐祸地咯咯笑着。
@@ -1052,7 +1063,8 @@ tile.for.beehives.desert.name=温和蜂巢
 tile.for.beehives.jungle.name=热带蜂巢
 tile.for.beehives.end.name=末影蜂巢
 tile.for.beehives.snow.name=凛冬蜂巢
-tile.for.beehives.swamp.name=迁居蜂巢
+tile.for.beehives.swamp.name=沼泽蜂巢
+tile.for.beehives.swarm.name=迁居蜂巢
 
 tile.for.candle.dyed.lit.name=染色蜡烛(发光)
 tile.for.candle.dyed.stump.name=染色蜡烛(熄灭)
@@ -1221,6 +1233,7 @@ for.planks.grammar=%TYPE木板
 for.slab.grammar=%TYPE台阶
 for.slab.double.grammar=%TYPE台阶
 for.stairs.grammar=%TYPE楼梯
+for.doors.grammar=%TYPE门
 
 for.trees.woodType.larch=落叶树
 for.trees.woodType.teak=柚树
@@ -1604,6 +1617,7 @@ for.config.beekeeping.flowers.plantable.comment=蜜蜂可以播种的鲜花类�
 for.config.species.blacklist=物种黑名单
 for.config.species.blacklist.comment=以uid为识别将物品加入黑名单中，按行添加。
 
+for.config.butterfly.alleles.rarity=按蝴蝶的UID获得稀有程度，按行添加。
 for.config.butterfly.entities.spawn.limit=蝴蝶生成限制
 for.config.butterfly.entities.spawn.limit.comment=当达到阈值时不再自然生成蝴蝶。
 for.config.butterfly.entities.maximum=最大蝴蝶数量
@@ -1734,5 +1748,18 @@ nei.subsets.Forestry.Trees=树木
 nei.subsets.Forestry.Trees.Pollen=花粉
 nei.subsets.Forestry.Trees.Saplings=树苗
 
-#tile.for.beehives.7.name=沼泽蜂巢
-# ^ Archive it temporarily
+####################
+# JEI Descriptions
+####################
+for.jei.description.frames=将林业框架置于蜂房中，可提高蜜蜂产物的产量，或降低由基因损伤导致的卑贱种出现概率。
+for.jei.description.apiarist.suit=每一件养蜂人套装都可以保护养蜂人免受蜜蜂的负面效果。全套养蜂人套装可提供完全保护。
+for.jei.description.habitat.locator=栖息地定位仪可为指定蜜蜂搜索最近的理想栖息地。当它定位成功后，它的指针会指向定位到的地点。若当前地点即为理想栖息地，其指针会不停转动。
+for.jei.description.scoop=捕蜂网可用于破坏野生的蜂巢，并收集其中的蜜蜂。它也可用于收集蝴蝶：只需右击蝴蝶即可捕捉。
+
+####################
+# JEI Recipes
+####################
+for.jei.rainmaker.causes.rain=祈雨
+for.jei.rainmaker.stops.rain=停雨
+for.jei.rainmaker.speed=速度：%s
+for.jei.rainmaker.duration=持续时间：%s刻
