@@ -264,58 +264,58 @@ for.gui.solder.south=S
 for.gui.solder.east=O
 for.gui.solder.west=W
 
-forestry.allele.average=Durschschnittlich
-forestry.allele.gigantic=Gigantisches
-forestry.allele.normal=Normal
+Forestry.allele.average=Durschschnittlich
+Forestry.allele.gigantic=Gigantisches
+Forestry.allele.normal=Normal
 
-forestry.allele.slowest=Langsamste
-forestry.allele.slower=Langsamere
-forestry.allele.slow=Langsame
-forestry.allele.fast=Schnelle
-forestry.allele.faster=Schnellere
-forestry.allele.fastest=Schnellste
-forestry.allele.maximum=Maximale
+Forestry.allele.slowest=Langsamste
+Forestry.allele.slower=Langsamere
+Forestry.allele.slow=Langsame
+Forestry.allele.fast=Schnelle
+Forestry.allele.faster=Schnellere
+Forestry.allele.fastest=Schnellste
+Forestry.allele.maximum=Maximale
 
-forestry.allele.smallest=Niedrigste
-forestry.allele.smaller=Niedriger
-forestry.allele.small=Niedrig
-forestry.allele.large=Groß
-forestry.allele.larger=Größer
-forestry.allele.largest=Größte
+Forestry.allele.smallest=Niedrigste
+Forestry.allele.smaller=Niedriger
+Forestry.allele.small=Niedrig
+Forestry.allele.large=Groß
+Forestry.allele.larger=Größer
+Forestry.allele.largest=Größte
 
-forestry.allele.lowest=Geringste
-forestry.allele.lower=Geringere
-forestry.allele.low=Geringe
-forestry.allele.high=Hohe
-forestry.allele.higher=Höhere
-forestry.allele.highest=Höchste
+Forestry.allele.lowest=Geringste
+Forestry.allele.lower=Geringere
+Forestry.allele.low=Geringe
+Forestry.allele.high=Hohe
+Forestry.allele.higher=Höhere
+Forestry.allele.highest=Höchste
 
-forestry.allele.tolerance.both1=Beides 1
-forestry.allele.tolerance.both2=Beides 2
-forestry.allele.tolerance.both3=Beides 3
-forestry.allele.tolerance.both4=Beides 4
-forestry.allele.tolerance.both5=Beides 5
-forestry.allele.tolerance.down1=Unten 1
-forestry.allele.tolerance.down2=Unten 2
-forestry.allele.tolerance.down3=Unten 3
-forestry.allele.tolerance.down4=Unten 4
-forestry.allele.tolerance.down5=Unten 5
-forestry.allele.tolerance.none=Nichts
-forestry.allele.tolerance.up1=Oben 1
-forestry.allele.tolerance.up2=Oben 2
-forestry.allele.tolerance.up3=Oben 3
-forestry.allele.tolerance.up4=Oben 4
-forestry.allele.tolerance.up5=Oben 5
+Forestry.allele.tolerance.both1=Beides 1
+Forestry.allele.tolerance.both2=Beides 2
+Forestry.allele.tolerance.both3=Beides 3
+Forestry.allele.tolerance.both4=Beides 4
+Forestry.allele.tolerance.both5=Beides 5
+Forestry.allele.tolerance.down1=Unten 1
+Forestry.allele.tolerance.down2=Unten 2
+Forestry.allele.tolerance.down3=Unten 3
+Forestry.allele.tolerance.down4=Unten 4
+Forestry.allele.tolerance.down5=Unten 5
+Forestry.allele.tolerance.none=Nichts
+Forestry.allele.tolerance.up1=Oben 1
+Forestry.allele.tolerance.up2=Oben 2
+Forestry.allele.tolerance.up3=Oben 3
+Forestry.allele.tolerance.up4=Oben 4
+Forestry.allele.tolerance.up5=Oben 5
 
-forestry.allele.lifespan.shortest=Kürzeste
-forestry.allele.lifespan.shorter=Kürzere
-forestry.allele.lifespan.short=Kurze
-forestry.allele.lifespan.shortened=Verkürzte
-forestry.allele.lifespan.normal=Normale
-forestry.allele.lifespan.elongated=Verlängerte
-forestry.allele.lifespan.long=Lange
-forestry.allele.lifespan.longer=Längere
-forestry.allele.lifespan.longest=Längste
+Forestry.allele.lifespan.shortest=Kürzeste
+Forestry.allele.lifespan.shorter=Kürzere
+Forestry.allele.lifespan.short=Kurze
+Forestry.allele.lifespan.shortened=Verkürzte
+Forestry.allele.lifespan.normal=Normale
+Forestry.allele.lifespan.elongated=Verlängerte
+Forestry.allele.lifespan.long=Lange
+Forestry.allele.lifespan.longer=Längere
+Forestry.allele.lifespan.longest=Längste
 
 for.gui.size=Größe
 for.gui.slots=%USED/%SIZE Slots
@@ -836,24 +836,24 @@ death.bee.radioactive=%1$s ging ohne Ausrüstung nach Tschernobyl.
 death.bee.heroic.player=%1$s ist von heroischen Bienen besiegt worden! %2$s steht auf ewig in ihrer Schuld.
 death.bee.heroic=%1$s ist von heroischen Bienen besiegt worden!
 
-forestry.allele.effect.aggressive=Aggress.
-forestry.allele.effect.beatific=Gütig
-forestry.allele.effect.creeper=Creeper
-forestry.allele.effect.drunkard=Betrunken
-forestry.allele.effect.exploration=Erforscher
-forestry.allele.effect.glacial=Überfrieren
-forestry.allele.effect.fertile=Fruchtbar
-forestry.allele.effect.heroic=Heroisch
-forestry.allele.effect.ignition=Entzündlich
-forestry.allele.effect.misanthrope=Endend
-forestry.allele.effect.miasmic=Giftig
-forestry.allele.effect.mycophilic=Mykophil
-forestry.allele.effect.none=Nichts
-forestry.allele.effect.radioactive=Radioakt.
-forestry.allele.effect.reanimation=Wiederbelebung
-forestry.allele.effect.repulsion=Abstroßung
-forestry.allele.effect.resurrection=Auferstehung
-forestry.allele.effect.snowing=Schnee
+Forestry.allele.effect.aggressive=Aggress.
+Forestry.allele.effect.beatific=Gütig
+Forestry.allele.effect.creeper=Creeper
+Forestry.allele.effect.drunkard=Betrunken
+Forestry.allele.effect.exploration=Erforscher
+Forestry.allele.effect.glacial=Überfrieren
+Forestry.allele.effect.fertile=Fruchtbar
+Forestry.allele.effect.heroic=Heroisch
+Forestry.allele.effect.ignition=Entzündlich
+Forestry.allele.effect.misanthrope=Endend
+Forestry.allele.effect.miasmic=Giftig
+Forestry.allele.effect.mycophilic=Mykophil
+Forestry.allele.effect.none=Nichts
+Forestry.allele.effect.radioactive=Radioakt.
+Forestry.allele.effect.reanimation=Wiederbelebung
+Forestry.allele.effect.repulsion=Abstroßung
+Forestry.allele.effect.resurrection=Auferstehung
+Forestry.allele.effect.snowing=Schnee
 
 for.beemode.easy.desc=Vereinfacht die Bienenzucht, indem die Mutationsrate drastisch erhöht und die Wahrscheinlichkeit für genetische Ermattung entfernt wird.
 for.beemode.hard.desc=Reduziert die Mutationsrate leicht, erhöht aber die Lebensdauer von Königinnen um 50 Prozent
@@ -1546,10 +1546,10 @@ for.plugin.rotarycraft.description=Kompatibilitätsplugin für RotaryCraft.
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces forestry.allele.<adjective>
+# Replaces Forestry.allele.<adjective>
 #
 # Syntax:
-# forestry.allele.<category>.<adjective>=New custom adjective
+# Forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1565,9 +1565,9 @@ for.plugin.rotarycraft.description=Kompatibilitätsplugin für RotaryCraft.
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
-# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
-# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
+# Forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing Forestry.allele.slowest
+# Forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing Forestry.allele.slowest
+# Forestry.allele.yield.low=New custom adjective for low yield, replacing Forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS

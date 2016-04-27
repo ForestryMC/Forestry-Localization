@@ -216,7 +216,7 @@ for.gui.fireresist=耐火
 for.gui.flowers=採蜜對象
 for.gui.flyer=耐雨飛行性
 for.gui.general=普通
-forestry.allele.gigantic=巨大
+Forestry.allele.gigantic=巨大
 for.gui.heat=熱量
 for.gui.hellish=地獄
 for.gui.hot=炙熱
@@ -313,56 +313,56 @@ for.gui.rule.private=私用
 for.gui.rule.restricted=受限
 for.gui.rule.shared=共享
 
-forestry.allele.normal=普通
-forestry.allele.average=平均
+Forestry.allele.normal=普通
+Forestry.allele.average=平均
 
-forestry.allele.slowest=最慢速
-forestry.allele.slower=較慢速
-forestry.allele.slow=慢速
-forestry.allele.fast=快速
-forestry.allele.faster=較快
-forestry.allele.fastest=最快
+Forestry.allele.slowest=最慢速
+Forestry.allele.slower=較慢速
+Forestry.allele.slow=慢速
+Forestry.allele.fast=快速
+Forestry.allele.faster=較快
+Forestry.allele.fastest=最快
 
-forestry.allele.smallest=最小
-forestry.allele.smaller=較小
-forestry.allele.small=小
-forestry.allele.large=大
-forestry.allele.larger=較大
-forestry.allele.largest=最大
+Forestry.allele.smallest=最小
+Forestry.allele.smaller=較小
+Forestry.allele.small=小
+Forestry.allele.large=大
+Forestry.allele.larger=較大
+Forestry.allele.largest=最大
 
-forestry.allele.lowest=最低
-forestry.allele.lower=較低
-forestry.allele.low=低
-forestry.allele.high=高
-forestry.allele.higher=更高
-forestry.allele.highest=最高
+Forestry.allele.lowest=最低
+Forestry.allele.lower=較低
+Forestry.allele.low=低
+Forestry.allele.high=高
+Forestry.allele.higher=更高
+Forestry.allele.highest=最高
 
-forestry.allele.tolerance.both1=全1
-forestry.allele.tolerance.both2=全2
-forestry.allele.tolerance.both3=全3
-forestry.allele.tolerance.both4=全4
-forestry.allele.tolerance.both5=全5
-forestry.allele.tolerance.down1=降1
-forestry.allele.tolerance.down2=降2
-forestry.allele.tolerance.down3=降3
-forestry.allele.tolerance.down4=降4
-forestry.allele.tolerance.down5=降5
-forestry.allele.tolerance.none=無
-forestry.allele.tolerance.up1=加1
-forestry.allele.tolerance.up2=加2
-forestry.allele.tolerance.up3=加3
-forestry.allele.tolerance.up4=加4
-forestry.allele.tolerance.up5=加5
+Forestry.allele.tolerance.both1=全1
+Forestry.allele.tolerance.both2=全2
+Forestry.allele.tolerance.both3=全3
+Forestry.allele.tolerance.both4=全4
+Forestry.allele.tolerance.both5=全5
+Forestry.allele.tolerance.down1=降1
+Forestry.allele.tolerance.down2=降2
+Forestry.allele.tolerance.down3=降3
+Forestry.allele.tolerance.down4=降4
+Forestry.allele.tolerance.down5=降5
+Forestry.allele.tolerance.none=無
+Forestry.allele.tolerance.up1=加1
+Forestry.allele.tolerance.up2=加2
+Forestry.allele.tolerance.up3=加3
+Forestry.allele.tolerance.up4=加4
+Forestry.allele.tolerance.up5=加5
 
-forestry.allele.lifespan.shortest=早夭
-forestry.allele.lifespan.shorter=較短壽
-forestry.allele.lifespan.short=短壽
-forestry.allele.lifespan.shortened=不足壽
-forestry.allele.lifespan.normal=普壽
-forestry.allele.lifespan.elongated=足壽
-forestry.allele.lifespan.long=長壽
-forestry.allele.lifespan.longer=較長壽
-forestry.allele.lifespan.longest=最長壽
+Forestry.allele.lifespan.shortest=早夭
+Forestry.allele.lifespan.shorter=較短壽
+Forestry.allele.lifespan.short=短壽
+Forestry.allele.lifespan.shortened=不足壽
+Forestry.allele.lifespan.normal=普壽
+Forestry.allele.lifespan.elongated=足壽
+Forestry.allele.lifespan.long=長壽
+Forestry.allele.lifespan.longer=較長壽
+Forestry.allele.lifespan.longest=最長壽
 
 for.gui.size=大小
 for.gui.slots=%USED/%SIZE格子
@@ -751,24 +751,24 @@ death.bee.end=%1$s死於一根不壞好意的毒刺。
 death.bee.radioactive.player=%1$s沒戴頭盔就闖進了車諾比遺址。%2$s圍觀並幸災樂禍地咯咯笑着。
 death.bee.radioactive=%1$s沒戴頭盔就闖進了車諾比遺址。
 
-forestry.allele.effect.aggressive=舉世皆敵
-forestry.allele.effect.beatific=皆大歡喜
-forestry.allele.effect.creeper=爆炸就是藝術
-forestry.allele.effect.drunkard=沉醉
-forestry.allele.effect.exploration=探索
-forestry.allele.effect.glacial=凍結
-forestry.allele.effect.fertile=豐饒
-forestry.allele.effect.heroic=勇士
-forestry.allele.effect.ignition=燃燒
-forestry.allele.effect.misanthrope=終界
-forestry.allele.effect.misasmic=劇毒
-forestry.allele.effect.mycophilic=嗜菇
-forestry.allele.effect.none=無效果
-forestry.allele.effect.radioactive=輻射
-forestry.allele.effect.reanimation=重生
-forestry.allele.effect.repulsion=抗拒
-forestry.allele.effect.resurrection=復甦
-forestry.allele.effect.snowing=落雪
+Forestry.allele.effect.aggressive=舉世皆敵
+Forestry.allele.effect.beatific=皆大歡喜
+Forestry.allele.effect.creeper=爆炸就是藝術
+Forestry.allele.effect.drunkard=沉醉
+Forestry.allele.effect.exploration=探索
+Forestry.allele.effect.glacial=凍結
+Forestry.allele.effect.fertile=豐饒
+Forestry.allele.effect.heroic=勇士
+Forestry.allele.effect.ignition=燃燒
+Forestry.allele.effect.misanthrope=終界
+Forestry.allele.effect.misasmic=劇毒
+Forestry.allele.effect.mycophilic=嗜菇
+Forestry.allele.effect.none=無效果
+Forestry.allele.effect.radioactive=輻射
+Forestry.allele.effect.reanimation=重生
+Forestry.allele.effect.repulsion=抗拒
+Forestry.allele.effect.resurrection=復甦
+Forestry.allele.effect.snowing=落雪
 
 for.beemode.easy.desc=該養蜂模式下變異幾率大幅度增加,發生遺傳疲勞的可能也很小。
 for.beemode.hard.desc=在增加蜂后50%的壽命的同時稍微減少了變異幾率。
@@ -1387,10 +1387,10 @@ for.plugin.agricraft.description=AgriCraft兼容組件。
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces forestry.allele.<adjective>
+# Replaces Forestry.allele.<adjective>
 #
 # Syntax:
-# forestry.allele.<category>.<adjective>=New custom adjective
+# Forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1406,9 +1406,9 @@ for.plugin.agricraft.description=AgriCraft兼容組件。
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
-# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
-# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
+# Forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing Forestry.allele.slowest
+# Forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing Forestry.allele.slowest
+# Forestry.allele.yield.low=New custom adjective for low yield, replacing Forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS

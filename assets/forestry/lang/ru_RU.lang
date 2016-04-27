@@ -157,7 +157,7 @@ for.gui.flowers=Вид цветка
 for.gui.flyer=устойчивый летун
 for.gui.flyer.tooltip=устойчивый летун
 for.gui.general=Общий
-forestry.allele.gigantic=Гигантская
+Forestry.allele.gigantic=Гигантская
 for.gui.heat=Нагрев
 for.gui.hellish=Адский
 for.gui.hot=Горячая
@@ -262,57 +262,57 @@ for.gui.solder.south=Ю
 for.gui.solder.east=В
 for.gui.solder.west=З
 
-forestry.allele.normal=Обычный
-forestry.allele.average=Средний
+Forestry.allele.normal=Обычный
+Forestry.allele.average=Средний
 
-forestry.allele.slowest=Самый медленный
-forestry.allele.slower=Очень медленный
-forestry.allele.slow=Медленный
-forestry.allele.fast=Быстрый
-forestry.allele.faster=Очень быстрый
-forestry.allele.fastest=Быстрейший
-forestry.allele.maximum=Макс. ск.
+Forestry.allele.slowest=Самый медленный
+Forestry.allele.slower=Очень медленный
+Forestry.allele.slow=Медленный
+Forestry.allele.fast=Быстрый
+Forestry.allele.faster=Очень быстрый
+Forestry.allele.fastest=Быстрейший
+Forestry.allele.maximum=Макс. ск.
 
-forestry.allele.smallest=Самый маленький
-forestry.allele.smaller=Очень маленький
-forestry.allele.small=Маленький
-forestry.allele.large=Большой
-forestry.allele.larger=Очень большой
-forestry.allele.largest=Крупнейший
+Forestry.allele.smallest=Самый маленький
+Forestry.allele.smaller=Очень маленький
+Forestry.allele.small=Маленький
+Forestry.allele.large=Большой
+Forestry.allele.larger=Очень большой
+Forestry.allele.largest=Крупнейший
 
-forestry.allele.lowest=Самый низкий
-forestry.allele.lower=Очень низкий
-forestry.allele.low=Низкий
-forestry.allele.high=Высокий
-forestry.allele.higher=Очень высокий
-forestry.allele.highest=Наивысший
+Forestry.allele.lowest=Самый низкий
+Forestry.allele.lower=Очень низкий
+Forestry.allele.low=Низкий
+Forestry.allele.high=Высокий
+Forestry.allele.higher=Очень высокий
+Forestry.allele.highest=Наивысший
 
-forestry.allele.tolerance.both1=Обе 1
-forestry.allele.tolerance.both2=Обе 2
-forestry.allele.tolerance.both3=Обе 3
-forestry.allele.tolerance.both4=Обе 4
-forestry.allele.tolerance.both5=Обе 5
-forestry.allele.tolerance.down1=Вниз 1
-forestry.allele.tolerance.down2=Вниз 2
-forestry.allele.tolerance.down3=Вниз 3
-forestry.allele.tolerance.down4=Вниз 4
-forestry.allele.tolerance.down5=Вниз 5
-forestry.allele.tolerance.none=Нет
-forestry.allele.tolerance.up1=Вверх 1
-forestry.allele.tolerance.up2=Вверх 2
-forestry.allele.tolerance.up3=Вверх 3
-forestry.allele.tolerance.up4=Вверх 4
-forestry.allele.tolerance.up5=Вверх 5
+Forestry.allele.tolerance.both1=Обе 1
+Forestry.allele.tolerance.both2=Обе 2
+Forestry.allele.tolerance.both3=Обе 3
+Forestry.allele.tolerance.both4=Обе 4
+Forestry.allele.tolerance.both5=Обе 5
+Forestry.allele.tolerance.down1=Вниз 1
+Forestry.allele.tolerance.down2=Вниз 2
+Forestry.allele.tolerance.down3=Вниз 3
+Forestry.allele.tolerance.down4=Вниз 4
+Forestry.allele.tolerance.down5=Вниз 5
+Forestry.allele.tolerance.none=Нет
+Forestry.allele.tolerance.up1=Вверх 1
+Forestry.allele.tolerance.up2=Вверх 2
+Forestry.allele.tolerance.up3=Вверх 3
+Forestry.allele.tolerance.up4=Вверх 4
+Forestry.allele.tolerance.up5=Вверх 5
 
-forestry.allele.lifespan.shortest=Наикратчайший
-forestry.allele.lifespan.shorter=Кратчайший
-forestry.allele.lifespan.short=Краткий
-forestry.allele.lifespan.shortened=Короткий
-forestry.allele.lifespan.normal=Обычный
-forestry.allele.lifespan.elongated=Продлённый
-forestry.allele.lifespan.long=Длинный
-forestry.allele.lifespan.longer=Очень длинный
-forestry.allele.lifespan.longest=Длиннейший
+Forestry.allele.lifespan.shortest=Наикратчайший
+Forestry.allele.lifespan.shorter=Кратчайший
+Forestry.allele.lifespan.short=Краткий
+Forestry.allele.lifespan.shortened=Короткий
+Forestry.allele.lifespan.normal=Обычный
+Forestry.allele.lifespan.elongated=Продлённый
+Forestry.allele.lifespan.long=Длинный
+Forestry.allele.lifespan.longer=Очень длинный
+Forestry.allele.lifespan.longest=Длиннейший
 
 for.gui.size=Размер
 for.gui.slots=Слоты: %USED/%SIZE
@@ -855,24 +855,24 @@ death.bee.radioactive=%1$s вошёл в Чернобыль без своего 
 death.bee.heroic.player=%1$s был убит героическими пчёлами! %2$s навсегда в долгу у него.
 death.bee.heroic=%1$s был убит героическими пчёлами!
 
-forestry.allele.effect.aggressive=Агрессивность
-forestry.allele.effect.beatific=Блаженность
-forestry.allele.effect.creeper=Крипер
-forestry.allele.effect.drunkard=Опьянение
-forestry.allele.effect.exploration=Исследовательность
-forestry.allele.effect.glacial=Замораживание
-forestry.allele.effect.fertile=Плодородие
-forestry.allele.effect.heroic=Геройство
-forestry.allele.effect.ignition=Воспламенение
-forestry.allele.effect.misanthrope=Окончание
-forestry.allele.effect.miasmic=Отравление
-forestry.allele.effect.mycophilic=Грибомания
-forestry.allele.effect.none=Нет
-forestry.allele.effect.radioactive=Радиоактивность
-forestry.allele.effect.reanimation=Реанимация
-forestry.allele.effect.repulsion=Отвращение
-forestry.allele.effect.resurrection=Воскрешение
-forestry.allele.effect.snowing=Снег
+Forestry.allele.effect.aggressive=Агрессивность
+Forestry.allele.effect.beatific=Блаженность
+Forestry.allele.effect.creeper=Крипер
+Forestry.allele.effect.drunkard=Опьянение
+Forestry.allele.effect.exploration=Исследовательность
+Forestry.allele.effect.glacial=Замораживание
+Forestry.allele.effect.fertile=Плодородие
+Forestry.allele.effect.heroic=Геройство
+Forestry.allele.effect.ignition=Воспламенение
+Forestry.allele.effect.misanthrope=Окончание
+Forestry.allele.effect.miasmic=Отравление
+Forestry.allele.effect.mycophilic=Грибомания
+Forestry.allele.effect.none=Нет
+Forestry.allele.effect.radioactive=Радиоактивность
+Forestry.allele.effect.reanimation=Реанимация
+Forestry.allele.effect.repulsion=Отвращение
+Forestry.allele.effect.resurrection=Воскрешение
+Forestry.allele.effect.snowing=Снег
 
 for.beemode.easy.desc=Упрощает пчеловодство за счёт резкого увеличения скорости мутаций и устранения возможности генетической усталости.
 for.beemode.hard.desc=Незначительное сокращение скорости мутаций при увеличении продолжительности жизни отдельных маток на 50%.
@@ -1675,10 +1675,10 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces forestry.allele.<adjective>
+# Replaces Forestry.allele.<adjective>
 #
 # Syntax:
-# forestry.allele.<category>.<adjective>=New custom adjective
+# Forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1694,9 +1694,9 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
-# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
-# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
+# Forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing Forestry.allele.slowest
+# Forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing Forestry.allele.slowest
+# Forestry.allele.yield.low=New custom adjective for low yield, replacing Forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS
@@ -1922,48 +1922,48 @@ for.trees.custom.treealyzer.sapling.padauk=Падук
 for.trees.custom.treealyzer.sapling.cocobolo=Кокоболо
 for.trees.custom.treealyzer.sapling.zebrawood=Зебрано
 
-forestry.allele.height.smallest=Самая низкая
-forestry.allele.height.smaller=Очень низкая
-forestry.allele.height.small=Низкая
-forestry.allele.height.average=Средняя
-forestry.allele.height.large=Большая
-forestry.allele.height.larger=Очень большая
-forestry.allele.height.largest=Наибольшая
-forestry.allele.height.gigantic=Гигантская
+Forestry.allele.height.smallest=Самая низкая
+Forestry.allele.height.smaller=Очень низкая
+Forestry.allele.height.small=Низкая
+Forestry.allele.height.average=Средняя
+Forestry.allele.height.large=Большая
+Forestry.allele.height.larger=Очень большая
+Forestry.allele.height.largest=Наибольшая
+Forestry.allele.height.gigantic=Гигантская
 
-forestry.allele.sappiness.lowest=Самая низкая
-forestry.allele.sappiness.lower=Очень низкая
-forestry.allele.sappiness.low=Низкая
-forestry.allele.sappiness.average=Средняя
-forestry.allele.sappiness.high=Высокая
-forestry.allele.sappiness.higher=Очень высокая
-forestry.allele.sappiness.highest=Наивысшая
+Forestry.allele.sappiness.lowest=Самая низкая
+Forestry.allele.sappiness.lower=Очень низкая
+Forestry.allele.sappiness.low=Низкая
+Forestry.allele.sappiness.average=Средняя
+Forestry.allele.sappiness.high=Высокая
+Forestry.allele.sappiness.higher=Очень высокая
+Forestry.allele.sappiness.highest=Наивысшая
 
-forestry.allele.maturation.slowest=Очень медленное
-forestry.allele.maturation.slower=Медленное
-forestry.allele.maturation.slow=Неторопливое
-forestry.allele.maturation.normal=Обычное
-forestry.allele.maturation.average=Среднее
-forestry.allele.maturation.fast=Быстрое
-forestry.allele.maturation.faster=Очень быстрое
-forestry.allele.maturation.fastest=Наибыстрейшее
+Forestry.allele.maturation.slowest=Очень медленное
+Forestry.allele.maturation.slower=Медленное
+Forestry.allele.maturation.slow=Неторопливое
+Forestry.allele.maturation.normal=Обычное
+Forestry.allele.maturation.average=Среднее
+Forestry.allele.maturation.fast=Быстрое
+Forestry.allele.maturation.faster=Очень быстрое
+Forestry.allele.maturation.fastest=Наибыстрейшее
 
-forestry.allele.speed.slowest=Очень медленная
-forestry.allele.speed.slower=Медленная
-forestry.allele.speed.slow=Неторопливая
-forestry.allele.speed.normal=Обычная
-forestry.allele.speed.fast=Быстрая
-forestry.allele.speed.faster=Очень быстрая
-forestry.allele.speed.fastest=Наибыстрейшая
+Forestry.allele.speed.slowest=Очень медленная
+Forestry.allele.speed.slower=Медленная
+Forestry.allele.speed.slow=Неторопливая
+Forestry.allele.speed.normal=Обычная
+Forestry.allele.speed.fast=Быстрая
+Forestry.allele.speed.faster=Очень быстрая
+Forestry.allele.speed.fastest=Наибыстрейшая
 
-forestry.allele.flowering.slowest=Очень медленная
-forestry.allele.flowering.slower=Медленная
-forestry.allele.flowering.slow=Неторопливая
-forestry.allele.flowering.normal=Обычная
-forestry.allele.flowering.fast=Быстрая
-forestry.allele.flowering.faster=Очень быстрая
-forestry.allele.flowering.fastest=Наибыстрейшая
-forestry.allele.flowering.maximum=Максимально быстрая
+Forestry.allele.flowering.slowest=Очень медленная
+Forestry.allele.flowering.slower=Медленная
+Forestry.allele.flowering.slow=Неторопливая
+Forestry.allele.flowering.normal=Обычная
+Forestry.allele.flowering.fast=Быстрая
+Forestry.allele.flowering.faster=Очень быстрая
+Forestry.allele.flowering.fastest=Наибыстрейшая
+Forestry.allele.flowering.maximum=Максимально быстрая
 
 for.tooltip.worker.slowest=Очень медленный рабочий
 for.tooltip.worker.slower=Медленный рабочий

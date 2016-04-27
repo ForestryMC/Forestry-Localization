@@ -264,58 +264,58 @@ for.gui.solder.south=S
 for.gui.solder.east=E
 for.gui.solder.west=W
 
-forestry.allele.average=Average
-forestry.allele.gigantic=Gigantic
-forestry.allele.normal=Normal
+Forestry.allele.average=Average
+Forestry.allele.gigantic=Gigantic
+Forestry.allele.normal=Normal
 
-forestry.allele.slowest=Slowest
-forestry.allele.slower=Slower
-forestry.allele.slow=Slow
-forestry.allele.fast=Fast
-forestry.allele.faster=Faster
-forestry.allele.fastest=Fastest
-forestry.allele.maximum=Maximum
+Forestry.allele.slowest=Slowest
+Forestry.allele.slower=Slower
+Forestry.allele.slow=Slow
+Forestry.allele.fast=Fast
+Forestry.allele.faster=Faster
+Forestry.allele.fastest=Fastest
+Forestry.allele.maximum=Maximum
 
-forestry.allele.smallest=Smallest
-forestry.allele.smaller=Smaller
-forestry.allele.small=Small
-forestry.allele.large=Large
-forestry.allele.larger=Larger
-forestry.allele.largest=Largest
+Forestry.allele.smallest=Smallest
+Forestry.allele.smaller=Smaller
+Forestry.allele.small=Small
+Forestry.allele.large=Large
+Forestry.allele.larger=Larger
+Forestry.allele.largest=Largest
 
-forestry.allele.lowest=Lowest
-forestry.allele.lower=Lower
-forestry.allele.low=Low
-forestry.allele.high=High
-forestry.allele.higher=Higher
-forestry.allele.highest=Highest
+Forestry.allele.lowest=Lowest
+Forestry.allele.lower=Lower
+Forestry.allele.low=Low
+Forestry.allele.high=High
+Forestry.allele.higher=Higher
+Forestry.allele.highest=Highest
 
-forestry.allele.tolerance.both1=Both 1
-forestry.allele.tolerance.both2=Both 2
-forestry.allele.tolerance.both3=Both 3
-forestry.allele.tolerance.both4=Both 4
-forestry.allele.tolerance.both5=Both 5
-forestry.allele.tolerance.down1=Down 1
-forestry.allele.tolerance.down2=Down 2
-forestry.allele.tolerance.down3=Down 3
-forestry.allele.tolerance.down4=Down 4
-forestry.allele.tolerance.down5=Down 5
-forestry.allele.tolerance.none=None
-forestry.allele.tolerance.up1=Up 1
-forestry.allele.tolerance.up2=Up 2
-forestry.allele.tolerance.up3=Up 3
-forestry.allele.tolerance.up4=Up 4
-forestry.allele.tolerance.up5=Up 5
+Forestry.allele.tolerance.both1=Both 1
+Forestry.allele.tolerance.both2=Both 2
+Forestry.allele.tolerance.both3=Both 3
+Forestry.allele.tolerance.both4=Both 4
+Forestry.allele.tolerance.both5=Both 5
+Forestry.allele.tolerance.down1=Down 1
+Forestry.allele.tolerance.down2=Down 2
+Forestry.allele.tolerance.down3=Down 3
+Forestry.allele.tolerance.down4=Down 4
+Forestry.allele.tolerance.down5=Down 5
+Forestry.allele.tolerance.none=None
+Forestry.allele.tolerance.up1=Up 1
+Forestry.allele.tolerance.up2=Up 2
+Forestry.allele.tolerance.up3=Up 3
+Forestry.allele.tolerance.up4=Up 4
+Forestry.allele.tolerance.up5=Up 5
 
-forestry.allele.lifespan.shortest=Shortest
-forestry.allele.lifespan.shorter=Shorter
-forestry.allele.lifespan.short=Short
-forestry.allele.lifespan.shortened=Shortened
-forestry.allele.lifespan.normal=Normal
-forestry.allele.lifespan.elongated=Elongated
-forestry.allele.lifespan.long=Long
-forestry.allele.lifespan.longer=Longer
-forestry.allele.lifespan.longest=Longest
+Forestry.allele.lifespan.shortest=Shortest
+Forestry.allele.lifespan.shorter=Shorter
+Forestry.allele.lifespan.short=Short
+Forestry.allele.lifespan.shortened=Shortened
+Forestry.allele.lifespan.normal=Normal
+Forestry.allele.lifespan.elongated=Elongated
+Forestry.allele.lifespan.long=Long
+Forestry.allele.lifespan.longer=Longer
+Forestry.allele.lifespan.longest=Longest
 
 for.gui.size=Size
 for.gui.slots=%USED/%SIZE Slots
@@ -836,24 +836,24 @@ death.bee.radioactive=%1$s walked into Chernobyl without his helmet on.
 death.bee.heroic.player=%1$s was slain by heroic bees! %2$s is forever in their debt.
 death.bee.heroic=%1$s was slain by heroic bees!
 
-forestry.allele.effect.aggressive=Aggress.
-forestry.allele.effect.beatific=Beatific
-forestry.allele.effect.creeper=Creeper
-forestry.allele.effect.drunkard=Drunkard
-forestry.allele.effect.exploration=Explorer
-forestry.allele.effect.glacial=Freezing
-forestry.allele.effect.fertile=Fertile
-forestry.allele.effect.heroic=Heroic
-forestry.allele.effect.ignition=Flammable
-forestry.allele.effect.misanthrope=Ends
-forestry.allele.effect.miasmic=Poison
-forestry.allele.effect.mycophilic=Mycophilic
-forestry.allele.effect.none=None
-forestry.allele.effect.radioactive=Radioact.
-forestry.allele.effect.reanimation=Reanimation
-forestry.allele.effect.repulsion=Repulsion
-forestry.allele.effect.resurrection=Resurrection
-forestry.allele.effect.snowing=Snow
+Forestry.allele.effect.aggressive=Aggress.
+Forestry.allele.effect.beatific=Beatific
+Forestry.allele.effect.creeper=Creeper
+Forestry.allele.effect.drunkard=Drunkard
+Forestry.allele.effect.exploration=Explorer
+Forestry.allele.effect.glacial=Freezing
+Forestry.allele.effect.fertile=Fertile
+Forestry.allele.effect.heroic=Heroic
+Forestry.allele.effect.ignition=Flammable
+Forestry.allele.effect.misanthrope=Ends
+Forestry.allele.effect.miasmic=Poison
+Forestry.allele.effect.mycophilic=Mycophilic
+Forestry.allele.effect.none=None
+Forestry.allele.effect.radioactive=Radioact.
+Forestry.allele.effect.reanimation=Reanimation
+Forestry.allele.effect.repulsion=Repulsion
+Forestry.allele.effect.resurrection=Resurrection
+Forestry.allele.effect.snowing=Snow
 
 for.beemode.easy.desc=Simplifies beebreeding by drastically increasing mutation rate and removing the chance for genetic fatigue.
 for.beemode.hard.desc=Reducing mutation rate slightly while increasing lifespan of individual queens by 50%%.
@@ -1677,10 +1677,10 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces forestry.allele.<adjective>
+# Replaces Forestry.allele.<adjective>
 #
 # Syntax:
-# forestry.allele.<category>.<adjective>=New custom adjective
+# Forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1696,9 +1696,9 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
-# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
-# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
+# Forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing Forestry.allele.slowest
+# Forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing Forestry.allele.slowest
+# Forestry.allele.yield.low=New custom adjective for low yield, replacing Forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS

@@ -165,7 +165,7 @@ for.gui.alyzer.overview=Analytics available
 
 for.gui.area=지역
 for.gui.arid=건조
-forestry.allele.normal=평균
+Forestry.allele.normal=평균
 for.gui.beach=해변
 
 for.gui.beealyzer.artificial=인공 교배
@@ -176,22 +176,22 @@ for.gui.beealyzer.mutations=추정 변이체
 for.gui.beealyzer.natural=자연에서 기원됨
 for.gui.beealyzer.produce=추정 생산물
 for.gui.beealyzer.specialty=추정 부산물
-forestry.allele.tolerance.both1=±1
-forestry.allele.tolerance.both2=±2
-forestry.allele.tolerance.both3=±3
-forestry.allele.tolerance.both4=±4
-forestry.allele.tolerance.both5=±5
-forestry.allele.tolerance.down1=-1
-forestry.allele.tolerance.down2=-2
-forestry.allele.tolerance.down3=-3
-forestry.allele.tolerance.down4=-4
-forestry.allele.tolerance.down5=-5
-forestry.allele.tolerance.none=기본
-forestry.allele.tolerance.up1=+1
-forestry.allele.tolerance.up2=+2
-forestry.allele.tolerance.up3=+3
-forestry.allele.tolerance.up4=+4
-forestry.allele.tolerance.up5=+5
+Forestry.allele.tolerance.both1=±1
+Forestry.allele.tolerance.both2=±2
+Forestry.allele.tolerance.both3=±3
+Forestry.allele.tolerance.both4=±4
+Forestry.allele.tolerance.both5=±5
+Forestry.allele.tolerance.down1=-1
+Forestry.allele.tolerance.down2=-2
+Forestry.allele.tolerance.down3=-3
+Forestry.allele.tolerance.down4=-4
+Forestry.allele.tolerance.down5=-5
+Forestry.allele.tolerance.none=기본
+Forestry.allele.tolerance.up1=+1
+Forestry.allele.tolerance.up2=+2
+Forestry.allele.tolerance.up3=+3
+Forestry.allele.tolerance.up4=+4
+Forestry.allele.tolerance.up5=+5
 for.gui.beealyzer=벌 분석기
 
 for.gui.blank=내용없음
@@ -207,16 +207,16 @@ for.gui.didyouknow=알고 계십니까?
 for.gui.diurnal=주행성
 for.gui.drones=일벌
 for.gui.effect=효과
-forestry.allele.lifespan.elongated=조금 김
+Forestry.allele.lifespan.elongated=조금 김
 for.gui.empty=없음
 for.gui.emptysocket=빈 소켓
 for.gui.energy=에너지
 for.gui.environment=장비
 for.gui.escritoire.probe=Examine Specimens
 for.gui.evolution=진화와 변이 관련 정보
-forestry.allele.fast=빠름
-forestry.allele.faster=매우 빠름
-forestry.allele.fastest=광속
+Forestry.allele.fast=빠름
+Forestry.allele.faster=매우 빠름
+Forestry.allele.fastest=광속
 for.gui.fecundated=교배됨
 for.gui.fertility=번식력
 for.gui.fireresist=불연성
@@ -224,12 +224,12 @@ for.gui.flowers=꽃 종류
 for.gui.flyer=우천활동
 for.gui.flyer.tooltip=우천활동
 for.gui.general=개체 정보
-forestry.allele.gigantic=초거대
+Forestry.allele.gigantic=초거대
 for.gui.heat=열
 for.gui.hellish=지옥
-forestry.allele.high=높음
-forestry.allele.higher=더 높음
-forestry.allele.highest=가장 높음
+Forestry.allele.high=높음
+Forestry.allele.higher=더 높음
+Forestry.allele.highest=가장 높음
 for.gui.hot=열대기후
 for.gui.humidity=습도
 for.gui.humidtol=습도 적응력
@@ -238,17 +238,17 @@ for.gui.icy=한대기후
 for.gui.imprinter.cheater=(당신은 치터야)
 for.gui.imprinter.name=게놈 임프린터
 for.gui.inactive=미발현
-forestry.allele.large=큼
-forestry.allele.larger=더 큼
-forestry.allele.largest=가장 큼
+Forestry.allele.large=큼
+Forestry.allele.larger=더 큼
+Forestry.allele.largest=가장 큼
 for.gui.life=수명
 for.gui.lifespan=수명
-forestry.allele.lifespan.longer=장수
-forestry.allele.lifespan.longest=불로불사
-forestry.allele.lifespan.long=김
-forestry.allele.low=가장 낮음
-forestry.allele.lower=더 낮음
-forestry.allele.lowest=낮음
+Forestry.allele.lifespan.longer=장수
+Forestry.allele.lifespan.longest=불로불사
+Forestry.allele.lifespan.long=김
+Forestry.allele.low=가장 낮음
+Forestry.allele.lower=더 낮음
+Forestry.allele.lowest=낮음
 
 for.gui.mail.foreveryattached=동봉된 이 아이템으로
 for.gui.mail.from=from
@@ -268,7 +268,7 @@ for.gui.nether=지옥
 for.gui.nocturnal=야행성
 for.gui.noeffect=효과 없음
 for.gui.normal=기본
-forestry.allele.normal=기본
+Forestry.allele.normal=기본
 for.gui.owner=주인
 for.gui.page=페이지
 
@@ -297,19 +297,19 @@ for.gui.rule.private=개인
 for.gui.rule.restricted=관계자
 for.gui.rule.shared=공유
 
-forestry.allele.lifespan.shortened=조금 짧음
-forestry.allele.lifespan.shorter=하루살이
-forestry.allele.lifespan.shortest=가장 짧음
-forestry.allele.lifespan.short=짧음
+Forestry.allele.lifespan.shortened=조금 짧음
+Forestry.allele.lifespan.shorter=하루살이
+Forestry.allele.lifespan.shortest=가장 짧음
+Forestry.allele.lifespan.short=짧음
 
 for.gui.size=크기
 for.gui.slots=%USED/%SIZE 슬롯
-forestry.allele.slow=느림
-forestry.allele.slower=매우 느림
-forestry.allele.slowest=가장 느림
-forestry.allele.small=작음
-forestry.allele.smaller=더 작음
-forestry.allele.smallest=가장 작음
+Forestry.allele.slow=느림
+Forestry.allele.slower=매우 느림
+Forestry.allele.slowest=가장 느림
+Forestry.allele.small=작음
+Forestry.allele.smaller=더 작음
+Forestry.allele.smallest=가장 작음
 for.gui.species=종
 for.gui.speciescount=종
 for.gui.speed=생산 속도
@@ -677,22 +677,22 @@ death.bee.end=%1$s 님이 성난 벌들에게 휩쌓여 퉁퉁 부은 상태로 
 death.bee.radioactive.player==%1$s 님이 헬멧을 쓰지 않은 채로 방사성 벌에 돌진하다가 피폭되어 돌아가셨습니다. 모든 상황을 지켜본 %2$s 님은 %1$s 님의 기구한 운명을 비웃으셨습니다.
 death.bee.radioactive=%1$s 님이 헬멧을 쓰지 않은 채로 방사성 벌에 돌진하다가 피폭되어 돌아가셨습니다.
 
-forestry.allele.effect.aggressive=Aggress.
-forestry.allele.effect.beatific=Beatific
-forestry.allele.effect.creeper=폭발
-forestry.allele.effect.drunkard=Drunkard
-forestry.allele.effect.exploration=Explorer
-forestry.allele.effect.glacial=빙결
-forestry.allele.effect.heroic=투쟁
-forestry.allele.effect.ignition=Flammable
-forestry.allele.effect.misanthrope=종말
-forestry.allele.effect.miasmic=중독
-forestry.allele.effect.none=없음
-forestry.allele.effect.radioactive=방사능
-forestry.allele.effect.reanimation=소생
-forestry.allele.effect.repulsion=반발
-forestry.allele.effect.resurrection=부활
-forestry.allele.effect.snowing=강설
+Forestry.allele.effect.aggressive=Aggress.
+Forestry.allele.effect.beatific=Beatific
+Forestry.allele.effect.creeper=폭발
+Forestry.allele.effect.drunkard=Drunkard
+Forestry.allele.effect.exploration=Explorer
+Forestry.allele.effect.glacial=빙결
+Forestry.allele.effect.heroic=투쟁
+Forestry.allele.effect.ignition=Flammable
+Forestry.allele.effect.misanthrope=종말
+Forestry.allele.effect.miasmic=중독
+Forestry.allele.effect.none=없음
+Forestry.allele.effect.radioactive=방사능
+Forestry.allele.effect.reanimation=소생
+Forestry.allele.effect.repulsion=반발
+Forestry.allele.effect.resurrection=부활
+Forestry.allele.effect.snowing=강설
 
 for.beemode.easy.desc=Simplifies beebreeding by drastically increasing mutation rate and removing the chance for genetic fatigue.
 for.beemode.hard.desc=Reducing mutation rate slightly while increasing lifespan of individual queens by 50%%.
@@ -1350,10 +1350,10 @@ for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Add
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces forestry.allele.<adjective>
+# Replaces Forestry.allele.<adjective>
 #
 # Syntax:
-# forestry.allele.<category>.<adjective>=New custom adjective
+# Forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1369,9 +1369,9 @@ for.plugin.farmcraftory.description=Enables compatibility with FarmCraftory. Add
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
-# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
-# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.lowh
+# Forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing Forestry.allele.slowest
+# Forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing Forestry.allele.slowest
+# Forestry.allele.yield.low=New custom adjective for low yield, replacing Forestry.allele.lowh
 
 ###################################
 # CUSTOM TOOLTIPS
