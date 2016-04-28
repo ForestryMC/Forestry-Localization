@@ -1520,23 +1520,24 @@ for.plugin.storage.description=添加背包和板条箱的组件。
 for.plugin.buildcraft6.description=BC6兼容组件。
 for.plugin.pipes.description=如果同时安装了BC6且养蜂组件已激活，则添加养蜂员管道的组件。
 for.plugin.ic2.description=IC2兼容组件。添加电力引擎和新的发电机用来进行能源转换。
-for.plugin.natura.description=Natura兼容组件。激活后农场能够支持Natura的树苗。
+for.plugin.natura.description=自然(Natura)兼容组件。激活后农场能够支持Natura的树苗。
 for.plugin.ee2.description=等价交换2兼容组件。激活后开启蜜蜂的终结分支。需要前置的养蜂组件激活。
 for.plugin.ee3.description=等价交换3兼容组件。
 for.plugin.farmcraftory.description=牧场物语(FarmCraftory)兼容组件。添加作物和蔬菜的自动化农场支持。
 for.plugin.biomesoplenty.description=更多生物群系(Biomes O' Plenty)兼容组件。激活后农场能够支持BoP的树苗。
 for.plugin.extrautilities.description=更多实用设备(Extra Utilities)兼容组件。激活后农场能够支持末影百合。
-for.plugin.harvestcraft.description=潘马斯的丰收(HarvestCraft)兼容组件。激活后农场能够支持HarvestCraft的植物及树苗。
+for.plugin.harvestcraft.description=潘马斯农场(HarvestCraft)兼容组件。激活后农场能够支持HarvestCraft的植物及树苗。
 for.plugin.magicalcrops.description=魔法作物(Magical Crops)兼容组件。
 for.plugin.chisel.description=凿子(Chisel)兼容组件。添加背包对其方块的支持。
-for.plugin.plantmegapack.description=Plant Mega Pack兼容组件。
-for.plugin.witchery.description=巫术(Witchery)兼容组件。
+for.plugin.plantmegapack.description=超多植物世界(Plant Mega Pack)兼容组件。
+for.plugin.witchery.description=巫术兼容组件。
 for.plugin.agricraft.description=农业工艺(AgriCraft)兼容组件。
 for.plugin.enderIO.description=末影接口(EnderIO)兼容组件。
 for.plugin.immersiveengineering.description=Immersive Engineering兼容组件。
 for.plugin.growthcraft.description=生长工艺(GrowthCraft)兼容组件。
 for.plugin.erebus.description=Erebus兼容组件。
 for.plugin.rotarycraft.description=旋转工艺(RotaryCraft)兼容组件。
+for.plugin.minefactoryreloaded.description=我的工厂重置版(MineFactoryReloaded)兼容组件。
 
 ####################
 # CONFIG FILES
