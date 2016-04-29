@@ -1536,6 +1536,7 @@ for.plugin.immersiveengineering.description=Kompatibilitätsplugin für Immersiv
 for.plugin.growthcraft.description=Kompatibilitätsplugin für GrowthCraft.
 for.plugin.erebus.description=Kompatibilitätsplugin für Erebus.
 for.plugin.rotarycraft.description=Kompatibilitätsplugin für RotaryCraft.
+for.plugin.minefactoryreloaded.description=Kompatibilitätsplugin für MineFactoryReloaded
 
 ####################
 # CONFIG FILES
