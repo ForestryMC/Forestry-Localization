@@ -950,7 +950,7 @@ tile.for.candle.dyed.stump.name=Vela Tingida Apagada
 tile.for.candle.lit.name=Vela Acesa
 tile.for.candle.stump.name=Vela Apagada
 
-tile.for.stump.0.name=Toco de Vela
+tile.for.stump.name=Toco de Vela
 
 ####################
 # ARBORICULTURE

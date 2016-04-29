@@ -1068,7 +1068,7 @@ tile.for.candle.dyed.stump.name=Unlit Dyed Candle
 tile.for.candle.lit.name=Lit Candle
 tile.for.candle.stump.name=Unlit Candle
 
-tile.for.stump.0.name=Candle Stump
+tile.for.stump.name=Candle Stump
 
 ####################
 # MULTIBLOCK

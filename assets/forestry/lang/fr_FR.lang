@@ -1065,7 +1065,7 @@ tile.for.candle.dyed.stump.name=Bougie teinté éteinte
 tile.for.candle.lit.name=Bougie allumée
 tile.for.candle.stump.name=Bougie éteinte
 
-tile.for.stump.0.name=Morceau de bougie
+tile.for.stump.name=Morceau de bougie
 
 ####################
 # MULTIBLOCK

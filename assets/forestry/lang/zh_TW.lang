@@ -978,7 +978,7 @@ tile.for.candle.dyed.stump.name=染色蠟燭(熄滅)
 tile.for.candle.lit.name=蠟燭(發光)
 tile.for.candle.stump.name=蠟燭(熄滅)
 
-tile.for.stump.0.name=蠟燭
+tile.for.stump.name=蠟燭
 
 ####################
 # ARBORICULTURE

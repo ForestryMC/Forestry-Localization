@@ -1082,7 +1082,7 @@ tile.for.candle.dyed.stump.name=Тёмная крашеная свеча
 tile.for.candle.lit.name=Светлая свеча
 tile.for.candle.stump.name=Тёмная свеча
 
-tile.for.stump.0.name=Потухшая свеча
+tile.for.stump.name=Потухшая свеча
 
 ####################
 # MULTIBLOCK

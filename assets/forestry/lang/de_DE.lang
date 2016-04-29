@@ -1068,7 +1068,7 @@ tile.for.candle.dyed.stump.name=Nicht brennende gefärbte Kerze
 tile.for.candle.lit.name=Brennende Kerze
 tile.for.candle.stump.name=Nicht brennende Kerze
 
-tile.for.stump.0.name=Kerzenstumpf
+tile.for.stump.name=Kerzenstumpf
 
 ####################
 # MULTIBLOCK
