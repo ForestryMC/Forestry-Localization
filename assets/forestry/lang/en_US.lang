@@ -1346,6 +1346,7 @@ tile.for.greenhouse.glass.name=Greenhouse Glass
 tile.for.greenhouse.gearbox.name=Greenhouse Gearbox
 tile.for.greenhouse.hatch_output.name=Greenhouse Output Hatch
 tile.for.greenhouse.hatch_input.name=Greenhouse Input Hatch
+tile.for.greenhouse.butterfly_hatch.name=Greenhouse Butterfly Hatch
 tile.for.greenhouse.valve.name=Greenhouse Valve
 tile.for.greenhouse.fan.name=Greenhouse Fan
 tile.for.greenhouse.heater.name=Greenhouse Heater
