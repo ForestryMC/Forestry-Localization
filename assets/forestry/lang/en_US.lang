@@ -1075,15 +1075,15 @@ tile.for.stump.0.name=Candle Stump
 ####################
 
 for.multiblock.error.notConnected=The MultiBlock is not connected to a controller. This could be due to lag, or a bug. If the problem persists, try breaking and re-placing the block.
-for.multiblock.error.invalid.interior=%d, %d, %d - (%s) Block is not valid for use in the machine's interior.
-for.multiblock.error.invalid.part=The multiblock part @ %d, %d, %d is incompatible with machines of type %s.
-for.multiblock.error.small=The multiblock is too small. It must be at least %d X, %d Y, %d Z.
-for.multiblock.error.large.x=The multiblock is too large, it may be at most %d blocks in the X dimension.
-for.multiblock.error.large.y=The multiblock is too large, it may be at most %d blocks in the Y dimension.
-for.multiblock.error.large.z=The multiblock is too large, it may be at most %d blocks in the Z dimension.
-for.multiblock.error.small.x=The multiblock is too small, it must be at least %d blocks in the X dimension.
-for.multiblock.error.small.y=The multiblock is too small, it must be at least %d blocks in the Y dimension.
-for.multiblock.error.small.z=The multiblock is too small, it must be at least %d blocks in the Z dimension.
+for.multiblock.error.invalid.interior=(%s) - Block is not valid for use in the machine's interior.
+for.multiblock.error.invalid.part=A multiblock part is incompatible with this type (%s).
+for.multiblock.error.small=The multiblock is too small. It must be at least %dx%dx%d in size.
+for.multiblock.error.large.x=The multiblock is too large, it may be at most %d blocks wide.
+for.multiblock.error.large.y=The multiblock is too large, it may be at most %d blocks high.
+for.multiblock.error.large.z=The multiblock is too large, it may be at most %d blocks deep.
+for.multiblock.error.small.x=The multiblock is too small, it must be at least %d blocks wide.
+for.multiblock.error.small.y=The multiblock is too small, it must be at least %d blocks high.
+for.multiblock.error.small.z=The multiblock is too small, it must be at least %d blocks deep.
 
 for.multiblock.alveary.error.needSlabs=The Alveary must have wooden slabs on top.
 for.multiblock.alveary.error.needSpace=The alveary needs space around the top for the bees to enter and exit.
@@ -1093,6 +1093,10 @@ for.multiblock.alveary.error.needPlainInterior=The Alveary must have plain alvea
 for.multiblock.farm.error.needPlainBand=The Farm must have plain farm blocks for the third level.
 for.multiblock.farm.error.needPlainInterior=The Farm must have plain farm blocks for the interior.
 for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept power and do work.
+
+for.multiblock.alveary.type=Alveary
+for.multiblock.farm.type=Farm
+for.multiblock.greenhouse.type=Greenhouse
 
 ####################
 # ARBORICULTURE

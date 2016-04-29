@@ -661,10 +661,15 @@ tile.for.core.analyzer.name=Analysierer
 tile.for.core.escritoire.name=Schreibtisch
 
 tile.for.engine.electrical.name=Elektromotor
+tile.for.engine.electrical.tooltip=Wandelt EU in RF um.
 tile.for.engine.peat.name=Torfbefeuerter Motor
+tile.for.engine.peat.tooltip=Produziert RF aus Torf.
 tile.for.engine.biogas.name=Biomassemotor
+tile.for.engine.biogas.tooltip=Produziert RF aus organischen Fluiden und Lava.
 tile.for.engine.generator.name=Biogenerator
+tile.for.engine.generator.tooltip=Produziert EU aus Biomasse und Ethanol.
 tile.for.engine.clockwork.name=Motor mit Uhrwerk
+tile.for.engine.clockwork.tooltip=Produziert geringe Mengen an RF. Rechtsklick zum Aufziehen.
 
 tile.for.factory.bottler.name=Abfüller
 tile.for.factory.carpenter.name=Schreinerei
@@ -1070,15 +1075,15 @@ tile.for.stump.0.name=Kerzenstumpf
 ####################
 
 for.multiblock.error.notConnected=Der Multiblock ist mit keinem Controller verbunden. Dies könnte aufgrund von Lag oder ein Bug sein. Sollte das Problem bestehen bleiben, versuche, den Block erneut zu platzieren.
-for.multiblock.error.invalid.interior=%d, %d, %d - (%s) Block ist ungültig für das Innere der Maschine.
-for.multiblock.error.invalid.part=Das Multiblockteil bei %d, %d, %d ist inkompatibel mit Maschinen vom Typ %s.
+for.multiblock.error.invalid.interior=(%s) - Block ist ungültig für das Innere der Maschine.
+for.multiblock.error.invalid.part=Ein Multiblockteil ist inkompatibel mit diesem Typ (%s).
 for.multiblock.error.small=Der Multiblock ist zu klein. Er muss mindestens %dx%dx%d groß sein.
-for.multiblock.error.large.x=Der Multiblock ist zu groß. Er darf höchstens %d Blöcke in die X-Richtung reichen.
-for.multiblock.error.large.y=Der Multiblock ist zu groß. Er darf höchstens %d Blöcke in die Y-Richtung reichen.
-for.multiblock.error.large.z=Der Multiblock ist zu groß. Er darf höchstens %d Blöcke in die Z-Richtung reichen.
-for.multiblock.error.small.x=Der Multiblock ist zu klein. Er muss mindestens %d Blöcke in die X-Richtung reichen.
-for.multiblock.error.small.y=Der Multiblock ist zu klein. Er muss mindestens %d Blöcke in die Y-Richtung reichen.
-for.multiblock.error.small.z=Der Multiblock ist zu klein. Er muss mindestens %d Blöcke in die Z-Richtung reichen.
+for.multiblock.error.large.x=Der Multiblock ist zu groß. Er darf höchstens %d Blöcke breit sein.
+for.multiblock.error.large.y=Der Multiblock ist zu groß. Er darf höchstens %d Blöcke hoch sein.
+for.multiblock.error.large.z=Der Multiblock ist zu groß. Er darf höchstens %d Blöcke tief sein.
+for.multiblock.error.small.x=Der Multiblock ist zu klein. Er muss mindestens %d Blöcke breit sein.
+for.multiblock.error.small.y=Der Multiblock ist zu klein. Er muss mindestens %d Blöcke hoch sein.
+for.multiblock.error.small.z=Der Multiblock ist zu klein. Er muss mindestens %d Blöcke tief sein.
 
 for.multiblock.alveary.error.needSlabs=Der Bienenstock muss mit Holzstufen abgedeckt sein.
 for.multiblock.alveary.error.needSpace=Der Bienenstock braucht oben etwas Platz, damit Bienen rein und raus kommen.
@@ -1088,6 +1093,10 @@ for.multiblock.alveary.error.needPlainInterior=Der Bienenstock braucht im Innere
 for.multiblock.farm.error.needPlainBand=Die Farm braucht auf der dritten Ebene gewöhnliche Farmblöcke.
 for.multiblock.farm.error.needPlainInterior=Die Farm braucht im Inneren gewöhnliche Farmblöcke.
 for.multiblock.farm.error.needGearbox=Die Farm benötigt eine Getriebebox, um Energie zu erhalten und zu funktionieren.
+
+for.multiblock.alveary.type=Bienenstock
+for.multiblock.farm.type=Farm
+for.multiblock.greenhouse.type=Gewächshaus
 
 ####################
 # ARBORICULTURE
