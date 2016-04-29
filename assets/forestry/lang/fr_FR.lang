@@ -667,7 +667,7 @@ tile.for.core.escritoire.name=Secrétaire
 tile.for.engine.electrical.name=Moteur électrique
 tile.for.engine.peat.name=Moteur tourbe
 tile.for.engine.biogas.name=Moteur biogaz
-tile.for.engine.bio.generator.name=Générator Bio
+tile.for.engine.generator.name=Générator Bio
 tile.for.engine.clockwork.name=Moteur de précision
 
 tile.for.factory.bottler.name=Embouteilleur

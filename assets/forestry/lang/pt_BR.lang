@@ -680,7 +680,7 @@ tile.for.core.escritoire.name=Escrivaninha
 tile.for.engine.electrical.name=Motor Elétrico
 tile.for.engine.peat.name=Motor de Turfa
 tile.for.engine.biogas.name=Motor de Biogás
-tile.for.engine.bio.generator.name=Bio Gerador
+tile.for.engine.generator.name=Bio Gerador
 tile.for.engine.clockwork.name=Motor de Engrenagem
 
 tile.for.factory.bottler.name=Engarrafador

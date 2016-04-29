@@ -708,7 +708,7 @@ tile.for.core.escritoire.name=寫字檯
 tile.for.engine.electrical.name=電動引擎
 tile.for.engine.peat.name=泥炭引擎
 tile.for.engine.biogas.name=生物燃油引擎
-tile.for.engine.bio.generator.name=生物質引擎
+tile.for.engine.generator.name=生物質引擎
 tile.for.engine.clockwork.name=發條引擎
 
 tile.for.factory.bottler.name=裝瓶機

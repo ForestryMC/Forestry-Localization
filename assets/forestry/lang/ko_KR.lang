@@ -634,7 +634,7 @@ tile.for.core.escritoire.name=연구 책상
 tile.for.engine.electrical.name=전기 엔진
 tile.for.engine.peat.name=토탄 엔진
 tile.for.engine.biogas.name=바이오가스 엔진
-tile.for.engine.bio.generator.name=바이오연료 발전기
+tile.for.engine.generator.name=바이오연료 발전기
 tile.for.engine.clockwork.name=시계태엽 엔진
 
 tile.for.factory.bottler.name=보틀러

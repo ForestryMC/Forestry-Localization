@@ -63,7 +63,7 @@ for.circuit.machine.efficiency.1.description.1=Decreases Power Use by 10%
 for.circuit.layout.dummy.name=Not Available
 for.circuit.layout.dummy.usage=Nothing
 
-for.circuit.layout.engine.tin.name=Electric Engine
+for.circuit.layout.engine.tin.name=Electrical Engine
 for.circuit.layout.engine.tin.usage=In Electrical Engines
 
 for.circuit.layout.farms.managed.name=Managed Farm
@@ -663,7 +663,7 @@ tile.for.core.escritoire.name=Escritoire
 tile.for.engine.electrical.name=Electrical Engine
 tile.for.engine.peat.name=Peat-fired Engine
 tile.for.engine.biogas.name=Biogas Engine
-tile.for.engine.bio.generator.name=Bio Generator
+tile.for.engine.generator.name=Bio Generator
 tile.for.engine.clockwork.name=Clockwork Engine
 
 tile.for.factory.bottler.name=Bottler

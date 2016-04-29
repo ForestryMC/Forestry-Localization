@@ -684,7 +684,7 @@ tile.for.core.escritoire.name=Секретер
 tile.for.engine.electrical.name=Электродвигатель
 tile.for.engine.peat.name=Торфяной двигатель
 tile.for.engine.biogas.name=Биогазовый двигатель
-tile.for.engine.bio.generator.name=Биогенератор
+tile.for.engine.generator.name=Биогенератор
 tile.for.engine.clockwork.name=Заводной двигатель
 
 tile.for.factory.bottler.name=Разливочный механизм

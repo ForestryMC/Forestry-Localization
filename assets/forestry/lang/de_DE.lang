@@ -663,7 +663,7 @@ tile.for.core.escritoire.name=Schreibtisch
 tile.for.engine.electrical.name=Elektromotor
 tile.for.engine.peat.name=Torfbefeuerter Motor
 tile.for.engine.biogas.name=Biomassemotor
-tile.for.engine.bio.generator.name=Biogenerator
+tile.for.engine.generator.name=Biogenerator
 tile.for.engine.clockwork.name=Motor mit Uhrwerk
 
 tile.for.factory.bottler.name=Abfüller
