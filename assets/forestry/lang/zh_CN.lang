@@ -145,10 +145,10 @@ for.gui.drones=雄蜂
 for.gui.effect=特殊效果
 for.gui.empty=空
 for.gui.emptysocket=空插槽
-for.gui.empty.slot.camouflage.multiblock.default=Default Multiblock Camouflage Slot
-for.gui.empty.slot.camouflage.multiblock.glass=Glass Multiblock Camouflage Slot
-for.gui.empty.slot.camouflage.multiblock.door=Door Multiblock Camouflage Slot
-for.gui.empty.slot.camouflage=Camouflage Slot
+for.gui.empty.slot.camouflage.multiblock.default=多方块结构伪装 - 默认
+for.gui.empty.slot.camouflage.multiblock.glass=多方块结构伪装 - 玻璃
+for.gui.empty.slot.camouflage.multiblock.door=多方块结构伪装 - 门
+for.gui.empty.slot.camouflage=伪装
 for.gui.socket.remove=可用电烙铁拆卸
 for.gui.energy=能量
 for.gui.environment=环境
@@ -454,7 +454,7 @@ for.trigger.lowStamps=需要邮票
 for.trigger.mailBuffer=缓存
 for.trigger.missingDrone=缺乏雄蜂
 for.trigger.missingQueen=缺乏蜂后或公主蜂
-for.trigger.noFrames=缺乏框架
+for.trigger.noFrames=缺少框架
 
 for.yes=是
 
@@ -524,7 +524,7 @@ item.for.craftingMaterial.iceShard.name=碎冰
 item.for.craftingMaterial.pulsatingDust.name=脉动之尘
 item.for.craftingMaterial.pulsatingMesh.name=脉动网格
 item.for.craftingMaterial.scentedPaneling.name=飘香镶板
-item.for.craftingMaterial.camouflagedPaneling.name=Camouflaged Paneling
+item.for.craftingMaterial.camouflagedPaneling.name=伪装镶板
 item.for.craftingMaterial.silkWisp.name=丝缕
 item.for.craftingMaterial.wovenSilk.name=丝绸
 
@@ -657,43 +657,48 @@ itemGroup.arboriculture=林业|植树
 itemGroup.forestry=林业
 itemGroup.lepidopterology=林业|蝴蝶
 
-tile.for.core.0.name=分析仪
-tile.for.core.1.name=写字台
+tile.for.core.analyzer.name=分析仪
+tile.for.core.escritoire.name=写字台
 
-tile.for.engine.0.name=电动引擎
-tile.for.engine.1.name=泥炭引擎
-tile.for.engine.2.name=生物燃油引擎
-tile.for.engine.3.name=生物质引擎
-tile.for.engine.4.name=发条引擎
+tile.for.engine.electrical.name=电动引擎
+tile.for.engine.electrical.tooltip=消耗EU并输出RF。
+tile.for.engine.peat.name=泥炭引擎
+tile.for.engine.peat.tooltip=燃烧泥炭产生RF。
+tile.for.engine.biogas.name=沼气引擎
+tile.for.engine.biogas.tooltip=利用有机液体和岩浆产生RF。
+tile.for.engine.generator.name=生物质发电机
+tile.for.engine.generator.tooltip=利用生物质或乙醇来产生EU。
+tile.for.engine.clockwork.name=发条引擎
+tile.for.engine.clockwork.tooltip=产生少量RF。右击以工作。
 
-tile.for.factory.0.name=装瓶机
-tile.for.factory.1.name=木工机
-tile.for.factory.2.name=离心机
-tile.for.factory.3.name=发酵机
-tile.for.factory.4.name=加湿器
-tile.for.factory.5.name=榨汁机
-tile.for.factory.6.name=蒸馏器
-tile.for.factory.7.name=造雨机
-tile.for.factory2.0.name=热电子加工台
-tile.for.factory2.1.name=集雨蓄水槽
-tile.for.factory2.2.name=工作台
+tile.for.factory.Bottler.name=装瓶机
+tile.for.factory.carpenter.name=木工机
+tile.for.factory.centrifuge.name=离心机
+tile.for.factory.fermenter.name=发酵机
+tile.for.factory.moistener.name=加湿器
+tile.for.factory.squeezer.name=榨汁机
+tile.for.factory.still.name=蒸馏器
+tile.for.factory.rainmaker.name=造雨机
+tile.for.factory2.fabricator.name=热电子加工台
+tile.for.factory2.raintank.name=集雨蓄水槽
+tile.for.factory2.worktable.name=工作台
 
-tile.for.mail.0.name=信箱
-tile.for.mail.1.name=贸易站
-tile.for.mail.2.name=集邮箱
+tile.for.mail.mailbox.name=信箱
+tile.for.mail.trade.name=贸易站
+tile.for.mail.stamp.name=集邮箱
 
-tile.for.resources.0.name=磷矿石
-tile.for.resources.1.name=铜矿石
-tile.for.resources.2.name=锡矿石
+tile.for.resources.apatite.name=磷矿石
+tile.for.resources.copper.name=铜矿石
+tile.for.resources.tin.name=锡矿石
 
-tile.for.resourceStorage.0.name=磷灰石块
-tile.for.resourceStorage.1.name=铜块
-tile.for.resourceStorage.2.name=锡块
-tile.for.resourceStorage.3.name=青铜块
+tile.for.resourceStorage.apaite.name=磷灰石块
+tile.for.resourceStorage.copper.name=铜块
+tile.for.resourceStorage.tin.name=锡块
+tile.for.resourceStorage.bronze.name=青铜块
 
-tile.for.soil.0.name=腐殖土
-tile.for.soil.1.name=沼泽泥
-tile.for.soil.2.name=泥炭
+tile.for.soil.humus.name=腐殖土
+tile.for.soil.bog.name=沼泽泥
+tile.for.soil.peat.name=泥炭
 
 ################
 # ERRORS
@@ -827,8 +832,8 @@ for.errors.wrongStacksize.help=这里只能放置单个物品。
 
 death.bee.aggressive.player=%1$s遭遇蜂群。%2$s趁机偷走了他的养蜂套装。
 death.bee.aggressive=%1$s遭遇蜂群。不得不刺！
-death.bee.hive.player=%1$s被野生蜜蜂蜇死了。%2$s趁机偷走了他的养蜂人套装。
-death.bee.hive=%1$s被野生蜜蜂蜇死了。他们本应用发烟器的。
+death.bee.hive.player=%1$s遭遇野生蜂群。%2$s趁机偷走了他的养蜂人套装。
+death.bee.hive=%1$s遭遇野生蜂群。他们本应用发烟器的。
 death.bee.end.player=%1$s在与%2$s战斗时死于一根不坏好意的毒刺。
 death.bee.end=%1$s死于一根不坏好意的毒刺。
 death.bee.radioactive.player=%1$s没戴头盔就闯进了切尔诺贝利遗址。%2$s围观并幸灾乐祸地咯咯笑着。
@@ -1069,16 +1074,16 @@ tile.for.stump.name=蜡烛
 # MULTIBLOCK
 ####################
 
-for.multiblock.error.notConnected=多方块结构未与控制器连接，这可能是由延迟或者错误引起的。如果无法修复，试着破坏方块并重新放置。
-for.multiblock.error.invalid.interior=位于%d, %d, %d - (%s)的方块不能用于该机械的内部。
-for.multiblock.error.invalid.part=位于%d, %d, %d的机械不能用于%s的结构中。
-for.multiblock.error.small=这个多方块结构太小了，它至少要有%d X, %d Y, %d Z的大小。
-for.multiblock.error.large.x=这个多方块结构太大了，在X轴方向上至多只能有%d个方块。
-for.multiblock.error.large.y=这个多方块结构太大了，在Y轴方向上至多只能有%d个方块。
-for.multiblock.error.large.z=这个多方块结构太大了，在Z轴方向上至多只能有%d个方块。
-for.multiblock.error.small.x=这个多方块结构太小了，在X轴方向上还需要至少%d个方块。
-for.multiblock.error.small.y=这个多方块结构太小了，在Y轴方向上还需要至少%d个方块。
-for.multiblock.error.small.z=这个多方块结构太小了，在Z轴方向上还需要至少%d个方块。
+for.multiblock.error.notConnected=多方块结构未与控制器连接，这可能是由延迟或者错误引起的。若问题一直存在，试着破坏方块并重新放置。
+for.multiblock.error.invalid.interior=方块 %s 不能用于该机械的内部。
+for.multiblock.error.invalid.part=某个多方块结构的组件不能用于%s中。
+for.multiblock.error.small=这个多方块结构太小了，它的体积至少要有%d * %d * %d。
+for.multiblock.error.large.x=这个多方块结构太宽了，它至多有%d个方块宽。
+for.multiblock.error.large.y=这个多方块结构太高了，它至多有%d个方块高。
+for.multiblock.error.large.z=这个多方块结构纵深太大了，它至多进深%d个方块。
+for.multiblock.error.small.x=这个多方块结构太窄了，它至少要%d个方块宽。
+for.multiblock.error.small.y=这个多方块结构太矮了，它至少要%d个方块高。
+for.multiblock.error.small.z=这个多方块结构纵深太小了，它至少要进深%d个方块。
 
 for.multiblock.alveary.error.needSlabs=这个大蜂箱的顶部没有被木台阶覆盖。
 for.multiblock.alveary.error.needSpace=这个大蜂箱的顶部需要留出给蜜蜂进出的空间。
@@ -1088,6 +1093,10 @@ for.multiblock.alveary.error.needPlainInterior=这个大蜂箱的内部必须是
 for.multiblock.farm.error.needPlainBand=这个农场的第三层必须全部是普通农场方块。
 for.multiblock.farm.error.needPlainInterior=这个农场的内部必须全部是普通农场方块。
 for.multiblock.farm.error.needGearbox=这个农场还需要一个齿轮箱才能输入能源并开始工作。
+
+for.multiblock.alveary.type=蜂箱
+for.multiblock.farm.type=农场
+for.multiblock.greenhouse.type=温室
 
 ####################
 # ARBORICULTURE
@@ -1337,6 +1346,7 @@ tile.for.greenhouse.glass.name=温室玻璃幕墙
 tile.for.greenhouse.gearbox.name=温室齿轮箱
 tile.for.greenhouse.hatch_output.name=温室出货箱
 tile.for.greenhouse.hatch_input.name=温室进货箱
+tile.for.greenhouse.butterfly_hatch.name=温室蝴蝶箱
 tile.for.greenhouse.valve.name=温室水阀
 tile.for.greenhouse.fan.name=温室风扇
 tile.for.greenhouse.heater.name=温室加热器
