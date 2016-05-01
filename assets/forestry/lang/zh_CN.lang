@@ -210,7 +210,7 @@ for.gui.escritoire.notes.success.count=5
 for.gui.escritoire.notes.success.1=我发现了！(ง •̀_•́)ง
 for.gui.escritoire.notes.success.2=棒极了！我将名垂青史！
 for.gui.escritoire.notes.success.3=我的学院将引以为荣！
-for.gui.escritoire.notes.success.4=我会招致来自所有社会人氏的羡慕嫉妒恨！
+for.gui.escritoire.notes.success.4=我会招致来自所有社会人士的羡慕嫉妒恨！
 for.gui.escritoire.notes.success.5=是滴！
 
 for.gui.escritoire.notes.failure.count=5
@@ -220,15 +220,15 @@ for.gui.escritoire.notes.failure.3=为什么呢？我起先曾取得过那么多
 for.gui.escritoire.notes.failure.4=又一次失败。
 for.gui.escritoire.notes.failure.5=天啊…
 
-for.gui.mail.foreveryattached=对每个附加物
+for.gui.mail.foreveryattached=每批货物以下列货物为交换
 for.gui.mail.from=寄件人
 for.gui.mail.nametrader=为你的贸易站命名
-for.gui.mail.nothingtotrade=贸易站没有可以用来参与贸易的物品
-for.gui.mail.notrader=无重名贸易站
-for.gui.mail.pleasesend=请邮寄
-for.gui.mail.order.attached=请找到你附带的订单。
-for.gui.mail.order.filled.one=来自%SENDER的一份订单已填写。
-for.gui.mail.order.filled.multiple=来自%SENDER的%COUNT份订单已填写。
+for.gui.mail.nothingtotrade=贸易站没有可以用来交易的物品
+for.gui.mail.notrader=没有以此命名的贸易站
+for.gui.mail.pleasesend=请寄送以下货物
+for.gui.mail.order.attached=您的订单已到，请查收。
+for.gui.mail.order.filled.one=1份来自%SENDER的订单交易完成。
+for.gui.mail.order.filled.multiple=%COUNT份来自%SENDER的订单交易完成。
 for.gui.mail.to=寄往
 for.gui.mail.receive=接收
 for.gui.mail.send=发送
@@ -399,7 +399,7 @@ for.hints.moistenerproducts.desc=在加湿器中加入合适的材料，能给�
 for.hints.moistenerproducts.tag=需要苔石？
 for.hints.nopowerrequired.desc=这种机器不需要供能。
 for.hints.nopowerrequired.tag=无需能量
-for.hints.peatharvest.desc=水附近的沼泽泥将会变成泥炭。用铲子来挖吧。
+for.hints.peatharvest.desc=水附近的沼泽泥将会变成泥炭。用锹来挖吧。
 for.hints.peatharvest.tag=收获泥炭！
 for.hints.pipette.desc=如果你曾经为某些机器的蓄水槽里总是残留着一些液体而苦恼，那么可以考虑用滴管来吸空它们(用滴管点击蓄水槽)。
 for.hints.pipette.tag=用滴管吸干蓄水槽
@@ -510,9 +510,9 @@ item.for.beverage.mead.name=蜂蜜陈酿
 item.for.biomeFinder.name=栖息地定位仪
 item.for.bituminousPeat.name=沥青质泥炭
 item.for.brokenBronzePickaxe.name=损坏的镐
-item.for.brokenBronzeShovel.name=损坏的铲
+item.for.brokenBronzeShovel.name=损坏的锹
 item.for.bronzePickaxe.name=幸存者之镐
-item.for.bronzeShovel.name=幸存者之铲
+item.for.bronzeShovel.name=幸存者之锹
 item.for.builderBag.name=建筑师背包
 item.for.builderBagT2.name=建筑师编织背包
 
@@ -601,8 +601,8 @@ item.for.ingotCopper.name=铜锭
 item.for.ingotTin.name=锡锭
 
 item.for.iodineCapsule.name=碘酒胶囊
-item.for.kitPickaxe.name=镐子应急袋
-item.for.kitShovel.name=铲子应急袋
+item.for.kitPickaxe.name=镐应急袋
+item.for.kitShovel.name=锹应急袋
 item.for.letters.name=信件
 
 item.for.minerBag.name=采矿者背包
@@ -646,7 +646,7 @@ item.for.solderingIron.name=电烙铁
 
 item.for.stamps.1n.name=邮票(1n)
 item.for.stamps.2n.name=邮票(2n)
-item.for.stamps.5n.name=邮票（5n）
+item.for.stamps.5n.name=邮票(5n)
 item.for.stamps.10n.name=邮票(10n)
 item.for.stamps.20n.name=邮票(20n)
 item.for.stamps.50n.name=邮票(50n)
@@ -841,10 +841,10 @@ for.errors.noStamps.desc=需要邮票
 for.errors.noStamps.help=贸易站需要更多邮票来支付邮资。
 for.errors.noPaper.desc=需要纸张
 for.errors.noPaper.help=贸易站需要更多纸张来发送信件。
-for.errors.noSupplies.desc=需要供给物
-for.errors.noSupplies.help=贸易站需要更多供给物来发送。
-for.errors.noTrade.desc=需要进行贸易设置
-for.errors.noTrade.help=贸易站设置物品用来发送或接收。
+for.errors.noSupplies.desc=需要货物
+for.errors.noSupplies.help=贸易站需要更多货物来发送。
+for.errors.noTrade.desc=需要进行交易设置
+for.errors.noTrade.help=贸易站设置用来交易的货物。
 
 # TRADE STATION NAMING
 for.errors.notAlphaNumeric.desc=不是字母/数字
@@ -1491,7 +1491,7 @@ for.gui.mail.filter.all=全部
 for.gui.mail.filter.offline=离线
 for.gui.mail.filter.online=在线
 for.gui.mail.notrades=无可用贸易。
-for.gui.mail.tradefor=交易对象为
+for.gui.mail.tradefor=贸易对象为
 for.gui.mail.willtrade=%s将开始贸易
 
 item.for.catalogue.name=贸易目录
@@ -1514,7 +1514,7 @@ for.plugin.factory.description=添加各种各样的机器，以合成，生产�
 for.plugin.farming.description=添加了自动化农场和收获设备的组件，可以产出各种各样的产物。
 for.plugin.food.description=添加食物的组件。
 for.plugin.lepidopterology.description=蝴蝶组件。璀璨夺目。
-for.plugin.mail.description=添加林业交易和邮寄系统的组件。
+for.plugin.mail.description=添加林业贸易和邮寄系统的组件。
 for.plugin.storage.description=添加背包和板条箱的组件。
 
 for.plugin.buildcraft6.description=BC6兼容组件。
@@ -1545,7 +1545,7 @@ for.plugin.minefactoryreloaded.description=我的工厂重置版(MineFactoryRelo
 
 for.config.performance=性能
 for.config.performance.particleFX=粒子效果
-for.config.performance.particleFX.comment=开启粒子效果。注意调低原版设置也会影响到林业新增例子效果。
+for.config.performance.particleFX.comment=开启粒子效果。注意调低原版设置也会影响到林业新增粒子效果。
 for.config.performance.backpacks.resupply=背包自动填补
 for.config.performance.backpacks.resupply.comment=开启背包自动填补。在繁忙的服务器中你可能不会希望开启该功能。
 
