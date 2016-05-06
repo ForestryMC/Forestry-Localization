@@ -684,8 +684,8 @@ tile.for.factory2.raintank.name=Regentank
 tile.for.factory2.worktable.name=Werkbank
 
 tile.for.mail.mailbox.name=Briefkasten
-tile.for.mail.trade.station.name=Handelsstation
-tile.for.mail.stamp.collector.name=Briefmarkensammler
+tile.for.mail.trade_station.name=Handelsstation
+tile.for.mail.stamp_collector.name=Briefmarkensammler
 
 tile.for.resources.apatite.name=Apatiterz
 tile.for.resources.copper.name=Kupfererz
@@ -697,7 +697,7 @@ tile.for.resourceStorage.tin.name=Zinnblock
 tile.for.resourceStorage.bronze.name=Bronzeblock
 
 tile.for.soil.humus.name=Humus
-tile.for.soil.bog.earth.name=Moorerde
+tile.for.soil.bog_earth.name=Moorerde
 tile.for.soil.peat.name=Torf
 
 ################
@@ -1051,8 +1051,8 @@ tile.for.alveary.stabiliser.name=Stabilisator (Bienenstock)
 tile.for.alveary.sieve.name=Sieb (Bienenstock)
 
 tile.for.apiculture.apiary.name=Bienenkorb
-tile.for.apicultureChest.api.chest.name=Bienentruhe
-tile.for.apiculture.bee.house.name=Bienenhaus
+tile.for.apicultureChest.api_chest.name=Bienentruhe
+tile.for.apiculture.bee_house.name=Bienenhaus
 
 tile.for.beehives.forest.name=Waldbienenstock
 tile.for.beehives.meadows.name=Wiesenbienenstock
@@ -1271,7 +1271,7 @@ tile.for.fireproof=%s (Feuerfest)
 item.for.grafter.name=Gartenschere
 item.for.grafterProven.name=Bewährte Gartenschere
 
-tile.for.arboriculture.arb.chest.name=Truhe des Arboristen
+tile.for.arboriculture.arb_chest.name=Truhe des Arboristen
 
 tile.for.saplingGE.0.name=Unbekannter Setzling
 tile.for.leaves.0.name=Blätter
@@ -1424,7 +1424,7 @@ item.for.butterfly.name=Schmetterling
 item.for.flutterlyzer.name=Schmetterlyzer
 item.for.lepidopteristBag.name=Rucksack des Lepidopterologen
 item.for.moth.name=Motte
-tile.for.lepidopterology.lepi.chest.name=Truhe des Lepidopterologen
+tile.for.lepidopterology.lepi_chest.name=Truhe des Lepidopterologen
 
 ####################
 # MAIL

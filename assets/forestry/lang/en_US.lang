@@ -684,8 +684,8 @@ tile.for.factory2.raintank.name=Raintank
 tile.for.factory2.worktable.name=Worktable
 
 tile.for.mail.mailbox.name=Mailbox
-tile.for.mail.trade.station.name=Trade Station
-tile.for.mail.stamp.collector.name=Stamp Collector
+tile.for.mail.trade_station.name=Trade Station
+tile.for.mail.stamp_collector.name=Stamp Collector
 
 tile.for.resources.apatite.name=Apatite Ore
 tile.for.resources.copper.name=Copper Ore
@@ -697,7 +697,7 @@ tile.for.resourceStorage.tin.name=Block of Tin
 tile.for.resourceStorage.bronze.name=Block of Bronze
 
 tile.for.soil.humus.name=Humus
-tile.for.soil.bog.earth.name=Bog Earth
+tile.for.soil.bog_earth.name=Bog Earth
 tile.for.soil.peat.name=Peat
 
 ################
@@ -1051,8 +1051,8 @@ tile.for.alveary.stabiliser.name=Alveary Stabiliser
 tile.for.alveary.sieve.name=Alveary Sieve
 
 tile.for.apiculture.apiary.name=Apiary
-tile.for.apicultureChest.api.chest.name=Apiarist's Chest
-tile.for.apiculture.bee.house.name=Bee House
+tile.for.apicultureChest.api_chest.name=Apiarist's Chest
+tile.for.apiculture.bee_house.name=Bee House
 
 tile.for.beehives.forest.name=Forest Hive
 tile.for.beehives.meadows.name=Meadows Hive
@@ -1271,7 +1271,7 @@ tile.for.fireproof=%s (Fireproof)
 item.for.grafter.name=Grafter
 item.for.grafterProven.name=Proven Grafter
 
-tile.for.arboriculture.arb.chest.name=Arborist's Chest
+tile.for.arboriculture.arb_chest.name=Arborist's Chest
 
 tile.for.saplingGE.0.name=Sapling
 tile.for.leaves.0.name=Leaves
@@ -1424,7 +1424,7 @@ item.for.butterfly.name=Butterfly
 item.for.flutterlyzer.name=Flutterlyzer
 item.for.lepidopteristBag.name=Lepidopterist's Backpack
 item.for.moth.name=Moth
-tile.for.lepidopterology.lepi.chest.name=Lepidopterist's Chest
+tile.for.lepidopterology.lepi_chest.name=Lepidopterist's Chest
 
 ####################
 # MAIL

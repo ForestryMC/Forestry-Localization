@@ -683,8 +683,8 @@ tile.for.factory2.raintank.name=Réservoir de pluie
 tile.for.factory2.worktable.name=Table de travail
  
 tile.for.mail.mailbox.name=Boîte aux lettres
-tile.for.mail.trade.station.name=Commerce
-tile.for.mail.stamp.collector.name=Collectionneur de timbre
+tile.for.mail.trade_station.name=Commerce
+tile.for.mail.stamp_collector.name=Collectionneur de timbre
 
 tile.for.resources.apatite.name=Minerai d'apatite
 tile.for.resources.copper.name=Minerai de cuivre
@@ -696,7 +696,7 @@ tile.for.resourceStorage.tin.name=Bloc d'étain
 tile.for.resourceStorage.bronze.name=Bloc de bronze
 
 tile.for.soil.humus.name=Humus
-tile.for.soil.bog.earth.name=Terre humidifée
+tile.for.soil.bog_earth.name=Terre humidifée
 tile.for.soil.peat.name=Tourbe
 
 ################
@@ -1262,7 +1262,7 @@ tile.for.fireproof=%s (Ignifugé)
 item.for.grafter.name=Croisement
 item.for.grafterProven.name=Croisement prouvé
 
-tile.for.arboriculture.arb.chest.name=Coffre d'arboriste
+tile.for.arboriculture.arb_chest.name=Coffre d'arboriste
 
 tile.for.saplingGE.0.name=Pousse
 tile.for.leaves.0.name=Feuilles
@@ -1388,7 +1388,7 @@ item.for.butterfly.name=Papillon
 item.for.flutterlyzer.name=Analyseur de papillon
 item.for.lepidopteristBag.name=Sac à dos de lépidoptériste
 item.for.moth.name=Papillon de nuit
-tile.for.lepidopterology.lepi.chest.name=Coffre de lépidoptériste
+tile.for.lepidopterology.lepi_chest.name=Coffre de lépidoptériste
 
 ####################
 # MAIL

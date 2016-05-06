@@ -700,8 +700,8 @@ tile.for.factory2.raintank.name=Сборщик дождя
 tile.for.factory2.worktable.name=Рабочий стол
 
 tile.for.mail.mailbox.name=Почтовый ящик
-tile.for.mail.trade.station.name=Торговая станция
-tile.for.mail.stamp.collector.name=Сборщик марок
+tile.for.mail.trade_station.name=Торговая станция
+tile.for.mail.stamp_collector.name=Сборщик марок
 
 tile.for.resources.apatite.name=Апатитовая руда
 tile.for.resources.copper.name=Медная руда
@@ -713,7 +713,7 @@ tile.for.resourceStorage.tin.name=Оловянный блок
 tile.for.resourceStorage.bronze.name=Бронзовый блок
 
 tile.for.soil.humus.name=Гумус
-tile.for.soil.bog.earth.name=Болотная земля
+tile.for.soil.bog_earth.name=Болотная земля
 tile.for.soil.peat.name=Торф
 
 ####################
@@ -1127,7 +1127,7 @@ tile.for.fireproof=%s (Огнестойкость)
 item.for.grafter.name=Садовый нож
 item.for.grafterProven.name=Проверенный садовый нож
 
-tile.for.arboriculture.arb.chest.name=Сундук лесовода
+tile.for.arboriculture.arb_chest.name=Сундук лесовода
 
 tile.for.saplingGE.0.name=Саженец
 tile.for.leaves.0.name=Листва
@@ -1260,7 +1260,7 @@ item.for.butterfly.name=Бабочка
 item.for.flutterlyzer.name=Анализатор бабочек
 item.for.lepidopteristBag.name=Рюкзак лепидоптеролога
 item.for.moth.name=Мотылёк
-tile.for.lepidopterology.lepi.chest.name=Сундук лепидоптеролога
+tile.for.lepidopterology.lepi_chest.name=Сундук лепидоптеролога
 
 ####################
 # MAIL

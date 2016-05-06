@@ -650,8 +650,8 @@ tile.for.factory2.raintank.name=빗물저류조
 tile.for.factory2.worktable.name=목공 작업대
 
 tile.for.mail.mailbox.name=편지함
-tile.for.mail.trade.station.name=거래소
-tile.for.mail.stamp.collector.name=스탬프 콜랙션
+tile.for.mail.trade_station.name=거래소
+tile.for.mail.stamp_collector.name=스탬프 콜랙션
 
 tile.for.resources.apatite.name=인회석 광석
 tile.for.resources.copper.name=구리 광석
@@ -663,7 +663,7 @@ tile.for.resourceStorage.tin.name=주석 블럭
 tile.for.resourceStorage.bronze.name=청동 블럭
 
 tile.for.soil.humus.name=부엽토
-tile.for.soil.bog.earth.name=퇴적토
+tile.for.soil.bog_earth.name=퇴적토
 tile.for.soil.peat.name=Peat
 
 ####################
@@ -999,7 +999,7 @@ for.trees.species.yellowMeranti=옐로우세라야
 item.for.grafter.name=묘목 채취기
 item.for.grafterProven.name=검증된 묘목 채취기
 
-tile.for.arboriculture.arb.chest.name=수목 재배가의 상자
+tile.for.arboriculture.arb_chest.name=수목 재배가의 상자
 
 tile.for.fences.0.name=낙엽송 울타리
 tile.for.fences.1.name=티크 울타리
@@ -1264,7 +1264,7 @@ item.for.butterfly.name=나비
 item.for.flutterlyzer.name=나비 분석기
 item.for.lepidopteristBag.name=인시류학자의 가방
 item.for.moth.name=Moth
-tile.for.lepidopterology.lepi.chest.name=인시류학자의 가방
+tile.for.lepidopterology.lepi_chest.name=인시류학자의 가방
 
 ####################
 # MAIL

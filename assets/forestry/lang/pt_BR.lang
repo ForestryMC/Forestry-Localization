@@ -696,8 +696,8 @@ tile.for.factory2.raintank.name=Tanque de Chuva
 tile.for.factory2.worktable.name=Mesa de Trabalho
 
 tile.for.mail.mailbox.name=Caixa de Correio
-tile.for.mail.trade.station.name=Posto de Troca
-tile.for.mail.stamp.collector.name=Filatelia
+tile.for.mail.trade_station.name=Posto de Troca
+tile.for.mail.stamp_collector.name=Filatelia
 
 tile.for.resources.apatite.name=Minério de Apatita
 tile.for.resources.copper.name=Minério de Cobre
@@ -709,7 +709,7 @@ tile.for.resourceStorage.tin.name=Bloco de Estanho
 tile.for.resourceStorage.bronze.name=Bloco de Bronze
 
 tile.for.soil.humus.name=Húmus
-tile.for.soil.bog.earth.name=Terra do Pântano
+tile.for.soil.bog_earth.name=Terra do Pântano
 tile.for.soil.peat.name=Turfa
 
 ####################
@@ -1123,7 +1123,7 @@ tile.for.fireproof=%s (À Prova de Fogo)
 item.for.grafter.name=Enxerto
 item.for.grafterProven.name=Enxerto Comprovado
 
-tile.for.arboriculture.arb.chest.name=Baú do Arborista
+tile.for.arboriculture.arb_chest.name=Baú do Arborista
 
 tile.for.saplingGE.0.name=Muda
 tile.for.leaves.0.name=Folhas
@@ -1256,7 +1256,7 @@ item.for.butterfly.name=Borboleta
 item.for.flutterlyzer.name=Borbo-analizador
 item.for.lepidopteristBag.name=Mochila do Heteropterologista
 item.for.moth.name=Mariposa
-tile.for.lepidopterology.lepi.chest.name=Baú do Heteropterologista
+tile.for.lepidopterology.lepi_chest.name=Baú do Heteropterologista
 
 ####################
 # MAIL

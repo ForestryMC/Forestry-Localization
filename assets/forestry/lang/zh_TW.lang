@@ -724,8 +724,8 @@ tile.for.factory2.raintank.name=集雨蓄水槽
 tile.for.factory2.worktable.name=工作台
 
 tile.for.mail.mailbox.name=信箱
-tile.for.mail.trade.station.name=貿易站
-tile.for.mail.stamp.collector.name=集郵箱
+tile.for.mail.trade_station.name=貿易站
+tile.for.mail.stamp_collector.name=集郵箱
 
 tile.for.resources.apatite.name=磷礦石
 tile.for.resources.copper.name=銅礦石
@@ -737,7 +737,7 @@ tile.for.resourceStorage.tin.name=錫塊
 tile.for.resourceStorage.bronze.name=青銅塊
 
 tile.for.soil.humus.name=腐殖土
-tile.for.soil.bog.earth.name=沼澤泥
+tile.for.soil.bog_earth.name=沼澤泥
 tile.for.soil.peat.name=泥炭
 
 ####################
@@ -1151,7 +1151,7 @@ tile.for.fireproof=抗燃%s
 item.for.grafter.name=剪枝器
 item.for.grafterProven.name=標定剪枝器
 
-tile.for.arboriculture.arb.chest.name=林業員箱子
+tile.for.arboriculture.arb_chest.name=林業員箱子
 
 tile.for.saplingGE.0.name=樹苗
 tile.for.leaves.0.name=樹葉
@@ -1284,7 +1284,7 @@ item.for.butterfly.name=蝴蝶
 item.for.flutterlyzer.name=蝴蝶分析儀
 item.for.lepidopteristBag.name=鱗翅目昆蟲學家背包
 item.for.moth.name=飛蛾
-tile.for.lepidopterology.lepi.chest.name=鱗翅目昆蟲學家箱子
+tile.for.lepidopterology.lepi_chest.name=鱗翅目昆蟲學家箱子
 
 ####################
 # MAIL
