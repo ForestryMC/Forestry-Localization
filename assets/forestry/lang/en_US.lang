@@ -439,9 +439,9 @@ for.mutation.condition.temperature.single=Requires %s temperature.
 for.mutation.condition.resource=Requires %s as a foundation.
 for.mutation.condition.date=Occurs between %START and %END.
 
-for.storage.backpack.mode.locked=(LOCKED)
-for.storage.backpack.mode.receiving=(RECEIVING)
-for.storage.backpack.mode.resupply=(RESUPPLY)
+for.storage.backpack.mode.locked=(Locked Mode)
+for.storage.backpack.mode.receiving=(Receiving Mode)
+for.storage.backpack.mode.resupply=(Resupply Mode)
 
 for.trigger.hasMail=Has Mail
 for.trigger.hasWork=Has Work
