@@ -1592,8 +1592,6 @@ for.config.difficulty.game.mode=游戏模式
 for.config.difficulty.game.mode.comment=设置你偏好的游戏模式。若与服务器设置不匹配可能会导致出现合成表界面显示错误。
 for.config.difficulty.recreate.definitions=重定义
 for.config.difficulty.recreate.definitions.comment=强制重构config/forestry/gamemodes目录下的所有游戏模式配置。
-for.config.difficulty.loot.rare=稀有战利品
-for.config.difficulty.loot.rare.comment=使林业生成的地牢战利品更加稀有。
 
 for.config.structures=多方块结构
 for.config.structures.disabled=禁用多方块结构

@@ -1554,8 +1554,6 @@ for.config.difficulty.game.mode=Mode de jeu
 for.config.difficulty.game.mode.comment=Mettez votre mode de jeu préféré. Un décalage avec le serveur peut causer des problèmes visuels avec les recettes.
 for.config.difficulty.recreate.definitions=Recréer les définitions
 for.config.difficulty.recreate.definitions.comment=Force la recréation des définitions du mode de jeu dans les configs, Forestry ou les modes de jeu
-for.config.difficulty.loot.rare=Récompenses rares
-for.config.difficulty.loot.rare.comment=Rend les récompenses de dunjon généré par forestry rares.
 
 for.config.structures=Structures
 for.config.structures.disabled=Désactivez les structures
