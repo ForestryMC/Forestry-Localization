@@ -439,9 +439,9 @@ for.mutation.condition.temperature.single=该突变仅在温度为%s时发生。
 for.mutation.condition.resource=该突变需要%s作为蜂箱的基石才可发生。
 for.mutation.condition.date=该突变只在%START到%END这段时间内发生。
 
-for.storage.backpack.mode.locked=(已锁定)
-for.storage.backpack.mode.receiving=(接收中)
-for.storage.backpack.mode.resupply=(再补给)
+for.storage.backpack.mode.locked=(锁定模式)
+for.storage.backpack.mode.receiving=(接收模式)
+for.storage.backpack.mode.resupply=(补给模式)
 
 for.trigger.hasMail=收到信件
 for.trigger.hasWork=正在工作
@@ -684,8 +684,8 @@ tile.for.factory2.raintank.name=集雨蓄水槽
 tile.for.factory2.worktable.name=工作台
 
 tile.for.mail.mailbox.name=信箱
-tile.for.mail.trade.name=贸易站
-tile.for.mail.stamp.name=集邮箱
+tile.for.mail.trade_station.name=贸易站
+tile.for.mail.stamp_collector.name=集邮箱
 
 tile.for.resources.apatite.name=磷矿石
 tile.for.resources.copper.name=铜矿石
@@ -697,7 +697,7 @@ tile.for.resourceStorage.tin.name=锡块
 tile.for.resourceStorage.bronze.name=青铜块
 
 tile.for.soil.humus.name=腐殖土
-tile.for.soil.bog.name=沼泽泥
+tile.for.soil.bog_earth.name=沼泽泥
 tile.for.soil.peat.name=泥炭
 
 ################
@@ -1050,9 +1050,9 @@ tile.for.alveary.hygro.name=蜂箱组保湿器
 tile.for.alveary.stabiliser.name=蜂箱组稳定器
 tile.for.alveary.sieve.name=蜂箱组滤网
 
-tile.for.apiculture.0.name=蜂箱
-tile.for.apicultureChest.0.name=养蜂人箱子
-tile.for.apiculture.2.name=简易蜂房
+tile.for.apiculture.apiary.name=蜂箱
+tile.for.apicultureChest.api_chest.name=养蜂人箱子
+tile.for.apiculture.bee_house.name=简易蜂房
 
 tile.for.beehives.forest.name=森林蜂巢
 tile.for.beehives.meadows.name=草地蜂巢
@@ -1271,7 +1271,7 @@ tile.for.fireproof=抗燃%s
 item.for.grafter.name=剪枝器
 item.for.grafterProven.name=标定剪枝器
 
-tile.for.arboriculture.0.name=林业员箱子
+tile.for.arboriculture.arb_chest.name=林业员箱子
 
 tile.for.saplingGE.0.name=树苗
 tile.for.leaves.0.name=树叶
@@ -1369,6 +1369,15 @@ for.chat.command.forestry.butterfly.kill.format=格式： /%s [<dimension#>]
 
 for.butterflies.hybrid=混血蝶：%PRIMARY-%SECONDARY
 
+for.butterflies.grammar.butterfly.type=蝴蝶
+for.butterflies.grammar.butterfly=%SPECIES%TYPE
+for.butterflies.grammar.serum.type=血清
+for.butterflies.grammar.serum=%SPECIES%TYPE
+for.butterflies.grammar.caterpillar.type=幼虫
+for.butterflies.grammar.caterpillar=%SPECIES%TYPE
+for.butterflies.grammar.cocoon.type=蛹
+for.butterflies.grammar.cocoon=%SPECIES%TYPE
+
 for.butterflies.species.geometridae.brimstone=黄蛾
 for.butterflies.species.geometridae.latticedHeath=斑格蛾
 for.butterflies.species.nymphalidae.blueDuke=蓝爵蝶
@@ -1415,7 +1424,7 @@ item.for.butterfly.name=蝴蝶
 item.for.flutterlyzer.name=蝴蝶分析仪
 item.for.lepidopteristBag.name=鳞翅目昆虫学家背包
 item.for.moth.name=飞蛾
-tile.for.lepidopterology.0.name=鳞翅目昆虫学家箱子
+tile.for.lepidopterology.lepi_chest.name=鳞翅目昆虫学家箱子
 
 ####################
 # MAIL
@@ -1626,7 +1635,7 @@ for.config.butterfly.entities.pollination=蝴蝶授粉
 for.config.butterfly.entities.pollination.comment=允许蝴蝶为树木授粉。
 
 for.config.backpacks.item.stacks.format=在此添加%s的背包对物品的支持，格式为'modid:name:meta'，也可以使用忽略附加值的通配格式'modid:name'。
-for.config.backpacks.ore.dict.format=在此添加%s的背包对矿物字典的支持，格式为'oreDictName'。
+for.config.backpacks.ore.dict.format=在此添加%s的背包对矿物字典的支持，格式为'oreDictName'。支持正则表达式。
 
 for.config.gamemode=游戏模式
 
