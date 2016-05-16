@@ -119,15 +119,16 @@ for.gui.area=活动范围
 for.gui.arid=干旱
 for.gui.beach=沙滩
 
+for.gui.portablealyzer=便携式多用分析仪
+for.gui.portablealyzer.help=需要提供蜂蜜或蜂蜜汁来抚慰躁动的蜜蜂、树苗还有蝴蝶。
+
 for.gui.beealyzer.artificial=人工培育
 for.gui.beealyzer.behaviour=行为
 for.gui.beealyzer.generations=第%s代
-for.gui.beealyzer.help=需要提供蜂蜜或蜂蜜汁来抚慰躁动的蜜蜂。
 for.gui.beealyzer.mutations=可能的变异
 for.gui.beealyzer.natural=自然捕捉
 for.gui.beealyzer.produce=可能的产物
 for.gui.beealyzer.specialty=可能的专长
-for.gui.beealyzer=蜜蜂分析仪
 
 for.gui.blank=空白
 for.gui.cave=穴居性
@@ -471,7 +472,6 @@ item.for.apiaristLegs.name=养蜂员裤子
 
 item.for.ash.name=灰烬
 
-item.for.beealyzer.name=蜜蜂分析仪
 item.for.habitatLocator.name=栖息地定位仪
 
 item.for.cart.beehouse.name=蜂房车
@@ -563,6 +563,8 @@ item.for.hardenedMachine.name=强化部件
 
 item.for.honeydew.name=蜂蜜汁
 
+item.for.portableAlyzer.name=便携式多用分析仪
+
 item.for.honeyDrop.charged.name=带电蜂蜜滴
 item.for.honeyDrop.honey.name=蜂蜜滴
 item.for.honeyDrop.omega.name=终结蜂蜜滴
@@ -641,8 +643,6 @@ item.for.thermionicTubes.emerald.name=绿宝石电子管
 item.for.thermionicTubes.apatite.name=磷灰石电子管
 item.for.thermionicTubes.lapis.name=青金石电子管
 item.for.thermionicTubes.ender.name=末影电子管
-
-item.for.treealyzer.name=林木分析仪
 
 item.for.capsule.empty.name=蜂蜡胶囊
 item.for.capsule.grammar=%s胶囊
@@ -1171,8 +1171,6 @@ for.gui.saplings=树苗
 for.gui.sappiness=多汁
 for.gui.supports=载体
 for.gui.tolerated=结果
-for.gui.treealyzer.help=放入树苗并提供蜂蜜滴或蜂蜜汁者作为催化剂。
-for.gui.treealyzer=林木分析仪
 for.gui.yield=产量
 
 for.growth.normal=普通
@@ -1413,15 +1411,12 @@ for.butterflies.species.pieridae.reseda=东方绿斑粉蝶
 for.butterflies.species.pieridae.springAzure=冬青小灰蝶
 for.butterflies.species.saturniidae.atlas=乌柏巨蚕蛾
 
-for.gui.flutterlyzer=蝴蝶分析仪
-for.gui.flutterlyzer.help=提供蜂蜜滴或蜂蜜汁来安抚这些躁动的蝴蝶。
 for.gui.loot.butterfly=蝴蝶可能的产物
 for.gui.loot.caterpillar=毛毛虫可能的产物
 
 for.lepidopterology.effect.none=无效果
 
 item.for.butterfly.name=蝴蝶
-item.for.flutterlyzer.name=蝴蝶分析仪
 item.for.lepidopteristBag.name=鳞翅目昆虫学家背包
 item.for.moth.name=飞蛾
 tile.for.lepidopterology.lepi_chest.name=鳞翅目昆虫学家箱子
