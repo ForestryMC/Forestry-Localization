@@ -119,15 +119,16 @@ for.gui.area=Territory
 for.gui.arid=Arid
 for.gui.beach=Beach
 
+for.gui.portablealyzer=Protable Alyzer
+for.gui.portablealyzer.help=Supply bee, tree, butterfly or an other individual and provide honey or honeydew as a pacifier.
+
 for.gui.beealyzer.artificial=Artificial Origin
 for.gui.beealyzer.behaviour=Behaviour
 for.gui.beealyzer.generations=%s Generations in Captivity
-for.gui.beealyzer.help=Supply bee and provide honey or honeydew as a pacifier.
 for.gui.beealyzer.mutations=Possible Mutations
 for.gui.beealyzer.natural=Natural Origin
 for.gui.beealyzer.produce=Possible Produce
 for.gui.beealyzer.specialty=Possible Specialty
-for.gui.beealyzer=Beealyzer
 
 for.gui.blank=Blank
 for.gui.cave=Cave Dwelling
@@ -471,7 +472,6 @@ item.for.apiaristLegs.name=Apiarist's Pants
 
 item.for.ash.name=Ash
 
-item.for.beealyzer.name=Beealyzer
 item.for.habitatLocator.name=Habitat Locator
 
 item.for.cart.beehouse.name=Minecart with Bee House
@@ -563,6 +563,8 @@ item.for.hardenedMachine.name=Hardened Casing
 
 item.for.honeydew.name=Honeydew
 
+item.for.portableAlyzer.name=Portable Alyzer
+
 item.for.honeyDrop.charged.name=Charged Drop
 item.for.honeyDrop.honey.name=Honey Drop
 item.for.honeyDrop.omega.name=Omega Drop
@@ -641,8 +643,6 @@ item.for.thermionicTubes.emerald.name=Emerald Electron Tube
 item.for.thermionicTubes.apatite.name=Apatine Electron Tube
 item.for.thermionicTubes.lapis.name=Lapis Electron Tube
 item.for.thermionicTubes.ender.name=Ender Electron Tube
-
-item.for.treealyzer.name=Treealyzer
 
 item.for.capsule.empty.name=Wax Capsule
 item.for.capsule.grammar=%s Capsule
@@ -1171,8 +1171,6 @@ for.gui.saplings=Saplings
 for.gui.sappiness=Sappiness
 for.gui.supports=Supports
 for.gui.tolerated=Tolerates
-for.gui.treealyzer.help=Supply sapling and provide honey or honeydew as catalyst.
-for.gui.treealyzer=Treealyzer
 for.gui.yield=Yield
 
 for.growth.normal=Light
@@ -1413,15 +1411,12 @@ for.butterflies.species.pieridae.reseda=Eastern Bath White
 for.butterflies.species.pieridae.springAzure=Holly Blue
 for.butterflies.species.saturniidae.atlas=Atlas Moth
 
-for.gui.flutterlyzer=Flutterlyzer
-for.gui.flutterlyzer.help=Supply butterfly and provide honey or honeydew as a pacifier.
 for.gui.loot.butterfly=Possible Butterfly Loot
 for.gui.loot.caterpillar=Possible Caterpillar Loot
 
 for.lepidopterology.effect.none=None
 
 item.for.butterfly.name=Butterfly
-item.for.flutterlyzer.name=Flutterlyzer
 item.for.lepidopteristBag.name=Lepidopterist's Backpack
 item.for.moth.name=Moth
 tile.for.lepidopterology.lepi_chest.name=Lepidopterist's Chest
