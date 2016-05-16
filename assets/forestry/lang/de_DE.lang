@@ -119,15 +119,16 @@ for.gui.area=Gebiet
 for.gui.arid=Trocken
 for.gui.beach=Strand
 
+for.gui.portablealyzer=Tragbarer Analysierer
+for.gui.portablealyzer.help=Biene, Setzling, Schmetterling oder anderes Individuum einlegen und Honig oder Honigtau zur Betäubung hinzufügen.
+
 for.gui.beealyzer.artificial=Gezüchtet
 for.gui.beealyzer.behaviour=Verhalten
 for.gui.beealyzer.generations=Generationen in Gefangenschaft: %s
-for.gui.beealyzer.help=Biene einlegen und Honig oder Honigtau zur Betäubung hinzufügen.
 for.gui.beealyzer.mutations=Mögliche Mutationen
 for.gui.beealyzer.natural=Natürlicher Ursprung
 for.gui.beealyzer.produce=Mögliche Produkte
 for.gui.beealyzer.specialty=Mögliche Spezialitäten
-for.gui.beealyzer=Bienalyzer
 
 for.gui.blank=Leer
 for.gui.cave=Höhle
@@ -439,9 +440,9 @@ for.mutation.condition.temperature.single=Benötigt %s Temperatur.
 for.mutation.condition.resource=Benötigt Bestimmtes Fundament: %s
 for.mutation.condition.date=Passiert zwischen %START und %END.
 
-for.storage.backpack.mode.locked=(GESPERRT)
-for.storage.backpack.mode.receiving=(EMPFANGEND)
-for.storage.backpack.mode.resupply=(NACHSTOCKEND)
+for.storage.backpack.mode.locked=(Gesperrt)
+for.storage.backpack.mode.receiving=(Empfangend)
+for.storage.backpack.mode.resupply=(Aufstockend)
 
 for.trigger.hasMail=Hat Post
 for.trigger.hasWork=Hat Arbeit
@@ -471,7 +472,6 @@ item.for.apiaristLegs.name=Imkerhose
 
 item.for.ash.name=Asche
 
-item.for.beealyzer.name=Bienalyzer
 item.for.habitatLocator.name=Habitatsucher
 
 item.for.cart.beehouse.name=Bienenhauswaggon
@@ -563,6 +563,8 @@ item.for.hardenedMachine.name=Verstärktes Gehäuse
 
 item.for.honeydew.name=Honigtau
 
+item.for.portableAlyzer.name=Tragbarer Analysierer
+
 item.for.honeyDrop.charged.name=Aufgeladener Tropfen
 item.for.honeyDrop.honey.name=Honigtropfen
 item.for.honeyDrop.omega.name=Omegatropfen
@@ -641,8 +643,6 @@ item.for.thermionicTubes.emerald.name=Elektronenröhre (Smaragd)
 item.for.thermionicTubes.apatite.name=Elektronenröhre (Apatit)
 item.for.thermionicTubes.lapis.name=Elektronenröhre (Lapislazuli)
 item.for.thermionicTubes.ender.name=Elektronenröhre (Ender)
-
-item.for.treealyzer.name=Baumanalyser
 
 item.for.capsule.empty.name=Wachskapsel
 item.for.capsule.grammar=Kapsel %s
@@ -1171,8 +1171,6 @@ for.gui.saplings=Setzlinge
 for.gui.sappiness=Saftigkeit
 for.gui.supports=Unterst.
 for.gui.tolerated=Toleriert
-for.gui.treealyzer.help=Platziere einen Setzling und füge Honig oder Honigtau als Katalysator hinzu
-for.gui.treealyzer=Baumanalyser
 for.gui.yield=Ertrag
 
 for.growth.normal=Licht
@@ -1413,15 +1411,12 @@ for.butterflies.species.pieridae.reseda=Resedafalter
 for.butterflies.species.pieridae.springAzure=Faulbaum-Bläuling
 for.butterflies.species.saturniidae.atlas=Atlasspinner
 
-for.gui.flutterlyzer=Schmetterlyzer
-for.gui.flutterlyzer.help=Platziere einen Schmetterling und füge Honig oder Honigtau als Beruhigungsmittel hinzu.
 for.gui.loot.butterfly=Mögliche Schmetterlingsausbeute
 for.gui.loot.caterpillar=Mögliche Raupenausbeute
 
 for.lepidopterology.effect.none=Nichts
 
 item.for.butterfly.name=Schmetterling
-item.for.flutterlyzer.name=Schmetterlyzer
 item.for.lepidopteristBag.name=Rucksack des Lepidopterologen
 item.for.moth.name=Motte
 tile.for.lepidopterology.lepi_chest.name=Truhe des Lepidopterologen
