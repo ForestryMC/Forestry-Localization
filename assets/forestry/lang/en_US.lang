@@ -119,7 +119,7 @@ for.gui.area=Territory
 for.gui.arid=Arid
 for.gui.beach=Beach
 
-for.gui.portablealyzer=Protable Alyzer
+for.gui.portablealyzer=Portable Alyzer
 for.gui.portablealyzer.help=Supply bee, tree, butterfly or an other individual and provide honey or honeydew as a pacifier.
 
 for.gui.beealyzer.artificial=Artificial Origin
