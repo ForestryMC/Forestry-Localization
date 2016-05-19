@@ -631,11 +631,11 @@ itemGroup.lepidopterology=인시류학
 tile.for.analyzer.name=유전 정보 분석기
 tile.for.escritoire.name=연구 책상
 
-tile.for.engine.electrical.name=전기 엔진
-tile.for.engine.peat.name=토탄 엔진
-tile.for.engine.biogas.name=바이오가스 엔진
-tile.for.engine.generator.name=바이오연료 발전기
-tile.for.engine.clockwork.name=시계태엽 엔진
+tile.for.engine_electrical.name=전기 엔진
+tile.for.engine_peat.name=토탄 엔진
+tile.for.engine_biogas.name=바이오가스 엔진
+tile.for.engine_generator.name=바이오연료 발전기
+tile.for.engine_clockwork.name=시계태엽 엔진
 
 tile.for.bottler.name=보틀러
 tile.for.carpenter.name=카펜터

@@ -660,16 +660,16 @@ itemGroup.lepidopterology=Lepidopterology
 tile.for.analyzer.name=Analyzer
 tile.for.escritoire.name=Escritoire
 
-tile.for.engine.electrical.name=Electrical Engine
-tile.for.engine.electrical.tooltip=Converts EU to RF.
-tile.for.engine.peat.name=Peat-fired Engine
-tile.for.engine.peat.tooltip=Generates RF from peat.
-tile.for.engine.biogas.name=Biogas Engine
-tile.for.engine.biogas.tooltip=Generates RF from organic fluids and lava.
-tile.for.engine.generator.name=Bio Generator
-tile.for.engine.generator.tooltip=Generates EU from Biomass or Ethanol.
-tile.for.engine.clockwork.name=Clockwork Engine
-tile.for.engine.clockwork.tooltip=Generates small amounts of RF. Right-click to wind it up.
+tile.for.engine_electrical.name=Electrical Engine
+tile.for.engine_electrical.tooltip=Converts EU to RF.
+tile.for.engine_peat.name=Peat-fired Engine
+tile.for.engine_peat.tooltip=Generates RF from peat.
+tile.for.engine_biogas.name=Biogas Engine
+tile.for.engine_biogas.tooltip=Generates RF from organic fluids and lava.
+tile.for.engine_generator.name=Bio Generator
+tile.for.engine_generator.tooltip=Generates EU from Biomass or Ethanol.
+tile.for.engine_clockwork.name=Clockwork Engine
+tile.for.engine_clockwork.tooltip=Generates small amounts of RF. Right-click to wind it up.
 
 tile.for.bottler.name=Bottler
 tile.for.carpenter.name=Carpenter

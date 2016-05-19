@@ -677,11 +677,11 @@ itemGroup.lepidopterology=Forestry - Heteropterologia
 tile.for.analyzer.name=Analisador
 tile.for.escritoire.name=Escrivaninha
 
-tile.for.engine.electrical.name=Motor Elétrico
-tile.for.engine.peat.name=Motor de Turfa
-tile.for.engine.biogas.name=Motor de Biogás
-tile.for.engine.generator.name=Bio Gerador
-tile.for.engine.clockwork.name=Motor de Engrenagem
+tile.for.engine_electrical.name=Motor Elétrico
+tile.for.engine_peat.name=Motor de Turfa
+tile.for.engine_biogas.name=Motor de Biogás
+tile.for.engine_generator.name=Bio Gerador
+tile.for.engine_clockwork.name=Motor de Engrenagem
 
 tile.for.bottler.name=Engarrafador
 tile.for.carpenter.name=Carpinteiro

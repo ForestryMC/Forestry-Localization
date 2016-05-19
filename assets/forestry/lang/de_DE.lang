@@ -660,16 +660,16 @@ itemGroup.lepidopterology=Lepidopterologie
 tile.for.analyzer.name=Analysierer
 tile.for.escritoire.name=Schreibtisch
 
-tile.for.engine.electrical.name=Elektromotor
-tile.for.engine.electrical.tooltip=Wandelt EU in RF um.
-tile.for.engine.peat.name=Torfbefeuerter Motor
-tile.for.engine.peat.tooltip=Produziert RF aus Torf.
-tile.for.engine.biogas.name=Biomassemotor
-tile.for.engine.biogas.tooltip=Produziert RF aus organischen Fluiden und Lava.
-tile.for.engine.generator.name=Biogenerator
-tile.for.engine.generator.tooltip=Produziert EU aus Biomasse und Ethanol.
-tile.for.engine.clockwork.name=Motor mit Uhrwerk
-tile.for.engine.clockwork.tooltip=Produziert geringe Mengen an RF. Rechtsklick zum Aufziehen.
+tile.for.engine_electrical.name=Elektromotor
+tile.for.engine_electrical.tooltip=Wandelt EU in RF um.
+tile.for.engine_peat.name=Torfbefeuerter Motor
+tile.for.engine_peat.tooltip=Produziert RF aus Torf.
+tile.for.engine_biogas.name=Biomassemotor
+tile.for.engine_biogas.tooltip=Produziert RF aus organischen Fluiden und Lava.
+tile.for.engine_generator.name=Biogenerator
+tile.for.engine_generator.tooltip=Produziert EU aus Biomasse und Ethanol.
+tile.for.engine_clockwork.name=Motor mit Uhrwerk
+tile.for.engine_clockwork.tooltip=Produziert geringe Mengen an RF. Rechtsklick zum Aufziehen.
 
 tile.for.bottler.name=Abfüller
 tile.for.carpenter.name=Schreinerei

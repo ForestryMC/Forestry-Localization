@@ -664,11 +664,11 @@ itemGroup.lepidopterology=Lépidoptérologie
 tile.for.analyzer.name=Analyseur
 tile.for.escritoire.name=Secrétaire
 
-tile.for.engine.electrical.name=Moteur électrique
-tile.for.engine.peat.name=Moteur tourbe
-tile.for.engine.biogas.name=Moteur biogaz
-tile.for.engine.generator.name=Générator Bio
-tile.for.engine.clockwork.name=Moteur de précision
+tile.for.engine_electrical.name=Moteur électrique
+tile.for.engine_peat.name=Moteur tourbe
+tile.for.engine_biogas.name=Moteur biogaz
+tile.for.engine_generator.name=Générator Bio
+tile.for.engine_clockwork.name=Moteur de précision
 
 tile.for.bottler.name=Embouteilleur
 tile.for.carpenter.name=Menuisier

@@ -660,16 +660,16 @@ itemGroup.lepidopterology=林业|蝴蝶
 tile.for.analyzer.name=分析仪
 tile.for.escritoire.name=写字台
 
-tile.for.engine.electrical.name=电动引擎
-tile.for.engine.electrical.tooltip=消耗EU并输出RF。
-tile.for.engine.peat.name=泥炭引擎
-tile.for.engine.peat.tooltip=燃烧泥炭产生RF。
-tile.for.engine.biogas.name=沼气引擎
-tile.for.engine.biogas.tooltip=利用有机液体和岩浆产生RF。
-tile.for.engine.generator.name=生物质发电机
-tile.for.engine.generator.tooltip=利用生物质或乙醇来产生EU。
-tile.for.engine.clockwork.name=发条引擎
-tile.for.engine.clockwork.tooltip=产生少量RF。右击以工作。
+tile.for.engine_electrical.name=电动引擎
+tile.for.engine_electrical.tooltip=消耗EU并输出RF。
+tile.for.engine_peat.name=泥炭引擎
+tile.for.engine_peat.tooltip=燃烧泥炭产生RF。
+tile.for.engine_biogas.name=沼气引擎
+tile.for.engine_biogas.tooltip=利用有机液体和岩浆产生RF。
+tile.for.engine_generator.name=生物质发电机
+tile.for.engine_generator.tooltip=利用生物质或乙醇来产生EU。
+tile.for.engine_clockwork.name=发条引擎
+tile.for.engine_clockwork.tooltip=产生少量RF。右击以工作。
 
 tile.for.bottler.name=装瓶机
 tile.for.carpenter.name=木工机

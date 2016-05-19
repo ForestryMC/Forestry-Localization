@@ -681,11 +681,11 @@ itemGroup.lepidopterology=Лепидоптерология
 tile.for.analyzer.name=Анализатор
 tile.for.escritoire.name=Секретер
 
-tile.for.engine.electrical.name=Электродвигатель
-tile.for.engine.peat.name=Торфяной двигатель
-tile.for.engine.biogas.name=Биогазовый двигатель
-tile.for.engine.generator.name=Биогенератор
-tile.for.engine.clockwork.name=Заводной двигатель
+tile.for.engine_electrical.name=Электродвигатель
+tile.for.engine_peat.name=Торфяной двигатель
+tile.for.engine_biogas.name=Биогазовый двигатель
+tile.for.engine_generator.name=Биогенератор
+tile.for.engine_clockwork.name=Заводной двигатель
 
 tile.for.bottler.name=Разливочный механизм
 tile.for.carpenter.name=Плотник

@@ -705,11 +705,11 @@ itemGroup.lepidopterology=林業|蝴蝶
 tile.for.analyzer.name=分析儀
 tile.for.escritoire.name=寫字檯
 
-tile.for.engine.electrical.name=電動引擎
-tile.for.engine.peat.name=泥炭引擎
-tile.for.engine.biogas.name=生物燃油引擎
-tile.for.engine.generator.name=生物質引擎
-tile.for.engine.clockwork.name=發條引擎
+tile.for.engine_electrical.name=電動引擎
+tile.for.engine_peat.name=泥炭引擎
+tile.for.engine_biogas.name=生物燃油引擎
+tile.for.engine_generator.name=生物質引擎
+tile.for.engine_clockwork.name=發條引擎
 
 tile.for.bottler.name=裝瓶機
 tile.for.carpenter.name=木工機
