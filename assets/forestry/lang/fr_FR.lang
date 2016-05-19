@@ -661,8 +661,8 @@ itemGroup.arboriculture=Arboriculture
 itemGroup.forestry=Sylviculture
 itemGroup.lepidopterology=Lépidoptérologie
 
-tile.for.core.analyzer.name=Analyseur
-tile.for.core.escritoire.name=Secrétaire
+tile.for.analyzer.name=Analyseur
+tile.for.escritoire.name=Secrétaire
 
 tile.for.engine.electrical.name=Moteur électrique
 tile.for.engine.peat.name=Moteur tourbe
@@ -670,21 +670,21 @@ tile.for.engine.biogas.name=Moteur biogaz
 tile.for.engine.generator.name=Générator Bio
 tile.for.engine.clockwork.name=Moteur de précision
 
-tile.for.factory.bottler.name=Embouteilleur
-tile.for.factory.carpenter.name=Menuisier
-tile.for.factory.centrifuge.name=Centrifugeuse
-tile.for.factory.fermenter.name=Fermenteur
-tile.for.factory.moistener.name=Humidifieur
-tile.for.factory.squeezer.name=Presse
-tile.for.factory.still.name=Reposeur
-tile.for.factory.rainmaker.name=Faiseur de pluie
-tile.for.factory2.fabricator.name=Fabricateur thermique
-tile.for.factory2.raintank.name=Réservoir de pluie
-tile.for.factory2.worktable.name=Table de travail
+tile.for.bottler.name=Embouteilleur
+tile.for.carpenter.name=Menuisier
+tile.for.centrifuge.name=Centrifugeuse
+tile.for.fermenter.name=Fermenteur
+tile.for.moistener.name=Humidifieur
+tile.for.squeezer.name=Presse
+tile.for.still.name=Reposeur
+tile.for.rainmaker.name=Faiseur de pluie
+tile.for.fabricator.name=Fabricateur thermique
+tile.for.raintank.name=Réservoir de pluie
+tile.for.worktable.name=Table de travail
  
-tile.for.mail.mailbox.name=Boîte aux lettres
-tile.for.mail.trade_station.name=Commerce
-tile.for.mail.stamp_collector.name=Collectionneur de timbre
+tile.for.mailbox.name=Boîte aux lettres
+tile.for.trade_station.name=Commerce
+tile.for.stamp_collector.name=Collectionneur de timbre
 
 tile.for.resources.apatite.name=Minerai d'apatite
 tile.for.resources.copper.name=Minerai de cuivre
@@ -1262,7 +1262,7 @@ tile.for.fireproof=%s (Ignifugé)
 item.for.grafter.name=Croisement
 item.for.grafterProven.name=Croisement prouvé
 
-tile.for.arboriculture.arb_chest.name=Coffre d'arboriste
+tile.for.tree_chest.name=Coffre d'arboriste
 
 tile.for.saplingGE.0.name=Pousse
 tile.for.leaves.0.name=Feuilles
@@ -1388,7 +1388,7 @@ item.for.butterfly.name=Papillon
 item.for.flutterlyzer.name=Analyseur de papillon
 item.for.lepidopteristBag.name=Sac à dos de lépidoptériste
 item.for.moth.name=Papillon de nuit
-tile.for.lepidopterology.lepi_chest.name=Coffre de lépidoptériste
+tile.for.butterfly_chest.name=Coffre de lépidoptériste
 
 ####################
 # MAIL

@@ -674,8 +674,8 @@ itemGroup.arboriculture=Forestry - Arboricultura
 itemGroup.forestry=Forestry
 itemGroup.lepidopterology=Forestry - Heteropterologia
 
-tile.for.core.analyzer.name=Analisador
-tile.for.core.escritoire.name=Escrivaninha
+tile.for.analyzer.name=Analisador
+tile.for.escritoire.name=Escrivaninha
 
 tile.for.engine.electrical.name=Motor Elétrico
 tile.for.engine.peat.name=Motor de Turfa
@@ -683,21 +683,21 @@ tile.for.engine.biogas.name=Motor de Biogás
 tile.for.engine.generator.name=Bio Gerador
 tile.for.engine.clockwork.name=Motor de Engrenagem
 
-tile.for.factory.bottler.name=Engarrafador
-tile.for.factory.carpenter.name=Carpinteiro
-tile.for.factory.centrifuge.name=Centrífuga
-tile.for.factory.fermenter.name=Fermentador
-tile.for.factory.moistener.name=Humidificador
-tile.for.factory.squeezer.name=Hidratador
-tile.for.factory.still.name=Refinador
-tile.for.factory.rainmaker.name=Fazedor de Chuva
-tile.for.factory2.fabricator.name=Fabricador Termiônico
-tile.for.factory2.raintank.name=Tanque de Chuva
-tile.for.factory2.worktable.name=Mesa de Trabalho
+tile.for.bottler.name=Engarrafador
+tile.for.carpenter.name=Carpinteiro
+tile.for.centrifuge.name=Centrífuga
+tile.for.fermenter.name=Fermentador
+tile.for.moistener.name=Humidificador
+tile.for.squeezer.name=Hidratador
+tile.for.still.name=Refinador
+tile.for.rainmaker.name=Fazedor de Chuva
+tile.for.fabricator.name=Fabricador Termiônico
+tile.for.raintank.name=Tanque de Chuva
+tile.for.worktable.name=Mesa de Trabalho
 
-tile.for.mail.mailbox.name=Caixa de Correio
-tile.for.mail.trade_station.name=Posto de Troca
-tile.for.mail.stamp_collector.name=Filatelia
+tile.for.mailbox.name=Caixa de Correio
+tile.for.trade_station.name=Posto de Troca
+tile.for.stamp_collector.name=Filatelia
 
 tile.for.resources.apatite.name=Minério de Apatita
 tile.for.resources.copper.name=Minério de Cobre
@@ -1123,7 +1123,7 @@ tile.for.fireproof=%s (À Prova de Fogo)
 item.for.grafter.name=Enxerto
 item.for.grafterProven.name=Enxerto Comprovado
 
-tile.for.arboriculture.arb_chest.name=Baú do Arborista
+tile.for.tree_chest.name=Baú do Arborista
 
 tile.for.saplingGE.0.name=Muda
 tile.for.leaves.0.name=Folhas
@@ -1256,7 +1256,7 @@ item.for.butterfly.name=Borboleta
 item.for.flutterlyzer.name=Borbo-analizador
 item.for.lepidopteristBag.name=Mochila do Heteropterologista
 item.for.moth.name=Mariposa
-tile.for.lepidopterology.lepi_chest.name=Baú do Heteropterologista
+tile.for.butterfly_chest.name=Baú do Heteropterologista
 
 ####################
 # MAIL

@@ -702,8 +702,8 @@ itemGroup.arboriculture=林業|植樹
 itemGroup.forestry=林業
 itemGroup.lepidopterology=林業|蝴蝶
 
-tile.for.core.analyzer.name=分析儀
-tile.for.core.escritoire.name=寫字檯
+tile.for.analyzer.name=分析儀
+tile.for.escritoire.name=寫字檯
 
 tile.for.engine.electrical.name=電動引擎
 tile.for.engine.peat.name=泥炭引擎
@@ -711,21 +711,21 @@ tile.for.engine.biogas.name=生物燃油引擎
 tile.for.engine.generator.name=生物質引擎
 tile.for.engine.clockwork.name=發條引擎
 
-tile.for.factory.bottler.name=裝瓶機
-tile.for.factory.carpenter.name=木工機
-tile.for.factory.centrifuge.name=離心機
-tile.for.factory.fermenter.name=發酵機
-tile.for.factory.moistener.name=加濕器
-tile.for.factory.squeezer.name=榨汁機
-tile.for.factory.still.name=蒸餾器
-tile.for.factory.rainmaker.name=造雨機
-tile.for.factory2.fabricator.name=熱電子加工台
-tile.for.factory2.raintank.name=集雨蓄水槽
-tile.for.factory2.worktable.name=工作台
+tile.for.bottler.name=裝瓶機
+tile.for.carpenter.name=木工機
+tile.for.centrifuge.name=離心機
+tile.for.fermenter.name=發酵機
+tile.for.moistener.name=加濕器
+tile.for.squeezer.name=榨汁機
+tile.for.still.name=蒸餾器
+tile.for.rainmaker.name=造雨機
+tile.for.fabricator.name=熱電子加工台
+tile.for.raintank.name=集雨蓄水槽
+tile.for.worktable.name=工作台
 
-tile.for.mail.mailbox.name=信箱
-tile.for.mail.trade_station.name=貿易站
-tile.for.mail.stamp_collector.name=集郵箱
+tile.for.mailbox.name=信箱
+tile.for.trade_station.name=貿易站
+tile.for.stamp_collector.name=集郵箱
 
 tile.for.resources.apatite.name=磷礦石
 tile.for.resources.copper.name=銅礦石
@@ -1151,7 +1151,7 @@ tile.for.fireproof=抗燃%s
 item.for.grafter.name=剪枝器
 item.for.grafterProven.name=標定剪枝器
 
-tile.for.arboriculture.arb_chest.name=林業員箱子
+tile.for.tree_chest.name=林業員箱子
 
 tile.for.saplingGE.0.name=樹苗
 tile.for.leaves.0.name=樹葉
@@ -1284,7 +1284,7 @@ item.for.butterfly.name=蝴蝶
 item.for.flutterlyzer.name=蝴蝶分析儀
 item.for.lepidopteristBag.name=鱗翅目昆蟲學家背包
 item.for.moth.name=飛蛾
-tile.for.lepidopterology.lepi_chest.name=鱗翅目昆蟲學家箱子
+tile.for.butterfly_chest.name=鱗翅目昆蟲學家箱子
 
 ####################
 # MAIL

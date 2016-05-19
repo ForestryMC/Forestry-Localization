@@ -671,9 +671,9 @@ tile.for.factory.4.name=Увлажнитель
 tile.for.factory.5.name=Соковыжималка
 tile.for.factory.6.name=Дистиллятор
 tile.for.factory.7.name=Вызыватель дождя
-tile.for.factory2.0.name=Электроламповый завод
-tile.for.factory2.1.name=Сборщик дождя
-tile.for.factory2.2.name=Рабочий стол
+tile.for.0.name=Электроламповый завод
+tile.for.1.name=Сборщик дождя
+tile.for.2.name=Рабочий стол
 
 tile.for.mail.0.name=Почтовый ящик
 tile.for.mail.1.name=Торговая станция

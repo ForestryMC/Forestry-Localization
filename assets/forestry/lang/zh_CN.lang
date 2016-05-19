@@ -657,8 +657,8 @@ itemGroup.arboriculture=林业|植树
 itemGroup.forestry=林业
 itemGroup.lepidopterology=林业|蝴蝶
 
-tile.for.core.analyzer.name=分析仪
-tile.for.core.escritoire.name=写字台
+tile.for.analyzer.name=分析仪
+tile.for.escritoire.name=写字台
 
 tile.for.engine.electrical.name=电动引擎
 tile.for.engine.electrical.tooltip=消耗EU并输出RF。
@@ -671,21 +671,21 @@ tile.for.engine.generator.tooltip=利用生物质或乙醇来产生EU。
 tile.for.engine.clockwork.name=发条引擎
 tile.for.engine.clockwork.tooltip=产生少量RF。右击以工作。
 
-tile.for.factory.Bottler.name=装瓶机
-tile.for.factory.carpenter.name=木工机
-tile.for.factory.centrifuge.name=离心机
-tile.for.factory.fermenter.name=发酵机
-tile.for.factory.moistener.name=加湿器
-tile.for.factory.squeezer.name=榨汁机
-tile.for.factory.still.name=蒸馏器
-tile.for.factory.rainmaker.name=造雨机
-tile.for.factory2.fabricator.name=热电子加工台
-tile.for.factory2.raintank.name=集雨蓄水槽
-tile.for.factory2.worktable.name=工作台
+tile.for.bottler.name=装瓶机
+tile.for.carpenter.name=木工机
+tile.for.centrifuge.name=离心机
+tile.for.fermenter.name=发酵机
+tile.for.moistener.name=加湿器
+tile.for.squeezer.name=榨汁机
+tile.for.still.name=蒸馏器
+tile.for.rainmaker.name=造雨机
+tile.for.fabricator.name=热电子加工台
+tile.for.raintank.name=集雨蓄水槽
+tile.for.worktable.name=工作台
 
-tile.for.mail.mailbox.name=信箱
-tile.for.mail.trade_station.name=贸易站
-tile.for.mail.stamp_collector.name=集邮箱
+tile.for.mailbox.name=信箱
+tile.for.trade_station.name=贸易站
+tile.for.stamp_collector.name=集邮箱
 
 tile.for.resources.apatite.name=磷矿石
 tile.for.resources.copper.name=铜矿石
@@ -1050,9 +1050,9 @@ tile.for.alveary.hygro.name=蜂箱组保湿器
 tile.for.alveary.stabiliser.name=蜂箱组稳定器
 tile.for.alveary.sieve.name=蜂箱组滤网
 
-tile.for.apiculture.apiary.name=蜂箱
-tile.for.apicultureChest.api_chest.name=养蜂人箱子
-tile.for.apiculture.bee_house.name=简易蜂房
+tile.for.apiary.name=蜂箱
+tile.for.bee_chest.name=养蜂人箱子
+tile.for.bee_house.name=简易蜂房
 
 tile.for.beehives.forest.name=森林蜂巢
 tile.for.beehives.meadows.name=草地蜂巢
@@ -1269,7 +1269,7 @@ tile.for.fireproof=抗燃%s
 item.for.grafter.name=剪枝器
 item.for.grafterProven.name=标定剪枝器
 
-tile.for.arboriculture.arb_chest.name=林业员箱子
+tile.for.tree_chest.name=林业员箱子
 
 tile.for.saplingGE.0.name=树苗
 tile.for.leaves.0.name=树叶
@@ -1419,7 +1419,7 @@ for.lepidopterology.effect.none=无效果
 item.for.butterfly.name=蝴蝶
 item.for.lepidopteristBag.name=鳞翅目昆虫学家背包
 item.for.moth.name=飞蛾
-tile.for.lepidopterology.lepi_chest.name=鳞翅目昆虫学家箱子
+tile.for.butterfly_chest.name=鳞翅目昆虫学家箱子
 
 ####################
 # MAIL

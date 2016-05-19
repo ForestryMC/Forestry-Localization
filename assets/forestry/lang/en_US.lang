@@ -657,8 +657,8 @@ itemGroup.arboriculture=Arboriculture
 itemGroup.forestry=Forestry
 itemGroup.lepidopterology=Lepidopterology
 
-tile.for.core.analyzer.name=Analyzer
-tile.for.core.escritoire.name=Escritoire
+tile.for.analyzer.name=Analyzer
+tile.for.escritoire.name=Escritoire
 
 tile.for.engine.electrical.name=Electrical Engine
 tile.for.engine.electrical.tooltip=Converts EU to RF.
@@ -671,21 +671,21 @@ tile.for.engine.generator.tooltip=Generates EU from Biomass or Ethanol.
 tile.for.engine.clockwork.name=Clockwork Engine
 tile.for.engine.clockwork.tooltip=Generates small amounts of RF. Right-click to wind it up.
 
-tile.for.factory.bottler.name=Bottler
-tile.for.factory.carpenter.name=Carpenter
-tile.for.factory.centrifuge.name=Centrifuge
-tile.for.factory.fermenter.name=Fermenter
-tile.for.factory.moistener.name=Moistener
-tile.for.factory.squeezer.name=Squeezer
-tile.for.factory.still.name=Still
-tile.for.factory.rainmaker.name=Rainmaker
-tile.for.factory2.fabricator.name=Thermionic Fabricator
-tile.for.factory2.raintank.name=Raintank
-tile.for.factory2.worktable.name=Worktable
+tile.for.bottler.name=Bottler
+tile.for.carpenter.name=Carpenter
+tile.for.centrifuge.name=Centrifuge
+tile.for.fermenter.name=Fermenter
+tile.for.moistener.name=Moistener
+tile.for.squeezer.name=Squeezer
+tile.for.still.name=Still
+tile.for.rainmaker.name=Rainmaker
+tile.for.fabricator.name=Thermionic Fabricator
+tile.for.raintank.name=Raintank
+tile.for.worktable.name=Worktable
 
-tile.for.mail.mailbox.name=Mailbox
-tile.for.mail.trade_station.name=Trade Station
-tile.for.mail.stamp_collector.name=Stamp Collector
+tile.for.mailbox.name=Mailbox
+tile.for.trade_station.name=Trade Station
+tile.for.stamp_collector.name=Stamp Collector
 
 tile.for.resources.apatite.name=Apatite Ore
 tile.for.resources.copper.name=Copper Ore
@@ -1050,9 +1050,9 @@ tile.for.alveary.hygro.name=Alveary Hygroregulator
 tile.for.alveary.stabiliser.name=Alveary Stabiliser
 tile.for.alveary.sieve.name=Alveary Sieve
 
-tile.for.apiculture.apiary.name=Apiary
-tile.for.apicultureChest.api_chest.name=Apiarist's Chest
-tile.for.apiculture.bee_house.name=Bee House
+tile.for.apiary.name=Apiary
+tile.for.bee_chest.name=Apiarist's Chest
+tile.for.bee_house.name=Bee House
 
 tile.for.beehives.forest.name=Forest Hive
 tile.for.beehives.meadows.name=Meadows Hive
@@ -1269,7 +1269,7 @@ tile.for.fireproof=%s (Fireproof)
 item.for.grafter.name=Grafter
 item.for.grafterProven.name=Proven Grafter
 
-tile.for.arboriculture.arb_chest.name=Arborist's Chest
+tile.for.tree_chest.name=Arborist's Chest
 
 tile.for.saplingGE.0.name=Sapling
 tile.for.leaves.0.name=Leaves
@@ -1419,7 +1419,7 @@ for.lepidopterology.effect.none=None
 item.for.butterfly.name=Butterfly
 item.for.lepidopteristBag.name=Lepidopterist's Backpack
 item.for.moth.name=Moth
-tile.for.lepidopterology.lepi_chest.name=Lepidopterist's Chest
+tile.for.butterfly_chest.name=Lepidopterist's Chest
 
 ####################
 # MAIL

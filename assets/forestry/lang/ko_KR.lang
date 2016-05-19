@@ -628,8 +628,8 @@ itemGroup.arboriculture=수목재배학
 itemGroup.forestry=삼림학
 itemGroup.lepidopterology=인시류학
 
-tile.for.core.analyzer.name=유전 정보 분석기
-tile.for.core.escritoire.name=연구 책상
+tile.for.analyzer.name=유전 정보 분석기
+tile.for.escritoire.name=연구 책상
 
 tile.for.engine.electrical.name=전기 엔진
 tile.for.engine.peat.name=토탄 엔진
@@ -637,21 +637,21 @@ tile.for.engine.biogas.name=바이오가스 엔진
 tile.for.engine.generator.name=바이오연료 발전기
 tile.for.engine.clockwork.name=시계태엽 엔진
 
-tile.for.factory.bottler.name=보틀러
-tile.for.factory.carpenter.name=카펜터
-tile.for.factory.centrifuge.name=원심분리기
-tile.for.factory.fermenter.name=발효기
-tile.for.factory.moistener.name=습윤기
-tile.for.factory.squeezer.name=압착기
-tile.for.factory.still.name=증류기
-tile.for.factory.rainmaker.name=기후 제어기
-tile.for.factory2.fabricator.name=열이온 세공기
-tile.for.factory2.raintank.name=빗물저류조
-tile.for.factory2.worktable.name=목공 작업대
+tile.for.bottler.name=보틀러
+tile.for.carpenter.name=카펜터
+tile.for.centrifuge.name=원심분리기
+tile.for.fermenter.name=발효기
+tile.for.moistener.name=습윤기
+tile.for.squeezer.name=압착기
+tile.for.still.name=증류기
+tile.for.rainmaker.name=기후 제어기
+tile.for.fabricator.name=열이온 세공기
+tile.for.raintank.name=빗물저류조
+tile.for.worktable.name=목공 작업대
 
-tile.for.mail.mailbox.name=편지함
-tile.for.mail.trade_station.name=거래소
-tile.for.mail.stamp_collector.name=스탬프 콜랙션
+tile.for.mailbox.name=편지함
+tile.for.trade_station.name=거래소
+tile.for.stamp_collector.name=스탬프 콜랙션
 
 tile.for.resources.apatite.name=인회석 광석
 tile.for.resources.copper.name=구리 광석
@@ -999,7 +999,7 @@ for.trees.species.yellowMeranti=옐로우세라야
 item.for.grafter.name=묘목 채취기
 item.for.grafterProven.name=검증된 묘목 채취기
 
-tile.for.arboriculture.arb_chest.name=수목 재배가의 상자
+tile.for.tree_chest.name=수목 재배가의 상자
 
 tile.for.fences.0.name=낙엽송 울타리
 tile.for.fences.1.name=티크 울타리
@@ -1264,7 +1264,7 @@ item.for.butterfly.name=나비
 item.for.flutterlyzer.name=나비 분석기
 item.for.lepidopteristBag.name=인시류학자의 가방
 item.for.moth.name=Moth
-tile.for.lepidopterology.lepi_chest.name=인시류학자의 가방
+tile.for.butterfly_chest.name=인시류학자의 가방
 
 ####################
 # MAIL
