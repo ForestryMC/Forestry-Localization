@@ -33,6 +33,7 @@ for.chat.command.forestry.plugins.info.desc=- %s : Information on a specific Plu
 for.chat.command.forestry.plugins.info.help=Prints information on a specific Plugin
 for.chat.command.forestry.plugins.info.format=Format: /%s <plugin-name>
 
+
 for.chat.help=Type '%s' for help.
 for.chat.plugins.error=No information available for plugin %s.
 for.chat.version=Forestry %1$s for Minecraft %2$s (Latest: %3$s).
@@ -63,7 +64,7 @@ for.circuit.machine.efficiency.1.description.1=Decreases Power Use by 10%
 for.circuit.layout.dummy.name=Not Available
 for.circuit.layout.dummy.usage=Nothing
 
-for.circuit.layout.engine.tin.name=Electrical Engine
+for.circuit.layout.engine.tin.name=Electric Engine
 for.circuit.layout.engine.tin.usage=In Electrical Engines
 
 for.circuit.layout.farms.managed.name=Managed Farm
@@ -85,24 +86,26 @@ for.flowers.vanilla=Flowers
 for.flowers.wheat=Wheat
 for.flowers.snow=Snow
 
-fluid.bio.ethanol=Ethanol
+fluid.bioethanol=Ethanol
 fluid.biomass=Biomass
 fluid.glass=Liquid Glass
 fluid.for.honey=Honey
 fluid.ice=Crushed Ice
 fluid.juice=Fruit Juice
 fluid.short.mead=Short Mead
+fluid.mead=Mead
 fluid.milk=Milk
-fluid.seed.oil=Seed Oil
-tile.forestry.fluid.bio.ethanol.name=Ethanol
+fluid.seedoil=Seed Oil
+tile.forestry.fluid.bioethanol.name=Ethanol
 tile.forestry.fluid.biomass.name=Biomass
 tile.forestry.fluid.glass.name=Liquid Glass
 tile.forestry.fluid.for.honey.name=Honey
 tile.forestry.fluid.ice.name=Crushed Ice
 tile.forestry.fluid.juice.name=Fruit Juice
 tile.forestry.fluid.short.mead.name=Short Mead
+tile.forestry.fluid.mead.name=Mead
 tile.forestry.fluid.milk.name=Milk
-tile.forestry.fluid.seed.oil.name=Seed Oil
+tile.forestry.fluid.seedoil.name=Seed Oil
 
 for.gui.access=Access
 for.gui.active=Active
@@ -119,16 +122,15 @@ for.gui.area=Territory
 for.gui.arid=Arid
 for.gui.beach=Beach
 
-for.gui.portablealyzer=Portable Alyzer
-for.gui.portablealyzer.help=Supply bee, tree, butterfly or an other individual and provide honey or honeydew as a pacifier.
-
 for.gui.beealyzer.artificial=Artificial Origin
 for.gui.beealyzer.behaviour=Behaviour
 for.gui.beealyzer.generations=%s Generations in Captivity
+for.gui.beealyzer.help=Supply bee and provide honey or honeydew as a pacifier.
 for.gui.beealyzer.mutations=Possible Mutations
 for.gui.beealyzer.natural=Natural Origin
 for.gui.beealyzer.produce=Possible Produce
 for.gui.beealyzer.specialty=Possible Specialty
+for.gui.beealyzer=Beealyzer
 
 for.gui.blank=Blank
 for.gui.cave=Cave Dwelling
@@ -146,10 +148,6 @@ for.gui.drones=Drones
 for.gui.effect=Effect
 for.gui.empty=Empty
 for.gui.emptysocket=Empty Socket
-for.gui.empty.slot.camouflage.multiblock.default=Default Multiblock Camouflage Slot
-for.gui.empty.slot.camouflage.multiblock.glass=Glass Multiblock Camouflage Slot
-for.gui.empty.slot.camouflage.multiblock.door=Door Multiblock Camouflage Slot
-for.gui.empty.slot.camouflage=Camouflage Slot
 for.gui.socket.remove=Removable with a Soldering Iron
 for.gui.energy=Energy
 for.gui.environment=Environment
@@ -179,20 +177,26 @@ for.gui.escritoire.probe=Examine Specimens
 for.gui.escritoire.instructions=Place a genetic sample in the center to begin. Place more in the left slots and examine them for help.
 for.gui.escritoire.attempt.number=Attempt No. %s
 
+# Write as many notes as you like, just set the count correctly.
+
+for.gui.escritoire.notes.level1.count=3
 for.gui.escritoire.notes.level1.1=I have found a curious specimen on my travels.
 for.gui.escritoire.notes.level1.2=This strange fellow needs further investigation.
 for.gui.escritoire.notes.level1.3=Elated, I wanted to start at once with my research.
 
+for.gui.escritoire.notes.level2.count=4
 for.gui.escritoire.notes.level2.1=I was amazed at the wondrous nature of it.
 for.gui.escritoire.notes.level2.2=The specimen twitched, while I inspected it more closely.
 for.gui.escritoire.notes.level2.3=Strange markings on the underside made me curious.
 for.gui.escritoire.notes.level2.4=This will be the talk of the society when I am done investigating.
 
+for.gui.escritoire.notes.level3.count=4
 for.gui.escritoire.notes.level3.1=After some prodding I discovered an interesting new lead.
 for.gui.escritoire.notes.level3.2=I scratched my head at this discovery and questioned everything.
 for.gui.escritoire.notes.level3.3=I thought my eyes deceived me, but there it was.
 for.gui.escritoire.notes.level3.4=A previously unseen dot led me to question the specimen's classification.
 
+for.gui.escritoire.notes.level4.count=7
 for.gui.escritoire.notes.level4.1=My screams of frustration had the housekeeper look into my study in worry.
 for.gui.escritoire.notes.level4.2=In a frenzy and on the verge of despair, I ripped up all the notes!
 for.gui.escritoire.notes.level4.3=This... just doesn't make any sense!
@@ -201,12 +205,14 @@ for.gui.escritoire.notes.level4.5=The sledgehammer barely made a dent, so I sent
 for.gui.escritoire.notes.level4.6=I swear it was looking at me, with its beady, cruel, little eyes.
 for.gui.escritoire.notes.level4.7=Is that laughter? Do I hear laughter? Who is laughing here?
 
+for.gui.escritoire.notes.success.count=5
 for.gui.escritoire.notes.success.1=EUREKA!
 for.gui.escritoire.notes.success.2=Wondrous! My name will go down in history!
 for.gui.escritoire.notes.success.3=My colleagues will be impressed!
 for.gui.escritoire.notes.success.4=I will be the envy of everyone at the society!
 for.gui.escritoire.notes.success.5=Yes!
 
+for.gui.escritoire.notes.failure.count=5
 for.gui.escritoire.notes.failure.1=All is lost.
 for.gui.escritoire.notes.failure.2=I consign my notes to the fire.
 for.gui.escritoire.notes.failure.3=Why? I had made such great strides at first...
@@ -216,8 +222,8 @@ for.gui.escritoire.notes.failure.5=Oh my...
 for.gui.mail.foreveryattached=for every attached
 for.gui.mail.from=From
 for.gui.mail.nametrader=Name your trade station
-for.gui.mail.nothing.to.trade=Trade station has nothing to trade.
-for.gui.mail.no.trader=No trade station of that name available.
+for.gui.mail.nothingtotrade=Trade station has nothing to trade.
+for.gui.mail.notrader=No trade station of that name available.
 for.gui.mail.pleasesend=Please send
 for.gui.mail.order.attached=Please find your order attached.
 for.gui.mail.order.filled.one=1 order from %SENDER was filled.
@@ -265,58 +271,58 @@ for.gui.solder.south=S
 for.gui.solder.east=E
 for.gui.solder.west=W
 
-Forestry.allele.average=Average
-Forestry.allele.gigantic=Gigantic
-Forestry.allele.normal=Normal
+forestry.allele.average=Average
+forestry.allele.gigantic=Gigantic
+forestry.allele.normal=Normal
 
-Forestry.allele.slowest=Slowest
-Forestry.allele.slower=Slower
-Forestry.allele.slow=Slow
-Forestry.allele.fast=Fast
-Forestry.allele.faster=Faster
-Forestry.allele.fastest=Fastest
-Forestry.allele.maximum=Maximum
+forestry.allele.slowest=Slowest
+forestry.allele.slower=Slower
+forestry.allele.slow=Slow
+forestry.allele.fast=Fast
+forestry.allele.faster=Faster
+forestry.allele.fastest=Fastest
+forestry.allele.maximum=Maximum
 
-Forestry.allele.smallest=Smallest
-Forestry.allele.smaller=Smaller
-Forestry.allele.small=Small
-Forestry.allele.large=Large
-Forestry.allele.larger=Larger
-Forestry.allele.largest=Largest
+forestry.allele.smallest=Smallest
+forestry.allele.smaller=Smaller
+forestry.allele.small=Small
+forestry.allele.large=Large
+forestry.allele.larger=Larger
+forestry.allele.largest=Largest
 
-Forestry.allele.lowest=Lowest
-Forestry.allele.lower=Lower
-Forestry.allele.low=Low
-Forestry.allele.high=High
-Forestry.allele.higher=Higher
-Forestry.allele.highest=Highest
+forestry.allele.lowest=Lowest
+forestry.allele.lower=Lower
+forestry.allele.low=Low
+forestry.allele.high=High
+forestry.allele.higher=Higher
+forestry.allele.highest=Highest
 
-Forestry.allele.tolerance.both1=Both 1
-Forestry.allele.tolerance.both2=Both 2
-Forestry.allele.tolerance.both3=Both 3
-Forestry.allele.tolerance.both4=Both 4
-Forestry.allele.tolerance.both5=Both 5
-Forestry.allele.tolerance.down1=Down 1
-Forestry.allele.tolerance.down2=Down 2
-Forestry.allele.tolerance.down3=Down 3
-Forestry.allele.tolerance.down4=Down 4
-Forestry.allele.tolerance.down5=Down 5
-Forestry.allele.tolerance.none=None
-Forestry.allele.tolerance.up1=Up 1
-Forestry.allele.tolerance.up2=Up 2
-Forestry.allele.tolerance.up3=Up 3
-Forestry.allele.tolerance.up4=Up 4
-Forestry.allele.tolerance.up5=Up 5
+forestry.allele.tolerance.both1=Both 1
+forestry.allele.tolerance.both2=Both 2
+forestry.allele.tolerance.both3=Both 3
+forestry.allele.tolerance.both4=Both 4
+forestry.allele.tolerance.both5=Both 5
+forestry.allele.tolerance.down1=Down 1
+forestry.allele.tolerance.down2=Down 2
+forestry.allele.tolerance.down3=Down 3
+forestry.allele.tolerance.down4=Down 4
+forestry.allele.tolerance.down5=Down 5
+forestry.allele.tolerance.none=None
+forestry.allele.tolerance.up1=Up 1
+forestry.allele.tolerance.up2=Up 2
+forestry.allele.tolerance.up3=Up 3
+forestry.allele.tolerance.up4=Up 4
+forestry.allele.tolerance.up5=Up 5
 
-Forestry.allele.lifespan.shortest=Shortest
-Forestry.allele.lifespan.shorter=Shorter
-Forestry.allele.lifespan.short=Short
-Forestry.allele.lifespan.shortened=Shortened
-Forestry.allele.lifespan.normal=Normal
-Forestry.allele.lifespan.elongated=Elongated
-Forestry.allele.lifespan.long=Long
-Forestry.allele.lifespan.longer=Longer
-Forestry.allele.lifespan.longest=Longest
+forestry.allele.lifespan.shortest=Shortest
+forestry.allele.lifespan.shorter=Shorter
+forestry.allele.lifespan.short=Short
+forestry.allele.lifespan.shortened=Shortened
+forestry.allele.lifespan.normal=Normal
+forestry.allele.lifespan.elongated=Elongated
+forestry.allele.lifespan.long=Long
+forestry.allele.lifespan.longer=Longer
+forestry.allele.lifespan.longest=Longest
 
 for.gui.size=Size
 for.gui.slots=%USED/%SIZE Slots
@@ -329,7 +335,6 @@ for.gui.temperature=Temperature
 for.gui.tolerance=Tolerance
 for.gui.temptol=Temperature Tol.
 for.gui.tooltip.tmi=Hold shift for details
-for.gui.tooltip.liquid.amount=%,d / %,d mB
 for.gui.triple=Triple
 for.gui.unknown=Unknown genome
 for.gui.warm=Warm
@@ -440,9 +445,9 @@ for.mutation.condition.temperature.single=Requires %s temperature.
 for.mutation.condition.resource=Requires %s as a foundation.
 for.mutation.condition.date=Occurs between %START and %END.
 
-for.storage.backpack.mode.locked=(Locked Mode)
-for.storage.backpack.mode.receiving=(Receiving Mode)
-for.storage.backpack.mode.resupply=(Resupply Mode)
+for.storage.backpack.mode.locked=(LOCKED)
+for.storage.backpack.mode.receiving=(RECEIVING)
+for.storage.backpack.mode.resupply=(RESUPPLY)
 
 for.trigger.hasMail=Has Mail
 for.trigger.hasWork=Has Work
@@ -472,6 +477,7 @@ item.for.apiaristLegs.name=Apiarist's Pants
 
 item.for.ash.name=Ash
 
+item.for.beealyzer.name=Beealyzer
 item.for.habitatLocator.name=Habitat Locator
 
 item.for.cart.beehouse.name=Minecart with Bee House
@@ -499,6 +505,7 @@ item.for.beeswax.name=Beeswax
 
 item.for.beverage.meadCurative.name=Curative Mead
 item.for.beverage.meadShort.name=Short Mead
+item.for.beverage.mead.name=Mead
 
 item.for.biomeFinder.name=Habitat Locator
 item.for.bituminousPeat.name=Bituminous Peat
@@ -509,9 +516,28 @@ item.for.bronzeShovel.name=Survivalist's Shovel
 item.for.builderBag.name=Builder's Backpack
 item.for.builderBagT2.name=Builder's WovenBackpack
 
-item.for.can.empty.name=Can
-item.for.can.grammar=%s Can
+item.for.bucketEthanol.name=Ethanol Bucket
+item.for.bucketBiomass.name=Biomass Bucket
+item.for.bucketHoney.name=Honey Bucket
+item.for.bucketIce.name=Crushed Ice Bucket
+item.for.bucketJuice.name=Juice Bucket
+item.for.bucketSeedOil.name=Seed Oil Bucket
+item.for.bucketGlass.name=Molten Glass Bucket
+item.for.bucketShortMead.name=Short Mead Bucket
+item.for.bucketMead.name=Mead Bucket
 
+item.for.canEmpty.name=Can
+item.for.canEthanol.name=Ethanol Can
+item.for.canBiomass.name=Biomass Can
+item.for.canFuel.name=Fuel Can
+item.for.canHoney.name=Honey Can
+item.for.canIce.name=Ice Can
+item.for.canJuice.name=Juice Can
+item.for.canLava.name=Lava Can
+item.for.canMead.name=Mead Can
+item.for.canOil.name=Oil Can
+item.for.canSeedOil.name=Seed Oil Can
+item.for.canShortMead.name=Short Mead Can
 item.for.carton.name=Carton
 
 item.for.circuitboard.basic.name=Basic Circuit Board
@@ -524,7 +550,6 @@ item.for.craftingMaterial.iceShard.name=Ice Shard
 item.for.craftingMaterial.pulsatingDust.name=Pulsating Dust
 item.for.craftingMaterial.pulsatingMesh.name=Pulsating Mesh
 item.for.craftingMaterial.scentedPaneling.name=Scented Paneling
-item.for.craftingMaterial.camouflagedPaneling.name=Camouflaged Paneling
 item.for.craftingMaterial.silkWisp.name=Silk Wisp
 item.for.craftingMaterial.wovenSilk.name=Woven Silk
 
@@ -542,11 +567,6 @@ item.for.frameImpregnated.name=Impregnated Frame
 item.for.frameProven.name=Proven Frame
 item.for.frameUntreated.name=Untreated Frame
 
-item.for.frame.durability=Durability: %,d
-
-item.for.bee.modifier.production=Production: %.2fx
-item.for.bee.modifier.genetic.decay=Genetic Decay: %.2fx
-
 item.for.fruits.cherry.name=Cherry
 item.for.fruits.chestnut.name=Chestnut
 item.for.fruits.dates.name=Date
@@ -562,8 +582,6 @@ item.for.gearTin.name=Tin Gear
 item.for.hardenedMachine.name=Hardened Casing
 
 item.for.honeydew.name=Honeydew
-
-item.for.portableAlyzer.name=Portable Alyzer
 
 item.for.honeyDrop.charged.name=Charged Drop
 item.for.honeyDrop.honey.name=Honey Drop
@@ -606,17 +624,25 @@ item.for.propolis.pulsating.name=Pulsating Propolis
 item.for.propolis.silky.name=Silky Propolis
 item.for.propolis.sticky.name=Sticky Propolis
 
-item.for.refractory.empty.name=Refractory Capsule
-item.for.refractory.grammar=%s Capsule
-
+item.for.refractoryEthanol.name=Ethanol Capsule
+item.for.refractoryBiomass.name=Biomass Capsule
+item.for.refractoryEmpty.name=Refractory Capsule
+item.for.refractoryFuel.name=Fuel Capsule
+item.for.refractoryHoney.name=Honey Capsule
+item.for.refractoryIce.name=Ice Capsule
+item.for.refractoryJuice.name=Juice Capsule
+item.for.refractoryLava.name=Lava Capsule
+item.for.refractoryMead.name=Mead Capsule
+item.for.refractoryOil.name=Oil Capsule
+item.for.refractorySeedOil.name=Seed Oil Capsule
+item.for.refractoryShortMead.name=Short Mead Capsule
+item.for.refractoryWater.name=Water Capsule
 item.for.refractoryWax.name=Refractory Wax
 
 item.for.researchNote.name=%s's Notes
 item.for.royalJelly.name=Royal Jelly
 item.for.scoop.name=Scoop
 item.for.solderingIron.name=Soldering Iron
-item.for.smoker.name=Bee Smoker
-item.for.smoker.description=Calms wild bees
 
 item.for.stamps.1n.name=Stamp (1n)
 item.for.stamps.2n.name=Stamp (2n)
@@ -630,23 +656,36 @@ item.for.stamps.name=Stamp
 item.for.sturdyMachine.name=Sturdy Casing
 item.for.tent.name=Survivalist's Tent
 
-item.for.thermionicTubes.copper.name=Copper Electron Tube
-item.for.thermionicTubes.tin.name=Tin Electron Tube
-item.for.thermionicTubes.bronze.name=Bronze Electron Tube
-item.for.thermionicTubes.iron.name=Iron Electron Tube
-item.for.thermionicTubes.gold.name=Golden Electron Tube
-item.for.thermionicTubes.diamond.name=Diamantine Electron Tube
-item.for.thermionicTubes.obsidian.name=Obsidian Electron Tube
-item.for.thermionicTubes.blaze.name=Blazing Electron Tube
-item.for.thermionicTubes.rubber.name=Rubberised Electron Tube
-item.for.thermionicTubes.emerald.name=Emerald Electron Tube
-item.for.thermionicTubes.apatite.name=Apatine Electron Tube
-item.for.thermionicTubes.lapis.name=Lapis Electron Tube
-item.for.thermionicTubes.ender.name=Ender Electron Tube
+item.for.thermionicTubes.ex-0.name=Copper Electron Tube
+item.for.thermionicTubes.ex-1.name=Tin Electron Tube
+item.for.thermionicTubes.ex-2.name=Bronze Electron Tube
+item.for.thermionicTubes.ex-3.name=Iron Electron Tube
+item.for.thermionicTubes.ex-4.name=Golden Electron Tube
+item.for.thermionicTubes.ex-5.name=Diamantine Electron Tube
+item.for.thermionicTubes.ex-6.name=Obsidian Electron Tube
+item.for.thermionicTubes.ex-7.name=Blazing Electron Tube
+item.for.thermionicTubes.ex-8.name=Rubberised Electron Tube
+item.for.thermionicTubes.ex-9.name=Emerald Electron Tube
+item.for.thermionicTubes.ex-10.name=Apatine Electron Tube
+item.for.thermionicTubes.ex-11.name=Lapis Electron Tube
+item.for.thermionicTubes.ex-12.name=Ender Electron Tube
 
-item.for.capsule.empty.name=Wax Capsule
-item.for.capsule.grammar=%s Capsule
+item.for.treealyzer.name=Treealyzer
 
+item.for.canWater.name=Water Can
+
+item.for.waxCapsule.name=Wax Capsule
+item.for.waxCapsuleEthanol.name=Ethanol Capsule
+item.for.waxCapsuleBiomass.name=Biomass Capsule
+item.for.waxCapsuleFuel.name=Fuel Capsule
+item.for.waxCapsuleHoney.name=Honey Capsule
+item.for.waxCapsuleIce.name=Ice Capsule
+item.for.waxCapsuleJuice.name=Juice Capsule
+item.for.waxCapsuleMead.name=Mead Capsule
+item.for.waxCapsuleOil.name=Oil Capsule
+item.for.waxCapsuleSeedOil.name=Seed Oil Capsule
+item.for.waxCapsuleShortMead.name=Short Mead Capsule
+item.for.waxCapsuleWater.name=Water Capsule
 item.for.waxCast.name=Wax Cast
 
 item.for.woodPulp.name=Wood Pulp
@@ -657,48 +696,67 @@ itemGroup.arboriculture=Arboriculture
 itemGroup.forestry=Forestry
 itemGroup.lepidopterology=Lepidopterology
 
-tile.for.analyzer.name=Analyzer
-tile.for.escritoire.name=Escritoire
+tile.for.core.0.name=Analyzer
+tile.for.core.1.name=Escritoire
 
-tile.for.engine.electrical.name=Electrical Engine
-tile.for.engine.electrical.tooltip=Converts EU to RF.
-tile.for.engine.peat.name=Peat-fired Engine
-tile.for.engine.peat.tooltip=Generates RF from peat.
-tile.for.engine.biogas.name=Biogas Engine
-tile.for.engine.biogas.tooltip=Generates RF from organic fluids and lava.
-tile.for.engine.generator.name=Bio Generator
-tile.for.engine.generator.tooltip=Generates EU from Biomass or Ethanol.
-tile.for.engine.clockwork.name=Clockwork Engine
-tile.for.engine.clockwork.tooltip=Generates small amounts of RF. Right-click to wind it up.
+tile.for.engine.0.name=Electrical Engine
+tile.for.engine.1.name=Peat-fired Engine
+tile.for.engine.2.name=Biogas Engine
+tile.for.engine.3.name=Bio Generator
+tile.for.engine.4.name=Clockwork Engine
 
-tile.for.bottler.name=Bottler
-tile.for.carpenter.name=Carpenter
-tile.for.centrifuge.name=Centrifuge
-tile.for.fermenter.name=Fermenter
-tile.for.moistener.name=Moistener
-tile.for.squeezer.name=Squeezer
-tile.for.still.name=Still
-tile.for.rainmaker.name=Rainmaker
-tile.for.fabricator.name=Thermionic Fabricator
-tile.for.raintank.name=Raintank
-tile.for.worktable.name=Worktable
+tile.for.factory.0.name=Bottler
+tile.for.factory.1.name=Carpenter
+tile.for.factory.2.name=Centrifuge
+tile.for.factory.3.name=Fermenter
+tile.for.factory.4.name=Moistener
+tile.for.factory.5.name=Squeezer
+tile.for.factory.6.name=Still
+tile.for.factory.7.name=Rainmaker
+tile.for.factory2.0.name=Thermionic Fabricator
+tile.for.factory2.1.name=Raintank
+tile.for.factory2.2.name=Worktable
 
-tile.for.mailbox.name=Mailbox
-tile.for.trade_station.name=Trade Station
-tile.for.stamp_collector.name=Stamp Collector
+tile.for.mail.0.name=Mailbox
+tile.for.mail.1.name=Trade Station
+tile.for.mail.2.name=Stamp Collector
 
-tile.for.resources.apatite.name=Apatite Ore
-tile.for.resources.copper.name=Copper Ore
-tile.for.resources.tin.name=Tin Ore
+tile.for.resources.0.name=Apatite Ore
+tile.for.resources.1.name=Copper Ore
+tile.for.resources.2.name=Tin Ore
 
-tile.for.resourceStorage.apatite.name=Block of Apatite
-tile.for.resourceStorage.copper.name=Block of Copper
-tile.for.resourceStorage.tin.name=Block of Tin
-tile.for.resourceStorage.bronze.name=Block of Bronze
+tile.for.resourceStorage.0.name=Block of Apatite
+tile.for.resourceStorage.1.name=Block of Copper
+tile.for.resourceStorage.2.name=Block of Tin
+tile.for.resourceStorage.3.name=Block of Bronze
 
-tile.for.soil.humus.name=Humus
-tile.for.soil.bog_earth.name=Bog Earth
-tile.for.soil.peat.name=Peat
+tile.for.soil.0.name=Humus
+tile.for.soil.1.name=Bog Earth
+tile.for.soil.2.name=Peat
+
+tile.for.stained.0.name=White Stained Glass
+tile.for.stained.1.name=Orange Stained Glass
+tile.for.stained.2.name=Magenta Stained Glass
+tile.for.stained.3.name=Light Blue Stained Glass
+tile.for.stained.4.name=Yellow Stained Glass
+tile.for.stained.5.name=Lime Stained Glass
+tile.for.stained.6.name=Pink Stained Glass
+tile.for.stained.7.name=Gray Stained Glass
+tile.for.stained.8.name=Light Gray Stained Glass
+tile.for.stained.9.name=Cyan Stained Glass
+tile.for.stained.10.name=Purple Stained Glass
+tile.for.stained.11.name=Blue Stained Glass
+tile.for.stained.12.name=Brown Stained Glass
+tile.for.stained.13.name=Green Stained Glass
+tile.for.stained.14.name=Red Stained Glass
+tile.for.stained.15.name=Black Stained Glass
+
+neiintegration.chance=Chance: %s
+neiintegration.chance.never=Never
+neiintegration.chance.lessThan1=<1%
+neiintegration.handler.forestry.shaped=Forestry Shaped
+neiintegration.handler.forestry.shapeless=Forestry Shapeless
+neiintegration.handler.forestry.fabricator.worth=Worth:
 
 ################
 # ERRORS
@@ -832,8 +890,6 @@ for.errors.wrongStacksize.help=Only single items can be used here.
 
 death.bee.aggressive.player=%1$s encountered a swarm of bees. %2$s stole his apiarist's suit.
 death.bee.aggressive=%1$s encountered a swarm of bees. That had to sting.
-death.bee.hive.player=%1$s was killed by wild bees. %2$s stole his apiarist's suit.
-death.bee.hive=%1$s was killed by wild bees. They should have used a Smoker.
 death.bee.end.player=%1$s was ended by an unfriendly sting while fighting %2$s.
 death.bee.end=%1$s was ended by an unfriendly sting.
 death.bee.radioactive.player=%1$s walked into Chernobyl without his helmet on. %2$s watched and cackled.
@@ -841,24 +897,25 @@ death.bee.radioactive=%1$s walked into Chernobyl without his helmet on.
 death.bee.heroic.player=%1$s was slain by heroic bees! %2$s is forever in their debt.
 death.bee.heroic=%1$s was slain by heroic bees!
 
-Forestry.allele.effect.aggressive=Aggress.
-Forestry.allele.effect.beatific=Beatific
-Forestry.allele.effect.creeper=Creeper
-Forestry.allele.effect.drunkard=Drunkard
-Forestry.allele.effect.exploration=Explorer
-Forestry.allele.effect.glacial=Freezing
-Forestry.allele.effect.fertile=Fertile
-Forestry.allele.effect.heroic=Heroic
-Forestry.allele.effect.ignition=Flammable
-Forestry.allele.effect.misanthrope=Ends
-Forestry.allele.effect.miasmic=Poison
-Forestry.allele.effect.mycophilic=Mycophilic
-Forestry.allele.effect.none=None
-Forestry.allele.effect.radioactive=Radioact.
-Forestry.allele.effect.reanimation=Reanimation
-Forestry.allele.effect.repulsion=Repulsion
-Forestry.allele.effect.resurrection=Resurrection
-Forestry.allele.effect.snowing=Snow
+forestry.allele.effect.aggressive=Aggress.
+forestry.allele.effect.beatific=Beatific
+forestry.allele.effect.creeper=Creeper
+forestry.allele.effect.drunkard=Drunkard
+forestry.allele.effect.exploration=Explorer
+forestry.allele.effect.glacial=Freezing
+forestry.allele.effect.fertile=Fertile
+forestry.allele.effect.festiveEaster=Festive
+forestry.allele.effect.heroic=Heroic
+forestry.allele.effect.ignition=Flammable
+forestry.allele.effect.misanthrope=Ends
+forestry.allele.effect.miasmic=Poison
+forestry.allele.effect.mycophilic=Mycophilic
+forestry.allele.effect.none=None
+forestry.allele.effect.radioactive=Radioact.
+forestry.allele.effect.reanimation=Reanimation
+forestry.allele.effect.repulsion=Repulsion
+forestry.allele.effect.resurrection=Resurrection
+forestry.allele.effect.snowing=Snow
 
 for.beemode.easy.desc=Simplifies beebreeding by drastically increasing mutation rate and removing the chance for genetic fatigue.
 for.beemode.hard.desc=Reducing mutation rate slightly while increasing lifespan of individual queens by 50%%.
@@ -1041,49 +1098,51 @@ for.genus.bees.vengeful=Vengeful
 
 item.for.beePrincessGE.name=Princess
 item.for.beeQueenGE.name=Queen
+item.for.beeDroneGE.name=Drone
 
-tile.for.alveary.plain.name=Alveary
-tile.for.alveary.swarmer.name=Alveary Swarmer
-tile.for.alveary.fan.name=Alveary Fan
-tile.for.alveary.heater.name=Alveary Heater
-tile.for.alveary.hygro.name=Alveary Hygroregulator
-tile.for.alveary.stabiliser.name=Alveary Stabiliser
-tile.for.alveary.sieve.name=Alveary Sieve
+tile.for.alveary.0.name=Alveary
+tile.for.alveary.1.name=Alveary Entrance
+tile.for.alveary.2.name=Swarmer
+tile.for.alveary.3.name=Alveary Fan
+tile.for.alveary.4.name=Alveary Heater
+tile.for.alveary.5.name=Alveary Hygroregulator
+tile.for.alveary.6.name=Alveary Stabiliser
+tile.for.alveary.7.name=Alveary Sieve
 
-tile.for.apiary.name=Apiary
-tile.for.bee_chest.name=Apiarist's Chest
-tile.for.bee_house.name=Bee House
+tile.for.apiculture.0.name=Apiary
+tile.for.apicultureChest.0.name=Apiarist's Chest
+tile.for.apiculture.2.name=Bee House
 
-tile.for.beehives.forest.name=Forest Hive
-tile.for.beehives.meadows.name=Meadows Hive
-tile.for.beehives.desert.name=Modest Hive
-tile.for.beehives.jungle.name=Tropical Hive
-tile.for.beehives.end.name=Ender Hive
-tile.for.beehives.snow.name=Wintry Hive
-tile.for.beehives.swamp.name=Marshy Hive
-tile.for.beehives.swarm.name=Swarm Hive
+tile.for.beehives.1.name=Forest Hive
+tile.for.beehives.2.name=Meadows Hive
+tile.for.beehives.3.name=Modest Hive
+tile.for.beehives.4.name=Tropical Hive
+tile.for.beehives.5.name=Ender Hive
+tile.for.beehives.6.name=Wintry Hive
+tile.for.beehives.7.name=Marshy Hive
+tile.for.beehives.8.name=Swarm Hive
 
 tile.for.candle.dyed.lit.name=Lit Dyed Candle
 tile.for.candle.dyed.stump.name=Unlit Dyed Candle
 tile.for.candle.lit.name=Lit Candle
 tile.for.candle.stump.name=Unlit Candle
 
-tile.for.stump.name=Candle Stump
+tile.for.stump.0.name=Candle Stump
 
 ####################
 # MULTIBLOCK
 ####################
 
 for.multiblock.error.notConnected=The MultiBlock is not connected to a controller. This could be due to lag, or a bug. If the problem persists, try breaking and re-placing the block.
-for.multiblock.error.invalid.interior=(%s) - Block is not valid for use in the machine's interior.
-for.multiblock.error.invalid.part=A multiblock part is incompatible with this type (%s).
-for.multiblock.error.small=The multiblock is too small. It must be at least %dx%dx%d in size.
-for.multiblock.error.large.x=The multiblock is too large, it may be at most %d blocks wide.
-for.multiblock.error.large.y=The multiblock is too large, it may be at most %d blocks high.
-for.multiblock.error.large.z=The multiblock is too large, it may be at most %d blocks deep.
-for.multiblock.error.small.x=The multiblock is too small, it must be at least %d blocks wide.
-for.multiblock.error.small.y=The multiblock is too small, it must be at least %d blocks high.
-for.multiblock.error.small.z=The multiblock is too small, it must be at least %d blocks deep.
+for.multiblock.error.invalid.interior=%d, %d, %d - (%s) Block is not valid for use in the machine's interior.
+for.multiblock.error.invalid.part=The multiblock part @ %d, %d, %d is incompatible with machines of type %s.
+for.multiblock.error.small=The multiblock is too small. It must be at least %d X, %d Y, %d Z.
+for.multiblock.error.large.x=The multiblock is too large, it may be at most %d blocks in the X dimension.
+for.multiblock.error.large.y=The multiblock is too large, it may be at most %d blocks in the Y dimension.
+for.multiblock.error.large.z=The multiblock is too large, it may be at most %d blocks in the Z dimension.
+for.multiblock.error.small.x=The multiblock is too small, it must be at least %d blocks in the X dimension.
+for.multiblock.error.small.y=The multiblock is too small, it must be at least %d blocks in the Y dimension.
+for.multiblock.error.small.z=The multiblock is too small, it must be at least %d blocks in the Z dimension.
 
 for.multiblock.alveary.error.needSlabs=The Alveary must have wooden slabs on top.
 for.multiblock.alveary.error.needSpace=The alveary needs space around the top for the bees to enter and exit.
@@ -1093,10 +1152,6 @@ for.multiblock.alveary.error.needPlainInterior=The Alveary must have plain alvea
 for.multiblock.farm.error.needPlainBand=The Farm must have plain farm blocks for the third level.
 for.multiblock.farm.error.needPlainInterior=The Farm must have plain farm blocks for the interior.
 for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept power and do work.
-
-for.multiblock.alveary.type=Alveary
-for.multiblock.farm.type=Farm
-for.multiblock.greenhouse.type=Greenhouse
 
 ####################
 # ARBORICULTURE
@@ -1171,6 +1226,8 @@ for.gui.saplings=Saplings
 for.gui.sappiness=Sappiness
 for.gui.supports=Supports
 for.gui.tolerated=Tolerates
+for.gui.treealyzer.help=Supply sapling and provide honey or honeydew as catalyst.
+for.gui.treealyzer=Treealyzer
 for.gui.yield=Yield
 
 for.growth.normal=Light
@@ -1226,13 +1283,10 @@ for.trees.species.cocobolo=Cocobolo
 for.trees.species.zebrawood=Zebrawood
 
 for.fences.grammar=%TYPE Fence
-for.fence_gates.grammar=%TYPE Fence Gate
 for.log.grammar=%TYPE Wood
 for.planks.grammar=%TYPE Wood Planks
 for.slab.grammar=%TYPE Wood Slab
-for.slab.double.grammar=%TYPE Wood Slab
 for.stairs.grammar=%TYPE Stairs
-for.doors.grammar=%TYPE Door
 
 for.trees.woodType.larch=Larch
 for.trees.woodType.teak=Teak
@@ -1269,7 +1323,7 @@ tile.for.fireproof=%s (Fireproof)
 item.for.grafter.name=Grafter
 item.for.grafterProven.name=Proven Grafter
 
-tile.for.tree_chest.name=Arborist's Chest
+tile.for.arboriculture.0.name=Arborist's Chest
 
 tile.for.saplingGE.0.name=Sapling
 tile.for.leaves.0.name=Leaves
@@ -1335,25 +1389,6 @@ tile.for.mushroom.0.name=Mushroom
 tile.for.mushroom.1.name=Mushroom
 
 ####################
-# GREENHOUSE
-####################
-for.gui.greenhouse.title=Greenhouse
-
-tile.for.greenhouse.plain.name=Greenhouse Block
-tile.for.greenhouse.glass.name=Greenhouse Glass
-tile.for.greenhouse.gearbox.name=Greenhouse Gearbox
-tile.for.greenhouse.hatch_output.name=Greenhouse Output Hatch
-tile.for.greenhouse.hatch_input.name=Greenhouse Input Hatch
-tile.for.greenhouse.butterfly_hatch.name=Greenhouse Butterfly Hatch
-tile.for.greenhouse.valve.name=Greenhouse Valve
-tile.for.greenhouse.fan.name=Greenhouse Fan
-tile.for.greenhouse.heater.name=Greenhouse Heater
-tile.for.greenhouse.dryer.name=Greenhouse Dryer
-tile.for.greenhouse.control.name=Greenhouse Control
-tile.for.greenhouse.sprinkler.name=Greenhouse Sprinkler
-tile.for.greenhouse.door.name=Greenhouse Door
-
-####################
 # LEPIDOPTEROLOGY
 ####################
 
@@ -1367,17 +1402,8 @@ for.chat.command.forestry.butterfly.kill.format=Format: /%s [<dimension#>]
 
 for.butterflies.hybrid=Hybrid: %PRIMARY-%SECONDARY
 
-for.butterflies.grammar.butterfly.type=Butterfly
-for.butterflies.grammar.butterfly=%SPECIES %TYPE
-for.butterflies.grammar.serum.type=Serum
-for.butterflies.grammar.serum=%SPECIES %TYPE
-for.butterflies.grammar.caterpillar.type=Caterpillar
-for.butterflies.grammar.caterpillar=%SPECIES %TYPE
-for.butterflies.grammar.cocoon.type=Cocoon
-for.butterflies.grammar.cocoon=%SPECIES %TYPE
-
 for.butterflies.species.geometridae.brimstone=Brimstone Moth
-for.butterflies.species.geometridae.latticedHeath=Latticed Heath
+for.butterflies.species.geometridae.latticeHeath=Latticed Heath
 for.butterflies.species.nymphalidae.blueDuke=Blue Duke
 for.butterflies.species.nymphalidae.blueMorphoM=Menelaus Blue Morpho
 for.butterflies.species.nymphalidae.blueMorphoP=Peleides Blue Morpho
@@ -1411,15 +1437,18 @@ for.butterflies.species.pieridae.reseda=Eastern Bath White
 for.butterflies.species.pieridae.springAzure=Holly Blue
 for.butterflies.species.saturniidae.atlas=Atlas Moth
 
+for.gui.flutterlyzer=Flutterlyzer
+for.gui.flutterlyzer.help=Supply butterfly and provide honey or honeydew as a pacifier.
 for.gui.loot.butterfly=Possible Butterfly Loot
 for.gui.loot.caterpillar=Possible Caterpillar Loot
 
 for.lepidopterology.effect.none=None
 
 item.for.butterfly.name=Butterfly
+item.for.flutterlyzer.name=Flutterlyzer
 item.for.lepidopteristBag.name=Lepidopterist's Backpack
 item.for.moth.name=Moth
-tile.for.butterfly_chest.name=Lepidopterist's Chest
+tile.for.lepidopterology.0.name=Lepidopterist's Chest
 
 ####################
 # MAIL
@@ -1441,17 +1470,17 @@ for.chat.command.forestry.mail.virtualize.format=Format: /%s <trade-station-name
 for.chat.command.forestry.mail.virtualize.no_tradestation=No trade station by the name of '%s' was found.
 for.chat.command.forestry.mail.virtualize.set=Set virtualization for '%s' to %s.
 
-for.chat.mail.insufficient.buffer=Trade station is full.
-for.chat.mail.insufficient.offer=Trade station demands more.
-for.chat.mail.insufficient.paper=Trade station ran out of paper.
-for.chat.mail.insufficient.stamps=Trade station ran out of stamps.
-for.chat.mail.insufficient.trade.good=Trade station has run out of supplies.
-for.chat.mail.mailbox.full=Recipient's mailbox is full.
-for.chat.mail.not.mailable=Letter is not sendable.
-for.chat.mail.not.postpaid=Letter is not sufficiently stamped.
-for.chat.mail.no.mailbox=Recipient has no mailbox.
+for.chat.mail.insufficient_buffer=Trade station is full.
+for.chat.mail.insufficient_offer=Trade station demands more.
+for.chat.mail.insufficient_paper=Trade station ran out of paper.
+for.chat.mail.insufficient_stamps=Trade station ran out of stamps.
+for.chat.mail.insufficient_trade_good=Trade station has run out of supplies.
+for.chat.mail.mailbox_full=Recipient's mailbox is full.
+for.chat.mail.not_mailable=Letter is not sendable.
+for.chat.mail.not_postpaid=Letter is not sufficiently stamped.
+for.chat.mail.no_mailbox=Recipient has no mailbox.
 for.chat.mail.ok=Trade is available.
-for.chat.mail.response.not.mailable.format=Trade station cannot send the response letter. %s
+for.chat.mail.response_not_mailable=Trade station cannot send the response letter. You need to have a mailbox to deliver to.
 for.chat.mail.wrongstacksize=Can only write one letter at a time.
 
 for.gui.mail.address.copy=Use
@@ -1507,6 +1536,7 @@ for.plugin.immersiveengineering.description=Compatibility plugin for Immersive E
 for.plugin.growthcraft.description=Compatibility plugin for GrowthCraft
 for.plugin.erebus.description=Compatibility plugin for Erebus
 for.plugin.rotarycraft.description=Compatibility plugin for RotaryCraft
+for.plugin.minefactoryreloaded.description=Compatibility plugin for MineFactoryReloaded
 
 ####################
 # CONFIG FILES
@@ -1596,6 +1626,8 @@ for.config.difficulty.game.mode=Game Mode
 for.config.difficulty.game.mode.comment=Set to your preferred game mode. Mismatch with the server may cause visual glitches with recipes.
 for.config.difficulty.recreate.definitions=Recreate Definitions
 for.config.difficulty.recreate.definitions.comment=Forces recreation of the game mode definitions in config/forestry/gamemodes.
+for.config.difficulty.loot.rare=Rare Loot
+for.config.difficulty.loot.rare.comment=Makes dungeon loot generated by forestry rarer.
 
 for.config.structures=Structures
 for.config.structures.disabled=Disabled Structures
@@ -1621,7 +1653,6 @@ for.config.beekeeping.flowers.plantable.comment=Plantable flowers are placed by 
 for.config.species.blacklist=Species Blacklist
 for.config.species.blacklist.comment=Add species to blacklist identified by their uid, one per line.
 
-for.config.butterfly.alleles.rarity=Get the butterfly spawn rarity by their uid, one per line.
 for.config.butterfly.entities.spawn.limit=Butterfly Spawn Limit
 for.config.butterfly.entities.spawn.limit.comment=Butterflies will stop natural spawning once this limit is reached.
 for.config.butterfly.entities.maximum=Butterfly Maximum
@@ -1630,7 +1661,7 @@ for.config.butterfly.entities.pollination=Butterfly Pollination
 for.config.butterfly.entities.pollination.comment=Allow butterflies to pollinate leaves.
 
 for.config.backpacks.item.stacks.format=Add itemStacks for the %s's backpack here in the format 'modid:name:meta'. For wildcard metadata the format is 'modid:name'.
-for.config.backpacks.ore.dict.format=Add ore dictionary names for the %s's backpack here in the format 'oreDictName'. Regular expressions may also be used.
+for.config.backpacks.ore.dict.format=Add ore dictionary names for the %s's backpack here in the format 'oreDictName'.
 
 for.config.gamemode=Game Mode
 
@@ -1689,10 +1720,10 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces Forestry.allele.<adjective>
+# Replaces forestry.allele.<adjective>
 #
 # Syntax:
-# Forestry.allele.<category>.<adjective>=New custom adjective
+# forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1708,9 +1739,9 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# Forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing Forestry.allele.slowest
-# Forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing Forestry.allele.slowest
-# Forestry.allele.yield.low=New custom adjective for low yield, replacing Forestry.allele.low
+# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
+# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
+# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS
@@ -1751,19 +1782,3 @@ nei.subsets.Forestry.Items=Items
 nei.subsets.Forestry.Trees=Trees
 nei.subsets.Forestry.Trees.Pollen=Pollen
 nei.subsets.Forestry.Trees.Saplings=Saplings
-
-####################
-# JEI Descriptions
-####################
-for.jei.description.frames=Place Forestry Frames in an Apiary to improve the bees' production rate and reduce the genetic decay of Ignoble bees.
-for.jei.description.apiarist.suit=Pieces of the Apiarist's Suit protect the wearer from negative bee effects. A full suit offers complete protection.
-for.jei.description.habitat.locator=The Habitat Locator searches for the closest ideal habitat for a bee. When it has located a spot, it will point the way there. When the current location is ideal, it will spin steadily.
-for.jei.description.scoop=The Scoop is used to break bee hives found in the world, it will collect the bees inside. It can also be used to catch butterflies by right-clicking them.
-
-####################
-# JEI Recipes
-####################
-for.jei.rainmaker.causes.rain=Causes Rain
-for.jei.rainmaker.stops.rain=Stops Rain
-for.jei.rainmaker.speed=Speed: %s
-for.jei.rainmaker.duration=Duration: %s ticks
