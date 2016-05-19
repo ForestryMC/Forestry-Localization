@@ -652,6 +652,7 @@ item.for.waxCast.name=Wax Cast
 item.for.woodPulp.name=Wood Pulp
 item.for.wrench.name=Wrench
 
+itemGroup.agriculture=Agriculture
 itemGroup.apiculture=Apiculture
 itemGroup.arboriculture=Arboriculture
 itemGroup.forestry=Forestry
