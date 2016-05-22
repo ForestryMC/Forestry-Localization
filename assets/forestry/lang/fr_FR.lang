@@ -695,9 +695,9 @@ tile.for.resourceStorage.copper.name=Bloc de cuivre
 tile.for.resourceStorage.tin.name=Bloc d'étain
 tile.for.resourceStorage.bronze.name=Bloc de bronze
 
-tile.for.soil.humus.name=Humus
-tile.for.soil.bog_earth.name=Terre humidifée
-tile.for.soil.peat.name=Tourbe
+tile.for.humus.name=Humus
+tile.for.bogEarth.bog_earth.name=Terre humidifée
+tile.for.bogEarth.peat.name=Tourbe
 
 ################
 # ERRORS

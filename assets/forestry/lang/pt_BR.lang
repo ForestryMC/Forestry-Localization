@@ -708,9 +708,9 @@ tile.for.resourceStorage.copper.name=Bloco de Cobre
 tile.for.resourceStorage.tin.name=Bloco de Estanho
 tile.for.resourceStorage.bronze.name=Bloco de Bronze
 
-tile.for.soil.humus.name=Húmus
-tile.for.soil.bog_earth.name=Terra do Pântano
-tile.for.soil.peat.name=Turfa
+tile.for.humus.name=Húmus
+tile.for.bogEarth.bog_earth.name=Terra do Pântano
+tile.for.bogEarth.peat.name=Turfa
 
 ####################
 # APICULTURE

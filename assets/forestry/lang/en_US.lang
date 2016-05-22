@@ -696,9 +696,9 @@ tile.for.resourceStorage.copper.name=Block of Copper
 tile.for.resourceStorage.tin.name=Block of Tin
 tile.for.resourceStorage.bronze.name=Block of Bronze
 
-tile.for.soil.humus.name=Humus
-tile.for.soil.bog_earth.name=Bog Earth
-tile.for.soil.peat.name=Peat
+tile.for.humus.name=Humus
+tile.for.bogEarth.bog_earth.name=Bog Earth
+tile.for.bogEarth.peat.name=Peat
 
 ################
 # ERRORS

@@ -736,9 +736,9 @@ tile.for.resourceStorage.copper.name=銅塊
 tile.for.resourceStorage.tin.name=錫塊
 tile.for.resourceStorage.bronze.name=青銅塊
 
-tile.for.soil.humus.name=腐殖土
-tile.for.soil.bog_earth.name=沼澤泥
-tile.for.soil.peat.name=泥炭
+tile.for.humus.name=腐殖土
+tile.for.bogEarth.bog_earth.name=沼澤泥
+tile.for.bogEarth.peat.name=泥炭
 
 ####################
 # APICULTURE

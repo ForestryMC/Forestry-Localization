@@ -662,9 +662,9 @@ tile.for.resourceStorage.copper.name=구리 블럭
 tile.for.resourceStorage.tin.name=주석 블럭
 tile.for.resourceStorage.bronze.name=청동 블럭
 
-tile.for.soil.humus.name=부엽토
-tile.for.soil.bog_earth.name=퇴적토
-tile.for.soil.peat.name=Peat
+tile.for.humus.name=부엽토
+tile.for.bogEarth.bog_earth.name=퇴적토
+tile.for.bogEarth.peat.name=Peat
 
 ####################
 # APICULTURE
