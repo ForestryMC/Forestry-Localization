@@ -564,6 +564,7 @@ item.for.hardenedMachine.name=Verstärktes Gehäuse
 item.for.honeydew.name=Honigtau
 
 item.for.portableAlyzer.name=Tragbarer Analysierer
+item.for.portableAlyzer.tooltip=Tragbares Genanalysegerät für Bienen, Bäume und Schmetterlinge.
 
 item.for.honeyDrop.charged.name=Aufgeladener Tropfen
 item.for.honeyDrop.honey.name=Honigtropfen
@@ -1172,20 +1173,28 @@ for.gui.sappiness=Saftigkeit
 for.gui.supports=Unterst.
 for.gui.tolerated=Toleriert
 for.gui.yield=Ertrag
+for.gui.combustibility=Brennbarkeit
+for.gui.carbonization=Verkohlung
 
 for.growth.normal=Licht
 for.growth.tropical=Tropisch
 
-for.trees.grammar.blossom.type=blüten
-for.trees.grammar.blossom=%SPECIES%TYPE
-for.trees.grammar.germling.type=keimling
-for.trees.grammar.germling=%SPECIES%TYPE
-for.trees.grammar.pollen.type=pollen
-for.trees.grammar.pollen=%SPECIES%TYPE
-for.trees.grammar.sapling.type=setzling
-for.trees.grammar.sapling=%SPECIES%TYPE
-for.trees.grammar.leaves.type=blätter
-for.trees.grammar.leaves=%SPECIES%TYPE
+for.trees.grammar.blossom.type=Blüten
+for.trees.grammar.blossom=%TYPE (%SPECIES)
+for.trees.grammar.germling.type=Keimling
+for.trees.grammar.germling=%TYPE (%SPECIES)
+for.trees.grammar.pollen.type=Pollen
+for.trees.grammar.pollen=%TYPE (%SPECIES)
+for.trees.grammar.sapling.type=Setzling
+for.trees.grammar.sapling=%TYPE (%SPECIES)
+for.trees.grammar.leaves.type=Blätter
+for.trees.grammar.leaves=%TYPE (%SPECIES)
+for.trees.grammar.pile.type=Holzstoß
+for.trees.grammar.pile=%TYPE (%SPECIES)
+for.trees.grammar.charcoal.type=Holzkohle
+for.trees.grammar.charcoal=%TYPE (%SPECIES)
+
+for.trees.pile.dirt=Lehmerde
 
 for.trees.hybrid=Hybrid: %PRIMARY-%SECONDARY
 
@@ -1703,6 +1712,46 @@ for.trees.custom.leaves.sweetChestnut=Edelkastanienblätter
 for.trees.custom.leaves.wenge=Wengenblätter
 for.trees.custom.leaves.whiteWillow=Silberweidenblätter
 for.trees.custom.leaves.ipe=Ipé-Blätter
+
+for.trees.custom.pile.acacia=Akazienholzstoß
+for.trees.custom.pile.appleOak=Apfeleichenholzstoß
+for.trees.custom.pile.blueMahoe=Mahoe-Holzstoß
+for.trees.custom.pile.commonWalnut=Walnussholzstoß
+for.trees.custom.pile.darkOak=Schwarzeichenholzstoß
+for.trees.custom.pile.datePalm=Dattelpalmenholzstoß
+for.trees.custom.pile.desertAcacia=Kameldornakazienholzstoß
+for.trees.custom.pile.grandidierBaobab=Holzstoß (Afrikanischer Baobab)
+for.trees.custom.pile.hillCherry=Holzstoß (Japanische Blütenkirsche)
+for.trees.custom.pile.lemon=Zitronenholzstoß
+for.trees.custom.pile.mundaneLarch=Holzstoß (Europäische Lärche)
+for.trees.custom.pile.plum=Pflaumenholzstoß
+for.trees.custom.pile.redSpruce=Rotfichtenholzstoß
+for.trees.custom.pile.silverBirch=Hängebirkenholzstoß
+for.trees.custom.pile.silverLime=Silberlindenholzstoß
+for.trees.custom.pile.sweetChestnut=Edelkastanienholzstoß
+for.trees.custom.pile.wenge=Wengenholzstoß
+for.trees.custom.pile.whiteWillow=Silberweidenholzstoß
+for.trees.custom.pile.ipe=Ipé-Holzstoß
+
+for.trees.custom.charcoal.acacia=Akazienholzkohle
+for.trees.custom.charcoal.appleOak=Apfeleichenholzkohle
+for.trees.custom.charcoal.blueMahoe=Mahoe-Holzkohle
+for.trees.custom.charcoal.commonWalnut=Walnussholzkohle
+for.trees.custom.charcoal.darkOak=Schwarzeichenholzkohle
+for.trees.custom.charcoal.datePalm=Dattelpalmenholzkohle
+for.trees.custom.charcoal.desertAcacia=Kameldornakazienholzkohle
+for.trees.custom.charcoal.grandidierBaobab=Holzkohle (Afrikanischer Baobab)
+for.trees.custom.charcoal.hillCherry=Holzkohle (Japanische Blütenkirsche)
+for.trees.custom.charcoal.lemon=Zitronenholzkohle
+for.trees.custom.charcoal.mundaneLarch=Holzkohle (Europäische Lärche)
+for.trees.custom.charcoal.plum=Pflaumenholzkohle
+for.trees.custom.charcoal.redSpruce=Rotfichtenholzkohle
+for.trees.custom.charcoal.silverBirch=Hängebirkenholzkohle
+for.trees.custom.charcoal.silverLime=Silberlindenholzkohle
+for.trees.custom.charcoal.sweetChestnut=Edelkastanienholzkohle
+for.trees.custom.charcoal.wenge=Wengenholzkohle
+for.trees.custom.charcoal.whiteWillow=Silberweidenholzkohle
+for.trees.custom.charcoal.ipe=Ipé-Holzkohle
 
 tile.for.stairs.16.name=Mahoe-Holztreppe
 tile.for.planks.16.name=Mahoe-Holzbretter
