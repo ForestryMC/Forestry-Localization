@@ -1173,6 +1173,8 @@ for.gui.sappiness=Sappiness
 for.gui.supports=Supports
 for.gui.tolerated=Tolerates
 for.gui.yield=Yield
+for.gui.combustibility=Combustibility
+for.gui.carbonization=Carbonization
 
 for.growth.normal=Light
 for.growth.tropical=Tropical
