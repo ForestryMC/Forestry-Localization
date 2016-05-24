@@ -1187,6 +1187,12 @@ for.trees.grammar.sapling.type=Sapling
 for.trees.grammar.sapling=%SPECIES %TYPE
 for.trees.grammar.leaves.type=Leaves
 for.trees.grammar.leaves=%SPECIES %TYPE
+for.trees.grammar.pile.type=Wood Pile
+for.trees.grammar.pile=%SPECIES %TYPE
+for.trees.grammar.charcoal.type=Charcoal
+for.trees.grammar.charcoal=%SPECIES %TYPE
+
+for.trees.pile.dirt=Loam
 
 for.trees.hybrid=%PRIMARY-%SECONDARY Hybrid
 
