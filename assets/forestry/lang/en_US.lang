@@ -564,6 +564,7 @@ item.for.hardenedMachine.name=Hardened Casing
 item.for.honeydew.name=Honeydew
 
 item.for.portableAlyzer.name=Portable Alyzer
+item.for.portableAlyzer.tooltip=Handheld Genetic Analyzer for bees, trees, and butterflies.
 
 item.for.honeyDrop.charged.name=Charged Drop
 item.for.honeyDrop.honey.name=Honey Drop
