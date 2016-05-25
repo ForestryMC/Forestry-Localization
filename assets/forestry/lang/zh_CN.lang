@@ -1227,13 +1227,13 @@ for.trees.species.cocobolo=黄檀树
 for.trees.species.zebrawood=斑木树
 
 for.fences.grammar=%TYPE栅栏
-for.fence_gates.grammar=%TYPE栅栏门
+for.fence_gate.grammar=%TYPE栅栏门
 for.log.grammar=%TYPE原木
 for.planks.grammar=%TYPE木板
 for.slab.grammar=%TYPE台阶
 for.slab.double.grammar=%TYPE台阶
 for.stairs.grammar=%TYPE楼梯
-for.doors.grammar=%TYPE门
+for.door.grammar=%TYPE门
 
 for.trees.woodType.larch=落叶树
 for.trees.woodType.teak=柚树

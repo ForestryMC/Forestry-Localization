@@ -1235,13 +1235,13 @@ for.trees.species.cocobolo=Cocobolo
 for.trees.species.zebrawood=Urunday
 
 for.fences.grammar=%TYPEholzzaun
-for.fence_gates.grammar=%TYPEholzzauntor
+for.fence_gate.grammar=%TYPEholzzauntor
 for.log.grammar=%TYPEholz
 for.planks.grammar=%TYPEholzbretter
 for.slab.grammar=%TYPEholzstufe
 for.slab.double.grammar=%TYPEholzstufe
 for.stairs.grammar=%TYPEholztreppe
-for.doors.grammar=%TYPEholztür
+for.door.grammar=%TYPEholztür
 
 for.trees.woodType.larch=Lärchen
 for.trees.woodType.teak=Teak
