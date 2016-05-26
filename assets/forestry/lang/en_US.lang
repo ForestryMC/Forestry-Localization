@@ -1191,8 +1191,6 @@ for.trees.grammar.leaves.type=Leaves
 for.trees.grammar.leaves=%SPECIES %TYPE
 for.trees.grammar.pile.type=Wood Pile
 for.trees.grammar.pile=%SPECIES %TYPE
-for.trees.grammar.charcoal.type=Charcoal
-for.trees.grammar.charcoal=%SPECIES %TYPE
 
 for.trees.pile.dirt=Loam
 
@@ -1277,6 +1275,8 @@ tile.for.fireproof=%s (Fireproof)
 
 item.for.grafter.name=Grafter
 item.for.grafterProven.name=Proven Grafter
+
+item.for.charcoal.name=Charcoal
 
 tile.for.tree_chest.name=Arborist's Chest
 
