@@ -1191,8 +1191,6 @@ for.trees.grammar.leaves.type=Blätter
 for.trees.grammar.leaves=%TYPE (%SPECIES)
 for.trees.grammar.pile.type=Holzstoß
 for.trees.grammar.pile=%TYPE (%SPECIES)
-for.trees.grammar.charcoal.type=Holzkohle
-for.trees.grammar.charcoal=%TYPE (%SPECIES)
 
 for.trees.pile.dirt=Lehmerde
 
@@ -1277,6 +1275,8 @@ tile.for.fireproof=%s (Feuerfest)
 
 item.for.grafter.name=Gartenschere
 item.for.grafterProven.name=Bewährte Gartenschere
+
+item.for.charcoal.name=Holzkohle
 
 tile.for.tree_chest.name=Truhe des Arboristen
 
@@ -1733,34 +1733,14 @@ for.trees.custom.pile.wenge=Wengenholzstoß
 for.trees.custom.pile.whiteWillow=Silberweidenholzstoß
 for.trees.custom.pile.ipe=Ipé-Holzstoß
 
-for.trees.custom.charcoal.acacia=Akazienholzkohle
-for.trees.custom.charcoal.appleOak=Apfeleichenholzkohle
-for.trees.custom.charcoal.blueMahoe=Mahoe-Holzkohle
-for.trees.custom.charcoal.commonWalnut=Walnussholzkohle
-for.trees.custom.charcoal.darkOak=Schwarzeichenholzkohle
-for.trees.custom.charcoal.datePalm=Dattelpalmenholzkohle
-for.trees.custom.charcoal.desertAcacia=Kameldornakazienholzkohle
-for.trees.custom.charcoal.grandidierBaobab=Holzkohle (Afrikanischer Baobab)
-for.trees.custom.charcoal.hillCherry=Holzkohle (Japanische Blütenkirsche)
-for.trees.custom.charcoal.lemon=Zitronenholzkohle
-for.trees.custom.charcoal.mundaneLarch=Holzkohle (Europäische Lärche)
-for.trees.custom.charcoal.plum=Pflaumenholzkohle
-for.trees.custom.charcoal.redSpruce=Rotfichtenholzkohle
-for.trees.custom.charcoal.silverBirch=Hängebirkenholzkohle
-for.trees.custom.charcoal.silverLime=Silberlindenholzkohle
-for.trees.custom.charcoal.sweetChestnut=Edelkastanienholzkohle
-for.trees.custom.charcoal.wenge=Wengenholzkohle
-for.trees.custom.charcoal.whiteWillow=Silberweidenholzkohle
-for.trees.custom.charcoal.ipe=Ipé-Holzkohle
-
 tile.for.stairs.16.name=Mahoe-Holztreppe
 tile.for.planks.16.name=Mahoe-Holzbretter
 tile.for.slab.16.name=Mahoe-Holzstufe
 tile.for.slab.double.16.name=Mahoe-Holzstufe
 tile.for.log.16.name=Mahoe-Holz
 tile.for.fences.16.name=Mahoe-Holzzaun
-tile.for.fence_gates.16.name=Mahoe-Holzzauntor
-tile.for.doors.16.name=Mahoe-Holztür
+tile.for.fence_gate.16.name=Mahoe-Holzzauntor
+tile.for.door.16.name=Mahoe-Holztür
 
 tile.for.stairs.25.name=Ipé-Holztreppe
 tile.for.planks.25.name=Ipé-Holzbretter
@@ -1768,8 +1748,8 @@ tile.for.slab.25.name=Ipé-Holzstufe
 tile.for.slab.double.25.name=Ipé-Holzstufe
 tile.for.log.25.name=Ipé-Holz
 tile.for.fences.25.name=Ipé-Holzzaun
-tile.for.fence_gates.25.name=Ipé-Holzzauntor
-tile.for.doors.25.name=Ipé-Holztür
+tile.for.fence_gate.25.name=Ipé-Holzzauntor
+tile.for.door.25.name=Ipé-Holztür
 
 ####################
 # NEI Categories
