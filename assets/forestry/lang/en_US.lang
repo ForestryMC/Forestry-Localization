@@ -1095,9 +1095,17 @@ for.multiblock.farm.error.needPlainBand=The Farm must have plain farm blocks for
 for.multiblock.farm.error.needPlainInterior=The Farm must have plain farm blocks for the interior.
 for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept power and do work.
 
+for.multiblock.greenhouse.error.space.closed=The Greenhouse is not a closed space.
+
+for.multiblock.charcoal.pile.error.invalid.exterior=The block at the position %d, %d, %d is not a loam block.
+for.multiblock.charcoal.pile.error.invalid.interior=The block at the position %d, %d, %d is not a wood pile block.
+for.multiblock.charcoal.pile.error.small=The top of the pile is too small, it must be least 4 blocks.
+for.multiblock.charcoal.pile.error.large=The block at the position %d, %d, %d is not required for this multiblock.
+
 for.multiblock.alveary.type=Alveary
 for.multiblock.farm.type=Farm
 for.multiblock.greenhouse.type=Greenhouse
+for.multiblock.charcoal.pile.type=Charcoal Pile
 
 ####################
 # ARBORICULTURE
