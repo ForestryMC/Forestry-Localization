@@ -178,7 +178,7 @@ for.gui.alyzer.overview=Análises Disponíveis
 
 for.gui.area=Território
 for.gui.arid=Arido
-Forestry.allele.normal=Mediana
+forestry.allele.normal=Mediana
 for.gui.beach=Praia
 
 for.gui.beealyzer.artificial=Origem Artificial
@@ -189,22 +189,22 @@ for.gui.beealyzer.mutations=Possíveis Mutações
 for.gui.beealyzer.natural=Origem Natural
 for.gui.beealyzer.produce=Possíveis Produtos
 for.gui.beealyzer.specialty=Possíveis Especialidades
-Forestry.allele.tolerance.both1=Ambos 1
-Forestry.allele.tolerance.both2=Ambos 2
-Forestry.allele.tolerance.both3=Ambos 3
-Forestry.allele.tolerance.both4=Ambos 4
-Forestry.allele.tolerance.both5=Ambos 5
-Forestry.allele.tolerance.down1=Baixa 1
-Forestry.allele.tolerance.down2=Baixa 2
-Forestry.allele.tolerance.down3=Baixa 3
-Forestry.allele.tolerance.down4=Baixa 4
-Forestry.allele.tolerance.down5=Baixa 5
-Forestry.allele.tolerance.none=Nenhum
-Forestry.allele.tolerance.up1=Alta 1
-Forestry.allele.tolerance.up2=Alta 2
-Forestry.allele.tolerance.up3=Alta 3
-Forestry.allele.tolerance.up4=Alta 4
-Forestry.allele.tolerance.up5=Alta 5
+forestry.allele.tolerance.both1=Ambos 1
+forestry.allele.tolerance.both2=Ambos 2
+forestry.allele.tolerance.both3=Ambos 3
+forestry.allele.tolerance.both4=Ambos 4
+forestry.allele.tolerance.both5=Ambos 5
+forestry.allele.tolerance.down1=Baixa 1
+forestry.allele.tolerance.down2=Baixa 2
+forestry.allele.tolerance.down3=Baixa 3
+forestry.allele.tolerance.down4=Baixa 4
+forestry.allele.tolerance.down5=Baixa 5
+forestry.allele.tolerance.none=Nenhum
+forestry.allele.tolerance.up1=Alta 1
+forestry.allele.tolerance.up2=Alta 2
+forestry.allele.tolerance.up3=Alta 3
+forestry.allele.tolerance.up4=Alta 4
+forestry.allele.tolerance.up5=Alta 5
 for.gui.beealyzer=Abelhanalizador
 
 for.gui.blank=Vazio
@@ -221,15 +221,15 @@ for.gui.didyouknow=Você Sabia
 for.gui.diurnal=Diurna
 for.gui.drones=Zangões
 for.gui.effect=Efeito
-Forestry.allele.lifespan.elongated=Alongada
+forestry.allele.lifespan.elongated=Alongada
 for.gui.empty=Vazio
 for.gui.emptysocket=Soquete vazio
 for.gui.energy=Energia
 for.gui.environment=Meio Ambiente
 for.gui.evolution=Evolução
-Forestry.allele.fast=Rápido
-Forestry.allele.faster=Rapidamente
-Forestry.allele.fastest=Mais Rápido
+forestry.allele.fast=Rápido
+forestry.allele.faster=Rapidamente
+forestry.allele.fastest=Mais Rápido
 for.gui.fecundated=Acoplado
 for.gui.fertility=Fertilidade
 for.gui.fireresist=À Prova de Fogo
@@ -237,12 +237,12 @@ for.gui.flowers=Tipo de Flor
 for.gui.flyer=Inseto Tolerante
 for.gui.flyer.tooltip=Inseto Tolerante
 for.gui.general=Geral
-Forestry.allele.gigantic=Gigantesco
+forestry.allele.gigantic=Gigantesco
 for.gui.heat=Temepratura
 for.gui.hellish=Infernal
-Forestry.allele.high=Alta
-Forestry.allele.higher=Superior
-Forestry.allele.highest=Mais Alto
+forestry.allele.high=Alta
+forestry.allele.higher=Superior
+forestry.allele.highest=Mais Alto
 for.gui.hot=Quente
 for.gui.humidity=Umidade
 for.gui.humidtol=Umidade Tolerante
@@ -251,17 +251,17 @@ for.gui.icy=Gelada
 for.gui.imprinter.cheater=(Trapaceiro!)
 for.gui.imprinter.name=IMPRESSORA DE GENOMA
 for.gui.inactive=Inativo
-Forestry.allele.large=Grande
-Forestry.allele.larger=Enorme
-Forestry.allele.largest=Gigante
+forestry.allele.large=Grande
+forestry.allele.larger=Enorme
+forestry.allele.largest=Gigante
 for.gui.life=Vida
 for.gui.lifespan=Vida Útil
-Forestry.allele.lifespan.longer=Longa
-Forestry.allele.lifespan.longest=Mais Longa
-Forestry.allele.lifespan.long=Loguíssima
-Forestry.allele.low=Baixo
-Forestry.allele.lower=Mais Baixo
-Forestry.allele.lowest=Baixíssimo
+forestry.allele.lifespan.longer=Longa
+forestry.allele.lifespan.longest=Mais Longa
+forestry.allele.lifespan.long=Loguíssima
+forestry.allele.low=Baixo
+forestry.allele.lower=Mais Baixo
+forestry.allele.lowest=Baixíssimo
 
 for.gui.escritoire.probe=Examinar Espécimes
 for.gui.escritoire.instructions=Coloca uma amostra genética no centro para começar. Coloque mais nas ranhuras (slots) a esquerda para examiná-los e obter ajuda.
@@ -318,7 +318,7 @@ for.gui.nether=Nether
 for.gui.nocturnal=Noturna
 for.gui.noeffect=Sem Efeito
 for.gui.normal=Normal
-Forestry.allele.normal=Normal
+forestry.allele.normal=Normal
 for.gui.owner=Dono
 for.gui.page=Página
 
@@ -347,19 +347,19 @@ for.gui.rule.private=Privado
 for.gui.rule.restricted=Restrito
 for.gui.rule.shared=Compartilhado
 
-Forestry.allele.lifespan.shortened=Encurtado
-Forestry.allele.lifespan.shorter=Curta
-Forestry.allele.lifespan.shortest=Mais Curta
-Forestry.allele.lifespan.short=Curtíssima
+forestry.allele.lifespan.shortened=Encurtado
+forestry.allele.lifespan.shorter=Curta
+forestry.allele.lifespan.shortest=Mais Curta
+forestry.allele.lifespan.short=Curtíssima
 
 for.gui.size=Tamanho
 for.gui.slots=%USED/%SIZE Ranhuras
-Forestry.allele.slow=Devagar
-Forestry.allele.slower=Lento
-Forestry.allele.slowest=Lentíssimo
-Forestry.allele.small=Miúda
-Forestry.allele.smaller=Pequena
-Forestry.allele.smallest=Pequeníssima
+forestry.allele.slow=Devagar
+forestry.allele.slower=Lento
+forestry.allele.slowest=Lentíssimo
+forestry.allele.small=Miúda
+forestry.allele.smaller=Pequena
+forestry.allele.smallest=Pequeníssima
 for.gui.species=Espécies
 for.gui.speciescount=Espécies
 for.gui.speed=Vel. de Produção
@@ -723,24 +723,24 @@ death.bee.end=%1$s terminou com uma ferroada hostil.
 death.bee.radioactive.player=%1$s entrou em Chernobyl sem seu capacete. %2$s assistiu e gargalhou.
 death.bee.radioactive=%1$s entrou em Chernobyl sem seu capacete.
 
-Forestry.allele.effect.aggressive=Agressivo
-Forestry.allele.effect.beatific=Beatífico
-Forestry.allele.effect.creeper=Explosivo
-Forestry.allele.effect.drunkard=Bêbado
-Forestry.allele.effect.exploration=Explorador
-Forestry.allele.effect.glacial=Congelante
-Forestry.allele.effect.fertile=Fértilizante
-Forestry.allele.effect.heroic=Heróico
-Forestry.allele.effect.ignition=Inflamável
-Forestry.allele.effect.misanthrope=´Ends´
-Forestry.allele.effect.miasmic=Veneno
-Forestry.allele.effect.mycophilic=Micofílico
-Forestry.allele.effect.none=Nenhum
-Forestry.allele.effect.radioactive=Radioativo
-Forestry.allele.effect.reanimation=Reanimação
-Forestry.allele.effect.repulsion=Repulsão
-Forestry.allele.effect.resurrection=Resurreição
-Forestry.allele.effect.snowing=Nevado
+forestry.allele.effect.aggressive=Agressivo
+forestry.allele.effect.beatific=Beatífico
+forestry.allele.effect.creeper=Explosivo
+forestry.allele.effect.drunkard=Bêbado
+forestry.allele.effect.exploration=Explorador
+forestry.allele.effect.glacial=Congelante
+forestry.allele.effect.fertile=Fértilizante
+forestry.allele.effect.heroic=Heróico
+forestry.allele.effect.ignition=Inflamável
+forestry.allele.effect.misanthrope=´Ends´
+forestry.allele.effect.miasmic=Veneno
+forestry.allele.effect.mycophilic=Micofílico
+forestry.allele.effect.none=Nenhum
+forestry.allele.effect.radioactive=Radioativo
+forestry.allele.effect.reanimation=Reanimação
+forestry.allele.effect.repulsion=Repulsão
+forestry.allele.effect.resurrection=Resurreição
+forestry.allele.effect.snowing=Nevado
 
 for.beemode.easy.desc=Simplifica o acasalamento drasticamente, aumentando a taxa de mutação e removendo a chance de fadiga genética.
 for.beemode.hard.desc=Reduzindo ligeiramente o ritmo de mutação aumenta a vida útil das rainhas individuais em 50%%.
@@ -1355,10 +1355,10 @@ for.plugin.magicalcrops.description=Plugin de compatibilidade para o 'Magical Cr
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces Forestry.allele.<adjective>
+# Replaces forestry.allele.<adjective>
 #
 # Syntax:
-# Forestry.allele.<category>.<adjective>=New custom adjective
+# forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 
@@ -1374,9 +1374,9 @@ for.plugin.magicalcrops.description=Plugin de compatibilidade para o 'Magical Cr
 # sappiness: [lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# Forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing Forestry.allele.slowest
-# Forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing Forestry.allele.slowest
-# Forestry.allele.yield.low=New custom adjective for low yield, replacing Forestry.allele.low
+# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
+# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
+# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS

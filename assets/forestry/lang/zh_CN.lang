@@ -265,58 +265,58 @@ for.gui.solder.south=南
 for.gui.solder.east=东
 for.gui.solder.west=西
 
-Forestry.allele.normal=普通
-Forestry.allele.gigantic=巨大
-Forestry.allele.average=平均
+forestry.allele.normal=普通
+forestry.allele.gigantic=巨大
+forestry.allele.average=平均
 
-Forestry.allele.slowest=最慢速
-Forestry.allele.slower=较慢速
-Forestry.allele.slow=慢速
-Forestry.allele.fast=快速
-Forestry.allele.faster=较快
-Forestry.allele.fastest=最快
-Forestry.allele.maximum=MAX
+forestry.allele.slowest=最慢速
+forestry.allele.slower=较慢速
+forestry.allele.slow=慢速
+forestry.allele.fast=快速
+forestry.allele.faster=较快
+forestry.allele.fastest=最快
+forestry.allele.maximum=MAX
 
-Forestry.allele.smallest=最小
-Forestry.allele.smaller=较小
-Forestry.allele.small=小
-Forestry.allele.large=大
-Forestry.allele.larger=较大
-Forestry.allele.largest=最大
+forestry.allele.smallest=最小
+forestry.allele.smaller=较小
+forestry.allele.small=小
+forestry.allele.large=大
+forestry.allele.larger=较大
+forestry.allele.largest=最大
 
-Forestry.allele.lowest=最低
-Forestry.allele.lower=较低
-Forestry.allele.low=低
-Forestry.allele.high=高
-Forestry.allele.higher=更高
-Forestry.allele.highest=最高
+forestry.allele.lowest=最低
+forestry.allele.lower=较低
+forestry.allele.low=低
+forestry.allele.high=高
+forestry.allele.higher=更高
+forestry.allele.highest=最高
 
-Forestry.allele.tolerance.both1=全1
-Forestry.allele.tolerance.both2=全2
-Forestry.allele.tolerance.both3=全3
-Forestry.allele.tolerance.both4=全4
-Forestry.allele.tolerance.both5=全5
-Forestry.allele.tolerance.down1=降1
-Forestry.allele.tolerance.down2=降2
-Forestry.allele.tolerance.down3=降3
-Forestry.allele.tolerance.down4=降4
-Forestry.allele.tolerance.down5=降5
-Forestry.allele.tolerance.none=无
-Forestry.allele.tolerance.up1=加1
-Forestry.allele.tolerance.up2=加2
-Forestry.allele.tolerance.up3=加3
-Forestry.allele.tolerance.up4=加4
-Forestry.allele.tolerance.up5=加5
+forestry.allele.tolerance.both1=全1
+forestry.allele.tolerance.both2=全2
+forestry.allele.tolerance.both3=全3
+forestry.allele.tolerance.both4=全4
+forestry.allele.tolerance.both5=全5
+forestry.allele.tolerance.down1=降1
+forestry.allele.tolerance.down2=降2
+forestry.allele.tolerance.down3=降3
+forestry.allele.tolerance.down4=降4
+forestry.allele.tolerance.down5=降5
+forestry.allele.tolerance.none=无
+forestry.allele.tolerance.up1=加1
+forestry.allele.tolerance.up2=加2
+forestry.allele.tolerance.up3=加3
+forestry.allele.tolerance.up4=加4
+forestry.allele.tolerance.up5=加5
 
-Forestry.allele.lifespan.shortest=早夭
-Forestry.allele.lifespan.shorter=较短寿
-Forestry.allele.lifespan.short=短寿
-Forestry.allele.lifespan.shortened=不足寿
-Forestry.allele.lifespan.normal=普寿
-Forestry.allele.lifespan.elongated=足寿
-Forestry.allele.lifespan.long=长寿
-Forestry.allele.lifespan.longer=较长寿
-Forestry.allele.lifespan.longest=最长寿
+forestry.allele.lifespan.shortest=早夭
+forestry.allele.lifespan.shorter=较短寿
+forestry.allele.lifespan.short=短寿
+forestry.allele.lifespan.shortened=不足寿
+forestry.allele.lifespan.normal=普寿
+forestry.allele.lifespan.elongated=足寿
+forestry.allele.lifespan.long=长寿
+forestry.allele.lifespan.longer=较长寿
+forestry.allele.lifespan.longest=最长寿
 
 for.gui.size=大小
 for.gui.slots=%USED/%SIZE格子
@@ -842,24 +842,24 @@ death.bee.radioactive=%1$s没戴头盔就闯进了切尔诺贝利遗址。
 death.bee.heroic.player=%1$s被英雄蜂击杀！%2$s再也无法从债务中翻身。
 death.bee.heroic=%1$s被英雄蜂击杀!
 
-Forestry.allele.effect.aggressive=举世皆敌
-Forestry.allele.effect.beatific=皆大欢喜
-Forestry.allele.effect.creeper=爆炸就是艺术
-Forestry.allele.effect.drunkard=沉醉
-Forestry.allele.effect.exploration=探索
-Forestry.allele.effect.glacial=冻结
-Forestry.allele.effect.fertile=丰饶
-Forestry.allele.effect.heroic=勇士
-Forestry.allele.effect.ignition=燃烧
-Forestry.allele.effect.misanthrope=末影
-Forestry.allele.effect.miasmic=剧毒
-Forestry.allele.effect.mycophilic=嗜菇
-Forestry.allele.effect.none=无效果
-Forestry.allele.effect.radioactive=辐射
-Forestry.allele.effect.reanimation=重生
-Forestry.allele.effect.repulsion=抗拒
-Forestry.allele.effect.resurrection=复苏
-Forestry.allele.effect.snowing=落雪
+forestry.allele.effect.aggressive=举世皆敌
+forestry.allele.effect.beatific=皆大欢喜
+forestry.allele.effect.creeper=爆炸就是艺术
+forestry.allele.effect.drunkard=沉醉
+forestry.allele.effect.exploration=探索
+forestry.allele.effect.glacial=冻结
+forestry.allele.effect.fertile=丰饶
+forestry.allele.effect.heroic=勇士
+forestry.allele.effect.ignition=燃烧
+forestry.allele.effect.misanthrope=末影
+forestry.allele.effect.miasmic=剧毒
+forestry.allele.effect.mycophilic=嗜菇
+forestry.allele.effect.none=无效果
+forestry.allele.effect.radioactive=辐射
+forestry.allele.effect.reanimation=重生
+forestry.allele.effect.repulsion=抗拒
+forestry.allele.effect.resurrection=复苏
+forestry.allele.effect.snowing=落雪
 
 for.beemode.easy.desc=该养蜂模式下变异几率大幅度增加，发生遗传疲劳的可能也很小。
 for.beemode.hard.desc=在增加蜂后50%的寿命的同时稍微减少了变异几率。
@@ -1690,10 +1690,10 @@ for.config.gamemode.energy.engine.clockwork.comment=启用发条引擎。
 ###################################
 # CUSTOM ALLELE ADJECTIVES
 ###################################
-# Replaces Forestry.allele.<adjective>
+# Replaces forestry.allele.<adjective>
 #
 # Syntax:
-# Forestry.allele.<category>.<adjective>=New custom adjective
+# forestry.allele.<category>.<adjective>=New custom adjective
 #
 # Available categories and [adjectives]:
 # speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
@@ -1709,9 +1709,9 @@ for.config.gamemode.energy.engine.clockwork.comment=启用发条引擎。
 # sappiness:	[lowest, lower, low, average, high, higher, highest]
 #
 # Examples:
-# Forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing Forestry.allele.slowest
-# Forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing Forestry.allele.slowest
-# Forestry.allele.yield.low=New custom adjective for low yield, replacing Forestry.allele.low
+# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
+# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
+# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
 
 ###################################
 # CUSTOM TOOLTIPS
