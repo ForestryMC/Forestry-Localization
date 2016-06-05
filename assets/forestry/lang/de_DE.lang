@@ -1232,7 +1232,7 @@ for.trees.species.padauk=Padouk
 for.trees.species.cocobolo=Cocobolo
 for.trees.species.zebrawood=Urunday
 
-for.fences.grammar=%TYPEholzzaun
+for.fence.grammar=%TYPEholzzaun
 for.fence_gate.grammar=%TYPEholzzauntor
 for.log.grammar=%TYPEholz
 for.planks.grammar=%TYPEholzbretter

@@ -1085,7 +1085,7 @@ for.trees.species.padauk=падука
 for.trees.species.cocobolo=кокоболо
 for.trees.species.zebrawood=зебрано
 
-for.fences.grammar=Забор из %TYPE
+for.fence.grammar=Забор из %TYPE
 for.log.grammar=Древесина %TYPE
 for.planks.grammar=Доски из %TYPE
 for.slab.grammar=Плита из %TYPE

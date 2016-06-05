@@ -1241,7 +1241,7 @@ for.trees.species.padauk=Padauk
 for.trees.species.cocobolo=Cocobolo
 for.trees.species.zebrawood=Zebrawood
 
-for.fences.grammar=%TYPE Fence
+for.fence.grammar=%TYPE Fence
 for.fence_gate.grammar=%TYPE Fence Gate
 for.log.grammar=%TYPE Wood
 for.planks.grammar=%TYPE Wood Planks

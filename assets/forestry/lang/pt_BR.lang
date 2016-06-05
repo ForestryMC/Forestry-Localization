@@ -1081,7 +1081,7 @@ for.trees.species.padauk=Pau-Brasil
 for.trees.species.cocobolo=Cocobolo
 for.trees.species.zebrawood=Zebrano
 
-for.fences.grammar=Cerca de %TYPE
+for.fence.grammar=Cerca de %TYPE
 for.log.grammar=Madeira de %TYPE
 for.planks.grammar=Placas de Madeira de %TYPE
 for.slab.grammar=Lajes de Madeira de %TYPE

@@ -1220,7 +1220,7 @@ for.trees.species.padauk=Padauk
 for.trees.species.cocobolo=Cocobolo
 for.trees.species.zebrawood=Zebrano
 
-for.fences.grammar=Barrière de %TYPE
+for.fence.grammar=Barrière de %TYPE
 for.log.grammar=Bois de %TYPE
 for.planks.grammar=Planches de %TYPE 
 for.slab.grammar=Dalles de %TYPE

@@ -1109,7 +1109,7 @@ for.trees.species.padauk=紫檀樹
 for.trees.species.cocobolo=黃檀樹
 for.trees.species.zebrawood=斑木樹
 
-for.fences.grammar=%TYPE柵欄
+for.fence.grammar=%TYPE柵欄
 for.log.grammar=%TYPE原木
 for.planks.grammar=%TYPE木板
 for.slab.grammar=%TYPE台階

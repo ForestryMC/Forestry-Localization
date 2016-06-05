@@ -1226,7 +1226,7 @@ for.trees.species.padauk=紫檀树
 for.trees.species.cocobolo=黄檀树
 for.trees.species.zebrawood=斑木树
 
-for.fences.grammar=%TYPE栅栏
+for.fence.grammar=%TYPE栅栏
 for.fence_gate.grammar=%TYPE栅栏门
 for.log.grammar=%TYPE原木
 for.planks.grammar=%TYPE木板
