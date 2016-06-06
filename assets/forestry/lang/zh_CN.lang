@@ -750,7 +750,7 @@ for.errors.noResourceLiquid.desc=需要液体资源
 for.errors.noResourceLiquid.help=要执行当前操作还需要更多液体资源。
 for.errors.noSpace.desc=无内部空间
 for.errors.noSpace.help=清空该机器的储物空间。
-for.errors.noSpaceTank.desc=储液槽无空间
+for.errors.noSpaceTank.desc=储液槽已满
 for.errors.noSpaceTank.help=清空机器内储液槽。
 for.errors.notDark.desc=不够黑暗
 for.errors.notDark.help=此操作需要更低的亮度。
@@ -1095,9 +1095,18 @@ for.multiblock.farm.error.needPlainBand=这个农场的第三层必须全部是�
 for.multiblock.farm.error.needPlainInterior=这个农场的内部必须全部是普通农场方块。
 for.multiblock.farm.error.needGearbox=这个农场还需要一个齿轮箱才能输入能源并开始工作。
 
+for.multiblock.greenhouse.error.space.closed=温室须为一全封闭环境。请检查是否还有缺漏的方块。
+for.multiblock.greenhouse.error.butterflyhatch.toomany=温室最多只能安装一个蝴蝶箱。
+
+for.multiblock.charcoal.pile.error.invalid.exterior=位于 %d, %d, %d 的方块不是壤土。
+for.multiblock.charcoal.pile.error.invalid.interior=位于 %d, %d, %d 的方块不是原木堆。
+for.multiblock.charcoal.pile.error.small=炭窑顶太小了，它至少要占地四个方块。
+for.multiblock.charcoal.pile.error.large=位于 %d, %d, %d 的方块并非这个多方块结构的组成部分。
+
 for.multiblock.alveary.type=蜂箱
 for.multiblock.farm.type=农场
 for.multiblock.greenhouse.type=温室
+for.multiblock.charcoal.pile.type=炭窑
 
 ####################
 # ARBORICULTURE
@@ -1173,6 +1182,8 @@ for.gui.sappiness=多汁
 for.gui.supports=载体
 for.gui.tolerated=结果
 for.gui.yield=产量
+for.gui.combustibility=可燃性
+for.gui.carbonization=碳化度
 
 for.growth.normal=普通
 for.growth.tropical=热带
@@ -1187,6 +1198,10 @@ for.trees.grammar.sapling.type=树苗
 for.trees.grammar.sapling=%SPECIES%TYPE
 for.trees.grammar.leaves.type=树叶
 for.trees.grammar.leaves=%SPECIES%TYPE
+for.trees.grammar.pile.type=原木堆
+for.trees.grammar.pile=%SPECIES%TYPE
+
+for.trees.pile.dirt=壤土
 
 for.trees.hybrid=%PRIMARY-%SECONDARY杂交种
 
@@ -1269,6 +1284,8 @@ tile.for.fireproof=抗燃%s
 
 item.for.grafter.name=剪枝器
 item.for.grafterProven.name=标定剪枝器
+
+item.for.charcoal.name=木炭
 
 tile.for.tree_chest.name=林业员箱子
 
