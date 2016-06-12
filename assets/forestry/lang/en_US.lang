@@ -888,6 +888,8 @@ for.errors.wrongStacksize.help=Only single items can be used here.
 # APICULTURE
 ####################
 
+entity.Villager.apiarist=Apiarist
+
 death.bee.aggressive.player=%1$s encountered a swarm of bees. %2$s stole his apiarist's suit.
 death.bee.aggressive=%1$s encountered a swarm of bees. That had to sting.
 death.bee.end.player=%1$s was ended by an unfriendly sting while fighting %2$s.
@@ -1156,6 +1158,8 @@ for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept pow
 ####################
 # ARBORICULTURE
 ####################
+
+entity.Villager.arborist=Arborist
 
 for.arboriculture.effect.none=None
 
