@@ -1786,3 +1786,4 @@ for.jei.rainmaker.causes.rain=Causes Rain
 for.jei.rainmaker.stops.rain=Stops Rain
 for.jei.rainmaker.speed=Speed: %s
 for.jei.rainmaker.duration=Duration: %s ticks
+for.jei.chance=Chance: %s
