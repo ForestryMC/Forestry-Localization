@@ -653,6 +653,7 @@ item.for.waxCast.name=打蜡工具
 item.for.woodPulp.name=木浆
 item.for.wrench.name=扳手
 
+itemGroup.agriculture=林业|农艺
 itemGroup.apiculture=林业|养蜂
 itemGroup.arboriculture=林业|植树
 itemGroup.forestry=林业
@@ -830,6 +831,8 @@ for.errors.wrongStacksize.help=这里只能放置单个物品。
 ####################
 # APICULTURE
 ####################
+
+entity.Villager.apiarist=养蜂人
 
 death.bee.aggressive.player=%1$s遭遇蜂群。%2$s趁机偷走了他的养蜂套装。
 death.bee.aggressive=%1$s遭遇蜂群。不得不刺！
@@ -1112,6 +1115,8 @@ for.multiblock.charcoal.pile.type=炭窑
 ####################
 # ARBORICULTURE
 ####################
+
+entity.Villager.arborist=林业员
 
 for.arboriculture.effect.none=无效果
 
@@ -1786,3 +1791,4 @@ for.jei.rainmaker.causes.rain=祈雨
 for.jei.rainmaker.stops.rain=停雨
 for.jei.rainmaker.speed=速度：%s
 for.jei.rainmaker.duration=持续时间：%s刻
+for.jei.chance=概率：%s
