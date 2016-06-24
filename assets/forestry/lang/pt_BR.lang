@@ -1017,20 +1017,15 @@ for.gui.family=Família
 for.gui.fireproof=À Prova de Fogo
 for.gui.fruits=Frutas
 for.gui.girth=Circunferência
-for.gui.growth=Desenvolvimento
 for.gui.height=Porte
 for.gui.maturity=Amadurecimento
 for.gui.native=Solo
 for.gui.saplings=Mudas
 for.gui.sappiness=Mudas
 for.gui.supports=Suporte
-for.gui.tolerated=Tolera
 for.gui.treealyzer.help=Forneça muda e mel ou melaço como catalisador.
 for.gui.treealyzer=Arvoranalizador
 for.gui.yield=Rendimento
-
-for.growth.normal=Luz
-for.growth.tropical=Tropical
 
 for.trees.grammar.blossom.type=Flor de
 for.trees.grammar.blossom=%TYPE %SPECIES

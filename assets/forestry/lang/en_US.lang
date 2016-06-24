@@ -1178,20 +1178,15 @@ for.gui.family=Family
 for.gui.fireproof=Fireproof
 for.gui.fruits=Fruits
 for.gui.girth=Girth
-for.gui.growth=Growth
 for.gui.height=Height
 for.gui.maturity=Matures
 for.gui.native=Soil
 for.gui.saplings=Saplings
 for.gui.sappiness=Sappiness
 for.gui.supports=Supports
-for.gui.tolerated=Tolerates
 for.gui.yield=Yield
 for.gui.combustibility=Combustibility
 for.gui.carbonization=Carbonization
-
-for.growth.normal=Light
-for.growth.tropical=Tropical
 
 for.trees.grammar.blossom.type=Blossom
 for.trees.grammar.blossom=%SPECIES %TYPE
@@ -1605,8 +1600,6 @@ for.config.tweaks.farms.magicalcrops=Magical Crops Farm Support
 for.config.tweaks.farms.magicalcrops.comment=Enables farm support for Magical Crops.
 
 for.config.genetics=Genetics
-for.config.genetics.clear.invalid.chromosomes=Clear Invalid Chromosomes
-for.config.genetics.clear.invalid.chromosomes.comment=Clears chromosomes which contain invalid alleles. Might rescue your save if it is crashing after the removal of a bee addon.
 for.config.genetics.pollinate.vanilla.trees=Pollinate Vanilla Trees
 for.config.genetics.pollinate.vanilla.trees.comment=Allow bees, butterflies, and players to pollinate vanilla tree leaves. When disabled, vanilla trees must be analyzed before they can be pollinated.
 for.config.genetics.research.boost.multiplier=Research Mutation Multiplier

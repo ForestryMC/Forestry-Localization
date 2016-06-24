@@ -1164,20 +1164,15 @@ for.gui.family=Familie
 for.gui.fireproof=Feuerfest
 for.gui.fruits=Früchte
 for.gui.girth=Stamm
-for.gui.growth=Wachstum
 for.gui.height=Höhe
 for.gui.maturity=Reife
 for.gui.native=Boden
 for.gui.saplings=Setzlinge
 for.gui.sappiness=Saftigkeit
 for.gui.supports=Unterst.
-for.gui.tolerated=Toleriert
 for.gui.yield=Ertrag
 for.gui.combustibility=Brennbarkeit
 for.gui.carbonization=Verkohlung
-
-for.growth.normal=Licht
-for.growth.tropical=Tropisch
 
 for.trees.grammar.blossom.type=Blüten
 for.trees.grammar.blossom=%TYPE (%SPECIES)

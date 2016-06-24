@@ -1156,20 +1156,15 @@ for.gui.family=Famille
 for.gui.fireproof=Ignifugé
 for.gui.fruits=Fruits
 for.gui.girth=Circonférence
-for.gui.growth=Croissance
 for.gui.height=Hauteur
 for.gui.maturity=Maturité
 for.gui.native=Ordures
 for.gui.saplings=Jeune pousse
 for.gui.sappiness=Résine
 for.gui.supports=Supports
-for.gui.tolerated=Tolérances
 for.gui.treealyzer.help=Ravitailler de jeunes pousses et fournir en miel ou en miellat comme catalyseur.
 for.gui.treealyzer=Analyseur d'arbre
 for.gui.yield=Produit
-
-for.growth.normal=Simple
-for.growth.tropical=Tropicale
 
 for.trees.grammar.blossom.type=Fleur de
 for.trees.grammar.blossom=%TYPE %SPECIES 
@@ -1540,8 +1535,6 @@ for.config.tweaks.farms.magicalcrops=Support de la ferme à Magical Crops
 for.config.tweaks.farms.magicalcrops.comment=Activez le support de la ferme pour Magical Crops.
 
 for.config.genetics=Génétiques
-for.config.genetics.clear.invalid.chromosomes=Effacer les chromosomes non-valides
-for.config.genetics.clear.invalid.chromosomes.comment=Efface les chromosomes qui contiennent des allèles non-valides. Pourrait sauver votre sauvegarde si elle plante après la supression d'un ajout d'abeille.
 for.config.genetics.pollinate.vanilla.trees=Pollinise les arbres minecraft
 for.config.genetics.pollinate.vanilla.trees.comment=Permet aux abeilles, aux papillons, et au joueur de polliniser les feuilles des arbres Minecraft. Lorsque vous le désactivez, Les arbres Minecraft doivent être analysés avant de pouvoir les polliniser.
 for.config.genetics.research.boost.multiplier=Multiplicateur de mutation de recherche
