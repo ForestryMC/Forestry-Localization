@@ -66,8 +66,8 @@ for.circuit.layout.dummy.usage=Nothing
 for.circuit.layout.engine.tin.name=Electrical Engine
 for.circuit.layout.engine.tin.usage=In Electrical Engines
 
-for.circuit.layout.farms.managed.name=Managed Farm
-for.circuit.layout.farms.managed.usage=Managed Farms
+for.circuit.layout.farms.managed.name=Automatic Farm
+for.circuit.layout.farms.managed.usage=Automatic Farms
 
 for.circuit.layout.farms.manual.name=Manual Farm
 for.circuit.layout.farms.manual.usage=Manual Farms
@@ -1335,7 +1335,7 @@ for.hints.gearbox.desc=Use gearboxes to attach engines or power lines to your fa
 for.hints.gearbox.tag=Supply power!
 for.hints.hatch.desc=Hatches are a pipe or tube's best friend. Use them to automate transport.
 for.hints.hatch.tag=Batten down the hatches!
-for.hints.manualfarms.desc=Apart from the managed farms there are manual farms which will only maintain the farm, but not build it.
+for.hints.manualfarms.desc=Apart from the automatic farms there are manual farms which will only maintain the farm, but not build it.
 for.hints.manualfarms.tag=Manual farms!
 for.hints.valve.desc=Almost all farms require water. Use valve blocks for automation.
 for.hints.valve.tag=Supply water!
