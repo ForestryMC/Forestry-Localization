@@ -543,7 +543,8 @@ item.for.frameImpregnated.name=Impregnated Frame
 item.for.frameProven.name=Proven Frame
 item.for.frameUntreated.name=Untreated Frame
 
-item.for.frame.durability=Durability: %,d
+item.for.durability=Durability: %,d
+item.for.uses=Uses: %,d
 
 item.for.bee.modifier.production=Production: %.2fx
 item.for.bee.modifier.genetic.decay=Genetic Decay: %.2fx

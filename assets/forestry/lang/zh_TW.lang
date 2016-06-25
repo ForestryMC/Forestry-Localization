@@ -542,7 +542,7 @@ item.for.frameImpregnated.name=浸漬框架
 item.for.frameProven.name=標定框架
 item.for.frameUntreated.name=未處理框架
 
-item.for.frame.durability=Durability: %,d
+item.for.durability=Durability: %,d
 
 item.for.bee.modifier.production=Production: %.2fx
 item.for.bee.modifier.genetic.decay=Genetic Decay: %.2fx

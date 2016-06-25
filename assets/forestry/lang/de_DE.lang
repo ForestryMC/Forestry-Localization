@@ -542,7 +542,7 @@ item.for.frameImpregnated.name=Imprägniertes Rähmchen
 item.for.frameProven.name=Bewährtes Rähmchen
 item.for.frameUntreated.name=Unbehandeltes Rähmchen
 
-item.for.frame.durability=Haltbarkeit: %,d
+item.for.durability=Haltbarkeit: %,d
 
 item.for.bee.modifier.production=Produktion: %.2fx
 item.for.bee.modifier.genetic.decay=Genetischer Verfall: %.2fx
