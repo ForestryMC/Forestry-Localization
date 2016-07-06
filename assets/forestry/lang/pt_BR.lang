@@ -8,7 +8,6 @@ death.engine.clockwork=%1$s foi apunhalado por uma mola solta.
 for.beverage.effect.alcoholic=Alcoólico
 for.beverage.effect.antidote=Antídoto
 
-for.chat.accesslocked=%s é o proprietário desta máquina e bloqueou o acesso.
 for.chat.cannotmemorizeagain=Você já memorizou esta informação.
 
 for.chat.command.aliases=Pseudônimo: %s
@@ -342,10 +341,6 @@ for.gui.pollination=Vel. de Polinização
 for.gui.princesses=Princesas
 for.gui.produce=Produção
 for.gui.queens=Rainhas
-
-for.gui.rule.private=Privado
-for.gui.rule.restricted=Restrito
-for.gui.rule.shared=Compartilhado
 
 forestry.allele.lifespan.shortened=Encurtado
 forestry.allele.lifespan.shorter=Curta

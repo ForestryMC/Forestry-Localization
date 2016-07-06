@@ -10,7 +10,6 @@ death.engine.clockwork=%1$s는(은) 느슨하게 풀린 스프링에 찔렸습�
 for.beverage.effect.alcoholic=만취
 for.beverage.effect.antidote=해독
 
-for.chat.accesslocked=%s님이 자신을 제외한 다른 사람의 사용을 막으셨습니다. 
 for.chat.cannotmemorizeagain=이미 알고 있는 정보입니다.
 
 for.chat.command.forestry.help=Various commands for Forestry
@@ -292,10 +291,6 @@ for.gui.pollination=수분력
 for.gui.princesses=공주벌
 for.gui.produce=생산물 정보
 for.gui.queens=여왕벌
-
-for.gui.rule.private=개인
-for.gui.rule.restricted=관계자
-for.gui.rule.shared=공유
 
 forestry.allele.lifespan.shortened=조금 짧음
 forestry.allele.lifespan.shorter=하루살이

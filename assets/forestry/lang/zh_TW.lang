@@ -8,7 +8,6 @@ death.engine.clockwork=%1$s被散落的彈簧片刺中了。
 for.beverage.effect.alcoholic=酗酒
 for.beverage.effect.antidote=解毒
 
-for.chat.accesslocked=%s是該機器的主人，並且他已關閉了訪問權限。
 for.chat.cannotmemorizeagain=您已經記住了相關內容。
 for.chat.memorizednote=您記錄了筆記並扔掉了皺巴巴的小紙片。
 for.chat.memorizednote2=您對讓%1$s和%2$s雜交出%3$s更熟悉了！
@@ -255,10 +254,6 @@ for.gui.plains=平原
 for.gui.princesses=公主蜂
 for.gui.produce=產物
 for.gui.queens=蜂后
-
-for.gui.rule.private=私用
-for.gui.rule.restricted=受限
-for.gui.rule.shared=共享
 
 for.gui.solder.north=北
 for.gui.solder.south=南

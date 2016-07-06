@@ -8,7 +8,6 @@ death.engine.clockwork=%1$s wurde von einer losen Feder erstochen.
 for.beverage.effect.alcoholic=Alkoholisch
 for.beverage.effect.antidote=Gegengift
 
-for.chat.accesslocked=%s ist Eigentümer dieser Maschine und hat sie verschlossen.
 for.chat.cannotmemorizeagain=Du hast dir diese Information bereits gemerkt.
 for.chat.memorizednote=Du merkst dir die Notiz und entsorgst das zerknüllte Stück Papier.
 for.chat.memorizednote2=Du fühlst dich zuversichtlicher, %1$s mit %2$s zu kreuzen, um %3$s zu erhalten!
@@ -255,10 +254,6 @@ for.gui.plains=Ebenen
 for.gui.princesses=Prinz.
 for.gui.produce=Produktion
 for.gui.queens=Königinnen
-
-for.gui.rule.private=Verschlossen
-for.gui.rule.restricted=Eingeschränkt
-for.gui.rule.shared=Öffentlich
 
 for.gui.solder.north=N
 for.gui.solder.south=S

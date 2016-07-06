@@ -8,7 +8,6 @@ death.engine.clockwork=%1$s подвергся нападению со стор�
 for.beverage.effect.alcoholic=Спиртное
 for.beverage.effect.antidote=Противоядие
 
-for.chat.accesslocked=%s является владельцем этого механизма и заблокировал доступ.
 for.chat.cannotmemorizeagain=Вы уже запомнили эту информацию.
 for.chat.memorizednote=Вы запоминаете записку и избавляетесь от мятого клочка бумаги.
 for.chat.memorizednote2=Вы уверены, что сможете спарить %1$s с %2$s и получить %3$s!
@@ -252,10 +251,6 @@ for.gui.plains=Равнины
 for.gui.princesses=Принцесс
 for.gui.produce=Продукция
 for.gui.queens=Маток
-
-for.gui.rule.private=Приватный
-for.gui.rule.restricted=Ограниченный
-for.gui.rule.shared=Общий
 
 for.gui.solder.north=С
 for.gui.solder.south=Ю

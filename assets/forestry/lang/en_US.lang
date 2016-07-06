@@ -8,7 +8,6 @@ death.engine.clockwork=%1$s was stabbed by a loose spring.
 for.beverage.effect.alcoholic=Alcoholic
 for.beverage.effect.antidote=Antidote
 
-for.chat.accesslocked=%s is the owner of this machine and has locked access.
 for.chat.cannotmemorizeagain=You already memorized this information.
 for.chat.memorizednote=You memorize the note and dispose of the crumpled scrap of paper.
 for.chat.memorizednote2=You feel more confident in your ability to breed %1$s with %2$s to make %3$s!
@@ -255,10 +254,6 @@ for.gui.plains=Plains
 for.gui.princesses=Princ.
 for.gui.produce=Produce
 for.gui.queens=Queens
-
-for.gui.rule.private=Private
-for.gui.rule.restricted=Restricted
-for.gui.rule.shared=Shared
 
 for.gui.solder.north=N
 for.gui.solder.south=S

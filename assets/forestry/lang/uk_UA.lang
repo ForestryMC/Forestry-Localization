@@ -8,7 +8,6 @@ death.engine.clockwork=%1$s подвергся нападению со стор�
 for.beverage.effect.alcoholic=Спиртное
 for.beverage.effect.antidote=Противоядие
 
-for.chat.accesslocked=%s является владельцем этого механизма и заблокировал доступ.
 for.chat.cannotmemorizeagain=Вы уже запомнили эту информацию.
 
 for.chat.command.aliases=Aliases: %s
@@ -309,10 +308,6 @@ for.gui.pollination=Скорость опыления
 for.gui.princesses=Принцесс
 for.gui.produce=Продукция
 for.gui.queens=Королев
-
-for.gui.rule.private=Приватный
-for.gui.rule.restricted=Ограниченный
-for.gui.rule.shared=Общий
 
 forestry.allele.normal=Обычный
 forestry.allele.average=Средний

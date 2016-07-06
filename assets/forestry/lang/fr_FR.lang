@@ -8,7 +8,6 @@ death.engine.clockwork=%1$s a été poignardé par un pauvre ressort.
 for.beverage.effect.alcoholic=Alcoolique
 for.beverage.effect.antidote=Antidote
 
-for.chat.accesslocked=est le propriétaire de cette machine et a verrouillé l'accès.
 for.chat.cannotmemorizeagain=Vous avez déjà mémorisé cette information.
 for.chat.memorizednote=Vous mémorisez la note et disposez d'un bout de papier chiffonné.
 for.chat.memorizednote2=Vous vous sentez plus confiants dans votre capacité de multiplier %1$s avec %2$s pour faire %3$s!
@@ -248,10 +247,6 @@ for.gui.plains=Plaines
 for.gui.princesses=Princesses
 for.gui.produce=Produit
 for.gui.queens=Reines
-
-for.gui.rule.private=Privé
-for.gui.rule.restricted=Restreint
-for.gui.rule.shared=Partagé
 
 for.gui.solder.north=N
 for.gui.solder.south=S
