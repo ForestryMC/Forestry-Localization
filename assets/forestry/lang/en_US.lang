@@ -514,6 +514,9 @@ item.for.circuitboard.basic.name=Basic Circuit Board
 item.for.circuitboard.enhanced.name=Enhanced Circuit Board
 item.for.circuitboard.intricate.name=Intricate Circuit Board
 item.for.circuitboard.refined.name=Refined Circuit Board
+item.for.circuitboard.tooltip.singular=Fits %s Electron Tube.
+item.for.circuitboard.tooltip.plural=Fits %s Electron Tubes.
+item.for.circuitboard.description=Circuit Boards can be fitted with Electron Tubes by using a Soldering Iron. Once complete, they can be placed in the sockets on machine guis. Use a Soldering Iron to remove them from a socket.
 
 item.for.craftingMaterial.dissipationCharge.name=Dissipation Charge
 item.for.craftingMaterial.iceShard.name=Ice Shard
@@ -613,6 +616,8 @@ item.for.researchNote.name=%s's Notes
 item.for.royalJelly.name=Royal Jelly
 item.for.scoop.name=Scoop
 item.for.solderingIron.name=Soldering Iron
+item.for.solderingIron.tooltip=Solders Electron Tubes on to Circuit Boards
+item.for.solderingIron.description=Right click with the Soldering Iron in hand to open the soldering gui. There, you can select the type of circuit to make and attach Electron Tubes to Circuit Boards. Can be used to remove a circuit board from a socket.
 item.for.smoker.name=Bee Smoker
 item.for.smoker.description=Calms wild bees
 
@@ -641,6 +646,7 @@ item.for.thermionicTubes.emerald.name=Emerald Electron Tube
 item.for.thermionicTubes.apatite.name=Apatine Electron Tube
 item.for.thermionicTubes.lapis.name=Lapis Electron Tube
 item.for.thermionicTubes.ender.name=Ender Electron Tube
+item.for.thermionicTubes.description=Electron Tubes can be attached to Circuit Boards using a Soldering Iron. They have many purposes displayed on the tooltip, which depend on the circuit type selected in the Soldering Iron. Once soldered, they cannot be removed from a Circuit Board.
 
 item.for.capsule.empty.name=Wax Capsule
 item.for.capsule.grammar=%s Capsule
