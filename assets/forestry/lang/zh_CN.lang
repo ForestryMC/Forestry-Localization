@@ -514,6 +514,9 @@ item.for.circuitboard.basic.name=小型电子板
 item.for.circuitboard.enhanced.name=中型电子板
 item.for.circuitboard.intricate.name=先进电子板
 item.for.circuitboard.refined.name=大型电子板
+item.for.circuitboard.tooltip.singular=安装有%s个电子管。
+item.for.circuitboard.tooltip.plural=安装有%s个电子管。
+item.for.circuitboard.description=用电烙铁可为电子板安装各式电子管。安装完电子管后，电子板便可插入机器的电子板插槽中使用。用电烙铁可将电子板从插槽中拆除。
 
 item.for.craftingMaterial.dissipationCharge.name=驱云电荷
 item.for.craftingMaterial.iceShard.name=碎冰
@@ -539,6 +542,7 @@ item.for.frameProven.name=标定框架
 item.for.frameUntreated.name=未处理框架
 
 item.for.durability=耐久：%,d
+item.for.uses=可使用次数：%,d
 
 item.for.bee.modifier.production=产量：%.2fx
 item.for.bee.modifier.genetic.decay=基因衰减：%.2fx
@@ -612,6 +616,8 @@ item.for.researchNote.name=%s之笔记
 item.for.royalJelly.name=蜂王浆
 item.for.scoop.name=捕虫网
 item.for.solderingIron.name=电烙铁
+item.for.solderingIron.tooltip=可将电子管焊在电子板上
+item.for.solderingIron.description=手持电烙铁右击可打开焊接界面，在这个界面中你可将各式电子管焊接在电子板上。电烙铁还可用于从机器插槽中拆除电子板。
 item.for.smoker.name=驱蜂烟雾
 item.for.smoker.description=让野生的蜜蜂冷静下来
 
@@ -640,6 +646,7 @@ item.for.thermionicTubes.emerald.name=绿宝石电子管
 item.for.thermionicTubes.apatite.name=磷灰石电子管
 item.for.thermionicTubes.lapis.name=青金石电子管
 item.for.thermionicTubes.ender.name=末影电子管
+item.for.thermionicTubes.description=用电烙铁可将电子管焊在电子板上。每种电子管的具体作用可在电烙铁焊接界面中选择，并显示在其Tooltip上。电子管焊接到电子板上后便无法取下。
 
 item.for.capsule.empty.name=蜂蜡胶囊
 item.for.capsule.grammar=%s胶囊
@@ -689,7 +696,7 @@ tile.for.resources.apatite.name=磷矿石
 tile.for.resources.copper.name=铜矿石
 tile.for.resources.tin.name=锡矿石
 
-tile.for.resourceStorage.apaite.name=磷灰石块
+tile.for.resourceStorage.apatite.name=磷灰石块
 tile.for.resourceStorage.copper.name=铜块
 tile.for.resourceStorage.tin.name=锡块
 tile.for.resourceStorage.bronze.name=青铜块
@@ -1184,9 +1191,6 @@ for.gui.supports=载体
 for.gui.yield=产量
 for.gui.combustibility=可燃性
 for.gui.carbonization=碳化度
-
-for.growth.normal=普通
-for.growth.tropical=热带
 
 for.trees.grammar.blossom.type=花朵
 for.trees.grammar.blossom=%SPECIES%TYPE
