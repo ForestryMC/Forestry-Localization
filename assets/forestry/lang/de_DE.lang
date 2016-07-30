@@ -118,7 +118,7 @@ for.gui.area=Gebiet
 for.gui.arid=Trocken
 for.gui.beach=Strand
 
-for.gui.portablealyzer=Tragbarer Analysierer
+for.gui.portablealyzer=Tragbarer Genomanalysierer
 for.gui.portablealyzer.help=Biene, Setzling, Schmetterling oder anderes Individuum einlegen und Honig oder Honigtau zur Betäubung hinzufügen.
 
 for.gui.beealyzer.artificial=Gezüchtet
@@ -466,6 +466,7 @@ item.for.apiaristHelmet.name=Imkerhut
 item.for.apiaristLegs.name=Imkerhose
 
 item.for.ash.name=Asche
+tile.for.pile_ash.name=Aschehaufen
 
 item.for.habitatLocator.name=Habitatsucher
 
@@ -513,6 +514,9 @@ item.for.circuitboard.basic.name=Kleine Leiterplatte
 item.for.circuitboard.enhanced.name=Mittlere Leiterplatte
 item.for.circuitboard.intricate.name=Riesige Leiterplatte
 item.for.circuitboard.refined.name=Große Leiterplatte
+item.for.circuitboard.tooltip.singular=Hält %s Elektronenröhre.
+item.for.circuitboard.tooltip.plural=Hält %s Elektronenröhren.
+item.for.circuitboard.description=Leiterplatten können mithilfe eines Lötkolbens mit Elektronenröhren bestückt werden. Nach Fertigstellung können sie in die Sockel verschiedener Maschinen eingesetzt werden. Verwende einen Lötkolben, um sie wieder aus dem Sockel zu entfernen.
 
 item.for.craftingMaterial.dissipationCharge.name=Dissipationsladung
 item.for.craftingMaterial.iceShard.name=Eiszapfen
@@ -538,6 +542,7 @@ item.for.frameProven.name=Bewährtes Rähmchen
 item.for.frameUntreated.name=Unbehandeltes Rähmchen
 
 item.for.durability=Haltbarkeit: %,d
+item.for.uses=Nutzen: %,d
 
 item.for.bee.modifier.production=Produktion: %.2fx
 item.for.bee.modifier.genetic.decay=Genetischer Verfall: %.2fx
@@ -611,6 +616,8 @@ item.for.researchNote.name=Notizen von %s
 item.for.royalJelly.name=Gelée royale
 item.for.scoop.name=Kescher
 item.for.solderingIron.name=Lötkolben
+item.for.solderingIron.tooltip=Lötet Elektronenröhren auf Leiterplatten
+item.for.solderingIron.description=Rechtsklicke einen Lötkolben, um das Interface zu öffnen. Dort kannst du die Art von Schaltkreis auswählen und Leiterplatten mit Elektronenröhren bestücken. Kann auch zum Entfernen von Leiterplatten aus Sockeln verwendet werden.
 item.for.smoker.name=Bienen-Smoker
 item.for.smoker.description=Stellt wilde Bienen ruhig
 
@@ -639,6 +646,7 @@ item.for.thermionicTubes.emerald.name=Elektronenröhre (Smaragd)
 item.for.thermionicTubes.apatite.name=Elektronenröhre (Apatit)
 item.for.thermionicTubes.lapis.name=Elektronenröhre (Lapislazuli)
 item.for.thermionicTubes.ender.name=Elektronenröhre (Ender)
+item.for.thermionicTubes.description=Elektronenröhren können mithilfe eines Lötkolbens auf Leiterplatten gesetzt werden. Sie haben viele Verwendungsmöglichkeiten im Tooltip dargestellt; diese sind von der im Lötkolben gewählten Schaltkreisart abhängig. Erstmal aufgelötet können sie nicht mehr von einer Leiterplatte entfernt werden.
 
 item.for.capsule.empty.name=Wachskapsel
 item.for.capsule.grammar=Kapsel %s
@@ -825,6 +833,8 @@ for.errors.wrongStacksize.help=Hier können nur einzelne Items verwendet werden.
 ####################
 # APICULTURE
 ####################
+
+entity.Villager.apiarist=Imker
 
 death.bee.aggressive.player=%1$s machte Bekanntschaft mit einem Bienenschwarm. %2$s hat die Imkerkleidung gestohlen.
 death.bee.aggressive=%1$s machte Bekanntschaft mit einem Bienenschwarm. Das muss wehgetan haben.
@@ -1036,6 +1046,7 @@ for.genus.bees.tropical=Tropisch
 for.genus.bees.vengeful=Nachtragend
 
 item.for.beePrincessGE.name=Prinzessin
+item.for.beeDroneGE.name=Drohne
 item.for.beeQueenGE.name=Königin
 
 tile.for.alveary.plain.name=Bienenstock
@@ -1090,13 +1101,24 @@ for.multiblock.farm.error.needPlainBand=Die Farm braucht auf der dritten Ebene g
 for.multiblock.farm.error.needPlainInterior=Die Farm braucht im Inneren gewöhnliche Farmblöcke.
 for.multiblock.farm.error.needGearbox=Die Farm benötigt eine Getriebebox, um Energie zu erhalten und zu funktionieren.
 
+for.multiblock.greenhouse.error.space.closed=Das Gewächshaus muss einen Bereich vollständig umschließen. Einige Blöcke fehlen.
+for.multiblock.greenhouse.error.butterflyhatch.toomany=Das Gewächshaus kann nur eine Schmetterlingsluke haben.
+
+for.multiblock.charcoal.pile.error.invalid.exterior=Der Block an Position %d, %d, %d ist keine Lehmerde.
+for.multiblock.charcoal.pile.error.invalid.interior=Der Block an Position %d, %d, %d ist kein Holzstoß.
+for.multiblock.charcoal.pile.error.small=Die Spitze des Haufens ist zu klein, sie muss mindestens 4 Block groß sein.
+for.multiblock.charcoal.pile.error.large=Der Block an Position %d, %d, %d ist für diesen Multiblock nicht vonnöten.
+
 for.multiblock.alveary.type=Bienenstock
 for.multiblock.farm.type=Farm
 for.multiblock.greenhouse.type=Gewächshaus
+for.multiblock.charcoal.pile.type=Holzkohlehaufen
 
 ####################
 # ARBORICULTURE
 ####################
+
+entity.Villager.arborist=Arborist
 
 for.arboriculture.effect.none=Nichts
 
@@ -1602,7 +1624,6 @@ for.plugin.rotarycraft.description=Kompatibilitätsplugin für RotaryCraft.
 # tile.for.log.10.name=Mahogany Wood
 # tile.for.fences.0.name=Larch Fence
 
-
 for.trees.custom.sapling.acacia=Akaziensetzling
 for.trees.custom.sapling.appleOak=Apfeleichensetzling
 for.trees.custom.sapling.blueMahoe=Mahoe-Setzling
@@ -1776,3 +1797,4 @@ for.jei.rainmaker.causes.rain=Sorgt für Regen
 for.jei.rainmaker.stops.rain=Stoppt Regen
 for.jei.rainmaker.speed=Geschw.: %s
 for.jei.rainmaker.duration=Dauer: %s ticks
+for.jei.chance=Chance: %s
