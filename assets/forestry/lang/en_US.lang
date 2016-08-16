@@ -454,8 +454,6 @@ for.trigger.noFrames=No Frames
 
 for.yes=Yes
 
-item.for.adventurerBag.name=Adventurer's Backpack
-item.for.adventurerBagT2.name=Adventurer's Woven Backpack
 item.for.ambrosia.name=Ambrosia
 item.for.apatite.name=Apatite
 
@@ -502,8 +500,6 @@ item.for.brokenBronzePickaxe.name=Broken Pickaxe
 item.for.brokenBronzeShovel.name=Broken Shovel
 item.for.bronzePickaxe.name=Survivalist's Pickaxe
 item.for.bronzeShovel.name=Survivalist's Shovel
-item.for.builderBag.name=Builder's Backpack
-item.for.builderBagT2.name=Builder's WovenBackpack
 
 item.for.can.empty.name=Can
 item.for.can.grammar=%s Can
@@ -516,9 +512,9 @@ item.for.circuitboard.intricate.name=Intricate Circuit Board
 item.for.circuitboard.refined.name=Refined Circuit Board
 item.for.circuitboard.tooltip.singular=Fits %s Electron Tube.
 item.for.circuitboard.tooltip.plural=Fits %s Electron Tubes.
-item.for.circuitboard.description=Circuit Boards can be fitted with Electron Tubes by using a Soldering Iron. Once complete, they can be placed in the sockets on machine guis. Use a Soldering Iron to remove them from a socket.
 
 item.for.craftingMaterial.dissipationCharge.name=Dissipation Charge
+item.for.craftingMaterial.dissipationCharge.tooltip=Use on a Rainmaker to stop the rain.
 item.for.craftingMaterial.iceShard.name=Ice Shard
 item.for.craftingMaterial.pulsatingDust.name=Pulsating Dust
 item.for.craftingMaterial.pulsatingMesh.name=Pulsating Mesh
@@ -529,13 +525,9 @@ item.for.craftingMaterial.wovenSilk.name=Woven Silk
 
 item.for.crate.name=Crate
 item.for.decayingWheat.name=Decaying Wheat
-item.for.diggerBag.name=Digger's Backpack
-item.for.diggerBagT2.name=Digger's Woven Backpack
 
 item.for.fertilizerBio.name=Compost
 item.for.fertilizerCompound.name=Fertilizer
-item.for.foresterBag.name=Forester's Backpack
-item.for.foresterBagT2.name=Forester's Woven Backpack
 
 item.for.frameImpregnated.name=Impregnated Frame
 item.for.frameProven.name=Proven Frame
@@ -572,8 +564,6 @@ item.for.honeyDrop.omega.name=Omega Drop
 item.for.honeyedSlice.name=Honeyed Slice
 
 item.for.honeyPot.name=Honey Pot
-item.for.hunterBag.name=Hunter's Backpack
-item.for.hunterBagT2.name=Hunter's Woven Backpack
 
 item.for.impregnatedCasing.name=Impregnated Casing
 item.for.imprinter.name=Imprinter
@@ -584,16 +574,15 @@ item.for.ingotCopper.name=Copper Ingot
 item.for.ingotTin.name=Tin Ingot
 
 item.for.iodineCapsule.name=Iodine Capsule
+item.for.iodineCapsule.tooltip=Use on a Rainmaker to make it rain.
 item.for.kitPickaxe.name=Pickaxe Kit
 item.for.kitShovel.name=Shovel Kit
 item.for.letters.name=Letter
 
-item.for.minerBag.name=Miner's Backpack
-item.for.minerBagT2.name=Miner's Woven Backpack
-
 item.for.mouldyWheat.name=Mouldy Wheat
 item.for.mulch.name=Mulch
 item.for.naturalistHelmet.name=Spectacles
+item.for.naturalistHelmet.tooltip=Wear to see pollinated leaves.
 item.for.oakStick.name=Impregnated Stick
 item.for.peat.name=Peat
 item.for.phosphor.name=Phosphor
@@ -611,15 +600,17 @@ item.for.refractory.empty.name=Refractory Capsule
 item.for.refractory.grammar=%s Capsule
 
 item.for.refractoryWax.name=Refractory Wax
+item.for.refractoryWax.tooltip=Wax with a high melting point.
 
 item.for.researchNote.name=%s's Notes
+item.for.researchNote.tooltip=Use this note in your hand to gain its knowledge.
 item.for.royalJelly.name=Royal Jelly
 item.for.scoop.name=Scoop
+item.for.scoop.tooltip=Break hives to collect bees.
 item.for.solderingIron.name=Soldering Iron
-item.for.solderingIron.tooltip=Solders Electron Tubes on to Circuit Boards
-item.for.solderingIron.description=Right click with the Soldering Iron in hand to open the soldering gui. There, you can select the type of circuit to make and attach Electron Tubes to Circuit Boards. Can be used to remove a circuit board from a socket.
+item.for.solderingIron.tooltip=Solders Electron Tubes to Circuit Boards.
 item.for.smoker.name=Bee Smoker
-item.for.smoker.description=Calms wild bees
+item.for.smoker.tooltip=Calms wild bees
 
 item.for.stamps.1n.name=Stamp (1n)
 item.for.stamps.2n.name=Stamp (2n)
@@ -631,7 +622,6 @@ item.for.stamps.100n.name=Stamp (100n)
 item.for.stamps.name=Stamp
 
 item.for.sturdyMachine.name=Sturdy Casing
-item.for.tent.name=Survivalist's Tent
 
 item.for.thermionicTubes.copper.name=Copper Electron Tube
 item.for.thermionicTubes.tin.name=Tin Electron Tube
@@ -646,15 +636,17 @@ item.for.thermionicTubes.emerald.name=Emerald Electron Tube
 item.for.thermionicTubes.apatite.name=Apatine Electron Tube
 item.for.thermionicTubes.lapis.name=Lapis Electron Tube
 item.for.thermionicTubes.ender.name=Ender Electron Tube
-item.for.thermionicTubes.description=Electron Tubes can be attached to Circuit Boards using a Soldering Iron. They have many purposes displayed on the tooltip, which depend on the circuit type selected in the Soldering Iron. Once soldered, they cannot be removed from a Circuit Board.
+item.for.thermionicTubes.tooltip=Used to program circuit boards.
 
 item.for.capsule.empty.name=Wax Capsule
+item.for.capsule.tooltip=Can't hold hot liquids.
 item.for.capsule.grammar=%s Capsule
 
 item.for.waxCast.name=Wax Cast
 
 item.for.woodPulp.name=Wood Pulp
 item.for.wrench.name=Wrench
+item.for.wrench.tooltip=Shift-Use to rotate blocks.
 
 itemGroup.apiculture=Apiculture
 itemGroup.arboriculture=Arboriculture
@@ -684,7 +676,7 @@ tile.for.squeezer.name=Squeezer
 tile.for.still.name=Still
 tile.for.rainmaker.name=Rainmaker
 tile.for.fabricator.name=Thermionic Fabricator
-tile.for.raintank.name=Raintank
+tile.for.raintank.name=Rain Tank
 tile.for.worktable.name=Worktable
 
 tile.for.mailbox.name=Mailbox
@@ -703,6 +695,24 @@ tile.for.resourceStorage.bronze.name=Block of Bronze
 tile.for.humus.name=Humus
 tile.for.bogEarth.bog_earth.name=Bog Earth
 tile.for.bogEarth.peat.name=Peat
+
+item.for.adventurerBag.name=Adventuring Backpack
+item.for.adventurerBagT2.name=Woven Adventuring Backpack
+
+item.for.builderBag.name=Building Backpack
+item.for.builderBagT2.name=Woven Building Backpack
+
+item.for.diggerBag.name=Digging Backpack
+item.for.diggerBagT2.name=Woven Digging Backpack
+
+item.for.foresterBag.name=Foresting Backpack
+item.for.foresterBagT2.name=Woven Foresting Woven Backpack
+
+item.for.hunterBag.name=Hunting Backpack
+item.for.hunterBagT2.name=Hunter's Woven Backpack
+
+item.for.minerBag.name=Mining Backpack
+item.for.minerBagT2.name=Woven Mining Backpack
 
 ################
 # ERRORS
@@ -1486,6 +1496,7 @@ for.gui.mail.tradefor=for
 for.gui.mail.willtrade=%s will trade
 
 item.for.catalogue.name=Catalogue
+item.for.catalogue.tooltip=Lists all available Trade Station trades.
 
 ####################
 # PIPES
@@ -1776,8 +1787,42 @@ nei.subsets.Forestry.Trees.Saplings=Saplings
 ####################
 for.jei.description.frames=Place Forestry Frames in an Apiary to improve the bees' production rate and reduce the genetic decay of Ignoble bees.
 for.jei.description.apiarist.suit=Pieces of the Apiarist's Suit protect the wearer from negative bee effects. A full suit offers complete protection.
-for.jei.description.habitat.locator=The Habitat Locator searches for the closest ideal habitat for a bee. When it has located a spot, it will point the way there. When the current location is ideal, it will spin steadily.
+for.jei.description.habitatLocator=The Habitat Locator searches for the closest ideal habitat for a bee. When it has located a spot, it will point the way there. When the current location is ideal, it will spin steadily.
 for.jei.description.scoop=The Scoop is used to break bee hives found in the world, it will collect the bees inside. It can also be used to catch butterflies by right-clicking them.
+for.jei.description.imprinter=Creative-only. Creates hybrid bees of any type.
+
+for.jei.description.infuser=Used to infuse Mead with Pollen Clusters and create Curative Mead.
+
+for.jei.description.chipsets=Circuit Boards can be fitted with Electron Tubes by using a Soldering Iron. Once complete, they can be placed in the sockets on machine guis. Use a Soldering Iron to remove them from a socket.
+for.jei.description.solderingIron=Right click with the Soldering Iron in hand to open the soldering gui. There, you can select the type of circuit to make and attach Electron Tubes to Circuit Boards. Can be used to remove a circuit board from a socket.
+for.jei.description.thermionicTubes=Electron Tubes can be attached to Circuit Boards using a Soldering Iron. They have many purposes displayed on the tooltip, which depend on the circuit type selected in the Soldering Iron. Once soldered, they cannot be removed from a Circuit Board.
+for.jei.description.humus=Rich soil that can grow plants and doesn't require water. Degrades into sand over time.
+for.jei.description.bogEarth=Slowly turns into peat if left to soak near water for a while.
+for.jei.description.analyzer=Block version of the Portable Genetic Analyzer. Requires power and liquid honey.
+for.jei.description.escritoire=Play a matching mini-game to research bee, tree, and butterfly mutations. Gives research notes that boost mutation rates, and other rewards.
+for.jei.description.pipette=Can pick up small amounts of liquid. In Forestry GUIs, you can hold a pipette and click the tanks to fill or drain them directly.
+for.jei.description.kitShovel=A stackable package that contains a bronze shovel. Use it in your hand to open.
+for.jei.description.kitPickaxe=A stackable package that contains a bronze pickaxe. Use it in your hand to open.
+for.jei.description.fertilizerCompound=Rich fertilizer. Can be used as bonemeal on crops and saplings. Required in order to run a Forestry farm.
+
+for.jei.description.raintank=Collects water when it rains. Can automatically output water from the bottom side.
+for.jei.description.worktable=Advanced crafting table with an inventory. Remembers up to 9 recipes. Has the ability to choose the crafting result when there is a recipe conflict.
+
+for.jei.description.grafter=Guarantees a sapling drop when breaking Forestry leaves. Has a very limited number of uses.
+for.jei.description.grafterProven=Guarantees a sapling drop when breaking Forestry leaves. They can only be purchased from villagers.
+
+for.jei.description.mailbox=Allows players to send letters to trade stations and other players. Opening any mailbox will show the player their own mail.
+for.jei.description.trade_station=An automatic mailbox that lets players set up a trading deal.
+for.jei.description.stamp_collector=Creative-only. Collects all the stamps used by mailing letters. Useful for servers with a stamp economy.
+
+for.jei.description.adventurerBag=Extra inventory that can hold whatever is set in the configs in /config/forestry/backpacks.cfg
+for.jei.description.builderBag=Extra inventory that automatically picks up building-related items.
+for.jei.description.diggerBag=Extra inventory that automatically picks up dirt, cobble, and other low-value mining-related items.
+for.jei.description.foresterBag=Extra inventory that automatically picks up plants and related items.
+for.jei.description.hunterBag=Extra inventory that automatically picks up mob drops and related items.
+for.jei.description.minerBag=Extra inventory that automatically picks up ores and valuable mining-related items.
+for.jei.description.apiaristBag=Extra inventory that automatically picks up bees.
+for.jei.description.lepidopteristBag=Extra inventory that automatically picks up butterflies.
 
 ####################
 # JEI Recipes

@@ -516,7 +516,7 @@ item.for.circuitboard.intricate.name=先进电子板
 item.for.circuitboard.refined.name=大型电子板
 item.for.circuitboard.tooltip.singular=安装有%s个电子管。
 item.for.circuitboard.tooltip.plural=安装有%s个电子管。
-item.for.circuitboard.description=用电烙铁可为电子板安装各式电子管。安装完电子管后，电子板便可插入机器的电子板插槽中使用。用电烙铁可将电子板从插槽中拆除。
+for.jei.description.chipsets=用电烙铁可为电子板安装各式电子管。安装完电子管后，电子板便可插入机器的电子板插槽中使用。用电烙铁可将电子板从插槽中拆除。
 
 item.for.craftingMaterial.dissipationCharge.name=驱云电荷
 item.for.craftingMaterial.iceShard.name=碎冰
@@ -617,9 +617,9 @@ item.for.royalJelly.name=蜂王浆
 item.for.scoop.name=捕虫网
 item.for.solderingIron.name=电烙铁
 item.for.solderingIron.tooltip=可将电子管焊在电子板上
-item.for.solderingIron.description=手持电烙铁右击可打开焊接界面，在这个界面中你可将各式电子管焊接在电子板上。电烙铁还可用于从机器插槽中拆除电子板。
+for.jei.description.solderingIron=手持电烙铁右击可打开焊接界面，在这个界面中你可将各式电子管焊接在电子板上。电烙铁还可用于从机器插槽中拆除电子板。
 item.for.smoker.name=驱蜂烟雾
-item.for.smoker.description=让野生的蜜蜂冷静下来
+item.for.smoker.tooltip=让野生的蜜蜂冷静下来
 
 item.for.stamps.1n.name=邮票(1n)
 item.for.stamps.2n.name=邮票(2n)
@@ -631,7 +631,6 @@ item.for.stamps.100n.name=邮票(100n)
 item.for.stamps.name=邮票
 
 item.for.sturdyMachine.name=坚固部件
-item.for.tent.name=幸存者帐篷
 
 item.for.thermionicTubes.copper.name=铜电子管
 item.for.thermionicTubes.tin.name=锡电子管
@@ -646,7 +645,7 @@ item.for.thermionicTubes.emerald.name=绿宝石电子管
 item.for.thermionicTubes.apatite.name=磷灰石电子管
 item.for.thermionicTubes.lapis.name=青金石电子管
 item.for.thermionicTubes.ender.name=末影电子管
-item.for.thermionicTubes.description=用电烙铁可将电子管焊在电子板上。每种电子管的具体作用可在电烙铁焊接界面中选择，并显示在其Tooltip上。电子管焊接到电子板上后便无法取下。
+for.jei.description.thermionicTubes=用电烙铁可将电子管焊在电子板上。每种电子管的具体作用可在电烙铁焊接界面中选择，并显示在其Tooltip上。电子管焊接到电子板上后便无法取下。
 
 item.for.capsule.empty.name=蜂蜡胶囊
 item.for.capsule.grammar=%s胶囊
@@ -1777,7 +1776,7 @@ nei.subsets.Forestry.Trees.Saplings=树苗
 ####################
 for.jei.description.frames=将林业框架置于蜂房中，可提高蜜蜂产物的产量，或降低由基因损伤导致的卑贱种出现概率。
 for.jei.description.apiarist.suit=每一件养蜂人套装都可以保护养蜂人免受蜜蜂的负面效果。全套养蜂人套装可提供完全保护。
-for.jei.description.habitat.locator=栖息地定位仪可为指定蜜蜂搜索最近的理想栖息地。当它定位成功后，它的指针会指向定位到的地点。若当前地点即为理想栖息地，其指针会不停转动。
+for.jei.description.habitatLocator=栖息地定位仪可为指定蜜蜂搜索最近的理想栖息地。当它定位成功后，它的指针会指向定位到的地点。若当前地点即为理想栖息地，其指针会不停转动。
 for.jei.description.scoop=捕蜂网可用于破坏野生的蜂巢，并收集其中的蜜蜂。它也可用于收集蝴蝶：只需右击蝴蝶即可捕捉。
 
 ####################

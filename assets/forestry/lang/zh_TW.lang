@@ -612,7 +612,7 @@ item.for.royalJelly.name=蜂王漿
 item.for.scoop.name=捕蜂網
 item.for.solderingIron.name=電烙鐵
 item.for.smoker.name=蜜蜂煙燻器
-item.for.smoker.description=讓野生的蜜蜂冷靜
+item.for.smoker.tooltip=讓野生的蜜蜂冷靜
 
 item.for.stamps.1n.name=郵票(1n)
 item.for.stamps.2n.name=郵票(2n)
@@ -624,7 +624,6 @@ item.for.stamps.100n.name=郵票(100n)
 item.for.stamps.name=郵票
 
 item.for.sturdyMachine.name=堅固部件
-item.for.tent.name=倖存者帳篷
 
 item.for.thermionicTubes.copper.name=銅真空管
 item.for.thermionicTubes.tin.name=錫真空管
@@ -1773,7 +1772,7 @@ nei.subsets.Forestry.Trees.Saplings=樹苗
 ####################
 for.jei.description.frames=Place Forestry Frames in an Apiary to improve the bees' production rate and reduce the genetic decay of Ignoble bees.
 for.jei.description.apiarist.suit=Pieces of the Apiarist's Suit protect the wearer from negative bee effects. A full suit offers complete protection.
-for.jei.description.habitat.locator=The Habitat Locator searches for the closest ideal habitat for a bee. When it has located a spot, it will point the way there. When the current location is ideal, it will spin steadily.
+for.jei.description.habitatLocator=The Habitat Locator searches for the closest ideal habitat for a bee. When it has located a spot, it will point the way there. When the current location is ideal, it will spin steadily.
 for.jei.description.scoop=The Scoop is used to break bee hives found in the world, it will collect the bees inside. It can also be used to catch butterflies by right-clicking them.
 
 ####################

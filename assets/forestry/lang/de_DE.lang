@@ -619,7 +619,7 @@ item.for.solderingIron.name=Lötkolben
 item.for.solderingIron.tooltip=Lötet Elektronenröhren auf Leiterplatten
 item.for.solderingIron.description=Rechtsklicke einen Lötkolben, um das Interface zu öffnen. Dort kannst du die Art von Schaltkreis auswählen und Leiterplatten mit Elektronenröhren bestücken. Kann auch zum Entfernen von Leiterplatten aus Sockeln verwendet werden.
 item.for.smoker.name=Bienen-Smoker
-item.for.smoker.description=Stellt wilde Bienen ruhig
+item.for.smoker.tooltip=Stellt wilde Bienen ruhig
 
 item.for.stamps.1n.name=Briefmarke (1n)
 item.for.stamps.2n.name=Briefmarke (2n)
@@ -631,7 +631,6 @@ item.for.stamps.100n.name=Briefmarke (100n)
 item.for.stamps.name=Briefmarke
 
 item.for.sturdyMachine.name=Robustes Gehäuse
-item.for.tent.name=Bastlerzelt
 
 item.for.thermionicTubes.copper.name=Elektronenröhre (Kupfer)
 item.for.thermionicTubes.tin.name=Elektronenröhre (Zinn)
@@ -1787,7 +1786,7 @@ nei.subsets.Forestry.Trees.Saplings=Setzlinge
 ####################
 for.jei.description.frames=Platziere Rähmchen in einen Bienenkorb, um die Produktionsrate der Bienen zu erhöhen und den Genetischen Verfall unedler Bienen zu verringern.
 for.jei.description.apiarist.suit=Teile der Imkerkleidung schützen den Träger vor negativen Bieneneffekten. Ein voller Anzug bietet vollständingen Schutz.
-for.jei.description.habitat.locator=Der Habitatsucher sucht das nächste ideale Habitat für eine Biene. Sobald ein Ort gefunden ist, wird er dorthin zeigen. Sollte die aktuelle Position ideal sein, wird er sich gleichmäßig drehen.
+for.jei.description.habitatLocator=Der Habitatsucher sucht das nächste ideale Habitat für eine Biene. Sobald ein Ort gefunden ist, wird er dorthin zeigen. Sollte die aktuelle Position ideal sein, wird er sich gleichmäßig drehen.
 for.jei.description.scoop=Mit dem Kescher werden wilde Bienenstöcke zerstört und die Bienen im Inneren erhalten. Mit ihm können auch Schmetterlinge durch Rechtsklick eingefangen werden.
 
 ####################
