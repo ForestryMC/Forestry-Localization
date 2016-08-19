@@ -454,8 +454,6 @@ for.trigger.noFrames=缺少框架
 
 for.yes=是
 
-item.for.adventurerBag.name=冒险家背包
-item.for.adventurerBagT2.name=冒险家编织背包
 item.for.ambrosia.name=仙馔密酒
 item.for.apatite.name=磷灰石
 
@@ -502,8 +500,6 @@ item.for.brokenBronzePickaxe.name=损坏的镐
 item.for.brokenBronzeShovel.name=损坏的锹
 item.for.bronzePickaxe.name=幸存者之镐
 item.for.bronzeShovel.name=幸存者之锹
-item.for.builderBag.name=建筑师背包
-item.for.builderBagT2.name=建筑师编织背包
 
 item.for.can.empty.name=罐
 item.for.can.grammar=%s罐
@@ -516,9 +512,9 @@ item.for.circuitboard.intricate.name=先进电子板
 item.for.circuitboard.refined.name=大型电子板
 item.for.circuitboard.tooltip.singular=安装有%s个电子管。
 item.for.circuitboard.tooltip.plural=安装有%s个电子管。
-for.jei.description.chipsets=用电烙铁可为电子板安装各式电子管。安装完电子管后，电子板便可插入机器的电子板插槽中使用。用电烙铁可将电子板从插槽中拆除。
 
 item.for.craftingMaterial.dissipationCharge.name=驱云电荷
+item.for.craftingMaterial.dissipationCharge.tooltip=在造雨机里用这个可以停雨。
 item.for.craftingMaterial.iceShard.name=碎冰
 item.for.craftingMaterial.pulsatingDust.name=脉动之尘
 item.for.craftingMaterial.pulsatingMesh.name=脉动网格
@@ -529,13 +525,9 @@ item.for.craftingMaterial.wovenSilk.name=丝绸
 
 item.for.crate.name=板条箱
 item.for.decayingWheat.name=腐烂小麦
-item.for.diggerBag.name=挖掘者背包
-item.for.diggerBagT2.name=挖掘者编织背包
 
 item.for.fertilizerBio.name=堆肥
 item.for.fertilizerCompound.name=肥料
-item.for.foresterBag.name=林业员背包
-item.for.foresterBagT2.name=林业员编织背包
 
 item.for.frameImpregnated.name=浸渍框架
 item.for.frameProven.name=标定框架
@@ -572,8 +564,6 @@ item.for.honeyDrop.omega.name=终结蜂蜜滴
 item.for.honeyedSlice.name=蜂蜜面包
 
 item.for.honeyPot.name=蜜罐
-item.for.hunterBag.name=狩猎者背包
-item.for.hunterBagT2.name=狩猎者编织背包
 
 item.for.impregnatedCasing.name=浸渍部件
 item.for.imprinter.name=染色体变换仪
@@ -584,16 +574,15 @@ item.for.ingotCopper.name=铜锭
 item.for.ingotTin.name=锡锭
 
 item.for.iodineCapsule.name=碘酒胶囊
+item.for.iodineCapsule.tooltip=在造雨机里用这个可以造雨。
 item.for.kitPickaxe.name=镐应急袋
 item.for.kitShovel.name=锹应急袋
 item.for.letters.name=信件
 
-item.for.minerBag.name=采矿者背包
-item.for.minerBagT2.name=采矿者编织背包
-
 item.for.mouldyWheat.name=发霉小麦
 item.for.mulch.name=覆盖戍
 item.for.naturalistHelmet.name=眼镜
+item.for.naturalistHelmet.tooltip=戴上这个就可以看出哪些叶子经过授粉。
 item.for.oakStick.name=浸渍木棍
 item.for.peat.name=泥炭
 item.for.phosphor.name=荧光粉
@@ -611,13 +600,15 @@ item.for.refractory.empty.name=耐火胶囊
 item.for.refractory.grammar=耐火%s胶囊
 
 item.for.refractoryWax.name=耐火蜂蜡
+item.for.refractoryWax.tooltip=具有高熔点的蜂蜡。
 
 item.for.researchNote.name=%s之笔记
+item.for.researchNote.tooltip=用这个就可以获得对应的知识。
 item.for.royalJelly.name=蜂王浆
 item.for.scoop.name=捕虫网
+item.for.scoop.tooltip=破坏蜂巢以获得蜜蜂。
 item.for.solderingIron.name=电烙铁
 item.for.solderingIron.tooltip=可将电子管焊在电子板上
-for.jei.description.solderingIron=手持电烙铁右击可打开焊接界面，在这个界面中你可将各式电子管焊接在电子板上。电烙铁还可用于从机器插槽中拆除电子板。
 item.for.smoker.name=驱蜂烟雾
 item.for.smoker.tooltip=让野生的蜜蜂冷静下来
 
@@ -645,15 +636,16 @@ item.for.thermionicTubes.emerald.name=绿宝石电子管
 item.for.thermionicTubes.apatite.name=磷灰石电子管
 item.for.thermionicTubes.lapis.name=青金石电子管
 item.for.thermionicTubes.ender.name=末影电子管
-for.jei.description.thermionicTubes=用电烙铁可将电子管焊在电子板上。每种电子管的具体作用可在电烙铁焊接界面中选择，并显示在其Tooltip上。电子管焊接到电子板上后便无法取下。
 
 item.for.capsule.empty.name=蜂蜡胶囊
+item.for.capsule.tooltip=不能存储高温液体
 item.for.capsule.grammar=%s胶囊
 
 item.for.waxCast.name=打蜡工具
 
 item.for.woodPulp.name=木浆
 item.for.wrench.name=扳手
+item.for.wrench.tooltip=按住Shift右击可旋转方块
 
 itemGroup.agriculture=林业|农艺
 itemGroup.apiculture=林业|养蜂
@@ -703,6 +695,24 @@ tile.for.resourceStorage.bronze.name=青铜块
 tile.for.humus.name=腐殖土
 tile.for.bogEarth.bog_earth.name=沼泽泥
 tile.for.bogEarth.peat.name=泥炭
+
+item.for.adventurerBag.name=冒险家背包
+item.for.adventurerBagT2.name=冒险家编织背包
+
+item.for.builderBag.name=建筑师背包
+item.for.builderBagT2.name=建筑师编织背包
+
+item.for.diggerBag.name=挖掘者背包
+item.for.diggerBagT2.name=挖掘者编织背包
+
+item.for.foresterBag.name=林业员背包
+item.for.foresterBagT2.name=林业员编织背包
+
+item.for.hunterBag.name=狩猎者背包
+item.for.hunterBagT2.name=狩猎者编织背包
+
+item.for.minerBag.name=采矿者背包
+item.for.minerBagT2.name=采矿者编织背包
 
 ################
 # ERRORS
@@ -1486,6 +1496,7 @@ for.gui.mail.tradefor=贸易对象为
 for.gui.mail.willtrade=%s将开始贸易
 
 item.for.catalogue.name=贸易目录
+item.for.catalogue.tooltip=显示当前贸易站全部可用交易。
 
 ####################
 # PIPES
@@ -1517,14 +1528,14 @@ for.plugin.ee3.description=等价交换3兼容组件。
 for.plugin.farmcraftory.description=牧场物语(FarmCraftory)兼容组件。添加作物和蔬菜的自动化农场支持。
 for.plugin.biomesoplenty.description=更多生物群系(Biomes O' Plenty)兼容组件。激活后农场能够支持BoP的树苗。
 for.plugin.extrautilities.description=更多实用设备(Extra Utilities)兼容组件。激活后农场能够支持末影百合。
-for.plugin.harvestcraft.description=潘马斯农场(HarvestCraft)兼容组件。激活后农场能够支持HarvestCraft的植物及树苗。
+for.plugin.harvestcraft.description=HarvestCraft(潘马斯农场)兼容组件。激活后农场能够支持HarvestCraft的植物及树苗。
 for.plugin.magicalcrops.description=魔法作物(Magical Crops)兼容组件。
 for.plugin.chisel.description=凿子(Chisel)兼容组件。添加背包对其方块的支持。
 for.plugin.plantmegapack.description=超多植物世界(Plant Mega Pack)兼容组件。
 for.plugin.witchery.description=巫术(Witchery)兼容组件。
 for.plugin.agricraft.description=农业工艺(AgriCraft)兼容组件。
 for.plugin.enderIO.description=末影接口(EnderIO)兼容组件。
-for.plugin.immersiveengineering.description=Immersive Engineering兼容组件。
+for.plugin.immersiveengineering.description=Immersive Engineering(沉浸工程)兼容组件。
 for.plugin.growthcraft.description=生长工艺(GrowthCraft)兼容组件。
 for.plugin.erebus.description=Erebus兼容组件。
 for.plugin.rotarycraft.description=旋转工艺(RotaryCraft)兼容组件。
@@ -1778,6 +1789,40 @@ for.jei.description.frames=将林业框架置于蜂房中，可提高蜜蜂产�
 for.jei.description.apiarist.suit=每一件养蜂人套装都可以保护养蜂人免受蜜蜂的负面效果。全套养蜂人套装可提供完全保护。
 for.jei.description.habitatLocator=栖息地定位仪可为指定蜜蜂搜索最近的理想栖息地。当它定位成功后，它的指针会指向定位到的地点。若当前地点即为理想栖息地，其指针会不停转动。
 for.jei.description.scoop=捕蜂网可用于破坏野生的蜂巢，并收集其中的蜜蜂。它也可用于收集蝴蝶：只需右击蝴蝶即可捕捉。
++for.jei.description.imprinter=创造模式专用，可获得任意种类的蜜蜂。
+
+for.jei.description.infuser=用于向蜂蜜酒中加入花粉，以制得蜂蜜药酒。
+
+for.jei.description.chipsets=用电烙铁可为电子板安装各式电子管。安装完电子管后，电子板便可通过GUI插入机器的电子板插槽中使用。用电烙铁可将电子板从插槽中拆除。
+for.jei.description.solderingIron=手持电烙铁右击，即可打开焊接界面，在这个界面中你可以选择制作各式电子板，并将各式电子管焊接在电子板上。它还可以用于从机器插槽中拆除电子板。
+for.jei.description.thermionicTubes=用电烙铁可将电子管焊在电子板上。每种电子管的具体作用可在电烙铁焊接界面中选择，并显示在其信息提示上。电子管焊接到电子板上后便无法取下。
+for.jei.description.humus=一种肥力高的土，植物生长在上面时不需要附近有水。肥力会随时间推移而下降，最终变成沙子。
+for.jei.description.bogEarth=在附近有水的湿润环境下可缓慢变成泥炭。
+for.jei.description.analyzer=便携式多用分析仪的方块版本，需要蜂蜜液体和能量方可工作。
+for.jei.description.escritoire=这是一个研究蜜蜂、树木和蝴蝶变异的小游戏。从中可得到研究笔记和其它奖励，其中研究笔记可用于提高变异概率。
+for.jei.description.pipette=一个可吸取少量液体的滴管。在林业设备的GUI中，可直接清空储罐，亦可将滴管中液体滴入储罐。
+for.jei.description.kitShovel=油纸包好的可堆叠包裹，每个包裹中都有一个幸存者之锹。右击可拆开包裹。
+for.jei.description.kitPickaxe=油纸包好的可堆叠包裹，每个包裹中都有一个幸存者之镐。右击可拆开包裹。
+for.jei.description.fertilizerCompound=高效肥料。可当作骨粉使用。林业的多功能农场运转时需要此种肥料。
+
+for.jei.description.raintank=收集雨水。底面可自动输出水。
+for.jei.description.worktable=一个带内部存储的高级工作台。可记住9个合成表。同时拥有在遇到合成冲突时选择合成结果的功能。
+
+for.jei.description.grafter=使用它破坏林业树叶可100%保证获得树苗，但耐久极低。
+for.jei.description.grafterProven=使用它破坏林业树叶可100%保证获得树苗，但只能在村民处购得。
+
+for.jei.description.mailbox=允许玩家向贸易站发信，从而与其它玩家进行贸易。打开任意邮箱都只显示当前玩家自己的邮件。
+for.jei.description.trade_station=一个可以自动处理玩家间贸易请求的邮箱。
+for.jei.description.stamp_collector=创造模式专用，用于收集所有使用过的邮票。可用于服务器中建立基于邮票的经济体系。
+
+for.jei.description.adventurerBag=额外背包空间，其可存储的物品可在/config/forestry/backpacks.cfg修改。
+for.jei.description.builderBag=额外背包空间，可自动捡起建筑相关的物品。
+for.jei.description.diggerBag=额外背包空间，可自动捡起挖矿时挖到的泥土、石头等压仓库的物品。
+for.jei.description.foresterBag=额外背包空间，可自动捡起植物相关的物品。
+for.jei.description.hunterBag=额外背包空间，可自动捡起怪物掉落物。
+for.jei.description.minerBag=额外背包空间，可自动捡起有价值的矿物。
+for.jei.description.apiaristBag=额外背包空间，专用于存储蜜蜂。
+for.jei.description.lepidopteristBag=额外背包空间，专用于存储蝴蝶。
 
 ####################
 # JEI Recipes
