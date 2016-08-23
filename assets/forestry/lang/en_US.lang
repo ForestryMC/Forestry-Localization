@@ -331,6 +331,8 @@ for.gui.warm=Warm
 for.gui.water=Water
 for.gui.worker=Worker
 
+for.gui.camouflage.spray.can=Camouflage Spray Can
+
 for.hints.accesscontrol.desc=A machine's owner can set it to three different types of access: Shared, restricted or private.
 for.hints.accesscontrol.tag=Access Control
 for.hints.accesspipe.desc=A machine set to private will disallow any interaction with tubes or pipes.
@@ -648,10 +650,13 @@ item.for.woodPulp.name=Wood Pulp
 item.for.wrench.name=Wrench
 item.for.wrench.tooltip=Shift-Use to rotate blocks.
 
+item.for.camouflageSprayCan.name=Camouflage Spray Can
+
 itemGroup.apiculture=Apiculture
 itemGroup.arboriculture=Arboriculture
 itemGroup.forestry=Forestry
 itemGroup.lepidopterology=Lepidopterology
+itemGroup.agriculture=Agriculture
 
 tile.for.analyzer.name=Analyzer
 tile.for.escritoire.name=Escritoire
@@ -1383,6 +1388,9 @@ tile.for.greenhouse.dryer.name=Greenhouse Dryer
 tile.for.greenhouse.control.name=Greenhouse Control
 tile.for.greenhouse.sprinkler.name=Greenhouse Sprinkler
 tile.for.greenhouse.door.name=Greenhouse Door
+tile.for.greenhouse.climate_control.name=Greenhouse Climate Control
+tile.for.greenhouse.window_up.name=Greenhouse Roof Window
+tile.for.greenhouse.window.name=Greenhouse Window
 
 ####################
 # LEPIDOPTEROLOGY
