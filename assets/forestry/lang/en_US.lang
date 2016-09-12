@@ -333,12 +333,6 @@ for.gui.worker=Worker
 
 for.gui.camouflage.spray.can=Camouflage Spray Can
 
-for.hints.accesscontrol.desc=A machine's owner can set it to three different types of access: Shared, restricted or private.
-for.hints.accesscontrol.tag=Access Control
-for.hints.accesspipe.desc=A machine set to private will disallow any interaction with tubes or pipes.
-for.hints.accesspipe.tag=Restricted Pipe Access
-for.hints.accessrules.desc="Shared" access allows anyone to break the machine or interact with it. "Restricted" still allows interaction for anyone.
-for.hints.accessrules.tag=Access rules
 for.hints.apiaristsuit.desc=A full apiarist's suit will protect you from all negative bee effects.
 for.hints.apiaristsuit.tag=Bee Suits!
 for.hints.beebiomes.desc=Bees only work in biomes that suit their species. Use your beealyzer and habitat locator to find out in which.
@@ -399,8 +393,6 @@ for.hints.postage.desc=Sending letters costs stamps. To a base fee of 1n, every 
 for.hints.postage.tag=Pay the Ferryman
 for.hints.powerraintank.desc=Even an unpowered raintank will collect rain. However to bottle the water, energy from an engine is required.
 for.hints.powerraintank.tag=Bottling Requires Energy!
-for.hints.powerrequired.desc=This machine requires energy from an engine to function. Attach an engine and start it, to allow production.
-for.hints.powerrequired.tag=Requires Energy!
 for.hints.shortmead.desc=Your fermenter can not only create biomass, you can also use honeydew and liquid honey to make some short mead.
 for.hints.shortmead.tag=Get your energy drink!
 for.hints.usesofash.desc=Ash can be used to create fertilizer and is required to refine bituminous peat.
