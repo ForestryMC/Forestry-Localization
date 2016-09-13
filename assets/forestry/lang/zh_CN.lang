@@ -331,6 +331,8 @@ for.gui.warm=温暖
 for.gui.water=水域
 for.gui.worker=工蜂
 
+for.gui.camouflage.spray.can=伪装洒水壶
+
 for.hints.apiaristsuit.desc=全副武装让你远离蜜蜂带来的各种负面状态。
 for.hints.apiaristsuit.tag=养蜂套装！
 for.hints.beebiomes.desc=蜜蜂只能生存在其适合的环境中，通过分析仪和栖息地定位仪来寻找合适的环境吧。
@@ -639,11 +641,13 @@ item.for.woodPulp.name=木浆
 item.for.wrench.name=扳手
 item.for.wrench.tooltip=按住Shift右击可旋转方块
 
-itemGroup.agriculture=林业|农艺
+item.for.camouflageSprayCan.name=伪装洒水壶
+
 itemGroup.apiculture=林业|养蜂
 itemGroup.arboriculture=林业|植树
 itemGroup.forestry=林业
 itemGroup.lepidopterology=林业|蝴蝶
+itemGroup.agriculture=林业|农艺
 
 tile.for.analyzer.name=分析仪
 tile.for.escritoire.name=写字台
@@ -1375,6 +1379,9 @@ tile.for.greenhouse.dryer.name=温室干燥器
 tile.for.greenhouse.control.name=温室控制器
 tile.for.greenhouse.sprinkler.name=温室洒水器
 tile.for.greenhouse.door.name=温室大门
+tile.for.greenhouse.climate_control.name=温室气候控制设备
+tile.for.greenhouse.window_up.name=温室天窗
+tile.for.greenhouse.window.name=温室窗户
 
 ####################
 # LEPIDOPTEROLOGY
