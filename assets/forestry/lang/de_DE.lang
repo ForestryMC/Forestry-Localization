@@ -331,6 +331,8 @@ for.gui.warm=Warm
 for.gui.water=Wasser
 for.gui.worker=Arbeiterin
 
+for.gui.camouflage.spray.can=Tarnspraydose
+
 for.hints.apiaristsuit.desc=Ein komplettes Set Imkerkleidung schützt dich vor allen negativen Bieneneffekten.
 for.hints.apiaristsuit.tag=Bienenanzug!
 for.hints.beebiomes.desc=Bienen arbeiten nur in für sie geeigneten Habitaten. Bienalyzer und Habitatsucher helfen dir, herauszufinden, in welchen.
@@ -446,8 +448,6 @@ for.trigger.noFrames=Keine Rähmchen
 
 for.yes=Ja
 
-item.for.adventurerBag.name=Abenteurerrucksack
-item.for.adventurerBagT2.name=Gewobener Abenteurerrucksack
 item.for.ambrosia.name=Ambrosia
 item.for.apatite.name=Apatit
 
@@ -494,8 +494,6 @@ item.for.brokenBronzePickaxe.name=Zerbrochene Spitzhacke
 item.for.brokenBronzeShovel.name=Zerbrochene Schaufel
 item.for.bronzePickaxe.name=Überlebensspitzhacke
 item.for.bronzeShovel.name=Überlebensschaufel
-item.for.builderBag.name=Handwerkerrucksack
-item.for.builderBagT2.name=Gewobener Handwerkerrucksack
 
 item.for.can.empty.name=Büchse
 item.for.can.grammar=Büchse %s
@@ -508,9 +506,9 @@ item.for.circuitboard.intricate.name=Riesige Leiterplatte
 item.for.circuitboard.refined.name=Große Leiterplatte
 item.for.circuitboard.tooltip.singular=Hält %s Elektronenröhre.
 item.for.circuitboard.tooltip.plural=Hält %s Elektronenröhren.
-item.for.circuitboard.description=Leiterplatten können mithilfe eines Lötkolbens mit Elektronenröhren bestückt werden. Nach Fertigstellung können sie in die Sockel verschiedener Maschinen eingesetzt werden. Verwende einen Lötkolben, um sie wieder aus dem Sockel zu entfernen.
 
 item.for.craftingMaterial.dissipationCharge.name=Dissipationsladung
+item.for.craftingMaterial.dissipationCharge.tooltip=In einem Regenmacher macht sie Regen weg.
 item.for.craftingMaterial.iceShard.name=Eiszapfen
 item.for.craftingMaterial.pulsatingDust.name=Pulsierender Staub
 item.for.craftingMaterial.pulsatingMesh.name=Pulsierendes Gewebe
@@ -521,13 +519,9 @@ item.for.craftingMaterial.wovenSilk.name=Seidengewebe
 
 item.for.crate.name=Kiste
 item.for.decayingWheat.name=Zerfallendes Getreide
-item.for.diggerBag.name=Schürferrucksack
-item.for.diggerBagT2.name=Gewobener Schürferrucksack
 
 item.for.fertilizerBio.name=Kompost
 item.for.fertilizerCompound.name=Dünger
-item.for.foresterBag.name=Försterrucksack
-item.for.foresterBagT2.name=Gewobener Försterrucksack
 
 item.for.frameImpregnated.name=Imprägniertes Rähmchen
 item.for.frameProven.name=Bewährtes Rähmchen
@@ -564,8 +558,6 @@ item.for.honeyDrop.omega.name=Omegatropfen
 item.for.honeyedSlice.name=Honigbrot
 
 item.for.honeyPot.name=Honigtopf
-item.for.hunterBag.name=Jägerrucksack
-item.for.hunterBagT2.name=Gewobener Jägerrucksack
 
 item.for.impregnatedCasing.name=Imprägniertes Gehäuse
 item.for.imprinter.name=Gendrucker
@@ -576,16 +568,15 @@ item.for.ingotCopper.name=Kupferbarren
 item.for.ingotTin.name=Zinnbarren
 
 item.for.iodineCapsule.name=Iodkapsel
+item.for.iodineCapsule.tooltip=In einem Regenmacher macht sie Regen.
 item.for.kitPickaxe.name=Spitzhacken-Baukasten
 item.for.kitShovel.name=Schaufel-Baukasten
 item.for.letters.name=Brief
 
-item.for.minerBag.name=Bergarbeiterrucksack
-item.for.minerBagT2.name=Gewobener Bergarbeiterrucksack
-
 item.for.mouldyWheat.name=Fauliges Getreide
 item.for.mulch.name=Mulch
 item.for.naturalistHelmet.name=Brille
+item.for.naturalistHelmet.tooltip=Macht bestäubte Blätter sichtbar
 item.for.oakStick.name=Imprägnierter Stab
 item.for.peat.name=Torf
 item.for.phosphor.name=Phosphor
@@ -603,13 +594,15 @@ item.for.refractory.empty.name=Hitzebeständige Kapsel
 item.for.refractory.grammar=Kapsel %s
 
 item.for.refractoryWax.name=Hitzebeständiges Wachs
+item.for.refractoryWax.tooltip=Wachs mit hohem Schmelzpunkt
 
 item.for.researchNote.name=Notizen von %s
+item.for.researchNote.tooltip=Lies sie dir in deiner Hand gut durch, um ihr Wissen in dich aufzunehmen.
 item.for.royalJelly.name=Gelée royale
 item.for.scoop.name=Kescher
+item.for.scoop.tooltip=Zerstöre Bienenstöcke, um Bienen zu sammeln.
 item.for.solderingIron.name=Lötkolben
 item.for.solderingIron.tooltip=Lötet Elektronenröhren auf Leiterplatten
-item.for.solderingIron.description=Rechtsklicke einen Lötkolben, um das Interface zu öffnen. Dort kannst du die Art von Schaltkreis auswählen und Leiterplatten mit Elektronenröhren bestücken. Kann auch zum Entfernen von Leiterplatten aus Sockeln verwendet werden.
 item.for.smoker.name=Bienen-Smoker
 item.for.smoker.tooltip=Stellt wilde Bienen ruhig
 
@@ -637,20 +630,25 @@ item.for.thermionicTubes.emerald.name=Elektronenröhre (Smaragd)
 item.for.thermionicTubes.apatite.name=Elektronenröhre (Apatit)
 item.for.thermionicTubes.lapis.name=Elektronenröhre (Lapislazuli)
 item.for.thermionicTubes.ender.name=Elektronenröhre (Ender)
-item.for.thermionicTubes.description=Elektronenröhren können mithilfe eines Lötkolbens auf Leiterplatten gesetzt werden. Sie haben viele Verwendungsmöglichkeiten im Tooltip dargestellt; diese sind von der im Lötkolben gewählten Schaltkreisart abhängig. Erstmal aufgelötet können sie nicht mehr von einer Leiterplatte entfernt werden.
+item.for.thermionicTubes.tooltip=Kann Leiterplatten programmieren.
 
 item.for.capsule.empty.name=Wachskapsel
+item.for.capsule.tooltip=Kann keine heißen Flüssigkeiten halten
 item.for.capsule.grammar=Kapsel %s
 
 item.for.waxCast.name=Wachsform
 
 item.for.woodPulp.name=Holzbrei
 item.for.wrench.name=Schraubenschlüssel
+item.for.wrench.tooltip=Shift-Kick zum Rotieren von Blöcken.
+
+item.for.camouflageSprayCan.name=Tarnspraydose
 
 itemGroup.apiculture=Bienenzucht
 itemGroup.arboriculture=Baumzucht
 itemGroup.forestry=Forestry
 itemGroup.lepidopterology=Lepidopterologie
+itemGroup.agriculture=Ackerbau
 
 tile.for.analyzer.name=Analysierer
 tile.for.escritoire.name=Schreibtisch
@@ -694,6 +692,24 @@ tile.for.resourceStorage.bronze.name=Bronzeblock
 tile.for.humus.name=Humus
 tile.for.bogEarth.bog_earth.name=Moorerde
 tile.for.bogEarth.peat.name=Torf
+
+item.for.adventurerBag.name=Abenteurerrucksack
+item.for.adventurerBagT2.name=Gewobener Abenteurerrucksack
+
+item.for.builderBag.name=Handwerkerrucksack
+item.for.builderBagT2.name=Gewobener Handwerkerrucksack
+
+item.for.diggerBag.name=Schürferrucksack
+item.for.diggerBagT2.name=Gewobener Schürferrucksack
+
+item.for.foresterBag.name=Försterrucksack
+item.for.foresterBagT2.name=Gewobener Försterrucksack
+
+item.for.hunterBag.name=Jägerrucksack
+item.for.hunterBagT2.name=Gewobener Jägerrucksack
+
+item.for.minerBag.name=Bergarbeiterrucksack
+item.for.minerBagT2.name=Gewobener Bergarbeiterrucksack
 
 ################
 # ERRORS
@@ -1364,6 +1380,9 @@ tile.for.greenhouse.dryer.name=Trockner (Gewächshaus)
 tile.for.greenhouse.control.name=Gewächshauskontrolle
 tile.for.greenhouse.sprinkler.name=Sprinkler (Gewächshaus)
 tile.for.greenhouse.door.name=Gewächshaustür
+tile.for.greenhouse.climate_control.name=Gewächshaus-Klimabox
+tile.for.greenhouse.window_up.name=Gewächshaus-Dachfenster
+tile.for.greenhouse.window.name=Gewächshausfenster
 
 ####################
 # LEPIDOPTEROLOGY
@@ -1477,6 +1496,7 @@ for.gui.mail.tradefor=für
 for.gui.mail.willtrade=%s wird handeln
 
 item.for.catalogue.name=Katalog
+item.for.catalogue.tooltip=Enthält alle verfügbaren Angebote von Handelsstationen.
 
 ####################
 # PIPES
@@ -1780,6 +1800,12 @@ for.jei.description.frames=Platziere Rähmchen in einen Bienenkorb, um die Produ
 for.jei.description.apiarist.suit=Teile der Imkerkleidung schützen den Träger vor negativen Bieneneffekten. Ein voller Anzug bietet vollständingen Schutz.
 for.jei.description.habitatLocator=Der Habitatsucher sucht das nächste ideale Habitat für eine Biene. Sobald ein Ort gefunden ist, wird er dorthin zeigen. Sollte die aktuelle Position ideal sein, wird er sich gleichmäßig drehen.
 for.jei.description.scoop=Mit dem Kescher werden wilde Bienenstöcke zerstört und die Bienen im Inneren erhalten. Mit ihm können auch Schmetterlinge durch Rechtsklick eingefangen werden.
+
+
+
+
+
+
 
 ####################
 # JEI Recipes
