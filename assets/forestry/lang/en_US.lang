@@ -1539,6 +1539,7 @@ for.plugin.immersiveengineering.description=Compatibility plugin for Immersive E
 for.plugin.growthcraft.description=Compatibility plugin for GrowthCraft
 for.plugin.erebus.description=Compatibility plugin for Erebus
 for.plugin.rotarycraft.description=Compatibility plugin for RotaryCraft
+for.plugin.actuallyadditions.description=Compatibility plugin for Actually Additions
 
 ####################
 # CONFIG FILES
