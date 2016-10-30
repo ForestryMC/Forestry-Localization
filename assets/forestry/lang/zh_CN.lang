@@ -1655,11 +1655,13 @@ for.config.butterfly.entities.spawn.limit=蝴蝶生成限制
 for.config.butterfly.entities.spawn.limit.comment=当达到阈值时不再自然生成蝴蝶。
 for.config.butterfly.entities.maximum=最大蝴蝶数量
 for.config.butterfly.entities.maximum.comment=当达到阈值时新出现的蝴蝶只能以物品形式存在而不能飞行。
+for.config.butterfly.entities.maxDistance=离家最远距离
+for.config.butterfly.entities.maxDistance.comment=蝴蝶在离家太远时会飞回家。
 for.config.butterfly.entities.pollination=蝴蝶授粉
 for.config.butterfly.entities.pollination.comment=允许蝴蝶为树木授粉。
 
-for.config.backpacks.item.stacks.format=在此添加%s的背包对物品的支持，格式为'modid:name:meta'，也可以使用忽略附加值的通配格式'modid:name'。
-for.config.backpacks.ore.dict.format=在此添加%s的背包对矿物字典的支持，格式为'oreDictName'。支持正则表达式。
+for.config.backpacks.item.stacks.format=在此添加%s的背包对物品的支持，格式为：'modid:name:meta'，也可以使用忽略附加值的通配格式：'modid:name'。
+for.config.backpacks.ore.dict.format=在此添加%s的背包对矿物字典的支持，格式为：'oreDictName'。支持正则表达式。
 
 for.config.gamemode=游戏模式
 
