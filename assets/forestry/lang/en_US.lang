@@ -1670,7 +1670,7 @@ for.config.backpacks.ore.dict.format=Add ore dictionary names for the %s's backp
 for.config.gamemode=Game Mode
 
 for.config.gamemode.energy.demand.modifier.comment=Modifies the energy required to activate machines, as well as the max amount of energy stored and accepted.
-for.config.gamemode.fertilizer.modifier.value.comment=Modifies the time a piece of fertilizer lasts in a farm.
+for.config.gamemode.farms.fertilizer.modifier.value.comment=Modifies the time a piece of fertilizer lasts in a farm.
 
 for.config.gamemode.fuel.ethanol.generator.comment=modifies the energy provided by ethanol in a Bio Generator.
 for.config.gamemode.fuel.ethanol.combustion.comment=modifies the energy provided by ethanol in Buildcraft Combustion Engines.
