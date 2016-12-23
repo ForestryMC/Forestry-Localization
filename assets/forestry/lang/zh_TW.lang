@@ -692,126 +692,116 @@ tile.for.bogEarth.peat.name=泥炭
 ################
 
 # BEES
-for.errors.isRaining.desc=雨
-for.errors.isRaining.help=只有在沒有下雨的時候才能進行操作。
-for.errors.noDrone.desc=無雄蜂
-for.errors.noDrone.help=配對需要雄蜂。
-for.errors.noFlower.desc=沒有花
-for.errors.noFlower.help=蜂群找不到合適的花。
-for.errors.noQueen.desc=無蜂后
-for.errors.noQueen.help=請提供一隻蜂后或公主蜂，與一隻雄蜂。
-for.errors.noSky.desc=被遮蔽
-for.errors.noSky.help=清除機器上方的物體。
-for.errors.notDay.desc=不是白天
-for.errors.notDay.help=操作需要在白天進行。
-for.errors.notGloomy.desc=不夠暗
-for.errors.notGloomy.help=需要更暗的環境來進行操作。
-for.errors.notLucid.desc=不夠亮
-for.errors.notLucid.help=需要更亮的環境來進行操作。
-for.errors.notNight.desc=不是夜晚
-for.errors.notNight.help=操作需要在夜晚進行。
-for.errors.tooHot.desc=過於炎熱
-for.errors.tooHot.help=The bees are melting in the heat here and unable to work. Use a Habitat Locator to find a cooler climate.
-for.errors.tooCold.desc=過於寒冷
-for.errors.tooCold.help=The bees are huddled together to survive the freezing cold here. Use a Habitat Locator to find a warmer climate.
-for.errors.tooHumid.desc=過於潮濕
-for.errors.tooHumid.help=The climate here has made the bees' wings too damp to fly. Use a Habitat Locator to find a dryer climate.
-for.errors.tooArid.desc=過於乾燥
-for.errors.tooArid.help=The dry climate here has made the bees parched and unable to work. Use a Habitat Locator to find a wetter climate.
+for.errors.is_raining.desc=雨
+for.errors.is_raining.help=只有在沒有下雨的時候才能進行操作。
+for.errors.no_drone.desc=無雄蜂
+for.errors.no_drone.help=配對需要雄蜂。
+for.errors.no_flower.desc=沒有花
+for.errors.no_flower.help=蜂群找不到合適的花。
+for.errors.no_queen.desc=無蜂后
+for.errors.no_queen.help=請提供一隻蜂后或公主蜂，與一隻雄蜂。
+for.errors.no_sky.desc=被遮蔽
+for.errors.no_sky.help=清除機器上方的物體。
+for.errors.not_day.desc=不是白天
+for.errors.not_day.help=操作需要在白天進行。
+for.errors.not_gloomy.desc=不夠暗
+for.errors.not_gloomy.help=需要更暗的環境來進行操作。
+for.errors.not_lucid.desc=不夠亮
+for.errors.not_lucid.help=需要更亮的環境來進行操作。
+for.errors.not_night.desc=不是夜晚
+for.errors.not_night.help=操作需要在夜晚進行。
+for.errors.too_hot.desc=過於炎熱
+for.errors.too_hot.help=The bees are melting in the heat here and unable to work. Use a Habitat Locator to find a cooler climate.
+for.errors.too_cold.desc=過於寒冷
+for.errors.too_cold.help=The bees are huddled together to survive the freezing cold here. Use a Habitat Locator to find a warmer climate.
+for.errors.too_humid.desc=過於潮濕
+for.errors.too_humid.help=The climate here has made the bees' wings too damp to fly. Use a Habitat Locator to find a dryer climate.
+for.errors.too_arid.desc=過於乾燥
+for.errors.too_arid.help=The dry climate here has made the bees parched and unable to work. Use a Habitat Locator to find a wetter climate.
 
 # MACHINES
-for.errors.noPower.desc=無能量
-for.errors.noPower.help=這台機器需要RF能量驅動。
-for.errors.noRedstone.desc=沒有紅石訊號
-for.errors.noRedstone.help=這台機器需要紅石訊號來啟用。
-for.errors.disabledRedstone.desc=已停用
-for.errors.disabledRedstone.help=這台機器已被紅石訊號停用。
-for.errors.noRecipe.desc=無合成公式
-for.errors.noRecipe.help=未發現與提供的資源匹配的合成公式。
-for.errors.noResource.desc=缺乏資源
-for.errors.noResource.help=需要更多的資源來進行操作。
-for.errors.noResourceInventory.desc=Inventory needs resources
-for.errors.noResourceInventory.help=Resources need to be added to the machine's inventory to begin crafting this recipe.
-for.errors.noResourceLiquid.desc=Missing liquid resources
-for.errors.noResourceLiquid.help=More liquid resources need to be supplied for operation.
-for.errors.noSpace.desc=無內部空間
-for.errors.noSpace.help=清空該機器的儲物空間。
-for.errors.noSpaceTank.desc=儲液槽無空間
-for.errors.noSpaceTank.help=清空機器內儲液槽。
-for.errors.notDark.desc=不夠陰暗
-for.errors.notDark.help=需要更低的亮度才能運作。
+for.errors.no_power.desc=無能量
+for.errors.no_power.help=這台機器需要RF能量驅動。
+for.errors.no_redstone.desc=沒有紅石訊號
+for.errors.no_redstone.help=這台機器需要紅石訊號來啟用。
+for.errors.disabled_redstone.desc=已停用
+for.errors.disabled_redstone.help=這台機器已被紅石訊號停用。
+for.errors.no_recipe.desc=無合成公式
+for.errors.no_recipe.help=未發現與提供的資源匹配的合成公式。
+for.errors.no_resource.desc=缺乏資源
+for.errors.no_resource.help=需要更多的資源來進行操作。
+for.errors.no_resourceInventory.desc=Inventory needs resources
+for.errors.no_resourceInventory.help=Resources need to be added to the machine's inventory to begin crafting this recipe.
+for.errors.no_resourceLiquid.desc=Missing liquid resources
+for.errors.no_resourceLiquid.help=More liquid resources need to be supplied for operation.
+for.errors.no_space.desc=無內部空間
+for.errors.no_space.help=清空該機器的儲物空間。
+for.errors.no_spaceTank.desc=儲液槽無空間
+for.errors.no_spaceTank.help=清空機器內儲液槽。
+for.errors.not_dark.desc=不夠陰暗
+for.errors.not_dark.help=需要更低的亮度才能運作。
 
 # RAIN TANK
-for.errors.notRaining.desc=未下雨
-for.errors.notRaining.help=只有在下雨的時候才能進行操作。
-for.errors.noRainBiome.desc=無下雨
-for.errors.noRainBiome.help=這個地方從不下雨。
-for.errors.noSkyRainTank.desc=天空被遮蔽
-for.errors.noSkyRainTank.help=清空機器上方空間，使其可以集雨。
+for.errors.not_raining.desc=未下雨
+for.errors.not_raining.help=只有在下雨的時候才能進行操作。
+for.errors.no_rain_biome.desc=無下雨
+for.errors.no_rain_biome.help=這個地方從不下雨。
+for.errors.no_skyRainTank.desc=天空被遮蔽
+for.errors.no_skyRainTank.help=清空機器上方空間，使其可以集雨。
 
 # ALYZERS
-for.errors.noHoney.desc=需要蜂蜜
-for.errors.noHoney.help=此物品需要用到蜂蜜(蜂蜜滴/蜂蜜汁)。
-for.errors.noSpecimen.desc=沒有可分析對象
-for.errors.noSpecimen.help=請提供用來分析的樣本。
+for.errors.no_honey.desc=需要蜂蜜
+for.errors.no_honey.help=此物品需要用到蜂蜜(蜂蜜滴/蜂蜜汁)。
+for.errors.no_specimen.desc=沒有可分析對象
+for.errors.no_specimen.help=請提供用來分析的樣本。
 
 # ENGINES
-for.errors.forcedCooldown.desc=強制冷卻中
-for.errors.forcedCooldown.help=引擎過熱，處於強制冷卻中。
-for.errors.noEnergyNet.desc=無電力
-for.errors.noEnergyNet.help=您的世界沒有任何電力。(請安裝IndustrialCraft\u00b2)
-for.errors.noFuel.desc=無燃料
-for.errors.noFuel.help=請為這台機器補充燃料。
-for.errors.noHeat.desc=未預熱
-for.errors.noHeat.help=請為機器補充加熱槽。
+for.errors.forced_cooldown.desc=強制冷卻中
+for.errors.forced_cooldown.help=引擎過熱，處於強制冷卻中。
+for.errors.no_energy_net.desc=無電力
+for.errors.no_energy_net.help=您的世界沒有任何電力。(請安裝IndustrialCraft\u00b2)
+for.errors.no_fuel.desc=無燃料
+for.errors.no_fuel.help=請為這台機器補充燃料。
+for.errors.no_heat.desc=未預熱
+for.errors.no_heat.help=請為機器補充加熱槽。
 
 # TRADE STATION
-for.errors.noStamps.desc=需要郵票
-for.errors.noStamps.help=貿易站需要更多郵票來支付郵資。
-for.errors.noPaper.desc=需要紙張
-for.errors.noPaper.help=貿易站需要更多紙張來發送信件。
-for.errors.noSupplies.desc=需要供給物
-for.errors.noSupplies.help=貿易站需要更多供給物來發送。
-for.errors.noTrade.desc=需要進行貿易設置
-for.errors.noTrade.help=貿易站設置物品用來發送或接收。
+for.errors.no_stamps.desc=需要郵票
+for.errors.no_stamps.help=貿易站需要更多郵票來支付郵資。
+for.errors.no_paper.desc=需要紙張
+for.errors.no_paper.help=貿易站需要更多紙張來發送信件。
+for.errors.no_supplies.desc=需要供給物
+for.errors.no_supplies.help=貿易站需要更多供給物來發送。
+for.errors.no_trade.desc=需要進行貿易設置
+for.errors.no_trade.help=貿易站設置物品用來發送或接收。
 
 # TRADE STATION NAMING
-for.errors.notAlphaNumeric.desc=不是字母/數字
-for.errors.notAlphaNumeric.help=填寫的字串只能包含字母或數字。
-for.errors.notUnique.desc=有重名
-for.errors.notUnique.help=填寫的字串已被使用，請選擇一個不同的。
+for.errors.not_alpha_numeric.desc=不是字母/數字
+for.errors.not_alpha_numeric.help=填寫的字串只能包含字母或數字。
+for.errors.not_unique.desc=有重名
+for.errors.not_unique.help=填寫的字串已被使用，請選擇一個不同的。
 
 # LETTERS
-for.errors.noRecipient.desc=無收件人
-for.errors.noRecipient.help=您需要填寫信件的收信人。
-for.errors.notPostpaid.desc=需要郵票
-for.errors.notPostpaid.help=提供更多郵票支付郵資。
+for.errors.no_recipient.desc=無收件人
+for.errors.no_recipient.help=您需要填寫信件的收信人。
+for.errors.not_postpaid.desc=需要郵票
+for.errors.not_postpaid.help=提供更多郵票支付郵資。
 
 # CIRCUIT BOARDS
-for.errors.circuitMismatch.desc=電路不匹配
-for.errors.circuitMismatch.help=真空管與電路板不匹配。
-for.errors.noCircuitBoard.desc=缺少電路板
-for.errors.noCircuitBoard.help=插入電路板並銲接上合適的真空管。
-for.errors.noCircuitLayout.desc=無可用農場設計
-for.errors.noCircuitLayout.help=根據目前遊戲設置無可用的農場設計。
+for.errors.circuit_mismatch.desc=電路不匹配
+for.errors.circuit_mismatch.help=真空管與電路板不匹配。
+for.errors.no_circuit_board.desc=缺少電路板
+for.errors.no_circuit_board.help=插入電路板並銲接上合適的真空管。
+for.errors.no_circuit_layout.desc=無可用農場設計
+for.errors.no_circuit_layout.help=根據目前遊戲設置無可用的農場設計。
 
 # FARMS
-for.errors.noFarmland.desc=無農田
-for.errors.noFarmland.help=用光滑沙石，磚塊，或者石磚來搭建一個用以建立農場的平台。
-for.errors.noFertilizer.desc=無肥料
-for.errors.noFertilizer.help=農場需要使用肥料來驅動，靠堆肥不足以驅動。
-for.errors.noLiquid.desc=缺水
-for.errors.noLiquid.help=根據農場所在地的降雨量，濕度和溫度，所需的供水量不一。
-
-# DEPRECATED
-for.errors.invalidBiome.desc=惡劣環境
-for.errors.invalidBiome.help=機器/居民在這個生態系裡無法正常工作。
-for.errors.noDisposal.desc=廢料無法存放
-for.errors.noDisposal.help=沒有充足空間來存放廢料。
-for.errors.unknown.desc=未知錯誤
-for.errors.unknown.help=恭喜，您可能發現了一個小bug。
-for.errors.wrongStacksize.desc=物品過多
-for.errors.wrongStacksize.help=這裡只能放置單個物品。
+for.errors.no_farmland.desc=無農田
+for.errors.no_farmland.help=用光滑沙石，磚塊，或者石磚來搭建一個用以建立農場的平台。
+for.errors.no_fertilizer.desc=無肥料
+for.errors.no_fertilizer.help=農場需要使用肥料來驅動，靠堆肥不足以驅動。
+for.errors.no_liquid.desc=缺水
+for.errors.no_liquid.help=根據農場所在地的降雨量，濕度和溫度，所需的供水量不一。
 
 ####################
 # APICULTURE

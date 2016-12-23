@@ -716,126 +716,116 @@ item.for.minerBagT2.name=Woven Mining Backpack
 ################
 
 # BEES
-for.errors.isRaining.desc=Rain
-for.errors.isRaining.help=Only tolerant fliers can work in the rain.
-for.errors.noDrone.desc=No drone
-for.errors.noDrone.help=Mating requires a drone present.
-for.errors.noFlower.desc=No flowers
-for.errors.noFlower.help=Hive members are not finding the right flowers. Use the Beealyzer to learn their flower preference.
-for.errors.noQueen.desc=No queen
-for.errors.noQueen.help=Supply this hive with a queen or a princess and a drone.
-for.errors.noSky.desc=Sky obstructed
-for.errors.noSky.help=The hive requires direct sunlight from above.
-for.errors.notDay.desc=Not daytime
-for.errors.notDay.help=The bees can only work during the daytime.
-for.errors.notGloomy.desc=Not dark enough
-for.errors.notGloomy.help=The bees can only work in darkness.
-for.errors.notLucid.desc=Not bright enough
-for.errors.notLucid.help=The bees have trouble navigating in the dark.
-for.errors.notNight.desc=Not nighttime
-for.errors.notNight.help=The bees can only work during the night.
-for.errors.tooHot.desc=Too Hot
-for.errors.tooHot.help=The bees are melting in the heat here and unable to work. Use a Habitat Locator to find a cooler climate.
-for.errors.tooCold.desc=Too Cold
-for.errors.tooCold.help=The bees are huddled together to survive the freezing cold here. Use a Habitat Locator to find a warmer climate.
-for.errors.tooHumid.desc=Too Humid
-for.errors.tooHumid.help=The climate here has made the bees' wings too damp to fly. Use a Habitat Locator to find a dryer climate.
-for.errors.tooArid.desc=Too Dry
-for.errors.tooArid.help=The dry climate here has made the bees parched and unable to work. Use a Habitat Locator to find a wetter climate.
+for.errors.is_raining.desc=Rain
+for.errors.is_raining.help=Only tolerant fliers can work in the rain.
+for.errors.no_drone.desc=No drone
+for.errors.no_drone.help=Mating requires a drone present.
+for.errors.no_flower.desc=No flowers
+for.errors.no_flower.help=Hive members are not finding the right flowers. Use the Beealyzer to learn their flower preference.
+for.errors.no_queen.desc=No queen
+for.errors.no_queen.help=Supply this hive with a queen or a princess and a drone.
+for.errors.no_sky.desc=Sky obstructed
+for.errors.no_sky.help=The hive requires direct sunlight from above.
+for.errors.not_day.desc=Not daytime
+for.errors.not_day.help=The bees can only work during the daytime.
+for.errors.not_gloomy.desc=Not dark enough
+for.errors.not_gloomy.help=The bees can only work in darkness.
+for.errors.not_lucid.desc=Not bright enough
+for.errors.not_lucid.help=The bees have trouble navigating in the dark.
+for.errors.not_night.desc=Not nighttime
+for.errors.not_night.help=The bees can only work during the night.
+for.errors.too_hot.desc=Too Hot
+for.errors.too_hot.help=The bees are melting in the heat here and unable to work. Use a Habitat Locator to find a cooler climate.
+for.errors.too_cold.desc=Too Cold
+for.errors.too_cold.help=The bees are huddled together to survive the freezing cold here. Use a Habitat Locator to find a warmer climate.
+for.errors.too_humid.desc=Too Humid
+for.errors.too_humid.help=The climate here has made the bees' wings too damp to fly. Use a Habitat Locator to find a dryer climate.
+for.errors.too_arid.desc=Too Dry
+for.errors.too_arid.help=The dry climate here has made the bees parched and unable to work. Use a Habitat Locator to find a wetter climate.
 
 # MACHINES
-for.errors.noPower.desc=No Power
-for.errors.noPower.help=This machine requires RF energy from an engine to function.
-for.errors.noRedstone.desc=Requires Redstone
-for.errors.noRedstone.help=This machine requires a redstone signal to activate it.
-for.errors.disabledRedstone.desc=Disabled by Redstone
-for.errors.disabledRedstone.help=This machine is being disabled by a redstone signal.
-for.errors.noRecipe.desc=No recipe
-for.errors.noRecipe.help=No matching recipe was found for the supplied resources.
-for.errors.noResource.desc=Missing resources
-for.errors.noResource.help=More resources need to be supplied for operation.
-for.errors.noResourceInventory.desc=Inventory needs resources
-for.errors.noResourceInventory.help=Resources need to be added to the machine's inventory to begin crafting this recipe.
-for.errors.noResourceLiquid.desc=Missing liquid resources
-for.errors.noResourceLiquid.help=More liquid resources need to be supplied for operation.
-for.errors.noSpace.desc=No inventory space
-for.errors.noSpace.help=Empty this machine's inventory.
-for.errors.noSpaceTank.desc=Tank Full
-for.errors.noSpaceTank.help=Empty this machine's liquid tank.
-for.errors.notDark.desc=Not dark enough
-for.errors.notDark.help=A lower light level is required for operation.
+for.errors.no_power.desc=No Power
+for.errors.no_power.help=This machine requires RF energy from an engine to function.
+for.errors.no_redstone.desc=Requires Redstone
+for.errors.no_redstone.help=This machine requires a redstone signal to activate it.
+for.errors.disabled_redstone.desc=Disabled by Redstone
+for.errors.disabled_redstone.help=This machine is being disabled by a redstone signal.
+for.errors.no_recipe.desc=No recipe
+for.errors.no_recipe.help=No matching recipe was found for the supplied resources.
+for.errors.no_resource.desc=Missing resources
+for.errors.no_resource.help=More resources need to be supplied for operation.
+for.errors.no_resourceInventory.desc=Inventory needs resources
+for.errors.no_resourceInventory.help=Resources need to be added to the machine's inventory to begin crafting this recipe.
+for.errors.no_resourceLiquid.desc=Missing liquid resources
+for.errors.no_resourceLiquid.help=More liquid resources need to be supplied for operation.
+for.errors.no_space.desc=No inventory space
+for.errors.no_space.help=Empty this machine's inventory.
+for.errors.no_spaceTank.desc=Tank Full
+for.errors.no_spaceTank.help=Empty this machine's liquid tank.
+for.errors.not_dark.desc=Not dark enough
+for.errors.not_dark.help=A lower light level is required for operation.
 
 # RAIN TANK
-for.errors.notRaining.desc=No rain
-for.errors.notRaining.help=Operation is only possible when it is raining.
-for.errors.noRainBiome.desc=Never rains
-for.errors.noRainBiome.help=This location never receives rain.
-for.errors.noSkyRainTank.desc=Sky obstructed
-for.errors.noSkyRainTank.help=Clear the area above this machine so it can gather rain.
+for.errors.not_raining.desc=No rain
+for.errors.not_raining.help=Operation is only possible when it is raining.
+for.errors.no_rain_biome.desc=Never rains
+for.errors.no_rain_biome.help=This location never receives rain.
+for.errors.no_skyRainTank.desc=Sky obstructed
+for.errors.no_skyRainTank.help=Clear the area above this machine so it can gather rain.
 
 # ALYZERS
-for.errors.noHoney.desc=Honey required
-for.errors.noHoney.help=This gadget requires honey drops or honeydew for operation.
-for.errors.noSpecimen.desc=Nothing to analyze
-for.errors.noSpecimen.help=Supply a specimen to analyze.
+for.errors.no_honey.desc=Honey required
+for.errors.no_honey.help=This gadget requires honey drops or honeydew for operation.
+for.errors.no_specimen.desc=Nothing to analyze
+for.errors.no_specimen.help=Supply a specimen to analyze.
 
 # ENGINES
-for.errors.forcedCooldown.desc=Forced Cooldown
-for.errors.forcedCooldown.help=The engine has overheated and must cool down before it can start again.
-for.errors.noEnergyNet.desc=No electricity
-for.errors.noEnergyNet.help=Your world is barren of any electricity. (Install IndustrialCraft\u00b2.)
-for.errors.noFuel.desc=No fuel
-for.errors.noFuel.help=This engine requires fuel to run. Replenish this machine's fuel supplies.
-for.errors.noHeat.desc=Not warmed up
-for.errors.noHeat.help=This engine requires a heat source to run. Refill the heating tank.
+for.errors.forced_cooldown.desc=Forced Cooldown
+for.errors.forced_cooldown.help=The engine has overheated and must cool down before it can start again.
+for.errors.no_energy_net.desc=No electricity
+for.errors.no_energy_net.help=Your world is barren of any electricity. (Install IndustrialCraft\u00b2.)
+for.errors.no_fuel.desc=No fuel
+for.errors.no_fuel.help=This engine requires fuel to run. Replenish this machine's fuel supplies.
+for.errors.no_heat.desc=Not warmed up
+for.errors.no_heat.help=This engine requires a heat source to run. Refill the heating tank.
 
 # TRADE STATION
-for.errors.noStamps.desc=Need Stamps
-for.errors.noStamps.help=The trade station requires more stamps to pay postage.
-for.errors.noPaper.desc=Need Paper
-for.errors.noPaper.help=The trade station requires more paper to send letters.
-for.errors.noSupplies.desc=Need Supplies
-for.errors.noSupplies.help=The trade station requires more supplies to send.
-for.errors.noTrade.desc=No Trade Set
-for.errors.noTrade.help=The trade station requires items to Send and Receive.
+for.errors.no_stamps.desc=Need Stamps
+for.errors.no_stamps.help=The trade station requires more stamps to pay postage.
+for.errors.no_paper.desc=Need Paper
+for.errors.no_paper.help=The trade station requires more paper to send letters.
+for.errors.no_supplies.desc=Need Supplies
+for.errors.no_supplies.help=The trade station requires more supplies to send.
+for.errors.no_trade.desc=No Trade Set
+for.errors.no_trade.help=The trade station requires items to Send and Receive.
 
 # TRADE STATION NAMING
-for.errors.notAlphaNumeric.desc=Invalid Name
-for.errors.notAlphaNumeric.help=A Trade Station name must consist of letters and numbers only.
-for.errors.notUnique.desc=Not Unique
-for.errors.notUnique.help=Trade Station names must be unique and this name is already taken.
+for.errors.not_alpha_numeric.desc=Invalid Name
+for.errors.not_alpha_numeric.help=A Trade Station name must consist of letters and numbers only.
+for.errors.not_unique.desc=Not Unique
+for.errors.not_unique.help=Trade Station names must be unique and this name is already taken.
 
 # LETTERS
-for.errors.noRecipient.desc=No Recipient
-for.errors.noRecipient.help=You need to address your letter to a recipient to send it.
-for.errors.notPostpaid.desc=Stamps Needed
-for.errors.notPostpaid.help=Apply more stamps to pay the postal service.
+for.errors.no_recipient.desc=No Recipient
+for.errors.no_recipient.help=You need to address your letter to a recipient to send it.
+for.errors.not_postpaid.desc=Stamps Needed
+for.errors.not_postpaid.help=Apply more stamps to pay the postal service.
 
 # CIRCUIT BOARDS
-for.errors.circuitMismatch.desc=Layout Mismatch
-for.errors.circuitMismatch.help=Amount of tubes does not match size of circuit board.
-for.errors.noCircuitBoard.desc=Board Missing
-for.errors.noCircuitBoard.help=Insert a circuit board to solder the selected tubes onto it.
-for.errors.noCircuitLayout.desc=No Layouts Found
-for.errors.noCircuitLayout.help=No layouts available due to the current game settings.
+for.errors.circuit_mismatch.desc=Layout Mismatch
+for.errors.circuit_mismatch.help=Amount of tubes does not match size of circuit board.
+for.errors.no_circuit_board.desc=Board Missing
+for.errors.no_circuit_board.help=Insert a circuit board to solder the selected tubes onto it.
+for.errors.no_circuit_layout.desc=No Layouts Found
+for.errors.no_circuit_layout.help=No layouts available due to the current game settings.
 
 # FARMS
-for.errors.noFarmland.desc=No Farmland
-for.errors.noFarmland.help=Smooth sandstone, bricks or stone bricks create a platform the farm will build on.
-for.errors.noFertilizer.desc=No Fertilizer
-for.errors.noFertilizer.help=Farms require fertilizer for function. Compost is insufficient.
-for.errors.noLiquid.desc=No Water
-for.errors.noLiquid.help=Depending on rainfall, temperature and humidity farms need to be supplied with varying amounts of water.
-
-# DEPRECATED
-for.errors.invalidBiome.desc=Hostile environment
-for.errors.invalidBiome.help=Machine or inhabitants cannot work in this biome.
-for.errors.noDisposal.desc=Waste not disposable
-for.errors.noDisposal.help=Insufficient space to dispose of waste products.
-for.errors.unknown.desc=Unknown error
-for.errors.unknown.help=Congratulations, you found a glitch.
-for.errors.wrongStacksize.desc=Too Many Items
-for.errors.wrongStacksize.help=Only single items can be used here.
+for.errors.no_farmland.desc=No Farmland
+for.errors.no_farmland.help=Smooth sandstone, bricks or stone bricks create a platform the farm will build on.
+for.errors.no_fertilizer.desc=No Fertilizer
+for.errors.no_fertilizer.help=Farms require fertilizer for function. Compost is insufficient.
+for.errors.no_liquid.desc=No Water
+for.errors.no_liquid.help=Depending on rainfall, temperature and humidity farms need to be supplied with varying amounts of water.
 
 ####################
 # APICULTURE
