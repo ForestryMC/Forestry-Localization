@@ -422,39 +422,39 @@ for.usage.engine.tin=전기 엔진 전용
 
 for.yes=네
 
-item.for.adventurerBag.name=모험가의 가방
-item.for.adventurerBagT2.name=모험가의 실크 가방
+item.for.adventurer_bag.name=모험가의 가방
+item.for.adventurer_bagT2.name=모험가의 실크 가방
 item.for.ambrosia.name=암브로시아
 item.for.apatite.name=인회석
 
-item.for.apiaristBag.name=양봉업자의 가방
-item.for.apiaristBoots.name=양봉업자의 신발
-item.for.apiaristChest.name=양봉업자의 셔츠
-item.for.apiaristHelmet.name=양봉업자의 모자
-item.for.apiaristLegs.name=양봉업자의 바지
+item.for.apiarist_bag.name=양봉업자의 가방
+item.for.apiarist_boots.name=양봉업자의 신발
+item.for.apiarist_chest.name=양봉업자의 셔츠
+item.for.apiarist_helmet.name=양봉업자의 모자
+item.for.apiarist_legs.name=양봉업자의 바지
 
 item.for.ash.name=재
 
 item.for.beealyzer.name=꿀벌 유전분석기
-item.for.habitatLocator.name=서식지 분석기
+item.for.habitat_locator.name=서식지 분석기
 
-item.for.beeCombs.cocoa.name=코코아 벌집
-item.for.beeCombs.darkened.name=어둠의 벌집
-item.for.beeCombs.dripping.name=고급스러운 벌집
-item.for.beeCombs.frozen.name=얼어붙은 벌집
-item.for.beeCombs.honey.name=벌집
-item.for.beeCombs.irradiated.name=피폭된 벌집
-item.for.beeCombs.mellow.name=부드러운 벌집
-item.for.beeCombs.mossy.name=눅눅한 벌집
-item.for.beeCombs.mysterious.name=정체불명의 벌집
-item.for.beeCombs.omega.name=오메가 벌집
-item.for.beeCombs.parched.name=말라붙은 벌집
-item.for.beeCombs.powdery.name=화약가두가 묻은 벌집
-item.for.beeCombs.reddened.name=새빨간 벌집
-item.for.beeCombs.silky.name=부드러운 벌집
-item.for.beeCombs.simmering.name=끓어오르는 벌집
-item.for.beeCombs.stringy.name=끈끈한 벌집
-item.for.beeCombs.wheaten.name=밀가루가 묻은 벌집
+item.for.bee_combs.cocoa.name=코코아 벌집
+item.for.bee_combs.darkened.name=어둠의 벌집
+item.for.bee_combs.dripping.name=고급스러운 벌집
+item.for.bee_combs.frozen.name=얼어붙은 벌집
+item.for.bee_combs.honey.name=벌집
+item.for.bee_combs.irradiated.name=피폭된 벌집
+item.for.bee_combs.mellow.name=부드러운 벌집
+item.for.bee_combs.mossy.name=눅눅한 벌집
+item.for.bee_combs.mysterious.name=정체불명의 벌집
+item.for.bee_combs.omega.name=오메가 벌집
+item.for.bee_combs.parched.name=말라붙은 벌집
+item.for.bee_combs.powdery.name=화약가두가 묻은 벌집
+item.for.bee_combs.reddened.name=새빨간 벌집
+item.for.bee_combs.silky.name=부드러운 벌집
+item.for.bee_combs.simmering.name=끓어오르는 벌집
+item.for.bee_combs.stringy.name=끈끈한 벌집
+item.for.bee_combs.wheaten.name=밀가루가 묻은 벌집
 
 item.for.beeswax.name=밀랍
 
@@ -463,14 +463,14 @@ item.for.beverage.meadShort.name=벌꿀술
 
 
 
-item.for.biomeFinder.name=서식지 분석기
-item.for.bituminousPeat.name=역청 토탄
-item.for.brokenBronzePickaxe.name=부러진 곡괭이
-item.for.brokenBronzeShovel.name=부러진 삽
-item.for.bronzePickaxe.name=생존가의 곡괭이
-item.for.bronzeShovel.name=생존가의 삽
-item.for.builderBag.name=건축가의 가방
-item.for.builderBagT2.name=건축가의 실크가방
+item.for.biome_finder.name=서식지 분석기
+item.for.bituminous_peat.name=역청 토탄
+item.for.broken_bronze_pickaxe.name=부러진 곡괭이
+item.for.broken_bronze_shovel.name=부러진 삽
+item.for.bronze_pickaxe.name=생존가의 곡괭이
+item.for.bronze_shovel.name=생존가의 삽
+item.for.builder_bag.name=건축가의 가방
+item.for.builder_bagT2.name=건축가의 실크가방
 
 item.for.can.empty.name=캔
 item.for.can.grammar=%s 캔
@@ -482,27 +482,27 @@ item.for.circuitboard.enhanced.name=개선된 회로
 item.for.circuitboard.intricate.name=정교한 회로
 item.for.circuitboard.refined.name=발전된 회로
 
-item.for.craftingMaterial.dissipationCharge.name=뇌우퇴치용액
-item.for.craftingMaterial.iceShard.name=얼음 조각
-item.for.craftingMaterial.pulsatingDust.name=맥동하는 가루
-item.for.craftingMaterial.pulsatingMesh.name=맥동하는 천
-item.for.craftingMaterial.scentedPaneling.name=향목판
-item.for.craftingMaterial.silkWisp.name=비단 줄기
-item.for.craftingMaterial.wovenSilk.name=비단
+item.for.crafting_material.dissipation_charge.name=뇌우퇴치용액
+item.for.crafting_material.ice_shard.name=얼음 조각
+item.for.crafting_material.pulsating_dust.name=맥동하는 가루
+item.for.crafting_material.pulsating_mesh.name=맥동하는 천
+item.for.crafting_material.scented_paneling.name=향목판
+item.for.crafting_material.silk_wisp.name=비단 줄기
+item.for.crafting_material.woven_silk.name=비단
 
 item.for.crate.name=상자
 item.for.decayingWheat.name=썩은 밀
-item.for.diggerBag.name=건설가의 가방
-item.for.diggerBagT2.name=건설가의 실크가방
+item.for.digger_bag.name=건설가의 가방
+item.for.digger_bagT2.name=건설가의 실크가방
 
-item.for.fertilizerBio.name=퇴비
-item.for.fertilizerCompound.name=비료
-item.for.foresterBag.name=나무꾼의 가방
-item.for.foresterBagT2.name=나무꾼의 실크가방
+item.for.fertilizer_bio.name=퇴비
+item.for.fertilizer_compound.name=비료
+item.for.forester_bag.name=나무꾼의 가방
+item.for.forester_bagT2.name=나무꾼의 실크가방
 
-item.for.frameImpregnated.name=조잡한 프레임
-item.for.frameProven.name=고급 프레임
-item.for.frameUntreated.name=강화 프레임
+item.for.frame_impregnated.name=조잡한 프레임
+item.for.frame_proven.name=고급 프레임
+item.for.frame_untreated.name=강화 프레임
 
 item.for.fruits.cherry.name=체리
 item.for.fruits.chestnut.name=밤
@@ -512,43 +512,43 @@ item.for.fruits.papaya.name=파파야
 item.for.fruits.plum.name=자두
 item.for.fruits.walnut.name=호두
 
-item.for.gearBronze.name=청동 기어
-item.for.gearCopper.name=구리 기어
-item.for.gearTin.name=주석 기어
+item.for.gear_bronze.name=청동 기어
+item.for.gear_copper.name=구리 기어
+item.for.gear_tin.name=주석 기어
 
-item.for.hardenedMachine.name=강화된 케이싱
+item.for.hardened_machine.name=강화된 케이싱
 
 item.for.honeydew.name=감로꿀
 
-item.for.honeyDrop.charged.name=번쩍거리는 벌꿀
-item.for.honeyDrop.honey.name=벌꿀
-item.for.honeyDrop.omega.name=오메가 벌꿀
-item.for.honeyedSlice.name=꿀 조각
+item.for.honey_drop.charged.name=번쩍거리는 벌꿀
+item.for.honey_drop.honey.name=벌꿀
+item.for.honey_drop.omega.name=오메가 벌꿀
+item.for.honeyed_slice.name=꿀 조각
 
-item.for.honeyPot.name=허니팟
-item.for.hunterBag.name=사냥꾼의 가방
-item.for.hunterBagT2.name=사냥꾼의 실크가방
+item.for.honey_pot.name=허니팟
+item.for.hunter_bag.name=사냥꾼의 가방
+item.for.hunter_bagT2.name=사냥꾼의 실크가방
 
-item.for.impregnatedCasing.name=강화 케이싱
+item.for.impregnated_casing.name=강화 케이싱
 item.for.imprinter.name=임프린터
 item.for.infuser.name=주입기
 
-item.for.ingotBronze.name=청동 주괴
-item.for.ingotCopper.name=구리 주괴
-item.for.ingotTin.name=주석 주괴
+item.for.ingot_bronze.name=청동 주괴
+item.for.ingot_copper.name=구리 주괴
+item.for.ingot_tin.name=주석 주괴
 
 item.for.iodine캡슐.name=아이오딘 캡슐
 item.for.kitPickaxe.name=곡괭이 키트
 item.for.kitShovel.name=삽 키트
 item.for.letters.name=편지
 
-item.for.minerBag.name=광부의 가방
-item.for.minerBagT2.name=광부의 실크가방
+item.for.miner_bag.name=광부의 가방
+item.for.miner_bagT2.name=광부의 실크가방
 
-item.for.mouldyWheat.name=눅눅한 밀
+item.for.mouldy_wheat.name=눅눅한 밀
 item.for.mulch.name=멀치
-item.for.naturalistHelmet.name=안경
-item.for.oakStick.name=튼튼한 막대기
+item.for.naturalist_helmet.name=안경
+item.for.oak_stick.name=튼튼한 막대기
 item.for.peat.name=토탄
 item.for.phosphor.name=인
 item.for.pipette.name=피펫
@@ -564,7 +564,7 @@ item.for.propolis.sticky.name=끈적끈적한 프로폴리스
 item.for.refractory.empty.name=내화 캡슐
 item.for.refractory.grammar=%s 캡슐
 
-item.for.refractoryWax.name=내화밀랍
+item.for.refractory_wax.name=내화밀랍
 
 item.for.researchNote.name=%s의 노트
 item.for.royalJelly.name=로열젤리
@@ -580,20 +580,20 @@ item.for.stamps.50n.name=스탬프 (50n)
 item.for.stamps.100n.name=스탬프 (100n)
 item.for.stamps.name=스탬프
 
-item.for.sturdyMachine.name=튼튼한 케에싱
+item.for.sturdy_machine.name=튼튼한 케에싱
 
-item.for.thermionicTubes.copper.name=구리 진공관
-item.for.thermionicTubes.tin.name=주석 진공관
-item.for.thermionicTubes.bronze.name=청동 진공관
-item.for.thermionicTubes.iron.name=철 진공관
-item.for.thermionicTubes.gold.name=금 진공관
-item.for.thermionicTubes.diamond.name=다이아몬드 진공관
-item.for.thermionicTubes.obsidian.name=흑요석 진공관
-item.for.thermionicTubes.blaze.name=불타오르는 진공관
-item.for.thermionicTubes.rubber.name=말랑말랑한 진공관
-item.for.thermionicTubes.emerald.name=에메랄드 진공관
-item.for.thermionicTubes.apatite.name=인회석 진공관
-item.for.thermionicTubes.lapis.name=청금석 진공관
+item.for.thermionic_tubes.copper.name=구리 진공관
+item.for.thermionic_tubes.tin.name=주석 진공관
+item.for.thermionic_tubes.bronze.name=청동 진공관
+item.for.thermionic_tubes.iron.name=철 진공관
+item.for.thermionic_tubes.gold.name=금 진공관
+item.for.thermionic_tubes.diamond.name=다이아몬드 진공관
+item.for.thermionic_tubes.obsidian.name=흑요석 진공관
+item.for.thermionic_tubes.blaze.name=불타오르는 진공관
+item.for.thermionic_tubes.rubber.name=말랑말랑한 진공관
+item.for.thermionic_tubes.emerald.name=에메랄드 진공관
+item.for.thermionic_tubes.apatite.name=인회석 진공관
+item.for.thermionic_tubes.lapis.name=청금석 진공관
 
 item.for.treealyzer.name=묘목 분석기
 
@@ -602,9 +602,9 @@ item.for.can.water.name=물 캔
 item.for.capsule.empty.name=Wax 캡슐
 item.for.capsule.grammar=%s 캡슐
 
-item.for.waxCast.name=밀랍 틀
+item.for.wax_cast.name=밀랍 틀
 
-item.for.woodPulp.name=목재 펄프
+item.for.wood_Pulp.name=목재 펄프
 item.for.wrench.name=렌치
 
 itemGroup.apiculture=양봉학
@@ -641,14 +641,14 @@ tile.for.resources.apatite.name=인회석 광석
 tile.for.resources.copper.name=구리 광석
 tile.for.resources.tin.name=주석 광석
 
-tile.for.resourceStorage.apatite.name=인회석 블럭
-tile.for.resourceStorage.copper.name=구리 블럭
-tile.for.resourceStorage.tin.name=주석 블럭
-tile.for.resourceStorage.bronze.name=청동 블럭
+tile.for.resource_storage.apatite.name=인회석 블럭
+tile.for.resource_storage.copper.name=구리 블럭
+tile.for.resource_storage.tin.name=주석 블럭
+tile.for.resource_storage.bronze.name=청동 블럭
 
 tile.for.humus.name=부엽토
-tile.for.bogEarth.bog_earth.name=퇴적토
-tile.for.bogEarth.peat.name=Peat
+tile.for.bog_earth.bog_earth.name=퇴적토
+tile.for.bog_earth.peat.name=Peat
 
 ####################
 # APICULTURE

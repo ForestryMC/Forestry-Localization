@@ -331,7 +331,7 @@ for.gui.warm=Warm
 for.gui.water=Wasser
 for.gui.worker=Arbeiterin
 
-for.gui.camouflage.spray.can=Tarnspraydose
+for.gui.camouflage_spray_can=Tarnspraydose
 
 for.hints.apiaristsuit.desc=Ein komplettes Set Imkerkleidung schützt dich vor allen negativen Bieneneffekten.
 for.hints.apiaristsuit.tag=Bienenanzug!
@@ -451,49 +451,49 @@ for.yes=Ja
 item.for.ambrosia.name=Ambrosia
 item.for.apatite.name=Apatit
 
-item.for.apiaristBag.name=Imkerrucksack
-item.for.apiaristBoots.name=Imkerschuhe
-item.for.apiaristChest.name=Imkerhemd
-item.for.apiaristHelmet.name=Imkerhut
-item.for.apiaristLegs.name=Imkerhose
+item.for.apiarist_bag.name=Imkerrucksack
+item.for.apiarist_boots.name=Imkerschuhe
+item.for.apiarist_chest.name=Imkerhemd
+item.for.apiarist_helmet.name=Imkerhut
+item.for.apiarist_legs.name=Imkerhose
 
 item.for.ash.name=Asche
 tile.for.pile_ash.name=Aschehaufen
 
-item.for.habitatLocator.name=Habitatsucher
+item.for.habitat_locator.name=Habitatsucher
 
 item.for.cart.beehouse.name=Bienenhauswaggon
 item.for.cart.apiary.name=Bienenkorbwaggon
 
-item.for.beeCombs.cocoa.name=Schokowabe
-item.for.beeCombs.darkened.name=Gedunkelte Wabe
-item.for.beeCombs.dripping.name=Tropfende Wabe
-item.for.beeCombs.frozen.name=Gefrorene Wabe
-item.for.beeCombs.honey.name=Honigwabe
-item.for.beeCombs.irradiated.name=Verstrahlte Wabe
-item.for.beeCombs.mellow.name=Liebliche Wabe
-item.for.beeCombs.mossy.name=Moosige Wabe
-item.for.beeCombs.mysterious.name=Mysteriöse Wabe
-item.for.beeCombs.omega.name=Omegawabe
-item.for.beeCombs.parched.name=Ausgedörrte Wabe
-item.for.beeCombs.powdery.name=Pulvrige Wabe
-item.for.beeCombs.reddened.name=Gerötete Wabe
-item.for.beeCombs.silky.name=Seidige Wabe
-item.for.beeCombs.simmering.name=Schwelende Wabe
-item.for.beeCombs.stringy.name=Zähe Wabe
-item.for.beeCombs.wheaten.name=Weizenartige Wabe
+item.for.bee_combs.cocoa.name=Schokowabe
+item.for.bee_combs.darkened.name=Gedunkelte Wabe
+item.for.bee_combs.dripping.name=Tropfende Wabe
+item.for.bee_combs.frozen.name=Gefrorene Wabe
+item.for.bee_combs.honey.name=Honigwabe
+item.for.bee_combs.irradiated.name=Verstrahlte Wabe
+item.for.bee_combs.mellow.name=Liebliche Wabe
+item.for.bee_combs.mossy.name=Moosige Wabe
+item.for.bee_combs.mysterious.name=Mysteriöse Wabe
+item.for.bee_combs.omega.name=Omegawabe
+item.for.bee_combs.parched.name=Ausgedörrte Wabe
+item.for.bee_combs.powdery.name=Pulvrige Wabe
+item.for.bee_combs.reddened.name=Gerötete Wabe
+item.for.bee_combs.silky.name=Seidige Wabe
+item.for.bee_combs.simmering.name=Schwelende Wabe
+item.for.bee_combs.stringy.name=Zähe Wabe
+item.for.bee_combs.wheaten.name=Weizenartige Wabe
 
 item.for.beeswax.name=Bienenwachs
 
 item.for.beverage.meadCurative.name=Heilsamer Met
 item.for.beverage.meadShort.name=Met
 
-item.for.biomeFinder.name=Habitatsucher
-item.for.bituminousPeat.name=Pechartiger Torf
-item.for.brokenBronzePickaxe.name=Zerbrochene Spitzhacke
-item.for.brokenBronzeShovel.name=Zerbrochene Schaufel
-item.for.bronzePickaxe.name=Überlebensspitzhacke
-item.for.bronzeShovel.name=Überlebensschaufel
+item.for.biome_finder.name=Habitatsucher
+item.for.bituminous_peat.name=Pechartiger Torf
+item.for.broken_bronze_pickaxe.name=Zerbrochene Spitzhacke
+item.for.broken_bronze_shovel.name=Zerbrochene Schaufel
+item.for.bronze_pickaxe.name=Überlebensspitzhacke
+item.for.bronze_shovel.name=Überlebensschaufel
 
 item.for.can.empty.name=Büchse
 item.for.can.grammar=Büchse %s
@@ -507,25 +507,25 @@ item.for.circuitboard.refined.name=Große Leiterplatte
 item.for.circuitboard.tooltip.singular=Hält %s Elektronenröhre.
 item.for.circuitboard.tooltip.plural=Hält %s Elektronenröhren.
 
-item.for.craftingMaterial.dissipationCharge.name=Dissipationsladung
-item.for.craftingMaterial.dissipationCharge.tooltip=In einem Regenmacher macht sie Regen weg.
-item.for.craftingMaterial.iceShard.name=Eiszapfen
-item.for.craftingMaterial.pulsatingDust.name=Pulsierender Staub
-item.for.craftingMaterial.pulsatingMesh.name=Pulsierendes Gewebe
-item.for.craftingMaterial.scentedPaneling.name=Duftende Vertäfelung
-item.for.craftingMaterial.camouflagedPaneling.name=Tarnvertäfelung
-item.for.craftingMaterial.silkWisp.name=Seidenfransen
-item.for.craftingMaterial.wovenSilk.name=Seidengewebe
+item.for.crafting_material.dissipation_charge.name=Dissipationsladung
+item.for.crafting_material.dissipation_charge.tooltip=In einem Regenmacher macht sie Regen weg.
+item.for.crafting_material.ice_shard.name=Eiszapfen
+item.for.crafting_material.pulsating_dust.name=Pulsierender Staub
+item.for.crafting_material.pulsating_mesh.name=Pulsierendes Gewebe
+item.for.crafting_material.scented_paneling.name=Duftende Vertäfelung
+item.for.crafting_material.camouflaged_paneling.name=Tarnvertäfelung
+item.for.crafting_material.silk_wisp.name=Seidenfransen
+item.for.crafting_material.woven_silk.name=Seidengewebe
 
 item.for.crate.name=Kiste
 item.for.decayingWheat.name=Zerfallendes Getreide
 
-item.for.fertilizerBio.name=Kompost
-item.for.fertilizerCompound.name=Dünger
+item.for.fertilizer_bio.name=Kompost
+item.for.fertilizer_compound.name=Dünger
 
-item.for.frameImpregnated.name=Imprägniertes Rähmchen
-item.for.frameProven.name=Bewährtes Rähmchen
-item.for.frameUntreated.name=Unbehandeltes Rähmchen
+item.for.frame_impregnated.name=Imprägniertes Rähmchen
+item.for.frame_proven.name=Bewährtes Rähmchen
+item.for.frame_untreated.name=Unbehandeltes Rähmchen
 
 item.for.durability=Haltbarkeit: %,d
 item.for.uses=Nutzen: %,d
@@ -541,43 +541,43 @@ item.for.fruits.papaya.name=Papaya
 item.for.fruits.plum.name=Pflaume
 item.for.fruits.walnut.name=Walnuss
 
-item.for.gearBronze.name=Bronzenes Zahnrad
-item.for.gearCopper.name=Kupferzahnrad
-item.for.gearTin.name=Zinnzahnrad
+item.for.gear_bronze.name=Bronzenes Zahnrad
+item.for.gear_copper.name=Kupferzahnrad
+item.for.gear_tin.name=Zinnzahnrad
 
-item.for.hardenedMachine.name=Verstärktes Gehäuse
+item.for.hardened_machine.name=Verstärktes Gehäuse
 
 item.for.honeydew.name=Honigtau
 
-item.for.portableAlyzer.name=Tragbarer Analysierer
-item.for.portableAlyzer.tooltip=Tragbares Genanalysegerät für Bienen, Bäume und Schmetterlinge.
+item.for.portable_alyzer.name=Tragbarer Analysierer
+item.for.portable_alyzer.tooltip=Tragbares Genanalysegerät für Bienen, Bäume und Schmetterlinge.
 
-item.for.honeyDrop.charged.name=Aufgeladener Tropfen
-item.for.honeyDrop.honey.name=Honigtropfen
-item.for.honeyDrop.omega.name=Omegatropfen
-item.for.honeyedSlice.name=Honigbrot
+item.for.honey_drop.charged.name=Aufgeladener Tropfen
+item.for.honey_drop.honey.name=Honigtropfen
+item.for.honey_drop.omega.name=Omegatropfen
+item.for.honeyed_slice.name=Honigbrot
 
-item.for.honeyPot.name=Honigtopf
+item.for.honey_pot.name=Honigtopf
 
-item.for.impregnatedCasing.name=Imprägniertes Gehäuse
+item.for.impregnated_casing.name=Imprägniertes Gehäuse
 item.for.imprinter.name=Gendrucker
 item.for.infuser.name=Teebeutel
 
-item.for.ingotBronze.name=Bronzebarren
-item.for.ingotCopper.name=Kupferbarren
-item.for.ingotTin.name=Zinnbarren
+item.for.ingot_bronze.name=Bronzebarren
+item.for.ingot_copper.name=Kupferbarren
+item.for.ingot_tin.name=Zinnbarren
 
-item.for.iodineCapsule.name=Iodkapsel
-item.for.iodineCapsule.tooltip=In einem Regenmacher macht sie Regen.
+item.for.iodine_capsule.name=Iodkapsel
+item.for.iodine_capsule.tooltip=In einem Regenmacher macht sie Regen.
 item.for.kitPickaxe.name=Spitzhacken-Baukasten
 item.for.kitShovel.name=Schaufel-Baukasten
 item.for.letters.name=Brief
 
-item.for.mouldyWheat.name=Fauliges Getreide
+item.for.mouldy_wheat.name=Fauliges Getreide
 item.for.mulch.name=Mulch
-item.for.naturalistHelmet.name=Brille
-item.for.naturalistHelmet.tooltip=Macht bestäubte Blätter sichtbar
-item.for.oakStick.name=Imprägnierter Stab
+item.for.naturalist_helmet.name=Brille
+item.for.naturalist_helmet.tooltip=Macht bestäubte Blätter sichtbar
+item.for.oak_stick.name=Imprägnierter Stab
 item.for.peat.name=Torf
 item.for.phosphor.name=Phosphor
 item.for.pipette.name=Pipette
@@ -593,8 +593,8 @@ item.for.propolis.sticky.name=Zähe Propolis
 item.for.refractory.empty.name=Hitzebeständige Kapsel
 item.for.refractory.grammar=Kapsel %s
 
-item.for.refractoryWax.name=Hitzebeständiges Wachs
-item.for.refractoryWax.tooltip=Wachs mit hohem Schmelzpunkt
+item.for.refractory_wax.name=Hitzebeständiges Wachs
+item.for.refractory_wax.tooltip=Wachs mit hohem Schmelzpunkt
 
 item.for.researchNote.name=Notizen von %s
 item.for.researchNote.tooltip=Lies sie dir in deiner Hand gut durch, um ihr Wissen in dich aufzunehmen.
@@ -615,30 +615,30 @@ item.for.stamps.50n.name=Briefmarke (50n)
 item.for.stamps.100n.name=Briefmarke (100n)
 item.for.stamps.name=Briefmarke
 
-item.for.sturdyMachine.name=Robustes Gehäuse
+item.for.sturdy_machine.name=Robustes Gehäuse
 
-item.for.thermionicTubes.copper.name=Elektronenröhre (Kupfer)
-item.for.thermionicTubes.tin.name=Elektronenröhre (Zinn)
-item.for.thermionicTubes.bronze.name=Elektronenröhre (Bronze)
-item.for.thermionicTubes.iron.name=Elektronenröhre (Eisen)
-item.for.thermionicTubes.gold.name=Elektronenröhre (Gold)
-item.for.thermionicTubes.diamond.name=Elektronenröhre (Diamant)
-item.for.thermionicTubes.obsidian.name=Elektronenröhre (Obsidian)
-item.for.thermionicTubes.blaze.name=Elektronenröhre (Lohe)
-item.for.thermionicTubes.rubber.name=Elektronenröhre (Gummi)
-item.for.thermionicTubes.emerald.name=Elektronenröhre (Smaragd)
-item.for.thermionicTubes.apatite.name=Elektronenröhre (Apatit)
-item.for.thermionicTubes.lapis.name=Elektronenröhre (Lapislazuli)
-item.for.thermionicTubes.ender.name=Elektronenröhre (Ender)
-item.for.thermionicTubes.tooltip=Kann Leiterplatten programmieren.
+item.for.thermionic_tubes.copper.name=Elektronenröhre (Kupfer)
+item.for.thermionic_tubes.tin.name=Elektronenröhre (Zinn)
+item.for.thermionic_tubes.bronze.name=Elektronenröhre (Bronze)
+item.for.thermionic_tubes.iron.name=Elektronenröhre (Eisen)
+item.for.thermionic_tubes.gold.name=Elektronenröhre (Gold)
+item.for.thermionic_tubes.diamond.name=Elektronenröhre (Diamant)
+item.for.thermionic_tubes.obsidian.name=Elektronenröhre (Obsidian)
+item.for.thermionic_tubes.blaze.name=Elektronenröhre (Lohe)
+item.for.thermionic_tubes.rubber.name=Elektronenröhre (Gummi)
+item.for.thermionic_tubes.emerald.name=Elektronenröhre (Smaragd)
+item.for.thermionic_tubes.apatite.name=Elektronenröhre (Apatit)
+item.for.thermionic_tubes.lapis.name=Elektronenröhre (Lapislazuli)
+item.for.thermionic_tubes.ender.name=Elektronenröhre (Ender)
+item.for.thermionic_tubes.tooltip=Kann Leiterplatten programmieren.
 
 item.for.capsule.empty.name=Wachskapsel
 item.for.capsule.tooltip=Kann keine heißen Flüssigkeiten halten
 item.for.capsule.grammar=Kapsel %s
 
-item.for.waxCast.name=Wachsform
+item.for.wax_cast.name=Wachsform
 
-item.for.woodPulp.name=Holzbrei
+item.for.wood_Pulp.name=Holzbrei
 item.for.wrench.name=Schraubenschlüssel
 item.for.wrench.tooltip=Shift-Kick zum Rotieren von Blöcken.
 
@@ -684,32 +684,32 @@ tile.for.resources.apatite.name=Apatiterz
 tile.for.resources.copper.name=Kupfererz
 tile.for.resources.tin.name=Zinnerz
 
-tile.for.resourceStorage.apatite.name=Apatitblock
-tile.for.resourceStorage.copper.name=Kupferblock
-tile.for.resourceStorage.tin.name=Zinnblock
-tile.for.resourceStorage.bronze.name=Bronzeblock
+tile.for.resource_storage.apatite.name=Apatitblock
+tile.for.resource_storage.copper.name=Kupferblock
+tile.for.resource_storage.tin.name=Zinnblock
+tile.for.resource_storage.bronze.name=Bronzeblock
 
 tile.for.humus.name=Humus
-tile.for.bogEarth.bog_earth.name=Moorerde
-tile.for.bogEarth.peat.name=Torf
+tile.for.bog_earth.bog_earth.name=Moorerde
+tile.for.bog_earth.peat.name=Torf
 
-item.for.adventurerBag.name=Abenteurerrucksack
-item.for.adventurerBagT2.name=Gewobener Abenteurerrucksack
+item.for.adventurer_bag.name=Abenteurerrucksack
+item.for.adventurer_bagT2.name=Gewobener Abenteurerrucksack
 
-item.for.builderBag.name=Handwerkerrucksack
-item.for.builderBagT2.name=Gewobener Handwerkerrucksack
+item.for.builder_bag.name=Handwerkerrucksack
+item.for.builder_bagT2.name=Gewobener Handwerkerrucksack
 
-item.for.diggerBag.name=Schürferrucksack
-item.for.diggerBagT2.name=Gewobener Schürferrucksack
+item.for.digger_bag.name=Schürferrucksack
+item.for.digger_bagT2.name=Gewobener Schürferrucksack
 
-item.for.foresterBag.name=Försterrucksack
-item.for.foresterBagT2.name=Gewobener Försterrucksack
+item.for.forester_bag.name=Försterrucksack
+item.for.forester_bagT2.name=Gewobener Försterrucksack
 
-item.for.hunterBag.name=Jägerrucksack
-item.for.hunterBagT2.name=Gewobener Jägerrucksack
+item.for.hunter_bag.name=Jägerrucksack
+item.for.hunter_bagT2.name=Gewobener Jägerrucksack
 
-item.for.minerBag.name=Bergarbeiterrucksack
-item.for.minerBagT2.name=Gewobener Bergarbeiterrucksack
+item.for.miner_bag.name=Bergarbeiterrucksack
+item.for.miner_bagT2.name=Gewobener Bergarbeiterrucksack
 
 ################
 # ERRORS
@@ -1788,7 +1788,7 @@ nei.subsets.Forestry.Trees.Saplings=Setzlinge
 ####################
 for.jei.description.frames=Platziere Rähmchen in einen Bienenkorb, um die Produktionsrate der Bienen zu erhöhen und den Genetischen Verfall unedler Bienen zu verringern.
 for.jei.description.apiarist.suit=Teile der Imkerkleidung schützen den Träger vor negativen Bieneneffekten. Ein voller Anzug bietet vollständingen Schutz.
-for.jei.description.habitatLocator=Der Habitatsucher sucht das nächste ideale Habitat für eine Biene. Sobald ein Ort gefunden ist, wird er dorthin zeigen. Sollte die aktuelle Position ideal sein, wird er sich gleichmäßig drehen.
+for.jei.description.habitat_locator=Der Habitatsucher sucht das nächste ideale Habitat für eine Biene. Sobald ein Ort gefunden ist, wird er dorthin zeigen. Sollte die aktuelle Position ideal sein, wird er sich gleichmäßig drehen.
 for.jei.description.scoop=Mit dem Kescher werden wilde Bienenstöcke zerstört und die Bienen im Inneren erhalten. Mit ihm können auch Schmetterlinge durch Rechtsklick eingefangen werden.
 
 

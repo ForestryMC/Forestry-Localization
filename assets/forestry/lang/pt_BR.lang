@@ -466,53 +466,53 @@ for.trigger.noFrames=Sem Quadros
 
 for.yes=Sim
 
-item.for.adventurerBag.name=Bolsa do Aventureiro
-item.for.adventurerBagT2.name=Mochila do Aventureiro
+item.for.adventurer_bag.name=Bolsa do Aventureiro
+item.for.adventurer_bagT2.name=Mochila do Aventureiro
 item.for.ambrosia.name=Ambrosia
 item.for.apatite.name=Apatita
 
-item.for.apiaristBag.name=Mochila do Apicultor
-item.for.apiaristBoots.name=Sapatos do Apicultor
-item.for.apiaristChest.name=Camisa do Apicultor
-item.for.apiaristHelmet.name=Chapéu do Apicultor
-item.for.apiaristLegs.name=Calças do Apicultor
+item.for.apiarist_bag.name=Mochila do Apicultor
+item.for.apiarist_boots.name=Sapatos do Apicultor
+item.for.apiarist_chest.name=Camisa do Apicultor
+item.for.apiarist_helmet.name=Chapéu do Apicultor
+item.for.apiarist_legs.name=Calças do Apicultor
 
 item.for.ash.name=Cinzas
 
 item.for.beealyzer.name=Abelhanalizador
-item.for.habitatLocator.name=Localizador de Habitats
+item.for.habitat_locator.name=Localizador de Habitats
 
-item.for.beeCombs.cocoa.name=Favo de Cacau
-item.for.beeCombs.darkened.name=Favo Escurecido
-item.for.beeCombs.dripping.name=Favo Gotejante
-item.for.beeCombs.frozen.name=Favo Congelado
-item.for.beeCombs.honey.name=Favo de Mel
-item.for.beeCombs.irradiated.name=Favo Irradiado
-item.for.beeCombs.mellow.name=Favo Suave
-item.for.beeCombs.mossy.name=Favo de Musgo
-item.for.beeCombs.mysterious.name=Favo Misterioso
-item.for.beeCombs.omega.name=Favo Omega
-item.for.beeCombs.parched.name=Favo Resequido
-item.for.beeCombs.powdery.name=Favo em Pó
-item.for.beeCombs.reddened.name=Favo Encarnado
-item.for.beeCombs.silky.name=Favo Sedoso
-item.for.beeCombs.simmering.name=Favo Cozido
-item.for.beeCombs.stringy.name=Favo Fibroso
-item.for.beeCombs.wheaten.name=Favo de Trigo
+item.for.bee_combs.cocoa.name=Favo de Cacau
+item.for.bee_combs.darkened.name=Favo Escurecido
+item.for.bee_combs.dripping.name=Favo Gotejante
+item.for.bee_combs.frozen.name=Favo Congelado
+item.for.bee_combs.honey.name=Favo de Mel
+item.for.bee_combs.irradiated.name=Favo Irradiado
+item.for.bee_combs.mellow.name=Favo Suave
+item.for.bee_combs.mossy.name=Favo de Musgo
+item.for.bee_combs.mysterious.name=Favo Misterioso
+item.for.bee_combs.omega.name=Favo Omega
+item.for.bee_combs.parched.name=Favo Resequido
+item.for.bee_combs.powdery.name=Favo em Pó
+item.for.bee_combs.reddened.name=Favo Encarnado
+item.for.bee_combs.silky.name=Favo Sedoso
+item.for.bee_combs.simmering.name=Favo Cozido
+item.for.bee_combs.stringy.name=Favo Fibroso
+item.for.bee_combs.wheaten.name=Favo de Trigo
 
 item.for.beeswax.name=Cera de Abelha
 
 item.for.beverage.meadCurative.name=Hidromel Curativo
 item.for.beverage.meadShort.name=Hidromel
 
-item.for.biomeFinder.name=Localizador de Habitates
-item.for.bituminousPeat.name=Turfa Betuminosa
-item.for.brokenBronzePickaxe.name=Picareta Quebrada
-item.for.brokenBronzeShovel.name=Pá Quebrada
-item.for.bronzePickaxe.name=Picareta do Sobrevivente
-item.for.bronzeShovel.name=Pá do Sobrevivente
-item.for.builderBag.name=Bolsa do Construtor
-item.for.builderBagT2.name=Mochila do Construtor
+item.for.biome_finder.name=Localizador de Habitates
+item.for.bituminous_peat.name=Turfa Betuminosa
+item.for.broken_bronze_pickaxe.name=Picareta Quebrada
+item.for.broken_bronze_shovel.name=Pá Quebrada
+item.for.bronze_pickaxe.name=Picareta do Sobrevivente
+item.for.bronze_shovel.name=Pá do Sobrevivente
+item.for.builder_bag.name=Bolsa do Construtor
+item.for.builder_bagT2.name=Mochila do Construtor
 
 item.for.can.empty.name=Lata
 item.for.can.grammar=Lata de %s
@@ -524,27 +524,27 @@ item.for.circuitboard.enhanced.name=Placa de Circuito Aprimorada
 item.for.circuitboard.intricate.name=Placa de Circuito Intrincada
 item.for.circuitboard.refined.name=Placa de Circuito Refinada
 
-item.for.craftingMaterial.dissipationCharge.name=Carga de Dissipação
-item.for.craftingMaterial.iceShard.name=Caco de Gelo
-item.for.craftingMaterial.pulsatingDust.name=Poeira Pulsante
-item.for.craftingMaterial.pulsatingMesh.name=Malha Pulsante
-item.for.craftingMaterial.scentedPaneling.name=Painéis Perfumados
-item.for.craftingMaterial.silkWisp.name=Fio de Seda
-item.for.craftingMaterial.wovenSilk.name=Tecido de Seda
+item.for.crafting_material.dissipation_charge.name=Carga de Dissipação
+item.for.crafting_material.ice_shard.name=Caco de Gelo
+item.for.crafting_material.pulsating_dust.name=Poeira Pulsante
+item.for.crafting_material.pulsating_mesh.name=Malha Pulsante
+item.for.crafting_material.scented_paneling.name=Painéis Perfumados
+item.for.crafting_material.silk_wisp.name=Fio de Seda
+item.for.crafting_material.woven_silk.name=Tecido de Seda
 
 item.for.crate.name=Caixa
 item.for.decayingWheat.name=Trigo em Decomposição
-item.for.diggerBag.name=Bolsa do Escavador
-item.for.diggerBagT2.name=Mochila do Escavador
+item.for.digger_bag.name=Bolsa do Escavador
+item.for.digger_bagT2.name=Mochila do Escavador
 
-item.for.fertilizerBio.name=Adubo
-item.for.fertilizerCompound.name=Fertilizante
-item.for.foresterBag.name=Bolsa do 'Forestreyro'
-item.for.foresterBagT2.name=Mochila do 'Forestreyro'
+item.for.fertilizer_bio.name=Adubo
+item.for.fertilizer_compound.name=Fertilizante
+item.for.forester_bag.name=Bolsa do 'Forestreyro'
+item.for.forester_bagT2.name=Mochila do 'Forestreyro'
 
-item.for.frameImpregnated.name=Quadro Impregnado
-item.for.frameProven.name=Quadro Comprovado
-item.for.frameUntreated.name=Quadro Não Tratado
+item.for.frame_impregnated.name=Quadro Impregnado
+item.for.frame_proven.name=Quadro Comprovado
+item.for.frame_untreated.name=Quadro Não Tratado
 
 item.for.fruits.cherry.name=Cereja
 item.for.fruits.chestnut.name=Castanha
@@ -554,43 +554,43 @@ item.for.fruits.papaya.name=Mamão
 item.for.fruits.plum.name=Ameixa
 item.for.fruits.walnut.name=Noz
 
-item.for.gearBronze.name=Engrenagem de Bronze
-item.for.gearCopper.name=Engrenagem de Cobre
-item.for.gearTin.name=Engrenagem de Estanho
+item.for.gear_bronze.name=Engrenagem de Bronze
+item.for.gear_copper.name=Engrenagem de Cobre
+item.for.gear_tin.name=Engrenagem de Estanho
 
-item.for.hardenedMachine.name=Revestimento Endurecido
+item.for.hardened_machine.name=Revestimento Endurecido
 
 item.for.honeydew.name=Melaço
 
-item.for.honeyDrop.charged.name=Gota Carregada
-item.for.honeyDrop.honey.name=Gota de Mel
-item.for.honeyDrop.omega.name=Gota de Omega
-item.for.honeyedSlice.name=Fatia de Doce
+item.for.honey_drop.charged.name=Gota Carregada
+item.for.honey_drop.honey.name=Gota de Mel
+item.for.honey_drop.omega.name=Gota de Omega
+item.for.honeyed_slice.name=Fatia de Doce
 
-item.for.honeyPot.name=Pote de Mel
-item.for.hunterBag.name=Bolsa do Caçador
-item.for.hunterBagT2.name=Mochila do Caçador
+item.for.honey_pot.name=Pote de Mel
+item.for.hunter_bag.name=Bolsa do Caçador
+item.for.hunter_bagT2.name=Mochila do Caçador
 
-item.for.impregnatedCasing.name=Invólucro Impregnado
+item.for.impregnated_casing.name=Invólucro Impregnado
 item.for.imprinter.name=Impressora
 item.for.infuser.name=Infusor
 
-item.for.ingotBronze.name=Lingote de Bronze
-item.for.ingotCopper.name=Lingote de Cobre
-item.for.ingotTin.name=Lingote de Estanho
+item.for.ingot_bronze.name=Lingote de Bronze
+item.for.ingot_copper.name=Lingote de Cobre
+item.for.ingot_tin.name=Lingote de Estanho
 
-item.for.iodineCapsule.name=Cápsula de Iodo
+item.for.iodine_capsule.name=Cápsula de Iodo
 item.for.kitPickaxe.name=Kit de Picaretas
 item.for.kitShovel.name=Kit de Pás
 item.for.letters.name=Carta
 
-item.for.minerBag.name=Bolsa do Minerador
-item.for.minerBagT2.name=Mochila do Minerador
+item.for.miner_bag.name=Bolsa do Minerador
+item.for.miner_bagT2.name=Mochila do Minerador
 
-item.for.mouldyWheat.name=Trigo Mofado
+item.for.mouldy_wheat.name=Trigo Mofado
 item.for.mulch.name=Bagaço
-item.for.naturalistHelmet.name=Óculos
-item.for.oakStick.name=Vara Impregnada
+item.for.naturalist_helmet.name=Óculos
+item.for.oak_stick.name=Vara Impregnada
 item.for.peat.name=Turfa
 item.for.phosphor.name=Fósforo
 item.for.pipette.name=Pipeta
@@ -607,7 +607,7 @@ item.for.refractory.empty.name=Cápsula Refratária
 item.for.refractory.grammar=Cápsula de %s
 item.for.refractory.water.name=Cápsula D'água
 
-item.for.refractoryWax.name=Cera em Pó
+item.for.refractory_wax.name=Cera em Pó
 
 item.for.researchNote.name=Notas do %s
 item.for.royalJelly.name=Geléia Real
@@ -623,21 +623,21 @@ item.for.stamps.50n.name=Selo (50n)
 item.for.stamps.100n.name=Selo (100n)
 item.for.stamps.name=Selo
 
-item.for.sturdyMachine.name=Carcaça Resistente
+item.for.sturdy_machine.name=Carcaça Resistente
 
-item.for.thermionicTubes.copper.name=Válvula Eletrónica de Cobre
-item.for.thermionicTubes.tin.name=Válvula Eletrónica de Estanho
-item.for.thermionicTubes.bronze.name=Válvula Eletrónica de Bronze
-item.for.thermionicTubes.iron.name=Válvula Eletrónica de Ferro
-item.for.thermionicTubes.gold.name=Válvula Eletrónica de Ouro
-item.for.thermionicTubes.diamond.name=Válvula Eletrónica de ´Diamantine´
-item.for.thermionicTubes.obsidian.name=Válvula Eletrónica de Obsidiana
-item.for.thermionicTubes.blaze.name=Válvula Eletrónica de Ardende
-item.for.thermionicTubes.rubber.name=Válvula Eletrónica de Emborrachado
-item.for.thermionicTubes.emerald.name=Válvula Eletrónica de Esmeralda
-item.for.thermionicTubes.apatite.name=Válvula Eletrónica de Apatita
-item.for.thermionicTubes.lapis.name=Válvula Eletrónica de Lápis-lazúli
-item.for.thermionicTubes.ender.name=Válvula Eletrónica de Ender
+item.for.thermionic_tubes.copper.name=Válvula Eletrónica de Cobre
+item.for.thermionic_tubes.tin.name=Válvula Eletrónica de Estanho
+item.for.thermionic_tubes.bronze.name=Válvula Eletrónica de Bronze
+item.for.thermionic_tubes.iron.name=Válvula Eletrónica de Ferro
+item.for.thermionic_tubes.gold.name=Válvula Eletrónica de Ouro
+item.for.thermionic_tubes.diamond.name=Válvula Eletrónica de ´Diamantine´
+item.for.thermionic_tubes.obsidian.name=Válvula Eletrónica de Obsidiana
+item.for.thermionic_tubes.blaze.name=Válvula Eletrónica de Ardende
+item.for.thermionic_tubes.rubber.name=Válvula Eletrónica de Emborrachado
+item.for.thermionic_tubes.emerald.name=Válvula Eletrónica de Esmeralda
+item.for.thermionic_tubes.apatite.name=Válvula Eletrónica de Apatita
+item.for.thermionic_tubes.lapis.name=Válvula Eletrónica de Lápis-lazúli
+item.for.thermionic_tubes.ender.name=Válvula Eletrónica de Ender
 
 item.for.treealyzer.name=Arvoranalizador
 
@@ -646,9 +646,9 @@ item.for.can.water.name=Lata D'água
 item.for.capsule.empty.name=Cápsula de Cera
 item.for.capsule.grammar=Cápsula de %s
 
-item.for.waxCast.name=Molde de Cera
+item.for.wax_cast.name=Molde de Cera
 
-item.for.woodPulp.name=Polpa de Árvore
+item.for.wood_Pulp.name=Polpa de Árvore
 item.for.wrench.name=Chave Inglesa
 
 itemGroup.apiculture=Forestry - Apicultura
@@ -685,14 +685,14 @@ tile.for.resources.apatite.name=Minério de Apatita
 tile.for.resources.copper.name=Minério de Cobre
 tile.for.resources.tin.name=Minério de Estanho
 
-tile.for.resourceStorage.apatite.name=Bloco de Apatita
-tile.for.resourceStorage.copper.name=Bloco de Cobre
-tile.for.resourceStorage.tin.name=Bloco de Estanho
-tile.for.resourceStorage.bronze.name=Bloco de Bronze
+tile.for.resource_storage.apatite.name=Bloco de Apatita
+tile.for.resource_storage.copper.name=Bloco de Cobre
+tile.for.resource_storage.tin.name=Bloco de Estanho
+tile.for.resource_storage.bronze.name=Bloco de Bronze
 
 tile.for.humus.name=Húmus
-tile.for.bogEarth.bog_earth.name=Terra do Pântano
-tile.for.bogEarth.peat.name=Turfa
+tile.for.bog_earth.bog_earth.name=Terra do Pântano
+tile.for.bog_earth.peat.name=Turfa
 
 ####################
 # APICULTURE

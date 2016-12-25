@@ -331,7 +331,7 @@ for.gui.warm=Warm
 for.gui.water=Water
 for.gui.worker=Worker
 
-for.gui.camouflage.spray.can=Camouflage Spray Can
+for.gui.camouflage_spray_can=Camouflage Spray Can
 
 for.hints.apiaristsuit.desc=A full apiarist's suit will protect you from all negative bee effects.
 for.hints.apiaristsuit.tag=Bee Suits!
@@ -451,49 +451,49 @@ for.yes=Yes
 item.for.ambrosia.name=Ambrosia
 item.for.apatite.name=Apatite
 
-item.for.apiaristBag.name=Apiarist's Backpack
-item.for.apiaristBoots.name=Apiarist's Shoes
-item.for.apiaristChest.name=Apiarist's Shirt
-item.for.apiaristHelmet.name=Apiarist's Hat
-item.for.apiaristLegs.name=Apiarist's Pants
+item.for.apiarist_bag.name=Apiarist's Backpack
+item.for.apiarist_boots.name=Apiarist's Shoes
+item.for.apiarist_chest.name=Apiarist's Shirt
+item.for.apiarist_helmet.name=Apiarist's Hat
+item.for.apiarist_legs.name=Apiarist's Pants
 
 item.for.ash.name=Ash
 tile.for.pile_ash.name=Ash Pile
 
-item.for.habitatLocator.name=Habitat Locator
+item.for.habitat_locator.name=Habitat Locator
 
 item.for.cart.beehouse.name=Minecart with Bee House
 item.for.cart.apiary.name=Minecart with Apiary
 
-item.for.beeCombs.cocoa.name=Cocoa Comb
-item.for.beeCombs.darkened.name=Darkened Comb
-item.for.beeCombs.dripping.name=Dripping Comb
-item.for.beeCombs.frozen.name=Frozen Comb
-item.for.beeCombs.honey.name=Honey Comb
-item.for.beeCombs.irradiated.name=Irradiated Comb
-item.for.beeCombs.mellow.name=Mellow Comb
-item.for.beeCombs.mossy.name=Mossy Comb
-item.for.beeCombs.mysterious.name=Mysterious Comb
-item.for.beeCombs.omega.name=Omega Comb
-item.for.beeCombs.parched.name=Parched Comb
-item.for.beeCombs.powdery.name=Powdery Comb
-item.for.beeCombs.reddened.name=Reddened Comb
-item.for.beeCombs.silky.name=Silky Comb
-item.for.beeCombs.simmering.name=Simmering Comb
-item.for.beeCombs.stringy.name=Stringy Comb
-item.for.beeCombs.wheaten.name=Wheaten Comb
+item.for.bee_combs.cocoa.name=Cocoa Comb
+item.for.bee_combs.darkened.name=Darkened Comb
+item.for.bee_combs.dripping.name=Dripping Comb
+item.for.bee_combs.frozen.name=Frozen Comb
+item.for.bee_combs.honey.name=Honey Comb
+item.for.bee_combs.irradiated.name=Irradiated Comb
+item.for.bee_combs.mellow.name=Mellow Comb
+item.for.bee_combs.mossy.name=Mossy Comb
+item.for.bee_combs.mysterious.name=Mysterious Comb
+item.for.bee_combs.omega.name=Omega Comb
+item.for.bee_combs.parched.name=Parched Comb
+item.for.bee_combs.powdery.name=Powdery Comb
+item.for.bee_combs.reddened.name=Reddened Comb
+item.for.bee_combs.silky.name=Silky Comb
+item.for.bee_combs.simmering.name=Simmering Comb
+item.for.bee_combs.stringy.name=Stringy Comb
+item.for.bee_combs.wheaten.name=Wheaten Comb
 
 item.for.beeswax.name=Beeswax
 
 item.for.beverage.meadCurative.name=Curative Mead
 item.for.beverage.meadShort.name=Short Mead
 
-item.for.biomeFinder.name=Habitat Locator
-item.for.bituminousPeat.name=Bituminous Peat
-item.for.brokenBronzePickaxe.name=Broken Pickaxe
-item.for.brokenBronzeShovel.name=Broken Shovel
-item.for.bronzePickaxe.name=Survivalist's Pickaxe
-item.for.bronzeShovel.name=Survivalist's Shovel
+item.for.biome_finder.name=Habitat Locator
+item.for.bituminous_peat.name=Bituminous Peat
+item.for.broken_bronze_pickaxe.name=Broken Pickaxe
+item.for.broken_bronze_shovel.name=Broken Shovel
+item.for.bronze_pickaxe.name=Survivalist's Pickaxe
+item.for.bronze_shovel.name=Survivalist's Shovel
 
 item.for.can.empty.name=Can
 item.for.can.grammar=%s Can
@@ -507,25 +507,25 @@ item.for.circuitboard.refined.name=Refined Circuit Board
 item.for.circuitboard.tooltip.singular=Fits %s Electron Tube.
 item.for.circuitboard.tooltip.plural=Fits %s Electron Tubes.
 
-item.for.craftingMaterial.dissipationCharge.name=Dissipation Charge
-item.for.craftingMaterial.dissipationCharge.tooltip=Use on a Rainmaker to stop the rain.
-item.for.craftingMaterial.iceShard.name=Ice Shard
-item.for.craftingMaterial.pulsatingDust.name=Pulsating Dust
-item.for.craftingMaterial.pulsatingMesh.name=Pulsating Mesh
-item.for.craftingMaterial.scentedPaneling.name=Scented Paneling
-item.for.craftingMaterial.camouflagedPaneling.name=Camouflaged Paneling
-item.for.craftingMaterial.silkWisp.name=Silk Wisp
-item.for.craftingMaterial.wovenSilk.name=Woven Silk
+item.for.crafting_material.dissipation_charge.name=Dissipation Charge
+item.for.crafting_material.dissipation_charge.tooltip=Use on a Rainmaker to stop the rain.
+item.for.crafting_material.ice_shard.name=Ice Shard
+item.for.crafting_material.pulsating_dust.name=Pulsating Dust
+item.for.crafting_material.pulsating_mesh.name=Pulsating Mesh
+item.for.crafting_material.scented_paneling.name=Scented Paneling
+item.for.crafting_material.camouflaged_paneling.name=Camouflaged Paneling
+item.for.crafting_material.silk_wisp.name=Silk Wisp
+item.for.crafting_material.woven_silk.name=Woven Silk
 
 item.for.crate.name=Crate
 item.for.decayingWheat.name=Decaying Wheat
 
-item.for.fertilizerBio.name=Compost
-item.for.fertilizerCompound.name=Fertilizer
+item.for.fertilizer_bio.name=Compost
+item.for.fertilizer_compound.name=Fertilizer
 
-item.for.frameImpregnated.name=Impregnated Frame
-item.for.frameProven.name=Proven Frame
-item.for.frameUntreated.name=Untreated Frame
+item.for.frame_impregnated.name=Impregnated Frame
+item.for.frame_proven.name=Proven Frame
+item.for.frame_untreated.name=Untreated Frame
 
 item.for.durability=Durability: %,d
 item.for.uses=Uses: %,d
@@ -541,43 +541,43 @@ item.for.fruits.papaya.name=Papaya
 item.for.fruits.plum.name=Plum
 item.for.fruits.walnut.name=Walnut
 
-item.for.gearBronze.name=Bronze Gear
-item.for.gearCopper.name=Copper Gear
-item.for.gearTin.name=Tin Gear
+item.for.gear_bronze.name=Bronze Gear
+item.for.gear_copper.name=Copper Gear
+item.for.gear_tin.name=Tin Gear
 
-item.for.hardenedMachine.name=Hardened Casing
+item.for.hardened_machine.name=Hardened Casing
 
 item.for.honeydew.name=Honeydew
 
-item.for.portableAlyzer.name=Portable Analyzer
-item.for.portableAlyzer.tooltip=Handheld Genetic Analyzer for bees, trees, and butterflies.
+item.for.portable_alyzer.name=Portable Analyzer
+item.for.portable_alyzer.tooltip=Handheld Genetic Analyzer for bees, trees, and butterflies.
 
-item.for.honeyDrop.charged.name=Charged Drop
-item.for.honeyDrop.honey.name=Honey Drop
-item.for.honeyDrop.omega.name=Omega Drop
-item.for.honeyedSlice.name=Honeyed Slice
+item.for.honey_drop.charged.name=Charged Drop
+item.for.honey_drop.honey.name=Honey Drop
+item.for.honey_drop.omega.name=Omega Drop
+item.for.honeyed_slice.name=Honeyed Slice
 
-item.for.honeyPot.name=Honey Pot
+item.for.honey_pot.name=Honey Pot
 
-item.for.impregnatedCasing.name=Impregnated Casing
+item.for.impregnated_casing.name=Impregnated Casing
 item.for.imprinter.name=Imprinter
 item.for.infuser.name=Infuser
 
-item.for.ingotBronze.name=Bronze Ingot
-item.for.ingotCopper.name=Copper Ingot
-item.for.ingotTin.name=Tin Ingot
+item.for.ingot_bronze.name=Bronze Ingot
+item.for.ingot_copper.name=Copper Ingot
+item.for.ingot_tin.name=Tin Ingot
 
-item.for.iodineCapsule.name=Iodine Capsule
-item.for.iodineCapsule.tooltip=Use on a Rainmaker to make it rain.
+item.for.iodine_capsule.name=Iodine Capsule
+item.for.iodine_capsule.tooltip=Use on a Rainmaker to make it rain.
 item.for.kitPickaxe.name=Pickaxe Kit
 item.for.kitShovel.name=Shovel Kit
 item.for.letters.name=Letter
 
-item.for.mouldyWheat.name=Mouldy Wheat
+item.for.mouldy_wheat.name=Mouldy Wheat
 item.for.mulch.name=Mulch
-item.for.naturalistHelmet.name=Spectacles
-item.for.naturalistHelmet.tooltip=Wear to see pollinated leaves.
-item.for.oakStick.name=Impregnated Stick
+item.for.naturalist_helmet.name=Spectacles
+item.for.naturalist_helmet.tooltip=Wear to see pollinated leaves.
+item.for.oak_stick.name=Impregnated Stick
 item.for.peat.name=Peat
 item.for.phosphor.name=Phosphor
 item.for.pipette.name=Pipette
@@ -593,8 +593,8 @@ item.for.propolis.sticky.name=Sticky Propolis
 item.for.refractory.empty.name=Refractory Capsule
 item.for.refractory.grammar=%s Capsule
 
-item.for.refractoryWax.name=Refractory Wax
-item.for.refractoryWax.tooltip=Wax with a high melting point.
+item.for.refractory_wax.name=Refractory Wax
+item.for.refractory_wax.tooltip=Wax with a high melting point.
 
 item.for.researchNote.name=%s's Notes
 item.for.researchNote.tooltip=Use this note in your hand to gain its knowledge.
@@ -615,30 +615,30 @@ item.for.stamps.50n.name=Stamp (50n)
 item.for.stamps.100n.name=Stamp (100n)
 item.for.stamps.name=Stamp
 
-item.for.sturdyMachine.name=Sturdy Casing
+item.for.sturdy_machine.name=Sturdy Casing
 
-item.for.thermionicTubes.copper.name=Copper Electron Tube
-item.for.thermionicTubes.tin.name=Tin Electron Tube
-item.for.thermionicTubes.bronze.name=Bronze Electron Tube
-item.for.thermionicTubes.iron.name=Iron Electron Tube
-item.for.thermionicTubes.gold.name=Golden Electron Tube
-item.for.thermionicTubes.diamond.name=Diamantine Electron Tube
-item.for.thermionicTubes.obsidian.name=Obsidian Electron Tube
-item.for.thermionicTubes.blaze.name=Blazing Electron Tube
-item.for.thermionicTubes.rubber.name=Rubberised Electron Tube
-item.for.thermionicTubes.emerald.name=Emerald Electron Tube
-item.for.thermionicTubes.apatite.name=Apatine Electron Tube
-item.for.thermionicTubes.lapis.name=Lapis Electron Tube
-item.for.thermionicTubes.ender.name=Ender Electron Tube
-item.for.thermionicTubes.tooltip=Used to program circuit boards.
+item.for.thermionic_tubes.copper.name=Copper Electron Tube
+item.for.thermionic_tubes.tin.name=Tin Electron Tube
+item.for.thermionic_tubes.bronze.name=Bronze Electron Tube
+item.for.thermionic_tubes.iron.name=Iron Electron Tube
+item.for.thermionic_tubes.gold.name=Golden Electron Tube
+item.for.thermionic_tubes.diamond.name=Diamantine Electron Tube
+item.for.thermionic_tubes.obsidian.name=Obsidian Electron Tube
+item.for.thermionic_tubes.blaze.name=Blazing Electron Tube
+item.for.thermionic_tubes.rubber.name=Rubberised Electron Tube
+item.for.thermionic_tubes.emerald.name=Emerald Electron Tube
+item.for.thermionic_tubes.apatite.name=Apatine Electron Tube
+item.for.thermionic_tubes.lapis.name=Lapis Electron Tube
+item.for.thermionic_tubes.ender.name=Ender Electron Tube
+item.for.thermionic_tubes.tooltip=Used to program circuit boards.
 
 item.for.capsule.empty.name=Wax Capsule
 item.for.capsule.tooltip=Can't hold hot liquids.
 item.for.capsule.grammar=%s Capsule
 
-item.for.waxCast.name=Wax Cast
+item.for.wax_cast.name=Wax Cast
 
-item.for.woodPulp.name=Wood Pulp
+item.for.wood_Pulp.name=Wood Pulp
 item.for.wrench.name=Wrench
 item.for.wrench.tooltip=Shift-Use to rotate blocks.
 
@@ -684,32 +684,32 @@ tile.for.resources.apatite.name=Apatite Ore
 tile.for.resources.copper.name=Copper Ore
 tile.for.resources.tin.name=Tin Ore
 
-tile.for.resourceStorage.apatite.name=Block of Apatite
-tile.for.resourceStorage.copper.name=Block of Copper
-tile.for.resourceStorage.tin.name=Block of Tin
-tile.for.resourceStorage.bronze.name=Block of Bronze
+tile.for.resource_storage.apatite.name=Block of Apatite
+tile.for.resource_storage.copper.name=Block of Copper
+tile.for.resource_storage.tin.name=Block of Tin
+tile.for.resource_storage.bronze.name=Block of Bronze
 
 tile.for.humus.name=Humus
-tile.for.bogEarth.bog_earth.name=Bog Earth
-tile.for.bogEarth.peat.name=Peat
+tile.for.bog_earth.bog_earth.name=Bog Earth
+tile.for.bog_earth.peat.name=Peat
 
-item.for.adventurerBag.name=Adventuring Backpack
-item.for.adventurerBagT2.name=Woven Adventuring Backpack
+item.for.adventurer_bag.name=Adventuring Backpack
+item.for.adventurer_bag_t2.name=Woven Adventuring Backpack
 
-item.for.builderBag.name=Building Backpack
-item.for.builderBagT2.name=Woven Building Backpack
+item.for.builder_bag.name=Building Backpack
+item.for.builder_bag_t2.name=Woven Building Backpack
 
-item.for.diggerBag.name=Digging Backpack
-item.for.diggerBagT2.name=Woven Digging Backpack
+item.for.digger_bag.name=Digging Backpack
+item.for.digger_bag_t2.name=Woven Digging Backpack
 
-item.for.foresterBag.name=Foresting Backpack
-item.for.foresterBagT2.name=Woven Foresting Woven Backpack
+item.for.forester_bag.name=Foresting Backpack
+item.for.forester_bag_t2.name=Woven Foresting Woven Backpack
 
-item.for.hunterBag.name=Hunting Backpack
-item.for.hunterBagT2.name=Hunter's Woven Backpack
+item.for.hunter_bag.name=Hunting Backpack
+item.for.hunter_bag_t2.name=Hunter's Woven Backpack
 
-item.for.minerBag.name=Mining Backpack
-item.for.minerBagT2.name=Woven Mining Backpack
+item.for.miner_bag.name=Mining Backpack
+item.for.miner_bag_t2.name=Woven Mining Backpack
 
 ################
 # ERRORS
@@ -1285,8 +1285,6 @@ tile.for.fireproof=%s (Fireproof)
 item.for.grafter.name=Grafter
 item.for.grafterProven.name=Proven Grafter
 
-item.for.charcoal.name=Charcoal
-
 tile.for.tree_chest.name=Arborist's Chest
 
 tile.for.saplingGE.0.name=Sapling
@@ -1758,31 +1756,11 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 # tile.for.fences.0.name=Larch Fence
 
 ####################
-# NEI Categories
-####################
-
-nei.subsets.Forestry=Forestry
-nei.subsets.Forestry.Bees=Bees
-nei.subsets.Forestry.Bees.Combs=Combs
-nei.subsets.Forestry.Bees.Drones=Drones
-nei.subsets.Forestry.Bees.Princesses=Princesses
-nei.subsets.Forestry.Bees.Queens=Queens
-nei.subsets.Forestry.Blocks=Blocks
-nei.subsets.Forestry.Butterflies=Butterflies
-nei.subsets.Forestry.Butterflies.Butterflies=Butterflies
-nei.subsets.Forestry.Butterflies.Caterpillars=Caterpillars
-nei.subsets.Forestry.Butterflies.Serums=Serums
-nei.subsets.Forestry.Items=Items
-nei.subsets.Forestry.Trees=Trees
-nei.subsets.Forestry.Trees.Pollen=Pollen
-nei.subsets.Forestry.Trees.Saplings=Saplings
-
-####################
 # JEI Descriptions
 ####################
 for.jei.description.frames=Place Forestry Frames in an Apiary to improve the bees' production rate and reduce the genetic decay of Ignoble bees.
 for.jei.description.apiarist.suit=Pieces of the Apiarist's Suit protect the wearer from negative bee effects. A full suit offers complete protection.
-for.jei.description.habitatLocator=The Habitat Locator searches for the closest ideal habitat for a bee. When it has located a spot, it will point the way there. When the current location is ideal, it will spin steadily.
+for.jei.description.habitat_locator=The Habitat Locator searches for the closest ideal habitat for a bee. When it has located a spot, it will point the way there. When the current location is ideal, it will spin steadily.
 for.jei.description.scoop=The Scoop is used to break bee hives found in the world, it will collect the bees inside. It can also be used to catch butterflies by right-clicking them.
 for.jei.description.imprinter=Creative-only. Creates hybrid bees of any type.
 
@@ -1790,15 +1768,15 @@ for.jei.description.infuser=Used to infuse Mead with Pollen Clusters and create 
 
 for.jei.description.chipsets=Circuit Boards can be fitted with Electron Tubes by using a Soldering Iron. Once complete, they can be placed in the sockets on machine guis. Use a Soldering Iron to remove them from a socket.
 for.jei.description.solderingIron=Right click with the Soldering Iron in hand to open the soldering gui. There, you can select the type of circuit to make and attach Electron Tubes to Circuit Boards. Can be used to remove a circuit board from a socket.
-for.jei.description.thermionicTubes=Electron Tubes can be attached to Circuit Boards using a Soldering Iron. They have many purposes displayed on the tooltip, which depend on the circuit type selected in the Soldering Iron. Once soldered, they cannot be removed from a Circuit Board.
+for.jei.description.thermionic_tubes=Electron Tubes can be attached to Circuit Boards using a Soldering Iron. They have many purposes displayed on the tooltip, which depend on the circuit type selected in the Soldering Iron. Once soldered, they cannot be removed from a Circuit Board.
 for.jei.description.humus=Rich soil that can grow plants and doesn't require water. Degrades into sand over time.
-for.jei.description.bogEarth=Slowly turns into peat if left to soak near water for a while.
+for.jei.description.bog_earth=Slowly turns into peat if left to soak near water for a while.
 for.jei.description.analyzer=Block version of the Portable Genetic Analyzer. Requires power and liquid honey.
 for.jei.description.escritoire=Play a matching mini-game to research bee, tree, and butterfly mutations. Gives research notes that boost mutation rates, and other rewards.
 for.jei.description.pipette=Can pick up small amounts of liquid. In Forestry GUIs, you can hold a pipette and click the tanks to fill or drain them directly.
 for.jei.description.kitShovel=A stackable package that contains a bronze shovel. Use it in your hand to open.
 for.jei.description.kitPickaxe=A stackable package that contains a bronze pickaxe. Use it in your hand to open.
-for.jei.description.fertilizerCompound=Rich fertilizer. Can be used as bonemeal on crops and saplings. Required in order to run a Forestry farm.
+for.jei.description.fertilizer_compound=Rich fertilizer. Can be used as bonemeal on crops and saplings. Required in order to run a Forestry farm.
 
 for.jei.description.raintank=Collects water when it rains. Can automatically output water from the bottom side.
 for.jei.description.worktable=Advanced crafting table with an inventory. Remembers up to 9 recipes. Has the ability to choose the crafting result when there is a recipe conflict.
@@ -1810,14 +1788,14 @@ for.jei.description.mailbox=Allows players to send letters to trade stations and
 for.jei.description.trade_station=An automatic mailbox that lets players set up a trading deal.
 for.jei.description.stamp_collector=Creative-only. Collects all the stamps used by mailing letters. Useful for servers with a stamp economy.
 
-for.jei.description.adventurerBag=Extra inventory that can hold whatever is set in the configs in /config/forestry/backpacks.cfg
-for.jei.description.builderBag=Extra inventory that automatically picks up building-related items.
-for.jei.description.diggerBag=Extra inventory that automatically picks up dirt, cobble, and other low-value mining-related items.
-for.jei.description.foresterBag=Extra inventory that automatically picks up plants and related items.
-for.jei.description.hunterBag=Extra inventory that automatically picks up mob drops and related items.
-for.jei.description.minerBag=Extra inventory that automatically picks up ores and valuable mining-related items.
-for.jei.description.apiaristBag=Extra inventory that automatically picks up bees.
-for.jei.description.lepidopteristBag=Extra inventory that automatically picks up butterflies.
+for.jei.description.adventurer_bag=Extra inventory that can hold whatever is set in the configs in /config/forestry/backpacks.cfg
+for.jei.description.builder_bag=Extra inventory that automatically picks up building-related items.
+for.jei.description.digger_bag=Extra inventory that automatically picks up dirt, cobble, and other low-value mining-related items.
+for.jei.description.forester_bag=Extra inventory that automatically picks up plants and related items.
+for.jei.description.hunter_bag=Extra inventory that automatically picks up mob drops and related items.
+for.jei.description.miner_bag=Extra inventory that automatically picks up ores and valuable mining-related items.
+for.jei.description.apiarist_bag=Extra inventory that automatically picks up bees.
+for.jei.description.lepidopterist_bag=Extra inventory that automatically picks up butterflies.
 
 ####################
 # JEI Recipes

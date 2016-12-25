@@ -436,56 +436,56 @@ for.trigger.noFrames=Pas de cadres
 
 for.yes=Oui
 
-item.for.adventurerBag.name=Sac à dos de l'aventurier
-item.for.adventurerBagT2.name=Sac à dos tissé de l'aventurier
+item.for.adventurer_bag.name=Sac à dos de l'aventurier
+item.for.adventurer_bagT2.name=Sac à dos tissé de l'aventurier
 item.for.ambrosia.name=Ambroisie
 item.for.apatite.name=Apatite
 
-item.for.apiaristBag.name=Sac à dos de l'apiculteur
-item.for.apiaristBoots.name=Chaussures de l'apiculteur
-item.for.apiaristChest.name=Chemise de l'apiculteur
-item.for.apiaristHelmet.name=Chapeau de l'apiculteur
-item.for.apiaristLegs.name=Pantalon de l'apiculteur
+item.for.apiarist_bag.name=Sac à dos de l'apiculteur
+item.for.apiarist_boots.name=Chaussures de l'apiculteur
+item.for.apiarist_chest.name=Chemise de l'apiculteur
+item.for.apiarist_helmet.name=Chapeau de l'apiculteur
+item.for.apiarist_legs.name=Pantalon de l'apiculteur
 
 item.for.ash.name=Cendres
 
 item.for.beealyzer.name=Analyseur d'abeilles
-item.for.habitatLocator.name=Localisateur d'habitat
+item.for.habitat_locator.name=Localisateur d'habitat
 
 item.for.cart.beehouse.name=Wagonnet avec ruche
 item.for.cart.apiary.name=Wagonnet avec ruchet
 
-item.for.beeCombs.cocoa.name=Alvéole de cacao
-item.for.beeCombs.darkened.name=Alvéole noircie
-item.for.beeCombs.dripping.name=Alvéole ruisselante
-item.for.beeCombs.frozen.name=Alvéole froide
-item.for.beeCombs.honey.name=Alvéole mielleuse
-item.for.beeCombs.irradiated.name=Alvéole irradiée
-item.for.beeCombs.mellow.name=Alvéole riche
-item.for.beeCombs.mossy.name=Alvéole moussue
-item.for.beeCombs.mysterious.name=Alvéole mystérieuse
-item.for.beeCombs.omega.name=Alvéole Oméga
-item.for.beeCombs.parched.name=Alvéole desséchée
-item.for.beeCombs.powdery.name=Alvéole poudreuse
-item.for.beeCombs.reddened.name=Alvéole rougie
-item.for.beeCombs.silky.name=Alvéole soyeuse
-item.for.beeCombs.simmering.name=Alvéole frémissante
-item.for.beeCombs.stringy.name=Alvéole filandreuse
-item.for.beeCombs.wheaten.name=Alvéole engrainée
+item.for.bee_combs.cocoa.name=Alvéole de cacao
+item.for.bee_combs.darkened.name=Alvéole noircie
+item.for.bee_combs.dripping.name=Alvéole ruisselante
+item.for.bee_combs.frozen.name=Alvéole froide
+item.for.bee_combs.honey.name=Alvéole mielleuse
+item.for.bee_combs.irradiated.name=Alvéole irradiée
+item.for.bee_combs.mellow.name=Alvéole riche
+item.for.bee_combs.mossy.name=Alvéole moussue
+item.for.bee_combs.mysterious.name=Alvéole mystérieuse
+item.for.bee_combs.omega.name=Alvéole Oméga
+item.for.bee_combs.parched.name=Alvéole desséchée
+item.for.bee_combs.powdery.name=Alvéole poudreuse
+item.for.bee_combs.reddened.name=Alvéole rougie
+item.for.bee_combs.silky.name=Alvéole soyeuse
+item.for.bee_combs.simmering.name=Alvéole frémissante
+item.for.bee_combs.stringy.name=Alvéole filandreuse
+item.for.bee_combs.wheaten.name=Alvéole engrainée
 
 item.for.beeswax.name=Cire d'abeille
 
 item.for.beverage.meadCurative.name=Hydromel thérapeutique
 item.for.beverage.meadShort.name=Hydromel
 
-item.for.biomeFinder.name=Localisateur d'habitat
-item.for.bituminousPeat.name=Tourbe bitumineuse
-item.for.brokenBronzePickaxe.name=Pioche brisée
-item.for.brokenBronzeShovel.name=Pelle brisée
-item.for.bronzePickaxe.name=Pioche du survivaliste
-item.for.bronzeShovel.name=Pelle du survivaliste
-item.for.builderBag.name=Sac à dos du maçon
-item.for.builderBagT2.name=Sac à dos tissé du maçon
+item.for.biome_finder.name=Localisateur d'habitat
+item.for.bituminous_peat.name=Tourbe bitumineuse
+item.for.broken_bronze_pickaxe.name=Pioche brisée
+item.for.broken_bronze_shovel.name=Pelle brisée
+item.for.bronze_pickaxe.name=Pioche du survivaliste
+item.for.bronze_shovel.name=Pelle du survivaliste
+item.for.builder_bag.name=Sac à dos du maçon
+item.for.builder_bagT2.name=Sac à dos tissé du maçon
 
 item.for.can.empty.name=Cannette
 item.for.can.grammar=Cannette de %s
@@ -505,27 +505,27 @@ item.for.circuitboard.enhanced.name=Circuit imprimé moyen
 item.for.circuitboard.intricate.name=Circuit imprimé complexe
 item.for.circuitboard.refined.name=Circuit imprimé étendu
 
-item.for.craftingMaterial.dissipationCharge.name=Dissipation de charge
-item.for.craftingMaterial.iceShard.name=Éclat de glace
-item.for.craftingMaterial.pulsatingDust.name=Poussière vibrante
-item.for.craftingMaterial.pulsatingMesh.name=Tissu vibrant
-item.for.craftingMaterial.scentedPaneling.name=Lambris parfumé
-item.for.craftingMaterial.silkWisp.name=Fil de soie
-item.for.craftingMaterial.wovenSilk.name=Tissu en soie
+item.for.crafting_material.dissipation_charge.name=Dissipation de charge
+item.for.crafting_material.ice_shard.name=Éclat de glace
+item.for.crafting_material.pulsating_dust.name=Poussière vibrante
+item.for.crafting_material.pulsating_mesh.name=Tissu vibrant
+item.for.crafting_material.scented_paneling.name=Lambris parfumé
+item.for.crafting_material.silk_wisp.name=Fil de soie
+item.for.crafting_material.woven_silk.name=Tissu en soie
 
 item.for.crate.name=Cageot
 item.for.decayingWheat.name=Blé décomposé
-item.for.diggerBag.name=Sac à dos de l'excavateur
-item.for.diggerBagT2.name=Sac à dos tissé de l'excavateur
+item.for.digger_bag.name=Sac à dos de l'excavateur
+item.for.digger_bagT2.name=Sac à dos tissé de l'excavateur
 
-item.for.fertilizerBio.name=Compost
-item.for.fertilizerCompound.name=Engrais
-item.for.foresterBag.name=Sac à dos du forestier
-item.for.foresterBagT2.name=Sac à dos tissé du forestier
+item.for.fertilizer_bio.name=Compost
+item.for.fertilizer_compound.name=Engrais
+item.for.forester_bag.name=Sac à dos du forestier
+item.for.forester_bagT2.name=Sac à dos tissé du forestier
 
-item.for.frameImpregnated.name=Cadre imperméabilisé
-item.for.frameProven.name=Cadre protégé
-item.for.frameUntreated.name=Cadre non traité
+item.for.frame_impregnated.name=Cadre imperméabilisé
+item.for.frame_proven.name=Cadre protégé
+item.for.frame_untreated.name=Cadre non traité
 
 item.for.fruit.cherry.name=Cerise
 item.for.fruit.chestnut.name=Châtaigne
@@ -535,43 +535,43 @@ item.for.fruit.papaya.name=Papaye
 item.for.fruit.plum.name=Prune
 item.for.fruit.walnut.name=Noix
 
-item.for.gearBronze.name=Engrenage de bronze
-item.for.gearCopper.name=Engrenage de cuivre
-item.for.gearTin.name=Engrenage d'étain
+item.for.gear_bronze.name=Engrenage de bronze
+item.for.gear_copper.name=Engrenage de cuivre
+item.for.gear_tin.name=Engrenage d'étain
 
-item.for.hardenedMachine.name=Boitier renforcé
+item.for.hardened_machine.name=Boitier renforcé
 
 item.for.honeydew.name=Miellat
 
-item.for.honeyDrop.charged.name=Goutte de miel chargée
-item.for.honeyDrop.honey.name=Goutte de miel
-item.for.honeyDrop.omega.name=Goutte d'Oméga
-item.for.honeyedSlice.name=Pain au miel
+item.for.honey_drop.charged.name=Goutte de miel chargée
+item.for.honey_drop.honey.name=Goutte de miel
+item.for.honey_drop.omega.name=Goutte d'Oméga
+item.for.honeyed_slice.name=Pain au miel
 
-item.for.honeyPot.name=Pot de miel
-item.for.hunterBag.name=Sac à dos du chasseur
-item.for.hunterBagT2.name=Sac à dos tissé du chasseur
+item.for.honey_pot.name=Pot de miel
+item.for.hunter_bag.name=Sac à dos du chasseur
+item.for.hunter_bagT2.name=Sac à dos tissé du chasseur
 
-item.for.impregnatedCasing.name=Revêtement imperméabilisé
+item.for.impregnated_casing.name=Revêtement imperméabilisé
 item.for.imprinter.name=Imprimeur
 item.for.infuser.name=Infuseur
 
-item.for.ingotBronze.name=Lingot de bronze
-item.for.ingotCopper.name=Lingot de cuivre
-item.for.ingotTin.name=Lingot d'étain
+item.for.ingot_bronze.name=Lingot de bronze
+item.for.ingot_copper.name=Lingot de cuivre
+item.for.ingot_tin.name=Lingot d'étain
 
-item.for.iodineCapsule.name=Capsule d'iode
+item.for.iodine_capsule.name=Capsule d'iode
 item.for.kitPickaxe.name=Kit de pioche
 item.for.kitShovel.name=Kit de pelle
 item.for.letters.name=Lettre
 
-item.for.minerBag.name=Sac à dos du mineur
-item.for.minerBagT2.name=Sac à dos tissé du mineur
+item.for.miner_bag.name=Sac à dos du mineur
+item.for.miner_bagT2.name=Sac à dos tissé du mineur
 
-item.for.mouldyWheat.name=Blé moisi
+item.for.mouldy_wheat.name=Blé moisi
 item.for.mulch.name=Paillis
-item.for.naturalistHelmet.name=Jumelles
-item.for.oakStick.name=Bâton imperméabilisé
+item.for.naturalist_helmet.name=Jumelles
+item.for.oak_stick.name=Bâton imperméabilisé
 item.for.peat.name=Tourbe
 item.for.phosphor.name=Phosphore
 item.for.pipette.name=Pipette
@@ -589,7 +589,7 @@ item.for.refractory.grammar=Capsule de %s
 item.for.refractory.seed.oil.name=Capsule d'huile végétale
 item.for.refractory.water.name=Capsule d'eau
 
-item.for.refractoryWax.name=Cire réusinée
+item.for.refractory_wax.name=Cire réusinée
 
 item.for.researchNote.name=Notes de %s
 item.for.royalJelly.name=Gelée royale
@@ -605,21 +605,21 @@ item.for.stamps.50n.name=Timbre (50n)
 item.for.stamps.100n.name=Timbre (100n)
 item.for.stamps.name=Timbre
 
-item.for.sturdyMachine.name=Boitier robuste
+item.for.sturdy_machine.name=Boitier robuste
 
-item.for.thermionicTubes.copper.name=Tube Electronique (Cuivre)
-item.for.thermionicTubes.tin.name=Tube Electronique (Étain)
-item.for.thermionicTubes.bronze.name=Tube Electronique (Bronze)
-item.for.thermionicTubes.iron.name=Tube Electronique (Fer)
-item.for.thermionicTubes.gold.name=Tube Electronique (Or)
-item.for.thermionicTubes.diamond.name=Tube Electronique (Diamant)
-item.for.thermionicTubes.obsidian.name=Tube Electronique (Obsidienne)
-item.for.thermionicTubes.blaze.name=Tube Electronique (Éclatant)
-item.for.thermionicTubes.rubber.name=Tube Electronique (Caoutchouc)
-item.for.thermionicTubes.emerald.name=Tube Electronique (Emeraude)
-item.for.thermionicTubes.apatite.name=Tube Electronique (Apatite)
-item.for.thermionicTubes.lapis.name=Tube Electronique (Lapis)
-item.for.thermionicTubes.ender.name=Tube Electronique (Ender)
+item.for.thermionic_tubes.copper.name=Tube Electronique (Cuivre)
+item.for.thermionic_tubes.tin.name=Tube Electronique (Étain)
+item.for.thermionic_tubes.bronze.name=Tube Electronique (Bronze)
+item.for.thermionic_tubes.iron.name=Tube Electronique (Fer)
+item.for.thermionic_tubes.gold.name=Tube Electronique (Or)
+item.for.thermionic_tubes.diamond.name=Tube Electronique (Diamant)
+item.for.thermionic_tubes.obsidian.name=Tube Electronique (Obsidienne)
+item.for.thermionic_tubes.blaze.name=Tube Electronique (Éclatant)
+item.for.thermionic_tubes.rubber.name=Tube Electronique (Caoutchouc)
+item.for.thermionic_tubes.emerald.name=Tube Electronique (Emeraude)
+item.for.thermionic_tubes.apatite.name=Tube Electronique (Apatite)
+item.for.thermionic_tubes.lapis.name=Tube Electronique (Lapis)
+item.for.thermionic_tubes.ender.name=Tube Electronique (Ender)
 
 item.for.treealyzer.name=Analyseur d'arbre
 
@@ -637,9 +637,9 @@ item.for.capsule.oil.name=Capsule de pétrole
 item.for.capsule.seed.oil.name=Capsule d'huile végétale
 item.for.capsule.water.name=Capsule d'eau
 
-item.for.waxCast.name=Moule en cire
+item.for.wax_cast.name=Moule en cire
 
-item.for.woodPulp.name=Pâte à papier
+item.for.wood_Pulp.name=Pâte à papier
 item.for.wrench.name=Clé à molette
 
 itemGroup.apiculture=Apiculture
@@ -676,14 +676,14 @@ tile.for.resources.apatite.name=Minerai d'apatite
 tile.for.resources.copper.name=Minerai de cuivre
 tile.for.resources.tin.name=Minerai d'étain
 
-tile.for.resourceStorage.apatite.name=Bloc d'apatite
-tile.for.resourceStorage.copper.name=Bloc de cuivre
-tile.for.resourceStorage.tin.name=Bloc d'étain
-tile.for.resourceStorage.bronze.name=Bloc de bronze
+tile.for.resource_storage.apatite.name=Bloc d'apatite
+tile.for.resource_storage.copper.name=Bloc de cuivre
+tile.for.resource_storage.tin.name=Bloc d'étain
+tile.for.resource_storage.bronze.name=Bloc de bronze
 
 tile.for.humus.name=Humus
-tile.for.bogEarth.bog_earth.name=Terre humidifée
-tile.for.bogEarth.peat.name=Tourbe
+tile.for.bog_earth.bog_earth.name=Terre humidifée
+tile.for.bog_earth.peat.name=Tourbe
 
 ################
 # ERRORS

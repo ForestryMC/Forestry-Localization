@@ -473,53 +473,53 @@ for.trigger.noFrames=Нет рамок
 
 for.yes=Да
 
-item.for.adventurerBag.name=Рюкзак авантюриста
-item.for.adventurerBagT2.name=Тканный рюкзак авантюриста
+item.for.adventurer_bag.name=Рюкзак авантюриста
+item.for.adventurer_bagT2.name=Тканный рюкзак авантюриста
 item.for.ambrosia.name=Амброзия
 item.for.apatite.name=Апатит
 
-item.for.apiaristBag.name=Рюкзак пчеловода
-item.for.apiaristBoots.name=Ботинки пчеловода
-item.for.apiaristChest.name=Куртка пчеловода
-item.for.apiaristHelmet.name=Защитная маска пчеловода
-item.for.apiaristLegs.name=Штаны пчеловода
+item.for.apiarist_bag.name=Рюкзак пчеловода
+item.for.apiarist_boots.name=Ботинки пчеловода
+item.for.apiarist_chest.name=Куртка пчеловода
+item.for.apiarist_helmet.name=Защитная маска пчеловода
+item.for.apiarist_legs.name=Штаны пчеловода
 
 item.for.ash.name=Зола
 
 item.for.beealyzer.name=Анализатор пчёл
-item.for.habitatLocator.name=Определитель ареала
+item.for.habitat_locator.name=Определитель ареала
 
-item.for.beeCombs.cocoa.name=Какао-соты
-item.for.beeCombs.darkened.name=Потемневшие соты
-item.for.beeCombs.dripping.name=Капающие соты
-item.for.beeCombs.frozen.name=Морозные соты
-item.for.beeCombs.honey.name=Медовые соты
-item.for.beeCombs.irradiated.name=Облучённые соты
-item.for.beeCombs.mellow.name=Спелые соты
-item.for.beeCombs.mossy.name=Замшелые соты
-item.for.beeCombs.mysterious.name=Таинственные соты
-item.for.beeCombs.omega.name=Омега-соты
-item.for.beeCombs.parched.name=Пересохшие соты
-item.for.beeCombs.powdery.name=Рыхлые соты
-item.for.beeCombs.reddened.name=Покрасневшие соты
-item.for.beeCombs.silky.name=Шелковистые соты
-item.for.beeCombs.simmering.name=Кипящие соты
-item.for.beeCombs.stringy.name=Вязкие соты
-item.for.beeCombs.wheaten.name=Пшеничные соты
+item.for.bee_combs.cocoa.name=Какао-соты
+item.for.bee_combs.darkened.name=Потемневшие соты
+item.for.bee_combs.dripping.name=Капающие соты
+item.for.bee_combs.frozen.name=Морозные соты
+item.for.bee_combs.honey.name=Медовые соты
+item.for.bee_combs.irradiated.name=Облучённые соты
+item.for.bee_combs.mellow.name=Спелые соты
+item.for.bee_combs.mossy.name=Замшелые соты
+item.for.bee_combs.mysterious.name=Таинственные соты
+item.for.bee_combs.omega.name=Омега-соты
+item.for.bee_combs.parched.name=Пересохшие соты
+item.for.bee_combs.powdery.name=Рыхлые соты
+item.for.bee_combs.reddened.name=Покрасневшие соты
+item.for.bee_combs.silky.name=Шелковистые соты
+item.for.bee_combs.simmering.name=Кипящие соты
+item.for.bee_combs.stringy.name=Вязкие соты
+item.for.bee_combs.wheaten.name=Пшеничные соты
 
 item.for.beeswax.name=Пчелиный воск
 
 item.for.beverage.meadCurative.name=Целебный мёд
 item.for.beverage.meadShort.name=Питный мёд
 
-item.for.biomeFinder.name=Определитель ареала
-item.for.bituminousPeat.name=Смолистый торф
-item.for.brokenBronzePickaxe.name=Сломанная кирка
-item.for.brokenBronzeShovel.name=Сломанная лопата
-item.for.bronzePickaxe.name=Кирка выживающего
-item.for.bronzeShovel.name=Лопата выживающего
-item.for.builderBag.name=Рюкзак строителя
-item.for.builderBagT2.name=Тканный рюкзак строителя
+item.for.biome_finder.name=Определитель ареала
+item.for.bituminous_peat.name=Смолистый торф
+item.for.broken_bronze_pickaxe.name=Сломанная кирка
+item.for.broken_bronze_shovel.name=Сломанная лопата
+item.for.bronze_pickaxe.name=Кирка выживающего
+item.for.bronze_shovel.name=Лопата выживающего
+item.for.builder_bag.name=Рюкзак строителя
+item.for.builder_bagT2.name=Тканный рюкзак строителя
 
 item.for.can.empty.name=Банка
 item.for.can.grammar=Банка %s
@@ -531,27 +531,27 @@ item.for.circuitboard.enhanced.name=Продвинутая печатная пл
 item.for.circuitboard.intricate.name=Усложнённая печатная плата
 item.for.circuitboard.refined.name=Усовершенствованная печатная плата
 
-item.for.craftingMaterial.dissipationCharge.name=Рассеивающий заряд
-item.for.craftingMaterial.iceShard.name=Осколок льда
-item.for.craftingMaterial.pulsatingDust.name=Пульсирующая пыль
-item.for.craftingMaterial.pulsatingMesh.name=Пульсирующая сеть
-item.for.craftingMaterial.scentedPaneling.name=Пропитанная обшивка
-item.for.craftingMaterial.silkWisp.name=Клочок шёлка
-item.for.craftingMaterial.wovenSilk.name=Тканый шёлк
+item.for.crafting_material.dissipation_charge.name=Рассеивающий заряд
+item.for.crafting_material.ice_shard.name=Осколок льда
+item.for.crafting_material.pulsating_dust.name=Пульсирующая пыль
+item.for.crafting_material.pulsating_mesh.name=Пульсирующая сеть
+item.for.crafting_material.scented_paneling.name=Пропитанная обшивка
+item.for.crafting_material.silk_wisp.name=Клочок шёлка
+item.for.crafting_material.woven_silk.name=Тканый шёлк
 
 item.for.crate.name=Ящик
 item.for.decayingWheat.name=Загнивающая пшеница
-item.for.diggerBag.name=Рюкзак землекопа
-item.for.diggerBagT2.name=Тканный рюкзак землекопа
+item.for.digger_bag.name=Рюкзак землекопа
+item.for.digger_bagT2.name=Тканный рюкзак землекопа
 
-item.for.fertilizerBio.name=Компост
-item.for.fertilizerCompound.name=Минеральное удобрение
-item.for.foresterBag.name=Рюкзак лесника
-item.for.foresterBagT2.name=Тканный рюкзак лесника
+item.for.fertilizer_bio.name=Компост
+item.for.fertilizer_compound.name=Минеральное удобрение
+item.for.forester_bag.name=Рюкзак лесника
+item.for.forester_bagT2.name=Тканный рюкзак лесника
 
-item.for.frameImpregnated.name=Пропитанная рамка
-item.for.frameProven.name=Проверенная рамка
-item.for.frameUntreated.name=Необработанная рамка
+item.for.frame_impregnated.name=Пропитанная рамка
+item.for.frame_proven.name=Проверенная рамка
+item.for.frame_untreated.name=Необработанная рамка
 
 item.for.fruits.cherry.name=Вишня
 item.for.fruits.chestnut.name=Каштан
@@ -561,43 +561,43 @@ item.for.fruits.papaya.name=Папайя
 item.for.fruits.plum.name=Слива
 item.for.fruits.walnut.name=Грецкий орех
 
-item.for.gearBronze.name=Бронзовая шестерня
-item.for.gearCopper.name=Медная шестерня
-item.for.gearTin.name=Оловянная шестерня
+item.for.gear_bronze.name=Бронзовая шестерня
+item.for.gear_copper.name=Медная шестерня
+item.for.gear_tin.name=Оловянная шестерня
 
-item.for.hardenedMachine.name=Укреплённый корпус
+item.for.hardened_machine.name=Укреплённый корпус
 
 item.for.honeydew.name=Медвяная роса
 
-item.for.honeyDrop.charged.name=Заряженная капля
-item.for.honeyDrop.honey.name=Капля мёда
-item.for.honeyDrop.omega.name=Омега-капля
-item.for.honeyedSlice.name=Бутерброд с мёдом
+item.for.honey_drop.charged.name=Заряженная капля
+item.for.honey_drop.honey.name=Капля мёда
+item.for.honey_drop.omega.name=Омега-капля
+item.for.honeyed_slice.name=Бутерброд с мёдом
 
-item.for.honeyPot.name=Горшочек мёда
-item.for.hunterBag.name=Рюкзак охотника
-item.for.hunterBagT2.name=Тканный рюкзак охотника
+item.for.honey_pot.name=Горшочек мёда
+item.for.hunter_bag.name=Рюкзак охотника
+item.for.hunter_bagT2.name=Тканный рюкзак охотника
 
-item.for.impregnatedCasing.name=Пропитанный корпус
+item.for.impregnated_casing.name=Пропитанный корпус
 item.for.imprinter.name=Импринтер
 item.for.infuser.name=Наполнитель
 
-item.for.ingotBronze.name=Бронзовый слиток
-item.for.ingotCopper.name=Медный слиток
-item.for.ingotTin.name=Оловянный слиток
+item.for.ingot_bronze.name=Бронзовый слиток
+item.for.ingot_copper.name=Медный слиток
+item.for.ingot_tin.name=Оловянный слиток
 
-item.for.iodineCapsule.name=Капсула йода
+item.for.iodine_capsule.name=Капсула йода
 item.for.kitPickaxe.name=Сборная кирка
 item.for.kitShovel.name=Сборная лопата
 item.for.letters.name=Письмо
 
-item.for.minerBag.name=Рюкзак шахтёра
-item.for.minerBagT2.name=Тканный рюкзак шахтёра
+item.for.miner_bag.name=Рюкзак шахтёра
+item.for.miner_bagT2.name=Тканный рюкзак шахтёра
 
-item.for.mouldyWheat.name=Плесневелая пшеница
+item.for.mouldy_wheat.name=Плесневелая пшеница
 item.for.mulch.name=Мульча
-item.for.naturalistHelmet.name=Очки
-item.for.oakStick.name=Полированная палка
+item.for.naturalist_helmet.name=Очки
+item.for.oak_stick.name=Полированная палка
 item.for.peat.name=Торф
 item.for.phosphor.name=Фосфор
 item.for.pipette.name=Пипетка
@@ -613,7 +613,7 @@ item.for.propolis.silky.name=Шелковистый прополис
 item.for.refractory.empty.name=Огнеупорная капсула
 item.for.refractory.grammar=Капсула %s
 
-item.for.refractoryWax.name=Огнеупорный воск
+item.for.refractory_wax.name=Огнеупорный воск
 
 item.for.researchNote.name=Записки игрока %s
 item.for.royalJelly.name=Маточное молочко
@@ -629,30 +629,30 @@ item.for.stamps.50n.name=Почтовая марка (50n)
 item.for.stamps.100n.name=Почтовая марка (100n)
 item.for.stamps.name=Почтовая марка
 
-item.for.sturdyMachine.name=Прочный корпус
+item.for.sturdy_machine.name=Прочный корпус
 
-item.for.thermionicTubes.copper.name=Медная электронная лампа
-item.for.thermionicTubes.tin.name=Оловянная электронная лампа
-item.for.thermionicTubes.bronze.name=Бронзовая электронная лампа
-item.for.thermionicTubes.iron.name=Железная электронная лампа
-item.for.thermionicTubes.gold.name=Золотая электронная лампа
-item.for.thermionicTubes.diamond.name=Алмазная электронная лампа
-item.for.thermionicTubes.obsidian.name=Обсидиановая электронная лампа
-item.for.thermionicTubes.blaze.name=Огненная электронная лампа
-item.for.thermionicTubes.rubber.name=Прорезиненная электронная лампа
-item.for.thermionicTubes.emerald.name=Изумрудная электронная лампа
-item.for.thermionicTubes.apatite.name=Апатитовая электронная лампа
-item.for.thermionicTubes.lapis.name=Лазуритовая электронная лампа
-item.for.thermionicTubes.ender.name=Электронная лампа Края
+item.for.thermionic_tubes.copper.name=Медная электронная лампа
+item.for.thermionic_tubes.tin.name=Оловянная электронная лампа
+item.for.thermionic_tubes.bronze.name=Бронзовая электронная лампа
+item.for.thermionic_tubes.iron.name=Железная электронная лампа
+item.for.thermionic_tubes.gold.name=Золотая электронная лампа
+item.for.thermionic_tubes.diamond.name=Алмазная электронная лампа
+item.for.thermionic_tubes.obsidian.name=Обсидиановая электронная лампа
+item.for.thermionic_tubes.blaze.name=Огненная электронная лампа
+item.for.thermionic_tubes.rubber.name=Прорезиненная электронная лампа
+item.for.thermionic_tubes.emerald.name=Изумрудная электронная лампа
+item.for.thermionic_tubes.apatite.name=Апатитовая электронная лампа
+item.for.thermionic_tubes.lapis.name=Лазуритовая электронная лампа
+item.for.thermionic_tubes.ender.name=Электронная лампа Края
 
 item.for.treealyzer.name=Анализатор деревьев
 
 item.for.capsule.empty.name=Восковая капсула
 item.for.capsule.grammar=Капсула %s
 
-item.for.waxCast.name=Восковая форма
+item.for.wax_cast.name=Восковая форма
 
-item.for.woodPulp.name=Древесная масса
+item.for.wood_Pulp.name=Древесная масса
 item.for.wrench.name=Гаечный ключ
 
 itemGroup.apiculture=Пчеловодство
@@ -689,14 +689,14 @@ tile.for.resources.apatite.name=Апатитовая руда
 tile.for.resources.copper.name=Медная руда
 tile.for.resources.tin.name=Оловянная руда
 
-tile.for.resourceStorage.apatite.name=Апатитовый блок
-tile.for.resourceStorage.copper.name=Медный блок
-tile.for.resourceStorage.tin.name=Оловянный блок
-tile.for.resourceStorage.bronze.name=Бронзовый блок
+tile.for.resource_storage.apatite.name=Апатитовый блок
+tile.for.resource_storage.copper.name=Медный блок
+tile.for.resource_storage.tin.name=Оловянный блок
+tile.for.resource_storage.bronze.name=Бронзовый блок
 
 tile.for.humus.name=Гумус
-tile.for.bogEarth.bog_earth.name=Болотная земля
-tile.for.bogEarth.peat.name=Торф
+tile.for.bog_earth.bog_earth.name=Болотная земля
+tile.for.bog_earth.peat.name=Торф
 
 ####################
 # APICULTURE

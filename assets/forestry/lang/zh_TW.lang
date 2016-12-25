@@ -446,55 +446,55 @@ for.trigger.noFrames=缺乏框架
 
 for.yes=是
 
-item.for.adventurerBag.name=冒險家背包
-item.for.adventurerBagT2.name=冒險家編織背包
+item.for.adventurer_bag.name=冒險家背包
+item.for.adventurer_bagT2.name=冒險家編織背包
 item.for.ambrosia.name=仙饌密酒
 item.for.apatite.name=磷灰石
 
-item.for.apiaristBag.name=養蜂家背包
-item.for.apiaristBoots.name=養蜂家靴子
-item.for.apiaristChest.name=養蜂家襯衣
-item.for.apiaristHelmet.name=養蜂家帽子
-item.for.apiaristLegs.name=養蜂家褲子
+item.for.apiarist_bag.name=養蜂家背包
+item.for.apiarist_boots.name=養蜂家靴子
+item.for.apiarist_chest.name=養蜂家襯衣
+item.for.apiarist_helmet.name=養蜂家帽子
+item.for.apiarist_legs.name=養蜂家褲子
 
 item.for.ash.name=灰燼
 
-item.for.habitatLocator.name=棲息地定位儀
+item.for.habitat_locator.name=棲息地定位儀
 
 item.for.cart.beehouse.name=Minecart with Bee House
 item.for.cart.apiary.name=Minecart with Apiary
 
-item.for.beeCombs.cocoa.name=可可蜂巢
-item.for.beeCombs.darkened.name=暗黑蜂巢
-item.for.beeCombs.dripping.name=滴水蜂巢
-item.for.beeCombs.frozen.name=凍結蜂巢
-item.for.beeCombs.honey.name=蜜蜂蜂巢
-item.for.beeCombs.irradiated.name=輻射蜂巢
-item.for.beeCombs.mellow.name=醇厚蜂巢
-item.for.beeCombs.mossy.name=苔蘚蜂巢
-item.for.beeCombs.mysterious.name=神秘蜂巢
-item.for.beeCombs.omega.name=終結蜂巢
-item.for.beeCombs.parched.name=炎熱蜂巢
-item.for.beeCombs.powdery.name=粉末蜂巢
-item.for.beeCombs.reddened.name=泛紅蜂巢
-item.for.beeCombs.silky.name=絲滑蜂巢
-item.for.beeCombs.simmering.name=激化蜂巢
-item.for.beeCombs.stringy.name=纖維蜂巢
-item.for.beeCombs.wheaten.name=麥香蜂巢
+item.for.bee_combs.cocoa.name=可可蜂巢
+item.for.bee_combs.darkened.name=暗黑蜂巢
+item.for.bee_combs.dripping.name=滴水蜂巢
+item.for.bee_combs.frozen.name=凍結蜂巢
+item.for.bee_combs.honey.name=蜜蜂蜂巢
+item.for.bee_combs.irradiated.name=輻射蜂巢
+item.for.bee_combs.mellow.name=醇厚蜂巢
+item.for.bee_combs.mossy.name=苔蘚蜂巢
+item.for.bee_combs.mysterious.name=神秘蜂巢
+item.for.bee_combs.omega.name=終結蜂巢
+item.for.bee_combs.parched.name=炎熱蜂巢
+item.for.bee_combs.powdery.name=粉末蜂巢
+item.for.bee_combs.reddened.name=泛紅蜂巢
+item.for.bee_combs.silky.name=絲滑蜂巢
+item.for.bee_combs.simmering.name=激化蜂巢
+item.for.bee_combs.stringy.name=纖維蜂巢
+item.for.bee_combs.wheaten.name=麥香蜂巢
 
 item.for.beeswax.name=蜜蠟
 
 item.for.beverage.meadCurative.name=蜂蜜藥酒
 item.for.beverage.meadShort.name=小瓶蜂蜜酒
 
-item.for.biomeFinder.name=棲息地定位儀
-item.for.bituminousPeat.name=瀝青質泥炭
-item.for.brokenBronzePickaxe.name=損壞的鎬
-item.for.brokenBronzeShovel.name=損壞的鏟
-item.for.bronzePickaxe.name=倖存者之鎬
-item.for.bronzeShovel.name=倖存者之鏟
-item.for.builderBag.name=建築師背包
-item.for.builderBagT2.name=建築師編織背包
+item.for.biome_finder.name=棲息地定位儀
+item.for.bituminous_peat.name=瀝青質泥炭
+item.for.broken_bronze_pickaxe.name=損壞的鎬
+item.for.broken_bronze_shovel.name=損壞的鏟
+item.for.bronze_pickaxe.name=倖存者之鎬
+item.for.bronze_shovel.name=倖存者之鏟
+item.for.builder_bag.name=建築師背包
+item.for.builder_bagT2.name=建築師編織背包
 
 item.for.can.empty.name=罐
 item.for.can.grammar=%s罐
@@ -506,28 +506,28 @@ item.for.circuitboard.enhanced.name=中型電路板
 item.for.circuitboard.intricate.name=先進電路板
 item.for.circuitboard.refined.name=大型電路板
 
-item.for.craftingMaterial.dissipationCharge.name=驅雲電荷
-item.for.craftingMaterial.iceShard.name=碎冰
-item.for.craftingMaterial.pulsatingDust.name=脈動之塵
-item.for.craftingMaterial.pulsatingMesh.name=脈動網格
-item.for.craftingMaterial.scentedPaneling.name=飄香鑲板
-item.for.craftingMaterial.camouflagedPaneling.name=Camouflaged Paneling
-item.for.craftingMaterial.silkWisp.name=絲縷
-item.for.craftingMaterial.wovenSilk.name=絲綢
+item.for.crafting_material.dissipation_charge.name=驅雲電荷
+item.for.crafting_material.ice_shard.name=碎冰
+item.for.crafting_material.pulsating_dust.name=脈動之塵
+item.for.crafting_material.pulsating_mesh.name=脈動網格
+item.for.crafting_material.scented_paneling.name=飄香鑲板
+item.for.crafting_material.camouflaged_paneling.name=Camouflaged Paneling
+item.for.crafting_material.silk_wisp.name=絲縷
+item.for.crafting_material.woven_silk.name=絲綢
 
 item.for.crate.name=板條箱
 item.for.decayingWheat.name=腐爛小麥
-item.for.diggerBag.name=挖掘者背包
-item.for.diggerBagT2.name=挖掘者編織背包
+item.for.digger_bag.name=挖掘者背包
+item.for.digger_bagT2.name=挖掘者編織背包
 
-item.for.fertilizerBio.name=堆肥
-item.for.fertilizerCompound.name=肥料
-item.for.foresterBag.name=林業家背包
-item.for.foresterBagT2.name=林業家編織背包
+item.for.fertilizer_bio.name=堆肥
+item.for.fertilizer_compound.name=肥料
+item.for.forester_bag.name=林業家背包
+item.for.forester_bagT2.name=林業家編織背包
 
-item.for.frameImpregnated.name=浸漬框架
-item.for.frameProven.name=標定框架
-item.for.frameUntreated.name=未處理框架
+item.for.frame_impregnated.name=浸漬框架
+item.for.frame_proven.name=標定框架
+item.for.frame_untreated.name=未處理框架
 
 item.for.durability=Durability: %,d
 
@@ -542,46 +542,46 @@ item.for.fruits.papaya.name=木瓜
 item.for.fruits.plum.name=梅子
 item.for.fruits.walnut.name=核桃
 
-item.for.gearBronze.name=青銅齒輪
-item.for.gearCopper.name=銅齒輪
-item.for.gearTin.name=錫齒輪
+item.for.gear_bronze.name=青銅齒輪
+item.for.gear_copper.name=銅齒輪
+item.for.gear_tin.name=錫齒輪
 
-item.for.hardenedMachine.name=強化部件
+item.for.hardened_machine.name=強化部件
 
 item.for.honeydew.name=蜂蜜汁
 
-item.for.portableAlyzer.name=Portable Alyzer
-item.for.portableAlyzer.tooltip=Handheld Genetic Analyzer for bees, trees, and butterflies.
+item.for.portable_alyzer.name=Portable Alyzer
+item.for.portable_alyzer.tooltip=Handheld Genetic Analyzer for bees, trees, and butterflies.
 
-item.for.honeyDrop.charged.name=帶電蜂蜜滴
-item.for.honeyDrop.honey.name=蜂蜜滴
-item.for.honeyDrop.omega.name=終結蜂蜜滴
-item.for.honeyedSlice.name=蜂蜜麵包
+item.for.honey_drop.charged.name=帶電蜂蜜滴
+item.for.honey_drop.honey.name=蜂蜜滴
+item.for.honey_drop.omega.name=終結蜂蜜滴
+item.for.honeyed_slice.name=蜂蜜麵包
 
-item.for.honeyPot.name=蜜罐
-item.for.hunterBag.name=狩獵者背包
-item.for.hunterBagT2.name=狩獵者編織背包
+item.for.honey_pot.name=蜜罐
+item.for.hunter_bag.name=狩獵者背包
+item.for.hunter_bagT2.name=狩獵者編織背包
 
-item.for.impregnatedCasing.name=浸漬部件
+item.for.impregnated_casing.name=浸漬部件
 item.for.imprinter.name=染色體變換儀
 item.for.infuser.name=灌注器
 
-item.for.ingotBronze.name=青銅錠
-item.for.ingotCopper.name=銅錠
-item.for.ingotTin.name=錫錠
+item.for.ingot_bronze.name=青銅錠
+item.for.ingot_copper.name=銅錠
+item.for.ingot_tin.name=錫錠
 
-item.for.iodineCapsule.name=碘酒膠囊
+item.for.iodine_capsule.name=碘酒膠囊
 item.for.kitPickaxe.name=鎬子應急袋
 item.for.kitShovel.name=鏟子應急袋
 item.for.letters.name=信件
 
-item.for.minerBag.name=採礦者背包
-item.for.minerBagT2.name=採礦者編織背包
+item.for.miner_bag.name=採礦者背包
+item.for.miner_bagT2.name=採礦者編織背包
 
-item.for.mouldyWheat.name=發霉小麥
+item.for.mouldy_wheat.name=發霉小麥
 item.for.mulch.name=覆蓋戍
-item.for.naturalistHelmet.name=眼鏡
-item.for.oakStick.name=浸漬木棍
+item.for.naturalist_helmet.name=眼鏡
+item.for.oak_stick.name=浸漬木棍
 item.for.peat.name=泥炭
 item.for.phosphor.name=螢光粉
 item.for.pipette.name=移液管
@@ -597,7 +597,7 @@ item.for.propolis.sticky.name=粘性蜂膠
 item.for.refractory.empty.name=耐火膠囊
 item.for.refractory.grammar=耐火%s膠囊
 
-item.for.refractoryWax.name=耐火石蠟
+item.for.refractory_wax.name=耐火石蠟
 
 item.for.researchNote.name=%s的筆記
 item.for.royalJelly.name=蜂王漿
@@ -615,28 +615,28 @@ item.for.stamps.50n.name=郵票(50n)
 item.for.stamps.100n.name=郵票(100n)
 item.for.stamps.name=郵票
 
-item.for.sturdyMachine.name=堅固部件
+item.for.sturdy_machine.name=堅固部件
 
-item.for.thermionicTubes.copper.name=銅真空管
-item.for.thermionicTubes.tin.name=錫真空管
-item.for.thermionicTubes.bronze.name=青銅真空管
-item.for.thermionicTubes.iron.name=鐵真空管
-item.for.thermionicTubes.gold.name=金真空管
-item.for.thermionicTubes.diamond.name=鑽石真空管
-item.for.thermionicTubes.obsidian.name=黑曜石真空管
-item.for.thermionicTubes.blaze.name=烈焰真空管
-item.for.thermionicTubes.rubber.name=橡膠真空管
-item.for.thermionicTubes.emerald.name=綠寶石真空管
-item.for.thermionicTubes.apatite.name=磷灰石真空管
-item.for.thermionicTubes.lapis.name=青金石真空管
-item.for.thermionicTubes.ender.name=終界真空管
+item.for.thermionic_tubes.copper.name=銅真空管
+item.for.thermionic_tubes.tin.name=錫真空管
+item.for.thermionic_tubes.bronze.name=青銅真空管
+item.for.thermionic_tubes.iron.name=鐵真空管
+item.for.thermionic_tubes.gold.name=金真空管
+item.for.thermionic_tubes.diamond.name=鑽石真空管
+item.for.thermionic_tubes.obsidian.name=黑曜石真空管
+item.for.thermionic_tubes.blaze.name=烈焰真空管
+item.for.thermionic_tubes.rubber.name=橡膠真空管
+item.for.thermionic_tubes.emerald.name=綠寶石真空管
+item.for.thermionic_tubes.apatite.name=磷灰石真空管
+item.for.thermionic_tubes.lapis.name=青金石真空管
+item.for.thermionic_tubes.ender.name=終界真空管
 
 item.for.capsule.empty.name=石蠟膠囊
 item.for.capsule.grammar=%s膠囊
 
-item.for.waxCast.name=打蠟工具
+item.for.wax_cast.name=打蠟工具
 
-item.for.woodPulp.name=木漿
+item.for.wood_Pulp.name=木漿
 item.for.wrench.name=扳手
 
 itemGroup.apiculture=林業|養蜂
@@ -678,14 +678,14 @@ tile.for.resources.apatite.name=磷礦石
 tile.for.resources.copper.name=銅礦石
 tile.for.resources.tin.name=錫礦石
 
-tile.for.resourceStorage.apatite.name=磷灰石塊
-tile.for.resourceStorage.copper.name=銅塊
-tile.for.resourceStorage.tin.name=錫塊
-tile.for.resourceStorage.bronze.name=青銅塊
+tile.for.resource_storage.apatite.name=磷灰石塊
+tile.for.resource_storage.copper.name=銅塊
+tile.for.resource_storage.tin.name=錫塊
+tile.for.resource_storage.bronze.name=青銅塊
 
 tile.for.humus.name=腐殖土
-tile.for.bogEarth.bog_earth.name=沼澤泥
-tile.for.bogEarth.peat.name=泥炭
+tile.for.bog_earth.bog_earth.name=沼澤泥
+tile.for.bog_earth.peat.name=泥炭
 
 ################
 # ERRORS
@@ -1754,7 +1754,7 @@ nei.subsets.Forestry.Trees.Saplings=樹苗
 ####################
 for.jei.description.frames=Place Forestry Frames in an Apiary to improve the bees' production rate and reduce the genetic decay of Ignoble bees.
 for.jei.description.apiarist.suit=Pieces of the Apiarist's Suit protect the wearer from negative bee effects. A full suit offers complete protection.
-for.jei.description.habitatLocator=The Habitat Locator searches for the closest ideal habitat for a bee. When it has located a spot, it will point the way there. When the current location is ideal, it will spin steadily.
+for.jei.description.habitat_locator=The Habitat Locator searches for the closest ideal habitat for a bee. When it has located a spot, it will point the way there. When the current location is ideal, it will spin steadily.
 for.jei.description.scoop=The Scoop is used to break bee hives found in the world, it will collect the bees inside. It can also be used to catch butterflies by right-clicking them.
 
 ####################

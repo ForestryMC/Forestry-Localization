@@ -331,7 +331,7 @@ for.gui.warm=温暖
 for.gui.water=水域
 for.gui.worker=工蜂
 
-for.gui.camouflage.spray.can=伪装洒水壶
+for.gui.camouflage_spray_can=伪装洒水壶
 
 for.hints.apiaristsuit.desc=全副武装让你远离蜜蜂带来的各种负面状态。
 for.hints.apiaristsuit.tag=养蜂套装！
@@ -451,49 +451,49 @@ for.yes=是
 item.for.ambrosia.name=仙馔密酒
 item.for.apatite.name=磷灰石
 
-item.for.apiaristBag.name=养蜂员背包
-item.for.apiaristBoots.name=养蜂员靴子
-item.for.apiaristChest.name=养蜂员衬衣
-item.for.apiaristHelmet.name=养蜂员帽子
-item.for.apiaristLegs.name=养蜂员裤子
+item.for.apiarist_bag.name=养蜂员背包
+item.for.apiarist_boots.name=养蜂员靴子
+item.for.apiarist_chest.name=养蜂员衬衣
+item.for.apiarist_helmet.name=养蜂员帽子
+item.for.apiarist_legs.name=养蜂员裤子
 
 item.for.ash.name=灰烬
 tile.for.pile_ash.name=灰烬堆
 
-item.for.habitatLocator.name=栖息地定位仪
+item.for.habitat_locator.name=栖息地定位仪
 
 item.for.cart.beehouse.name=蜂房车
 item.for.cart.apiary.name=蜂箱车
 
-item.for.beeCombs.cocoa.name=可可蜂窝
-item.for.beeCombs.darkened.name=暗黑蜂窝
-item.for.beeCombs.dripping.name=滴水蜂窝
-item.for.beeCombs.frozen.name=冻结蜂窝
-item.for.beeCombs.honey.name=蜜蜂蜂窝
-item.for.beeCombs.irradiated.name=辐射蜂窝
-item.for.beeCombs.mellow.name=醇厚蜂窝
-item.for.beeCombs.mossy.name=苔藓蜂窝
-item.for.beeCombs.mysterious.name=神秘蜂窝
-item.for.beeCombs.omega.name=终结蜂窝
-item.for.beeCombs.parched.name=炎热蜂窝
-item.for.beeCombs.powdery.name=粉末蜂窝
-item.for.beeCombs.reddened.name=泛红蜂窝
-item.for.beeCombs.silky.name=丝滑蜂窝
-item.for.beeCombs.simmering.name=激化蜂窝
-item.for.beeCombs.stringy.name=纤维蜂窝
-item.for.beeCombs.wheaten.name=麦香蜂窝
+item.for.bee_combs.cocoa.name=可可蜂窝
+item.for.bee_combs.darkened.name=暗黑蜂窝
+item.for.bee_combs.dripping.name=滴水蜂窝
+item.for.bee_combs.frozen.name=冻结蜂窝
+item.for.bee_combs.honey.name=蜜蜂蜂窝
+item.for.bee_combs.irradiated.name=辐射蜂窝
+item.for.bee_combs.mellow.name=醇厚蜂窝
+item.for.bee_combs.mossy.name=苔藓蜂窝
+item.for.bee_combs.mysterious.name=神秘蜂窝
+item.for.bee_combs.omega.name=终结蜂窝
+item.for.bee_combs.parched.name=炎热蜂窝
+item.for.bee_combs.powdery.name=粉末蜂窝
+item.for.bee_combs.reddened.name=泛红蜂窝
+item.for.bee_combs.silky.name=丝滑蜂窝
+item.for.bee_combs.simmering.name=激化蜂窝
+item.for.bee_combs.stringy.name=纤维蜂窝
+item.for.bee_combs.wheaten.name=麦香蜂窝
 
 item.for.beeswax.name=蜂蜡
 
 item.for.beverage.meadCurative.name=蜂蜜药酒
 item.for.beverage.meadShort.name=小瓶蜂蜜酒
 
-item.for.biomeFinder.name=栖息地定位仪
-item.for.bituminousPeat.name=沥青质泥炭
-item.for.brokenBronzePickaxe.name=损坏的镐
-item.for.brokenBronzeShovel.name=损坏的锹
-item.for.bronzePickaxe.name=幸存者之镐
-item.for.bronzeShovel.name=幸存者之锹
+item.for.biome_finder.name=栖息地定位仪
+item.for.bituminous_peat.name=沥青质泥炭
+item.for.broken_bronze_pickaxe.name=损坏的镐
+item.for.broken_bronze_shovel.name=损坏的锹
+item.for.bronze_pickaxe.name=幸存者之镐
+item.for.bronze_shovel.name=幸存者之锹
 
 item.for.can.empty.name=罐
 item.for.can.grammar=%s罐
@@ -507,25 +507,25 @@ item.for.circuitboard.refined.name=大型电子板
 item.for.circuitboard.tooltip.singular=安装有%s个电子管。
 item.for.circuitboard.tooltip.plural=安装有%s个电子管。
 
-item.for.craftingMaterial.dissipationCharge.name=驱云电荷
-item.for.craftingMaterial.dissipationCharge.tooltip=在造雨机里用这个可以停雨。
-item.for.craftingMaterial.iceShard.name=碎冰
-item.for.craftingMaterial.pulsatingDust.name=脉动之尘
-item.for.craftingMaterial.pulsatingMesh.name=脉动网格
-item.for.craftingMaterial.scentedPaneling.name=飘香镶板
-item.for.craftingMaterial.camouflagedPaneling.name=伪装镶板
-item.for.craftingMaterial.silkWisp.name=丝缕
-item.for.craftingMaterial.wovenSilk.name=丝绸
+item.for.crafting_material.dissipation_charge.name=驱云电荷
+item.for.crafting_material.dissipation_charge.tooltip=在造雨机里用这个可以停雨。
+item.for.crafting_material.ice_shard.name=碎冰
+item.for.crafting_material.pulsating_dust.name=脉动之尘
+item.for.crafting_material.pulsating_mesh.name=脉动网格
+item.for.crafting_material.scented_paneling.name=飘香镶板
+item.for.crafting_material.camouflaged_paneling.name=伪装镶板
+item.for.crafting_material.silk_wisp.name=丝缕
+item.for.crafting_material.woven_silk.name=丝绸
 
 item.for.crate.name=板条箱
 item.for.decayingWheat.name=腐烂小麦
 
-item.for.fertilizerBio.name=堆肥
-item.for.fertilizerCompound.name=肥料
+item.for.fertilizer_bio.name=堆肥
+item.for.fertilizer_compound.name=肥料
 
-item.for.frameImpregnated.name=浸渍框架
-item.for.frameProven.name=标定框架
-item.for.frameUntreated.name=未处理框架
+item.for.frame_impregnated.name=浸渍框架
+item.for.frame_proven.name=标定框架
+item.for.frame_untreated.name=未处理框架
 
 item.for.durability=耐久：%,d
 item.for.uses=可使用次数：%,d
@@ -541,43 +541,43 @@ item.for.fruits.papaya.name=木瓜
 item.for.fruits.plum.name=李子
 item.for.fruits.walnut.name=核桃
 
-item.for.gearBronze.name=青铜齿轮
-item.for.gearCopper.name=铜齿轮
-item.for.gearTin.name=锡齿轮
+item.for.gear_bronze.name=青铜齿轮
+item.for.gear_copper.name=铜齿轮
+item.for.gear_tin.name=锡齿轮
 
-item.for.hardenedMachine.name=强化部件
+item.for.hardened_machine.name=强化部件
 
 item.for.honeydew.name=蜂蜜汁
 
-item.for.portableAlyzer.name=便携式多用分析仪
-item.for.portableAlyzer.tooltip=可随时随地分析蜜蜂、树苗和蝴蝶的基因数据。
+item.for.portable_alyzer.name=便携式多用分析仪
+item.for.portable_alyzer.tooltip=可随时随地分析蜜蜂、树苗和蝴蝶的基因数据。
 
-item.for.honeyDrop.charged.name=带电蜂蜜滴
-item.for.honeyDrop.honey.name=蜂蜜滴
-item.for.honeyDrop.omega.name=终结蜂蜜滴
-item.for.honeyedSlice.name=蜂蜜面包
+item.for.honey_drop.charged.name=带电蜂蜜滴
+item.for.honey_drop.honey.name=蜂蜜滴
+item.for.honey_drop.omega.name=终结蜂蜜滴
+item.for.honeyed_slice.name=蜂蜜面包
 
-item.for.honeyPot.name=蜜罐
+item.for.honey_pot.name=蜜罐
 
-item.for.impregnatedCasing.name=浸渍部件
+item.for.impregnated_casing.name=浸渍部件
 item.for.imprinter.name=染色体变换仪
 item.for.infuser.name=灌注器
 
-item.for.ingotBronze.name=青铜锭
-item.for.ingotCopper.name=铜锭
-item.for.ingotTin.name=锡锭
+item.for.ingot_bronze.name=青铜锭
+item.for.ingot_copper.name=铜锭
+item.for.ingot_tin.name=锡锭
 
-item.for.iodineCapsule.name=碘酒胶囊
-item.for.iodineCapsule.tooltip=在造雨机里用这个可以造雨。
+item.for.iodine_capsule.name=碘酒胶囊
+item.for.iodine_capsule.tooltip=在造雨机里用这个可以造雨。
 item.for.kitPickaxe.name=镐应急袋
 item.for.kitShovel.name=锹应急袋
 item.for.letters.name=信件
 
-item.for.mouldyWheat.name=发霉小麦
+item.for.mouldy_wheat.name=发霉小麦
 item.for.mulch.name=覆盖戍
-item.for.naturalistHelmet.name=眼镜
-item.for.naturalistHelmet.tooltip=戴上这个就可以看出哪些叶子经过授粉。
-item.for.oakStick.name=浸渍木棍
+item.for.naturalist_helmet.name=眼镜
+item.for.naturalist_helmet.tooltip=戴上这个就可以看出哪些叶子经过授粉。
+item.for.oak_stick.name=浸渍木棍
 item.for.peat.name=泥炭
 item.for.phosphor.name=荧光粉
 item.for.pipette.name=移液管
@@ -593,8 +593,8 @@ item.for.propolis.sticky.name=粘性蜂胶
 item.for.refractory.empty.name=耐火胶囊
 item.for.refractory.grammar=耐火%s胶囊
 
-item.for.refractoryWax.name=耐火蜂蜡
-item.for.refractoryWax.tooltip=具有高熔点的蜂蜡。
+item.for.refractory_wax.name=耐火蜂蜡
+item.for.refractory_wax.tooltip=具有高熔点的蜂蜡。
 
 item.for.researchNote.name=%s之笔记
 item.for.researchNote.tooltip=用这个就可以获得对应的知识。
@@ -615,29 +615,29 @@ item.for.stamps.50n.name=邮票(50n)
 item.for.stamps.100n.name=邮票(100n)
 item.for.stamps.name=邮票
 
-item.for.sturdyMachine.name=坚固部件
+item.for.sturdy_machine.name=坚固部件
 
-item.for.thermionicTubes.copper.name=铜电子管
-item.for.thermionicTubes.tin.name=锡电子管
-item.for.thermionicTubes.bronze.name=青铜电子管
-item.for.thermionicTubes.iron.name=铁电子管
-item.for.thermionicTubes.gold.name=金电子管
-item.for.thermionicTubes.diamond.name=钻石电子管
-item.for.thermionicTubes.obsidian.name=黑曜石电子管
-item.for.thermionicTubes.blaze.name=烈焰电子管
-item.for.thermionicTubes.rubber.name=橡胶电子管
-item.for.thermionicTubes.emerald.name=绿宝石电子管
-item.for.thermionicTubes.apatite.name=磷灰石电子管
-item.for.thermionicTubes.lapis.name=青金石电子管
-item.for.thermionicTubes.ender.name=末影电子管
+item.for.thermionic_tubes.copper.name=铜电子管
+item.for.thermionic_tubes.tin.name=锡电子管
+item.for.thermionic_tubes.bronze.name=青铜电子管
+item.for.thermionic_tubes.iron.name=铁电子管
+item.for.thermionic_tubes.gold.name=金电子管
+item.for.thermionic_tubes.diamond.name=钻石电子管
+item.for.thermionic_tubes.obsidian.name=黑曜石电子管
+item.for.thermionic_tubes.blaze.name=烈焰电子管
+item.for.thermionic_tubes.rubber.name=橡胶电子管
+item.for.thermionic_tubes.emerald.name=绿宝石电子管
+item.for.thermionic_tubes.apatite.name=磷灰石电子管
+item.for.thermionic_tubes.lapis.name=青金石电子管
+item.for.thermionic_tubes.ender.name=末影电子管
 
 item.for.capsule.empty.name=蜂蜡胶囊
 item.for.capsule.tooltip=不能存储高温液体
 item.for.capsule.grammar=%s胶囊
 
-item.for.waxCast.name=打蜡工具
+item.for.wax_cast.name=打蜡工具
 
-item.for.woodPulp.name=木浆
+item.for.wood_Pulp.name=木浆
 item.for.wrench.name=扳手
 item.for.wrench.tooltip=按住Shift右击可旋转方块
 
@@ -683,32 +683,32 @@ tile.for.resources.apatite.name=磷矿石
 tile.for.resources.copper.name=铜矿石
 tile.for.resources.tin.name=锡矿石
 
-tile.for.resourceStorage.apatite.name=磷灰石块
-tile.for.resourceStorage.copper.name=铜块
-tile.for.resourceStorage.tin.name=锡块
-tile.for.resourceStorage.bronze.name=青铜块
+tile.for.resource_storage.apatite.name=磷灰石块
+tile.for.resource_storage.copper.name=铜块
+tile.for.resource_storage.tin.name=锡块
+tile.for.resource_storage.bronze.name=青铜块
 
 tile.for.humus.name=腐殖土
-tile.for.bogEarth.bog_earth.name=沼泽泥
-tile.for.bogEarth.peat.name=泥炭
+tile.for.bog_earth.bog_earth.name=沼泽泥
+tile.for.bog_earth.peat.name=泥炭
 
-item.for.adventurerBag.name=冒险家背包
-item.for.adventurerBagT2.name=冒险家编织背包
+item.for.adventurer_bag.name=冒险家背包
+item.for.adventurer_bagT2.name=冒险家编织背包
 
-item.for.builderBag.name=建筑师背包
-item.for.builderBagT2.name=建筑师编织背包
+item.for.builder_bag.name=建筑师背包
+item.for.builder_bagT2.name=建筑师编织背包
 
-item.for.diggerBag.name=挖掘者背包
-item.for.diggerBagT2.name=挖掘者编织背包
+item.for.digger_bag.name=挖掘者背包
+item.for.digger_bagT2.name=挖掘者编织背包
 
-item.for.foresterBag.name=林业员背包
-item.for.foresterBagT2.name=林业员编织背包
+item.for.forester_bag.name=林业员背包
+item.for.forester_bagT2.name=林业员编织背包
 
-item.for.hunterBag.name=狩猎者背包
-item.for.hunterBagT2.name=狩猎者编织背包
+item.for.hunter_bag.name=狩猎者背包
+item.for.hunter_bagT2.name=狩猎者编织背包
 
-item.for.minerBag.name=采矿者背包
-item.for.minerBagT2.name=采矿者编织背包
+item.for.miner_bag.name=采矿者背包
+item.for.miner_bagT2.name=采矿者编织背包
 
 ################
 # ERRORS
@@ -1778,7 +1778,7 @@ nei.subsets.Forestry.Trees.Saplings=树苗
 ####################
 for.jei.description.frames=将林业框架置于蜂房中，可提高蜜蜂产物的产量，或降低由基因损伤导致的卑贱种出现概率。
 for.jei.description.apiarist.suit=每一件养蜂人套装都可以保护养蜂人免受蜜蜂的负面效果。全套养蜂人套装可提供完全保护。
-for.jei.description.habitatLocator=栖息地定位仪可为指定蜜蜂搜索最近的理想栖息地。当它定位成功后，它的指针会指向定位到的地点。若当前地点即为理想栖息地，其指针会不停转动。
+for.jei.description.habitat_locator=栖息地定位仪可为指定蜜蜂搜索最近的理想栖息地。当它定位成功后，它的指针会指向定位到的地点。若当前地点即为理想栖息地，其指针会不停转动。
 for.jei.description.scoop=捕蜂网可用于破坏野生的蜂巢，并收集其中的蜜蜂。它也可用于收集蝴蝶：只需右击蝴蝶即可捕捉。
 +for.jei.description.imprinter=创造模式专用，可获得任意种类的蜜蜂。
 
@@ -1786,15 +1786,15 @@ for.jei.description.infuser=用于向蜂蜜酒中加入花粉，以制得蜂蜜�
 
 for.jei.description.chipsets=用电烙铁可为电子板安装各式电子管。安装完电子管后，电子板便可通过GUI插入机器的电子板插槽中使用。用电烙铁可将电子板从插槽中拆除。
 for.jei.description.solderingIron=手持电烙铁右击，即可打开焊接界面，在这个界面中你可以选择制作各式电子板，并将各式电子管焊接在电子板上。它还可以用于从机器插槽中拆除电子板。
-for.jei.description.thermionicTubes=用电烙铁可将电子管焊在电子板上。每种电子管的具体作用可在电烙铁焊接界面中选择，并显示在其信息提示上。电子管焊接到电子板上后便无法取下。
+for.jei.description.thermionic_tubes=用电烙铁可将电子管焊在电子板上。每种电子管的具体作用可在电烙铁焊接界面中选择，并显示在其信息提示上。电子管焊接到电子板上后便无法取下。
 for.jei.description.humus=一种肥力高的土，植物生长在上面时不需要附近有水。肥力会随时间推移而下降，最终变成沙子。
-for.jei.description.bogEarth=在附近有水的湿润环境下可缓慢变成泥炭。
+for.jei.description.bog_earth=在附近有水的湿润环境下可缓慢变成泥炭。
 for.jei.description.analyzer=便携式多用分析仪的方块版本，需要蜂蜜液体和能量方可工作。
 for.jei.description.escritoire=这是一个研究蜜蜂、树木和蝴蝶变异的小游戏。从中可得到研究笔记和其它奖励，其中研究笔记可用于提高变异概率。
 for.jei.description.pipette=一个可吸取少量液体的滴管。在林业设备的GUI中，可直接清空储罐，亦可将滴管中液体滴入储罐。
 for.jei.description.kitShovel=油纸包好的可堆叠包裹，每个包裹中都有一个幸存者之锹。右击可拆开包裹。
 for.jei.description.kitPickaxe=油纸包好的可堆叠包裹，每个包裹中都有一个幸存者之镐。右击可拆开包裹。
-for.jei.description.fertilizerCompound=高效肥料。可当作骨粉使用。林业的多功能农场运转时需要此种肥料。
+for.jei.description.fertilizer_compound=高效肥料。可当作骨粉使用。林业的多功能农场运转时需要此种肥料。
 
 for.jei.description.raintank=收集雨水。底面可自动输出水。
 for.jei.description.worktable=一个带内部存储的高级工作台。可记住9个合成表。同时拥有在遇到合成冲突时选择合成结果的功能。
@@ -1806,13 +1806,13 @@ for.jei.description.mailbox=允许玩家向贸易站发信，从而与其它玩�
 for.jei.description.trade_station=一个可以自动处理玩家间贸易请求的邮箱。
 for.jei.description.stamp_collector=创造模式专用，用于收集所有使用过的邮票。可用于服务器中建立基于邮票的经济体系。
 
-for.jei.description.adventurerBag=额外背包空间，其可存储的物品可在/config/forestry/backpacks.cfg修改。
-for.jei.description.builderBag=额外背包空间，可自动捡起建筑相关的物品。
-for.jei.description.diggerBag=额外背包空间，可自动捡起挖矿时挖到的泥土、石头等压仓库的物品。
-for.jei.description.foresterBag=额外背包空间，可自动捡起植物相关的物品。
-for.jei.description.hunterBag=额外背包空间，可自动捡起怪物掉落物。
-for.jei.description.minerBag=额外背包空间，可自动捡起有价值的矿物。
-for.jei.description.apiaristBag=额外背包空间，专用于存储蜜蜂。
+for.jei.description.adventurer_bag=额外背包空间，其可存储的物品可在/config/forestry/backpacks.cfg修改。
+for.jei.description.builder_bag=额外背包空间，可自动捡起建筑相关的物品。
+for.jei.description.digger_bag=额外背包空间，可自动捡起挖矿时挖到的泥土、石头等压仓库的物品。
+for.jei.description.forester_bag=额外背包空间，可自动捡起植物相关的物品。
+for.jei.description.hunter_bag=额外背包空间，可自动捡起怪物掉落物。
+for.jei.description.miner_bag=额外背包空间，可自动捡起有价值的矿物。
+for.jei.description.apiarist_bag=额外背包空间，专用于存储蜜蜂。
 for.jei.description.lepidopteristBag=额外背包空间，专用于存储蝴蝶。
 
 ####################
