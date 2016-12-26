@@ -642,7 +642,7 @@ item.for.wood_Pulp.name=Holzbrei
 item.for.wrench.name=Schraubenschlüssel
 item.for.wrench.tooltip=Shift-Kick zum Rotieren von Blöcken.
 
-item.for.camouflageSprayCan.name=Tarnspraydose
+item.for.camouflage_spray_can.name=Tarnspraydose
 
 itemGroup.apiculture=Bienenzucht
 itemGroup.arboriculture=Baumzucht
@@ -1366,9 +1366,9 @@ tile.for.greenhouse.butterfly_hatch.name=Gewächshaus-Schmetterlingsluke
 tile.for.greenhouse.valve.name=Gewächshaus-Durchlassventil
 tile.for.greenhouse.fan.name=Ventilator (Gewächshaus)
 tile.for.greenhouse.heater.name=Heizung (Gewächshaus)
-tile.for.greenhouse.dryer.name=Trockner (Gewächshaus)
+tile.for.greenhouse.dehumidifier.name=Luftentfeuchter (Gewächshaus)
+tile.for.greenhouse.humidifier.name=Luftbefeuchter (Gewächshaus)
 tile.for.greenhouse.control.name=Gewächshauskontrolle
-tile.for.greenhouse.sprinkler.name=Sprinkler (Gewächshaus)
 tile.for.greenhouse.door.name=Gewächshaustür
 tile.for.greenhouse.climate_control.name=Gewächshaus-Klimabox
 tile.for.greenhouse.window_up.name=Gewächshaus-Dachfenster
