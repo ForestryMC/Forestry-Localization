@@ -1045,6 +1045,7 @@ item.for.beePrincessGE.name=未知公主蜂
 item.for.beeDroneGE.name=未知雄蜂
 item.for.beeQueenGE.name=未知蜂后
 
+tile.for.alveary.tooltip=多方块结构，体积3x3x3，顶部以3x1x3任意木台阶覆盖。
 tile.for.alveary.plain.name=蜂箱组
 tile.for.alveary.swarmer.name=蜂箱组克隆盒
 tile.for.alveary.fan.name=蜂箱组风扇
@@ -1097,7 +1098,7 @@ for.multiblock.farm.error.needPlainBand=这个农场的第三层必须全部是�
 for.multiblock.farm.error.needPlainInterior=这个农场的内部必须全部是普通农场方块。
 for.multiblock.farm.error.needGearbox=这个农场还需要一个齿轮箱才能输入能源并开始工作。
 
-for.multiblock.greenhouse.error.space.closed=温室须为一全封闭环境。请检查是否还有缺漏的方块。
+for.multiblock.greenhouse.error.space.closed=温室须为一全封闭环境。请检查是否还有缺失或遗漏的方块。
 for.multiblock.greenhouse.error.butterflyhatch.toomany=温室最多只能安装一个蝴蝶箱。
 
 for.multiblock.charcoal.pile.error.invalid.exterior=位于 %d, %d, %d 的方块不是壤土。
@@ -1342,6 +1343,9 @@ for.trigger.lowFertilizer=肥料
 for.trigger.lowLiquid=蓄水槽
 for.trigger.lowSoil=土壤
 
+tile.for.ffarm.tooltip=多方块结构，体积3x4x3 - 5x4x5不定
+tile.for.ffarm.material.tooltip=制作材料：
+
 tile.for.ffarm.0.name=农场方块
 tile.for.ffarm.2.name=农场齿轮箱
 tile.for.ffarm.3.name=农场出货箱
@@ -1356,6 +1360,8 @@ tile.for.mushroom.1.name=蘑菇
 ####################
 for.gui.greenhouse.title=温室
 
+tile.for.greenhouse.tooltip=多方块结构，体积5x5x5 - 64x150x64不定，中空，顶部可自定义，惟需其面积不大于温室本体。
+tile.for.greenhouse.camouflage.tooltip=该方块可被伪装 - 这意味着您可以将其伪装成别的方块的样子。
 tile.for.greenhouse.plain.name=温室方块
 tile.for.greenhouse.glass.name=温室玻璃幕墙
 tile.for.greenhouse.gearbox.name=温室齿轮箱
@@ -1365,6 +1371,8 @@ tile.for.greenhouse.butterfly_hatch.name=温室蝴蝶箱
 tile.for.greenhouse.valve.name=温室水阀
 tile.for.greenhouse.fan.name=温室风扇
 tile.for.greenhouse.heater.name=温室加热器
+tile.for.greenhouse.dehumidifier.name=温室除湿器
+tile.for.greenhouse.humidifier.name=温室加湿器
 tile.for.greenhouse.control.name=温室控制器
 tile.for.greenhouse.door.name=温室大门
 tile.for.greenhouse.climate_control.name=温室气候控制设备
@@ -1526,6 +1534,7 @@ for.plugin.immersiveengineering.description=Immersive Engineering(沉浸工程)�
 for.plugin.growthcraft.description=生长工艺(GrowthCraft)兼容组件。
 for.plugin.erebus.description=Erebus兼容组件。
 for.plugin.rotarycraft.description=旋转工艺(RotaryCraft)兼容组件。
+for.plugin.actuallyadditions.description=实用扩展(Actually Additions)兼容组件。
 
 ####################
 # CONFIG FILES
@@ -1618,6 +1627,8 @@ for.config.structures=多方块结构
 for.config.structures.disabled=禁用多方块结构
 for.config.structures.disabled.comment=禁用多方块结构的列表。
 
+for.config.farm.fertilizers.items=为林业添加可用的肥料种类。按下面格式进行添加：'modid:name:meta;fertilizerValue'，按行分割。
+
 for.config.fluids=流体
 for.config.fluids.enable.format=启用%s流体。
 for.config.fluid.blocks=流体方块
@@ -1654,7 +1665,7 @@ for.config.backpacks.ore.dict.format=在此添加%s的背包对矿物字典的�
 for.config.gamemode=游戏模式
 
 for.config.gamemode.energy.demand.modifier.comment=修改机器运行时的能量需求量，最大能源接受速率和最大能源存储量。
-for.config.gamemode.farms.fertilizer.value.comment=修改一份肥料可供农场运行的时间。
+for.config.gamemode.farms.fertilizer.modifier.value.comment=修改一份肥料可供农场运行的时间。
 
 for.config.gamemode.fuel.ethanol.generator.comment=修改乙醇在生物质发电机里的产能数量。
 for.config.gamemode.fuel.ethanol.combustion.comment=修改乙醇在Bulidcraft的燃烧引擎里的产能数量。
@@ -1750,26 +1761,6 @@ for.config.gamemode.energy.engine.clockwork.comment=启用发条引擎。
 # tile.for.slab.5.name=Wenge Wood Slab
 # tile.for.log.10.name=Mahogany Wood
 # tile.for.fences.0.name=Larch Fence
-
-####################
-# NEI Categories
-####################
-
-nei.subsets.Forestry=林业
-nei.subsets.Forestry.Bees=蜜蜂
-nei.subsets.Forestry.Bees.Combs=蜂巢
-nei.subsets.Forestry.Bees.Drones=雄蜂
-nei.subsets.Forestry.Bees.Princesses=公主蜂
-nei.subsets.Forestry.Bees.Queens=蜂后
-nei.subsets.Forestry.Blocks=方块
-nei.subsets.Forestry.Butterflies=蝴蝶
-nei.subsets.Forestry.Butterflies.Butterflies=蝴蝶
-nei.subsets.Forestry.Butterflies.Caterpillars=毛虫
-nei.subsets.Forestry.Butterflies.Serums=血清
-nei.subsets.Forestry.Items=物品
-nei.subsets.Forestry.Trees=树木
-nei.subsets.Forestry.Trees.Pollen=花粉
-nei.subsets.Forestry.Trees.Saplings=树苗
 
 ####################
 # JEI Descriptions
