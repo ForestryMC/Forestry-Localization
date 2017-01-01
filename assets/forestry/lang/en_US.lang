@@ -576,7 +576,7 @@ item.for.letters.name=Letter
 item.for.mouldy_wheat.name=Mouldy Wheat
 item.for.mulch.name=Mulch
 item.for.naturalist_helmet.name=Spectacles
-item.for.naturalist_helmet.tooltip=Wear to see pollinated leaves.
+item.for.naturalist_helmet.tooltip=Wear to see pollinated leaves and errors on multiblocks.
 item.for.oak_stick.name=Impregnated Stick
 item.for.peat.name=Peat
 item.for.phosphor.name=Phosphor
@@ -1358,7 +1358,7 @@ tile.for.mushroom.1.name=Mushroom
 ####################
 for.gui.greenhouse.title=Greenhouse
 
-tile.for.greenhouse.tooltip=Multi-Block: 5x5x5 - 64x150x64  (Hollow) with a custom roof, that is not biger than the base.
+tile.for.greenhouse.tooltip=Multi-Block: 5x5x5 - 64x150x64  (Hollow) with a custom roof, that is not bigger than the base.
 tile.for.greenhouse.camouflage.tooltip=This block can be camouflaged, that means that you can customise the model of this block.
 tile.for.greenhouse.plain.name=Greenhouse Block
 tile.for.greenhouse.glass.name=Greenhouse Glass
