@@ -1046,6 +1046,7 @@ item.for.beePrincessGE.name=Princess
 item.for.beeDroneGE.name=Drone
 item.for.beeQueenGE.name=Queen
 
+tile.for.alveary.tooltip=Multi-Block: 3x3x3 with 3x1x3 wood slabs on the top
 tile.for.alveary.plain.name=Alveary
 tile.for.alveary.swarmer.name=Alveary Swarmer
 tile.for.alveary.fan.name=Alveary Fan
@@ -1098,7 +1099,7 @@ for.multiblock.farm.error.needPlainBand=The Farm must have plain farm blocks for
 for.multiblock.farm.error.needPlainInterior=The Farm must have plain farm blocks for the interior.
 for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept power and do work.
 
-for.multiblock.greenhouse.error.space.closed=The Greenhouse must fully enclose an area. Some blocks are missing.
+for.multiblock.greenhouse.error.space.closed=The Greenhouse must fully enclose an area. Some blocks are missing or they are not connected to the other greenhouse blocks.
 for.multiblock.greenhouse.error.butterflyhatch.toomany=The Greenhouse can only have one butterfly hatch.
 
 for.multiblock.charcoal.pile.error.invalid.exterior=The block at the position %d, %d, %d is not a loam block.
@@ -1341,6 +1342,8 @@ for.trigger.lowFertilizer=Fertilizer
 for.trigger.lowLiquid=Water Tank
 for.trigger.lowSoil=Soil
 
+tile.for.ffarm.tooltip=Multi-Block: 3x4x3 - 5x4x5
+tile.for.ffarm.material.tooltip=Material:
 tile.for.ffarm.0.name=Farm Block
 tile.for.ffarm.2.name=Farm Gearbox
 tile.for.ffarm.3.name=Farm Hatch
@@ -1355,6 +1358,8 @@ tile.for.mushroom.1.name=Mushroom
 ####################
 for.gui.greenhouse.title=Greenhouse
 
+tile.for.greenhouse.tooltip=Multi-Block: 5x5x5 - 64x150x64  (Hollow) with a custom roof, that is not biger than the base.
+tile.for.greenhouse.camouflage.tooltip=This block can be camouflaged, that means that you can customise the model of this block.
 tile.for.greenhouse.plain.name=Greenhouse Block
 tile.for.greenhouse.glass.name=Greenhouse Glass
 tile.for.greenhouse.gearbox.name=Greenhouse Gearbox
