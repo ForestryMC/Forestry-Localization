@@ -1102,15 +1102,9 @@ for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept pow
 for.multiblock.greenhouse.error.space.closed=The Greenhouse must fully enclose an area. Some blocks are missing or they are not connected to the other greenhouse blocks.
 for.multiblock.greenhouse.error.butterflyhatch.toomany=The Greenhouse can only have one butterfly hatch.
 
-for.multiblock.charcoal.pile.error.invalid.exterior=The block at the position %d, %d, %d is not a loam block.
-for.multiblock.charcoal.pile.error.invalid.interior=The block at the position %d, %d, %d is not a wood pile block.
-for.multiblock.charcoal.pile.error.small=The top of the pile is too small, it must be least 4 blocks.
-for.multiblock.charcoal.pile.error.large=The block at the position %d, %d, %d is not required for this multiblock.
-
 for.multiblock.alveary.type=Alveary
 for.multiblock.farm.type=Farm
 for.multiblock.greenhouse.type=Greenhouse
-for.multiblock.charcoal.pile.type=Charcoal Pile
 
 ####################
 # ARBORICULTURE
@@ -1202,7 +1196,9 @@ for.trees.grammar.leaves=%SPECIES %TYPE
 for.trees.grammar.pile.type=Wood Pile
 for.trees.grammar.pile=%SPECIES %TYPE
 
-for.trees.pile.dirt=Loam
+tile.for.wood_pile.name=Wood Pile
+tile.for.loam.name=Loam
+tile.for.charcoal.name=Block of Charcoal
 
 for.trees.hybrid=%PRIMARY-%SECONDARY Hybrid
 
@@ -1809,4 +1805,5 @@ for.jei.rainmaker.causes.rain=Causes Rain
 for.jei.rainmaker.stops.rain=Stops Rain
 for.jei.rainmaker.speed=Speed: %s
 for.jei.rainmaker.duration=Duration: %s ticks
+tile.for.charcoal.pile.wall.name= Charcoal Pile
 for.jei.chance=Chance: %s
