@@ -596,13 +596,13 @@ item.for.refractory.grammar=%s Capsule
 item.for.refractory_wax.name=Refractory Wax
 item.for.refractory_wax.tooltip=Wax with a high melting point.
 
-item.for.researchNote.name=%s's Notes
-item.for.researchNote.tooltip=Use this note in your hand to gain its knowledge.
-item.for.royalJelly.name=Royal Jelly
+item.for.research_note.name=%s's Notes
+item.for.research_note.tooltip=Use this note in your hand to gain its knowledge.
+item.for.royal_jelly.name=Royal Jelly
 item.for.scoop.name=Scoop
 item.for.scoop.tooltip=Break hives to collect bees.
-item.for.solderingIron.name=Soldering Iron
-item.for.solderingIron.tooltip=Solders Electron Tubes to Circuit Boards.
+item.for.soldering_iron.name=Soldering Iron
+item.for.soldering_iron.tooltip=Solders Electron Tubes to Circuit Boards.
 item.for.smoker.name=Bee Smoker
 item.for.smoker.tooltip=Calms wild bees
 
@@ -1768,7 +1768,7 @@ for.jei.description.imprinter=Creative-only. Creates hybrid bees of any type.
 for.jei.description.infuser=Used to infuse Mead with Pollen Clusters and create Curative Mead.
 
 for.jei.description.chipsets=Circuit Boards can be fitted with Electron Tubes by using a Soldering Iron. Once complete, they can be placed in the sockets on machine guis. Use a Soldering Iron to remove them from a socket.
-for.jei.description.solderingIron=Right click with the Soldering Iron in hand to open the soldering gui. There, you can select the type of circuit to make and attach Electron Tubes to Circuit Boards. Can be used to remove a circuit board from a socket.
+for.jei.description.soldering_iron=Right click with the Soldering Iron in hand to open the soldering gui. There, you can select the type of circuit to make and attach Electron Tubes to Circuit Boards. Can be used to remove a circuit board from a socket.
 for.jei.description.thermionic_tubes=Electron Tubes can be attached to Circuit Boards using a Soldering Iron. They have many purposes displayed on the tooltip, which depend on the circuit type selected in the Soldering Iron. Once soldered, they cannot be removed from a Circuit Board.
 for.jei.description.humus=Rich soil that can grow plants and doesn't require water. Degrades into sand over time.
 for.jei.description.bog_earth=Slowly turns into peat if left to soak near water for a while.
