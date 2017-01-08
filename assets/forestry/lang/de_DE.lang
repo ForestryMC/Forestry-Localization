@@ -1042,9 +1042,9 @@ for.genus.bees.reddened=Gerötet
 for.genus.bees.tropical=Tropisch
 for.genus.bees.vengeful=Nachtragend
 
-item.for.beePrincessGE.name=Prinzessin
-item.for.beeDroneGE.name=Drohne
-item.for.beeQueenGE.name=Königin
+item.for.bee_princess_ge.name=Prinzessin
+item.for.bee_drone_ge.name=Drohne
+item.for.bee_queen_ge.name=Königin
 
 tile.for.alveary.plain.name=Bienenstock
 tile.for.alveary.swarmer.name=Schwärmer (Bienenstock)

@@ -903,8 +903,8 @@ for.genus.bees.reddened=Encarnada
 for.genus.bees.tropical=Tropical
 for.genus.bees.vengeful=Vingativa
 
-item.for.beePrincessGE.name=Princesa
-item.for.beeQueenGE.name=Rainha
+item.for.bee_princess_ge.name=Princesa
+item.for.bee_queen_ge.name=Rainha
 
 tile.for.alveary.plain.name=Apiaryum
 tile.for.alveary.swarmer.name=Enxame

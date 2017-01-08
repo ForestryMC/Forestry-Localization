@@ -1018,9 +1018,9 @@ for.genus.bees.reddened=泛紅
 for.genus.bees.tropical=熱帶
 for.genus.bees.vengeful=復仇
 
-item.for.beePrincessGE.name=公主蜂
-item.for.beeDroneGE.name=雄蜂
-item.for.beeQueenGE.name=蜂后
+item.for.bee_princess_ge.name=公主蜂
+item.for.bee_drone_ge.name=雄蜂
+item.for.bee_queen_ge.name=蜂后
 
 tile.for.alveary.plain.name=蜂箱組
 tile.for.alveary.swarmer.name=蜂箱組克隆盒

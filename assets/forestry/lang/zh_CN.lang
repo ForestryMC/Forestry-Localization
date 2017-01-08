@@ -1041,9 +1041,9 @@ for.genus.bees.reddened=泛红
 for.genus.bees.tropical=热带
 for.genus.bees.vengeful=复仇
 
-item.for.beePrincessGE.name=未知公主蜂
-item.for.beeDroneGE.name=未知雄蜂
-item.for.beeQueenGE.name=未知蜂后
+item.for.bee_princess_ge.name=未知公主蜂
+item.for.bee_drone_ge.name=未知雄蜂
+item.for.bee_queen_ge.name=未知蜂后
 
 tile.for.alveary.tooltip=多方块结构，体积3x3x3，顶部以3x1x3任意木台阶覆盖。
 tile.for.alveary.plain.name=蜂箱组

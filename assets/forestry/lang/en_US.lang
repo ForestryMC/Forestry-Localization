@@ -1042,9 +1042,9 @@ for.genus.bees.reddened=Reddened
 for.genus.bees.tropical=Tropical
 for.genus.bees.vengeful=Vengeful
 
-item.for.beePrincessGE.name=Princess
-item.for.beeDroneGE.name=Drone
-item.for.beeQueenGE.name=Queen
+item.for.bee_princess_ge.name=Princess
+item.for.bee_drone_ge.name=Drone
+item.for.bee_queen_ge.name=Queen
 
 tile.for.alveary.tooltip=Multi-Block: 3x3x3 with 3x1x3 wood slabs on the top
 tile.for.alveary.plain.name=Alveary

@@ -670,7 +670,7 @@ tile.stump.0=Tocуn de Vela
 tile.for.apiculture.0=Apiario
 tile.for.apiculture.1=Cofre de Apicultor
 tile.for.apiculture.2=Casa de Abejas
-item.for.beeQueenGE.name=Unknown Queen
+item.for.bee_queen_ge.name=Unknown Queen
 
 ####################
 # ARBORICULTURE

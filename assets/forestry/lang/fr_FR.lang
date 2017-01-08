@@ -1012,8 +1012,8 @@ for.genus.bees.reddened=Rougeoyant
 for.genus.bees.tropical=Tropical
 for.genus.bees.vengeful=Vengeur
 
-item.for.beePrincessGE.name=Princesse inconnue
-item.for.beeQueenGE.name=Reine inconnue
+item.for.bee_princess_ge.name=Princesse inconnue
+item.for.bee_queen_ge.name=Reine inconnue
 
 tile.for.alveary.plain.name=Ruche
 tile.for.alveary.swarmer.name=Essaim

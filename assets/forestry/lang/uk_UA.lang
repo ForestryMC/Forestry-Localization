@@ -907,8 +907,8 @@ for.genus.bees.reddened=Reddened
 for.genus.bees.tropical=Tropical
 for.genus.bees.vengeful=Vengeful
 
-item.for.beePrincessGE.name=Принцесса
-item.for.beeQueenGE.name=Королева
+item.for.bee_princess_ge.name=Принцесса
+item.for.bee_queen_ge.name=Королева
 
 tile.for.alveary.plain.name=Пчелиный улей
 tile.for.alveary.swarmer.name=Роевня

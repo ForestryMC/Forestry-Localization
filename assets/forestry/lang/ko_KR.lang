@@ -874,7 +874,7 @@ tile.for.candle.stump.name=꺼진 초
 
 tile.for.stump.name=초 꼭다리
 
-item.for.beeQueenGE.name=알수없는 여왕벌
+item.for.bee_queen_ge.name=알수없는 여왕벌
 
 ####################
 # ARBORICULTURE
