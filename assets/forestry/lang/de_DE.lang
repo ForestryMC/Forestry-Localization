@@ -518,7 +518,7 @@ item.for.crafting_material.silk_wisp.name=Seidenfransen
 item.for.crafting_material.woven_silk.name=Seidengewebe
 
 item.for.crate.name=Kiste
-item.for.decayingWheat.name=Zerfallendes Getreide
+item.for.decaying_wheat.name=Zerfallendes Getreide
 
 item.for.fertilizer_bio.name=Kompost
 item.for.fertilizer_compound.name=Dünger
@@ -569,8 +569,8 @@ item.for.ingot_tin.name=Zinnbarren
 
 item.for.iodine_capsule.name=Iodkapsel
 item.for.iodine_capsule.tooltip=In einem Regenmacher macht sie Regen.
-item.for.kitPickaxe.name=Spitzhacken-Baukasten
-item.for.kitShovel.name=Schaufel-Baukasten
+item.for.kit_pickaxe.name=Spitzhacken-Baukasten
+item.for.kit_shovel.name=Schaufel-Baukasten
 item.for.letters.name=Brief
 
 item.for.mouldy_wheat.name=Fauliges Getreide
@@ -638,7 +638,7 @@ item.for.capsule.grammar=Kapsel %s
 
 item.for.wax_cast.name=Wachsform
 
-item.for.wood_Pulp.name=Holzbrei
+item.for.wood_pulp.name=Holzbrei
 item.for.wrench.name=Schraubenschlüssel
 item.for.wrench.tooltip=Shift-Kick zum Rotieren von Blöcken.
 
@@ -770,8 +770,8 @@ for.errors.not_raining.desc=Kein Regen
 for.errors.not_raining.help=Keine Funktion wegen fehlenden Regens.
 for.errors.no_rain_biome.desc=Niemals Regen
 for.errors.no_rain_biome.help=An diesem Ort wird es niemals regnen.
-for.errors.no_skyRainTank.desc=Himmel bedeckt
-for.errors.no_skyRainTank.help=Räume den Bereicht über dieser Maschine frei, damit sie Regen sammeln kann.
+for.errors.no_sky_rain_tank.desc=Himmel bedeckt
+for.errors.no_sky_rain_tank.help=Räume den Bereicht über dieser Maschine frei, damit sie Regen sammeln kann.
 
 # ALYZERS
 for.errors.no_honey.desc=Honig benötigt
@@ -1277,7 +1277,7 @@ for.trees.woodType.zebrawood=Urunday
 tile.for.fireproof=%s (Feuerfest)
 
 item.for.grafter.name=Gartenschere
-item.for.grafterProven.name=Bewährte Gartenschere
+item.for.grafter_proven.name=Bewährte Gartenschere
 
 item.for.charcoal.name=Holzkohle
 
@@ -1432,7 +1432,7 @@ for.gui.loot.caterpillar=Mögliche Raupenausbeute
 for.lepidopterology.effect.none=Nichts
 
 item.for.butterfly.name=Schmetterling
-item.for.lepidopteristBag.name=Rucksack des Lepidopterologen
+item.for.lepidopterist_bag.name=Rucksack des Lepidopterologen
 item.for.moth.name=Motte
 tile.for.butterfly_chest.name=Truhe des Lepidopterologen
 

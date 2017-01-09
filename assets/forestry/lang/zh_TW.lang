@@ -516,7 +516,7 @@ item.for.crafting_material.silk_wisp.name=絲縷
 item.for.crafting_material.woven_silk.name=絲綢
 
 item.for.crate.name=板條箱
-item.for.decayingWheat.name=腐爛小麥
+item.for.decaying_wheat.name=腐爛小麥
 item.for.digger_bag.name=挖掘者背包
 item.for.digger_bagT2.name=挖掘者編織背包
 
@@ -571,8 +571,8 @@ item.for.ingot_copper.name=銅錠
 item.for.ingot_tin.name=錫錠
 
 item.for.iodine_capsule.name=碘酒膠囊
-item.for.kitPickaxe.name=鎬子應急袋
-item.for.kitShovel.name=鏟子應急袋
+item.for.kit_pickaxe.name=鎬子應急袋
+item.for.kit_shovel.name=鏟子應急袋
 item.for.letters.name=信件
 
 item.for.miner_bag.name=採礦者背包
@@ -636,7 +636,7 @@ item.for.capsule.grammar=%s膠囊
 
 item.for.wax_cast.name=打蠟工具
 
-item.for.wood_Pulp.name=木漿
+item.for.wood_pulp.name=木漿
 item.for.wrench.name=扳手
 
 itemGroup.apiculture=林業|養蜂
@@ -746,8 +746,8 @@ for.errors.not_raining.desc=未下雨
 for.errors.not_raining.help=只有在下雨的時候才能進行操作。
 for.errors.no_rain_biome.desc=無下雨
 for.errors.no_rain_biome.help=這個地方從不下雨。
-for.errors.no_skyRainTank.desc=天空被遮蔽
-for.errors.no_skyRainTank.help=清空機器上方空間，使其可以集雨。
+for.errors.no_sky_rain_tank.desc=天空被遮蔽
+for.errors.no_sky_rain_tank.help=清空機器上方空間，使其可以集雨。
 
 # ALYZERS
 for.errors.no_honey.desc=需要蜂蜜
@@ -1262,7 +1262,7 @@ for.trees.woodType.zebrawood=斑木樹
 tile.for.fireproof=%s (防火)
 
 item.for.grafter.name=剪枝器
-item.for.grafterProven.name=標定剪枝器
+item.for.grafter_proven.name=標定剪枝器
 
 item.for.charcoal.name=木炭
 
@@ -1414,7 +1414,7 @@ for.gui.loot.caterpillar=毛毛蟲可能的產物
 for.lepidopterology.effect.none=無效果
 
 item.for.butterfly.name=蝴蝶
-item.for.lepidopteristBag.name=鱗翅目昆蟲學家背包
+item.for.lepidopterist_bag.name=鱗翅目昆蟲學家背包
 item.for.moth.name=蛾
 tile.for.butterfly_chest.name=鱗翅目昆蟲學家箱子
 

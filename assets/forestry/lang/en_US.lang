@@ -518,7 +518,7 @@ item.for.crafting_material.silk_wisp.name=Silk Wisp
 item.for.crafting_material.woven_silk.name=Woven Silk
 
 item.for.crate.name=Crate
-item.for.decayingWheat.name=Decaying Wheat
+item.for.decaying_wheat.name=Decaying Wheat
 
 item.for.fertilizer_bio.name=Compost
 item.for.fertilizer_compound.name=Fertilizer
@@ -569,8 +569,8 @@ item.for.ingot_tin.name=Tin Ingot
 
 item.for.iodine_capsule.name=Iodine Capsule
 item.for.iodine_capsule.tooltip=Use on a Rainmaker to make it rain.
-item.for.kitPickaxe.name=Pickaxe Kit
-item.for.kitShovel.name=Shovel Kit
+item.for.kit_pickaxe.name=Pickaxe Kit
+item.for.kit_shovel.name=Shovel Kit
 item.for.letters.name=Letter
 
 item.for.mouldy_wheat.name=Mouldy Wheat
@@ -638,7 +638,7 @@ item.for.capsule.grammar=%s Capsule
 
 item.for.wax_cast.name=Wax Cast
 
-item.for.wood_Pulp.name=Wood Pulp
+item.for.wood_pulp.name=Wood Pulp
 item.for.wrench.name=Wrench
 item.for.wrench.tooltip=Shift-Use to rotate blocks.
 
@@ -770,8 +770,8 @@ for.errors.not_raining.desc=No rain
 for.errors.not_raining.help=Operation is only possible when it is raining.
 for.errors.no_rain_biome.desc=Never rains
 for.errors.no_rain_biome.help=This location never receives rain.
-for.errors.no_skyRainTank.desc=Sky obstructed
-for.errors.no_skyRainTank.help=Clear the area above this machine so it can gather rain.
+for.errors.no_sky_rain_tank.desc=Sky obstructed
+for.errors.no_sky_rain_tank.help=Clear the area above this machine so it can gather rain.
 
 # ALYZERS
 for.errors.no_honey.desc=Honey required
@@ -1280,7 +1280,7 @@ for.trees.woodType.zebrawood=Zebrawood
 tile.for.fireproof=%s (Fireproof)
 
 item.for.grafter.name=Grafter
-item.for.grafterProven.name=Proven Grafter
+item.for.grafter_proven.name=Proven Grafter
 
 tile.for.tree_chest.name=Arborist's Chest
 
@@ -1437,7 +1437,7 @@ for.gui.loot.caterpillar=Possible Caterpillar Loot
 for.lepidopterology.effect.none=None
 
 item.for.butterfly.name=Butterfly
-item.for.lepidopteristBag.name=Lepidopterist's Backpack
+item.for.lepidopterist_bag.name=Lepidopterist's Backpack
 item.for.moth.name=Moth
 tile.for.butterfly_chest.name=Lepidopterist's Chest
 
@@ -1775,15 +1775,15 @@ for.jei.description.bog_earth=Slowly turns into peat if left to soak near water 
 for.jei.description.analyzer=Block version of the Portable Genetic Analyzer. Requires power and liquid honey.
 for.jei.description.escritoire=Play a matching mini-game to research bee, tree, and butterfly mutations. Gives research notes that boost mutation rates, and other rewards.
 for.jei.description.pipette=Can pick up small amounts of liquid. In Forestry GUIs, you can hold a pipette and click the tanks to fill or drain them directly.
-for.jei.description.kitShovel=A stackable package that contains a bronze shovel. Use it in your hand to open.
-for.jei.description.kitPickaxe=A stackable package that contains a bronze pickaxe. Use it in your hand to open.
+for.jei.description.kit_shovel=A stackable package that contains a bronze shovel. Use it in your hand to open.
+for.jei.description.kit_pickaxe=A stackable package that contains a bronze pickaxe. Use it in your hand to open.
 for.jei.description.fertilizer_compound=Rich fertilizer. Can be used as bonemeal on crops and saplings. Required in order to run a Forestry farm.
 
 for.jei.description.raintank=Collects water when it rains. Can automatically output water from the bottom side.
 for.jei.description.worktable=Advanced crafting table with an inventory. Remembers up to 9 recipes. Has the ability to choose the crafting result when there is a recipe conflict.
 
 for.jei.description.grafter=Guarantees a sapling drop when breaking Forestry leaves. Has a very limited number of uses.
-for.jei.description.grafterProven=Guarantees a sapling drop when breaking Forestry leaves. They can only be purchased from villagers.
+for.jei.description.grafter_proven=Guarantees a sapling drop when breaking Forestry leaves. They can only be purchased from villagers.
 
 for.jei.description.mailbox=Allows players to send letters to trade stations and other players. Opening any mailbox will show the player their own mail.
 for.jei.description.trade_station=An automatic mailbox that lets players set up a trading deal.

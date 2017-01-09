@@ -533,7 +533,7 @@ item.for.crafting_material.silk_wisp.name=Fio de Seda
 item.for.crafting_material.woven_silk.name=Tecido de Seda
 
 item.for.crate.name=Caixa
-item.for.decayingWheat.name=Trigo em Decomposição
+item.for.decaying_wheat.name=Trigo em Decomposição
 item.for.digger_bag.name=Bolsa do Escavador
 item.for.digger_bagT2.name=Mochila do Escavador
 
@@ -580,8 +580,8 @@ item.for.ingot_copper.name=Lingote de Cobre
 item.for.ingot_tin.name=Lingote de Estanho
 
 item.for.iodine_capsule.name=Cápsula de Iodo
-item.for.kitPickaxe.name=Kit de Picaretas
-item.for.kitShovel.name=Kit de Pás
+item.for.kit_pickaxe.name=Kit de Picaretas
+item.for.kit_shovel.name=Kit de Pás
 item.for.letters.name=Carta
 
 item.for.miner_bag.name=Bolsa do Minerador
@@ -648,7 +648,7 @@ item.for.capsule.grammar=Cápsula de %s
 
 item.for.wax_cast.name=Molde de Cera
 
-item.for.wood_Pulp.name=Polpa de Árvore
+item.for.wood_pulp.name=Polpa de Árvore
 item.for.wrench.name=Chave Inglesa
 
 itemGroup.apiculture=Forestry - Apicultura
@@ -1098,7 +1098,7 @@ for.trees.woodType.zebrawood=Zebrano
 tile.for.fireproof=%s (À Prova de Fogo)
 
 item.for.grafter.name=Enxerto
-item.for.grafterProven.name=Enxerto Comprovado
+item.for.grafter_proven.name=Enxerto Comprovado
 
 tile.for.tree_chest.name=Baú do Arborista
 
@@ -1231,7 +1231,7 @@ for.lepidopterology.effect.none=Nenhum
 
 item.for.butterfly.name=Borboleta
 item.for.flutterlyzer.name=Borbo-analizador
-item.for.lepidopteristBag.name=Mochila do Heteropterologista
+item.for.lepidopterist_bag.name=Mochila do Heteropterologista
 item.for.moth.name=Mariposa
 tile.for.butterfly_chest.name=Baú do Heteropterologista
 

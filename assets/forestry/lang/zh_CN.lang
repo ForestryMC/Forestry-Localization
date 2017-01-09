@@ -518,7 +518,7 @@ item.for.crafting_material.silk_wisp.name=丝缕
 item.for.crafting_material.woven_silk.name=丝绸
 
 item.for.crate.name=板条箱
-item.for.decayingWheat.name=腐烂小麦
+item.for.decaying_wheat.name=腐烂小麦
 
 item.for.fertilizer_bio.name=堆肥
 item.for.fertilizer_compound.name=肥料
@@ -569,8 +569,8 @@ item.for.ingot_tin.name=锡锭
 
 item.for.iodine_capsule.name=碘酒胶囊
 item.for.iodine_capsule.tooltip=在造雨机里用这个可以造雨。
-item.for.kitPickaxe.name=镐应急袋
-item.for.kitShovel.name=锹应急袋
+item.for.kit_pickaxe.name=镐应急袋
+item.for.kit_shovel.name=锹应急袋
 item.for.letters.name=信件
 
 item.for.mouldy_wheat.name=发霉小麦
@@ -637,7 +637,7 @@ item.for.capsule.grammar=%s胶囊
 
 item.for.wax_cast.name=打蜡工具
 
-item.for.wood_Pulp.name=木浆
+item.for.wood_pulp.name=木浆
 item.for.wrench.name=扳手
 item.for.wrench.tooltip=按住Shift右击可旋转方块
 
@@ -769,8 +769,8 @@ for.errors.not_raining.desc=未下雨
 for.errors.not_raining.help=只有在下雨的时候才能进行操作。
 for.errors.no_rain_biome.desc=无雨
 for.errors.no_rain_biome.help=这个地方从来没有下过雨。
-for.errors.no_skyRainTank.desc=天空被遮蔽
-for.errors.no_skyRainTank.help=清理顶部，使其可以正常集雨。
+for.errors.no_sky_rain_tank.desc=天空被遮蔽
+for.errors.no_sky_rain_tank.help=清理顶部，使其可以正常集雨。
 
 # ALYZERS
 for.errors.no_honey.desc=需要蜂蜜
@@ -1283,7 +1283,7 @@ for.trees.woodType.zebrawood=斑木树
 tile.for.fireproof=抗燃%s
 
 item.for.grafter.name=剪枝器
-item.for.grafterProven.name=标定剪枝器
+item.for.grafter_proven.name=标定剪枝器
 
 item.for.charcoal.name=木炭
 
@@ -1443,7 +1443,7 @@ for.gui.loot.caterpillar=毛毛虫可能的产物
 for.lepidopterology.effect.none=无效果
 
 item.for.butterfly.name=蝴蝶
-item.for.lepidopteristBag.name=鳞翅目昆虫学家背包
+item.for.lepidopterist_bag.name=鳞翅目昆虫学家背包
 item.for.moth.name=飞蛾
 tile.for.butterfly_chest.name=鳞翅目昆虫学家箱子
 
@@ -1781,15 +1781,15 @@ for.jei.description.bog_earth=在附近有水的湿润环境下可缓慢变成�
 for.jei.description.analyzer=便携式多用分析仪的方块版本，需要蜂蜜液体和能量方可工作。
 for.jei.description.escritoire=这是一个研究蜜蜂、树木和蝴蝶变异的小游戏。从中可得到研究笔记和其它奖励，其中研究笔记可用于提高变异概率。
 for.jei.description.pipette=一个可吸取少量液体的滴管。在林业设备的GUI中，可直接清空储罐，亦可将滴管中液体滴入储罐。
-for.jei.description.kitShovel=油纸包好的可堆叠包裹，每个包裹中都有一个幸存者之锹。右击可拆开包裹。
-for.jei.description.kitPickaxe=油纸包好的可堆叠包裹，每个包裹中都有一个幸存者之镐。右击可拆开包裹。
+for.jei.description.kit_shovel=油纸包好的可堆叠包裹，每个包裹中都有一个幸存者之锹。右击可拆开包裹。
+for.jei.description.kit_pickaxe=油纸包好的可堆叠包裹，每个包裹中都有一个幸存者之镐。右击可拆开包裹。
 for.jei.description.fertilizer_compound=高效肥料。可当作骨粉使用。林业的多功能农场运转时需要此种肥料。
 
 for.jei.description.raintank=收集雨水。底面可自动输出水。
 for.jei.description.worktable=一个带内部存储的高级工作台。可记住9个合成表。同时拥有在遇到合成冲突时选择合成结果的功能。
 
 for.jei.description.grafter=使用它破坏林业树叶可100%保证获得树苗，但耐久极低。
-for.jei.description.grafterProven=使用它破坏林业树叶可100%保证获得树苗，但只能在村民处购得。
+for.jei.description.grafter_proven=使用它破坏林业树叶可100%保证获得树苗，但只能在村民处购得。
 
 for.jei.description.mailbox=允许玩家向贸易站发信，从而与其它玩家进行贸易。打开任意邮箱都只显示当前玩家自己的邮件。
 for.jei.description.trade_station=一个可以自动处理玩家间贸易请求的邮箱。
@@ -1802,7 +1802,7 @@ for.jei.description.forester_bag=额外背包空间，可自动捡起植物相�
 for.jei.description.hunter_bag=额外背包空间，可自动捡起怪物掉落物。
 for.jei.description.miner_bag=额外背包空间，可自动捡起有价值的矿物。
 for.jei.description.apiarist_bag=额外背包空间，专用于存储蜜蜂。
-for.jei.description.lepidopteristBag=额外背包空间，专用于存储蝴蝶。
+for.jei.description.lepidopterist_bag=额外背包空间，专用于存储蝴蝶。
 
 ####################
 # JEI Recipes
