@@ -514,7 +514,7 @@ item.for.crafting_material.silk_wisp.name=Fil de soie
 item.for.crafting_material.woven_silk.name=Tissu en soie
 
 item.for.crate.name=Cageot
-item.for.decayingWheat.name=Blé décomposé
+item.for.decaying_wheat.name=Blé décomposé
 item.for.digger_bag.name=Sac à dos de l'excavateur
 item.for.digger_bagT2.name=Sac à dos tissé de l'excavateur
 
@@ -561,8 +561,8 @@ item.for.ingot_copper.name=Lingot de cuivre
 item.for.ingot_tin.name=Lingot d'étain
 
 item.for.iodine_capsule.name=Capsule d'iode
-item.for.kitPickaxe.name=Kit de pioche
-item.for.kitShovel.name=Kit de pelle
+item.for.kit_pickaxe.name=Kit de pioche
+item.for.kit_shovel.name=Kit de pelle
 item.for.letters.name=Lettre
 
 item.for.miner_bag.name=Sac à dos du mineur
@@ -639,7 +639,7 @@ item.for.capsule.water.name=Capsule d'eau
 
 item.for.wax_cast.name=Moule en cire
 
-item.for.wood_Pulp.name=Pâte à papier
+item.for.wood_pulp.name=Pâte à papier
 item.for.wrench.name=Clé à molette
 
 itemGroup.apiculture=Apiculture
@@ -744,8 +744,8 @@ for.errors.not_raining.desc=Pas de pluie
 for.errors.not_raining.help=L'opération est possible seulement s'il pleut.
 for.errors.no_rain_biome.desc=Aucunes pluies
 for.errors.no_rain_biome.help=Cet emplacement ne reçoit jamais de pluie.
-for.errors.no_skyRainTank.desc=Ciel obstrué
-for.errors.no_skyRainTank.help=Nettoyez la zone au-dessus de cet machine afin qu'elle récolte la pluie.
+for.errors.no_sky_rain_tank.desc=Ciel obstrué
+for.errors.no_sky_rain_tank.help=Nettoyez la zone au-dessus de cet machine afin qu'elle récolte la pluie.
 
 # ALYZERS
 for.errors.no_honey.desc=Miel demandé
@@ -1231,7 +1231,7 @@ for.trees.woodType.zebrawood=Zebrano
 tile.for.fireproof=%s (Ignifugé)
 
 item.for.grafter.name=Croisement
-item.for.grafterProven.name=Croisement prouvé
+item.for.grafter_proven.name=Croisement prouvé
 
 tile.for.tree_chest.name=Coffre d'arboriste
 
@@ -1357,7 +1357,7 @@ for.lepidopterology.effect.none=Aucun
 
 item.for.butterfly.name=Papillon
 item.for.flutterlyzer.name=Analyseur de papillon
-item.for.lepidopteristBag.name=Sac à dos de lépidoptériste
+item.for.lepidopterist_bag.name=Sac à dos de lépidoptériste
 item.for.moth.name=Papillon de nuit
 tile.for.butterfly_chest.name=Coffre de lépidoptériste
 

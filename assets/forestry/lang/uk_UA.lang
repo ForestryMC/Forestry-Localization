@@ -540,7 +540,7 @@ item.for.crafting_material.silk_wisp.name=Клочок шёлка
 item.for.crafting_material.woven_silk.name=Тканый шёлк
 
 item.for.crate.name=Ящик
-item.for.decayingWheat.name=Загнивающая пшеница
+item.for.decaying_wheat.name=Загнивающая пшеница
 item.for.digger_bag.name=Рюкзак землекопа
 item.for.digger_bagT2.name=Тканный рюкзак землекопа
 
@@ -587,8 +587,8 @@ item.for.ingot_copper.name=Медный слиток
 item.for.ingot_tin.name=Оловянный слиток
 
 item.for.iodine_capsule.name=Капсула йода
-item.for.kitPickaxe.name=Сборная кирка
-item.for.kitShovel.name=Сборная лопата
+item.for.kit_pickaxe.name=Сборная кирка
+item.for.kit_shovel.name=Сборная лопата
 item.for.letters.name=Письмо
 
 item.for.miner_bag.name=Рюкзак шахтёра
@@ -652,7 +652,7 @@ item.for.capsule.grammar=Капсула %s
 
 item.for.wax_cast.name=Восковая форма
 
-item.for.wood_Pulp.name=Древесная масса
+item.for.wood_pulp.name=Древесная масса
 item.for.wrench.name=Гаечный ключ
 
 itemGroup.apiculture=Пчеловодство
@@ -1105,7 +1105,7 @@ for.trees.woodType.zebrawood=зебрано
 tile.for.fireproof=%s (Огнестойкость)
 
 item.for.grafter.name=Садовый нож
-item.for.grafterProven.name=Проверенный садовый нож
+item.for.grafter_proven.name=Проверенный садовый нож
 
 tile.for.tree_chest.name=Сундук лесовода
 
@@ -1238,7 +1238,7 @@ for.lepidopterology.effect.none=Нет
 
 item.for.butterfly.name=Бабочка
 item.for.flutterlyzer.name=Анализатор бабочек
-item.for.lepidopteristBag.name=Рюкзак лепидоптеролога
+item.for.lepidopterist_bag.name=Рюкзак лепидоптеролога
 item.for.moth.name=Мотылёк
 tile.for.butterfly_chest.name=Сундук лепидоптеролога
 

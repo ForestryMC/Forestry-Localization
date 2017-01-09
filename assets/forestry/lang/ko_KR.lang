@@ -491,7 +491,7 @@ item.for.crafting_material.silk_wisp.name=비단 줄기
 item.for.crafting_material.woven_silk.name=비단
 
 item.for.crate.name=상자
-item.for.decayingWheat.name=썩은 밀
+item.for.decaying_wheat.name=썩은 밀
 item.for.digger_bag.name=건설가의 가방
 item.for.digger_bagT2.name=건설가의 실크가방
 
@@ -538,8 +538,8 @@ item.for.ingot_copper.name=구리 주괴
 item.for.ingot_tin.name=주석 주괴
 
 item.for.iodine캡슐.name=아이오딘 캡슐
-item.for.kitPickaxe.name=곡괭이 키트
-item.for.kitShovel.name=삽 키트
+item.for.kit_pickaxe.name=곡괭이 키트
+item.for.kit_shovel.name=삽 키트
 item.for.letters.name=편지
 
 item.for.miner_bag.name=광부의 가방
@@ -604,7 +604,7 @@ item.for.capsule.grammar=%s 캡슐
 
 item.for.wax_cast.name=밀랍 틀
 
-item.for.wood_Pulp.name=목재 펄프
+item.for.wood_pulp.name=목재 펄프
 item.for.wrench.name=렌치
 
 itemGroup.apiculture=양봉학
@@ -976,7 +976,7 @@ for.trees.species.whiteWillow=서양흰버들
 for.trees.species.yellowMeranti=옐로우세라야
 
 item.for.grafter.name=묘목 채취기
-item.for.grafterProven.name=검증된 묘목 채취기
+item.for.grafter_proven.name=검증된 묘목 채취기
 
 tile.for.tree_chest.name=수목 재배가의 상자
 
@@ -1241,7 +1241,7 @@ for.lepidopterology.effect.none=없음
 
 item.for.butterfly.name=나비
 item.for.flutterlyzer.name=나비 분석기
-item.for.lepidopteristBag.name=인시류학자의 가방
+item.for.lepidopterist_bag.name=인시류학자의 가방
 item.for.moth.name=Moth
 tile.for.butterfly_chest.name=인시류학자의 가방
 
