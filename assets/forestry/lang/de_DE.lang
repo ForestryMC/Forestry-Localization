@@ -596,13 +596,13 @@ item.for.refractory.grammar=Kapsel %s
 item.for.refractory_wax.name=Hitzebeständiges Wachs
 item.for.refractory_wax.tooltip=Wachs mit hohem Schmelzpunkt
 
-item.for.researchNote.name=Notizen von %s
-item.for.researchNote.tooltip=Lies sie dir in deiner Hand gut durch, um ihr Wissen in dich aufzunehmen.
-item.for.royalJelly.name=Gelée royale
+item.for.research_note.name=Notizen von %s
+item.for.research_note.tooltip=Nutze diese Notiz, um ihr Wissen in dich aufzunehmen.
+item.for.royal_jelly.name=Gelée royale
 item.for.scoop.name=Kescher
 item.for.scoop.tooltip=Zerstöre Bienenstöcke, um Bienen zu sammeln.
-item.for.solderingIron.name=Lötkolben
-item.for.solderingIron.tooltip=Lötet Elektronenröhren auf Leiterplatten
+item.for.soldering_iron.name=Lötkolben
+item.for.soldering_iron.tooltip=Lötet Elektronenröhren auf Leiterplatten.
 item.for.smoker.name=Bienen-Smoker
 item.for.smoker.tooltip=Stellt wilde Bienen ruhig
 
@@ -694,22 +694,22 @@ tile.for.bog_earth.bog_earth.name=Moorerde
 tile.for.bog_earth.peat.name=Torf
 
 item.for.adventurer_bag.name=Abenteurerrucksack
-item.for.adventurer_bagT2.name=Gewobener Abenteurerrucksack
+item.for.adventurer_bag_t2.name=Gewobener Abenteurerrucksack
 
 item.for.builder_bag.name=Handwerkerrucksack
-item.for.builder_bagT2.name=Gewobener Handwerkerrucksack
+item.for.builder_bag_t2.name=Gewobener Handwerkerrucksack
 
 item.for.digger_bag.name=Schürferrucksack
-item.for.digger_bagT2.name=Gewobener Schürferrucksack
+item.for.digger_bag_t2.name=Gewobener Schürferrucksack
 
 item.for.forester_bag.name=Försterrucksack
-item.for.forester_bagT2.name=Gewobener Försterrucksack
+item.for.forester_bag_t2.name=Gewobener Försterrucksack
 
 item.for.hunter_bag.name=Jägerrucksack
-item.for.hunter_bagT2.name=Gewobener Jägerrucksack
+item.for.hunter_bag_t2.name=Gewobener Jägerrucksack
 
 item.for.miner_bag.name=Bergarbeiterrucksack
-item.for.miner_bagT2.name=Gewobener Bergarbeiterrucksack
+item.for.miner_bag_t2.name=Gewobener Bergarbeiterrucksack
 
 ################
 # ERRORS
@@ -1046,6 +1046,7 @@ item.for.bee_princess_ge.name=Prinzessin
 item.for.bee_drone_ge.name=Drohne
 item.for.bee_queen_ge.name=Königin
 
+tile.for.alveary.tooltip=Multiblock: 3x3x3 mit 3x1x3 Holzstufen obenauf
 tile.for.alveary.plain.name=Bienenstock
 tile.for.alveary.swarmer.name=Schwärmer (Bienenstock)
 tile.for.alveary.fan.name=Ventilator (Bienenstock)
@@ -1195,7 +1196,9 @@ for.trees.grammar.leaves=%TYPE (%SPECIES)
 for.trees.grammar.pile.type=Holzstoß
 for.trees.grammar.pile=%TYPE (%SPECIES)
 
-for.trees.pile.dirt=Lehmerde
+tile.for.wood_pile.name=Holzstoß
+tile.for.loam.name=Lehmerde
+tile.for.charcoal.name=Holzkohleblock
 
 for.trees.hybrid=Hybrid: %PRIMARY-%SECONDARY
 
@@ -1279,8 +1282,6 @@ tile.for.fireproof=%s (Feuerfest)
 item.for.grafter.name=Gartenschere
 item.for.grafter_proven.name=Bewährte Gartenschere
 
-item.for.charcoal.name=Holzkohle
-
 tile.for.tree_chest.name=Truhe des Arboristen
 
 tile.for.saplingGE.0.name=Unbekannter Setzling
@@ -1337,6 +1338,8 @@ for.trigger.lowFertilizer=Wenig Dünger
 for.trigger.lowLiquid=Wenig Wasser
 for.trigger.lowSoil=Wenig Boden
 
+tile.for.ffarm.tooltip=Multiblock: 3x4x3 - 5x4x5
+tile.for.ffarm.material.tooltip=Material:
 tile.for.ffarm.0.name=Farmblock
 tile.for.ffarm.2.name=Farmgetriebebox
 tile.for.ffarm.3.name=Farmluke
@@ -1351,6 +1354,8 @@ tile.for.mushroom.1.name=Pilz
 ####################
 for.gui.greenhouse.title=Gewächshaus
 
+tile.for.greenhouse.tooltip=Multiblock: 5x5x5 - 64x150x64  (Hohl) mit beliebigem Dach, das nicht größer als der Grundriss sein darf.
+tile.for.greenhouse.camouflage.tooltip=Dieser Block kann getarnt werden, das heißt, du kannst ändern, wie der Block aussieht.
 tile.for.greenhouse.plain.name=Gewächshausblock
 tile.for.greenhouse.glass.name=Gewächshausglas
 tile.for.greenhouse.gearbox.name=Gewächshausgetriebebox
@@ -1523,10 +1528,12 @@ for.plugin.immersiveengineering.description=Kompatibilitätsplugin für Immersiv
 for.plugin.growthcraft.description=Kompatibilitätsplugin für GrowthCraft.
 for.plugin.erebus.description=Kompatibilitätsplugin für Erebus.
 for.plugin.rotarycraft.description=Kompatibilitätsplugin für RotaryCraft.
+for.plugin.actuallyadditions.description=Kompatibilitätsplugin für Actually Additions.
 
 ####################
 # CONFIG FILES
 ####################
+
 
 
 
@@ -1758,26 +1765,6 @@ tile.for.fence_gate.25.name=Ipé-Holzzauntor
 tile.for.door.25.name=Ipé-Holztür
 
 ####################
-# NEI Categories
-####################
-
-nei.subsets.Forestry=Forestry
-nei.subsets.Forestry.Bees=Bienen
-nei.subsets.Forestry.Bees.Combs=Waben
-nei.subsets.Forestry.Bees.Drones=Drohnen
-nei.subsets.Forestry.Bees.Princesses=Prinzessinnen
-nei.subsets.Forestry.Bees.Queens=Königinnen
-nei.subsets.Forestry.Blocks=Blöcke
-nei.subsets.Forestry.Butterflies=Schmetterlinge
-nei.subsets.Forestry.Butterflies.Butterflies=Schmetterlinge
-nei.subsets.Forestry.Butterflies.Caterpillars=Raupen
-nei.subsets.Forestry.Butterflies.Serums=Seren
-nei.subsets.Forestry.Items=Items
-nei.subsets.Forestry.Trees=Bäume
-nei.subsets.Forestry.Trees.Pollen=Pollen
-nei.subsets.Forestry.Trees.Saplings=Setzlinge
-
-####################
 # JEI Descriptions
 ####################
 for.jei.description.frames=Platziere Rähmchen in einen Bienenkorb, um die Produktionsrate der Bienen zu erhöhen und den Genetischen Verfall unedler Bienen zu verringern.
@@ -1798,4 +1785,5 @@ for.jei.rainmaker.causes.rain=Sorgt für Regen
 for.jei.rainmaker.stops.rain=Stoppt Regen
 for.jei.rainmaker.speed=Geschw.: %s
 for.jei.rainmaker.duration=Dauer: %s ticks
+tile.for.charcoal.pile.wall.name= Holzkohlehaufen
 for.jei.chance=Chance: %s
