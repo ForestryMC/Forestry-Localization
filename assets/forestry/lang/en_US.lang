@@ -1605,7 +1605,7 @@ for.config.tweaks.farms.magicalcrops.comment=Enables farm support for Magical Cr
 
 for.config.genetics=Genetics
 for.config.genetics.pollinate.vanilla.trees=Pollinate Vanilla Trees
-for.config.genetics.pollinate.vanilla.trees.comment=Allow bees, butterflies, and players to pollinate vanilla tree leaves. When disabled, vanilla trees must be analyzed before they can be pollinated.
+for.config.genetics.pollinate.vanilla.trees.comment=Allow bees to pollinate vanilla tree leaves. When disabled, vanilla trees must be analyzed before they can be pollinated.
 for.config.genetics.research.boost.multiplier=Research Mutation Multiplier
 for.config.genetics.research.boost.multiplier.comment=Multiplies the chance of a mutation when it has been discovered in the Escritoire.
 for.config.genetics.research.boost.max.percent=Research Mutation Max
