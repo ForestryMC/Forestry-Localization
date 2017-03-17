@@ -1100,7 +1100,7 @@ for.multiblock.farm.error.needPlainInterior=The Farm must have plain farm blocks
 for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept power and do work.
 
 for.multiblock.greenhouse.error.space.closed=The Greenhouse must fully enclose an area. Some blocks are missing or they are not connected to the other greenhouse blocks.
-for.multiblock.greenhouse.error.butterflyhatch.toomany=The Greenhouse can only have one butterfly hatch.
+for.multiblock.greenhouse.error.climatecontrol.toomany=The Greenhouse can only have one climate control.
 
 for.multiblock.alveary.type=Alveary
 for.multiblock.farm.type=Farm
@@ -1353,6 +1353,7 @@ tile.for.mushroom.1.name=Mushroom
 # GREENHOUSE
 ####################
 for.gui.greenhouse.title=Greenhouse
+for.gui.greenhouse.nursery.title=Greenhouse Butterfly Nursery
 
 tile.for.greenhouse.tooltip=Multi-Block: 5x5x5 - 64x150x64  (Hollow) with a custom roof, that is not bigger than the base.
 tile.for.greenhouse.camouflage.tooltip=This block can be camouflaged, that means that you can customise the model of this block.
@@ -1361,7 +1362,7 @@ tile.for.greenhouse.glass.name=Greenhouse Glass
 tile.for.greenhouse.gearbox.name=Greenhouse Gearbox
 tile.for.greenhouse.hatch_output.name=Greenhouse Output Hatch
 tile.for.greenhouse.hatch_input.name=Greenhouse Input Hatch
-tile.for.greenhouse.butterfly_hatch.name=Greenhouse Butterfly Hatch
+tile.for.greenhouse.nursery.name=Greenhouse Butterfly Nursery
 tile.for.greenhouse.valve.name=Greenhouse Valve
 tile.for.greenhouse.fan.name=Greenhouse Fan
 tile.for.greenhouse.heater.name=Greenhouse Heater
@@ -1507,6 +1508,7 @@ for.plugin.food.description=Adds food.
 for.plugin.lepidopterology.description=Butterflies. Shiny.
 for.plugin.mail.description=Adds Forestry's mail and trade system.
 for.plugin.storage.description=Adds backpacks and crates.
+for.plugin.greenhouse.description=Adds a greenhouse.
 
 for.plugin.buildcraft6.description=Compatibility plugin for BuildCraft 6.
 for.plugin.pipes.description=Adds the apiarist's pipe for beekeeping if apiculture is enabled and BuildCraft 6 is present.
