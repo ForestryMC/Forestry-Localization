@@ -1100,7 +1100,7 @@ for.multiblock.farm.error.needPlainInterior=Die Farm braucht im Inneren gewöhnl
 for.multiblock.farm.error.needGearbox=Die Farm benötigt eine Getriebebox, um Energie zu erhalten und zu funktionieren.
 
 for.multiblock.greenhouse.error.space.closed=Das Gewächshaus muss einen Bereich vollständig umschließen. Einige Blöcke fehlen.
-for.multiblock.greenhouse.error.butterflyhatch.toomany=Das Gewächshaus kann nur eine Schmetterlingsluke haben.
+for.multiblock.greenhouse.error.climatecontrol.toomany=Das Gewächshaus darf nur eine Klimabox enthalten.
 
 for.multiblock.alveary.type=Bienenstock
 for.multiblock.farm.type=Farm
@@ -1353,6 +1353,7 @@ tile.for.mushroom.1.name=Pilz
 # GREENHOUSE
 ####################
 for.gui.greenhouse.title=Gewächshaus
+for.gui.greenhouse.nursery.title=Gewächshaus-Schmetterlingsluke
 
 tile.for.greenhouse.tooltip=Multiblock: 5x5x5 - 64x150x64  (Hohl) mit beliebigem Dach, das nicht größer als der Grundriss sein darf.
 tile.for.greenhouse.camouflage.tooltip=Dieser Block kann getarnt werden, das heißt, du kannst ändern, wie der Block aussieht.
@@ -1361,7 +1362,7 @@ tile.for.greenhouse.glass.name=Gewächshausglas
 tile.for.greenhouse.gearbox.name=Gewächshausgetriebebox
 tile.for.greenhouse.hatch_output.name=Gewächshaus-Ausgangsluke
 tile.for.greenhouse.hatch_input.name=Gewächshaus-Eingangsluke
-tile.for.greenhouse.butterfly_hatch.name=Gewächshaus-Schmetterlingsluke
+tile.for.greenhouse.nursery.name=Gewächshaus-Schmetterlingsluke
 tile.for.greenhouse.valve.name=Gewächshaus-Durchlassventil
 tile.for.greenhouse.fan.name=Ventilator (Gewächshaus)
 tile.for.greenhouse.heater.name=Heizung (Gewächshaus)
@@ -1507,6 +1508,7 @@ for.plugin.food.description=Beinhaltet Nahrungsmittel.
 for.plugin.lepidopterology.description=Schmetterlinge. Schick.
 for.plugin.mail.description=Beinhaltet Forestry's Post- und Handelssystem.
 for.plugin.storage.description=Beinhaltet Rucksäcke und Kisten.
+for.plugin.greenhouse.description=Beinhaltet ein Gewächshaus.
 
 for.plugin.buildcraft6.description=Kompatibilitätsplugin für BuildCraft 6.
 for.plugin.pipes.description=Beinhaltet das Bienenrohr wenn das Bienenzucht-Plugin aktiviert und BuildCraft 6 präsent ist.
