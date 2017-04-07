@@ -1615,6 +1615,9 @@ for.config.tweaks.permissions.comment=Enables access restrictions on forestry ma
 for.config.tweaks.version.check=Version Check
 for.config.tweaks.version.check.comment=Enables update and version check notice.
 
+for.config.tweaks.humus.degradeDelimiter=Humus Degrade Delimiter
+for.config.tweaks.humus.degradeDelimiter.comment=Set how many stages humus has before it turns into sand.
+
 for.config.tweaks.farms.size=Farm Size
 for.config.tweaks.farms.size.comment=Sets the size multiplier of the farmland.
 for.config.tweaks.farms.square=Square Farms
