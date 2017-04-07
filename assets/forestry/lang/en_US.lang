@@ -693,6 +693,24 @@ tile.for.humus.name=Humus
 tile.for.bog_earth.bog_earth.name=Bog Earth
 tile.for.bog_earth.peat.name=Peat
 
+tile.for.bee_combs.cocoa.name=Cocoa Comb Block
+tile.for.bee_combs.darkened.name=Darkened Comb Block
+tile.for.bee_combs.dripping.name=Dripping Comb Block
+tile.for.bee_combs.frozen.name=Frozen Comb Block
+tile.for.bee_combs.honey.name=Honey Comb Block
+tile.for.bee_combs.irradiated.name=Irradiated Comb Block
+tile.for.bee_combs.mellow.name=Mellow Comb Block
+tile.for.bee_combs.mossy.name=Mossy Comb Block
+tile.for.bee_combs.mysterious.name=Mysterious Comb Block
+tile.for.bee_combs.omega.name=Omega Comb Block
+tile.for.bee_combs.parched.name=Parched Comb Block
+tile.for.bee_combs.powdery.name=Powdery Comb Block
+tile.for.bee_combs.reddened.name=Reddened Comb Block
+tile.for.bee_combs.silky.name=Silky Comb Block
+tile.for.bee_combs.simmering.name=Simmering Comb Block
+tile.for.bee_combs.stringy.name=Stringy Comb Block
+tile.for.bee_combs.wheaten.name=Wheaten Comb Block
+
 item.for.adventurer_bag.name=Adventuring Backpack
 item.for.adventurer_bag_t2.name=Woven Adventuring Backpack
 
