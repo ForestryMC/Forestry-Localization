@@ -1111,10 +1111,10 @@ for.multiblock.farm.error.needGearbox=Die Farm benötigt eine Getriebebox, um En
 for.multiblock.greenhouse.error.space.closed=Das Gewächshaus muss einen Bereich vollständig umschließen. Einige Blöcke fehlen.
 for.multiblock.greenhouse.error.butterflyhatch.toomany=Das Gewächshaus kann nur eine Schmetterlingsluke haben.
 
-for.multiblock.charcoal.pile.error.invalid.exterior=Der Block an Position %d, %d, %d ist keine Lehmerde.
-for.multiblock.charcoal.pile.error.invalid.interior=Der Block an Position %d, %d, %d ist kein Holzstoß.
+for.multiblock.charcoal.pile.error.invalid.exterior=Ein Block in diesem Gebilde ist keine Lehmerde.
+for.multiblock.charcoal.pile.error.invalid.interior=Ein Block in diesem Gebilde ist kein Holzstoß.
 for.multiblock.charcoal.pile.error.small=Die Spitze des Haufens ist zu klein, sie muss mindestens 4 Block groß sein.
-for.multiblock.charcoal.pile.error.large=Der Block an Position %d, %d, %d ist für diesen Multiblock nicht vonnöten.
+for.multiblock.charcoal.pile.error.large=Ein Block in diesem Gebilde ist für diesen Multiblock nicht vonnöten.
 
 for.multiblock.alveary.type=Bienenstock
 for.multiblock.farm.type=Farm

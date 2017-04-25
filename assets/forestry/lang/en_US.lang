@@ -1111,10 +1111,10 @@ for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept pow
 for.multiblock.greenhouse.error.space.closed=The Greenhouse must fully enclose an area. Some blocks are missing.
 for.multiblock.greenhouse.error.butterflyhatch.toomany=The Greenhouse can only have one butterfly hatch.
 
-for.multiblock.charcoal.pile.error.invalid.exterior=The block at the position %d, %d, %d is not a loam block.
-for.multiblock.charcoal.pile.error.invalid.interior=The block at the position %d, %d, %d is not a wood pile block.
+for.multiblock.charcoal.pile.error.invalid.exterior=A block in the structure is not a loam block.
+for.multiblock.charcoal.pile.error.invalid.interior=A block in the structure is not a wood pile block.
 for.multiblock.charcoal.pile.error.small=The top of the pile is too small, it must be least 4 blocks.
-for.multiblock.charcoal.pile.error.large=The block at the position %d, %d, %d is not required for this multiblock.
+for.multiblock.charcoal.pile.error.large=A block in the structure is not required for this multiblock.
 
 for.multiblock.alveary.type=Alveary
 for.multiblock.farm.type=Farm
