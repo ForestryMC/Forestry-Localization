@@ -1110,6 +1110,11 @@ for.multiblock.farm.error.needGearbox=这个农场还需要一个齿轮箱才能
 for.multiblock.greenhouse.error.space.closed=温室须为一全封闭环境。请检查是否还有缺漏的方块。
 for.multiblock.greenhouse.error.butterflyhatch.toomany=温室最多只能安装一个蝴蝶箱。
 
+for.multiblock.charcoal.pile.error.invalid.exterior=结构中某个方块不是壤土。
+for.multiblock.charcoal.pile.error.invalid.interior=结构中某个方块不是原木堆。
+for.multiblock.charcoal.pile.error.small=炭窑顶太小了，它至少要占地四个方块。
+for.multiblock.charcoal.pile.error.large=结构中有不合适的方块。
+
 for.multiblock.alveary.type=蜂箱
 for.multiblock.farm.type=农场
 for.multiblock.greenhouse.type=温室
