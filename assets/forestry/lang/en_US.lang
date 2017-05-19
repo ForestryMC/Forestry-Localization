@@ -644,6 +644,7 @@ item.for.wrench.tooltip=Shift-Use to rotate blocks.
 
 item.for.camouflageSprayCan.name=Camouflage Spray Can
 
+itemGroup.agriculture=Agriculture
 itemGroup.apiculture=Apiculture
 itemGroup.arboriculture=Arboriculture
 itemGroup.forestry=Forestry
