@@ -260,6 +260,9 @@ for.gui.solder.south=S
 for.gui.solder.east=E
 for.gui.solder.west=W
 
+forestry.allele.true=Yes
+forestry.allele.false=No
+
 forestry.allele.average=Average
 forestry.allele.gigantic=Gigantic
 forestry.allele.normal=Normal
