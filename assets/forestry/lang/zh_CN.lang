@@ -84,7 +84,7 @@ for.flowers.vanilla=鲜花
 for.flowers.wheat=小麦
 for.flowers.snow=雪地
 
-fluid.bioethanol=乙醇
+fluid.bio.ethanol=乙醇
 fluid.biomass=生物质
 fluid.glass=液态玻璃
 fluid.for.honey=蜂蜜
@@ -92,8 +92,8 @@ fluid.ice=碎冰
 fluid.juice=果汁
 fluid.short.mead=蜂蜜酒
 fluid.milk=牛奶
-fluid.seedoil=种子油
-tile.forestry.fluid.bioethanol.name=乙醇
+fluid.seed.oil=种子油
+tile.forestry.fluid.bio.ethanol.name=种子油
 tile.forestry.fluid.biomass.name=生物质
 tile.forestry.fluid.glass.name=液态玻璃
 tile.forestry.fluid.for.honey.name=蜂蜜
@@ -101,7 +101,7 @@ tile.forestry.fluid.ice.name=碎冰
 tile.forestry.fluid.juice.name=果汁
 tile.forestry.fluid.short.mead.name=蜂蜜酒
 tile.forestry.fluid.milk.name=牛奶
-tile.forestry.fluid.seedoil.name=种子油
+tile.forestry.fluid.seed.oil.name=种子油
 
 for.gui.access=权限
 for.gui.active=活动
@@ -175,7 +175,7 @@ for.gui.lifespan=寿命
 for.gui.normal=普通
 
 for.gui.escritoire.probe=检测样本
-for.gui.escritoire.instructions=将基因样本放在中央以开始。在左侧格子中放入更多样本，检测它们以寻求帮助。 
+for.gui.escritoire.instructions=将基因样本放在中央以开始。在左侧格子中放入更多样本，检测它们以寻求帮助。
 for.gui.escritoire.attempt.number=第%s次尝试
 
 for.gui.escritoire.notes.level1.1=旅途之中我发现了一个奇异的样本。
@@ -260,9 +260,12 @@ for.gui.solder.south=南
 for.gui.solder.east=东
 for.gui.solder.west=西
 
-forestry.allele.normal=普通
-forestry.allele.gigantic=巨大
+forestry.allele.true=是
+forestry.allele.false=否
+
 forestry.allele.average=平均
+forestry.allele.gigantic=巨大
+forestry.allele.normal=普通
 
 forestry.allele.slowest=最慢速
 forestry.allele.slower=较慢速
@@ -389,7 +392,7 @@ for.hints.peatharvest.desc=水附近的沼泽泥将会变成泥炭。用锹来�
 for.hints.peatharvest.tag=收获泥炭！
 for.hints.pipette.desc=如果你曾经为某些机器的蓄水槽里总是残留着一些液体而苦恼，那么可以考虑用滴管来吸空它们(用滴管点击蓄水槽)。
 for.hints.pipette.tag=用滴管吸干蓄水槽
-for.hints.postage.desc=发送信件消耗消耗邮票。最简单的信件消耗1n的邮资，每个附件再额外增加1n。 
+for.hints.postage.desc=发送信件消耗消耗邮票。最简单的信件消耗1n的邮资，每个附件再额外增加1n。
 for.hints.postage.tag=支付邮资
 for.hints.powerraintank.desc=即使不供能集雨器也能收集雨水。但要将水装瓶则需要用引擎供能。
 for.hints.powerraintank.tag=装瓶需要耗能！
@@ -596,13 +599,13 @@ item.for.refractory.grammar=耐火%s胶囊
 item.for.refractory_wax.name=耐火蜂蜡
 item.for.refractory_wax.tooltip=具有高熔点的蜂蜡。
 
-item.for.researchNote.name=%s之笔记
-item.for.researchNote.tooltip=用这个就可以获得对应的知识。
-item.for.royalJelly.name=蜂王浆
+item.for.research_note.name=%s 的笔记
+item.for.research_note.tooltip=使用这份笔记以获取其中的知识。
+item.for.royal_jelly.name=蜂王浆
 item.for.scoop.name=捕虫网
 item.for.scoop.tooltip=破坏蜂巢以获得蜜蜂。
-item.for.solderingIron.name=电烙铁
-item.for.solderingIron.tooltip=可将电子管焊在电子板上
+item.for.soldering_iron.name=电烙铁
+item.for.soldering_iron.tooltip=用于将电子管焊到电子板上。
 item.for.smoker.name=驱蜂烟雾
 item.for.smoker.tooltip=让野生的蜜蜂冷静下来
 
@@ -630,6 +633,7 @@ item.for.thermionic_tubes.emerald.name=绿宝石电子管
 item.for.thermionic_tubes.apatite.name=磷灰石电子管
 item.for.thermionic_tubes.lapis.name=青金石电子管
 item.for.thermionic_tubes.ender.name=末影电子管
+item.for.thermionic_tubes.tooltip=用于对电子板进行编程。
 
 item.for.capsule.empty.name=蜂蜡胶囊
 item.for.capsule.tooltip=不能存储高温液体
@@ -639,7 +643,7 @@ item.for.wax_cast.name=打蜡工具
 
 item.for.wood_pulp.name=木浆
 item.for.wrench.name=扳手
-item.for.wrench.tooltip=按住Shift右击可旋转方块
+item.for.wrench.tooltip=按住 Shift 右击可旋转方块
 
 item.for.camouflage_spray_can.name=伪装洒水壶
 
@@ -692,23 +696,41 @@ tile.for.humus.name=腐殖土
 tile.for.bog_earth.bog_earth.name=沼泽泥
 tile.for.bog_earth.peat.name=泥炭
 
+tile.for.bee_combs.cocoa.name=可可蜂窝块
+tile.for.bee_combs.darkened.name=暗黑蜂窝块
+tile.for.bee_combs.dripping.name=滴水蜂窝块
+tile.for.bee_combs.frozen.name=冻结蜂窝块
+tile.for.bee_combs.honey.name=蜜蜂蜂窝块
+tile.for.bee_combs.irradiated.name=辐射蜂窝块
+tile.for.bee_combs.mellow.name=醇厚蜂窝块
+tile.for.bee_combs.mossy.name=苔藓蜂窝块
+tile.for.bee_combs.mysterious.name=神秘蜂窝块
+tile.for.bee_combs.omega.name=终结蜂窝块
+tile.for.bee_combs.parched.name=炎热蜂窝块
+tile.for.bee_combs.powdery.name=粉末蜂窝块
+tile.for.bee_combs.reddened.name=泛红蜂窝块
+tile.for.bee_combs.silky.name=丝滑蜂窝块
+tile.for.bee_combs.simmering.name=激化蜂窝块
+tile.for.bee_combs.stringy.name=纤维蜂窝块
+tile.for.bee_combs.wheaten.name=麦香蜂窝块
+
 item.for.adventurer_bag.name=冒险家背包
-item.for.adventurer_bagT2.name=冒险家编织背包
+item.for.adventurer_bag_t2.name=编织的冒险家背包
 
 item.for.builder_bag.name=建筑师背包
-item.for.builder_bagT2.name=建筑师编织背包
+item.for.builder_bag_t2.name=编织的建筑师背包
 
 item.for.digger_bag.name=挖掘者背包
-item.for.digger_bagT2.name=挖掘者编织背包
+item.for.digger_bag_t2.name=编织的挖掘者背包
 
 item.for.forester_bag.name=林业员背包
-item.for.forester_bagT2.name=林业员编织背包
+item.for.forester_bag_t2.name=编织的林业员背包
 
 item.for.hunter_bag.name=狩猎者背包
-item.for.hunter_bagT2.name=狩猎者编织背包
+item.for.hunter_bag_t2.name=编织的狩猎者背包
 
 item.for.miner_bag.name=采矿者背包
-item.for.miner_bagT2.name=采矿者编织背包
+item.for.miner_bag_t2.name=编织的采矿者背包
 
 ################
 # ERRORS
@@ -1099,17 +1121,11 @@ for.multiblock.farm.error.needPlainInterior=这个农场的内部必须全部是
 for.multiblock.farm.error.needGearbox=这个农场还需要一个齿轮箱才能输入能源并开始工作。
 
 for.multiblock.greenhouse.error.space.closed=温室须为一全封闭环境。请检查是否还有缺失或遗漏的方块。
-for.multiblock.greenhouse.error.butterflyhatch.toomany=温室最多只能安装一个蝴蝶箱。
-
-for.multiblock.charcoal.pile.error.invalid.exterior=位于 %d, %d, %d 的方块不是壤土。
-for.multiblock.charcoal.pile.error.invalid.interior=位于 %d, %d, %d 的方块不是原木堆。
-for.multiblock.charcoal.pile.error.small=炭窑顶太小了，它至少要占地四个方块。
-for.multiblock.charcoal.pile.error.large=位于 %d, %d, %d 的方块并非这个多方块结构的组成部分。
+for.multiblock.greenhouse.error.climatecontrol.toomany=温室最多只能有一个控制器。
 
 for.multiblock.alveary.type=蜂箱
 for.multiblock.farm.type=农场
 for.multiblock.greenhouse.type=温室
-for.multiblock.charcoal.pile.type=炭窑
 
 ####################
 # ARBORICULTURE
@@ -1201,7 +1217,9 @@ for.trees.grammar.leaves=%SPECIES%TYPE
 for.trees.grammar.pile.type=原木堆
 for.trees.grammar.pile=%SPECIES%TYPE
 
-for.trees.pile.dirt=壤土
+tile.for.wood_pile.name=原木堆
+tile.for.loam.name=壤土
+tile.for.charcoal.name=木炭块
 
 for.trees.hybrid=%PRIMARY-%SECONDARY杂交种
 
@@ -1285,8 +1303,6 @@ tile.for.fireproof=抗燃%s
 item.for.grafter.name=剪枝器
 item.for.grafter_proven.name=标定剪枝器
 
-item.for.charcoal.name=木炭
-
 tile.for.tree_chest.name=林业员箱子
 
 tile.for.saplingGE.0.name=树苗
@@ -1345,7 +1361,6 @@ for.trigger.lowSoil=土壤
 
 tile.for.ffarm.tooltip=多方块结构，体积3x4x3 - 5x4x5不定
 tile.for.ffarm.material.tooltip=制作材料：
-
 tile.for.ffarm.0.name=农场方块
 tile.for.ffarm.2.name=农场齿轮箱
 tile.for.ffarm.3.name=农场出货箱
@@ -1359,6 +1374,7 @@ tile.for.mushroom.1.name=蘑菇
 # GREENHOUSE
 ####################
 for.gui.greenhouse.title=温室
+for.gui.greenhouse.nursery.title=蝴蝶育种室
 
 tile.for.greenhouse.tooltip=多方块结构，体积5x5x5 - 64x150x64不定，中空，顶部可自定义，惟需其面积不大于温室本体。
 tile.for.greenhouse.camouflage.tooltip=该方块可被伪装 - 这意味着您可以将其伪装成别的方块的样子。
@@ -1367,7 +1383,7 @@ tile.for.greenhouse.glass.name=温室玻璃幕墙
 tile.for.greenhouse.gearbox.name=温室齿轮箱
 tile.for.greenhouse.hatch_output.name=温室出货箱
 tile.for.greenhouse.hatch_input.name=温室进货箱
-tile.for.greenhouse.butterfly_hatch.name=温室蝴蝶箱
+tile.for.greenhouse.nursery.name=蝴蝶育种室
 tile.for.greenhouse.valve.name=温室水阀
 tile.for.greenhouse.fan.name=温室风扇
 tile.for.greenhouse.heater.name=温室加热器
@@ -1436,6 +1452,7 @@ for.butterflies.species.pieridae.postillion=纹黄蝶
 for.butterflies.species.pieridae.reseda=东方绿斑粉蝶
 for.butterflies.species.pieridae.springAzure=冬青小灰蝶
 for.butterflies.species.saturniidae.atlas=乌柏巨蚕蛾
+for.butterflies.species.bombycidae.bombyxMori=家蚕蛾
 
 for.gui.loot.butterfly=蝴蝶可能的产物
 for.gui.loot.caterpillar=毛毛虫可能的产物
@@ -1513,6 +1530,7 @@ for.plugin.food.description=添加食物的组件。
 for.plugin.lepidopterology.description=蝴蝶组件。璀璨夺目。
 for.plugin.mail.description=添加林业贸易和邮寄系统的组件。
 for.plugin.storage.description=添加背包和板条箱的组件。
+for.plugin.greenhouse.description=添加温室。
 
 for.plugin.buildcraft6.description=BC6兼容组件。
 for.plugin.pipes.description=如果同时安装了BC6且养蜂组件已激活，则添加养蜂员管道的组件。
@@ -1599,6 +1617,9 @@ for.config.tweaks.permissions=权限
 for.config.tweaks.permissions.comment=开启林业机器的访问限制功能。
 for.config.tweaks.version.check=版本检查
 for.config.tweaks.version.check.comment=开启更新与版本检查通知。
+
+for.config.tweaks.humus.degradeDelimiter=腐殖土退化分界
+for.config.tweaks.humus.degradeDelimiter.comment=决定了腐殖土在彻底退化为沙子前所经过的阶段数量。
 
 for.config.tweaks.farms.size=农场工作范围
 for.config.tweaks.farms.size.comment=设定耕地范围的放大倍数。
@@ -1769,12 +1790,12 @@ for.jei.description.frames=将林业框架置于蜂房中，可提高蜜蜂产�
 for.jei.description.apiarist.suit=每一件养蜂人套装都可以保护养蜂人免受蜜蜂的负面效果。全套养蜂人套装可提供完全保护。
 for.jei.description.habitat_locator=栖息地定位仪可为指定蜜蜂搜索最近的理想栖息地。当它定位成功后，它的指针会指向定位到的地点。若当前地点即为理想栖息地，其指针会不停转动。
 for.jei.description.scoop=捕蜂网可用于破坏野生的蜂巢，并收集其中的蜜蜂。它也可用于收集蝴蝶：只需右击蝴蝶即可捕捉。
-+for.jei.description.imprinter=创造模式专用，可获得任意种类的蜜蜂。
+for.jei.description.imprinter=创造模式专用物品。可刷出任意类型的蜜蜂。
 
 for.jei.description.infuser=用于向蜂蜜酒中加入花粉，以制得蜂蜜药酒。
 
 for.jei.description.chipsets=用电烙铁可为电子板安装各式电子管。安装完电子管后，电子板便可通过GUI插入机器的电子板插槽中使用。用电烙铁可将电子板从插槽中拆除。
-for.jei.description.solderingIron=手持电烙铁右击，即可打开焊接界面，在这个界面中你可以选择制作各式电子板，并将各式电子管焊接在电子板上。它还可以用于从机器插槽中拆除电子板。
+for.jei.description.soldering_iron=手持电烙铁右击可打开其界面。在这个界面中，你可以更改电子板的类型，并在上面安装电子管。电烙铁也可用于从电子板上拆除电子管。
 for.jei.description.thermionic_tubes=用电烙铁可将电子管焊在电子板上。每种电子管的具体作用可在电烙铁焊接界面中选择，并显示在其信息提示上。电子管焊接到电子板上后便无法取下。
 for.jei.description.humus=一种肥力高的土，植物生长在上面时不需要附近有水。肥力会随时间推移而下降，最终变成沙子。
 for.jei.description.bog_earth=在附近有水的湿润环境下可缓慢变成泥炭。
@@ -1811,4 +1832,5 @@ for.jei.rainmaker.causes.rain=祈雨
 for.jei.rainmaker.stops.rain=停雨
 for.jei.rainmaker.speed=速度：%s
 for.jei.rainmaker.duration=持续时间：%s刻
+tile.for.charcoal.pile.wall.name=木炭堆
 for.jei.chance=概率：%s
