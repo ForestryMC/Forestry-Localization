@@ -1670,6 +1670,8 @@ for.config.beekeeping.flowers.accepted=Accepted Flowers
 for.config.beekeeping.flowers.accepted.comment=Accepted flowers allow bees to work. Format is 'modid:name:meta', one per line. The format for wildcard  metadata is 'modid:name'.
 for.config.beekeeping.flowers.plantable=Plantable Flowers
 for.config.beekeeping.flowers.plantable.comment=Plantable flowers are placed by bees. All plantable flowers are automatically accepted flowers. Format is 'modid:name:meta', one per line. The format for wildcard  metadata is 'modid:name'.
+for.config.beekeeping.flowers.spawn=Max Flowers Spawned
+for.config.beekeeping.flowers.spawn.comment=The maximum number of flowers for hives to spawn nearby over time.
 
 for.config.species.blacklist=Species Blacklist
 for.config.species.blacklist.comment=Add species to blacklist identified by their uid, one per line.
