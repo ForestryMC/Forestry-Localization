@@ -58,6 +58,14 @@ for.circuit.machine.speed.boost.2.description.1=Increases Speed by 25%
 for.circuit.machine.speed.boost.2.description.2=Increases Power Use by 10%
 for.circuit.machine.efficiency.1=Machine Efficiency
 for.circuit.machine.efficiency.1.description.1=Decreases Power Use by 10%
+for.circuit.climatiser.temperature.1=Temperature Boost I
+for.circuit.climatiser.temperature.1.description.1=Increases Range and Change by 12.5%
+for.circuit.climatiser.temperature.2=Temperature Boost II
+for.circuit.climatiser.temperature.2.description.1=Increases Range and Change by 25%
+for.circuit.climatiser.humidity.1=Humidity Boost I
+for.circuit.climatiser.humidity.1.description.1=Increases Range and Change by 12.5%
+for.circuit.climatiser.humidity.2=Humidity Boost II
+for.circuit.climatiser.humidity.2.description.1=Increases Range and Change by 25%
 
 for.circuit.layout.dummy.name=Not Available
 for.circuit.layout.dummy.usage=Nothing
@@ -73,6 +81,9 @@ for.circuit.layout.farms.manual.usage=Manual Farms
 
 for.circuit.layout.machine.upgrade.name=Machine Upgrade
 for.circuit.layout.machine.upgrade.usage=Socketed Machines
+
+for.circuit.layout.greenhouse.climatiser.name=Climatiser
+for.circuit.layout.greenhouse.climatiser.usage=Climatisers
 
 for.flowers.cacti=Cacti
 for.flowers.end=End
@@ -145,9 +156,7 @@ for.gui.drones=Drones
 for.gui.effect=Effect
 for.gui.empty=Empty
 for.gui.emptysocket=Empty Socket
-for.gui.empty.slot.camouflage.multiblock.default=Default Multiblock Camouflage Slot
-for.gui.empty.slot.camouflage.multiblock.glass=Glass Multiblock Camouflage Slot
-for.gui.empty.slot.camouflage.multiblock.door=Door Multiblock Camouflage Slot
+for.gui.empty.slot.camouflage.multiblock=Multiblock Camouflage Slot
 for.gui.empty.slot.camouflage=Camouflage Slot
 for.gui.socket.remove=Removable with a Soldering Iron
 for.gui.energy=Energy
@@ -693,6 +702,9 @@ tile.for.resource_storage.copper.name=Block of Copper
 tile.for.resource_storage.tin.name=Block of Tin
 tile.for.resource_storage.bronze.name=Block of Bronze
 
+tile.for.ash_brick.name=Ash Bricks
+tile.for.ash_stairs.name=Ash Brick Stairs
+
 tile.for.humus.name=Humus
 tile.for.bog_earth.bog_earth.name=Bog Earth
 tile.for.bog_earth.peat.name=Peat
@@ -848,6 +860,14 @@ for.errors.no_fertilizer.desc=No Fertilizer
 for.errors.no_fertilizer.help=Farms require fertilizer for function. Compost is insufficient.
 for.errors.no_liquid.desc=No Water
 for.errors.no_liquid.help=Depending on rainfall, temperature and humidity farms need to be supplied with varying amounts of water.
+
+# GREENHOUSE
+for.errors.not_closed.desc=Roof Not Closed
+for.errors.not_closed.help=The roof of the greenhouse is not closed.
+for.errors.not_loaded.desc=Not Loaded
+for.errors.not_loaded.help=One chunk of the greenhouse is not loaded.
+for.errors.too_large.desc=Too Large
+for.errors.too_large.help=The greenhouse is too large for its controller or it is not closed at a position.
 
 ####################
 # APICULTURE
@@ -1121,8 +1141,11 @@ for.multiblock.farm.error.needPlainBand=The Farm must have plain farm blocks for
 for.multiblock.farm.error.needPlainInterior=The Farm must have plain farm blocks for the interior.
 for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept power and do work.
 
-for.multiblock.greenhouse.error.space.closed=The Greenhouse must fully enclose an area. Some blocks are missing or they are not connected to the other greenhouse blocks.
-for.multiblock.greenhouse.error.climatecontrol.toomany=The Greenhouse can only have one climate control.
+for.multiblock.greenhouse.error.needPlainOnTop=The Greenhouse must have plain greenhouse blocks for the top level.
+for.multiblock.greenhouse.error.needPlainInterior=The Greenhouse must have plain greenhouse blocks for the interior.
+for.multiblock.greenhouse.error.space.notclosed=The Greenhouse must be closed. Some blocks are missing or they are not a valid wall block.
+for.multiblock.greenhouse.error.space.unloaded=A part of the Greenhouse is in an unloaded chunk. All chunks around the greenhouse must to be loaded.
+for.multiblock.greenhouse.error.needSpace=The Greenhouse must not stand in the range of an other Greenhouse.
 
 for.multiblock.alveary.type=Alveary
 for.multiblock.farm.type=Farm
@@ -1219,7 +1242,9 @@ for.trees.grammar.pile.type=Wood Pile
 for.trees.grammar.pile=%SPECIES %TYPE
 
 tile.for.wood_pile.name=Wood Pile
+tile.for.wood_pile_decorative.name=Decorative Wood Pile
 tile.for.loam.name=Loam
+tile.for.ash_block.name=Ash Block
 tile.for.charcoal.name=Block of Charcoal
 
 for.trees.hybrid=%PRIMARY-%SECONDARY Hybrid
@@ -1376,26 +1401,53 @@ tile.for.mushroom.1.name=Mushroom
 # GREENHOUSE
 ####################
 for.gui.greenhouse.title=Greenhouse
-for.gui.greenhouse.nursery.title=Greenhouse Butterfly Nursery
+for.gui.greenhouse.hygroregulator.title=Greenhouse Hygroregulator
 
-tile.for.greenhouse.tooltip=Multi-Block: 5x5x5 - 64x150x64  (Hollow) with a custom roof, that is not bigger than the base.
+tile.for.greenhouse.tooltip=Multi-Block: 3x2x3 - 5x5x5
 tile.for.greenhouse.camouflage.tooltip=This block can be camouflaged, that means that you can customise the model of this block.
 tile.for.greenhouse.plain.name=Greenhouse Block
-tile.for.greenhouse.glass.name=Greenhouse Glass
-tile.for.greenhouse.gearbox.name=Greenhouse Gearbox
-tile.for.greenhouse.hatch_output.name=Greenhouse Output Hatch
-tile.for.greenhouse.hatch_input.name=Greenhouse Input Hatch
-tile.for.greenhouse.nursery.name=Greenhouse Butterfly Nursery
-tile.for.greenhouse.valve.name=Greenhouse Valve
-tile.for.greenhouse.fan.name=Greenhouse Fan
-tile.for.greenhouse.heater.name=Greenhouse Heater
-tile.for.greenhouse.dehumidifier.name=Greenhouse Dehumidifier
-tile.for.greenhouse.humidifier.name=Greenhouse Humidifier
+tile.for.greenhouse.gearbox.name=Greenhouse Energy Distributor
 tile.for.greenhouse.control.name=Greenhouse Control
-tile.for.greenhouse.door.name=Greenhouse Door
-tile.for.greenhouse.climate_control.name=Greenhouse Climate Control
+tile.for.greenhouse.screen.name=Greenhouse Screen
 tile.for.greenhouse.window_up.name=Greenhouse Roof Window
 tile.for.greenhouse.window.name=Greenhouse Window
+tile.for.climatiser.fan.name=Greenhouse Fan
+tile.for.climatiser.heater.name=Greenhouse Heater
+tile.for.climatiser.dehumidifier.name=Greenhouse Dehumidifier
+tile.for.climatiser.humidifier.name=Greenhouse Humidifier
+tile.for.climatiser.hygro.name=Greenhouse Hygroregulator
+
+item.for.greenhouse_screen.name=Portable Greenhouse Screen
+
+for.gui.modifier.sources.range.up=Range Up: %s
+for.gui.modifier.sources.range.down=Range Down: %s
+for.gui.modifier.sources.change=Change: %s
+for.gui.modifier.rain=Rain: %s
+for.gui.modifier.time=Time: %s
+for.gui.modifier.altitude=Altitude: %s
+for.gui.modifier.title=Modifiers
+for.gui.sources=Climate Sources: %s
+for.gui.modifier.weather.title=Weather
+for.gui.modifier.time.title=Time
+for.gui.modifier.altitude.title=Altitude
+for.gui.modifier.sources.title=Climate Sources
+
+for.message.greenhouse_screen.fail=You only can use this item if it is linked to a greenhouse
+for.message.greenhouse_screen.position=This item is now linked to a greenhouse
+for.message.greenhouse_screen.preview.active=Switched preview mod to active
+for.message.greenhouse_screen.preview.inactive=Switched preview mod to inactive
+for.message.greenhouse_screen.center=You have set the center of the greenhouse to the coordinates
+for.message.greenhouse_screen.away=You are too far away from the greenhouse to use this item
+for.message.greenhouse_screen.notassembled=You only can like this item to the an assembled greenhouse
+
+for.greenhouse_screen.mode=Preview Mode: %s
+for.greenhouse_screen.mode.active=Active
+for.greenhouse_screen.mode.inactive=Inactive
+for.greenhouse_screen.state=State: %s
+for.greenhouse_screen.state.linked=Linked to the position (%s, %s, %s)
+for.greenhouse_screen.state.fail=Not Linked
+for.greenhouse_screen.temperature=Temperature: %s
+for.greenhouse_screen.humidity=Humidity: %s
 
 ####################
 # LEPIDOPTEROLOGY
@@ -1634,6 +1686,13 @@ for.config.tweaks.farms.redorchid.comment=Enables farm support for ExtraUtilitie
 for.config.tweaks.farms.magicalcrops=Magical Crops Farm Support
 for.config.tweaks.farms.magicalcrops.comment=Enables farm support for Magical Crops.
 
+for.config.tweaks.greenhouse.range=Greenhouse Range
+for.config.tweaks.greenhouse.range.comment=Set the range divisor of the climatiser of the greenhouse.
+for.config.tweaks.greenhouse.size=Greenhouse Size
+for.config.tweaks.greenhouse.size.comment=Set the size multiplier of the climated blocks.
+for.config.tweaks.greenhouse.energy=Greenhouse Energy Modifier
+for.config.tweaks.greenhouse.energy.comment=Modifies the energy that is used by the greenhouse climatisers.
+
 for.config.genetics=Genetics
 for.config.genetics.pollinate.vanilla.trees=Pollinate Vanilla Trees
 for.config.genetics.pollinate.vanilla.trees.comment=Allow bees to pollinate vanilla tree leaves. When disabled, vanilla trees must be analyzed before they can be pollinated.
@@ -1838,5 +1897,6 @@ for.jei.rainmaker.causes.rain=Causes Rain
 for.jei.rainmaker.stops.rain=Stops Rain
 for.jei.rainmaker.speed=Speed: %s
 for.jei.rainmaker.duration=Duration: %s ticks
-tile.for.charcoal.pile.wall.name= Charcoal Pile
+tile.for.charcoal.pile.wall.name=Charcoal Pile
 for.jei.chance=Chance: %s
+for.jei.fortune=The amount of this item is affected by the fortune enchantment.
