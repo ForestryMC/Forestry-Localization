@@ -141,7 +141,7 @@ for.gui.derelict=Abandonnée
 for.gui.desert=Désert
 for.gui.didyouknow=Saviez-vous
 for.gui.diurnal=Diurne
-for.gui.drones=Ouvriers
+for.gui.drones=Faux-Bourdons
 for.gui.effect=Effet
 for.gui.empty=Vide
 for.gui.emptysocket=Emplacement vide
@@ -232,7 +232,7 @@ for.gui.pipe.filter.anything=Tout
 for.gui.pipe.filter.bee=Toutes abeilles
 for.gui.pipe.filter.cave=De cave
 for.gui.pipe.filter.closed=Rien
-for.gui.pipe.filter.drone=Ouvrières
+for.gui.pipe.filter.drone=Faux-Bourdons
 for.gui.pipe.filter.flyer=Les volantes
 for.gui.pipe.filter.item=Éléments
 for.gui.pipe.filter.nocturnal=Les noctures
@@ -430,7 +430,7 @@ for.trigger.lowPaper=Papier
 for.trigger.lowResources=Ressources
 for.trigger.lowStamps=Timbres
 for.trigger.mailBuffer=Tampon
-for.trigger.missingDrone=Ouvrière manquante
+for.trigger.missingDrone=Faux-Bourdon manquant
 for.trigger.missingQueen=Reine ou princesse manquante
 for.trigger.noFrames=Pas de cadres
 
@@ -692,8 +692,8 @@ tile.for.bog_earth.peat.name=Tourbe
 # BEES
 for.errors.is_raining.desc=Pluie
 for.errors.is_raining.help=Seules les ouvrières tolérante peuvent voler sous la pluie.
-for.errors.no_drone.desc=Pas d'ouvrière
-for.errors.no_drone.help=La reproduction exige la présence d'une ouvrière.
+for.errors.no_drone.desc=Pas de faux-bourdon
+for.errors.no_drone.help=La reproduction exige la présence d'un faux-bourdon.
 for.errors.no_flower.desc=Pas de fleurs
 for.errors.no_flower.help=Les membres de la ruche ne trouvent pas les bonnes fleurs . Utilisez l'analyseur d'abeilles pour connaître leur fleur préférée.
 for.errors.no_queen.desc=Pas de reine
@@ -839,9 +839,9 @@ for.beemode.hardcore.desc=Diminue la fréquence de mutation, augmente la longév
 for.beemode.insane.desc=Abbaisse a 20% la frequence de mutation, augmente la longévité du règne 10 fois e réduit la ferilité de 40%.
 for.beemode.normal.desc=Niveau normal recommandé pour un jeu normal.
 
-for.bees.grammar.drone.type=Ouvrière
+for.bees.grammar.drone.type=Faux-Bourdon
 for.bees.grammar.drone=%TYPE %SPECIES
-for.bees.grammar.larvae.type=Crisalide
+for.bees.grammar.larvae.type=Chrysalide
 for.bees.grammar.larvae=%TYPE %SPECIES
 for.bees.grammar.princess.type=Princesse
 for.bees.grammar.princess=%TYPE %SPECIES
@@ -1603,13 +1603,13 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 # for.bees.custom.<type>.<species>=Nouveau nom d'abeille personnalisé
 # for.trees.custom.<type>.<species>=Nouveau nom d'arbre personnalisé
 # Examples:
-# for.bees.custom.drone.forest=Ouvrière des forêts
+# for.bees.custom.drone.forest=Faux-Bourdon des forêts
 # for.trees.custom.pollen.darkOak=Nouveau nom du pollen de chêne noir
 # Syntaxe Beealyzer/Treealyzer:
 # for.bees.custom.beealyzer.<type>.<species>=Nouvelle espèce d'abeille personnalisé
 # for.trees.custom.treealyzer.<type>.<species>=Nouvelle espèce d'arbre personnalisé
 # Examples:
-# for.bees.custom.beealyzer.drone.forest=Nouveau nom des ouvrières des forêts utilisé par l'analyseur d'abeille
+# for.bees.custom.beealyzer.drone.forest=Nouveau nom des faux-bourdons des forêts utilisé par l'analyseur d'abeille
 # for.trees.custom.treealyzer.pollen.darkOak=Nouveau nom du pollen de chêne noir utilisé par l'analyseur d'arbre
 
 ###################################
@@ -1665,7 +1665,7 @@ for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 nei.subsets.Forestry=Sylviculture
 nei.subsets.Forestry.Bees=Abeille
 nei.subsets.Forestry.Bees.Combs=Alvéoles
-nei.subsets.Forestry.Bees.Drones=Ouvrières
+nei.subsets.Forestry.Bees.Drones=Faux-bourdons
 nei.subsets.Forestry.Bees.Princesses=Princesses
 nei.subsets.Forestry.Bees.Queens=Reines
 nei.subsets.Forestry.Blocks=Blocs
