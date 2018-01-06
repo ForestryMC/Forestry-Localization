@@ -1702,6 +1702,9 @@ for.config.tweaks.farms.redorchid.comment=Enables farm support for ExtraUtilitie
 for.config.tweaks.farms.magicalcrops=Magical Crops Farm Support
 for.config.tweaks.farms.magicalcrops.comment=Enables farm support for Magical Crops.
 
+for.config.tweaks.capsule=Capsules
+for.config.tweaks.capsule.comment=Enables the function that cans and capsules can pick up fluids from the world.
+
 for.config.tweaks.greenhouse.range=Greenhouse Range
 for.config.tweaks.greenhouse.range.comment=Set the range divisor of the climatiser of the greenhouse.
 for.config.tweaks.greenhouse.size=Greenhouse Size
