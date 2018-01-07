@@ -1598,7 +1598,8 @@ for.module.lepidopterology.description=Butterflies. Shiny.
 for.module.mail.description=Adds Forestry's mail and trade system.
 for.module.backpacks.description=Adds backpacks.
 for.module.crates.description=Adds crates.
-for.module.greenhouse.description=Adds a greenhouse.
+for.module.greenhouse.description=Adds a greenhouse multiblock.
+for.module.database.description=Adds a new storage block for bees / trees and butterflies.
 
 for.module.buildcraft6.description=Compatibility plugin for BuildCraft 6.
 for.module.pipes.description=Adds the apiarist's pipe for beekeeping if apiculture is enabled and BuildCraft 6 is present.
