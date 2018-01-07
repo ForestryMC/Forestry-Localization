@@ -1591,6 +1591,7 @@ for.module.arboriculture.description=Adds additional tree species and products.
 for.module.charcoal.description=Adds wood piles, loam and a charcoal production.
 for.module.energy.description=Adds several RF engines.
 for.module.factory.description=Adds a wide variety of machines to craft, produce and process products.
+for.module.worktable.description=Adds a crafting table that can save 8 recipes.
 for.module.farming.description=Adds automatic farms and harvesters for a wide variety of products.
 for.module.food.description=Adds food.
 for.module.lepidopterology.description=Butterflies. Shiny.
