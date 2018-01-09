@@ -1670,6 +1670,8 @@ for.config.world.generate.beehives.amount=Beehives Generation Amount
 for.config.world.generate.beehives.amount.comment=Sets how many beehives spawn in the world.
 for.config.world.generate.beehives.debug=Debug Beehive Generation
 for.config.world.generate.beehives.debug.comment=Force Forestry to generate a beehive at every possible location. (This will break your world. Only useful to developers)
+for.config.world.generate.beehives.dimBlacklist=Beehive Generation Dimension Blacklist
+for.config.world.generate.beehives.dimBlacklist.comment=Disables the generation of all hives in the specified dimensions. Enter one dimension id per line.
 for.config.world.generate.beehives.blacklist.category_comment=Disables the generation of a specific hive in a specific biome or in a biome with a specific biome type. Just add the registry name of the biome or the name of the biome type to the property of the hive. Every biome type / registry name has to be in a seperate line.
 
 for.config.world.generate.villagers=Generate Villagers
