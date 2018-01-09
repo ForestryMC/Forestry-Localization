@@ -252,21 +252,6 @@ for.gui.noeffect=No effect
 for.gui.owner=Owner
 for.gui.page=Page
 
-for.gui.pipe.filter.anything=Anything
-for.gui.pipe.filter.bee=Any Bees
-for.gui.pipe.filter.cave=Cave-Dwellers
-for.gui.pipe.filter.closed=Closed
-for.gui.pipe.filter.drone=Drones
-for.gui.pipe.filter.flyer=Strong Flyers
-for.gui.pipe.filter.item=Items
-for.gui.pipe.filter.nocturnal=Nocturnal Bees
-for.gui.pipe.filter.princess=Princesses
-for.gui.pipe.filter.pure_breed=Pure-Bred Bees
-for.gui.pipe.filter.pure_cave=Pure Cave-Dwellers
-for.gui.pipe.filter.pure_flyer=Pure Flyers
-for.gui.pipe.filter.pure_nocturnal=Pure Nocturnal Bees
-for.gui.pipe.filter.queen=Queen
-
 for.gui.plains=Plains
 for.gui.princesses=Princ.
 for.gui.produce=Produce
@@ -1580,6 +1565,37 @@ item.for.catalogue.tooltip=Lists all available Trade Station trades.
 ####################
 
 item.PipeItemsPropolis.name=Apiarist's Pipe
+
+tile.for.genetic_filter.name=Genetic Filter
+tile.for.genetic_filter.0.name=Genetic Filter
+
+for.gui.filter.seletion=Filter Selection
+
+for.gui.filter.forestry.default.anything=Anything
+for.gui.filter.forestry.default.closed=Closed
+for.gui.filter.forestry.default.item=Items
+for.gui.filter.forestry.default.cave=Cave-Dwellers
+for.gui.filter.forestry.default.flyer=Strong Flyers
+for.gui.filter.forestry.default.nocturnal=Nocturnal
+for.gui.filter.forestry.default.pure_breed=Pure-Bred
+for.gui.filter.forestry.default.pure_cave=Pure Cave-Dwellers
+for.gui.filter.forestry.default.pure_flyer=Pure Flyers
+for.gui.filter.forestry.default.pure_nocturnal=Pure Nocturnal
+
+for.gui.filter.forestry.apiculture.bee=Any Bees
+for.gui.filter.forestry.apiculture.queen=Queen
+for.gui.filter.forestry.apiculture.drone=Drones
+for.gui.filter.forestry.apiculture.princess=Princesses
+
+for.gui.filter.forestry.arboriculture.tree=Any Tree
+for.gui.filter.forestry.arboriculture.sapling=Sapling
+for.gui.filter.forestry.arboriculture.pollen=Pollen
+
+for.gui.filter.forestry.lepidopterology.flutter=Any Butterfly
+for.gui.filter.forestry.lepidopterology.butterfly=Butterfly
+for.gui.filter.forestry.lepidopterology.caterpillar=Caterpillar
+for.gui.filter.forestry.lepidopterology.serum=Serum
+for.gui.filter.forestry.lepidopterology.cocoon=Cocoon
 
 ####################
 # MODULES
