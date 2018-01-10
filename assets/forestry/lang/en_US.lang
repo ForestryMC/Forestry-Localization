@@ -104,6 +104,7 @@ fluid.juice=Fruit Juice
 fluid.short.mead=Short Mead
 fluid.milk=Milk
 fluid.seed.oil=Seed Oil
+
 tile.forestry.fluid.bio.ethanol.name=Ethanol
 tile.forestry.fluid.biomass.name=Biomass
 tile.forestry.fluid.glass.name=Liquid Glass
@@ -130,7 +131,7 @@ for.gui.arid=Arid
 for.gui.beach=Beach
 
 for.gui.portablealyzer=Portable Genetic Analyzer
-for.gui.portablealyzer.help=Supply bee, tree, butterfly or an other individual and provide honey or honeydew as a pacifier.
+for.gui.portablealyzer.help=Supply bee, sapling, butterfly or an other individual and provide honey or honeydew as a pacifier.
 
 for.gui.beealyzer.artificial=Artificial Origin
 for.gui.beealyzer.behaviour=Behaviour
@@ -355,7 +356,7 @@ for.gui.camouflage_spray_can=Camouflage Spray Can
 
 for.hints.apiaristsuit.desc=A full apiarist's suit will protect you from all negative bee effects.
 for.hints.apiaristsuit.tag=Bee Suits!
-for.hints.beebiomes.desc=Bees only work in biomes that suit their species. Use your beealyzer and habitat locator to find out in which.
+for.hints.beebiomes.desc=Bees only work in biomes that suit their species. Use your portable analyzer and habitat locator to find out in which.
 for.hints.beebiomes.tag=Choose your biome!
 for.hints.beebreeding.desc=Crossbreeding drones and princesses of different species may net you offspring with a new species.
 for.hints.beebreeding.tag=Breed your bees!
@@ -378,7 +379,7 @@ for.hints.enginebronzeheatloss.tag=Careful with water!
 for.hints.enginebronzeoutput.desc=Different fuels will net you different energy outputs in a biogas engine. Outputs range from 10 RF/t to 50 RF/t.
 for.hints.enginebronzeoutput.tag=Choose your fuel!
 for.hints.enginebronzewaste.desc=Contrary to peat-fired engines disabled biogas engines will not waste the biomass currently in the system.
-for.hints.enginebronzewaste.tag=Fuel is conserved.
+for.hints.enginebronzewaste.tag=Fuel is conserved
 for.hints.enginecopperfuels.desc=Peat-fired engines can use untreated peat, but they can also use bituminous peat to double their energy output.
 for.hints.enginecopperfuels.tag=Use all the fuels!
 for.hints.enginecopperwaste.desc=Disabled peat-fired engines continue to burn peat already removed from the stash without generating energy from it.
@@ -570,7 +571,7 @@ item.for.hardened_machine.name=Hardened Casing
 item.for.honeydew.name=Honeydew
 
 item.for.portable_alyzer.name=Portable Analyzer
-item.for.portable_alyzer.tooltip=Handheld Genetic Analyzer for bees, trees, and butterflies.
+item.for.portable_alyzer.tooltip=Handheld Genetic Analyzer for bees, saplings, and butterflies.
 
 item.for.honey_drop.charged.name=Charged Drop
 item.for.honey_drop.honey.name=Honey Drop
@@ -665,11 +666,11 @@ item.for.wrench.tooltip=Shift-Use to rotate blocks.
 
 item.for.camouflage_spray_can.name=Camouflage Spray Can
 
-itemGroup.apiculture=Apiculture
-itemGroup.arboriculture=Arboriculture
+itemGroup.apiculture=Forestry Apiculture
+itemGroup.arboriculture=Forestry Arboriculture
 itemGroup.forestry=Forestry
-itemGroup.lepidopterology=Lepidopterology
-itemGroup.agriculture=Agriculture
+itemGroup.lepidopterology=Forestry Lepidopterology
+itemGroup.agriculture=Forestry Agriculture
 
 tile.for.analyzer.name=Analyzer
 tile.for.escritoire.name=Escritoire
@@ -765,7 +766,7 @@ for.errors.is_raining.help=Only tolerant fliers can work in the rain.
 for.errors.no_drone.desc=No drone
 for.errors.no_drone.help=Mating requires a drone present.
 for.errors.no_flower.desc=No flowers
-for.errors.no_flower.help=Hive members are not finding the right flowers. Use the Beealyzer to learn their flower preference.
+for.errors.no_flower.help=Hive members are not finding the right flowers. Use the portable analyzer to learn their flower preference.
 for.errors.no_queen.desc=No queen
 for.errors.no_queen.help=Supply this hive with a queen or a princess and a drone.
 for.errors.no_sky.desc=Sky obstructed
@@ -1448,7 +1449,7 @@ for.message.greenhouse_screen.preview.active=Switched preview mod to active
 for.message.greenhouse_screen.preview.inactive=Switched preview mod to inactive
 for.message.greenhouse_screen.center=You have set the center of the greenhouse to the coordinates
 for.message.greenhouse_screen.away=You are too far away from the greenhouse to use this item
-for.message.greenhouse_screen.notassembled=You only can like this item to the an assembled greenhouse
+for.message.greenhouse_screen.notassembled=You only can link this item to the an assembled greenhouse
 
 for.greenhouse_screen.mode=Preview Mode: %s
 for.greenhouse_screen.mode.active=Active
@@ -1601,30 +1602,30 @@ for.module.crates.description=Adds crates.
 for.module.greenhouse.description=Adds a greenhouse multiblock.
 for.module.database.description=Adds a new storage block for bees / trees and butterflies.
 
-for.module.buildcraft6.description=Compatibility plugin for BuildCraft 6.
+for.module.buildcraft6.description=Compatibility module for BuildCraft 6.
 for.module.pipes.description=Adds the apiarist's pipe for beekeeping if apiculture is enabled and BuildCraft 6 is present.
-for.module.ic2.description=Compatibility plugin for IC2. Adds electrical engine and generator for power conversion.
-for.module.natura.description=Compatibility plugin for Natura. Enables farming Natura saplings.
-for.module.ee2.description=Compatibility plugin for Equivalent Exchange 2. Enables the Omega branch of bees. Requires Apiculture to be enabled.
-for.module.ee3.description=Compatibility plugin for Equivalent Exchange 3.
+for.module.ic2.description=Compatibility module for IC2. Adds electrical engine and generator for power conversion.
+for.module.natura.description=Compatibility module for Natura. Enables farming Natura saplings.
+for.module.ee2.description=Compatibility module for Equivalent Exchange 2. Enables the Omega branch of bees. Requires Apiculture to be enabled.
+for.module.ee3.description=Compatibility module for Equivalent Exchange 3.
 for.module.farmcraftory.description=Enables compatibility with FarmCraftory. Adds crops and vegetables to farms.
-for.module.biomesoplenty.description=Compatibility plugin for Biomes O Plenty. Enables farming BoP saplings.
-for.module.extrautilities.description=Compatibility plugin for Extra Utilities. Enables farming ender lilies and red orchid.
-for.module.harvestcraft.description=Compatibility plugin for HarvestCraft. Enables farming HarvestCraft plants and trees.
-for.module.magicalcrops.description=Compatibility plugin for Magical Crops.
-for.module.chisel.description=Compatibility plugin for Chisel. Adds worldgen blocks to Backpacks.
-for.module.plantmegapack.description=Compatibility plugin for Plant Mega Pack.
-for.module.witchery.description=Compatibility plugin for Witchery.
-for.module.agricraft.description=Compatibility plugin for AgriCraft.
-for.module.enderIO.description=Compatibility plugin for EnderIO.
-for.module.immersiveengineering.description=Compatibility plugin for Immersive Engineering.
-for.module.growthcraft.description=Compatibility plugin for GrowthCraft.
-for.module.erebus.description=Compatibility plugin for Erebus.
-for.module.rotarycraft.description=Compatibility plugin for RotaryCraft.
-for.module.actuallyadditions.description=Compatibility plugin for Actually Additions.
-for.module.roots.description=Compatibility plugin for Roots.
-for.module.rustic.description=Compatibility plugin for Rustic.
-for.module.mysticalagriculture.description=Compatibility plugin for Mystical Agriculture. Enables farming Mystical Agriculture crops.
+for.module.biomesoplenty.description=Compatibility module for Biomes O Plenty. Enables farming BoP saplings.
+for.module.extrautilities.description=Compatibility module for Extra Utilities. Enables farming ender lilies and red orchid.
+for.module.harvestcraft.description=Compatibility module for HarvestCraft. Enables farming HarvestCraft plants and trees.
+for.module.magicalcrops.description=Compatibility module for Magical Crops.
+for.module.chisel.description=Compatibility module for Chisel. Adds worldgen blocks to Backpacks.
+for.module.plantmegapack.description=Compatibility module for Plant Mega Pack.
+for.module.witchery.description=Compatibility module for Witchery.
+for.module.agricraft.description=Compatibility module for AgriCraft.
+for.module.enderIO.description=Compatibility module for EnderIO.
+for.module.immersiveengineering.description=Compatibility module for Immersive Engineering.
+for.module.growthcraft.description=Compatibility module for GrowthCraft.
+for.module.erebus.description=Compatibility module for Erebus.
+for.module.rotarycraft.description=Compatibility module for RotaryCraft.
+for.module.actuallyadditions.description=Compatibility module for Actually Additions.
+for.module.roots.description=Compatibility module for Roots.
+for.module.rustic.description=Compatibility module for Rustic.
+for.module.mysticalagriculture.description=Compatibility module for Mystical Agriculture. Enables farming Mystical Agriculture crops.
 
 ####################
 # CONFIG FILES
