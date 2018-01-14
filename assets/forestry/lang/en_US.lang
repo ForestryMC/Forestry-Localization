@@ -1335,14 +1335,13 @@ tile.for.pods.0.name=Pod
 ####################
 
 for.circuit.managedArboreal=Arboretum
-for.circuit.managedCereal=Crop Farm
+for.circuit.managedCrops=Crop Farm
 for.circuit.managedInfernal=Infernal Farm
 for.circuit.managedPeat=Peat Bog
 for.circuit.managedShroom=Shroom Farm
-for.circuit.managedVegetable=Vegetable Farm
 for.circuit.managedEnder=Ender Farm
 for.circuit.managedOrchid=Orchid Farm
-for.circuit.manualCereal=Crop Farm
+for.circuit.manualCrops=Crop Farm
 for.circuit.manualCocoa=Cocoa Plantation
 for.circuit.manualGourd=Gourd Farm
 for.circuit.manualOrchard=Orchard
@@ -1351,7 +1350,6 @@ for.circuit.manualPoales=Reed Farm
 for.circuit.manualRubber=Rubber Plantation
 for.circuit.manualShroom=Shroom Farm
 for.circuit.manualSucculent=Succulent Farm
-for.circuit.manualVegetable=Vegetable Farm
 
 for.gui.farm.title=Farm
 for.gui.hydr.heat=By Heat
@@ -1391,6 +1389,22 @@ tile.for.ffarm.5.name=Farm Control
 
 tile.for.mushroom.0.name=Mushroom
 tile.for.mushroom.1.name=Mushroom
+
+####################
+# CULTIVATION
+####################
+tile.for.arboretum.name=Arboretum
+tile.for.farm_crops.name=Farm
+tile.for.farm_mushroom.name=Mushroom Farm
+tile.for.farm_nether.name=Infernal Farm
+tile.for.farm_gourd.name=Gourd Farm
+tile.for.peat_bog.name=Peat Bog
+tile.for.plantation.name=Rubber Farm
+
+for.gui.planter.north=N
+for.gui.planter.south=S
+for.gui.planter.east=E
+for.gui.planter.west=W
 
 ####################
 # GREENHOUSE
