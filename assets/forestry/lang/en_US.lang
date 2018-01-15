@@ -1665,6 +1665,8 @@ for.config.world.generate.ore.copper=Generate Copper
 for.config.world.generate.ore.copper.comment=Generates copper ore blocks in the world.
 for.config.world.generate.ore.tin=Generate Tin
 for.config.world.generate.ore.tin.comment=Generates tin ore blocks in the world.
+for.config.world.generate.ore.dimBlacklist=Ore generation Dimension Blacklist
+for.config.world.generate.ore.dimBlacklist.comment=Disables the generation of all ore in the specified dimensions. Enter one dimension id per line.
 
 for.config.world.generate.beehives.amount=Beehives Generation Amount
 for.config.world.generate.beehives.amount.comment=Sets how many beehives spawn in the world.
@@ -1676,6 +1678,9 @@ for.config.world.generate.beehives.blacklist.category_comment=Disables the gener
 
 for.config.world.generate.villagers=Generate Villagers
 for.config.world.generate.villagers.comment=Generates forestry villagers and their houses.
+
+for.config.world.generate.trees.dimBlacklist=Tree Generation Dimension Blacklist
+for.config.world.generate.trees.dimBlacklist.comment=Disables the generation of all trees in the specified dimensions. Enter one dimension id per line.
 
 for.config.crafting=Crafting
 for.config.crafting.bronze=Craft Bronze
