@@ -1328,23 +1328,22 @@ tile.for.pods.0.name=Pod
 ####################
 # FARMING
 ####################
+for.farm.grammar.manual=Manual %s
+for.farm.grammar.managed=Managed %s
 
-for.circuit.managedArboreal=Arboretum
-for.circuit.managedCrops=Crop Farm
-for.circuit.managedInfernal=Infernal Farm
-for.circuit.managedPeat=Peat Bog
-for.circuit.managedShroom=Shroom Farm
-for.circuit.managedEnder=Ender Farm
-for.circuit.managedOrchid=Orchid Farm
-for.circuit.manualCrops=Crop Farm
-for.circuit.manualCocoa=Cocoa Plantation
-for.circuit.manualGourd=Gourd Farm
-for.circuit.manualOrchard=Orchard
-for.circuit.manualPeat=Peat Bog
-for.circuit.manualPoales=Reed Farm
-for.circuit.manualRubber=Rubber Plantation
-for.circuit.manualShroom=Shroom Farm
-for.circuit.manualSucculent=Succulent Farm
+for.farm.arboretum=Arboretum
+for.farm.crops=Crop Farm
+for.farm.shroom=Shroom Farm
+for.farm.succulent=Succulent Farm
+for.farm.peat=Peat Bog
+for.farm.infernal=Infernal Farm
+for.farm.reed=Reed Farm
+for.farm.orchard=Orchard
+for.farm.gourd=Gourd Farm
+for.farm.cocoa=Cocoa Plantation
+for.farm.ender=Ender Farm
+for.farm.orchid=Orchid Farm
+for.farm.rubber=Rubber Plantation
 
 for.gui.farm.title=Farm
 for.gui.hydr.heat=By Heat
@@ -1389,12 +1388,22 @@ tile.for.mushroom.1.name=Mushroom
 # CULTIVATION
 ####################
 tile.for.arboretum.name=Arboretum
+tile.for.arboretum.tooltip=Tree Farm
 tile.for.farm_crops.name=Farm
+tile.for.farm_crops.tooltip=Crop Farm
 tile.for.farm_mushroom.name=Mushroom Farm
 tile.for.farm_nether.name=Infernal Farm
+tile.for.farm_nether.tooltip=Netherwart Farm
 tile.for.farm_gourd.name=Gourd Farm
+tile.for.farm_gourd.tooltip=Melon and Pumkin Farm
+tile.for.farm_ender.name=Ender Farm
+tile.for.farm_ender.tooltip=Chorus Flower and Ender Lily Farm
 tile.for.peat_bog.name=Peat Bog
+tile.for.peat_bog.tooltip=Peat Farm
 tile.for.plantation.name=Rubber Farm
+
+tile.for.planter.manual=%s (Manual)
+tile.for.planter.managed=%s (Managed)
 
 for.gui.planter.north=N
 for.gui.planter.south=S
@@ -1617,7 +1626,7 @@ for.module.charcoal.description=Adds wood piles, loam and a charcoal production.
 for.module.energy.description=Adds several RF engines.
 for.module.factory.description=Adds a wide variety of machines to craft, produce and process products.
 for.module.worktable.description=Adds a crafting table that can save 8 recipes.
-for.module.farming.description=Adds automatic farms and harvesters for a wide variety of products.
+for.module.farming.description=Adds automatic multiblock farm for a wide variety of products.
 for.module.food.description=Adds food.
 for.module.lepidopterology.description=Butterflies. Shiny.
 for.module.mail.description=Adds Forestry's mail and trade system.
@@ -1625,6 +1634,7 @@ for.module.backpacks.description=Adds backpacks.
 for.module.crates.description=Adds crates.
 for.module.greenhouse.description=Adds a greenhouse multiblock.
 for.module.database.description=Adds a new storage block for bees / trees and butterflies.
+for.module.cultivation.description=Adds automatic farms for a wide variety of products.
 
 for.module.buildcraft6.description=Compatibility module for BuildCraft 6.
 for.module.pipes.description=Adds the apiarist's pipe for beekeeping if apiculture is enabled and BuildCraft 6 is present.
@@ -1737,6 +1747,13 @@ for.config.tweaks.farms.redorchid.comment=Enables farm support for Extra Utiliti
 for.config.tweaks.farms.magicalcrops=Magical Crops Farm Support
 for.config.tweaks.farms.magicalcrops.comment=Enables farm support for Magical Crops.
 
+for.config.tweaks.cultivation.extend=Cultivation Farm Size
+for.config.tweaks.cultivation.extend.comment=Sets the size of the farmland that is used by all cultivation farms.
+for.config.tweaks.cultivation.ring=Ring Cultivation Farms
+for.config.tweaks.cultivation.ring.comment=Makes cultivation farms use a ring layout like the layout of the old farms. The farmland size of the ring layout is always one block smaller.
+for.config.tweaks.cultivation.ring_size=Inner Ring Size
+for.config.tweaks.cultivation.ring_size.comment=Sets the size of the inner ring of the ring layout.
+
 for.config.tweaks.capsule=Capsules
 for.config.tweaks.capsule.comment=Enables the function that cans and capsules can pick up fluids from the world.
 
@@ -1767,7 +1784,7 @@ for.config.structures=Structures
 for.config.structures.disabled=Disabled Structures
 for.config.structures.disabled.comment=List specific structures to disable them.
 
-for.config.farm.fertilizers.items=Add fertilizers to Forestry. An entry have to looks like this modID:itemName:MetaData;fertilizerValue. You need to separate every entry in a separate line.
+for.config.farm.fertilizers.items=Add fertilizers to Forestry. An entry have to looks like this modID:itemName:MetaData;fertilizerValue. You need to separate every entry in a separate line. \n You can't remove auto generated entries you only can deactivate them if you set there value to 0.
 
 for.config.fluids=Fluids
 for.config.fluids.enable.format=Enables %s fluid.
