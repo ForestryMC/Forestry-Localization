@@ -766,83 +766,83 @@ for.errors.is_raining.help=Только устойчивые летуны мог
 for.errors.no_drone.desc=Нет трутня
 for.errors.no_drone.help=Спаривание требует наличия трутня.
 for.errors.no_flower.desc=Нет цветов
-for.errors.no_flower.help=Hive members are not finding the right flowers. Use the Beealyzer to learn their flower preference.
+for.errors.no_flower.help=Пчёлы не нашли подходящих цветов. Используйте портативный анализатор, чтобы узнать необходимые им.
 for.errors.no_queen.desc=Нет матки
-for.errors.no_queen.help=Supply this hive with a queen or a princess and a drone.
+for.errors.no_queen.help=Положите королеву или принцессу и дрона.
 for.errors.no_sky.desc=Небо закрыто
-for.errors.no_sky.help=The hive requires direct sunlight from above.
+for.errors.no_sky.help=Блоки над ульем загараживают солнечный свет.
 for.errors.not_day.desc=Не дневное время
-for.errors.not_day.help=The bees can only work during the daytime.
+for.errors.not_day.help=Эти пчёлы работают только днём.
 for.errors.not_gloomy.desc=Недостаточно темно
-for.errors.not_gloomy.help=The bees can only work in darkness.
+for.errors.not_gloomy.help=Эти пчёлы работают только в темноте.
 for.errors.not_lucid.desc=Недостаточно светло
-for.errors.not_lucid.help=The bees have trouble navigating in the dark.
+for.errors.not_lucid.help=Эти пчёлы плохо ориентируются в темноте.
 for.errors.not_night.desc=Не ночное время
-for.errors.not_night.help=The bees can only work during the night.
+for.errors.not_night.help=Эти пчёлы работают только ночью.
 for.errors.too_hot.desc=Слишком жарко
-for.errors.too_hot.help=The bees are melting in the heat here and unable to work. Use a Habitat Locator to find a cooler climate.
+for.errors.too_hot.help=Эти пчёлам слишком жарко. Используйте определитель ареала, чтобы найти более холодный климат.
 for.errors.too_cold.desc=Слишком холодно
-for.errors.too_cold.help=The bees are huddled together to survive the freezing cold here. Use a Habitat Locator to find a warmer climate.
+for.errors.too_cold.help=Эти пчёлы не могут жить в холодном климате. Используйте определитель ареала, чтобы найти более тёплый климат.
 for.errors.too_humid.desc=Слишком влажно
-for.errors.too_humid.help=The climate here has made the bees' wings too damp to fly. Use a Habitat Locator to find a dryer climate.
+for.errors.too_humid.help=Текущий влажность делает крылья пчёл слишком влажными для полёта. Используйте определитель ареала, чтобы найти более сухой климат.
 for.errors.too_arid.desc=Слишком сухо
-for.errors.too_arid.help=The dry climate here has made the bees parched and unable to work. Use a Habitat Locator to find a wetter climate.
+for.errors.too_arid.help=Текущая влажность делает крылья пчёл пересохшими. Используйте определитель ареала, чтобы найти более влажный климат.
 
 # MACHINES
 for.errors.no_power.desc=Нет энергии
-for.errors.no_power.help=This machine requires RF energy from an engine to function.
+for.errors.no_power.help=Для работы механизма необходима RF энергия.
 for.errors.no_redstone.desc=Требуется красный камень
-for.errors.no_redstone.help=This machine requires a redstone signal to activate it.
+for.errors.no_redstone.help=Для активации механизма требуется сигнал красного камня.
 for.errors.disabled_redstone.desc=Отключено красным камнем
-for.errors.disabled_redstone.help=This machine is being disabled by a redstone signal.
+for.errors.disabled_redstone.help=Механизм может быть отключен подачей сигнала красного камня.
 for.errors.no_recipe.desc=Нет рецепта
-for.errors.no_recipe.help=No matching recipe was found for the supplied resources.
+for.errors.no_recipe.help=Для поданных ресурсов нет соответствующего рецепта
 for.errors.no_resource.desc=Отсутствуют ресурсы
-for.errors.no_resource.help=More resources need to be supplied for operation.
+for.errors.no_resource.help=Для совершения операции требуется больше ресурсов
 for.errors.no_resource_inventory.desc=Требуются ресурсы в инвентаре
-for.errors.no_resource_inventory.help=Resources need to be added to the machine's inventory to begin crafting this recipe.
+for.errors.no_resource_inventory.help=Для работы механизма необходимо положить нужные ресурсы в его инвентарь.
 for.errors.no_resource_liquid.desc=Недостаточно жидкости
-for.errors.no_resource_liquid.help=More liquid resources need to be supplied for operation.
+for.errors.no_resource_liquid.help=Для совершения операции требуется больше жидкости.
 for.errors.no_space.desc=Нет места в инвентаре
-for.errors.no_space.help=Empty this machine's inventory.
+for.errors.no_space.help=Опустошите инвентарь механизма.
 for.errors.no_space_tank.desc=Резервуар полон
-for.errors.no_space_tank.help=Empty this machine's liquid tank.
+for.errors.no_space_tank.help=Опустошите резервуар механизма.
 for.errors.not_dark.desc=Недостаточно темно
-for.errors.not_dark.help=A lower light level is required for operation.
+for.errors.not_dark.help=Для работы механизма требуется более низкий уровень света.
 
 # RAIN TANK
 for.errors.not_raining.desc=Нет дождя
-for.errors.not_raining.help=Operation is only possible when it is raining.
+for.errors.not_raining.help=Для совершения операции требуется дождь.
 for.errors.no_rain_biome.desc=Не бывает дождя
-for.errors.no_rain_biome.help=This location never receives rain.
+for.errors.no_rain_biome.help=В данном биоме не может быть дождя.
 for.errors.no_sky_rain_tank.desc=Небо закрыто
-for.errors.no_sky_rain_tank.help=Clear the area above this machine so it can gather rain.
+for.errors.no_sky_rain_tank.help=Очистите область над механизмом, чтобы он мог собирать дождь.
 
 # ALYZERS
 for.errors.no_honey.desc=Требуется мёд
-for.errors.no_honey.help=This gadget requires honey drops or honeydew for operation.
+for.errors.no_honey.help=Для работы нужен мёд или медвяная роса.
 for.errors.no_specimen.desc=Нечего анализировать
-for.errors.no_specimen.help=Supply a specimen to analyze.
+for.errors.no_specimen.help=Положите образец для анализа.
 
 # ENGINES
 for.errors.forced_cooldown.desc=Принудительное охлаждение
-for.errors.forced_cooldown.help=The engine has overheated and must cool down before it can start again.
+for.errors.forced_cooldown.help=Двигатель перегрелся, ему необходимо остыть перед следующим запуском.
 for.errors.no_energy_net.desc=Нет электричества
 for.errors.no_energy_net.help=Your world is barren of any electricity. (Install IndustrialCraft\u00b2.)
 for.errors.no_fuel.desc=Нет топлива
-for.errors.no_fuel.help=This engine requires fuel to run. Replenish this machine's fuel supplies.
+for.errors.no_fuel.help=Этому двигателю необходимо топливо.
 for.errors.no_heat.desc=Не разогрет
-for.errors.no_heat.help=This engine requires a heat source to run. Refill the heating tank.
+for.errors.no_heat.help=Для работы этого двигателя требуется источник тепла.
 
 # TRADE STATION
 for.errors.no_stamps.desc=Нужны марки
-for.errors.no_stamps.help=The trade station requires more stamps to pay postage.
+for.errors.no_stamps.help=Чтобы оплатить почтовые расходы, торговой станции необходимо больше марок.
 for.errors.no_paper.desc=Нужна бумага
-for.errors.no_paper.help=The trade station requires more paper to send letters.
+for.errors.no_paper.help=Для отправки письма нужно больше бумаги.
 for.errors.no_supplies.desc=Нужны припасы
-for.errors.no_supplies.help=The trade station requires more supplies to send.
+for.errors.no_supplies.help=Для отправки необходимо больше предметов.
 for.errors.no_trade.desc=Торговля не настроена
-for.errors.no_trade.help=The trade station requires items to Send and Receive.
+for.errors.no_trade.help=Торговой станции необходимо указать ресурсы для отправки и приёма.
 
 # TRADE STATION NAMING
 for.errors.not_alpha_numeric.desc=Некорректное имя
@@ -851,34 +851,34 @@ for.errors.not_unique.desc=Не уникальное имя
 for.errors.not_unique.help=Trade Station names must be unique and this name is already taken.
 
 # LETTERS
-for.errors.no_recipient.desc=Нет получателя
-for.errors.no_recipient.help=You need to address your letter to a recipient to send it.
-for.errors.not_postpaid.desc=Требуются марки
-for.errors.not_postpaid.help=Apply more stamps to pay the postal service.
+for.errors.not_alpha_numeric.desc=Некорректное имя
+for.errors.not_alpha_numeric.help=Название торговой станции должно содержать только буквы и цифры.
+for.errors.not_unique.desc=Не уникальное имя
+for.errors.not_unique.help=Введённое имя уже используется для другой торговой станции.
 
 # CIRCUIT BOARDS
 for.errors.circuit_mismatch.desc=Несоответствие макета
-for.errors.circuit_mismatch.help=Amount of tubes does not match size of circuit board.
+for.errors.circuit_mismatch.help=Количество ламп не соответствует размерам печатной платы.
 for.errors.no_circuit_board.desc=Отсутствует плата
-for.errors.no_circuit_board.help=Insert a circuit board to solder the selected tubes onto it.
+for.errors.no_circuit_board.help=Чтобы припаять лампы необходимо вставить печатную плату.
 for.errors.no_circuit_layout.desc=Макеты не найдены
 for.errors.no_circuit_layout.help=No layouts available due to the current game settings.
 
 # FARMS
 for.errors.no_farmland.desc=Нет фундамента
-for.errors.no_farmland.help=Smooth sandstone, bricks or stone bricks create a platform the farm will build on.
+for.errors.no_farmland.help=Для функционировния фермы необходимо построить фундамент из гладкого песчаника, кирпичей или каменных кирпичей
 for.errors.no_fertilizer.desc=Нет удобрения
-for.errors.no_fertilizer.help=Farms require fertilizer for function. Compost is insufficient.
+for.errors.no_fertilizer.help=Для работы ферме требуется удобрение. Компоста недостаточно.
 for.errors.no_liquid.desc=Нет воды
-for.errors.no_liquid.help=Depending on rainfall, temperature and humidity farms need to be supplied with varying amounts of water.
+for.errors.no_liquid.help=В зависимости от осадков, температуры и влажности ферма нужно снабжать разным количеством воды.
 
 # GREENHOUSE
 for.errors.not_closed.desc=Крыша не закрыта
-for.errors.not_closed.help=The roof of the greenhouse is not closed.
+for.errors.not_closed.help=Крыша теплицы не закрыта.
 for.errors.not_loaded.desc=Не загружен
-for.errors.not_loaded.help=One chunk of the greenhouse is not loaded.
+for.errors.not_loaded.help=Чанк, в котором находится теплица, не загруженю.
 for.errors.too_large.desc=Слишком большой
-for.errors.too_large.help=The greenhouse is too large for its controller or it is not closed at a position.
+for.errors.too_large.help=Размер теплицы слишком большой для данного контроллера или в конструкции теплицы имеются щели.
 
 ####################
 # APICULTURE
@@ -1132,18 +1132,18 @@ tile.for.stump.name=Потухшая свеча
 # MULTIBLOCK
 ####################
 
-for.multiblock.error.notConnected=The MultiBlock is not connected to a controller. This could be due to lag, or a bug. If the problem persists, try breaking and re-placing the block.
-for.multiblock.error.invalid.interior=(%s) - Block is not valid for use in the machine's interior.
-for.multiblock.error.invalid.part=A multiblock part is incompatible with this type (%s).
-for.multiblock.error.small=The multiblock is too small. It must be at least %dx%dx%d in size.
-for.multiblock.error.large.x=The multiblock is too large, it may be at most %d blocks wide.
-for.multiblock.error.large.y=The multiblock is too large, it may be at most %d blocks high.
-for.multiblock.error.large.z=The multiblock is too large, it may be at most %d blocks deep.
-for.multiblock.error.small.x=The multiblock is too small, it must be at least %d blocks wide.
-for.multiblock.error.small.y=The multiblock is too small, it must be at least %d blocks high.
-for.multiblock.error.small.z=The multiblock is too small, it must be at least %d blocks deep.
+for.multiblock.error.notConnected=Мультиблочная структура не привязана к контроллеру. Возможно это баг. Если проблема сохранилась, попробуйте сломать и снова поставить блок.
+for.multiblock.error.invalid.interior=Блок %s не может быть использован в мультиблочной структуре.
+for.multiblock.error.invalid.part=Часть мультиблочной структуры несовместима с данным типом (%s).
+for.multiblock.error.small=Мультибочная структура слишком маленькая. Минимальный размер - %dx%dx%d.
+for.multiblock.error.large.x=Мультибочная структура слишком большая, она должна быть не более %d блоков в ширину.
+for.multiblock.error.large.y=Мультибочная структура слишком большая, она должна быть не более %d блоков в высоты.
+for.multiblock.error.large.z=Мультибочная структура слишком большая, она должна быть не более %d блоков в глубину.
+for.multiblock.error.small.x=Мультибочная структура слишком маленькая, она должна быть как минимум %d блоков в ширину.
+for.multiblock.error.small.y=Мультибочная структура слишком маленькая, она должна быть как минимум %d блоков в высоту.
+for.multiblock.error.small.z=Мультибочная структура слишком маленькая, она должна быть как минимум %d блоков в глубину.
 
-for.multiblock.alveary.error.needSlabs=The Alveary must have wooden slabs on top.
+for.multiblock.alveary.error.needSlabs=Сверху Пасеки должны находиться деревянные пластины.
 for.multiblock.alveary.error.needSpace=The alveary needs space around the top for the bees to enter and exit.
 for.multiblock.alveary.error.needPlainOnTop=The Alveary must have plain alveary blocks for the top level.
 for.multiblock.alveary.error.needPlainInterior=The Alveary must have plain alveary blocks for the interior.
@@ -1155,12 +1155,12 @@ for.multiblock.farm.error.needGearbox=The farm must have a gearbox to accept pow
 for.multiblock.greenhouse.error.needPlainOnTop=The Greenhouse must have plain greenhouse blocks for the top level.
 for.multiblock.greenhouse.error.needPlainInterior=The Greenhouse must have plain greenhouse blocks for the interior.
 for.multiblock.greenhouse.error.space.notclosed=The Greenhouse must be closed. Some blocks are missing or they are not a valid wall block.
-for.multiblock.greenhouse.error.space.unloaded=A part of the Greenhouse is in an unloaded chunk. All chunks around the greenhouse must to be loaded.
-for.multiblock.greenhouse.error.needSpace=The Greenhouse must not stand in the range of an other Greenhouse.
+for.multiblock.greenhouse.error.space.unloaded=Часть теплицы находяться в незагруженном чанке.
+for.multiblock.greenhouse.error.needSpace=Теплица расположена слишком близко к другой.
 
-for.multiblock.alveary.type=Alveary
-for.multiblock.farm.type=Farm
-for.multiblock.greenhouse.type=Greenhouse
+for.multiblock.alveary.type=Пасека
+for.multiblock.farm.type=Мультиферма
+for.multiblock.greenhouse.type=Теплица
 
 ####################
 # ARBORICULTURE
