@@ -1402,6 +1402,8 @@ tile.for.peat_bog.name=Peat Bog
 tile.for.peat_bog.tooltip=Peat Farm
 tile.for.plantation.name=Rubber Farm
 
+item.for.flexible_casing.name=Flexible Casing
+
 tile.for.planter.manual=%s (Manual)
 tile.for.planter.managed=%s (Managed)
 
@@ -1738,6 +1740,8 @@ for.config.tweaks.humus.degradeDelimiter.comment=Set how many stages humus has b
 
 for.config.tweaks.farms.size=Farm Size
 for.config.tweaks.farms.size.comment=Sets the size multiplier of the farmland.
+for.config.tweaks.farms.fertilizer=Farm Fertilizer
+for.config.tweaks.farms.fertilizer.comment=Sets the multiplier of the multifarm and the cultivation farms. All cultivation farms alway use the double amount of fertilizer.
 for.config.tweaks.farms.square=Square Farms
 for.config.tweaks.farms.square.comment=Makes farms use a square layout instead of a diamond one.
 for.config.tweaks.farms.enderlily=EnderLily Farm Support
