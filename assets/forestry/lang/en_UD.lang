@@ -1,26 +1,35 @@
+
 death.engine.clockwork.player=˙ɹǝʞɐɯɥɔʇɐʍ ʇuǝᵷᴉꞁᵷǝu ǝɥʇ sɐʍ %2$s ˙ᵷuᴉɹds ǝsooꞁ ɐ ʎq pǝqqɐʇs sɐʍ %1$s
 death.engine.clockwork=˙ᵷuᴉɹds ǝsooꞁ ɐ ʎq pǝqqɐʇs sɐʍ %1$s
+
 for.chat.cannotmemorizeagain=˙uoᴉʇɐɯɹoɟuᴉ sᴉɥʇ pǝzᴉɹoɯǝɯ ʎpɐǝɹꞁɐ no⅄
 for.chat.memorizednote=˙ɹǝdɐd ɟo dɐɹɔs pǝꞁdɯnɹɔ ǝɥʇ ɟo ǝsodsᴉp puɐ ǝʇou ǝɥʇ ǝzᴉɹoɯǝɯ no⅄
-for.chat.memorizednote2=¡%3$s ǝʞɐɯ oʇ %2$s ɥʇᴉʍ %2$s pǝǝɹq oʇ ʎʇᴉꞁᴉqɐ ɹnoʎ uᴉ ʇuǝpᴉɟuoɔ ǝɹoɯ ꞁǝǝɟ no⅄
-for.chat.command.aliases=%s
+for.chat.memorizednote2=¡%3$s ǝʞɐɯ oʇ %2$s ɥʇᴉʍ %1$s pǝǝɹq oʇ ʎʇᴉꞁᴉqɐ ɹnoʎ uᴉ ʇuǝpᴉɟuoɔ ǝɹoɯ ꞁǝǝɟ no⅄
+
+for.chat.command.aliases=%s :sǝsɐᴉꞁⱯ
 for.chat.command.list=:spuɐɯɯoƆ-qnS ǝꞁqɐꞁᴉɐʌⱯ
-for.chat.command.permlevel=%s
+for.chat.command.permlevel=%s :ꞁǝʌǝꞀ uoᴉssᴉɯɹǝԀ
 for.chat.command.noperms=˙puɐɯɯoɔ sᴉɥʇ ǝsn oʇ uoᴉssᴉɯɹǝd ǝʌɐɥ ʇou op no⅄
+
 for.chat.command.forestry.help=ʎɹʇsǝɹoℲ ɹoɟ spuɐɯɯoɔ snoᴉɹɐᴧ
 for.chat.command.forestry.format=<puɐɯɯoɔ-qns> %s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.version.desc=uoᴉʇɐɯɹoɟuᴉ uoᴉsɹǝᴧ : %s -
 for.chat.command.forestry.version.help=uoᴉsɹǝʌ ʇuǝɹɹnɔ sʇuᴉɹԀ
-for.chat.command.forestry.version.format=%s
+for.chat.command.forestry.version.format=%s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.modules.desc=sǝꞁnpoW ʎɹʇsǝɹoℲ ɟo ʇsᴉꞀ : %s -
 for.chat.command.forestry.modules.help=˙pǝꞁqɐsᴉp pǝɹ 'ǝʌᴉʇɔɐ ǝɹɐ uǝǝɹ⅁ ˙sǝꞁnpoW ʎɹʇsǝɹoℲ ꞁꞁɐ sʇsᴉꞀ
-for.chat.command.forestry.modules.format=%s
+for.chat.command.forestry.modules.format=%s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.modules.info.desc=ǝꞁnpoW ɔᴉɟᴉɔǝds ɐ uo uoᴉʇɐɯɹoɟuI : %s -
 for.chat.command.forestry.modules.info.help=ǝꞁnpoW ɔᴉɟᴉɔǝds ɐ uo uoᴉʇɐɯɹoɟuᴉ sʇuᴉɹԀ
 for.chat.command.forestry.modules.info.format=<ǝɯɐu-ǝꞁnpoɯ> %s/ :ʇɐɯɹoℲ
+
 for.chat.help=˙dꞁǝɥ ɹoɟ ,%s, ǝdʎ⟘
 for.chat.modules.error=˙%s ǝꞁnpoɯ ɹoɟ ǝꞁqɐꞁᴉɐʌɐ uoᴉʇɐɯɹoɟuᴉ oN
-for.chat.version=˙(%3$s :ʇsǝʇɐꞀ) %2$s ʇɟɐɹɔǝuᴉW ɹoɟ %2$s ʎɹʇsǝɹoℲ
+for.chat.version=˙(%3$s :ʇsǝʇɐꞀ) %2$s ʇɟɐɹɔǝuᴉW ɹoɟ %1$s ʎɹʇsǝɹoℲ
+
 for.circuit.dampener.1=ɹǝuǝdɯɐᗡ ǝɹᴉℲ
 for.circuit.dampener.1.description.1=ʇ/Ⅎᴚ 0⥝ oʇ ʇndʇno ɯnɯᴉxɐɯ sǝɔnpǝᴚ
 for.circuit.dampener.1.description.2=ʇndʇno ꞁǝnɟ sǝʌɹǝsǝɹԀ
@@ -51,18 +60,25 @@ for.circuit.climatiser.humidity.1=I ʇsooᗺ ʎʇᴉpᴉɯnH
 for.circuit.climatiser.humidity.1.description.1=%5˙ᘔ⥝ ʎq ǝᵷuɐɥƆ puɐ ǝᵷuɐᴚ sǝsɐǝɹɔuI
 for.circuit.climatiser.humidity.2=II ʇsooᗺ ʎʇᴉpᴉɯnH
 for.circuit.climatiser.humidity.2.description.1=%5ᘔ ʎq ǝᵷuɐɥƆ puɐ ǝᵷuɐᴚ sǝsɐǝɹɔuI
+
 for.circuit.layout.dummy.name=ǝꞁqɐꞁᴉɐʌⱯ ʇoN
 for.circuit.layout.dummy.usage=ᵷuᴉɥʇoN
+
 for.circuit.layout.engine.tin.name=ǝuᴉᵷuƎ ꞁɐɔᴉɹʇɔǝꞁƎ
 for.circuit.layout.engine.tin.usage=sǝuᴉᵷuƎ ꞁɐɔᴉɹʇɔǝꞁƎ uI
+
 for.circuit.layout.farms.managed.name=ɯɹɐℲ ɔᴉʇɐɯoʇnⱯ
 for.circuit.layout.farms.managed.usage=sɯɹɐℲ ɔᴉʇɐɯoʇnⱯ
+
 for.circuit.layout.farms.manual.name=ɯɹɐℲ ꞁɐnuɐW
 for.circuit.layout.farms.manual.usage=sɯɹɐℲ ꞁɐnuɐW
+
 for.circuit.layout.machine.upgrade.name=ǝpɐɹᵷd∩ ǝuᴉɥɔɐW
 for.circuit.layout.machine.upgrade.usage=sǝuᴉɥɔɐW pǝʇǝʞɔoS
+
 for.circuit.layout.greenhouse.climatiser.name=ɹǝsᴉʇɐɯᴉꞁƆ
 for.circuit.layout.greenhouse.climatiser.usage=sɹǝsᴉʇɐɯᴉꞁƆ
+
 for.flowers.cacti=ᴉʇɔɐƆ
 for.flowers.end=puƎ
 for.flowers.gourd=spɹno⅁
@@ -72,6 +88,7 @@ for.flowers.nether=ɹǝɥʇǝN
 for.flowers.vanilla=sɹǝʍoꞁℲ
 for.flowers.wheat=ʇɐǝɥM
 for.flowers.snow=ʍouS
+
 fluid.bio.ethanol=ꞁouɐɥʇƎ
 fluid.biomass=ssɐɯoᴉᗺ
 fluid.glass=ssɐꞁ⅁ pᴉnbᴉꞀ
@@ -81,6 +98,7 @@ fluid.juice=ǝɔᴉnՐ ʇᴉnɹℲ
 fluid.short.mead=pɐǝW ʇɹoɥS
 fluid.milk=ʞꞁᴉW
 fluid.seed.oil=ꞁᴉO pǝǝS
+
 tile.forestry.fluid.bio.ethanol.name=ꞁouɐɥʇƎ
 tile.forestry.fluid.biomass.name=ssɐɯoᴉᗺ
 tile.forestry.fluid.glass.name=ssɐꞁ⅁ pᴉnbᴉꞀ
@@ -90,20 +108,25 @@ tile.forestry.fluid.juice.name=ǝɔᴉnՐ ʇᴉnɹℲ
 tile.forestry.fluid.short.mead.name=pɐǝW ʇɹoɥS
 tile.forestry.fluid.milk.name=ʞꞁᴉW
 tile.forestry.fluid.seed.oil.name=ꞁᴉO pǝǝS
+
 for.gui.access=ssǝɔɔⱯ
 for.gui.active=ǝʌᴉʇɔⱯ
 for.gui.addressee.player=ɹǝʎɐꞁԀ
 for.gui.addressee.trader=uoᴉʇɐʇS ɹǝpɐɹ⟘
+
 for.gui.alyzer.authority=ʎʇᴉɹoɥʇnⱯ
 for.gui.alyzer.classification=uoᴉʇɐɔᴉɟᴉssɐꞁƆ
 for.gui.alyzer.extinct=ʇɔuᴉʇxƎ
 for.gui.alyzer.nodescription=˙uǝɯᴉɔǝds sᴉɥʇ ɹoɟ ʎɹʇuǝ uɐ ǝpᴉʌoɹd ʇou pꞁnoɔ ɐᴉʇɟɐɹɔǝuᴉW ɐᴉpǝdoꞁɔʎɔuƎ
 for.gui.alyzer.overview=ǝꞁqɐꞁᴉɐʌɐ sɔᴉʇʎꞁɐuⱯ
+
 for.gui.area=ʎɹoʇᴉɹɹǝ⟘
 for.gui.arid=pᴉɹⱯ
 for.gui.beach=ɥɔɐǝᗺ
+
 for.gui.portablealyzer=ɹǝzʎꞁɐuⱯ ɔᴉʇǝuǝ⅁ ǝꞁqɐʇɹoԀ
 for.gui.portablealyzer.help=˙ɹǝᴉɟᴉɔɐd ɐ sɐ ʍǝpʎǝuoɥ ɹo ʎǝuoɥ ǝpᴉʌoɹd puɐ ꞁɐnpᴉʌᴉpuᴉ ɹǝɥʇo uɐ ɹo ʎꞁɟɹǝʇʇnq 'ᵷuᴉꞁdɐs 'ǝǝq ʎꞁddnS
+
 for.gui.beealyzer.artificial=uᴉᵷᴉɹO ꞁɐᴉɔᴉɟᴉʇɹⱯ
 for.gui.beealyzer.behaviour=ɹnoᴉʌɐɥǝᗺ
 for.gui.beealyzer.generations=ʎʇᴉʌᴉʇdɐƆ uᴉ suoᴉʇɐɹǝuǝ⅁ %s
@@ -111,6 +134,7 @@ for.gui.beealyzer.mutations=suoᴉʇɐʇnW ǝꞁqᴉssoԀ
 for.gui.beealyzer.natural=uᴉᵷᴉɹO ꞁɐɹnʇɐN
 for.gui.beealyzer.produce=ǝɔnpoɹԀ ǝꞁqᴉssoԀ
 for.gui.beealyzer.specialty=ʎʇꞁɐᴉɔǝdS ǝꞁqᴉssoԀ
+
 for.gui.database.tab.active_species.name=sǝᴉɔǝdS ǝʌᴉʇɔⱯ
 for.gui.database.tab.inactive_species.name=sǝᴉɔǝdS ǝʌᴉʇɔɐuI
 for.gui.database.tab.products.name=sʇɔnpoɹԀ
@@ -118,6 +142,7 @@ for.gui.database.tab.mutations.name=suoᴉʇɐʇnW
 for.gui.database.mutations.further=suoᴉʇɐʇnW ɹǝɥʇɹnℲ
 for.gui.database.mutations.resultant=suoᴉʇɐʇnW ʇuɐʇꞁnsǝᴚ
 for.gui.database.support=˙ǝsɐqɐʇɐp ǝɥʇ ɹoɟ uoᴉʇɐɹᵷǝʇuᴉ ou ʎꞁʇuǝɹɹnɔ sɐɥ ꞁɐnpᴉʌᴉpuᴉ sᴉɥ⟘
+
 for.gui.blank=ʞuɐꞁᗺ
 for.gui.cave=ᵷuᴉꞁꞁǝʍᗡ ǝʌɐƆ
 for.gui.climate=ǝʇɐɯᴉꞁƆ
@@ -160,20 +185,25 @@ for.gui.inactive=ǝʌᴉʇɔɐuI
 for.gui.life=ǝɟᴉꞀ
 for.gui.lifespan=uɐdsǝɟᴉꞀ
 for.gui.normal=ꞁɐɯɹoN
+
 for.gui.escritoire.probe=suǝɯᴉɔǝdS ǝuᴉɯɐxƎ
 for.gui.escritoire.instructions=˙dꞁǝɥ ɹoɟ ɯǝɥʇ ǝuᴉɯɐxǝ puɐ sʇoꞁs ʇɟǝꞁ ǝɥʇ uᴉ ǝɹoɯ ǝɔɐꞁԀ ˙uᴉᵷǝq oʇ ɹǝʇuǝɔ ǝɥʇ uᴉ ǝꞁdɯɐs ɔᴉʇǝuǝᵷ ɐ ǝɔɐꞁԀ
-for.gui.escritoire.attempt.number=%s
+for.gui.escritoire.attempt.number=%s ˙oN ʇdɯǝʇʇⱯ
+
 for.gui.escritoire.notes.level1.1=˙sꞁǝʌɐɹʇ ʎɯ uo uǝɯᴉɔǝds snoᴉɹnɔ ɐ punoɟ ǝʌɐɥ I
 for.gui.escritoire.notes.level1.2=˙uoᴉʇɐᵷᴉʇsǝʌuᴉ ɹǝɥʇɹnɟ spǝǝu ʍoꞁꞁǝɟ ǝᵷuɐɹʇs sᴉɥ⟘
 for.gui.escritoire.notes.level1.3=˙ɥɔɹɐǝsǝɹ ʎɯ ɥʇᴉʍ ǝɔuo ʇɐ ʇɹɐʇs oʇ pǝʇuɐʍ I 'pǝʇɐꞁƎ
+
 for.gui.escritoire.notes.level2.1=˙ʇᴉ ɟo ǝɹnʇɐu snoɹpuoʍ ǝɥʇ ʇɐ pǝzɐɯɐ sɐʍ I
 for.gui.escritoire.notes.level2.2=˙ʎꞁǝsoꞁɔ ǝɹoɯ ʇᴉ pǝʇɔǝdsuᴉ I ǝꞁᴉɥʍ 'pǝɥɔʇᴉʍʇ uǝɯᴉɔǝds ǝɥ⟘
 for.gui.escritoire.notes.level2.3=˙snoᴉɹnɔ ǝɯ ǝpɐɯ ǝpᴉsɹǝpun ǝɥʇ uo sᵷuᴉʞɹɐɯ ǝᵷuɐɹʇS
 for.gui.escritoire.notes.level2.4=˙ᵷuᴉʇɐᵷᴉʇsǝʌuᴉ ǝuop ɯɐ I uǝɥʍ ʎʇǝᴉɔos ǝɥʇ ɟo ʞꞁɐʇ ǝɥʇ ǝq ꞁꞁᴉʍ sᴉɥ⟘
+
 for.gui.escritoire.notes.level3.1=˙pɐǝꞁ ʍǝu ᵷuᴉʇsǝɹǝʇuᴉ uɐ pǝɹǝʌoɔsᴉp I ᵷuᴉppoɹd ǝɯos ɹǝʇɟⱯ
 for.gui.escritoire.notes.level3.2=˙ᵷuᴉɥʇʎɹǝʌǝ pǝuoᴉʇsǝnb puɐ ʎɹǝʌoɔsᴉp sᴉɥʇ ʇɐ pɐǝɥ ʎɯ pǝɥɔʇɐɹɔs I
 for.gui.escritoire.notes.level3.3=˙sɐʍ ʇᴉ ǝɹǝɥʇ ʇnq 'ǝɯ pǝʌᴉǝɔǝp sǝʎǝ ʎɯ ʇɥᵷnoɥʇ I
 for.gui.escritoire.notes.level3.4=˙uoᴉʇɐɔᴉɟᴉssɐꞁɔ s,uǝɯᴉɔǝds ǝɥʇ uoᴉʇsǝnb oʇ ǝɯ pǝꞁ ʇop uǝǝsun ʎꞁsnoᴉʌǝɹd Ɐ
+
 for.gui.escritoire.notes.level4.1=˙ʎɹɹoʍ uᴉ ʎpnʇs ʎɯ oʇuᴉ ʞooꞁ ɹǝdǝǝʞǝsnoɥ ǝɥʇ pɐɥ uoᴉʇɐɹʇsnɹɟ ɟo sɯɐǝɹɔs ʎW
 for.gui.escritoire.notes.level4.2=¡sǝʇou ǝɥʇ ꞁꞁɐ dn pǝddᴉɹ I 'ɹᴉɐdsǝp ɟo ǝᵷɹǝʌ ǝɥʇ uo puɐ ʎzuǝɹɟ ɐ uI
 for.gui.escritoire.notes.level4.3=¡ǝsuǝs ʎuɐ ǝʞɐɯ ʇ,usǝop ʇsnɾ ˙˙˙sᴉɥ⟘
@@ -181,16 +211,19 @@ for.gui.escritoire.notes.level4.4=¡ǝɹoɟǝq ʇɐɥʇ op ʇ,upᴉp ʇI ˙ǝq �
 for.gui.escritoire.notes.level4.5=˙ʍɐsuᴉɐɥɔ ǝɥʇ ɹoɟ ʇuǝs I os 'ʇuǝp ɐ ǝpɐɯ ʎꞁǝɹɐq ɹǝɯɯɐɥǝᵷpǝꞁs ǝɥ⟘
 for.gui.escritoire.notes.level4.6=˙sǝʎǝ ǝꞁʇʇᴉꞁ 'ꞁǝnɹɔ 'ʎpɐǝq sʇᴉ ɥʇᴉʍ 'ǝɯ ʇɐ ᵷuᴉʞooꞁ sɐʍ ʇᴉ ɹɐǝʍs I
 for.gui.escritoire.notes.level4.7=¿ǝɹǝɥ ᵷuᴉɥᵷnɐꞁ sᴉ oɥM ¿ɹǝʇɥᵷnɐꞁ ɹɐǝɥ I oᗡ ¿ɹǝʇɥᵷnɐꞁ ʇɐɥʇ sI
+
 for.gui.escritoire.notes.success.1=¡ⱯʞƎᴚ∩Ǝ
 for.gui.escritoire.notes.success.2=¡ʎɹoʇsᴉɥ uᴉ uʍop oᵷ ꞁꞁᴉʍ ǝɯɐu ʎW ¡snoɹpuoM
 for.gui.escritoire.notes.success.3=¡pǝssǝɹdɯᴉ ǝq ꞁꞁᴉʍ sǝnᵷɐǝꞁꞁoɔ ʎW
 for.gui.escritoire.notes.success.4=¡ʎʇǝᴉɔos ǝɥʇ ʇɐ ǝuoʎɹǝʌǝ ɟo ʎʌuǝ ǝɥʇ ǝq ꞁꞁᴉʍ I
 for.gui.escritoire.notes.success.5=¡sǝ⅄
+
 for.gui.escritoire.notes.failure.1=˙ʇsoꞁ sᴉ ꞁꞁⱯ
 for.gui.escritoire.notes.failure.2=˙ǝɹᴉɟ ǝɥʇ oʇ sǝʇou ʎɯ uᵷᴉsuoɔ I
 for.gui.escritoire.notes.failure.3=˙˙˙ʇsɹᴉɟ ʇɐ sǝpᴉɹʇs ʇɐǝɹᵷ ɥɔns ǝpɐɯ pɐɥ I ¿ʎɥM
 for.gui.escritoire.notes.failure.4=˙uᴉɐᵷⱯ ˙pǝꞁᴉɐℲ
 for.gui.escritoire.notes.failure.5=˙˙˙ʎɯ ɥO
+
 for.gui.mail.foreveryattached=pǝɥɔɐʇʇɐ ʎɹǝʌǝ ɹoɟ
 for.gui.mail.from=ɯoɹℲ
 for.gui.mail.nametrader=uoᴉʇɐʇs ǝpɐɹʇ ɹnoʎ ǝɯɐN
@@ -203,6 +236,7 @@ for.gui.mail.order.filled.multiple=˙pǝꞁꞁᴉɟ ǝɹǝʍ ᴚƎᗡNƎ%S ɯoɹ
 for.gui.mail.to=o⟘
 for.gui.mail.receive=ǝʌᴉǝɔǝᴚ
 for.gui.mail.send=puǝS
+
 for.gui.maxenergy=ʎᵷɹǝuƎ ɯnɯᴉxɐW
 for.gui.maxenergyreceive=ʇnduI ɯnɯᴉxɐW
 for.gui.maxspeed=ɯnɯᴉxɐW
@@ -212,19 +246,24 @@ for.gui.nocturnal=ꞁɐuɹnʇɔoN
 for.gui.noeffect=ʇɔǝɟɟǝ oN
 for.gui.owner=ɹǝuʍO
 for.gui.page=ǝᵷɐԀ
+
 for.gui.plains=suᴉɐꞁԀ
 for.gui.princesses=˙ɔuᴉɹԀ
 for.gui.produce=ǝɔnpoɹԀ
 for.gui.queens=suǝǝnΌ
+
 for.gui.solder.north=N
 for.gui.solder.south=S
 for.gui.solder.east=Ǝ
 for.gui.solder.west=M
+
 forestry.allele.true=sǝ⅄
 forestry.allele.false=oN
+
 forestry.allele.average=ǝᵷɐɹǝʌⱯ
 forestry.allele.gigantic=ɔᴉʇuɐᵷᴉ⅁
 forestry.allele.normal=ꞁɐɯɹoN
+
 forestry.allele.slowest=ʇsǝʍoꞁS
 forestry.allele.slower=ɹǝʍoꞁS
 forestry.allele.slow=ʍoꞁS
@@ -232,18 +271,21 @@ forestry.allele.fast=ʇsɐℲ
 forestry.allele.faster=ɹǝʇsɐℲ
 forestry.allele.fastest=ʇsǝʇsɐℲ
 forestry.allele.maximum=ɯnɯᴉxɐW
+
 forestry.allele.smallest=ʇsǝꞁꞁɐɯS
 forestry.allele.smaller=ɹǝꞁꞁɐɯS
 forestry.allele.small=ꞁꞁɐɯS
 forestry.allele.large=ǝᵷɹɐꞀ
 forestry.allele.larger=ɹǝᵷɹɐꞀ
 forestry.allele.largest=ʇsǝᵷɹɐꞀ
+
 forestry.allele.lowest=ʇsǝʍoꞀ
 forestry.allele.lower=ɹǝʍoꞀ
 forestry.allele.low=ʍoꞀ
 forestry.allele.high=ɥᵷᴉH
 forestry.allele.higher=ɹǝɥᵷᴉH
 forestry.allele.highest=ʇsǝɥᵷᴉH
+
 forestry.allele.tolerance.both1=⥝ ɥʇoᗺ
 forestry.allele.tolerance.both2=ᘔ ɥʇoᗺ
 forestry.allele.tolerance.both3=Ɛ ɥʇoᗺ
@@ -260,6 +302,7 @@ forestry.allele.tolerance.up2=ᘔ d∩
 forestry.allele.tolerance.up3=Ɛ d∩
 forestry.allele.tolerance.up4=ᔭ d∩
 forestry.allele.tolerance.up5=5 d∩
+
 forestry.allele.lifespan.shortest=ʇsǝʇɹoɥS
 forestry.allele.lifespan.shorter=ɹǝʇɹoɥS
 forestry.allele.lifespan.short=ʇɹoɥS
@@ -269,6 +312,7 @@ forestry.allele.lifespan.elongated=pǝʇɐᵷuoꞁƎ
 forestry.allele.lifespan.long=ᵷuoꞀ
 forestry.allele.lifespan.longer=ɹǝᵷuoꞀ
 forestry.allele.lifespan.longest=ʇsǝᵷuoꞀ
+
 for.gui.size=ǝzᴉS
 for.gui.slots=sʇoꞁS ƎZI%S/ᗡƎS%U
 for.gui.species=sǝᴉɔǝdS
@@ -286,7 +330,9 @@ for.gui.unknown=ǝɯouǝᵷ uʍouʞu∩
 for.gui.warm=ɯɹɐM
 for.gui.water=ɹǝʇɐM
 for.gui.worker=ɹǝʞɹoM
+
 for.gui.camouflage_spray_can=uɐƆ ʎɐɹdS ǝᵷɐꞁɟnoɯɐƆ
+
 for.hints.apiaristsuit.desc=˙sʇɔǝɟɟǝ ǝǝq ǝʌᴉʇɐᵷǝu ꞁꞁɐ ɯoɹɟ noʎ ʇɔǝʇoɹd ꞁꞁᴉʍ ʇᴉns s,ʇsᴉɹɐᴉdɐ ꞁꞁnɟ Ɐ
 for.hints.apiaristsuit.tag=¡sʇᴉnS ǝǝᗺ
 for.hints.beebiomes.desc=˙ɥɔᴉɥʍ uᴉ ʇno puᴉɟ oʇ ɹoʇɐɔoꞁ ʇɐʇᴉqɐɥ puɐ ɹǝzʎꞁɐuɐ ǝꞁqɐʇɹod ɹnoʎ ǝs∩ ˙sǝᴉɔǝds ɹᴉǝɥʇ ʇᴉns ʇɐɥʇ sǝɯoᴉq uᴉ ʞɹoʍ ʎꞁuo sǝǝᗺ
@@ -351,9 +397,12 @@ for.hints.shortmead.desc=˙pɐǝɯ ʇɹoɥs ǝɯos ǝʞɐɯ oʇ ʎǝuoɥ pᴉnb�
 for.hints.shortmead.tag=¡ʞuᴉɹp ʎᵷɹǝuǝ ɹnoʎ ʇǝ⅁
 for.hints.usesofash.desc=˙ʇɐǝd snouᴉɯnʇᴉq ǝuᴉɟǝɹ oʇ pǝɹᴉnbǝɹ sᴉ puɐ ɹǝzᴉꞁᴉʇɹǝɟ ǝʇɐǝɹɔ oʇ pǝsn ǝq uɐɔ ɥsⱯ
 for.hints.usesofash.tag=¡ɥsɐ ɹnoʎ ǝs∩
-for.item.crated.grammar=%s
+
+for.item.crated.grammar=%s pǝʇɐɹƆ
 for.item.crated.unknown=ʇuǝʇuoɔ uʍouʞun ɥʇᴉʍ ǝʇɐɹƆ
+
 for.no=oN
+
 for.researchNote.chance.highest=⟘SƎH⅁IH
 for.researchNote.chance.higher=ᴚƎH⅁IH
 for.researchNote.chance.high=H⅁IH
@@ -362,14 +411,15 @@ for.researchNote.chance.low=MOꞀ
 for.researchNote.chance.lowest=⟘SƎMOꞀ
 for.researchNote.error.0=˙sǝꞁqqᴉɹɔs ʇno pǝɥsɐʍ ǝɥʇ ɹǝɥdᴉɔǝp oʇ ǝꞁqᴉssodɯᴉ sᴉ ʇI
 for.researchNote.error.1=˙ssǝꞁɥʇɹoʍ sᴉ puɐ ǝꞁqɐpɐǝɹun ǝɯoɔǝq sɐɥ ǝʇou ǝɥ⟘
-for.researchNote.discovered.0=¡pǝɥɔɹɐǝsǝɹ sǝᴉɔǝdS§a
-for.researchNote.discovered.1=(%2$s) §7,§7,§7
-for.researchNote.discovery.0=¡pǝɹǝʌoɔsᴉp uoᴉʇɐʇnW§a
-for.researchNote.discovery.1=˙§7,ᘔƆƎԀ%S,%S puɐ §e,⥝ƆƎԀ§e,§7
-for.researchNote.discovery.2=˙§7%s§7 sᴉ ssǝɔɔns ɹoɟ ǝɔuɐɥƆ
-for.researchNote.discovery.3=˙§7,%s,§7 sᴉ sǝᴉɔǝds ʍǝN
+for.researchNote.discovered.0=¡pǝɥɔɹɐǝsǝɹ sǝᴉɔǝdS§f§a
+for.researchNote.discovered.1=) (%2$s,§7,%1$s§f§e
+for.researchNote.discovery.0=¡pǝɹǝʌoɔsᴉp uoᴉʇɐʇnW§f§a
+for.researchNote.discovery.1=˙,§7,ᘔƆƎԀ%2$S puɐ §e,§7,⥝ƆƎԀ%1$S§f§e
+for.researchNote.discovery.2=˙§7%s§f§9 sᴉ ssǝɔɔns ɹoɟ ǝɔuɐɥƆ
+for.researchNote.discovery.3=˙,§7,%s§f§d sᴉ sǝᴉɔǝds ʍǝN
+
 for.mutation.condition.biome.single=˙ǝɯoᴉq %s ɐ uᴉɥʇᴉʍ sɹnɔɔO
-for.mutation.condition.biome.multiple=%s
+for.mutation.condition.biome.multiple=%s :ǝʞᴉꞁ sǝɯoᴉq uᴉɥʇᴉʍ sɹnɔɔO
 for.mutation.condition.daytime.day=˙ʎɐp ǝɥʇ ᵷuᴉɹnᗡ
 for.mutation.condition.daytime.night=˙ʇɥᵷᴉu ǝɥʇ ᵷuᴉɹnᗡ
 for.mutation.condition.humidity.range=˙H⅁I%H puɐ MO%L uǝǝʍʇǝq ʎʇᴉpᴉɯnɥ sǝɹᴉnbǝᴚ
@@ -378,9 +428,11 @@ for.mutation.condition.temperature.range=˙H⅁I%H puɐ MO%L uǝǝʍʇǝq ǝɹn�
 for.mutation.condition.temperature.single=˙ǝɹnʇɐɹǝdɯǝʇ %s sǝɹᴉnbǝᴚ
 for.mutation.condition.resource=˙uoᴉʇɐpunoɟ ɐ sɐ %s sǝɹᴉnbǝᴚ
 for.mutation.condition.date=˙ᗡN%E puɐ ⟘ᴚⱯ⟘%S uǝǝʍʇǝq sɹnɔɔO
+
 for.storage.backpack.mode.locked=(ǝpoW pǝʞɔoꞀ)
 for.storage.backpack.mode.receiving=(ǝpoW ᵷuᴉʌᴉǝɔǝᴚ)
 for.storage.backpack.mode.resupply=(ǝpoW ʎꞁddnsǝᴚ)
+
 for.trigger.hasMail=ꞁᴉɐW sɐH
 for.trigger.hasWork=ʞɹoM sɐH
 for.trigger.lowFuel=ꞁǝnℲ
@@ -393,19 +445,26 @@ for.trigger.mailBuffer=ɹǝɟɟnᗺ
 for.trigger.missingDrone=ǝuoɹᗡ ᵷuᴉssᴉW
 for.trigger.missingQueen=ssǝɔuᴉɹԀ ɹo uǝǝnΌ ᵷuᴉssᴉW
 for.trigger.noFrames=sǝɯɐɹℲ oN
+
 for.yes=sǝ⅄
+
 item.for.ambrosia.name=ɐᴉsoɹqɯⱯ
 item.for.apatite.name=ǝʇᴉʇɐdⱯ
+
 item.for.apiarist_bag.name=ʞɔɐdʞɔɐᗺ s,ʇsᴉɹɐᴉdⱯ
 item.for.apiarist_boots.name=sǝoɥS s,ʇsᴉɹɐᴉdⱯ
 item.for.apiarist_chest.name=ʇɹᴉɥS s,ʇsᴉɹɐᴉdⱯ
 item.for.apiarist_helmet.name=ʇɐH s,ʇsᴉɹɐᴉdⱯ
 item.for.apiarist_legs.name=sʇuɐԀ s,ʇsᴉɹɐᴉdⱯ
+
 item.for.ash.name=ɥsⱯ
 tile.for.pile_ash.name=ǝꞁᴉԀ ɥsⱯ
+
 item.for.habitat_locator.name=ɹoʇɐɔoꞀ ʇɐʇᴉqɐH
+
 item.for.cart.beehouse.name=ǝsnoH ǝǝᗺ ɥʇᴉʍ ʇɹɐɔǝuᴉW
 item.for.cart.apiary.name=ʎɹɐᴉdⱯ ɥʇᴉʍ ʇɹɐɔǝuᴉW
+
 item.for.bee_combs.cocoa.name=qɯoƆ ɐoɔoƆ
 item.for.bee_combs.darkened.name=qɯoƆ pǝuǝʞɹɐᗡ
 item.for.bee_combs.dripping.name=qɯoƆ ᵷuᴉddᴉɹᗡ
@@ -423,22 +482,28 @@ item.for.bee_combs.silky.name=qɯoƆ ʎʞꞁᴉS
 item.for.bee_combs.simmering.name=qɯoƆ ᵷuᴉɹǝɯɯᴉS
 item.for.bee_combs.stringy.name=qɯoƆ ʎᵷuᴉɹʇS
 item.for.bee_combs.wheaten.name=qɯoƆ uǝʇɐǝɥM
+
 item.for.beeswax.name=xɐʍsǝǝᗺ
+
 item.for.biome_finder.name=ɹoʇɐɔoꞀ ʇɐʇᴉqɐH
 item.for.bituminous_peat.name=ʇɐǝԀ snouᴉɯnʇᴉᗺ
 item.for.broken_bronze_pickaxe.name=ǝxɐʞɔᴉԀ uǝʞoɹᗺ
 item.for.broken_bronze_shovel.name=ꞁǝʌoɥS uǝʞoɹᗺ
 item.for.bronze_pickaxe.name=ǝxɐʞɔᴉԀ s,ʇsᴉꞁɐʌᴉʌɹnS
 item.for.bronze_shovel.name=ꞁǝʌoɥS s,ʇsᴉꞁɐʌᴉʌɹnS
+
 item.for.can.empty.name=uɐƆ
 item.for.can.grammar=uɐƆ %s
+
 item.for.carton.name=uoʇɹɐƆ
+
 item.for.circuitboard.basic.name=pɹɐoᗺ ʇᴉnɔɹᴉƆ ɔᴉsɐᗺ
 item.for.circuitboard.enhanced.name=pɹɐoᗺ ʇᴉnɔɹᴉƆ pǝɔuɐɥuƎ
 item.for.circuitboard.intricate.name=pɹɐoᗺ ʇᴉnɔɹᴉƆ ǝʇɐɔᴉɹʇuI
 item.for.circuitboard.refined.name=pɹɐoᗺ ʇᴉnɔɹᴉƆ pǝuᴉɟǝᴚ
 item.for.circuitboard.tooltip.singular=˙ǝqn⟘ uoɹʇɔǝꞁƎ %s sʇᴉℲ
 item.for.circuitboard.tooltip.plural=˙sǝqn⟘ uoɹʇɔǝꞁƎ %s sʇᴉℲ
+
 item.for.crafting_material.dissipation_charge.name=ǝᵷɹɐɥƆ uoᴉʇɐdᴉssᴉᗡ
 item.for.crafting_material.dissipation_charge.tooltip=˙uᴉɐɹ ǝɥʇ doʇs oʇ ɹǝʞɐɯuᴉɐᴚ ɐ uo ǝs∩
 item.for.crafting_material.ice_shard.name=pɹɐɥS ǝɔI
@@ -448,17 +513,23 @@ item.for.crafting_material.scented_paneling.name=ᵷuᴉꞁǝuɐԀ pǝʇuǝɔS
 item.for.crafting_material.camouflaged_paneling.name=ᵷuᴉꞁǝuɐԀ pǝᵷɐꞁɟnoɯɐƆ
 item.for.crafting_material.silk_wisp.name=dsᴉM ʞꞁᴉS
 item.for.crafting_material.woven_silk.name=ʞꞁᴉS uǝʌoM
+
 item.for.crate.name=ǝʇɐɹƆ
 item.for.decaying_wheat.name=ʇɐǝɥM ᵷuᴉʎɐɔǝᗡ
+
 item.for.fertilizer_bio.name=ʇsodɯoƆ
 item.for.fertilizer_compound.name=ɹǝzᴉꞁᴉʇɹǝℲ
+
 item.for.frame_impregnated.name=ǝɯɐɹℲ pǝʇɐuᵷǝɹdɯI
 item.for.frame_proven.name=ǝɯɐɹℲ uǝʌoɹԀ
 item.for.frame_untreated.name=ǝɯɐɹℲ pǝʇɐǝɹʇu∩
+
 item.for.durability=p'% :ʎʇᴉꞁᴉqɐɹnᗡ
 item.for.uses=p'% :sǝs∩
+
 item.for.bee.modifier.production=xɟᘔ˙% :uoᴉʇɔnpoɹԀ
 item.for.bee.modifier.genetic.decay=xɟᘔ˙% :ʎɐɔǝᗡ ɔᴉʇǝuǝ⅁
+
 item.for.fruits.cherry.name=ʎɹɹǝɥƆ
 item.for.fruits.chestnut.name=ʇnuʇsǝɥƆ
 item.for.fruits.dates.name=ǝʇɐᗡ
@@ -466,29 +537,39 @@ item.for.fruits.lemon.name=uoɯǝꞀ
 item.for.fruits.papaya.name=ɐʎɐdɐԀ
 item.for.fruits.plum.name=ɯnꞁԀ
 item.for.fruits.walnut.name=ʇnuꞁɐM
+
 item.for.gear_bronze.name=ɹɐǝ⅁ ǝzuoɹᗺ
 item.for.gear_copper.name=ɹɐǝ⅁ ɹǝddoƆ
 item.for.gear_tin.name=ɹɐǝ⅁ uᴉ⟘
+
 item.for.hardened_machine.name=ᵷuᴉsɐƆ pǝuǝpɹɐH
+
 item.for.honeydew.name=ʍǝpʎǝuoH
+
 item.for.portable_alyzer.name=ɹǝzʎꞁɐuⱯ ǝꞁqɐʇɹoԀ
 item.for.portable_alyzer.tooltip=˙sǝᴉꞁɟɹǝʇʇnq puɐ 'sᵷuᴉꞁdɐs 'sǝǝq ɹoɟ ɹǝzʎꞁɐuⱯ ɔᴉʇǝuǝ⅁ pꞁǝɥpuɐH
+
 item.for.honey_drop.charged.name=doɹᗡ pǝᵷɹɐɥƆ
 item.for.honey_drop.honey.name=doɹᗡ ʎǝuoH
 item.for.honey_drop.omega.name=doɹᗡ ɐᵷǝɯO
 item.for.honeyed_slice.name=ǝɔᴉꞁS pǝʎǝuoH
+
 item.for.honey_pot.name=ʇoԀ ʎǝuoH
+
 item.for.impregnated_casing.name=ᵷuᴉsɐƆ pǝʇɐuᵷǝɹdɯI
 item.for.imprinter.name=ɹǝʇuᴉɹdɯI
 item.for.infuser.name=ɹǝsnɟuI
+
 item.for.ingot_bronze.name=ʇoᵷuI ǝzuoɹᗺ
 item.for.ingot_copper.name=ʇoᵷuI ɹǝddoƆ
 item.for.ingot_tin.name=ʇoᵷuI uᴉ⟘
+
 item.for.iodine_capsule.name=ǝꞁnsdɐƆ ǝuᴉpoI
 item.for.iodine_capsule.tooltip=˙uᴉɐɹ ʇᴉ ǝʞɐɯ oʇ ɹǝʞɐɯuᴉɐᴚ ɐ uo ǝs∩
 item.for.kit_pickaxe.name=ʇᴉʞ ǝxɐʞɔᴉԀ
 item.for.kit_shovel.name=ʇᴉʞ ꞁǝʌoɥS
 item.for.letters.name=ɹǝʇʇǝꞀ
+
 item.for.mouldy_wheat.name=ʇɐǝɥM ʎpꞁnoW
 item.for.mulch.name=ɥɔꞁnW
 item.for.naturalist_helmet.name=sǝꞁɔɐʇɔǝdS
@@ -497,16 +578,21 @@ item.for.oak_stick.name=ʞɔᴉʇS pǝʇɐuᵷǝɹdɯI
 item.for.peat.name=ʇɐǝԀ
 item.for.phosphor.name=ɹoɥdsoɥԀ
 item.for.pipette.name=ǝʇʇǝdᴉԀ
+
 item.for.pollen.crystalline.name=ɹǝʇsnꞁƆ uǝꞁꞁoԀ ǝuᴉꞁꞁɐʇsʎɹƆ
 item.for.pollen.normal.name=ɹǝʇsnꞁƆ uǝꞁꞁoԀ
+
 item.for.propolis.normal.name=sᴉꞁodoɹԀ
 item.for.propolis.pulsating.name=sᴉꞁodoɹԀ ᵷuᴉʇɐsꞁnԀ
 item.for.propolis.silky.name=sᴉꞁodoɹԀ ʎʞꞁᴉS
 item.for.propolis.sticky.name=sᴉꞁodoɹԀ ʎʞɔᴉʇS
+
 item.for.refractory.empty.name=ǝꞁnsdɐƆ ʎɹoʇɔɐɹɟǝᴚ
 item.for.refractory.grammar=ǝꞁnsdɐƆ %s
+
 item.for.refractory_wax.name=xɐM ʎɹoʇɔɐɹɟǝᴚ
 item.for.refractory_wax.tooltip=˙ʇuᴉod ᵷuᴉʇꞁǝɯ ɥᵷᴉɥ ɐ ɥʇᴉʍ xɐM
+
 item.for.research_note.name=sǝʇoN s,%s
 item.for.research_note.tooltip=˙ǝᵷpǝꞁʍouʞ sʇᴉ uᴉɐᵷ oʇ puɐɥ ɹnoʎ uᴉ ǝʇou sᴉɥʇ ǝs∩
 item.for.royal_jelly.name=ʎꞁꞁǝՐ ꞁɐʎoᴚ
@@ -516,6 +602,7 @@ item.for.soldering_iron.name=uoɹI ᵷuᴉɹǝpꞁoS
 item.for.soldering_iron.tooltip=˙spɹɐoᗺ ʇᴉnɔɹᴉƆ oʇ sǝqn⟘ uoɹʇɔǝꞁƎ sɹǝpꞁoS
 item.for.smoker.name=ɹǝʞoɯS ǝǝᗺ
 item.for.smoker.tooltip=sǝǝq pꞁᴉʍ sɯꞁɐƆ
+
 item.for.stamps.1n.name=(u⥝) dɯɐʇS
 item.for.stamps.2n.name=(uᘔ) dɯɐʇS
 item.for.stamps.5n.name=(u5) dɯɐʇS
@@ -524,7 +611,9 @@ item.for.stamps.20n.name=(u0ᘔ) dɯɐʇS
 item.for.stamps.50n.name=(u05) dɯɐʇS
 item.for.stamps.100n.name=(u00⥝) dɯɐʇS
 item.for.stamps.name=dɯɐʇS
+
 item.for.sturdy_machine.name=ᵷuᴉsɐƆ ʎpɹnʇS
+
 item.for.thermionic_tubes.copper.name=ǝqn⟘ uoɹʇɔǝꞁƎ ɹǝddoƆ
 item.for.thermionic_tubes.tin.name=ǝqn⟘ uoɹʇɔǝꞁƎ uᴉ⟘
 item.for.thermionic_tubes.bronze.name=ǝqn⟘ uoɹʇɔǝꞁƎ ǝzuoɹᗺ
@@ -540,22 +629,30 @@ item.for.thermionic_tubes.lapis.name=ǝqn⟘ uoɹʇɔǝꞁƎ sᴉdɐꞀ
 item.for.thermionic_tubes.ender.name=ǝqn⟘ uoɹʇɔǝꞁƎ ɹǝpuƎ
 item.for.thermionic_tubes.orchid.name=ǝqn⟘ uoɹʇɔǝꞁƎ pᴉɥɔɹO
 item.for.thermionic_tubes.tooltip=˙spɹɐoq ʇᴉnɔɹᴉɔ ɯɐɹᵷoɹd oʇ pǝs∩
+
 item.for.capsule.empty.name=ǝꞁnsdɐƆ xɐM
 item.for.capsule.tooltip=˙spᴉnbᴉꞁ ʇoɥ pꞁoɥ ʇ,uɐƆ
 item.for.capsule.grammar=ǝꞁnsdɐƆ %s
+
 item.for.wax_cast.name=ʇsɐƆ xɐM
+
 item.for.wood_pulp.name=dꞁnԀ pooM
 item.for.wrench.name=ɥɔuǝɹM
 item.for.wrench.tooltip=˙sʞɔoꞁq ǝʇɐʇoɹ oʇ ǝs∩-ʇɟᴉɥS
+
 item.for.camouflage_spray_can.name=uɐƆ ʎɐɹdS ǝᵷɐꞁɟnoɯɐƆ
+
 itemGroup.apiculture=ǝɹnʇꞁnɔᴉdⱯ ʎɹʇsǝɹoℲ
 itemGroup.arboriculture=ǝɹnʇꞁnɔᴉɹoqɹⱯ ʎɹʇsǝɹoℲ
 itemGroup.forestry=ʎɹʇsǝɹoℲ
 itemGroup.lepidopterology=ʎᵷoꞁoɹǝʇdopᴉdǝꞀ ʎɹʇsǝɹoℲ
 itemGroup.agriculture=ǝɹnʇꞁnɔᴉɹᵷⱯ ʎɹʇsǝɹoℲ
+
 tile.for.analyzer.name=ɹǝzʎꞁɐuⱯ
 tile.for.escritoire.name=ǝɹᴉoʇᴉɹɔsƎ
+
 tile.for.database.name=ǝsɐqɐʇɐᗡ
+
 tile.for.engine_electrical.name=ǝuᴉᵷuƎ ꞁɐɔᴉɹʇɔǝꞁƎ
 tile.for.engine_electrical.tooltip=˙Ⅎᴚ oʇ ∩Ǝ sʇɹǝʌuoƆ
 tile.for.engine_peat.name=ǝuᴉᵷuƎ pǝɹᴉɟ-ʇɐǝԀ
@@ -566,6 +663,7 @@ tile.for.engine_generator.name=ɹoʇɐɹǝuǝ⅁ oᴉᗺ
 tile.for.engine_generator.tooltip=˙ꞁouɐɥʇƎ ɹo ssɐɯoᴉᗺ ɯoɹɟ ∩Ǝ sǝʇɐɹǝuǝ⅁
 tile.for.engine_clockwork.name=ǝuᴉᵷuƎ ʞɹoʍʞɔoꞁƆ
 tile.for.engine_clockwork.tooltip=˙dn ʇᴉ puᴉʍ oʇ ʞɔᴉꞁɔ-ʇɥᵷᴉᴚ ˙Ⅎᴚ ɟo sʇunoɯɐ ꞁꞁɐɯs sǝʇɐɹǝuǝ⅁
+
 tile.for.bottler.name=ɹǝꞁʇʇoᗺ
 tile.for.carpenter.name=ɹǝʇuǝdɹɐƆ
 tile.for.centrifuge.name=ǝᵷnɟᴉɹʇuǝƆ
@@ -577,21 +675,27 @@ tile.for.rainmaker.name=ɹǝʞɐɯuᴉɐᴚ
 tile.for.fabricator.name=ɹoʇɐɔᴉɹqɐℲ ɔᴉuoᴉɯɹǝɥ⟘
 tile.for.raintank.name=ʞuɐ⟘ uᴉɐᴚ
 tile.for.worktable.name=ǝꞁqɐʇʞɹoM
+
 tile.for.mailbox.name=xoqꞁᴉɐW
 tile.for.trade_station.name=uoᴉʇɐʇS ǝpɐɹ⟘
 tile.for.stamp_collector.name=ɹoʇɔǝꞁꞁoƆ dɯɐʇS
+
 tile.for.resources.apatite.name=ǝɹO ǝʇᴉʇɐdⱯ
 tile.for.resources.copper.name=ǝɹO ɹǝddoƆ
 tile.for.resources.tin.name=ǝɹO uᴉ⟘
+
 tile.for.resource_storage.apatite.name=ǝʇᴉʇɐdⱯ ɟo ʞɔoꞁᗺ
 tile.for.resource_storage.copper.name=ɹǝddoƆ ɟo ʞɔoꞁᗺ
 tile.for.resource_storage.tin.name=uᴉ⟘ ɟo ʞɔoꞁᗺ
 tile.for.resource_storage.bronze.name=ǝzuoɹᗺ ɟo ʞɔoꞁᗺ
+
 tile.for.ash_brick.name=sʞɔᴉɹᗺ ɥsⱯ
 tile.for.ash_stairs.name=sɹᴉɐʇS ʞɔᴉɹᗺ ɥsⱯ
+
 tile.for.humus.name=snɯnH
 tile.for.bog_earth.bog_earth.name=ɥʇɹɐƎ ᵷoᗺ
 tile.for.bog_earth.peat.name=ʇɐǝԀ
+
 tile.for.bee_combs.cocoa.name=ʞɔoꞁᗺ qɯoƆ ɐoɔoƆ
 tile.for.bee_combs.darkened.name=ʞɔoꞁᗺ qɯoƆ pǝuǝʞɹɐᗡ
 tile.for.bee_combs.dripping.name=ʞɔoꞁᗺ qɯoƆ ᵷuᴉddᴉɹᗡ
@@ -609,18 +713,26 @@ tile.for.bee_combs.silky.name=ʞɔoꞁᗺ qɯoƆ ʎʞꞁᴉS
 tile.for.bee_combs.simmering.name=ʞɔoꞁᗺ qɯoƆ ᵷuᴉɹǝɯɯᴉS
 tile.for.bee_combs.stringy.name=ʞɔoꞁᗺ qɯoƆ ʎᵷuᴉɹʇS
 tile.for.bee_combs.wheaten.name=ʞɔoꞁᗺ qɯoƆ uǝʇɐǝɥM
+
 item.for.adventurer_bag.name=ʞɔɐdʞɔɐᗺ ᵷuᴉɹnʇuǝʌpⱯ
 item.for.adventurer_bag_t2.name=ʞɔɐdʞɔɐᗺ ᵷuᴉɹnʇuǝʌpⱯ uǝʌoM
+
 item.for.builder_bag.name=ʞɔɐdʞɔɐᗺ ᵷuᴉpꞁᴉnᗺ
 item.for.builder_bag_t2.name=ʞɔɐdʞɔɐᗺ ᵷuᴉpꞁᴉnᗺ uǝʌoM
+
 item.for.digger_bag.name=ʞɔɐdʞɔɐᗺ ᵷuᴉᵷᵷᴉᗡ
 item.for.digger_bag_t2.name=ʞɔɐdʞɔɐᗺ ᵷuᴉᵷᵷᴉᗡ uǝʌoM
+
 item.for.forester_bag.name=ʞɔɐdʞɔɐᗺ ᵷuᴉʇsǝɹoℲ
 item.for.forester_bag_t2.name=ʞɔɐdʞɔɐᗺ uǝʌoM ᵷuᴉʇsǝɹoℲ uǝʌoM
+
 item.for.hunter_bag.name=ʞɔɐdʞɔɐᗺ ᵷuᴉʇunH
 item.for.hunter_bag_t2.name=ʞɔɐdʞɔɐᗺ uǝʌoM s,ɹǝʇunH
+
 item.for.miner_bag.name=ʞɔɐdʞɔɐᗺ ᵷuᴉuᴉW
 item.for.miner_bag_t2.name=ʞɔɐdʞɔɐᗺ ᵷuᴉuᴉW uǝʌoM
+
+
 for.errors.is_raining.desc=uᴉɐᴚ
 for.errors.is_raining.help=˙uᴉɐɹ ǝɥʇ uᴉ ʞɹoʍ uɐɔ sɹǝᴉꞁɟ ʇuɐɹǝꞁoʇ ʎꞁuO
 for.errors.no_drone.desc=ǝuoɹp oN
@@ -647,6 +759,7 @@ for.errors.too_humid.desc=pᴉɯnH oo⟘
 for.errors.too_humid.help=˙ǝʇɐɯᴉꞁɔ ɹǝʎɹp ɐ puᴉɟ oʇ ɹoʇɐɔoꞀ ʇɐʇᴉqɐH ɐ ǝs∩ ˙ʎꞁɟ oʇ dɯɐp ooʇ sᵷuᴉʍ ,sǝǝq ǝɥʇ ǝpɐɯ sɐɥ ǝɹǝɥ ǝʇɐɯᴉꞁɔ ǝɥ⟘
 for.errors.too_arid.desc=ʎɹᗡ oo⟘
 for.errors.too_arid.help=˙ǝʇɐɯᴉꞁɔ ɹǝʇʇǝʍ ɐ puᴉɟ oʇ ɹoʇɐɔoꞀ ʇɐʇᴉqɐH ɐ ǝs∩ ˙ʞɹoʍ oʇ ǝꞁqɐun puɐ pǝɥɔɹɐd sǝǝq ǝɥʇ ǝpɐɯ sɐɥ ǝɹǝɥ ǝʇɐɯᴉꞁɔ ʎɹp ǝɥ⟘
+
 for.errors.no_power.desc=ɹǝʍoԀ oN
 for.errors.no_power.help=˙uoᴉʇɔunɟ oʇ ǝuᴉᵷuǝ uɐ ɯoɹɟ ʎᵷɹǝuǝ Ⅎᴚ sǝɹᴉnbǝɹ ǝuᴉɥɔɐɯ sᴉɥ⟘
 for.errors.no_redstone.desc=ǝuoʇspǝᴚ sǝɹᴉnbǝᴚ
@@ -667,16 +780,19 @@ for.errors.no_space_tank.desc=ꞁꞁnℲ ʞuɐ⟘
 for.errors.no_space_tank.help=˙ʞuɐʇ pᴉnbᴉꞁ s,ǝuᴉɥɔɐɯ sᴉɥʇ ʎʇdɯƎ
 for.errors.not_dark.desc=ɥᵷnouǝ ʞɹɐp ʇoN
 for.errors.not_dark.help=˙uoᴉʇɐɹǝdo ɹoɟ pǝɹᴉnbǝɹ sᴉ ꞁǝʌǝꞁ ʇɥᵷᴉꞁ ɹǝʍoꞁ Ɐ
+
 for.errors.not_raining.desc=uᴉɐɹ oN
 for.errors.not_raining.help=˙ᵷuᴉuᴉɐɹ sᴉ ʇᴉ uǝɥʍ ǝꞁqᴉssod ʎꞁuo sᴉ uoᴉʇɐɹǝdO
 for.errors.no_rain_biome.desc=suᴉɐɹ ɹǝʌǝN
 for.errors.no_rain_biome.help=˙uᴉɐɹ sǝʌᴉǝɔǝɹ ɹǝʌǝu uoᴉʇɐɔoꞁ sᴉɥ⟘
 for.errors.no_sky_rain_tank.desc=pǝʇɔnɹʇsqo ʎʞS
 for.errors.no_sky_rain_tank.help=˙uᴉɐɹ ɹǝɥʇɐᵷ uɐɔ ʇᴉ os ǝuᴉɥɔɐɯ sᴉɥʇ ǝʌoqɐ ɐǝɹɐ ǝɥʇ ɹɐǝꞁƆ
+
 for.errors.no_honey.desc=pǝɹᴉnbǝɹ ʎǝuoH
 for.errors.no_honey.help=˙uoᴉʇɐɹǝdo ɹoɟ ʍǝpʎǝuoɥ ɹo sdoɹp ʎǝuoɥ sǝɹᴉnbǝɹ ʇǝᵷpɐᵷ sᴉɥ⟘
 for.errors.no_specimen.desc=ǝzʎꞁɐuɐ oʇ ᵷuᴉɥʇoN
 for.errors.no_specimen.help=˙ǝzʎꞁɐuɐ oʇ uǝɯᴉɔǝds ɐ ʎꞁddnS
+
 for.errors.forced_cooldown.desc=uʍopꞁooƆ pǝɔɹoℲ
 for.errors.forced_cooldown.help=˙uᴉɐᵷɐ ʇɹɐʇs uɐɔ ʇᴉ ǝɹoɟǝq uʍop ꞁooɔ ʇsnɯ puɐ pǝʇɐǝɥɹǝʌo sɐɥ ǝuᴉᵷuǝ ǝɥ⟘
 for.errors.no_energy_net.desc=ʎʇᴉɔᴉɹʇɔǝꞁǝ oN
@@ -685,6 +801,7 @@ for.errors.no_fuel.desc=ꞁǝnɟ oN
 for.errors.no_fuel.help=˙sǝᴉꞁddns ꞁǝnɟ s,ǝuᴉɥɔɐɯ sᴉɥʇ ɥsᴉuǝꞁdǝᴚ ˙unɹ oʇ ꞁǝnɟ sǝɹᴉnbǝɹ ǝuᴉᵷuǝ sᴉɥ⟘
 for.errors.no_heat.desc=dn pǝɯɹɐʍ ʇoN
 for.errors.no_heat.help=˙ʞuɐʇ ᵷuᴉʇɐǝɥ ǝɥʇ ꞁꞁᴉɟǝᴚ ˙unɹ oʇ ǝɔɹnos ʇɐǝɥ ɐ sǝɹᴉnbǝɹ ǝuᴉᵷuǝ sᴉɥ⟘
+
 for.errors.no_stamps.desc=sdɯɐʇS pǝǝN
 for.errors.no_stamps.help=˙ǝᵷɐʇsod ʎɐd oʇ sdɯɐʇs ǝɹoɯ sǝɹᴉnbǝɹ uoᴉʇɐʇs ǝpɐɹʇ ǝɥ⟘
 for.errors.no_paper.desc=ɹǝdɐԀ pǝǝN
@@ -693,33 +810,41 @@ for.errors.no_supplies.desc=sǝᴉꞁddnS pǝǝN
 for.errors.no_supplies.help=˙puǝs oʇ sǝᴉꞁddns ǝɹoɯ sǝɹᴉnbǝɹ uoᴉʇɐʇs ǝpɐɹʇ ǝɥ⟘
 for.errors.no_trade.desc=ʇǝS ǝpɐɹ⟘ oN
 for.errors.no_trade.help=˙ǝʌᴉǝɔǝᴚ puɐ puǝS oʇ sɯǝʇᴉ sǝɹᴉnbǝɹ uoᴉʇɐʇs ǝpɐɹʇ ǝɥ⟘
+
 for.errors.not_alpha_numeric.desc=ǝɯɐN pᴉꞁɐʌuI
 for.errors.not_alpha_numeric.help=˙ʎꞁuo sɹǝqɯnu puɐ sɹǝʇʇǝꞁ ɟo ʇsᴉsuoɔ ʇsnɯ ǝɯɐu uoᴉʇɐʇS ǝpɐɹ⟘ Ɐ
 for.errors.not_unique.desc=ǝnbᴉu∩ ʇoN
 for.errors.not_unique.help=˙uǝʞɐʇ ʎpɐǝɹꞁɐ sᴉ ǝɯɐu sᴉɥʇ puɐ ǝnbᴉun ǝq ʇsnɯ sǝɯɐu uoᴉʇɐʇS ǝpɐɹ⟘
+
 for.errors.no_recipient.desc=ʇuǝᴉdᴉɔǝᴚ oN
 for.errors.no_recipient.help=˙ʇᴉ puǝs oʇ ʇuǝᴉdᴉɔǝɹ ɐ oʇ ɹǝʇʇǝꞁ ɹnoʎ ssǝɹppɐ oʇ pǝǝu no⅄
 for.errors.not_postpaid.desc=pǝpǝǝN sdɯɐʇS
 for.errors.not_postpaid.help=˙ǝɔᴉʌɹǝs ꞁɐʇsod ǝɥʇ ʎɐd oʇ sdɯɐʇs ǝɹoɯ ʎꞁddⱯ
+
 for.errors.circuit_mismatch.desc=ɥɔʇɐɯsᴉW ʇnoʎɐꞀ
 for.errors.circuit_mismatch.help=˙pɹɐoq ʇᴉnɔɹᴉɔ ɟo ǝzᴉs ɥɔʇɐɯ ʇou sǝop sǝqnʇ ɟo ʇunoɯⱯ
 for.errors.no_circuit_board.desc=ᵷuᴉssᴉW pɹɐoᗺ
 for.errors.no_circuit_board.help=˙ʇᴉ oʇuo sǝqnʇ pǝʇɔǝꞁǝs ǝɥʇ ɹǝpꞁos oʇ pɹɐoq ʇᴉnɔɹᴉɔ ɐ ʇɹǝsuI
 for.errors.no_circuit_layout.desc=punoℲ sʇnoʎɐꞀ oN
 for.errors.no_circuit_layout.help=˙sᵷuᴉʇʇǝs ǝɯɐᵷ ʇuǝɹɹnɔ ǝɥʇ oʇ ǝnp ǝꞁqɐꞁᴉɐʌɐ sʇnoʎɐꞁ oN
+
 for.errors.no_farmland.desc=puɐꞁɯɹɐℲ oN
 for.errors.no_farmland.help=˙uo pꞁᴉnq ꞁꞁᴉʍ ɯɹɐɟ ǝɥʇ ɯɹoɟʇɐꞁd ɐ ǝʇɐǝɹɔ sʞɔᴉɹq ǝuoʇs ɹo sʞɔᴉɹq 'ǝuoʇspuɐs ɥʇooɯS
 for.errors.no_fertilizer.desc=ɹǝzᴉꞁᴉʇɹǝℲ oN
 for.errors.no_fertilizer.help=˙ʇuǝᴉɔᴉɟɟnsuᴉ sᴉ ʇsodɯoƆ ˙uoᴉʇɔunɟ ɹoɟ ɹǝzᴉꞁᴉʇɹǝɟ ǝɹᴉnbǝɹ sɯɹɐℲ
 for.errors.no_liquid.desc=ɹǝʇɐM oN
 for.errors.no_liquid.help=˙ɹǝʇɐʍ ɟo sʇunoɯɐ ᵷuᴉʎɹɐʌ ɥʇᴉʍ pǝᴉꞁddns ǝq oʇ pǝǝu sɯɹɐɟ ʎʇᴉpᴉɯnɥ puɐ ǝɹnʇɐɹǝdɯǝʇ 'ꞁꞁɐɟuᴉɐɹ uo ᵷuᴉpuǝdǝᗡ
+
 for.errors.not_closed.desc=pǝsoꞁƆ ʇoN ɟooᴚ
 for.errors.not_closed.help=˙pǝsoꞁɔ ʇou sᴉ ǝsnoɥuǝǝɹᵷ ǝɥʇ ɟo ɟooɹ ǝɥ⟘
 for.errors.not_loaded.desc=pǝpɐoꞀ ʇoN
 for.errors.not_loaded.help=˙pǝpɐoꞁ ʇou sᴉ ǝsnoɥuǝǝɹᵷ ǝɥʇ ɟo ʞunɥɔ ǝuO
 for.errors.too_large.desc=ǝᵷɹɐꞀ oo⟘
 for.errors.too_large.help=˙uoᴉʇᴉsod ɐ ʇɐ pǝsoꞁɔ ʇou sᴉ ʇᴉ ɹo ɹǝꞁꞁoɹʇuoɔ sʇᴉ ɹoɟ ǝᵷɹɐꞁ ooʇ sᴉ ǝsnoɥuǝǝɹᵷ ǝɥ⟘
+
+
 entity.Villager.apiarist=ʇsᴉɹɐᴉdⱯ
+
 death.bee.aggressive.player=˙ʇᴉns s,ʇsᴉɹɐᴉdɐ sᴉɥ ǝꞁoʇs %2$s ˙sǝǝq ɟo ɯɹɐʍs ɐ pǝɹǝʇunoɔuǝ %1$s
 death.bee.aggressive=˙ᵷuᴉʇs oʇ pɐɥ ʇɐɥ⟘ ˙sǝǝq ɟo ɯɹɐʍs ɐ pǝɹǝʇunoɔuǝ %1$s
 death.bee.hive.player=˙ʇᴉns s,ʇsᴉɹɐᴉdɐ sᴉɥ ǝꞁoʇs %2$s ˙sǝǝq pꞁᴉʍ ʎq pǝꞁꞁᴉʞ sɐʍ %1$s
@@ -730,6 +855,7 @@ death.bee.radioactive.player=˙pǝꞁʞɔɐɔ puɐ pǝɥɔʇɐʍ %2$s ˙uo ʇǝ�
 death.bee.radioactive=˙uo ʇǝɯꞁǝɥ sᴉɥ ʇnoɥʇᴉʍ ꞁʎqouɹǝɥƆ oʇuᴉ pǝʞꞁɐʍ %1$s
 death.bee.heroic.player=˙ʇqǝp ɹᴉǝɥʇ uᴉ ɹǝʌǝɹoɟ sᴉ %2$s ¡sǝǝq ɔᴉoɹǝɥ ʎq uᴉɐꞁs sɐʍ %1$s
 death.bee.heroic=¡sǝǝq ɔᴉoɹǝɥ ʎq uᴉɐꞁs sɐʍ %1$s
+
 forestry.allele.effect.aggressive=˙ssǝɹᵷᵷⱯ
 forestry.allele.effect.beatific=ɔᴉɟᴉʇɐǝᗺ
 forestry.allele.effect.creeper=ɹǝdǝǝɹƆ
@@ -748,11 +874,13 @@ forestry.allele.effect.reanimation=uoᴉʇɐɯᴉuɐǝᴚ
 forestry.allele.effect.repulsion=uoᴉsꞁndǝᴚ
 forestry.allele.effect.resurrection=uoᴉʇɔǝɹɹnsǝᴚ
 forestry.allele.effect.snowing=ʍouS
+
 for.beemode.easy.desc=˙ǝnᵷᴉʇɐɟ ɔᴉʇǝuǝᵷ ɹoɟ ǝɔuɐɥɔ ǝɥʇ ᵷuᴉʌoɯǝɹ puɐ ǝʇɐɹ uoᴉʇɐʇnɯ ᵷuᴉsɐǝɹɔuᴉ ʎꞁꞁɐɔᴉʇsɐɹp ʎq ᵷuᴉpǝǝɹqǝǝq sǝᴉɟᴉꞁdɯᴉS
 for.beemode.hard.desc=˙%%05 ʎq suǝǝnb ꞁɐnpᴉʌᴉpuᴉ ɟo uɐdsǝɟᴉꞁ ᵷuᴉsɐǝɹɔuᴉ ǝꞁᴉɥʍ ʎꞁʇɥᵷᴉꞁs ǝʇɐɹ uoᴉʇɐʇnɯ ᵷuᴉɔnpǝᴚ
 for.beemode.hardcore.desc=˙%%0ᘔ ʎq ʎʇᴉꞁᴉʇɹǝɟ sǝɔnpǝɹ puɐ %%005 ʎq suǝǝnb ꞁɐnpᴉʌᴉpuᴉ ɟo uɐdsǝɟᴉꞁ sǝsɐǝɹɔuᴉ 'ǝʇɐɹ uoᴉʇɐʇnɯ sǝʌꞁɐH
 for.beemode.insane.desc=˙%%0ᔭ ʎq ʎʇᴉꞁᴉʇɹǝɟ sǝɔnpǝɹ puɐ pꞁoɟuǝʇ uɐdsǝɟᴉꞁ sǝsɐǝɹɔuᴉ '%%0ᘔ oʇ ǝʇɐɹ uoᴉʇɐʇnɯ sʇnƆ
 for.beemode.normal.desc=˙ɹǝʎɐꞁd ꞁɐɯɹou ǝɥʇ ɹoɟ ǝpoɯ pǝpuǝɯɯoɔǝᴚ
+
 for.bees.grammar.drone.type=ǝuoɹᗡ
 for.bees.grammar.drone=ƎԀ⅄%T SƎIƆƎԀ%S
 for.bees.grammar.larvae.type=ǝɐʌɹɐꞀ
@@ -761,7 +889,9 @@ for.bees.grammar.princess.type=ssǝɔuᴉɹԀ
 for.bees.grammar.princess=ƎԀ⅄%T SƎIƆƎԀ%S
 for.bees.grammar.queen.type=uǝǝnΌ
 for.bees.grammar.queen=ƎԀ⅄%T SƎIƆƎԀ%S
+
 for.bees.hybrid=pᴉɹqʎH ⅄ᴚⱯᗡNOƆƎ%S-⅄ᴚⱯWIᴚ%P
+
 for.bees.species.austere=ǝɹǝʇsnⱯ
 for.bees.species.avenging=ᵷuᴉᵷuǝʌⱯ
 for.bees.species.boggy=ʎᵷᵷoᗺ
@@ -809,46 +939,57 @@ for.bees.species.valiant=ʇuɐᴉꞁɐᴧ
 for.bees.species.vengeful=ꞁnɟǝᵷuǝᴧ
 for.bees.species.vindictive=ǝʌᴉʇɔᴉpuᴉᴧ
 for.bees.species.wintry=ʎɹʇuᴉM
+
 for.bees.stock.ignoble=ʞɔoʇS ǝꞁqouᵷI
 for.bees.stock.pristine=ʞɔoʇS ǝuᴉʇsᴉɹԀ
+
 for.chat.command.forestry.bee.desc=spuɐɯɯoƆ ᵷuᴉdǝǝʞǝǝᗺ : %s -
 for.chat.command.forestry.bee.help=˙ᵷuᴉdǝǝʞǝǝq oʇ ᵷuᴉʇɐꞁǝɹ spuɐɯɯoƆ
 for.chat.command.forestry.bee.format=<puɐɯɯoɔ-qns> %s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.bee.give.desc=sǝǝᗺ ǝʌᴉ⅁ : %s -
 for.chat.command.forestry.bee.give.help=˙ǝɐʌɹɐꞁ ɹo 'suǝǝnb 'sǝssǝɔuᴉɹd 'sǝuoɹp ɹǝʎɐꞁd ɐ ǝʌᴉ⅁
 for.chat.command.forestry.bee.give.format=[<ǝɯɐu-ɹǝʎɐꞁd>] <ǝdʎʇ-ǝǝq> <ǝɯɐu-sǝᴉɔǝds> %s/ :ʇɐɯɹoℲ
-for.chat.command.forestry.bee.give.available=%s
-for.chat.command.forestry.bee.give.given=˙%3$s %2$s ɐ uǝʌᴉᵷ sɐʍ %2$s
+for.chat.command.forestry.bee.give.available=%s :sǝdʎʇ ǝǝq ǝꞁqɐꞁᴉɐʌⱯ
+for.chat.command.forestry.bee.give.given=˙%3$s %2$s ɐ uǝʌᴉᵷ sɐʍ %1$s
+
 for.chat.command.forestry.bee.mode.desc=spuɐɯɯoƆ ǝpoW ᵷuᴉdǝǝʞǝǝᗺ : %s -
 for.chat.command.forestry.bee.mode.help=˙sǝpoW ᵷuᴉdǝǝʞǝǝᗺ oʇ ᵷuᴉʇɐꞁǝɹ spuɐɯɯoƆ
 for.chat.command.forestry.bee.mode.format=<puɐɯɯoɔ-qns> %s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.bee.mode.info.desc=oɟuI ǝpoW ᵷuᴉdǝǝʞǝǝᗺ : %s -
 for.chat.command.forestry.bee.mode.info.help=˙sǝpoɯ ᵷuᴉdǝǝʞǝǝq ǝꞁqɐꞁᴉɐʌɐ puɐ ʇuǝɹɹnɔ ʇnoqɐ uoᴉʇɐɯɹoɟuI
 for.chat.command.forestry.bee.mode.info.format=<ǝɯɐu-ǝpoɯ> %s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.bee.mode.set.desc=ʇǝS ǝpoW ᵷuᴉdǝǝʞǝǝᗺ : %s -
 for.chat.command.forestry.bee.mode.set.help=˙pꞁɹoʍ ɹoɟ ǝpoɯ ᵷuᴉdǝǝʞǝǝq ǝɥʇ ʇǝS
 for.chat.command.forestry.bee.mode.set.format=<ǝɯɐu-ǝpoɯ> [<#-pꞁɹoʍ>] %s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.bee.save.desc=sɔᴉʇsᴉʇɐʇS ᵷuᴉdǝǝʞǝǝᗺ ǝʌɐS : %s -
 for.chat.command.forestry.bee.save.help=˙ǝꞁᴉɟ oʇ sɔᴉʇsᴉʇɐʇs ᵷuᴉdǝǝʞǝǝq ǝʌɐS
 for.chat.command.forestry.bee.save.format=[<ǝɯɐu-ɹǝʎɐꞁd>] %s/ :ʇɐɯɹoℲ
-for.chat.command.forestry.bee.save.stats=:%s uo %s ɹoɟ sɔᴉʇsᴉʇɐʇs ᵷuᴉdǝǝʞǝǝᗺ
+for.chat.command.forestry.bee.save.stats=:%2$s uo %1$s ɹoɟ sɔᴉʇsᴉʇɐʇs ᵷuᴉdǝǝʞǝǝᗺ
+
 for.chat.command.forestry.mode.info.error=˙ǝꞁqɐꞁᴉɐʌɐ sᴉ ,%s, pǝꞁꞁɐɔ ǝpoɯ oN
 for.chat.command.forestry.mode.info.current=(%2$s#) %1$s :ʇuǝɹɹnƆ
-for.chat.command.forestry.mode.info.available=%s
+for.chat.command.forestry.mode.info.available=%s :sǝpoɯ ǝꞁqɐꞁᴉɐʌⱯ
+
 for.chat.command.forestry.mode.set.success=˙%s oʇ ʇǝs ǝpoW
 for.chat.command.forestry.mode.set.error=˙ǝꞁqɐꞁᴉɐʌɐ ʇou sᴉ ,%s, pǝꞁꞁɐɔ ǝpoɯ Ɐ
+
 for.chat.command.forestry.stats.save.error1=˙sɔᴉʇsᴉʇɐʇs ǝʌɐs oʇ pǝꞁᴉɐℲ ˙pǝʇɐǝɹɔ ǝq ʇou pꞁnoɔ ǝꞁᴉɟ ᵷoꞀ
 for.chat.command.forestry.stats.save.error2=˙sɔᴉʇsᴉʇɐʇs ǝʌɐs oʇ pǝꞁᴉɐℲ ˙ǝꞁᴉɟ ᵷoꞁ oʇ ǝʇᴉɹʍ ʇouuɐƆ
 for.chat.command.forestry.stats.save.error3=˙sɔᴉʇsᴉʇɐʇs ǝʌɐs oʇ pǝꞁᴉɐℲ ˙uoᴉʇdǝɔxǝ uɐ ʍǝɹɥʇ uoᴉʇɐɹǝdo ǝʇᴉɹM
 for.chat.command.forestry.stats.save.error4=˙punoɟ sɔᴉʇsᴉʇɐʇs oN
-for.chat.command.forestry.stats.save.saved=%s
+for.chat.command.forestry.stats.save.saved=%s ɹǝʎɐꞁd ɹoɟ sɔᴉʇsᴉʇɐʇs pǝʌɐS
 for.chat.command.forestry.stats.save.key.discovered=pǝɹǝʌoɔsᴉᗡ
 for.chat.command.forestry.stats.save.key.discovered.symbol=X
 for.chat.command.forestry.stats.save.key.blacklisted=pǝʇsᴉꞁʞɔɐꞁᗺ
 for.chat.command.forestry.stats.save.key.blacklisted.symbol=Ꞁᗺ
 for.chat.command.forestry.stats.save.key.notCounted=ꞁɐʇoʇ sǝᴉɔǝds ǝɥʇ ɹoɟ pǝʇunoɔ ʇoN
 for.chat.command.forestry.stats.save.key.notCounted.symbol=ƆN
-for.chat.command.forestry.stats.save.mode=%s
+for.chat.command.forestry.stats.save.mode=%s :ǝpoW
+
 for.description.speciesAgrarian=ɹǝdǝǝʞǝǝᗺ ǝᴉuuɐƆ 'ᴉɥʇɐɹʎW|„¿ɥǝ 'ǝuop qoɾ ǝɥʇ sʇǝ⅁ ˙ǝʌᴉʇɐuɹǝʇꞁɐ ǝɥʇ sɐ ɥɔnɯ sɐ ʞǝǝɹ ʇ,usǝoᗡ„
 for.description.speciesAustere=⥝0⥝ ᵷuᴉdǝǝʞǝǝᗺ|˙ɹɐǝu ɹǝʌǝuǝɥʍ ʇᴉns ꞁꞁnɟ uᴉ ʎɐʇs oʇ pǝsᴉʌpɐ ǝɹɐ sɹǝdǝǝʞǝǝᗺ ؛ǝꞁᴉʇɐꞁoʌ puɐ snoɹǝᵷuɐᗡ
 for.description.speciesAvenging=snoɯʎuouⱯ|„˙uǝǝnb ʍǝu ǝɥʇ pǝqqɐɹᵷ I sɐ ǝʌoꞁᵷ ʎɯ uo sʇɔǝsuᴉ ǝꞁʇʇᴉꞁ puɐsnoɥʇ ɐ ɟo sqɐʇs ǝɥʇ ʇꞁǝɟ I ¡ʇou pǝɹɐɔ I ʇnq 'pɐǝɥ ʎɯ ɹǝʌo ᵷuᴉʞɐǝɹɔ ɟooɹ ǝɥʇ pɹɐǝɥ I puɐ ǝꞁqɯnɹɔ oʇ uɐᵷǝq ǝsnoɥ ʎɯ ɟo sꞁꞁɐʍ ǝɥ⟘„
@@ -896,6 +1037,7 @@ for.description.speciesValiant=ǝɹᴉoɯᴉɹ⅁ s,ʇsᴉɹɐᴉdⱯ|˙sǝʌᴉ
 for.description.speciesVengeful=ɹɐsǝɐƆ snᴉꞁnՐ snuᴉdⱯ|„¡ᴉɔᴉʌ 'ᴉpᴉʌ 'ᴉuǝᴧ„
 for.description.speciesVindictive=˙W˙ʞ|„¡ǝɔɐɟ ʎɯ ǝʇɐ ʇI ¡ǝɔɐɟ ʎɯ ǝʇɐ ʇI„
 for.description.speciesWintry=⥝0⥝ ᵷuᴉdǝǝʞǝǝᗺ|˙ǝᵷuǝꞁꞁɐɥɔ ɐ sᴉ sǝʇɐɯᴉꞁɔ ɹǝɯɹɐʍ uᴉ uoᴉʇɐʌᴉʇꞁnƆ ؛ǝqᴉɹʇ ǝǝq pǝuǝpɹɐɥ-ɹǝʇuᴉʍ ʇnq 'uoɯɯoƆ
+
 for.genus.bees.agrarian=uɐᴉɹɐɹᵷⱯ
 for.genus.bees.austere=ǝɹǝʇsnⱯ
 for.genus.bees.boggy=ʎᵷᵷoᗺ
@@ -911,9 +1053,11 @@ for.genus.bees.noble=ǝꞁqoN
 for.genus.bees.reddened=pǝuǝppǝᴚ
 for.genus.bees.tropical=ꞁɐɔᴉdoɹ⟘
 for.genus.bees.vengeful=ꞁnɟǝᵷuǝᴧ
+
 item.for.bee_princess_ge.name=ssǝɔuᴉɹԀ
 item.for.bee_drone_ge.name=ǝuoɹᗡ
 item.for.bee_queen_ge.name=uǝǝnΌ
+
 tile.for.alveary.tooltip=doʇ ǝɥʇ uo sqɐꞁs pooʍ Ɛx⥝xƐ ɥʇᴉʍ ƐxƐxƐ :ʞɔoꞁᗺ-ᴉʇꞁnW
 tile.for.alveary.plain.name=ʎɹɐǝʌꞁⱯ
 tile.for.alveary.swarmer.name=ɹǝɯɹɐʍS ʎɹɐǝʌꞁⱯ
@@ -922,9 +1066,11 @@ tile.for.alveary.heater.name=ɹǝʇɐǝH ʎɹɐǝʌꞁⱯ
 tile.for.alveary.hygro.name=ɹoʇɐꞁnᵷǝɹoɹᵷʎH ʎɹɐǝʌꞁⱯ
 tile.for.alveary.stabiliser.name=ɹǝsᴉꞁᴉqɐʇS ʎɹɐǝʌꞁⱯ
 tile.for.alveary.sieve.name=ǝʌǝᴉS ʎɹɐǝʌꞁⱯ
+
 tile.for.apiary.name=ʎɹɐᴉdⱯ
 tile.for.bee_chest.name=ʇsǝɥƆ s,ʇsᴉɹɐᴉdⱯ
 tile.for.bee_house.name=ǝsnoH ǝǝᗺ
+
 tile.for.beehives.forest.name=ǝʌᴉH ʇsǝɹoℲ
 tile.for.beehives.meadows.name=ǝʌᴉH sʍopɐǝW
 tile.for.beehives.desert.name=ǝʌᴉH ʇsǝpoW
@@ -933,20 +1079,24 @@ tile.for.beehives.end.name=ǝʌᴉH ɹǝpuƎ
 tile.for.beehives.snow.name=ǝʌᴉH ʎɹʇuᴉM
 tile.for.beehives.swamp.name=ǝʌᴉH ʎɥsɹɐW
 tile.for.beehives.swarm.name=ǝʌᴉH ɯɹɐʍS
+
 tile.for.candle.dyed.lit.name=ǝꞁpuɐƆ pǝʎᗡ ʇᴉꞀ
 tile.for.candle.dyed.stump.name=ǝꞁpuɐƆ pǝʎᗡ ʇᴉꞁu∩
 tile.for.candle.lit.name=ǝꞁpuɐƆ ʇᴉꞀ
 tile.for.candle.stump.name=ǝꞁpuɐƆ ʇᴉꞁu∩
+
 tile.for.stump.name=dɯnʇS ǝꞁpuɐƆ
+
 item.for.book_forester.name=⥝0⥝ ᵷuᴉdǝǝʞǝǝᗺ
+
 for.gui.book.element.crafting=ᵷuᴉʇɟɐɹƆ
 for.gui.book.about.title=ʞooq ǝɥʇ ʇnoqⱯ
-for.gui.book.about=§r§o
+for.gui.book.about=§o˙ɹᴉᵷuǝS ,ɹᴉS, sɐ ʎꞁuo ʍouʞ ʇsᴉɹɐᴉdɐ pɐɯ ɐ ʎq ʞooq ɐ '⥝0⥝ ᵷuᴉdǝǝʞǝǝᗺ ɟo suᴉɐɯǝɹ ǝɥʇ ʇuǝsǝɹdǝɹ puɐ 'ǝᴉuuᴉᗺ ʎq pǝꞁᴉdɯoɔ puɐ pǝuᴉɐʇqo uǝǝq ǝʌɐɥ ǝᵷpǝꞁʍouʞ ɟo sdɐɹɔs ǝsǝɥ⟘§f
 for.gui.book.about.author=ɹoʇᴉpƎ 'ǝᴉuuᴉᗺ |
 for.gui.book.categories=sǝᴉɹoᵷǝʇɐƆ
 for.gui.book.category.core.title=ǝɹoƆ
 for.gui.book.entry.ores.title=sǝɹO
-for.gui.book.entry.ores.pages=˙ɹoʇɐɹǝɔɐW s,²ʇɟɐɹƆꞁɐᴉɹʇsnpuI sɐ ɥɔns 'spoɯ ɹǝɥʇo ɯoɹɟ sǝuᴉɥɔɐɯ ꞁɐɹǝʌǝs ɥʇᴉʍ pǝssǝɔoɹd ǝq osꞁɐ uɐɔ ʇᴉ ɹo 'ʇoᵷuI uᴉ⟘ ⥝ ɹoɟ ǝɔɐuɹnℲ ɐ uᴉ pǝʇꞁǝɯs ǝq uǝɥʇ uɐɔ ǝɹO uᴉ⟘<d>˙ǝɹO uᴉ⟘ ɟo ʞɔoꞁq ɐ sdoɹp ʇᴉ 'pǝuᴉɯ uǝɥʍ puɐ '9⥝ ꞁǝʌǝꞁ ǝʌoqɐ sɹǝʎɐꞁ uo sɹnɔɔo ʇI<d>˙suɐƆ puɐ sꞁooʇ 'ǝzuoɹᗺ ᵷuᴉʞɐɯ uᴉ pǝsn ʎꞁuoɯɯoɔ sᴉ ʇɐɥʇ ꞁɐɹǝuᴉɯ ɐ sᴉ uᴉ⟘<ᴚᗺ>§ruᴉ⟘§n<d>˙ɹoʇɐɹǝɔɐW s,²ʇɟɐɹƆꞁɐᴉɹʇsnpuI sɐ ɥɔns 'spoɯ ɹǝɥʇo ɯoɹɟ sǝuᴉɥɔɐɯ ꞁɐɹǝʌǝs ɥʇᴉʍ pǝssǝɔoɹd ǝq osꞁɐ uɐɔ ʇᴉ ɹo 'ʇoᵷuI ɹǝddoƆ ⥝ ɹoɟ ǝɔɐuɹnℲ ɐ uᴉ pǝʇꞁǝɯs ǝq uǝɥʇ uɐɔ ǝɹO ɹǝddoƆ<d>˙ǝɹO ɹǝddoƆ ɟo ʞɔoꞁq ɐ sdoɹp ʇᴉ 'pǝuᴉɯ uǝɥʍ puɐ 'ᘔƐ ꞁǝʌǝꞁ ǝʌoqɐ sɹǝʎɐꞁ uo sɹnɔɔo ʇI<d>˙sǝuᴉɥɔɐɯ puɐ sꞁooʇ ɹoɟ pǝsn uǝɥʇ sᴉ ɥɔᴉɥʍ 'ǝzuoɹᗺ ᵷuᴉʞɐɯ uᴉ pǝsn ʎꞁuoɯɯoɔ sᴉ ʇɐɥʇ ꞁɐɹǝuᴉɯ ɐ sᴉ ɹǝddoƆ<ᴚᗺ>§nɹǝddoƆ§r<d>˙(pǝʇꞁǝɯs ǝq ʇouuɐɔ sʞɔoꞁq ǝɹO ǝʇᴉʇɐdⱯ ɥᵷnoɥʇꞁɐ 'sǝsodɹnd ǝᵷɐɹoʇs ɹoɟ ꞁnɟǝsn ǝq uɐɔ sᴉɥʇ) ɯǝᵷ ǝɥʇ ɟo pɐǝʇsuᴉ ʞɔoꞁq ǝɥʇ uᴉɐʇqo oʇ pǝsn ǝq osꞁɐ uɐɔ ɥɔno⟘ ʞꞁᴉS puɐ 'sǝʇɐɹ doɹp ǝsɐǝɹɔuᴉ oʇ pǝsn ǝq uɐɔ ǝunʇɹoℲ<d>˙ɹǝzᴉꞁᴉʇɹǝℲ ᵷuᴉʞɐɯ ɹoɟ pǝsn ǝq uǝɥʇ uɐɔ ɥɔᴉɥʍ '(sɯǝᵷ) ǝʇᴉʇɐdⱯ ᔭ puɐ ⥝ uǝǝʍʇǝq sdoɹp ʇᴉ 'ǝxɐʞɔᴉԀ ɐ ɥʇᴉʍ pǝuᴉɯ uǝɥʍ puɐ '95 ꞁǝʌǝꞁ ǝʌoqɐ sɹǝʎɐꞁ uᴉ suᴉǝʌ uoɯɯoɔun ʇnq 'ǝᵷɹɐꞁ uᴉ sɹnɔɔo ʇI<d>˙ɹǝzᴉꞁᴉʇɹǝℲ uᴉ pǝsn ʎꞁuoɯɯoɔ sᴉ ʇɐɥʇ ꞁɐɹǝuᴉɯ ǝʇɐɥdsoɥd ɐ sᴉ ǝʇᴉʇɐdⱯ<ᴚᗺ>§rǝʇᴉʇɐdⱯ§n<d>˙sǝuᴉɥɔɐɯ oʇ ɹǝzᴉꞁᴉʇɹǝℲ ɯoɹɟ 'sǝsn ʇuǝɹǝɟɟᴉp sɐɥ ǝɹo ɥɔɐƎ ˙ǝʇᴉʇɐdⱯ puɐ uᴉ⟘ 'ɹǝddoƆ :uoᴉʇɐɹǝuǝᵷ uᴉɐɹɹǝʇ ǝɥʇ oʇ sǝɹo ǝǝɹɥʇ sppɐ ʎɹʇsǝɹoℲ
+for.gui.book.entry.ores.pages=˙ɹoʇɐɹǝɔɐW s,²ʇɟɐɹƆꞁɐᴉɹʇsnpuI sɐ ɥɔns 'spoɯ ɹǝɥʇo ɯoɹɟ sǝuᴉɥɔɐɯ ꞁɐɹǝʌǝs ɥʇᴉʍ pǝssǝɔoɹd ǝq osꞁɐ uɐɔ ʇᴉ ɹo 'ʇoᵷuI uᴉ⟘ ⥝ ɹoɟ ǝɔɐuɹnℲ ɐ uᴉ pǝʇꞁǝɯs ǝq uǝɥʇ uɐɔ ǝɹO uᴉ⟘<d>˙ǝɹO uᴉ⟘ ɟo ʞɔoꞁq ɐ sdoɹp ʇᴉ 'pǝuᴉɯ uǝɥʍ puɐ '9⥝ ꞁǝʌǝꞁ ǝʌoqɐ sɹǝʎɐꞁ uo sɹnɔɔo ʇI<d>˙suɐƆ puɐ sꞁooʇ 'ǝzuoɹᗺ ᵷuᴉʞɐɯ uᴉ pǝsn ʎꞁuoɯɯoɔ sᴉ ʇɐɥʇ ꞁɐɹǝuᴉɯ ɐ sᴉ uᴉ⟘<ᴚᗺ>uᴉ⟘§r<d>˙ɹoʇɐɹǝɔɐW s,²ʇɟɐɹƆꞁɐᴉɹʇsnpuI sɐ ɥɔns 'spoɯ ɹǝɥʇo ɯoɹɟ sǝuᴉɥɔɐɯ ꞁɐɹǝʌǝs ɥʇᴉʍ pǝssǝɔoɹd ǝq osꞁɐ uɐɔ ʇᴉ ɹo 'ʇoᵷuI ɹǝddoƆ ⥝ ɹoɟ ǝɔɐuɹnℲ ɐ uᴉ pǝʇꞁǝɯs ǝq uǝɥʇ uɐɔ ǝɹO ɹǝddoƆ<d>˙ǝɹO ɹǝddoƆ ɟo ʞɔoꞁq ɐ sdoɹp ʇᴉ 'pǝuᴉɯ uǝɥʍ puɐ 'ᘔƐ ꞁǝʌǝꞁ ǝʌoqɐ sɹǝʎɐꞁ uo sɹnɔɔo ʇI<d>˙sǝuᴉɥɔɐɯ puɐ sꞁooʇ ɹoɟ pǝsn uǝɥʇ sᴉ ɥɔᴉɥʍ 'ǝzuoɹᗺ ᵷuᴉʞɐɯ uᴉ pǝsn ʎꞁuoɯɯoɔ sᴉ ʇɐɥʇ ꞁɐɹǝuᴉɯ ɐ sᴉ ɹǝddoƆ<ᴚᗺ>§nɹǝddoƆ§r<d>˙(pǝʇꞁǝɯs ǝq ʇouuɐɔ sʞɔoꞁq ǝɹO ǝʇᴉʇɐdⱯ ɥᵷnoɥʇꞁɐ 'sǝsodɹnd ǝᵷɐɹoʇs ɹoɟ ꞁnɟǝsn ǝq uɐɔ sᴉɥʇ) ɯǝᵷ ǝɥʇ ɟo pɐǝʇsuᴉ ʞɔoꞁq ǝɥʇ uᴉɐʇqo oʇ pǝsn ǝq osꞁɐ uɐɔ ɥɔno⟘ ʞꞁᴉS puɐ 'sǝʇɐɹ doɹp ǝsɐǝɹɔuᴉ oʇ pǝsn ǝq uɐɔ ǝunʇɹoℲ<d>˙ɹǝzᴉꞁᴉʇɹǝℲ ᵷuᴉʞɐɯ ɹoɟ pǝsn ǝq uǝɥʇ uɐɔ ɥɔᴉɥʍ '(sɯǝᵷ) ǝʇᴉʇɐdⱯ ᔭ puɐ ⥝ uǝǝʍʇǝq sdoɹp ʇᴉ 'ǝxɐʞɔᴉԀ ɐ ɥʇᴉʍ pǝuᴉɯ uǝɥʍ puɐ '95 ꞁǝʌǝꞁ ǝʌoqɐ sɹǝʎɐꞁ uᴉ suᴉǝʌ uoɯɯoɔun ʇnq 'ǝᵷɹɐꞁ uᴉ sɹnɔɔo ʇI<d>˙ɹǝzᴉꞁᴉʇɹǝℲ uᴉ pǝsn ʎꞁuoɯɯoɔ sᴉ ʇɐɥʇ ꞁɐɹǝuᴉɯ ǝʇɐɥdsoɥd ɐ sᴉ ǝʇᴉʇɐdⱯ<ᴚᗺ>§nǝʇᴉʇɐdⱯ§r§f§n<d>˙sǝuᴉɥɔɐɯ oʇ ɹǝzᴉꞁᴉʇɹǝℲ ɯoɹɟ 'sǝsn ʇuǝɹǝɟɟᴉp sɐɥ ǝɹo ɥɔɐƎ ˙ǝʇᴉʇɐdⱯ puɐ uᴉ⟘ 'ɹǝddoƆ :uoᴉʇɐɹǝuǝᵷ uᴉɐɹɹǝʇ ǝɥʇ oʇ sǝɹo ǝǝɹɥʇ sppɐ ʎɹʇsǝɹoℲ
 for.gui.book.entry.portable_alyzer.title=ɹǝzʎꞁɐuⱯ ǝꞁqɐʇɹoԀ
 for.gui.book.entry.portable_alyzer.pages=<ɹǝʇuǝdɹɐɔ/>ɹǝzʎꞁɐ‾ǝꞁqɐʇɹod:ʎɹʇsǝɹoɟ<ɹǝʇuǝdɹɐɔ>˙sdᴉʇɹǝᵷuᴉɟ ɹnoʎ ʇɐ ʞsɐ oʇ pᴉɐɹɟɐ ǝɹǝʍ ʇnq ʍouʞ oʇ pǝʇuɐʍ ɹǝʌǝ noʎ ᵷuᴉɥʇʎɹǝʌǝ ǝʌɐɥ oʇ uǝɯᴉɔǝds ǝɥʇ ʎɟᴉɔɐd oʇ doɹp ʍǝpʎǝuoɥ ɹo ʎǝuoɥ ɐ ǝpᴉʌoɹd ʇsnՐ ˙sǝǝɹʇ puɐ sǝᴉꞁɟɹǝʇʇnq 'suǝɯᴉɔǝds ɹnoʎ ɯoɹɟ uoᴉʇɐɯɹoɟuᴉ ɟo ʇᴉq ʇsɐꞁ ʎɹǝʌǝ uɐǝꞁᵷ oʇ ʎɐʍ ǝʌᴉsɐʌuᴉ-uou ɐ sǝpᴉʌoɹd ʇI ˙dꞁǝɥ oʇ ɹǝzʎꞁɐuⱯ ǝꞁqɐʇɹoԀ ǝɥʇ sᴉ ǝɹǝɥʇ ʎꞁᴉʞɔnꞀ ¿uoᴉʇɐɯɹoɟuᴉ ǝɯouǝᵷ ʇɐɥʇ ʇǝᵷ noʎ pꞁnoʍ ǝɹǝɥʍ ʇnᗺ ˙sǝɯouǝᵷ ʎuunɟ ɥʇᴉʍ suǝɯᴉɔǝds ɟo sʇoꞁ ǝʌɐɥ ꞁꞁᴉʍ noʎ 'oᵷɐ sǝᵷɐ ǝǝɹʇ ɐ ɟɟo pǝʞɔouʞ noʎ uǝǝnb ʇsǝɹoℲ ǝɯɐs ʇɐɥʇ ɯoɹɟ ᵷuᴉɹdsɟɟo ǝɯɐs ǝɥʇ ᵷuᴉpǝǝɹqssoɹɔ dǝǝʞ ʇ,uop noʎ ɟᴉ 'oS ˙sʇuǝɹɐd ɥʇoq ɯoɹɟ ʎꞁɯopuɐɹ ssǝꞁ ɹo ǝɹoɯ ʇꞁᴉnq ǝɯouǝᵷ uʍo sʇᴉ ǝʌɐɥ ꞁꞁᴉʍ ᵷuᴉɹdsɟɟo ʎɹǝʌǝ ǝɔuᴉs ʎꞁꞁɐᴉɔǝdsƎ ˙ʇsɐɟ ʎʇʇǝɹd ᵷuᴉsnɟuoɔ ʎʇʇǝɹd ʇǝᵷ uɐɔ sɔᴉʇǝuǝᵷ ǝsǝɥʇ ꞁꞁⱯ
 for.gui.book.entry.analyzer.title=ɹǝzʎꞁɐuⱯ
@@ -980,7 +1130,7 @@ for.gui.book.entry.biogas_engine.pages=˙os op oʇ ǝsooɥɔ noʎ ɟᴉ sǝdᴉd
 for.gui.book.entry.clockwork_engine.title=ǝuᴉᵷuƎ ʞɹoʍʞɔoꞁƆ
 for.gui.book.entry.clockwork_engine.pages=˙snoɹǝᵷuɐp ʎꞁꞁɐᴉʇuǝʇod ǝq uɐɔ sᵷuᴉɹds punoʍ ʎꞁʇɥᵷᴉ⟘ ˙uᴉɐᵷɐ ᵷuᴉpuᴉʍ ǝɹoɟǝq ǝɯos puᴉʍun sꞁᴉoɔ ǝɥʇ ʇǝꞁ oʇ ʇsǝq sᴉ ʇᴉ 'pǝɹ suɹnʇ ʞɔoꞁq ǝuᴉᵷuǝ ǝɥʇ ǝɔuO<d>˙ǝuᴉᵷuǝ ǝɥʇ ɟo ǝʇɐʇs ʇuǝɹɹnɔ ǝɥʇ ǝǝs oʇ noʎ ᵷuᴉʍoꞁꞁɐ 'ʇᴉ puᴉʍ noʎ ǝꞁᴉɥʍ ᵷuᴉʌoɯ ǝsnɐd ꞁꞁᴉʍ uoʇsᴉd ǝɥ⟘ ˙pꞁɹoʍ ǝɥʇ uᴉ ʞɔoꞁq ǝɥʇ uo ʞɔᴉꞁɔ-ʇɥᵷᴉɹ ʎꞁdɯᴉs 'ǝuᴉᵷuǝ ǝɥʇ puᴉʍ o⟘ ˙I∩⅁ ou sɐɥ ǝuᴉᵷuƎ ʞɹoʍʞɔoꞁƆ ǝɥ⟘<ᵷuᴉʇɟɐɹɔ/>ǝuᴉᵷuǝ‾ʞɹoʍʞɔoꞁɔ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ>˙ɥʇᵷuǝɹʇs ʞɔᴉʇ ǝsoꞁ ʎꞁꞁɐnpɐɹᵷ ꞁꞁᴉʍ ʇᴉ 'sʞɹoʍ ǝuᴉᵷuǝ ǝɥʇ sɐ puɐ 'ʇᴉ puᴉʍ ꞁꞁᴉʍ ʞɔoꞁq ǝuᴉᵷuǝ ǝɥʇ uo ᵷuᴉʞɔᴉꞁɔ-ʇɥᵷᴉᴚ ˙punoʍ sᴉ ʇᴉ ɥɔnɯ ʍoɥ uo ᵷuᴉpuǝdǝp ʞɔᴉʇ/Ⅎᴚ 5⥝ puɐ 5 uǝǝʍʇǝq ʇndʇno ꞁꞁᴉʍ ʇI ˙sǝɔɹnos ɹǝʍod ǝɯɐᵷ-ʎꞁɹɐǝ ɹǝɥʇo oʇ ǝʌᴉʇɐuɹǝʇꞁɐ ʇuǝꞁꞁǝɔxǝ uɐ sᴉ ǝuᴉᵷuƎ ʞɹoʍʞɔoꞁƆ ǝɥ
 for.gui.book.entry.ic2_generator.title=ɹoʇɐɹǝuǝ⅁ oᴉᗺ
-for.gui.book.entry.ic2_generator.pages=¡ʞɹoʍ ʇou ꞁꞁᴉʍ (ǝꞁqɐƆ uᴉ⟘ sɐ uʍouʞ osꞁɐ) ǝꞁqɐƆ ʇuǝɹɹnƆ-ʍoꞀ-ɐɹʇꞁ∩<d>˙ǝꞁqɐƆ ɹǝddoƆ sɐ ɥɔns '(ᴧꞀ) ǝᵷɐʇꞁoᴧ ʍoꞀ ʇsɐǝꞁ ʇɐ sʇɹoddns ʇɐɥʇ ǝꞁqɐɔ ʎuɐ ǝsn ɹo 'ɹoʇɐɹǝuǝ⅁ oᴉᗺ ǝɥʇ oʇ ʎꞁʇɔǝɹᴉp ʇᴉun ǝᵷɐɹoʇs ɹo ǝuᴉɥɔɐɯ ²ʇɟɐɹƆꞁɐᴉɹʇsnpuI uɐ ʇɔǝuuoɔ uɐɔ no⅄<ᴚᗺ>§rʎʇᴉʌᴉʇɔǝuuoƆ ǝꞁqɐƆ ²ʇɟɐɹƆꞁɐᴉɹʇsnpuI§n<d><ᵷuᴉʇɟɐɹɔ/>ɹoʇɐɹǝuǝᵷ‾ᘔɔᴉ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ>˙ssɐɯoᴉᗺ ɥʇᴉʍ uɐɥʇ ꞁǝnɟoᴉᗺ ɥʇᴉʍ ʎᵷɹǝuǝ ǝɹoɯ ɹɐɟ ǝɔnpoɹd ꞁꞁ,ʇᴉ 'pǝsn ꞁǝnɟ ǝɥʇ uo spuǝdǝp uoᴉʇɔnpoɹd ʎᵷɹǝuǝ sʇI<d>˙sǝuᴉɥɔɐɯ ²ʇɟɐɹƆꞁɐᴉɹʇsnpuI uᴉ ǝsn ɹoɟ ∩Ǝ ǝɔnpoɹd oʇ ꞁǝnɟoᴉᗺ ɹo ssɐɯoᴉᗺ ǝsn uɐɔ noʎ '²ʇɟɐɹƆꞁɐᴉɹʇsnpuI ǝʌɐɥ noʎ ɟI
+for.gui.book.entry.ic2_generator.pages=¡ʞɹoʍ ʇou ꞁꞁᴉʍ (ǝꞁqɐƆ uᴉ⟘ sɐ uʍouʞ osꞁɐ) ǝꞁqɐƆ ʇuǝɹɹnƆ-ʍoꞀ-ɐɹʇꞁ∩<d>˙ǝꞁqɐƆ ɹǝddoƆ sɐ ɥɔns '(ᴧꞀ) ǝᵷɐʇꞁoᴧ ʍoꞀ ʇsɐǝꞁ ʇɐ sʇɹoddns ʇɐɥʇ ǝꞁqɐɔ ʎuɐ ǝsn ɹo 'ɹoʇɐɹǝuǝ⅁ oᴉᗺ ǝɥʇ oʇ ʎꞁʇɔǝɹᴉp ʇᴉun ǝᵷɐɹoʇs ɹo ǝuᴉɥɔɐɯ ²ʇɟɐɹƆꞁɐᴉɹʇsnpuI uɐ ʇɔǝuuoɔ uɐɔ no⅄<ᴚᗺ>ʎʇᴉʌᴉʇɔǝuuoƆ ǝꞁqɐƆ ²ʇɟɐɹƆꞁɐᴉɹʇsnpuI§r§f§n<d><ᵷuᴉʇɟɐɹɔ/>ɹoʇɐɹǝuǝᵷ‾ᘔɔᴉ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ>˙ssɐɯoᴉᗺ ɥʇᴉʍ uɐɥʇ ꞁǝnɟoᴉᗺ ɥʇᴉʍ ʎᵷɹǝuǝ ǝɹoɯ ɹɐɟ ǝɔnpoɹd ꞁꞁ,ʇᴉ 'pǝsn ꞁǝnɟ ǝɥʇ uo spuǝdǝp uoᴉʇɔnpoɹd ʎᵷɹǝuǝ sʇI<d>˙sǝuᴉɥɔɐɯ ²ʇɟɐɹƆꞁɐᴉɹʇsnpuI uᴉ ǝsn ɹoɟ ∩Ǝ ǝɔnpoɹd oʇ ꞁǝnɟoᴉᗺ ɹo ssɐɯoᴉᗺ ǝsn uɐɔ noʎ '²ʇɟɐɹƆꞁɐᴉɹʇsnpuI ǝʌɐɥ noʎ ɟI
 for.gui.book.entry.ic2_eletrical_engine.title=ǝuᴉᵷuƎ ꞁɐɔᴉɹʇɔǝꞁƎ
 for.gui.book.entry.ic2_eletrical_engine.pages=<ᵷuᴉʇɟɐɹɔ/>ǝuᴉᵷuǝ‾ꞁɐɔᴉɹʇǝꞁǝ‾ᘔɔᴉ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ>˙ǝᵷɐʇꞁoʌ ʎuɐ ʇdǝɔɔɐ ꞁꞁᴉʍ puɐ 'pǝpɐɹᵷdn ʇou uǝɥʍ unɹ oʇ ʇ/∩Ǝ 9 sǝɹᴉnbǝɹ puɐ ʇ/Ⅎᴚ 0ᘔ sǝɔnpoɹd ǝuᴉᵷuǝ ǝɥ⟘ ˙((⥝ՐW ʎꞁsnoᴉʌǝɹd) Ⅎᴚ oʇuᴉ ²ʇɟɐɹƆꞁɐᴉɹʇsnpuI ɯoɹɟ ∩Ǝ ʇɹǝʌuoɔ oʇ pǝsn sᴉ ǝuᴉᵷuƎ ꞁɐɔᴉɹʇɔǝꞁƎ ǝɥ⟘
 for.gui.book.category.lepidopterology.title=ʎᵷoꞁoɹǝʇdopᴉdǝꞀ
@@ -1006,7 +1156,7 @@ for.gui.book.entry.apiary.pages=˙ᵷuᴉɥᵷnɐꞁ ǝq p,I ʍou noʎ ǝǝs p�
 for.gui.book.entry.alveary.title=ʎɹɐǝʌꞁⱯ
 for.gui.book.entry.alveary.pages=<ᵷuᴉʇɟɐɹɔ/>uᴉɐꞁd‾ʎɹɐǝʌꞁɐ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ>˙ʎɹɐᴉdɐ ǝɥʇ uᴉ ǝʌǝᴉɥɔɐ pꞁnoɔ noʎ ᵷuᴉɥʇʎuɐ uɐɥʇ ɹǝpɹɐɥ ɹɐɟ ʞɹoʍ oʇ uo ɯǝɥʇ ɹnds ꞁꞁᴉʍ sꞁǝuɐd ǝɥʇ ɟo ʇuǝɔs ǝɥʇ puɐ 'sǝǝq ɹnoʎ ɹoɟ ǝɯoɥ pᴉꞁos ɯɹᴉɟ ɥʇᴉʍ dn puǝ ꞁꞁ,noʎ ᵷuᴉsɐɔ ʎpɹnʇs ǝɥʇ punoɹɐ ʎꞁǝɹnɔǝs ᵷuᴉꞁǝuɐd ǝɥʇ ᵷuᴉᵷuɐɹɹɐ ʎᗺ ˙ʇɹoɟɟǝ ǝɥʇ ɥʇɹoʍ ꞁꞁǝʍ sᴉ ʇᴉ ʇnq 'ʇɟɐɹᵷ pɹɐɥ ɟo sʎɐp ʎuɐɯ sǝʞɐʇ ʇɐɥʇ ᵷuᴉɥʇǝɯos sᴉ ʎɹɐǝʌꞁɐ uɐ ᵷuᴉʞɐɯ suɐǝɯ sᴉɥ⟘<ɹǝʇuǝdɹɐɔ/>9:ꞁɐᴉɹǝʇɐɯ‾ᵷuᴉʇɟɐɹɔ:ʎɹʇsǝɹoɟ<ɹǝʇuǝdɹɐɔ>˙sᵷuᴉsɐɔ ʎpɹnʇs ʇɔnɹʇsuoɔ oʇ ꞁᴉo pǝǝs puɐ 'sǝᴉɹɐᴉdɐ ʎuɐɯ ɹnoʎ uᴉ ʎɐʍɐ ᵷuᴉʞɹoʍ sǝǝq ɯoɹɟ ʎǝuoɥ sǝɹᴉnbǝɹ ɥɔᴉɥʍ 'ᵷuᴉꞁǝuɐd pǝʇuǝɔs ɟo ᵷuᴉʇsᴉsuoɔ 'ʎꞁʇsoɔ ʎɹǝʌ sᴉ ǝuo ɥɔɐƎ<ʇuᴉɹdǝnꞁq/>ʎɹɐǝʌꞁɐ<ʇuᴉɹdǝnꞁq>˙ʇᴉ oʇuᴉ sǝɯɐɹɟ uǝpooʍ ᵷuᴉʇɹǝsuᴉ ɥʇᴉʍ ssǝɔɔns ʎuɐ ǝʌɐɥ oʇ ʇǝʎ ɯɐ I ɥᵷnoɥʇꞁɐ 'ʎɹɐᴉdɐ ǝɥʇ ɟo ʇɐɥʇ oʇ ꞁɐɔᴉʇuǝpᴉ sᴉ ʎɹɐǝʌꞁɐ sᴉɥʇ ɟo ǝᵷɐsn ǝɥ⟘ ˙ꞁꞁǝʍp uɐɔ sǝǝq ǝɹǝɥʍ sǝꞁoɥ ꞁꞁɐɯs ǝɥʇ puɐ ɹǝɥʇǝᵷoʇ sǝɯoɔ ꞁꞁɐ ʇᴉ ʍoɥ ǝǝs pꞁnoɥs noʎ 'ʎꞁʇɔǝɹɹoɔ ʇᴉ ʇɔnɹʇsuoɔ noʎ ɟI ˙sʞɔoꞁq ɹǝddn ǝuᴉu ǝɥʇ ssoɹɔɐ sʞuɐꞁd uǝpooʍ ᵷuᴉsn puǝɯɯoɔǝɹ I ɥɔᴉɥʍ ɹoɟ 'ɟooɹ ǝɥʇ ɟɟo ʞɔoꞁq oʇ pǝǝu osꞁɐ ꞁꞁ,no⅄ ˙ʎɹɐǝʌꞁɐ ǝɥʇ ɟo ʎpoq ǝɥʇ ᵷuᴉɯɹoɟ snɥʇ 'ǝqnɔ ɐ oʇuᴉ ɯǝɥʇ ɯɹoɟ uɐɔ noʎ sʞɔoꞁq ǝsǝɥʇ ǝʌɐɥ noʎ ǝɔuO ˙sʞɔoꞁq ʎɹɐǝʌꞁɐ ǝsǝɥʇ ɟo uǝʌǝs ʎʇuǝʍʇ punoɹɐ ʇɔnɹʇsuoɔ oʇ pǝǝu ꞁꞁ,noʎ uoᴉʇdɐɹʇuoɔ ǝʌᴉssɐɯ sᴉɥʇ ǝʇɐǝɹɔ o⟘<ᵷɯᴉ/>09؛80⥝؛69⥝؛00Ɛ؛69⥝؛00Ɛ؛0؛0؛ᵷud˙ʎɹɐǝʌꞁɐdɐɹɔs/sʞooq/sǝɹnʇxǝʇ:ʎɹʇsǝɹoɟ<ᵷɯᴉ>˙ʎɹɐᴉdɐ uɐ uɐɥʇ ʎɹɐǝʌꞁɐ uɐ uᴉ ʎǝuoɥ ǝɹoɯ sǝɯᴉʇ uǝʇ oʇ dn ǝɔnpoɹd sǝǝq ǝɥʇ uǝǝs ǝʌɐɥ I puɐ 'ʎɹɐᴉdɐ ǝɥʇ ɟo ǝzᴉs ǝɥʇ sǝɯᴉʇ ǝǝɹɥʇ sᴉ ʎɹɐǝʌꞁɐ ǝɥ⟘ ˙ǝpɐɹᵷdn oʇ ǝɯᴉʇ sᴉ ʇᴉ ʇuᴉod sᴉɥʇ ɥɔɐǝɹ noʎ uǝɥM ˙sǝǝq ɹnoʎ ɟo ꞁɐᴉʇuǝʇod ꞁꞁnɟ ǝɥʇ ᵷuᴉdɐǝɹ ʇou sᴉ ʎɹɐᴉdⱯ ǝʌᴉʇᴉɯᴉɹd ǝɥʇ ʇɐɥʇ ǝɔᴉʇou oʇ uᴉᵷǝq ꞁꞁᴉʍ noʎ ǝꞁᴉɥʍ ɐ ɹǝʇɟⱯ
 for.gui.book.entry.bee_chest.title=ʇsǝɥƆ s,ʇsᴉɹɐᴉdⱯ
-for.gui.book.entry.bee_chest.pages=<ᵷuᴉʇɟɐɹɔ/>ʇsǝɥɔ‾ǝǝq:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ>˙ʇsǝɥɔ uǝpooʍ ɐ puɐ ssɐꞁᵷ ɟo ǝɔǝᴉd ɐ 'ʎʇǝᴉɹɐʌ ʎuɐ ɟo sqɯoɔʎǝuoɥ ǝʌᴉɟ ᵷuᴉsn pǝʇɟɐɹɔ sᴉ ɟꞁǝsʇᴉ ʇsǝɥɔ ǝɥ⟘ ˙pǝɔnpoɹd sǝuoɹp puɐ pǝɹq suǝǝnb 'pǝʇɔǝꞁꞁoɔ ssǝɔuᴉɹd 'pǝɹǝʌoɔsᴉp sǝᴉɔǝds ɹoɟ sɔᴉʇsᴉʇɐʇs ꞁꞁɐɹǝʌo sʎɐꞁdsᴉp ʇɐɥʇ ǝuɐd ɐ puɐ 'sǝᵷɐd 5 ɹǝʌo pɐǝɹds sʇoꞁs 5ᘔ ɥʇᴉʍ 'sǝǝq ꞁɐnpᴉʌᴉpuᴉ 5ᘔ⥝ oʇ dn ɹoɟ ǝɔᴉʌǝp ǝᵷɐɹoʇs ɐ sᴉ §rʇsǝɥƆ s,ʇsᴉɹɐᴉdⱯ ǝɥ⟘§l˙sʇɔǝsuᴉ ɟo ʍoꞁɟɹǝʌo ǝɥʇ ɥʇᴉʍ ꞁɐǝp oʇ ʎᵷoꞁouɥɔǝʇ ʇɔǝɟɹǝd ǝɥʇ pǝdoꞁǝʌǝp ǝʌɐɥ ǝɹoɟǝq ǝɯoɔ ǝʌɐɥ oɥʍ ǝsoɥʇ 'ʎꞁᴉʞɔnꞀ ˙sǝǝq ɥʇᴉʍ ᵷuᴉʇsɹnq oʇ ꞁꞁnɟ sʇsǝɥɔ ꞁɐuoᴉʇuǝʌuoɔ ɹnoʎ puᴉɟ uoos ꞁꞁᴉʍ noʎ 'ʎꞁǝɹɐɹ sɹnɔɔo sᴉɥʇ puɐ 'ɹǝɥʇo ɥɔɐǝ ɥʇᴉʍ ʞɔɐʇs ꞁꞁᴉʍ sǝuoɹp ꞁɐɔᴉʇuǝpᴉ ʎꞁuo ǝɔuᴉS ˙ɥʇᴉʍ op oʇ ʇɐɥʍ ʍouʞ ꞁꞁᴉʍ noʎ uɐɥʇ pǝɔnpoɹd ǝɹɐ sǝǝq ǝɹoɯ ʎuɐɯ ʇɐɥʇ ʇuǝɹɐddɐ ǝɯoɔǝq ʎꞁʞɔᴉnb ꞁꞁᴉʍ ʇᴉ 'ɹǝǝɹɐɔ ᵷuᴉdǝǝʞǝǝq ɹnoʎ ɟo ǝsɹnoɔ ǝɥʇ ᵷuᴉɹnᗡ
+for.gui.book.entry.bee_chest.pages=<ᵷuᴉʇɟɐɹɔ/>ʇsǝɥɔ‾ǝǝq:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ>˙ʇsǝɥɔ uǝpooʍ ɐ puɐ ssɐꞁᵷ ɟo ǝɔǝᴉd ɐ 'ʎʇǝᴉɹɐʌ ʎuɐ ɟo sqɯoɔʎǝuoɥ ǝʌᴉɟ ᵷuᴉsn pǝʇɟɐɹɔ sᴉ ɟꞁǝsʇᴉ ʇsǝɥɔ ǝɥ⟘ ˙pǝɔnpoɹd sǝuoɹp puɐ pǝɹq suǝǝnb 'pǝʇɔǝꞁꞁoɔ ssǝɔuᴉɹd 'pǝɹǝʌoɔsᴉp sǝᴉɔǝds ɹoɟ sɔᴉʇsᴉʇɐʇs ꞁꞁɐɹǝʌo sʎɐꞁdsᴉp ʇɐɥʇ ǝuɐd ɐ puɐ 'sǝᵷɐd 5 ɹǝʌo pɐǝɹds sʇoꞁs 5ᘔ ɥʇᴉʍ 'sǝǝq ꞁɐnpᴉʌᴉpuᴉ 5ᘔ⥝ oʇ dn ɹoɟ ǝɔᴉʌǝp ǝᵷɐɹoʇs ɐ sᴉ ʇsǝɥƆ s,ʇsᴉɹɐᴉdⱯ ǝɥ⟘§r§f§l˙sʇɔǝsuᴉ ɟo ʍoꞁɟɹǝʌo ǝɥʇ ɥʇᴉʍ ꞁɐǝp oʇ ʎᵷoꞁouɥɔǝʇ ʇɔǝɟɹǝd ǝɥʇ pǝdoꞁǝʌǝp ǝʌɐɥ ǝɹoɟǝq ǝɯoɔ ǝʌɐɥ oɥʍ ǝsoɥʇ 'ʎꞁᴉʞɔnꞀ ˙sǝǝq ɥʇᴉʍ ᵷuᴉʇsɹnq oʇ ꞁꞁnɟ sʇsǝɥɔ ꞁɐuoᴉʇuǝʌuoɔ ɹnoʎ puᴉɟ uoos ꞁꞁᴉʍ noʎ 'ʎꞁǝɹɐɹ sɹnɔɔo sᴉɥʇ puɐ 'ɹǝɥʇo ɥɔɐǝ ɥʇᴉʍ ʞɔɐʇs ꞁꞁᴉʍ sǝuoɹp ꞁɐɔᴉʇuǝpᴉ ʎꞁuo ǝɔuᴉS ˙ɥʇᴉʍ op oʇ ʇɐɥʍ ʍouʞ ꞁꞁᴉʍ noʎ uɐɥʇ pǝɔnpoɹd ǝɹɐ sǝǝq ǝɹoɯ ʎuɐɯ ʇɐɥʇ ʇuǝɹɐddɐ ǝɯoɔǝq ʎꞁʞɔᴉnb ꞁꞁᴉʍ ʇᴉ 'ɹǝǝɹɐɔ ᵷuᴉdǝǝʞǝǝq ɹnoʎ ɟo ǝsɹnoɔ ǝɥʇ ᵷuᴉɹnᗡ
 for.gui.book.entry.bees_mundane.title=sǝǝᗺ ǝuɐpunW
 for.gui.book.entry.bees_mundane.pages=˙uoᴉʇɐʇnɯ ɥᵷnoɹɥʇ ᵷuᴉɹɹnɔɔo ʎꞁuo ǝɹɐ sǝᴉɔǝds ǝǝq ɹǝɥʇo ꞁꞁⱯ<d>˙sᵷuᴉʇs ɟo ʇsǝꞁꞁɐɯs ǝɥʇ ǝɯ ᵷuᴉsnɐɔ uǝʌǝ ʇou 'ǝꞁᴉɔop ʎꞁʇsoɯ ǝɹɐ sǝǝq ǝsǝɥʇ ɟo ɥʇoᗺ ˙sʇsǝɹoɟ uᴉ sʇsǝd uoɯɯoɔ ʇsoɯ ǝɥʇ ɟo ǝuo sᴉ pǝɔᴉʇou ǝʌ’I ɥɔᴉɥʍ 'ǝǝq ʇsǝɹoɟ ǝɥʇ oʇ pǝʇɐꞁǝɹ ʎꞁǝsoꞁɔ sᴉ ʇI ˙ǝʇɐɯᴉꞁɔ ǝʇɐɹǝdɯǝʇ ɐ ɹǝɟǝɹd puɐ 'suᴉɐꞁd sɐ ɥɔns 'spuɐꞁssɐɹᵷ uǝdo ǝᵷɹɐꞁ ʇsǝɟuᴉ sǝǝq ʍopɐǝW<d>˙uᴉɐɹq puɐ uᴉɐɹɹǝʇ ɥʇᴉʍ sǝɯʎɥɹ ʇɐɥʇ pɹoʍ ꞁooɔ ɐ s’ʇᴉ ǝsnɐɔǝq ʎꞁʇɹɐd puɐ ᵷuᴉʇsǝɹǝʇuᴉ ʎɹǝʌ ʇou ǝɹɐ ʎǝɥʇ ǝsnɐɔǝq ʎꞁʇɹɐd 'sǝǝq ǝuɐpunɯ sɐ ǝsǝɥʇ oʇ ɹǝɟǝɹ I ˙ʎɥsɹɐW puɐ ʎɹʇuᴉM 'ꞁɐɔᴉdoɹ⟘ 'ʇsǝpoW 'sʍopɐǝW 'ʇsǝɹoℲ :sʇᴉoꞁdxǝ ʎɯ uo pǝɹǝʌoɔsᴉp I ʇɐɥʇ sǝᴉɔǝds ᵷuᴉɹɹnɔɔo ʎꞁꞁɐɹnʇɐu xᴉs ǝɹɐ ǝɹǝɥ⟘
 for.gui.book.entry.bee_mutations_start.title=
@@ -1016,61 +1166,79 @@ for.gui.book.entry.bee_mutations_0.pages=<uoᴉʇɐʇnɯ/>uoɯɯoƆsǝᴉɔǝds�
 for.gui.book.entry.frames.title=sǝɯɐɹℲ
 for.gui.book.entry.frames.pages=<ᵷuᴉʇɟɐɹɔ/>pǝʇɐuᵷǝɹdɯᴉ‾ǝɯɐɹɟ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ><ᵷuᴉʇɟɐɹɔ/>pǝʇɐǝɹʇun‾ǝɯɐɹɟ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ>˙ǝɯɐɹℲ uǝʌoɹԀ ǝɥʇ puɐ ǝɯɐɹℲ pǝʇɐuᵷǝɹdɯI ǝɥʇ 'ǝɯɐɹℲ pǝʇɐǝɹʇu∩ ǝɥʇ :sǝɯɐɹɟ Ɛ pǝɹǝʌoɔsᴉp ʎꞁuo I ʇuǝɯoɯ ǝɥʇ ʇⱯ ˙ǝsnoɥ ǝǝq ɐ ɹo ʎɹɐǝʌꞁɐ ɐ oʇuᴉ sǝɯɐɹɟ uǝpooʍ ᵷuᴉʇɹǝsuᴉ ɥʇᴉʍ ssǝɔɔns ou pɐɥ ʎꞁʇuǝɹɹnɔ I ɟꞁǝsʎɯ ʎᗺ ˙uǝǝnb ǝɥʇ ɟo pǝǝds uoᴉʇɔnpoɹd ǝɥʇ sᴉ ɹǝɥᵷᴉɥ ǝɥʇ sᴉ pooʍ ǝɥʇ ɟo ʎʇᴉꞁɐnb ǝɥʇ ɹǝʇʇǝq ǝɥ⟘ ˙ʎɹɐᴉdɐ uɐ uᴉ uǝǝnb ǝɥʇ ɟo pǝǝds uoᴉʇɔnpoɹd ǝɥʇ dn pǝǝds ǝɹɐ sǝɯɐɹɟ uǝpooM
 for.gui.book.entry.bee_genes.title=sǝuǝ⅁ ǝǝᗺ
-for.gui.book.entry.bee_genes.pages=˙sdoɹɔ ɟo ɥʇʍoɹᵷ ǝɥʇ dn pǝǝds ɹo sǝᴉʇᴉʇuǝ ɹǝɥʇo uosᴉod ǝʞᴉꞁ sʇɔǝɟɟǝ ꞁɐᴉɔǝds ǝʌɐɥ sǝǝq ǝɯoS<ᴚᗺ>§rʇɔǝɟɟƎ§n<d>˙sʇɔǝɾqo sʇɔǝɟɟǝ ǝǝq ǝɥʇ ɟo ʇɔǝɟɟǝ ǝɥʇ ʇɐɥʇ uᴉ ɐǝɹɐ ǝɥʇ puɐ sɹǝʍoꞁɟ puɐ sǝǝɹʇ sǝʇɐuᴉꞁꞁod ǝǝq ǝɥʇ ʇɐɥʇ uᴉ ʎɹoʇᴉɹɹǝʇ ǝɥ⟘<ᴚᗺ>§nʎɹoʇᴉɹɹǝ⟘§r<d>˙uǝʇɟo ǝɹoɯ sǝǝɹʇ ǝʇɐuᴉꞁꞁod op puɐ ǝʌᴉɥ ǝɥʇ punoɹɐ ɹǝʇsɐɟ sɹǝʍoꞁɟ pɐǝɹds op ʇᴉɐɹʇ ᵷuᴉɹǝʍoꞁɟ ɥᵷᴉɥ ɐ ɥʇᴉʍ sǝǝᗺ<ᴚᗺ>§rᵷuᴉɹǝʍoꞁℲ§n<d>˙ʞɹoʍ oʇ spǝǝu ǝǝq ǝɥʇ ɹǝʍoꞁɟ ɟo ǝdʎʇ ɥɔᴉɥʍ sǝᴉɟᴉɔǝds ʇᴉɐɹʇ sᴉɥ⟘<ᴚᗺ>§nɹǝʍoꞁℲ§r<d>˙ʎʞs ǝɥʇ ɟo ʍǝᴉʌ ɹɐǝꞁɔ ɐ ʇnoɥʇᴉʍ ʞɹoʍ uɐɔ ǝǝq ǝɥʇ ɟᴉ sǝuᴉɟǝp ʇᴉɐɹʇ sᴉɥ⟘<ᴚᗺ>§rᵷuᴉꞁꞁʍǝᗡ ǝʌɐƆ§n<d>˙suᴉɐɹ ʇᴉ ᵷuᴉɹnp ʎꞁɟ uɐɔ ǝǝq ǝɥʇ ɟᴉ sǝuᴉɟǝp ʇᴉɐɹʇ sᴉɥ⟘<ᴚᗺ>§nuᴉɐᴚ sǝʇɐɹǝꞁo⟘§r<Ǝ⅁ⱯԀ>˙ʎɐp ǝɥʇ ᵷuᴉɹnp ʞɹoʍ uɐɔ ǝǝq ꞁɐuɹnʇɔou ʎꞁꞁɐɹnʇɐu ɐ ɟᴉ puɐ ʇɥᵷᴉu ǝɥʇ ᵷuᴉɹnp ʞɹoʍ uɐɔ ǝǝq ꞁɐuɹnᴉp ʎꞁꞁɐɹnʇɐu ɐ ɟᴉ sǝuᴉɟǝp ʇᴉɐɹʇ sᴉɥ⟘<ᴚᗺ>§rsdǝǝꞁS ɹǝʌǝN§n<d>˙sʇᴉɐɹʇ ɹǝɥʇo ǝɥʇ uɐɥʇ pǝʇɐɔᴉꞁdɯoɔ ǝɹoɯ ǝɹɐ ʎǝɥʇ ǝsnɐɔǝq 'ǝpᴉnᵷ ǝɥʇ uᴉ ǝsꞁǝ ǝɹǝɥʍ ǝɯos uᴉɐꞁdxǝ ꞁꞁᴉʍ I sᴉɐɹʇ ʇuǝɹɟɟᴉp oʍʇ ǝɥ⟘<ᴚᗺ>§nǝɔuɐɹǝꞁo⟘ ʎʇᴉpᴉɯnH puɐ ǝɹnʇɐɹdɯǝ⟘§r<Ǝ⅁ⱯԀ>˙pǝᴉp ʇᴉ ɹǝʇɟɐ sǝɔnpoɹd ǝǝq ǝɥʇ sǝuoɹp ʎuɐɯ ʍoH<ᴚᗺ>§rʎʇᴉꞁᴉʇɹǝℲ§n<d>˙ᵷuᴉpǝǝɹqǝǝq ɹoɟ pooᵷ sᴉ uɐdsǝɟᴉꞁ ʇɹoɥs ɐ ʇnq 'sǝɔɹnosǝɹ ɥɔnɯ ǝɔnpoɹd oʇ pooᵷ sᴉ uɐdsǝɟᴉꞁ ᵷuoꞁ Ɐ˙ǝǝq ɐ ɟo uɐdsǝɟᴉꞁ ǝɥʇ sʇᴉ ʇᴉ sʎɐs ǝɯɐu ǝɥʇ ǝʞᴉꞀ<ᴚᗺ>§nuɐdsǝɟᴉꞀ§r<d>˙sʇɔnpoɹd ǝɔnpoɹd oʇ spǝǝu uǝǝnb ǝɥʇ ᵷuoꞁ ʍoɥ sǝuᴉɟǝp ǝǝq ɐ ɟo pǝǝds ǝɥ⟘<ᴚᗺ>§rpǝǝdS§n<d><Ǝ⅁ⱯԀ>˙sɹǝɟǝɹd ǝǝq ǝɥʇ ǝʇɐɯᴉꞁɔ ɥɔᴉɥʍ puɐ ʇɥᵷᴉu ʇɐ ǝʌᴉʇɔɐ ʎꞁuo sᴉ ǝǝq ǝɥʇ ɟᴉ 'sǝɔnpoɹd uǝǝnb ǝǝq ɐ sʇɔnpoɹd ɥɔᴉɥʍ sǝᴉɟᴉɔǝds ǝǝq ɐ ɟo sǝᴉɔǝds ǝɥ⟘<ᴚᗺ>§nsǝᴉɔǝdS§r<d>˙sɐɥ ǝǝq ɐ ɟo ǝɯouǝᵷ ǝɥʇ ʇɐɥʇ sʇᴉɐɹʇ Ɛ⥝ pǝɹǝʌoɔsᴉp ǝʌɐɥ I 'ɹǝǝɹɐɔ ᵷuᴉdǝǝʞǝǝq ᵷuoꞁ ʎɯ uI
+for.gui.book.entry.bee_genes.pages=˙sdoɹɔ ɟo ɥʇʍoɹᵷ ǝɥʇ dn pǝǝds ɹo sǝᴉʇᴉʇuǝ ɹǝɥʇo uosᴉod ǝʞᴉꞁ sʇɔǝɟɟǝ ꞁɐᴉɔǝds ǝʌɐɥ sǝǝq ǝɯoS<ᴚᗺ>ʇɔǝɟɟƎ§r<d>˙sʇɔǝɾqo sʇɔǝɟɟǝ ǝǝq ǝɥʇ ɟo ʇɔǝɟɟǝ ǝɥʇ ʇɐɥʇ uᴉ ɐǝɹɐ ǝɥʇ puɐ sɹǝʍoꞁɟ puɐ sǝǝɹʇ sǝʇɐuᴉꞁꞁod ǝǝq ǝɥʇ ʇɐɥʇ uᴉ ʎɹoʇᴉɹɹǝʇ ǝɥ⟘<ᴚᗺ>§nʎɹoʇᴉɹɹǝ⟘§r<d>˙uǝʇɟo ǝɹoɯ sǝǝɹʇ ǝʇɐuᴉꞁꞁod op puɐ ǝʌᴉɥ ǝɥʇ punoɹɐ ɹǝʇsɐɟ sɹǝʍoꞁɟ pɐǝɹds op ʇᴉɐɹʇ ᵷuᴉɹǝʍoꞁɟ ɥᵷᴉɥ ɐ ɥʇᴉʍ sǝǝᗺ<ᴚᗺ>§nᵷuᴉɹǝʍoꞁℲ§r<d>˙ʞɹoʍ oʇ spǝǝu ǝǝq ǝɥʇ ɹǝʍoꞁɟ ɟo ǝdʎʇ ɥɔᴉɥʍ sǝᴉɟᴉɔǝds ʇᴉɐɹʇ sᴉɥ⟘<ᴚᗺ>§nɹǝʍoꞁℲ§r<d>˙ʎʞs ǝɥʇ ɟo ʍǝᴉʌ ɹɐǝꞁɔ ɐ ʇnoɥʇᴉʍ ʞɹoʍ uɐɔ ǝǝq ǝɥʇ ɟᴉ sǝuᴉɟǝp ʇᴉɐɹʇ sᴉɥ⟘<ᴚᗺ>§nᵷuᴉꞁꞁʍǝᗡ ǝʌɐƆ§r<d>˙suᴉɐɹ ʇᴉ ᵷuᴉɹnp ʎꞁɟ uɐɔ ǝǝq ǝɥʇ ɟᴉ sǝuᴉɟǝp ʇᴉɐɹʇ sᴉɥ⟘<ᴚᗺ>§nuᴉɐᴚ sǝʇɐɹǝꞁo⟘§r<Ǝ⅁ⱯԀ>˙ʎɐp ǝɥʇ ᵷuᴉɹnp ʞɹoʍ uɐɔ ǝǝq ꞁɐuɹnʇɔou ʎꞁꞁɐɹnʇɐu ɐ ɟᴉ puɐ ʇɥᵷᴉu ǝɥʇ ᵷuᴉɹnp ʞɹoʍ uɐɔ ǝǝq ꞁɐuɹnᴉp ʎꞁꞁɐɹnʇɐu ɐ ɟᴉ sǝuᴉɟǝp ʇᴉɐɹʇ sᴉɥ⟘<ᴚᗺ>§nsdǝǝꞁS ɹǝʌǝN§r<d>˙sʇᴉɐɹʇ ɹǝɥʇo ǝɥʇ uɐɥʇ pǝʇɐɔᴉꞁdɯoɔ ǝɹoɯ ǝɹɐ ʎǝɥʇ ǝsnɐɔǝq 'ǝpᴉnᵷ ǝɥʇ uᴉ ǝsꞁǝ ǝɹǝɥʍ ǝɯos uᴉɐꞁdxǝ ꞁꞁᴉʍ I sᴉɐɹʇ ʇuǝɹɟɟᴉp oʍʇ ǝɥ⟘<ᴚᗺ>§nǝɔuɐɹǝꞁo⟘ ʎʇᴉpᴉɯnH puɐ ǝɹnʇɐɹdɯǝ⟘§r<Ǝ⅁ⱯԀ>˙pǝᴉp ʇᴉ ɹǝʇɟɐ sǝɔnpoɹd ǝǝq ǝɥʇ sǝuoɹp ʎuɐɯ ʍoH<ᴚᗺ>§nʎʇᴉꞁᴉʇɹǝℲ§r<d>˙ᵷuᴉpǝǝɹqǝǝq ɹoɟ pooᵷ sᴉ uɐdsǝɟᴉꞁ ʇɹoɥs ɐ ʇnq 'sǝɔɹnosǝɹ ɥɔnɯ ǝɔnpoɹd oʇ pooᵷ sᴉ uɐdsǝɟᴉꞁ ᵷuoꞁ Ɐ˙ǝǝq ɐ ɟo uɐdsǝɟᴉꞁ ǝɥʇ sʇᴉ ʇᴉ sʎɐs ǝɯɐu ǝɥʇ ǝʞᴉꞀ<ᴚᗺ>§nuɐdsǝɟᴉꞀ§r<d>˙sʇɔnpoɹd ǝɔnpoɹd oʇ spǝǝu uǝǝnb ǝɥʇ ᵷuoꞁ ʍoɥ sǝuᴉɟǝp ǝǝq ɐ ɟo pǝǝds ǝɥ⟘<ᴚᗺ>§npǝǝdS§r<d><Ǝ⅁ⱯԀ>˙sɹǝɟǝɹd ǝǝq ǝɥʇ ǝʇɐɯᴉꞁɔ ɥɔᴉɥʍ puɐ ʇɥᵷᴉu ʇɐ ǝʌᴉʇɔɐ ʎꞁuo sᴉ ǝǝq ǝɥʇ ɟᴉ 'sǝɔnpoɹd uǝǝnb ǝǝq ɐ sʇɔnpoɹd ɥɔᴉɥʍ sǝᴉɟᴉɔǝds ǝǝq ɐ ɟo sǝᴉɔǝds ǝɥ⟘<ᴚᗺ>§nsǝᴉɔǝdS§r§f§n<d>˙sɐɥ ǝǝq ɐ ɟo ǝɯouǝᵷ ǝɥʇ ʇɐɥʇ sʇᴉɐɹʇ Ɛ⥝ pǝɹǝʌoɔsᴉp ǝʌɐɥ I 'ɹǝǝɹɐɔ ᵷuᴉdǝǝʞǝǝq ᵷuoꞁ ʎɯ uI
 for.gui.book.entry.temp_hum_tolerance=˙ǝɹnʇɐɹǝdɯǝʇ ǝɥʇ puɐ ʎʇᴉpᴉɯnɥ ǝɥʇ 'ǝʇɐɯᴉꞁɔ ǝɥʇ ɟo ʇɹɐd ɔᴉɟᴉɔǝds ɐ ʇsuᴉɐᵷɐ uǝǝnb ǝɥʇ ɟo ǝɔuɐɹǝꞁoʇ ǝɥʇ ǝsɐǝɹɔuᴉ ʎǝɥ⟘ ˙ᵷuᴉɥʇ ǝɯɐs ǝɥʇ op ʎǝɥʇ ʇnq 'sʇᴉɐɹʇ ʇuǝɹǝɟɟᴉp oʍʇ ǝɹɐ ǝsǝɥ⟘
 for.gui.book.entry.apiarist_suit.title=sǝɥʇoꞁƆ s,ʇsᴉɹɐᴉdⱯ
 for.gui.book.entry.apiarist_suit.pages=<ᵷuᴉʇɟɐɹɔ/>sʇooq‾ʇsᴉɹɐᴉdɐ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ><ᵷuᴉʇɟɐɹɔ/>sᵷǝꞁ‾ʇsᴉɹɐᴉdɐ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ><ᵷuᴉʇɟɐɹɔ/>ʇsǝɥɔ‾ʇsᴉɹɐᴉdɐ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ><ᵷuᴉʇɟɐɹɔ/>ʇɐɥ‾ʇsᴉɹɐᴉdɐ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ>˙ǝuoꞁɐ noʎ ǝʌɐǝꞁ sǝǝᗺ ꞁꞁᴉʍ uǝʇɟo ǝɹoɯ ǝɥʇ 'ɹɐǝʍ noʎ ᵷuᴉɥʇoꞁɔ ɟo sǝɔǝᴉd ǝɹoɯ ǝɥ⟘<d>˙(sǝǝᗺ ꞁɐɔᴉdoɹ⟘ ɯoɹɟ uosᴉoԀ sɐ ɥɔns) sǝǝᗺ ɟo sʇɔǝɟɟǝ ǝʌᴉʇɐᵷǝu ǝɥʇ ʎɟᴉꞁꞁnu uǝʌǝ ɹo uǝssǝꞁ oʇ pǝddᴉnbǝ ǝq uɐɔ sǝɥʇoꞁƆ s,ʇsᴉɹɐᴉdⱯ ǝɥ⟘¡sʇᴉnS-ǝǝᗺ ¡sʇᴉns oʇuᴉ ʇɐɥʇ uɹnʇ puɐ ʞꞁᴉS uǝʌoM oʇuᴉ sdsᴉM ǝsoɥʇ uɹnʇ uɐɔ noʎ ǝsnɐɔǝq 'ʇou ɹɐǝɟ 'ꞁꞁǝM<d>¿ǝsn ou ǝʌɐɥ sdsᴉM ʞꞁᴉS ɹᴉǝɥʇ ʇɐɥʇ ɹɐǝℲ<d>¿sǝǝᗺ ꞁɐɔᴉdoɹ⟘ ʎʞsǝd ǝsoɥʇ ʎq pǝuosᴉod ᵷuᴉʇʇǝᵷ ɟo pǝɹᴉ⟘
 for.gui.book.entry.minecarts.title=ʇɹɐƆ ǝsnoH ǝǝᗺ
 for.gui.book.entry.minecarts.pages=<ᵷuᴉʇɟɐɹɔ/>ʇɹɐɔǝuᴉɯ‾ʎɹɐᴉdɐ:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ><ᵷuᴉʇɟɐɹɔ/>ʇɹɐɔǝuᴉɯ‾ǝsnoɥ‾ǝǝq:ʎɹʇsǝɹoɟ<ᵷuᴉʇɟɐɹɔ>˙ʇɹɐɔǝuᴉɯ ɐ uᴉ ʎɹɐᴉdɐ ɐ ɹo ǝsnoɥ ǝǝq ɐ ʇnd ʎꞁdɯᴉs no⅄ ˙sʇɹɐɔǝuᴉɯ ǝsnoɥ ǝǝq ǝɹɐ suoᴉʇuǝʌuᴉ ɹǝꞁdɯᴉs ʎɯ ɟo ǝuO
+
+
 for.multiblock.error.notConnected=˙ʞɔoꞁq ǝɥʇ ᵷuᴉɔɐꞁd-ǝɹ puɐ ᵷuᴉʞɐǝɹq ʎɹʇ 'sʇsᴉsɹǝd ɯǝꞁqoɹd ǝɥʇ ɟI ˙ᵷnq ɐ ɹo 'ᵷɐꞁ oʇ ǝnp ǝq pꞁnoɔ sᴉɥ⟘ ˙ɹǝꞁꞁoɹʇuoɔ ɐ oʇ pǝʇɔǝuuoɔ ʇou sᴉ ʞɔoꞁᗺᴉʇꞁnW ǝɥ⟘
 for.multiblock.error.invalid.interior=˙ɹoᴉɹǝʇuᴉ s,ǝuᴉɥɔɐɯ ǝɥʇ uᴉ ǝsn ɹoɟ pᴉꞁɐʌ ʇou sᴉ ʞɔoꞁᗺ - (%s)
 for.multiblock.error.invalid.part=˙(%s) ǝdʎʇ sᴉɥʇ ɥʇᴉʍ ǝꞁqᴉʇɐdɯoɔuᴉ sᴉ ʇɹɐd ʞɔoꞁqᴉʇꞁnɯ Ɐ
-for.multiblock.error.small=˙ǝzᴉs uᴉ %dx%dx%d ʇsɐǝꞁ ʇɐ ǝq ʇsnɯ ʇI ˙ꞁꞁɐɯs ooʇ sᴉ ʞɔoꞁqᴉʇꞁnɯ ǝɥ⟘
+for.multiblock.error.small=˙ǝzᴉs uᴉ %3$dx%2$dx%1$d ʇsɐǝꞁ ʇɐ ǝq ʇsnɯ ʇI ˙ꞁꞁɐɯs ooʇ sᴉ ʞɔoꞁqᴉʇꞁnɯ ǝɥ⟘
 for.multiblock.error.large.x=˙ǝpᴉʍ sʞɔoꞁq %d ʇsoɯ ʇɐ ǝq ʎɐɯ ʇᴉ 'ǝᵷɹɐꞁ ooʇ sᴉ ʞɔoꞁqᴉʇꞁnɯ ǝɥ⟘
 for.multiblock.error.large.y=˙ɥᵷᴉɥ sʞɔoꞁq %d ʇsoɯ ʇɐ ǝq ʎɐɯ ʇᴉ 'ǝᵷɹɐꞁ ooʇ sᴉ ʞɔoꞁqᴉʇꞁnɯ ǝɥ⟘
 for.multiblock.error.large.z=˙dǝǝp sʞɔoꞁq %d ʇsoɯ ʇɐ ǝq ʎɐɯ ʇᴉ 'ǝᵷɹɐꞁ ooʇ sᴉ ʞɔoꞁqᴉʇꞁnɯ ǝɥ⟘
 for.multiblock.error.small.x=˙ǝpᴉʍ sʞɔoꞁq %d ʇsɐǝꞁ ʇɐ ǝq ʇsnɯ ʇᴉ 'ꞁꞁɐɯs ooʇ sᴉ ʞɔoꞁqᴉʇꞁnɯ ǝɥ⟘
 for.multiblock.error.small.y=˙ɥᵷᴉɥ sʞɔoꞁq %d ʇsɐǝꞁ ʇɐ ǝq ʇsnɯ ʇᴉ 'ꞁꞁɐɯs ooʇ sᴉ ʞɔoꞁqᴉʇꞁnɯ ǝɥ⟘
 for.multiblock.error.small.z=˙dǝǝp sʞɔoꞁq %d ʇsɐǝꞁ ʇɐ ǝq ʇsnɯ ʇᴉ 'ꞁꞁɐɯs ooʇ sᴉ ʞɔoꞁqᴉʇꞁnɯ ǝɥ⟘
+
 for.multiblock.alveary.error.needSlabs=˙doʇ uo sqɐꞁs uǝpooʍ ǝʌɐɥ ʇsnɯ ʎɹɐǝʌꞁⱯ ǝɥ⟘
 for.multiblock.alveary.error.needSpace=˙ʇᴉxǝ puɐ ɹǝʇuǝ oʇ sǝǝq ǝɥʇ ɹoɟ doʇ ǝɥʇ punoɹɐ ǝɔɐds spǝǝu ʎɹɐǝʌꞁɐ ǝɥ⟘
 for.multiblock.alveary.error.needPlainOnTop=˙ꞁǝʌǝꞁ doʇ ǝɥʇ ɹoɟ sʞɔoꞁq ʎɹɐǝʌꞁɐ uᴉɐꞁd ǝʌɐɥ ʇsnɯ ʎɹɐǝʌꞁⱯ ǝɥ⟘
 for.multiblock.alveary.error.needPlainInterior=˙ɹoᴉɹǝʇuᴉ ǝɥʇ ɹoɟ sʞɔoꞁq ʎɹɐǝʌꞁɐ uᴉɐꞁd ǝʌɐɥ ʇsnɯ ʎɹɐǝʌꞁⱯ ǝɥ⟘
+
 for.multiblock.farm.error.needPlainBand=˙ꞁǝʌǝꞁ pɹᴉɥʇ ǝɥʇ ɹoɟ sʞɔoꞁq ɯɹɐɟ uᴉɐꞁd ǝʌɐɥ ʇsnɯ ɯɹɐℲ ǝɥ⟘
 for.multiblock.farm.error.needPlainInterior=˙ɹoᴉɹǝʇuᴉ ǝɥʇ ɹoɟ sʞɔoꞁq ɯɹɐɟ uᴉɐꞁd ǝʌɐɥ ʇsnɯ ɯɹɐℲ ǝɥ⟘
 for.multiblock.farm.error.needGearbox=˙ʞɹoʍ op puɐ ɹǝʍod ʇdǝɔɔɐ oʇ xoqɹɐǝᵷ ɐ ǝʌɐɥ ʇsnɯ ɯɹɐɟ ǝɥ⟘
+
 for.multiblock.greenhouse.error.needPlainOnTop=˙ꞁǝʌǝꞁ doʇ ǝɥʇ ɹoɟ sʞɔoꞁq ǝsnoɥuǝǝɹᵷ uᴉɐꞁd ǝʌɐɥ ʇsnɯ ǝsnoɥuǝǝɹ⅁ ǝɥ⟘
 for.multiblock.greenhouse.error.needPlainInterior=˙ɹoᴉɹǝʇuᴉ ǝɥʇ ɹoɟ sʞɔoꞁq ǝsnoɥuǝǝɹᵷ uᴉɐꞁd ǝʌɐɥ ʇsnɯ ǝsnoɥuǝǝɹ⅁ ǝɥ⟘
 for.multiblock.greenhouse.error.space.notclosed=˙ʞɔoꞁq ꞁꞁɐʍ pᴉꞁɐʌ ɐ ʇou ǝɹɐ ʎǝɥʇ ɹo ᵷuᴉssᴉɯ ǝɹɐ sʞɔoꞁq ǝɯoS ˙pǝsoꞁɔ ǝq ʇsnɯ ǝsnoɥuǝǝɹ⅁ ǝɥ⟘
 for.multiblock.greenhouse.error.space.unloaded=˙pǝpɐoꞁ ǝq oʇ ʇsnɯ ǝsnoɥuǝǝɹᵷ ǝɥʇ punoɹɐ sʞunɥɔ ꞁꞁⱯ ˙ʞunɥɔ pǝpɐoꞁun uɐ uᴉ sᴉ ǝsnoɥuǝǝɹ⅁ ǝɥʇ ɟo ʇɹɐd Ɐ
 for.multiblock.greenhouse.error.needSpace=˙ǝsnoɥuǝǝɹ⅁ ɹǝɥʇo uɐ ɟo ǝᵷuɐɹ ǝɥʇ uᴉ puɐʇs ʇou ʇsnɯ ǝsnoɥuǝǝɹ⅁ ǝɥ⟘
+
 for.multiblock.alveary.type=ʎɹɐǝʌꞁⱯ
 for.multiblock.farm.type=ɯɹɐℲ
 for.multiblock.greenhouse.type=ǝsnoɥuǝǝɹ⅁
+
+
 entity.Villager.arborist=ʇsᴉɹoqɹⱯ
+
 for.arboriculture.effect.none=ǝuoN
+
 for.chat.command.forestry.tree.desc=spuɐɯɯoƆ ᵷuᴉdǝǝʞǝǝɹ⟘ : %s -
 for.chat.command.forestry.tree.help=˙sǝǝɹʇ oʇ ᵷuᴉʇɐꞁǝɹ spuɐɯɯoƆ
 for.chat.command.forestry.tree.format=<puɐɯɯoɔ-qns> %s/:ʇɐɯɹoℲ
+
 for.chat.command.forestry.tree.spawnTree.desc=ǝǝɹ⟘ uʍɐdS : %s -
 for.chat.command.forestry.tree.spawnTree.help=˙ɹǝʎɐꞁd ǝɥʇ ɹɐǝu ǝǝɹʇ ɐ uʍɐdS
 for.chat.command.forestry.tree.spawnTree.format=[<ǝɯɐu-ɹǝʎɐꞁd>] <ǝɯɐu-sǝᴉɔǝds> %s/:ʇɐɯɹoℲ
+
 for.chat.command.forestry.tree.spawnForest.desc=ʇsǝɹoℲ uʍɐdS : %s -
 for.chat.command.forestry.tree.spawnForest.help=˙ɹǝʎɐꞁd ǝɥʇ ɹɐǝu sǝǝɹʇ ɟo ʇsǝɹoɟ ꞁꞁɐɯs ɐ uʍɐdS
 for.chat.command.forestry.tree.spawnForest.format=[<ǝɯɐu-ɹǝʎɐꞁd>] <ǝɯɐu-sǝᴉɔǝds> %s/:ʇɐɯɹoℲ
+
 for.chat.command.forestry.tree.mode.desc=spuɐɯɯoƆ ǝpoW ᵷuᴉdǝǝʞǝǝɹ⟘ : %s -
 for.chat.command.forestry.tree.mode.help=˙sǝpoW ᵷuᴉdǝǝʞǝǝɹ⟘ oʇ ᵷuᴉʇɐꞁǝɹ spuɐɯɯoƆ
 for.chat.command.forestry.tree.mode.format=<puɐɯɯoɔ-qns> %s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.tree.mode.info.desc=oɟuI ǝpoW ᵷuᴉdǝǝʞǝǝɹ⟘ : %s -
 for.chat.command.forestry.tree.mode.info.help=˙sǝpoɯ ᵷuᴉdǝǝʞǝǝɹʇ ǝꞁqɐꞁᴉɐʌɐ puɐ ʇuǝɹɹnɔ ʇnoqɐ uoᴉʇɐɯɹoɟuI
 for.chat.command.forestry.tree.mode.info.format=<ǝɯɐu-ǝpoɯ> %s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.tree.mode.set.desc=ʇǝS ǝpoW ᵷuᴉdǝǝʞǝǝɹ⟘ : %s -
 for.chat.command.forestry.tree.mode.set.help=˙pꞁɹoʍ ɹoɟ ǝpoɯ ᵷuᴉdǝǝʞǝǝɹʇ ǝɥʇ ʇǝS
 for.chat.command.forestry.tree.mode.set.format=<ǝɯɐu-ǝpoɯ> [<#-pꞁɹoʍ>] %s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.tree.save.desc=sɔᴉʇsᴉʇɐʇS ᵷuᴉdǝǝʞǝǝɹ⟘ ǝʌɐS : %s -
 for.chat.command.forestry.tree.save.help=˙ǝꞁᴉɟ oʇ sɔᴉʇsᴉʇɐʇs ᵷuᴉdǝǝʞǝǝɹʇ ǝʌɐS
 for.chat.command.forestry.tree.save.format=[<ǝɯɐu-ɹǝʎɐꞁd>] %s/ :ʇɐɯɹoℲ
-for.chat.command.forestry.tree.save.stats=:%s uo %s ɹoɟ sɔᴉʇsᴉʇɐʇs ᵷuᴉdǝǝʞǝǝɹ⟘
+
+for.chat.command.forestry.tree.save.stats=:%2$s uo %1$s ɹoɟ sɔᴉʇsᴉʇɐʇs ᵷuᴉdǝǝʞǝǝɹ⟘
+
 for.description.treeBirch=ɯnuᵷᴉꞀ xǝpoƆ|˙ʇɥᵷᴉǝɥ ɹǝꞁꞁɐɯs ɟo sᴉ ǝᵷɐɹǝʌɐ uo ɥɔᴉɥʍ 'ǝǝɹʇ ɥɔɹᴉq pɐǝɹdsǝpᴉM
 for.description.treeCherry=ɯnuᵷᴉꞀ xǝpoƆ|˙poᴉɹǝd ᵷuᴉuǝdᴉɹ ɐ oᵷɹǝpun oʇ pǝǝu ꞁꞁᴉʍ ɥɔᴉɥʍ sǝᴉɹɹǝɥɔ ɹɐǝq ꞁꞁᴉʍ ʇᴉ ɯɹoɟ ꞁɐɹnʇɐu sʇᴉ uI ˙ǝǝɹʇ ꞁꞁɐɯS
 for.description.treeChestnut=ɯnuᵷᴉꞀ xǝpoƆ|˙ǝdᴉɹ oʇ ǝɯᴉʇ ǝɯos ǝɹᴉnbǝɹ ɥɔᴉɥʍ sʇᴉnɹɟ ʎɹɹɐɔ sǝǝɹʇ ʇnuʇsǝɥɔ ᵷuᴉɹnɔɔo ʎꞁꞁɐɹnʇɐN ˙ʞunɹʇ ǝᵷɹɐꞁ ɥʇᴉʍ ǝǝɹʇ snonpᴉɔǝp 'ꞁꞁɐ⟘
@@ -1079,10 +1247,12 @@ for.description.treeOak=ɯnuᵷᴉꞀ xǝpoƆ|˙ǝɔuɐp puɐ ᵷuos ɥɔnɯ ɟo
 for.description.treeSipiri=ɯnuᵷᴉꞀ xǝpoƆ|˙sǝɯᴉꞁɔ ꞁɐɔᴉdoɹʇ uᴉ ǝʌᴉɹɥʇ ʎꞁuo ꞁꞁᴉM ˙pǝʇuǝɔs ʎꞁʇuɐsɐǝꞁd ǝɹɐ ʞɹɐq puɐ pooM ˙ɹǝqɯᴉʇ ǝꞁqɐnꞁɐʌ ɥʇᴉʍ sǝǝɹʇ uǝǝɹᵷɹǝʌǝ 'ꞁꞁɐ⟘
 for.description.treeWalnut=ɯnuᵷᴉꞀ xǝpoƆ|˙ǝdᴉɹ oʇ ǝɯᴉʇ ǝɯos ǝɹᴉnbǝɹ ɥɔᴉɥʍ sʇᴉnɹɟ ʎɹɹɐɔ sǝǝɹʇ ʇnuꞁɐʍ ᵷuᴉɹnɔɔo ʎꞁꞁɐɹnʇɐN ˙ʞunɹʇ ǝᵷɹɐꞁ ɥʇᴉʍ ǝǝɹʇ snonpᴉɔǝp 'ꞁꞁɐ⟘
 for.description.treeWillow=ɯnuᵷᴉꞀ xǝpoƆ|˙sǝʇɐɯᴉꞁɔ dɯɐp uᴉ ɹnɔɔo oʇ pǝʌɹǝsqo uǝǝq ʎꞁuo ǝʌɐH ˙ᵷuᴉʍoɹᵷ-ʇsɐɟ ǝɹɐ sʍoꞁꞁᴉʍ ǝʇᴉɥM ˙ǝǝɹʇ snonpᴉɔǝp 'ǝᵷɹɐꞀ
+
 for.family.jungle=ǝꞁᵷunՐ
 for.family.nuts=sʇnN
 for.family.pomes=sǝɯoԀ
 for.family.prunes=sǝunɹԀ
+
 for.fruits.apple=ǝꞁddⱯ
 for.fruits.cherry=ʎɹɹǝɥƆ
 for.fruits.chestnut=ʇnuʇsǝɥƆ
@@ -1093,6 +1263,7 @@ for.fruits.none=ǝuoN
 for.fruits.papaya=ɐʎɐdɐԀ
 for.fruits.plum=ɯnꞁԀ
 for.fruits.walnut=ʇnuꞁɐM
+
 for.gui.family=ʎꞁᴉɯɐℲ
 for.gui.fireproof=ɟooɹdǝɹᴉℲ
 for.gui.fruits=sʇᴉnɹℲ
@@ -1106,6 +1277,7 @@ for.gui.supports=sʇɹoddnS
 for.gui.yield=pꞁǝᴉ⅄
 for.gui.combustibility=ʎʇᴉꞁᴉqᴉʇsnqɯoƆ
 for.gui.carbonization=uoᴉʇɐzᴉuoqɹɐƆ
+
 for.trees.grammar.blossom.type=ɯossoꞁᗺ
 for.trees.grammar.blossom=ƎԀ⅄%T SƎIƆƎԀ%S
 for.trees.grammar.germling.type=ᵷuᴉꞁɯɹǝ⅁
@@ -1118,12 +1290,15 @@ for.trees.grammar.leaves.type=sǝʌɐǝꞀ
 for.trees.grammar.leaves=ƎԀ⅄%T SƎIƆƎԀ%S
 for.trees.grammar.pile.type=ǝꞁᴉԀ pooM
 for.trees.grammar.pile=ƎԀ⅄%T SƎIƆƎԀ%S
+
 tile.for.wood_pile.name=ǝꞁᴉԀ pooM
 tile.for.wood_pile_decorative.name=ǝꞁᴉԀ pooM ǝʌᴉʇɐɹoɔǝᗡ
 tile.for.loam.name=ɯɐoꞀ
 tile.for.ash_block.name=ʞɔoꞁᗺ ɥsⱯ
 tile.for.charcoal.name=ꞁɐoɔɹɐɥƆ ɟo ʞɔoꞁᗺ
+
 for.trees.hybrid=pᴉɹqʎH ⅄ᴚⱯᗡNOƆƎ%S-⅄ᴚⱯWIᴚ%P
+
 for.trees.species.acacia=ɐᴉɔɐɔⱯ
 for.trees.species.appleOak=ʞɐO ǝꞁddⱯ
 for.trees.species.balsa=ɐsꞁɐᗺ
@@ -1159,6 +1334,7 @@ for.trees.species.ipe=ǝdI
 for.trees.species.padauk=ʞnɐpɐԀ
 for.trees.species.cocobolo=oꞁoqoɔoƆ
 for.trees.species.zebrawood=pooʍɐɹqǝZ
+
 for.fence.grammar=ǝɔuǝℲ ƎԀ⅄%T
 for.fence_gate.grammar=ǝʇɐ⅁ ǝɔuǝℲ ƎԀ⅄%T
 for.log.grammar=pooM ƎԀ⅄%T
@@ -1167,6 +1343,7 @@ for.slab.grammar=qɐꞁS pooM ƎԀ⅄%T
 for.slab.double.grammar=qɐꞁS pooM ƎԀ⅄%T
 for.stairs.grammar=sɹᴉɐʇS ƎԀ⅄%T
 for.door.grammar=ɹooᗡ ƎԀ⅄%T
+
 for.trees.woodType.larch=ɥɔɹɐꞀ
 for.trees.woodType.teak=ʞɐǝ⟘
 for.trees.woodType.acacia=ɐᴉɔɐɔⱯ ʇɹǝsǝᗡ
@@ -1196,15 +1373,21 @@ for.trees.woodType.ipe=ǝdI
 for.trees.woodType.padauk=ʞnɐpɐԀ
 for.trees.woodType.cocobolo=oꞁoqoɔoƆ
 for.trees.woodType.zebrawood=pooʍɐɹqǝZ
+
 tile.for.fireproof=(ɟooɹdǝɹᴉℲ) %s
+
 item.for.grafter.name=ɹǝʇɟɐɹ⅁
 item.for.grafter_proven.name=ɹǝʇɟɐɹ⅁ uǝʌoɹԀ
+
 tile.for.tree_chest.name=ʇsǝɥƆ s,ʇsᴉɹoqɹⱯ
+
 tile.for.saplingGE.0.name=ᵷuᴉꞁdɐS
 tile.for.leaves.0.name=sǝʌɐǝꞀ
 tile.for.pods.0.name=poԀ
-for.farm.grammar.manual=%s
-for.farm.grammar.managed=%s
+
+for.farm.grammar.manual=%s ꞁɐnuɐW
+for.farm.grammar.managed=%s pǝᵷɐuɐW
+
 for.farm.arboretum=ɯnʇǝɹoqɹⱯ
 for.farm.crops=ɯɹɐℲ doɹƆ
 for.farm.shroom=ɯɹɐℲ ɯooɹɥS
@@ -1218,12 +1401,14 @@ for.farm.cocoa=uoᴉʇɐʇuɐꞁԀ ɐoɔoƆ
 for.farm.ender=ɯɹɐℲ ɹǝpuƎ
 for.farm.orchid=ɯɹɐℲ pᴉɥɔɹO
 for.farm.rubber=uoᴉʇɐʇuɐꞁԀ ɹǝqqnᴚ
+
 for.gui.farm.title=ɯɹɐℲ
 for.gui.hydr.heat=ʇɐǝH ʎᗺ
 for.gui.hydr.humid=ʎʇᴉpᴉɯnH ʎᗺ
 for.gui.hydr.overall=ꞁꞁɐɹǝʌO
 for.gui.hydr.rainfall=ꞁꞁɐɟuᴉɐᴚ ʎᗺ
 for.gui.hydration=pǝɹᴉnbǝᴚ uoᴉʇɐɹpʎH
+
 for.hints.circuitboard.desc=˙ǝʞᴉꞁ noʎ ɯɹɐɟ ɟo puᴉʞ ʎuɐ oʇuᴉ ɯɹɐɟ ǝǝɹʇ ɹnoʎ uɹnʇ oʇ uoɹᴉ ᵷuᴉɹǝpꞁos ɐ ǝs∩
 for.hints.circuitboard.tag=¡sɯɹɐɟ ɹnoʎ ɯɐɹᵷoɹԀ
 for.hints.farmgui.desc=˙ʇɹɐd ʇɥᵷᴉɹ doʇ ǝɥʇ uo ɹᴉoʌɹǝsǝɹ ǝɥʇ ɟo sʇoꞁs ʇɥᵷᴉɹ ǝɥʇ oʇuᴉ sᵷuᴉꞁdɐs ɹo spǝǝs 'sʇoꞁs ʇɟǝꞁ ǝɥʇ oʇuᴉ sǝoᵷ ꞁᴉoS
@@ -1240,9 +1425,11 @@ for.hints.manualfarms.desc=˙ʇᴉ pꞁᴉnq ʇou ʇnq 'ɯɹɐɟ ǝɥʇ uᴉɐʇ
 for.hints.manualfarms.tag=¡sɯɹɐɟ ꞁɐnuɐW
 for.hints.valve.desc=˙uoᴉʇɐɯoʇnɐ ɹoɟ sʞɔoꞁq ǝʌꞁɐʌ ǝs∩ ˙ɹǝʇɐʍ ǝɹᴉnbǝɹ sɯɹɐɟ ꞁꞁɐ ʇsoɯꞁⱯ
 for.hints.valve.tag=¡ɹǝʇɐʍ ʎꞁddnS
+
 for.trigger.lowFertilizer=ɹǝzᴉꞁᴉʇɹǝℲ
 for.trigger.lowLiquid=ʞuɐ⟘ ɹǝʇɐM
 for.trigger.lowSoil=ꞁᴉoS
+
 tile.for.ffarm.tooltip=5xᔭx5 - ƐxᔭxƐ :ʞɔoꞁᗺ-ᴉʇꞁnW
 tile.for.ffarm.material.tooltip=:ꞁɐᴉɹǝʇɐW
 tile.for.ffarm.0.name=ʞɔoꞁᗺ ɯɹɐℲ
@@ -1250,8 +1437,10 @@ tile.for.ffarm.2.name=xoqɹɐǝ⅁ ɯɹɐℲ
 tile.for.ffarm.3.name=ɥɔʇɐH ɯɹɐℲ
 tile.for.ffarm.4.name=ǝʌꞁɐᴧ ɯɹɐℲ
 tile.for.ffarm.5.name=ꞁoɹʇuoƆ ɯɹɐℲ
+
 tile.for.mushroom.0.name=ɯooɹɥsnW
 tile.for.mushroom.1.name=ɯooɹɥsnW
+
 tile.for.arboretum.name=ɯnʇǝɹoqɹⱯ
 tile.for.arboretum.tooltip=ɯɹɐℲ ǝǝɹ⟘
 tile.for.farm_crops.name=ɯɹɐℲ
@@ -1266,15 +1455,20 @@ tile.for.farm_ender.tooltip=ɯɹɐℲ ʎꞁᴉꞀ ɹǝpuƎ puɐ ɹǝʍoꞁℲ sn
 tile.for.peat_bog.name=ᵷoᗺ ʇɐǝԀ
 tile.for.peat_bog.tooltip=ɯɹɐℲ ʇɐǝԀ
 tile.for.plantation.name=ɯɹɐℲ ɹǝqqnᴚ
+
 item.for.flexible_casing.name=ᵷuᴉsɐƆ ǝꞁqᴉxǝꞁℲ
+
 tile.for.planter.manual=(ꞁɐnuɐW) %s
 tile.for.planter.managed=(pǝᵷɐuɐW) %s
+
 for.gui.planter.north=N
 for.gui.planter.south=S
 for.gui.planter.east=Ǝ
 for.gui.planter.west=M
+
 for.gui.greenhouse.title=ǝsnoɥuǝǝɹ⅁
 for.gui.greenhouse.hygroregulator.title=ɹoʇɐꞁnᵷǝɹoɹᵷʎH ǝsnoɥuǝǝɹ⅁
+
 tile.for.greenhouse.tooltip=5x5x5 - ƐxᘔxƐ :ʞɔoꞁᗺ-ᴉʇꞁnW
 tile.for.greenhouse.camouflage.tooltip=˙ʞɔoꞁq sᴉɥʇ ɟo ꞁǝpoɯ ǝɥʇ ǝsᴉɯoʇsnɔ uɐɔ noʎ ʇɐɥʇ suɐǝɯ ʇɐɥʇ 'pǝᵷɐꞁɟnoɯɐɔ ǝq uɐɔ ʞɔoꞁq sᴉɥ⟘
 tile.for.greenhouse.plain.name=ʞɔoꞁᗺ ǝsnoɥuǝǝɹ⅁
@@ -1288,19 +1482,22 @@ tile.for.climatiser.heater.name=ɹǝʇɐǝH ǝsnoɥuǝǝɹ⅁
 tile.for.climatiser.dehumidifier.name=ɹǝᴉɟᴉpᴉɯnɥǝᗡ ǝsnoɥuǝǝɹ⅁
 tile.for.climatiser.humidifier.name=ɹǝᴉɟᴉpᴉɯnH ǝsnoɥuǝǝɹ⅁
 tile.for.climatiser.hygro.name=ɹoʇɐꞁnᵷǝɹoɹᵷʎH ǝsnoɥuǝǝɹ⅁
+
 item.for.greenhouse_screen.name=uǝǝɹɔS ǝsnoɥuǝǝɹ⅁ ǝꞁqɐʇɹoԀ
-for.gui.modifier.sources.range.up=%s
-for.gui.modifier.sources.range.down=%s
-for.gui.modifier.sources.change=%s
-for.gui.modifier.rain=%s
-for.gui.modifier.time=%s
-for.gui.modifier.altitude=%s
+
+for.gui.modifier.sources.range.up=%s :d∩ ǝᵷuɐᴚ
+for.gui.modifier.sources.range.down=%s :uʍoᗡ ǝᵷuɐᴚ
+for.gui.modifier.sources.change=%s :ǝᵷuɐɥƆ
+for.gui.modifier.rain=%s :uᴉɐᴚ
+for.gui.modifier.time=%s :ǝɯᴉ⟘
+for.gui.modifier.altitude=%s :ǝpnʇᴉʇꞁⱯ
 for.gui.modifier.title=sɹǝᴉɟᴉpoW
-for.gui.sources=%s
+for.gui.sources=%s :sǝɔɹnoS ǝʇɐɯᴉꞁƆ
 for.gui.modifier.weather.title=ɹǝɥʇɐǝM
 for.gui.modifier.time.title=ǝɯᴉ⟘
 for.gui.modifier.altitude.title=ǝpnʇᴉʇꞁⱯ
 for.gui.modifier.sources.title=sǝɔɹnoS ǝʇɐɯᴉꞁƆ
+
 for.message.greenhouse_screen.fail=ǝsnoɥuǝǝɹᵷ ɐ oʇ pǝʞuᴉꞁ sᴉ ʇᴉ ɟᴉ ɯǝʇᴉ sᴉɥʇ ǝsn uɐɔ ʎꞁuo no⅄
 for.message.greenhouse_screen.position=ǝsnoɥuǝǝɹᵷ ɐ oʇ pǝʞuᴉꞁ ʍou sᴉ ɯǝʇᴉ sᴉɥ⟘
 for.message.greenhouse_screen.preview.active=ǝʌᴉʇɔɐ oʇ poɯ ʍǝᴉʌǝɹd pǝɥɔʇᴉʍS
@@ -1308,21 +1505,27 @@ for.message.greenhouse_screen.preview.inactive=ǝʌᴉʇɔɐuᴉ oʇ poɯ ʍǝ�
 for.message.greenhouse_screen.center=sǝʇɐuᴉpɹooɔ ǝɥʇ oʇ ǝsnoɥuǝǝɹᵷ ǝɥʇ ɟo ɹǝʇuǝɔ ǝɥʇ ʇǝs ǝʌɐɥ no⅄
 for.message.greenhouse_screen.away=ɯǝʇᴉ sᴉɥʇ ǝsn oʇ ǝsnoɥuǝǝɹᵷ ǝɥʇ ɯoɹɟ ʎɐʍɐ ɹɐɟ ooʇ ǝɹɐ no⅄
 for.message.greenhouse_screen.notassembled=ǝsnoɥuǝǝɹᵷ pǝꞁqɯǝssɐ uɐ ǝɥʇ oʇ ɯǝʇᴉ sᴉɥʇ ʞuᴉꞁ uɐɔ ʎꞁuo no⅄
-for.greenhouse_screen.mode=%s
+
+for.greenhouse_screen.mode=%s :ǝpoW ʍǝᴉʌǝɹԀ
 for.greenhouse_screen.mode.active=ǝʌᴉʇɔⱯ
 for.greenhouse_screen.mode.inactive=ǝʌᴉʇɔɐuI
-for.greenhouse_screen.state=%s
-for.greenhouse_screen.state.linked=(%s '%s '%s) uoᴉʇᴉsod ǝɥʇ oʇ pǝʞuᴉꞀ
+for.greenhouse_screen.state=%s :ǝʇɐʇS
+for.greenhouse_screen.state.linked=(%3$s '%2$s '%1$s) uoᴉʇᴉsod ǝɥʇ oʇ pǝʞuᴉꞀ
 for.greenhouse_screen.state.fail=pǝʞuᴉꞀ ʇoN
-for.greenhouse_screen.temperature=%s
-for.greenhouse_screen.humidity=%s
+for.greenhouse_screen.temperature=%s :ǝɹnʇɐɹǝdɯǝ⟘
+for.greenhouse_screen.humidity=%s :ʎʇᴉpᴉɯnH
+
+
 for.chat.command.forestry.butterfly.desc=spuɐɯɯoƆ ʎꞁɟɹǝʇʇnᗺ : %s -
 for.chat.command.forestry.butterfly.help=sǝᴉꞁɟɹǝʇʇnq oʇ pǝʇɐꞁǝɹ spuɐɯɯoɔ snoᴉɹɐᴧ
 for.chat.command.forestry.butterfly.format=<puɐɯɯoɔ-qns> %s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.butterfly.kill.desc=sǝᴉꞁɟɹǝʇʇnᗺ ꞁꞁɐ sꞁꞁᴉʞ : %s -
 for.chat.command.forestry.butterfly.kill.help=sʞunɥɔ pǝpɐoꞁ uᴉ sǝᴉꞁɟɹǝʇʇnᗺ ꞁꞁɐ sꞁꞁᴉʞ
 for.chat.command.forestry.butterfly.kill.format=[<#uoᴉsuǝɯᴉp>] %s/ :ʇɐɯɹoℲ
+
 for.butterflies.hybrid=⅄ᴚⱯᗡNOƆƎ%S-⅄ᴚⱯWIᴚ%P :pᴉɹqʎH
+
 for.butterflies.grammar.butterfly.type=ʎꞁɟɹǝʇʇnᗺ
 for.butterflies.grammar.butterfly=ƎԀ⅄%T SƎIƆƎԀ%S
 for.butterflies.grammar.serum.type=ɯnɹǝS
@@ -1331,6 +1534,7 @@ for.butterflies.grammar.caterpillar.type=ɹɐꞁꞁᴉdɹǝʇɐƆ
 for.butterflies.grammar.caterpillar=ƎԀ⅄%T SƎIƆƎԀ%S
 for.butterflies.grammar.cocoon.type=uooɔoƆ
 for.butterflies.grammar.cocoon=ƎԀ⅄%T SƎIƆƎԀ%S
+
 for.butterflies.species.geometridae.brimstone=ɥʇoW ǝuoʇsɯᴉɹᗺ
 for.butterflies.species.geometridae.latticedHeath=ɥʇɐǝH pǝɔᴉʇʇɐꞀ
 for.butterflies.species.nymphalidae.blueDuke=ǝʞnᗡ ǝnꞁᗺ
@@ -1366,26 +1570,35 @@ for.butterflies.species.pieridae.reseda=ǝʇᴉɥM ɥʇɐᗺ uɹǝʇsɐƎ
 for.butterflies.species.pieridae.springAzure=ǝnꞁᗺ ʎꞁꞁoH
 for.butterflies.species.saturniidae.atlas=ɥʇoW sɐꞁʇⱯ
 for.butterflies.species.bombycidae.bombyxMori=ɥʇoW ᴉɹoW xʎqɯoᗺ
+
 for.gui.loot.butterfly=ʇooꞀ ʎꞁɟɹǝʇʇnᗺ ǝꞁqᴉssoԀ
 for.gui.loot.caterpillar=ʇooꞀ ɹɐꞁꞁᴉdɹǝʇɐƆ ǝꞁqᴉssoԀ
 for.gui.loot.cocoon=ʇooꞀ uooɔoƆ ǝꞁqᴉssoԀ
+
 for.lepidopterology.effect.none=ǝuoN
+
 item.for.butterfly.name=ʎꞁɟɹǝʇʇnᗺ
 item.for.lepidopterist_bag.name=ʞɔɐdʞɔɐᗺ s,ʇsᴉɹǝʇdopᴉdǝꞀ
 item.for.moth.name=ɥʇoW
 tile.for.butterfly_chest.name=ʇsǝɥƆ s,ʇsᴉɹǝʇdopᴉdǝꞀ
+
+
 for.chat.mail.already_mailed=˙ɹǝʇʇǝꞁ puǝsǝɹ ʇouuɐƆ
+
 for.chat.command.forestry.mail.desc=spuɐɯɯoƆ ɯǝʇsʎS ꞁᴉɐW : %s -
 for.chat.command.forestry.mail.help=ɯǝʇsʎs ꞁᴉɐɯ ǝɥʇ oʇ pǝʇɐꞁǝɹ spuɐɯɯoɔ snoᴉɹɐᴧ
 for.chat.command.forestry.mail.format=<puɐɯɯoɔ-qns> %s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.mail.trades.desc=˙suoᴉʇɐʇs ǝpɐɹʇ ꞁꞁɐ ɟo ʇsᴉꞁ Ɐ : %s -
 for.chat.command.forestry.mail.trades.help=˙sǝpɐɹʇ ǝꞁqɐꞁᴉɐʌɐ ɹᴉǝɥʇ puɐ suoᴉʇɐʇs ǝpɐɹʇ ꞁꞁɐ sʇsᴉꞀ
-for.chat.command.forestry.mail.trades.format=%s
+for.chat.command.forestry.mail.trades.format=%s/ :ʇɐɯɹoℲ
+
 for.chat.command.forestry.mail.virtualize.desc=˙uoᴉʇɐʇs ǝpɐɹʇ pǝᴉɟᴉɔǝds ɐ uo ǝpoɯ ꞁɐnʇɹᴉʌ ǝꞁᵷᵷo⟘ : %s -
 for.chat.command.forestry.mail.virtualize.help=˙sɯǝʇᴉ ǝɯnsuoɔ ʇou sǝop ǝpoɯ sᴉɥ⟘ ˙uoᴉʇɐʇs ǝpɐɹʇ pǝᴉɟᴉɔǝds ɐ uo ǝpoɯ ꞁɐnʇɹᴉʌ sǝꞁᵷᵷo⟘
 for.chat.command.forestry.mail.virtualize.format=<ǝɯɐu-uoᴉʇɐʇs-ǝpɐɹʇ> %s/ :ʇɐɯɹoℲ
 for.chat.command.forestry.mail.virtualize.no_tradestation=˙punoɟ sɐʍ ,%s, ɟo ǝɯɐu ǝɥʇ ʎq uoᴉʇɐʇs ǝpɐɹʇ oN
-for.chat.command.forestry.mail.virtualize.set=˙%s oʇ ,%s, ɹoɟ uoᴉʇɐzᴉꞁɐnʇɹᴉʌ ʇǝS
+for.chat.command.forestry.mail.virtualize.set=˙%2$s oʇ ,%1$s, ɹoɟ uoᴉʇɐzᴉꞁɐnʇɹᴉʌ ʇǝS
+
 for.chat.mail.insufficient.buffer=˙ꞁꞁnɟ sᴉ uoᴉʇɐʇs ǝpɐɹ⟘
 for.chat.mail.insufficient.offer=˙ǝɹoɯ spuɐɯǝp uoᴉʇɐʇs ǝpɐɹ⟘
 for.chat.mail.insufficient.paper=˙ɹǝdɐd ɟo ʇno uɐɹ uoᴉʇɐʇs ǝpɐɹ⟘
@@ -1396,8 +1609,9 @@ for.chat.mail.not.mailable=˙ǝꞁqɐpuǝs ʇou sᴉ ɹǝʇʇǝꞀ
 for.chat.mail.not.postpaid=˙pǝdɯɐʇs ʎꞁʇuǝᴉɔᴉɟɟns ʇou sᴉ ɹǝʇʇǝꞀ
 for.chat.mail.no.mailbox=˙xoqꞁᴉɐɯ ou sɐɥ ʇuǝᴉdᴉɔǝᴚ
 for.chat.mail.ok=˙ǝꞁqɐꞁᴉɐʌɐ sᴉ ǝpɐɹ⟘
-for.chat.mail.response.not.mailable.format=%s
+for.chat.mail.response.not.mailable.format=%s ˙ɹǝʇʇǝꞁ ǝsuodsǝɹ ǝɥʇ puǝs ʇouuɐɔ uoᴉʇɐʇs ǝpɐɹ⟘
 for.chat.mail.wrongstacksize=˙ǝɯᴉʇ ɐ ʇɐ ɹǝʇʇǝꞁ ǝuo ǝʇᴉɹʍ ʎꞁuo uɐƆ
+
 for.gui.mail.address.copy=ǝs∩
 for.gui.mail.catalogue.close=ǝsoꞁƆ
 for.gui.mail.catalogue.trade=ǝpɐɹ⟘
@@ -1407,12 +1621,18 @@ for.gui.mail.filter.online=ǝuᴉꞁuO
 for.gui.mail.notrades=˙ǝꞁqɐꞁᴉɐʌɐ sǝpɐɹʇ oN
 for.gui.mail.tradefor=ɹoɟ
 for.gui.mail.willtrade=ǝpɐɹʇ ꞁꞁᴉʍ %s
+
 item.for.catalogue.name=ǝnᵷoꞁɐʇɐƆ
 item.for.catalogue.tooltip=˙sǝpɐɹʇ uoᴉʇɐʇS ǝpɐɹ⟘ ǝꞁqɐꞁᴉɐʌɐ ꞁꞁɐ sʇsᴉꞀ
+
+
 item.PipeItemsPropolis.name=ǝdᴉԀ s,ʇsᴉɹɐᴉdⱯ
+
 tile.for.genetic_filter.name=ɹǝʇꞁᴉℲ ɔᴉʇǝuǝ⅁
 tile.for.genetic_filter.0.name=ɹǝʇꞁᴉℲ ɔᴉʇǝuǝ⅁
+
 for.gui.filter.seletion=uoᴉʇɔǝꞁǝS ɹǝʇꞁᴉℲ
+
 for.gui.filter.forestry.default.anything=ᵷuᴉɥʇʎuⱯ
 for.gui.filter.forestry.default.closed=pǝsoꞁƆ
 for.gui.filter.forestry.default.item=sɯǝʇI
@@ -1423,18 +1643,22 @@ for.gui.filter.forestry.default.pure_breed=pǝɹᗺ-ǝɹnԀ
 for.gui.filter.forestry.default.pure_cave=sɹǝꞁꞁǝʍᗡ-ǝʌɐƆ ǝɹnԀ
 for.gui.filter.forestry.default.pure_flyer=sɹǝʎꞁℲ ǝɹnԀ
 for.gui.filter.forestry.default.pure_nocturnal=ꞁɐuɹnʇɔoN ǝɹnԀ
+
 for.gui.filter.forestry.apiculture.bee=sǝǝᗺ ʎuⱯ
 for.gui.filter.forestry.apiculture.queen=uǝǝnΌ
 for.gui.filter.forestry.apiculture.drone=sǝuoɹᗡ
 for.gui.filter.forestry.apiculture.princess=sǝssǝɔuᴉɹԀ
+
 for.gui.filter.forestry.arboriculture.tree=ǝǝɹ⟘ ʎuⱯ
 for.gui.filter.forestry.arboriculture.sapling=ᵷuᴉꞁdɐS
 for.gui.filter.forestry.arboriculture.pollen=uǝꞁꞁoԀ
+
 for.gui.filter.forestry.lepidopterology.flutter=ʎꞁɟɹǝʇʇnᗺ ʎuⱯ
 for.gui.filter.forestry.lepidopterology.butterfly=ʎꞁɟɹǝʇʇnᗺ
 for.gui.filter.forestry.lepidopterology.caterpillar=ɹɐꞁꞁᴉdɹǝʇɐƆ
 for.gui.filter.forestry.lepidopterology.serum=ɯnɹǝS
 for.gui.filter.forestry.lepidopterology.cocoon=uooɔoƆ
+
 for.module.core.description=˙sǝꞁnpoɯ ɹǝɥʇo ꞁꞁɐ ʎq pǝɹᴉnbǝᴚ ˙ʎɹʇsǝɹoℲ ɹoɟ sɔᴉuɐɥɔǝɯ ǝɹoƆ
 for.module.fluids.description=˙sɹǝuᴉɐʇuoɔ pᴉnꞁɟ puɐ 'sʞɔoꞁq pᴉnꞁɟ 'spᴉnꞁɟ sppⱯ
 for.module.apiculture.description=˙uoᴉʇɐɹǝuǝᵷ pꞁɹoʍ sʇɔǝɟɟⱯ ˙sʇɔnpoɹd ǝǝq puɐ ᵷuᴉdǝǝʞǝǝq 'sǝǝq sppⱯ
@@ -1453,6 +1677,7 @@ for.module.greenhouse.description=˙ʞɔoꞁqᴉʇꞁnɯ ǝsnoɥuǝǝɹᵷ ɐ sp
 for.module.database.description=˙sǝᴉꞁɟɹǝʇʇnq puɐ sǝǝɹʇ / sǝǝq ɹoɟ ʞɔoꞁq ǝᵷɐɹoʇs ʍǝu ɐ sppⱯ
 for.module.cultivation.description=˙sʇɔnpoɹd ɟo ʎʇǝᴉɹɐʌ ǝpᴉʍ ɐ ɹoɟ sɯɹɐɟ ɔᴉʇɐɯoʇnɐ sppⱯ
 for.module.book.description=˙sǝꞁnpoɯ ɹǝɥʇo ꞁꞁɐ ʇnoqɐ uoᴉʇɐɯɹoɟuᴉ suᴉɐʇuoɔ ʇɐɥʇ ʞooq ǝpᴉnᵷ ɐ sppⱯ
+
 for.module.buildcraft6.description=˙9 ʇɟɐɹƆpꞁᴉnᗺ ɹoɟ ǝꞁnpoɯ ʎʇᴉꞁᴉqᴉʇɐdɯoƆ
 for.module.pipes.description=˙ʇuǝsǝɹd sᴉ 9 ʇɟɐɹƆpꞁᴉnᗺ puɐ pǝꞁqɐuǝ sᴉ ǝɹnʇꞁnɔᴉdɐ ɟᴉ ᵷuᴉdǝǝʞǝǝq ɹoɟ ǝdᴉd s,ʇsᴉɹɐᴉdɐ ǝɥʇ sppⱯ
 for.module.ic2.description=˙uoᴉsɹǝʌuoɔ ɹǝʍod ɹoɟ ɹoʇɐɹǝuǝᵷ puɐ ǝuᴉᵷuǝ ꞁɐɔᴉɹʇɔǝꞁǝ sppⱯ ˙ᘔƆI ɹoɟ ǝꞁnpoɯ ʎʇᴉꞁᴉqᴉʇɐdɯoƆ
@@ -1477,16 +1702,21 @@ for.module.actuallyadditions.description=˙suoᴉʇᴉppⱯ ʎꞁꞁɐnʇɔⱯ �
 for.module.roots.description=˙sʇooᴚ ɹoɟ ǝꞁnpoɯ ʎʇᴉꞁᴉqᴉʇɐdɯoƆ
 for.module.rustic.description=˙ɔᴉʇsnᴚ ɹoɟ ǝꞁnpoɯ ʎʇᴉꞁᴉqᴉʇɐdɯoƆ
 for.module.mysticalagriculture.description=˙sdoɹɔ ǝɹnʇꞁnɔᴉɹᵷⱯ ꞁɐɔᴉʇsʎW ᵷuᴉɯɹɐɟ sǝꞁqɐuƎ ˙ǝɹnʇꞁnɔᴉɹᵷⱯ ꞁɐɔᴉʇsʎW ɹoɟ ǝꞁnpoɯ ʎʇᴉꞁᴉqᴉʇɐdɯoƆ
+
+
 for.config.performance=ǝɔuɐɯɹoɟɹǝԀ
 for.config.performance.particleFX=sʇɔǝɟɟƎ ǝꞁɔᴉʇɹɐԀ
 for.config.performance.particleFX.comment=˙sᵷuᴉʇʇǝs oǝpᴉʌ ǝꞁɔᴉʇɹɐd pǝɔnpǝɹ s,ʇɟɐɹɔǝuᴉW sʇɔǝdsǝɹ ʎɹʇsǝɹoℲ ʇɐɥʇ ǝʇoN ˙sʇɔǝɟɟǝ ǝꞁɔᴉʇɹɐd sǝꞁqɐuƎ
 for.config.performance.backpacks.resupply=ʎꞁddnsǝᴚ ʞɔɐdʞɔɐᗺ
 for.config.performance.backpacks.resupply.comment=˙sɹǝʌɹǝs ʎsnq uo ǝsꞁɐɟ oʇ sᴉɥʇ ʇǝs oʇ ʇuɐʍ ʎɐɯ no⅄ ˙ʎꞁddnsǝɹ ʞɔɐdʞɔɐq ǝꞁqɐuƎ
+
 for.config.world.generate=uoᴉʇɐɹǝuǝ⅁ pꞁɹoM
+
 for.config.world.generate.retrogen.normal=uǝᵷoɹʇǝᴚ
 for.config.world.generate.retrogen.normal.comment=˙pǝppɐ sɐʍ poɯ ǝɥʇ ǝɹoɟǝq pǝʇɐǝɹɔ ǝɹǝʍ ʇɐɥʇ sʞunɥɔ uᴉ uoᴉʇɐɹǝuǝᵷ pꞁɹoʍ ʎɹʇsǝɹoℲ sǝʇɐǝɹƆ
 for.config.world.generate.retrogen.forced=uǝᵷoɹʇǝᴚ pǝɔɹoℲ
 for.config.world.generate.retrogen.forced.comment=˙ǝɹoɟǝq ǝɹǝɥʇ pǝʇɐɹǝuǝᵷ ǝɹǝʍ ʎǝɥʇ ɟᴉ uǝʌǝ 'sʞunɥɔ ꞁꞁɐ uᴉ uoᴉʇɐɹǝuǝᵷ pꞁɹoʍ ʎɹʇsǝɹoℲ sǝʇɐǝɹƆ
+
 for.config.world.generate.ore.apatite=ǝʇᴉʇɐdⱯ ǝʇɐɹǝuǝ⅁
 for.config.world.generate.ore.apatite.comment=˙pꞁɹoʍ ǝɥʇ uᴉ sʞɔoꞁq ǝɹo ǝʇᴉʇɐdɐ sǝʇɐɹǝuǝ⅁
 for.config.world.generate.ore.copper=ɹǝddoƆ ǝʇɐɹǝuǝ⅁
@@ -1495,6 +1725,7 @@ for.config.world.generate.ore.tin=uᴉ⟘ ǝʇɐɹǝuǝ⅁
 for.config.world.generate.ore.tin.comment=˙pꞁɹoʍ ǝɥʇ uᴉ sʞɔoꞁq ǝɹo uᴉʇ sǝʇɐɹǝuǝ⅁
 for.config.world.generate.ore.dimBlacklist=ʇsᴉꞁʞɔɐꞁᗺ uoᴉsuǝɯᴉᗡ uoᴉʇɐɹǝuǝᵷ ǝɹO
 for.config.world.generate.ore.dimBlacklist.comment=˙ǝuᴉꞁ ɹǝd pᴉ uoᴉsuǝɯᴉp ǝuo ɹǝʇuƎ ˙suoᴉsuǝɯᴉp pǝᴉɟᴉɔǝds ǝɥʇ uᴉ ǝɹo ꞁꞁɐ ɟo uoᴉʇɐɹǝuǝᵷ ǝɥʇ sǝꞁqɐsᴉᗡ
+
 for.config.world.generate.beehives.amount=ʇunoɯⱯ uoᴉʇɐɹǝuǝ⅁ sǝʌᴉɥǝǝᗺ
 for.config.world.generate.beehives.amount.comment=˙pꞁɹoʍ ǝɥʇ uᴉ uʍɐds sǝʌᴉɥǝǝq ʎuɐɯ ʍoɥ sʇǝS
 for.config.world.generate.beehives.debug=uoᴉʇɐɹǝuǝ⅁ ǝʌᴉɥǝǝᗺ ᵷnqǝᗡ
@@ -1502,10 +1733,13 @@ for.config.world.generate.beehives.debug.comment=(sɹǝdoꞁǝʌǝp oʇ ꞁnɟǝ
 for.config.world.generate.beehives.dimBlacklist=ʇsᴉꞁʞɔɐꞁᗺ uoᴉsuǝɯᴉᗡ uoᴉʇɐɹǝuǝ⅁ ǝʌᴉɥǝǝᗺ
 for.config.world.generate.beehives.dimBlacklist.comment=˙ǝuᴉꞁ ɹǝd pᴉ uoᴉsuǝɯᴉp ǝuo ɹǝʇuƎ ˙suoᴉsuǝɯᴉp pǝᴉɟᴉɔǝds ǝɥʇ uᴉ sǝʌᴉɥ ꞁꞁɐ ɟo uoᴉʇɐɹǝuǝᵷ ǝɥʇ sǝꞁqɐsᴉᗡ
 for.config.world.generate.beehives.blacklist.category_comment=˙ǝuᴉꞁ ǝʇɐɹǝdǝs ɐ uᴉ ǝq oʇ sɐɥ ǝɯɐu ʎɹʇsᴉᵷǝɹ / ǝdʎʇ ǝɯoᴉq ʎɹǝʌƎ ˙ǝʌᴉɥ ǝɥʇ ɟo ʎʇɹǝdoɹd ǝɥʇ oʇ ǝdʎʇ ǝɯoᴉq ǝɥʇ ɟo ǝɯɐu ǝɥʇ ɹo ǝɯoᴉq ǝɥʇ ɟo ǝɯɐu ʎɹʇsᴉᵷǝɹ ǝɥʇ ppɐ ʇsnՐ ˙ǝdʎʇ ǝɯoᴉq ɔᴉɟᴉɔǝds ɐ ɥʇᴉʍ ǝɯoᴉq ɐ uᴉ ɹo ǝɯoᴉq ɔᴉɟᴉɔǝds ɐ uᴉ ǝʌᴉɥ ɔᴉɟᴉɔǝds ɐ ɟo uoᴉʇɐɹǝuǝᵷ ǝɥʇ sǝꞁqɐsᴉᗡ
+
 for.config.world.generate.villagers=sɹǝᵷɐꞁꞁᴉᴧ ǝʇɐɹǝuǝ⅁
 for.config.world.generate.villagers.comment=˙sǝsnoɥ ɹᴉǝɥʇ puɐ sɹǝᵷɐꞁꞁᴉʌ ʎɹʇsǝɹoℲ sǝʇɐɹǝuǝ⅁
+
 for.config.world.generate.trees.dimBlacklist=ʇsᴉꞁʞɔɐꞁᗺ uoᴉsuǝɯᴉᗡ uoᴉʇɐɹǝuǝ⅁ ǝǝɹ⟘
 for.config.world.generate.trees.dimBlacklist.comment=˙ǝuᴉꞁ ɹǝd pᴉ uoᴉsuǝɯᴉp ǝuo ɹǝʇuƎ ˙suoᴉsuǝɯᴉp pǝᴉɟᴉɔǝds ǝɥʇ uᴉ sǝǝɹʇ ꞁꞁɐ ɟo uoᴉʇɐɹǝuǝᵷ ǝɥʇ sǝꞁqɐsᴉᗡ
+
 for.config.crafting=ᵷuᴉʇɟɐɹƆ
 for.config.crafting.bronze=ǝzuoɹᗺ ʇɟɐɹƆ
 for.config.crafting.bronze.comment=˙ǝzuoɹq ɹoɟ ǝdᴉɔǝɹ ᵷuᴉʇɟɐɹɔ ǝɥʇ sǝꞁqɐuƎ
@@ -1513,27 +1747,34 @@ for.config.crafting.stamps.enabled=sdɯɐʇS ʇɟɐɹƆ
 for.config.crafting.stamps.enabled.comment=˙ʎɔuǝɹɹnɔ ɐ sɐ sdɯɐʇs ǝsn oʇ ǝꞁqɐsᴉᗡ ˙sdɯɐʇs ɹoɟ ǝdᴉɔǝɹ ᵷuᴉʇɟɐɹɔ ǝɥʇ sǝꞁqɐuƎ
 for.config.crafting.stamps.disabled=sdɯɐʇS pǝꞁqɐsᴉᗡ
 for.config.crafting.stamps.disabled.comment=˙sdɯɐʇs uᴉɐʇɹǝɔ ɹoɟ ǝdᴉɔǝɹ ᵷuᴉʇɟɐɹɔ ǝɥʇ sǝꞁqɐsᴉᗡ
+
 for.config.tweaks=sʞɐǝʍ⟘
+
 for.config.tweaks.gui.mail.alert.enabled=ʇɹǝꞁⱯ ꞁᴉɐW
 for.config.tweaks.gui.mail.alert.enabled.comment=˙xoq ʇɹǝꞁɐ ꞁᴉɐɯ ʍǝu ǝɥʇ sǝꞁqɐuƎ
 for.config.tweaks.gui.mail.alert.xPosition=uoᴉʇᴉsoԀ ꞁɐʇuozᴉɹoH
 for.config.tweaks.gui.mail.alert.xPosition.comment=˙uǝǝɹɔs ǝɥʇ uo xoq ʇɹǝꞁɐ ꞁᴉɐɯ ǝɥʇ ɟo uoᴉʇᴉsoԀ ꞁɐʇuozᴉɹoH
 for.config.tweaks.gui.mail.alert.yPosition=uoᴉʇᴉsoԀ ꞁɐɔᴉʇɹǝᴧ
 for.config.tweaks.gui.mail.alert.yPosition.comment=˙uǝǝɹɔs ǝɥʇ uo xoq ʇɹǝꞁɐ ꞁᴉɐɯ ǝɥʇ ɟo uoᴉʇᴉsoԀ ꞁɐɔᴉʇɹǝᴧ
+
 for.config.tweaks.gui.tabs.hints=sʇuᴉH
 for.config.tweaks.gui.tabs.hints.comment=˙sᴉnᵷ ǝuᴉᵷuǝ puɐ ǝuᴉɥɔɐɯ uo qɐʇ sʇuᴉɥ ǝɥʇ sǝꞁqɐuƎ
 for.config.tweaks.gui.tabs.speed=pǝǝdS qɐ⟘
 for.config.tweaks.gui.tabs.speed.comment=˙ǝsoꞁɔ puɐ uǝdo sqɐʇ ǝpᴉs ᴉnᵷ ǝɥʇ ɥɔᴉɥʍ ʇɐ pǝǝds ǝɥʇ ʇǝS
 for.config.tweaks.gui.tabs.energy=qɐ⟘ ʎᵷɹǝuƎ
 for.config.tweaks.gui.tabs.energy.comment=˙sɹǝɯnsuoɔ ʎᵷɹǝuǝ uo qɐʇ sɔᴉʇsᴉʇɐʇs ʎᵷɹǝuǝ ǝɥʇ ʎɐꞁdsᴉᗡ
+
 for.config.tweaks.gui.tooltip.liquidamount=dᴉʇꞁoo⟘ pᴉnbᴉꞀ
 for.config.tweaks.gui.tooltip.liquidamount.comment=˙sdᴉʇꞁooʇ ʞuɐʇ uᴉ sʇunoɯɐ pᴉnbᴉꞁ ʎɐꞁdsᴉᗡ
+
 for.config.tweaks.permissions=suoᴉssᴉɯɹǝԀ
 for.config.tweaks.permissions.comment=˙sǝuᴉɥɔɐɯ ʎɹʇsǝɹoℲ uo suoᴉʇɔᴉɹʇsǝɹ ssǝɔɔɐ sǝꞁqɐuƎ
 for.config.tweaks.version.check=ʞɔǝɥƆ uoᴉsɹǝᴧ
 for.config.tweaks.version.check.comment=˙ǝɔᴉʇou ʞɔǝɥɔ uoᴉsɹǝʌ puɐ ǝʇɐpdn sǝꞁqɐuƎ
+
 for.config.tweaks.humus.degradeDelimiter=ɹǝʇᴉɯᴉꞁǝᗡ ǝpɐɹᵷǝᗡ snɯnH
 for.config.tweaks.humus.degradeDelimiter.comment=˙puɐs oʇuᴉ suɹnʇ ʇᴉ ǝɹoɟǝq sɐɥ snɯnɥ sǝᵷɐʇs ʎuɐɯ ʍoɥ ʇǝS
+
 for.config.tweaks.farms.size=ǝzᴉS ɯɹɐℲ
 for.config.tweaks.farms.size.comment=˙puɐꞁɯɹɐɟ ǝɥʇ ɟo ɹǝᴉꞁdᴉʇꞁnɯ ǝzᴉs ǝɥʇ sʇǝS
 for.config.tweaks.farms.fertilizer=ɹǝzᴉꞁᴉʇɹǝℲ ɯɹɐℲ
@@ -1546,20 +1787,24 @@ for.config.tweaks.farms.redorchid=ʇɹoddnS ɯɹɐℲ pᴉɥɔɹO pǝᴚ
 for.config.tweaks.farms.redorchid.comment=˙pᴉɥɔɹO pǝᴚ sǝᴉʇᴉꞁᴉʇ∩ ɐɹʇxƎ ɹoɟ ʇɹoddns ɯɹɐɟ sǝꞁqɐuƎ
 for.config.tweaks.farms.magicalcrops=ʇɹoddnS ɯɹɐℲ sdoɹƆ ꞁɐɔᴉᵷɐW
 for.config.tweaks.farms.magicalcrops.comment=˙sdoɹƆ ꞁɐɔᴉᵷɐW ɹoɟ ʇɹoddns ɯɹɐɟ sǝꞁqɐuƎ
+
 for.config.tweaks.cultivation.extend=ǝzᴉS ɯɹɐℲ uoᴉʇɐʌᴉʇꞁnƆ
 for.config.tweaks.cultivation.extend.comment=˙sɯɹɐɟ uoᴉʇɐʌᴉʇꞁnɔ ꞁꞁɐ ʎq pǝsn sᴉ ʇɐɥʇ puɐꞁɯɹɐɟ ǝɥʇ ɟo ǝzᴉs ǝɥʇ sʇǝS
 for.config.tweaks.cultivation.ring=sɯɹɐℲ uoᴉʇɐʌᴉʇꞁnƆ ᵷuᴉᴚ
 for.config.tweaks.cultivation.ring.comment=˙ɹǝꞁꞁɐɯs ʞɔoꞁq ǝuo sʎɐʍꞁɐ sᴉ ʇnoʎɐꞁ ᵷuᴉɹ ǝɥʇ ɟo ǝzᴉs puɐꞁɯɹɐɟ ǝɥ⟘ ˙sɯɹɐɟ pꞁo ǝɥʇ ɟo ʇnoʎɐꞁ ǝɥʇ ǝʞᴉꞁ ʇnoʎɐꞁ ᵷuᴉɹ ɐ ǝsn sɯɹɐɟ uoᴉʇɐʌᴉʇꞁnɔ sǝʞɐW
 for.config.tweaks.cultivation.ring_size=ǝzᴉS ᵷuᴉᴚ ɹǝuuI
 for.config.tweaks.cultivation.ring_size.comment=˙ʇnoʎɐꞁ ᵷuᴉɹ ǝɥʇ ɟo ᵷuᴉɹ ɹǝuuᴉ ǝɥʇ ɟo ǝzᴉs ǝɥʇ sʇǝS
+
 for.config.tweaks.capsule=sǝꞁnsdɐƆ
 for.config.tweaks.capsule.comment=˙pꞁɹoʍ ǝɥʇ ɯoɹɟ spᴉnꞁɟ dn ʞɔᴉd uɐɔ sǝꞁnsdɐɔ puɐ suɐɔ ʇɐɥʇ uoᴉʇɔunɟ ǝɥʇ sǝꞁqɐuƎ
+
 for.config.tweaks.greenhouse.range=ǝᵷuɐᴚ ǝsnoɥuǝǝɹ⅁
 for.config.tweaks.greenhouse.range.comment=˙ǝsnoɥuǝǝɹᵷ ǝɥʇ ɟo ɹǝsᴉʇɐɯᴉꞁɔ ǝɥʇ ɟo ɹosᴉʌᴉp ǝᵷuɐɹ ǝɥʇ ʇǝS
 for.config.tweaks.greenhouse.size=ǝzᴉS ǝsnoɥuǝǝɹ⅁
 for.config.tweaks.greenhouse.size.comment=˙sʞɔoꞁq pǝʇɐɯᴉꞁɔ ǝɥʇ ɟo ɹǝᴉꞁdᴉʇꞁnɯ ǝzᴉs ǝɥʇ ʇǝS
 for.config.tweaks.greenhouse.energy=ɹǝᴉɟᴉpoW ʎᵷɹǝuƎ ǝsnoɥuǝǝɹ⅁
 for.config.tweaks.greenhouse.energy.comment=˙sɹǝsᴉʇɐɯᴉꞁɔ ǝsnoɥuǝǝɹᵷ ǝɥʇ ʎq pǝsn sᴉ ʇɐɥʇ ʎᵷɹǝuǝ ǝɥʇ sǝᴉɟᴉpoW
+
 for.config.genetics=sɔᴉʇǝuǝ⅁
 for.config.genetics.pollinate.vanilla.trees=sǝǝɹ⟘ ɐꞁꞁᴉuɐᴧ ǝʇɐuᴉꞁꞁoԀ
 for.config.genetics.pollinate.vanilla.trees.comment=˙pǝʇɐuᴉꞁꞁod ǝq uɐɔ ʎǝɥʇ ǝɹoɟǝq pǝzʎꞁɐuɐ ǝq ʇsnɯ sǝǝɹʇ ɐꞁꞁᴉuɐʌ 'pǝꞁqɐsᴉp uǝɥM ˙sǝʌɐǝꞁ ǝǝɹʇ ɐꞁꞁᴉuɐʌ ǝʇɐuᴉꞁꞁod oʇ sǝǝq ʍoꞁꞁⱯ
@@ -1569,21 +1814,27 @@ for.config.genetics.research.boost.multiplier=ɹǝᴉꞁdᴉʇꞁnW uoᴉʇɐʇn
 for.config.genetics.research.boost.multiplier.comment=˙ǝɹᴉoʇᴉɹɔsƎ ǝɥʇ uᴉ pǝɹǝʌoɔsᴉp uǝǝq sɐɥ ʇᴉ uǝɥʍ uoᴉʇɐʇnɯ ɐ ɟo ǝɔuɐɥɔ ǝɥʇ sǝᴉꞁdᴉʇꞁnW
 for.config.genetics.research.boost.max.percent=xɐW uoᴉʇɐʇnW ɥɔɹɐǝsǝᴚ
 for.config.genetics.research.boost.max.percent.comment=˙ǝɹᴉoʇᴉɹɔsƎ ǝɥʇ uᴉ uoᴉʇɐʇnɯ ɐ ᵷuᴉɥɔɹɐǝsǝɹ ʎq pǝᴉꞁddɐ ǝq uɐɔ ʇɐɥʇ ʇsooq ǝᵷɐʇuǝɔɹǝd ɯnɯᴉxɐɯ ǝɥ⟘
+
 for.config.difficulty=ʎʇꞁnɔᴉɟɟᴉᗡ
 for.config.difficulty.game.mode=ǝpoW ǝɯɐ⅁
 for.config.difficulty.game.mode.comment=˙sǝdᴉɔǝɹ ɥʇᴉʍ sǝɥɔʇᴉꞁᵷ ꞁɐnsᴉʌ ǝsnɐɔ ʎɐɯ ɹǝʌɹǝs ǝɥʇ ɥʇᴉʍ ɥɔʇɐɯsᴉW ˙ǝpoɯ ǝɯɐᵷ pǝɹɹǝɟǝɹd ɹnoʎ oʇ ʇǝS
 for.config.difficulty.recreate.definitions=suoᴉʇᴉuᴉɟǝᗡ ǝʇɐǝɹɔǝᴚ
 for.config.difficulty.recreate.definitions.comment=˙sǝpoɯǝɯɐᵷ/ʎɹʇsǝɹoɟ/ᵷᴉɟuoɔ uᴉ suoᴉʇᴉuᴉɟǝp ǝpoɯ ǝɯɐᵷ ǝɥʇ ɟo uoᴉʇɐǝɹɔǝɹ sǝɔɹoℲ
+
 for.config.structures=sǝɹnʇɔnɹʇS
 for.config.structures.disabled=sǝɹnʇɔnɹʇS pǝꞁqɐsᴉᗡ
 for.config.structures.disabled.comment=˙ɯǝɥʇ ǝꞁqɐsᴉp oʇ sǝɹnʇɔnɹʇs ɔᴉɟᴉɔǝds ʇsᴉꞀ
+
 for.config.farm.fertilizers.items=˙0 oʇ ǝnꞁɐʌ ǝɹǝɥʇ ʇǝs noʎ ɟᴉ ɯǝɥʇ ǝʇɐʌᴉʇɔɐǝp uɐɔ ʎꞁuo noʎ sǝᴉɹʇuǝ pǝʇɐɹǝuǝᵷ oʇnɐ ǝʌoɯǝɹ ʇ,uɐɔ no⅄ \n ˙ǝuᴉꞁ ǝʇɐɹɐdǝs ɐ uᴉ ʎɹʇuǝ ʎɹǝʌǝ ǝʇɐɹɐdǝs oʇ pǝǝu no⅄ ˙ǝnꞁɐᴧɹǝzᴉꞁᴉʇɹǝɟ؛ɐʇɐᗡɐʇǝW:ǝɯɐNɯǝʇᴉ:ᗡIpoɯ sᴉɥʇ ǝʞᴉꞁ sʞooꞁ oʇ ǝʌɐɥ ʎɹʇuǝ uⱯ ˙ʎɹʇsǝɹoℲ oʇ sɹǝzᴉꞁᴉʇɹǝɟ ppⱯ
+
 for.config.fluids=spᴉnꞁℲ
 for.config.fluids.enable.format=˙pᴉnꞁɟ %s sǝꞁqɐuƎ
 for.config.fluid.blocks=sʞɔoꞁᗺ pᴉnꞁℲ
 for.config.fluid.blocks.enable.format=˙ʞɔoꞁq pᴉnꞁɟ pꞁɹoʍ-uᴉ %s sǝꞁqɐuƎ
+
 for.config.debug.enabled=ǝpoW ᵷnqǝᗡ
 for.config.debug.enabled.comment=˙(sɹǝdoꞁǝʌǝp oʇ ꞁnɟǝsn ʎꞁuo) ǝpoɯ ᵷnqǝᗡ ǝꞁqɐuƎ
+
 for.config.beekeeping.mode=ǝpoW ᵷuᴉdǝǝʞǝǝᗺ
 for.config.beekeeping.mode.comment=˙ǝpoɯ ᵷuᴉdǝǝʞǝǝq ǝɥʇ ǝᵷuɐɥƆ
 for.config.beekeeping.second.princess=ǝɔuɐɥƆ ssǝɔuᴉɹԀ puoɔǝS
@@ -1600,8 +1851,10 @@ for.config.beekeeping.hivedamage.peaceful=ǝᵷɐɯɐᗡ ǝʌᴉH ꞁnɟǝɔɐǝ
 for.config.beekeeping.hivedamage.peaceful.comment=˙ǝpoɯ ꞁnɟǝɔɐǝd uo ᵷuᴉʎɐꞁd ɹǝʎɐꞁd ɐ ǝᵷɐɯɐp uɐɔ sǝǝq ɹǝɥʇǝɥM
 for.config.beekeeping.ignoble.decay=ʎɐɔǝᗡ ǝꞁqouᵷI
 for.config.beekeeping.ignoble.decay.comment=˙ʇno ǝᴉp ʎꞁꞁɐnʇuǝʌǝ ꞁꞁᴉʍ sǝǝq ǝꞁqouᵷᴉ ɹǝɥʇǝɥM
+
 for.config.species.blacklist=ʇsᴉꞁʞɔɐꞁᗺ sǝᴉɔǝdS
 for.config.species.blacklist.comment=˙ǝuᴉꞁ ɹǝd ǝuo 'pᴉn ɹᴉǝɥʇ ʎq pǝᴉɟᴉʇuǝpᴉ ʇsᴉꞁʞɔɐꞁq oʇ sǝᴉɔǝds ppⱯ
+
 for.config.butterfly.alleles.rarity=˙ǝuᴉꞁ ɹǝd ǝuo 'pᴉn ɹᴉǝɥʇ ʎq ʎʇᴉɹɐɹ uʍɐds ʎꞁɟɹǝʇʇnq ǝɥʇ ʇǝ⅁
 for.config.butterfly.entities.spawn.limit=ʇᴉɯᴉꞀ uʍɐdS ʎꞁɟɹǝʇʇnᗺ
 for.config.butterfly.entities.spawn.limit.comment=˙pǝɥɔɐǝɹ sᴉ ʇᴉɯᴉꞁ sᴉɥʇ ǝɔuo ᵷuᴉuʍɐds ꞁɐɹnʇɐu doʇs ꞁꞁᴉʍ sǝᴉꞁɟɹǝʇʇnᗺ
@@ -1611,15 +1864,20 @@ for.config.butterfly.entities.maxDistance=ǝɯoH o⟘ ǝɔuɐʇsᴉᗡ ɯnɯᴉx
 for.config.butterfly.entities.maxDistance.comment=˙ʇᴉ ɯoɹɟ ʎɐʍɐ ɹɐɟ ooʇ ǝɹɐ ʎǝɥʇ ɟᴉ ǝɯoɥ ʎꞁɟ ꞁꞁᴉʍ sǝᴉꞁɟɹǝʇʇnᗺ
 for.config.butterfly.entities.pollination=uoᴉʇɐuᴉꞁꞁoԀ ʎꞁɟɹǝʇʇnᗺ
 for.config.butterfly.entities.pollination.comment=˙sǝʌɐǝꞁ ǝʇɐuᴉꞁꞁod oʇ sǝᴉꞁɟɹǝʇʇnq ʍoꞁꞁⱯ
+
 for.config.backpacks.item.stacks.format=˙,ǝɯɐu:pᴉpoɯ, sᴉ ʇɐɯɹoɟ ǝɥʇ ɐʇɐpɐʇǝɯ pɹɐɔpꞁᴉʍ ɹoℲ ˙,ɐʇǝɯ:ǝɯɐu:pᴉpoɯ, ʇɐɯɹoɟ ǝɥʇ uᴉ ǝɹǝɥ ʞɔɐdʞɔɐq s,%s ǝɥʇ ɹoɟ sʞɔɐʇSɯǝʇᴉ ppⱯ
 for.config.backpacks.ore.dict.format=˙pǝsn ǝq osꞁɐ ʎɐɯ suoᴉssǝɹdxǝ ɹɐꞁnᵷǝᴚ ˙,ǝɯɐNʇɔᴉᗡǝɹo, ʇɐɯɹoɟ ǝɥʇ uᴉ ǝɹǝɥ ʞɔɐdʞɔɐq s,%s ǝɥʇ ɹoɟ sǝɯɐu ʎɹɐuoᴉʇɔᴉp ǝɹo ppⱯ
+
 for.config.gamemode=ǝpoW ǝɯɐ⅁
+
 for.config.gamemode.energy.demand.modifier.comment=˙pǝʇdǝɔɔɐ puɐ pǝɹoʇs ʎᵷɹǝuǝ ɟo ʇunoɯɐ xɐɯ ǝɥʇ sɐ ꞁꞁǝʍ sɐ 'sǝuᴉɥɔɐɯ ǝʇɐʌᴉʇɔɐ oʇ pǝɹᴉnbǝɹ ʎᵷɹǝuǝ ǝɥʇ sǝᴉɟᴉpoW
 for.config.gamemode.farms.fertilizer.modifier.value.comment=˙ɯɹɐɟ ɐ uᴉ sʇsɐꞁ ɹǝzᴉꞁᴉʇɹǝɟ ɟo ǝɔǝᴉd ɐ ǝɯᴉʇ ǝɥʇ sǝᴉɟᴉpoW
+
 for.config.gamemode.fuel.ethanol.generator.comment=˙ɹoʇɐɹǝuǝ⅁ oᴉᗺ ɐ uᴉ ꞁouɐɥʇǝ ʎq pǝpᴉʌoɹd ʎᵷɹǝuǝ ǝɥʇ sǝᴉɟᴉpoɯ
 for.config.gamemode.fuel.ethanol.combustion.comment=˙sǝuᴉᵷuƎ uoᴉʇsnqɯoƆ ʇɟɐɹɔpꞁᴉnᗺ uᴉ ꞁouɐɥʇǝ ʎq pǝpᴉʌoɹd ʎᵷɹǝuǝ ǝɥʇ sǝᴉɟᴉpoɯ
 for.config.gamemode.fuel.biomass.generator.comment=˙ɹoʇɐɹǝuǝ⅁ oᴉᗺ ɐ uᴉ ssɐɯoᴉᗺ ʎq pǝpᴉʌoɹd ʎᵷɹǝuǝ ǝɥʇ sǝᴉɟᴉpoɯ
 for.config.gamemode.fuel.biomass.biogas.comment=˙sǝuᴉᵷuƎ sɐᵷoᴉᗺ uᴉ ssɐɯoᴉᗺ ʎq pǝpᴉʌoɹd ʎᵷɹǝuǝ ǝɥʇ sǝᴉɟᴉpoɯ
+
 for.config.gamemode.recipe.output.fertilizer.apatite.comment=˙ǝʇᴉʇɐdɐ ᵷuᴉsn ǝdᴉɔǝɹ ǝɥʇ ʎq pǝpꞁǝᴉʎ ɹǝzᴉꞁᴉʇɹǝɟ ɟo ʇunoɯɐ
 for.config.gamemode.recipe.output.fertilizer.ash.comment=˙ɥsɐ ᵷuᴉsn ǝdᴉɔǝɹ ǝɥʇ ʎq pǝpꞁǝᴉʎ ɹǝzᴉꞁᴉʇɹǝɟ ɟo ʇunoɯɐ
 for.config.gamemode.recipe.output.compost.wheat.comment=˙ʇɐǝɥʍ ᵷuᴉsn ǝdᴉɔǝɹ ǝɥʇ ʎq pǝpꞁǝᴉʎ ʇsodɯoɔ ɟo ʇunoɯɐ
@@ -1631,6 +1889,7 @@ for.config.gamemode.recipe.output.bogearth.can.comment=˙sǝꞁnsdɐɔ ɹo sꞁ�
 for.config.gamemode.recipe.output.can.comment=˙suɐɔ uᴉʇ ɹoɟ ǝdᴉɔǝɹ ǝɥʇ ʎq pǝpꞁǝᴉʎ ʇunoɯɐ
 for.config.gamemode.recipe.output.capsule.comment=˙sǝꞁnsdɐɔ xɐʍ ɹoɟ ǝdᴉɔǝɹ ǝɥʇ ʎq pǝpꞁǝᴉʎ ʇunoɯɐ
 for.config.gamemode.recipe.output.refractory.comment=˙sǝꞁnsdɐɔ ʎɹoʇɔɐɹɟǝɹ ɹoɟ ǝdᴉɔǝɹ ǝɥʇ ʎq pǝpꞁǝᴉʎ ʇunoɯɐ
+
 for.config.gamemode.fermenter.cycles.fertilizer.comment=˙ᵷuᴉoᵷ ɹǝʇuǝɯɹǝɟ ɐ dǝǝʞ uɐɔ ɹǝzᴉꞁᴉʇɹǝɟ sǝꞁɔʎɔ ɟo ʇunoɯɐ ǝɥʇ sǝᴉɟᴉpoɯ
 for.config.gamemode.fermenter.cycles.compost.comment=˙ᵷuᴉoᵷ ɹǝʇuǝɯɹǝɟ ɐ dǝǝʞ uɐɔ ʇsodɯoɔ sǝꞁɔʎɔ ɟo ʇunoɯɐ ǝɥʇ sǝᴉɟᴉpoɯ
 for.config.gamemode.fermenter.value.fertilizer.comment=˙ɹǝzᴉꞁᴉʇɹǝɟ ᵷuᴉsn ǝɔnpoɹd ꞁꞁᴉʍ ɹǝʇuǝɯɹǝɟ ɐ ǝꞁɔʎɔ ɹǝd ssɐɯoᴉq ɟo ʇunoɯɐ ǝɥʇ sǝᴉɟᴉpoɯ
@@ -1640,10 +1899,13 @@ for.config.gamemode.fermenter.yield.cactus.comment=˙ɹǝʇuǝɯɹǝɟ ɐ uᴉ p
 for.config.gamemode.fermenter.yield.wheat.comment=˙ɹǝʇuǝɯɹǝɟ ɐ uᴉ pꞁǝᴉʎ ꞁꞁᴉʍ ʇɐǝɥʍ ɟo ǝɔǝᴉd ɐ ssɐɯoᴉq ɟo ʇunoɯɐ ǝɥʇ sǝᴉɟᴉpoɯ
 for.config.gamemode.fermenter.yield.cane.comment=˙ɹǝʇuǝɯɹǝɟ ɐ uᴉ pꞁǝᴉʎ ꞁꞁᴉʍ ǝuɐɔ ɹɐᵷns ɟo ǝɔǝᴉd ɐ ssɐɯoᴉq ɟo ʇunoɯɐ ǝɥʇ sǝᴉɟᴉpoɯ
 for.config.gamemode.fermenter.yield.mushroom.comment=˙ɹǝʇuǝɯɹǝɟ ɐ uᴉ pꞁǝᴉʎ ꞁꞁᴉʍ ɯooɹɥsnɯ ɐ ssɐɯoᴉq ɟo ʇunoɯɐ ǝɥʇ sǝᴉɟᴉpoɯ
+
 for.config.gamemode.squeezer.liquid.seed.comment=˙sᴉɥʇ ɟɟo pǝsɐq ǝɹɐ sǝɔɹnos ɹǝɥʇo ˙pǝǝs ǝꞁᵷuᴉs ɐ ɯoɹɟ pǝzǝǝnbs ꞁᴉo pǝǝs ɟo ʇunoɯɐ ǝɥʇ sǝᴉɟᴉpoɯ
 for.config.gamemode.squeezer.liquid.apple.comment=˙sᴉɥʇ ɟɟo pǝsɐq ǝɹɐ sǝɔɹnos ɹǝɥʇo ˙ǝꞁddɐ ǝꞁᵷuᴉs ɐ ɯoɹɟ pǝzǝǝnbs ǝɔᴉnɾ ɟo ʇunoɯɐ ǝɥʇ sǝᴉɟᴉpoɯ
 for.config.gamemode.squeezer.mulch.apple.comment=˙ǝꞁddɐ pǝzǝǝnbs ɹǝd ɥɔꞁnɯ ɟo ǝɔuɐɥɔ ǝɥʇ sǝᴉɟᴉpoɯ
+
 for.config.gamemode.energy.engine.clockwork.comment=˙ǝuᴉᵷuǝ ʞɹoʍʞɔoꞁɔ ǝɥʇ ǝꞁqɐuƎ
+
 # for.bees.custom.<type>.<species>=ǝɯɐu ǝǝq ɯoʇsnɔ ʍǝN
 # for.trees.custom.<type>.<species>=ǝɯɐu ǝǝɹʇ ɯoʇsnɔ ʍǝN
 # for.bees.custom.drone.forest=ǝuoɹᗡ ʇsǝɹoℲ
@@ -1652,22 +1914,28 @@ for.config.gamemode.energy.engine.clockwork.comment=˙ǝuᴉᵷuǝ ʞɹoʍʞɔo�
 # for.trees.custom.treealyzer.<type>.<species>=ǝɯɐu sǝᴉɔǝds ǝǝɹʇ ɯoʇsnɔ ʍǝN
 # for.bees.custom.beealyzer.drone.forest=ɹǝzʎꞁɐǝǝq ɐ uᴉ pǝsn uǝɥʍ ǝɯɐu sǝᴉɔǝds ǝuoɹp ʇsǝɹoℲ ʍǝN
 # for.trees.custom.treealyzer.pollen.darkOak=ɹǝzʎꞁɐǝǝɹʇ ɐ uᴉ pǝsn uǝɥʍ ǝɯɐu sǝᴉɔǝds uǝꞁꞁod ʞɐO ʞɹɐᗡ ʍǝN
+
 # forestry.allele.<category>.<adjective>=ǝʌᴉʇɔǝɾpɐ ɯoʇsnɔ ʍǝN
 # forestry.allele.speed.slowest=ʇsǝʍoꞁs˙ǝꞁǝꞁꞁɐ˙ʎɹʇsǝɹoɟ ᵷuᴉɔɐꞁdǝɹ 'pǝǝds ɹǝʞɹoʍ ʇsǝʍoꞁs ɹoɟ ǝʌᴉʇɔǝɾpɐ ɯoʇsnɔ ʍǝN
 # forestry.allele.flowering.slowest=ʇsǝʍoꞁs˙ǝꞁǝꞁꞁɐ˙ʎɹʇsǝɹoɟ ᵷuᴉɔɐꞁdǝɹ 'uoᴉʇɐuᴉꞁꞁod ɹǝʍoꞁɟ ʇsǝʍoꞁs ɹoɟ ǝʌᴉʇɔǝɾpɐ ɯoʇsnɔ ʍǝN
 # forestry.allele.yield.low=ʍoꞁ˙ǝꞁǝꞁꞁɐ˙ʎɹʇsǝɹoɟ ᵷuᴉɔɐꞁdǝɹ 'pꞁǝᴉʎ ʍoꞁ ɹoɟ ǝʌᴉʇɔǝɾpɐ ɯoʇsnɔ ʍǝN
+
 # for.tooltip.worker.slowest=ɹǝʞɹoM ʇsǝʍoꞁS
+
 # tile.for.stairs.4.name=sɹᴉɐʇS ʇnuʇsǝɥƆ
 # tile.for.planks.8.name=sʞuɐꞁԀ pooM ʞodɐʞ
 # tile.for.slab.5.name=qɐꞁS pooM ǝᵷuǝM
 # tile.for.log.10.name=pooM ʎuɐᵷoɥɐW
 # tile.for.fences.0.name=ǝɔuǝℲ ɥɔɹɐꞀ
+
 for.jei.description.frames=˙sǝǝq ǝꞁqouᵷI ɟo ʎɐɔǝp ɔᴉʇǝuǝᵷ ǝɥʇ ǝɔnpǝɹ puɐ ǝʇɐɹ uoᴉʇɔnpoɹd ,sǝǝq ǝɥʇ ǝʌoɹdɯᴉ oʇ ʎɹɐᴉdⱯ uɐ uᴉ sǝɯɐɹℲ ʎɹʇsǝɹoℲ ǝɔɐꞁԀ
 for.jei.description.apiarist.suit=˙uoᴉʇɔǝʇoɹd ǝʇǝꞁdɯoɔ sɹǝɟɟo ʇᴉns ꞁꞁnɟ Ɐ ˙sʇɔǝɟɟǝ ǝǝq ǝʌᴉʇɐᵷǝu ɯoɹɟ ɹǝɹɐǝʍ ǝɥʇ ʇɔǝʇoɹd ʇᴉnS s,ʇsᴉɹɐᴉdⱯ ǝɥʇ ɟo sǝɔǝᴉԀ
 for.jei.description.habitat_locator=˙ʎꞁᴉpɐǝʇs uᴉds ꞁꞁᴉʍ ʇᴉ 'ꞁɐǝpᴉ sᴉ uoᴉʇɐɔoꞁ ʇuǝɹɹnɔ ǝɥʇ uǝɥM ˙ǝɹǝɥʇ ʎɐʍ ǝɥʇ ʇuᴉod ꞁꞁᴉʍ ʇᴉ 'ʇods ɐ pǝʇɐɔoꞁ sɐɥ ʇᴉ uǝɥM ˙ǝǝq ɐ ɹoɟ ʇɐʇᴉqɐɥ ꞁɐǝpᴉ ʇsǝsoꞁɔ ǝɥʇ ɹoɟ sǝɥɔɹɐǝs ɹoʇɐɔoꞀ ʇɐʇᴉqɐH ǝɥ⟘
 for.jei.description.scoop=˙ɯǝɥʇ ᵷuᴉʞɔᴉꞁɔ-ʇɥᵷᴉɹ ʎq sǝᴉꞁɟɹǝʇʇnq ɥɔʇɐɔ oʇ pǝsn ǝq osꞁɐ uɐɔ ʇI ˙ǝpᴉsuᴉ sǝǝq ǝɥʇ ʇɔǝꞁꞁoɔ ꞁꞁᴉʍ ʇᴉ 'pꞁɹoʍ ǝɥʇ uᴉ punoɟ sǝʌᴉɥ ǝǝq ʞɐǝɹq oʇ pǝsn sᴉ dooɔS ǝɥ⟘
 for.jei.description.imprinter=˙ǝdʎʇ ʎuɐ ɟo sǝǝq pᴉɹqʎɥ sǝʇɐǝɹƆ ˙ʎꞁuo-ǝʌᴉʇɐǝɹƆ
+
 for.jei.description.infuser=˙pɐǝW ǝʌᴉʇɐɹnƆ ǝʇɐǝɹɔ puɐ sɹǝʇsnꞁƆ uǝꞁꞁoԀ ɥʇᴉʍ pɐǝW ǝsnɟuᴉ oʇ pǝs∩
+
 for.jei.description.chipsets=˙ʇǝʞɔos ɐ ɯoɹɟ ɯǝɥʇ ǝʌoɯǝɹ oʇ uoɹI ᵷuᴉɹǝpꞁoS ɐ ǝs∩ ˙sᴉnᵷ ǝuᴉɥɔɐɯ uo sʇǝʞɔos ǝɥʇ uᴉ pǝɔɐꞁd ǝq uɐɔ ʎǝɥʇ 'ǝʇǝꞁdɯoɔ ǝɔuO ˙uoɹI ᵷuᴉɹǝpꞁoS ɐ ᵷuᴉsn ʎq sǝqn⟘ uoɹʇɔǝꞁƎ ɥʇᴉʍ pǝʇʇᴉɟ ǝq uɐɔ spɹɐoᗺ ʇᴉnɔɹᴉƆ
 for.jei.description.soldering_iron=˙ʇǝʞɔos ɐ ɯoɹɟ pɹɐoq ʇᴉnɔɹᴉɔ ɐ ǝʌoɯǝɹ oʇ pǝsn ǝq uɐƆ ˙spɹɐoᗺ ʇᴉnɔɹᴉƆ oʇ sǝqn⟘ uoɹʇɔǝꞁƎ ɥɔɐʇʇɐ puɐ ǝʞɐɯ oʇ ʇᴉnɔɹᴉɔ ɟo ǝdʎʇ ǝɥʇ ʇɔǝꞁǝs uɐɔ noʎ 'ǝɹǝɥ⟘ ˙ᴉnᵷ ᵷuᴉɹǝpꞁos ǝɥʇ uǝdo oʇ puɐɥ uᴉ uoɹI ᵷuᴉɹǝpꞁoS ǝɥʇ ɥʇᴉʍ ʞɔᴉꞁɔ ʇɥᵷᴉᴚ
 for.jei.description.thermionic_tubes=˙pɹɐoᗺ ʇᴉnɔɹᴉƆ ɐ ɯoɹɟ pǝʌoɯǝɹ ǝq ʇouuɐɔ ʎǝɥʇ 'pǝɹǝpꞁos ǝɔuO ˙uoɹI ᵷuᴉɹǝpꞁoS ǝɥʇ uᴉ pǝʇɔǝꞁǝs ǝdʎʇ ʇᴉnɔɹᴉɔ ǝɥʇ uo puǝdǝp ɥɔᴉɥʍ 'dᴉʇꞁooʇ ǝɥʇ uo pǝʎɐꞁdsᴉp sǝsodɹnd ʎuɐɯ ǝʌɐɥ ʎǝɥ⟘ ˙uoɹI ᵷuᴉɹǝpꞁoS ɐ ᵷuᴉsn spɹɐoᗺ ʇᴉnɔɹᴉƆ oʇ pǝɥɔɐʇʇɐ ǝq uɐɔ sǝqn⟘ uoɹʇɔǝꞁƎ
@@ -1679,13 +1947,17 @@ for.jei.description.pipette=˙ʎꞁʇɔǝɹᴉp ɯǝɥʇ uᴉɐɹp ɹo ꞁꞁᴉ
 for.jei.description.kit_shovel=˙uǝdo oʇ puɐɥ ɹnoʎ uᴉ ʇᴉ ǝs∩ ˙ꞁǝʌoɥs ǝzuoɹq ɐ suᴉɐʇuoɔ ʇɐɥʇ ǝᵷɐʞɔɐd ǝꞁqɐʞɔɐʇs Ɐ
 for.jei.description.kit_pickaxe=˙uǝdo oʇ puɐɥ ɹnoʎ uᴉ ʇᴉ ǝs∩ ˙ǝxɐʞɔᴉd ǝzuoɹq ɐ suᴉɐʇuoɔ ʇɐɥʇ ǝᵷɐʞɔɐd ǝꞁqɐʞɔɐʇs Ɐ
 for.jei.description.fertilizer_compound=˙ɯɹɐɟ ʎɹʇsǝɹoℲ ɐ unɹ oʇ ɹǝpɹo uᴉ pǝɹᴉnbǝᴚ ˙sᵷuᴉꞁdɐs puɐ sdoɹɔ uo ꞁɐǝɯǝuoq sɐ pǝsn ǝq uɐƆ ˙ɹǝzᴉꞁᴉʇɹǝɟ ɥɔᴉᴚ
+
 for.jei.description.raintank=˙ǝpᴉs ɯoʇʇoq ǝɥʇ ɯoɹɟ ɹǝʇɐʍ ʇndʇno ʎꞁꞁɐɔᴉʇɐɯoʇnɐ uɐƆ ˙suᴉɐɹ ʇᴉ uǝɥʍ ɹǝʇɐʍ sʇɔǝꞁꞁoƆ
 for.jei.description.worktable=˙ʇɔᴉꞁɟuoɔ ǝdᴉɔǝɹ ɐ sᴉ ǝɹǝɥʇ uǝɥʍ ʇꞁnsǝɹ ᵷuᴉʇɟɐɹɔ ǝɥʇ ǝsooɥɔ oʇ ʎʇᴉꞁᴉqɐ ǝɥʇ sɐH ˙sǝdᴉɔǝɹ 6 oʇ dn sɹǝqɯǝɯǝᴚ ˙ʎɹoʇuǝʌuᴉ uɐ ɥʇᴉʍ ǝꞁqɐʇ ᵷuᴉʇɟɐɹɔ pǝɔuɐʌpⱯ
+
 for.jei.description.grafter=˙sǝsn ɟo ɹǝqɯnu pǝʇᴉɯᴉꞁ ʎɹǝʌ ɐ sɐH ˙sǝʌɐǝꞁ ʎɹʇsǝɹoℲ ᵷuᴉʞɐǝɹq uǝɥʍ doɹp ᵷuᴉꞁdɐs ɐ sǝǝʇuɐɹɐn⅁
 for.jei.description.grafter_proven=˙sɹǝᵷɐꞁꞁᴉʌ ɯoɹɟ pǝsɐɥɔɹnd ǝq ʎꞁuo uɐɔ ʎǝɥ⟘ ˙sǝʌɐǝꞁ ʎɹʇsǝɹoℲ ᵷuᴉʞɐǝɹq uǝɥʍ doɹp ᵷuᴉꞁdɐs ɐ sǝǝʇuɐɹɐn⅁
+
 for.jei.description.mailbox=˙ꞁᴉɐɯ uʍo ɹᴉǝɥʇ ɹǝʎɐꞁd ǝɥʇ ʍoɥs ꞁꞁᴉʍ xoqꞁᴉɐɯ ʎuɐ ᵷuᴉuǝdO ˙sɹǝʎɐꞁd ɹǝɥʇo puɐ suoᴉʇɐʇs ǝpɐɹʇ oʇ sɹǝʇʇǝꞁ puǝs oʇ sɹǝʎɐꞁd sʍoꞁꞁⱯ
 for.jei.description.trade_station=˙ꞁɐǝp ᵷuᴉpɐɹʇ ɐ dn ʇǝs sɹǝʎɐꞁd sʇǝꞁ ʇɐɥʇ xoqꞁᴉɐɯ ɔᴉʇɐɯoʇnɐ uⱯ
 for.jei.description.stamp_collector=˙ʎɯouoɔǝ dɯɐʇs ɐ ɥʇᴉʍ sɹǝʌɹǝs ɹoɟ ꞁnɟǝs∩ ˙sɹǝʇʇǝꞁ ᵷuᴉꞁᴉɐɯ ʎq pǝsn sdɯɐʇs ǝɥʇ ꞁꞁɐ sʇɔǝꞁꞁoƆ ˙ʎꞁuo-ǝʌᴉʇɐǝɹƆ
+
 for.jei.description.adventurer_bag=ᵷɟɔ˙sʞɔɐdʞɔɐq/ʎɹʇsǝɹoɟ/ᵷᴉɟuoɔ/ uᴉ sᵷᴉɟuoɔ ǝɥʇ uᴉ ʇǝs sᴉ ɹǝʌǝʇɐɥʍ pꞁoɥ uɐɔ ʇɐɥʇ ʎɹoʇuǝʌuᴉ ɐɹʇxƎ
 for.jei.description.builder_bag=˙sɯǝʇᴉ pǝʇɐꞁǝɹ-ᵷuᴉpꞁᴉnq dn sʞɔᴉd ʎꞁꞁɐɔᴉʇɐɯoʇnɐ ʇɐɥʇ ʎɹoʇuǝʌuᴉ ɐɹʇxƎ
 for.jei.description.digger_bag=˙sɯǝʇᴉ pǝʇɐꞁǝɹ-ᵷuᴉuᴉɯ ǝnꞁɐʌ-ʍoꞁ ɹǝɥʇo puɐ 'ǝꞁqqoɔ 'ʇɹᴉp dn sʞɔᴉd ʎꞁꞁɐɔᴉʇɐɯoʇnɐ ʇɐɥʇ ʎɹoʇuǝʌuᴉ ɐɹʇxƎ
@@ -1694,10 +1966,11 @@ for.jei.description.hunter_bag=˙sɯǝʇᴉ pǝʇɐꞁǝɹ puɐ sdoɹp qoɯ dn s
 for.jei.description.miner_bag=˙sɯǝʇᴉ pǝʇɐꞁǝɹ-ᵷuᴉuᴉɯ ǝꞁqɐnꞁɐʌ puɐ sǝɹo dn sʞɔᴉd ʎꞁꞁɐɔᴉʇɐɯoʇnɐ ʇɐɥʇ ʎɹoʇuǝʌuᴉ ɐɹʇxƎ
 for.jei.description.apiarist_bag=˙sǝǝq dn sʞɔᴉd ʎꞁꞁɐɔᴉʇɐɯoʇnɐ ʇɐɥʇ ʎɹoʇuǝʌuᴉ ɐɹʇxƎ
 for.jei.description.lepidopterist_bag=˙sǝᴉꞁɟɹǝʇʇnq dn sʞɔᴉd ʎꞁꞁɐɔᴉʇɐɯoʇnɐ ʇɐɥʇ ʎɹoʇuǝʌuᴉ ɐɹʇxƎ
+
 for.jei.rainmaker.causes.rain=uᴉɐᴚ sǝsnɐƆ
 for.jei.rainmaker.stops.rain=uᴉɐᴚ sdoʇS
-for.jei.rainmaker.speed=%s
+for.jei.rainmaker.speed=%s :pǝǝdS
 for.jei.rainmaker.duration=sʞɔᴉʇ %s :uoᴉʇɐɹnᗡ
 tile.for.charcoal.pile.wall.name=ǝꞁᴉԀ ꞁɐoɔɹɐɥƆ
-for.jei.chance=%s
+for.jei.chance=%s :ǝɔuɐɥƆ
 for.jei.fortune=˙ʇuǝɯʇuɐɥɔuǝ ǝunʇɹoɟ ǝɥʇ ʎq pǝʇɔǝɟɟɐ sᴉ ɯǝʇᴉ sᴉɥʇ ɟo ʇunoɯɐ ǝɥ⟘
