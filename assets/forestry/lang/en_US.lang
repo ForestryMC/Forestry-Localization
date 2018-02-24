@@ -5,9 +5,6 @@
 death.engine.clockwork.player=%1$s was stabbed by a loose spring. %2$s was the negligent watchmaker.
 death.engine.clockwork=%1$s was stabbed by a loose spring.
 
-for.beverage.effect.alcoholic=Alcoholic
-for.beverage.effect.antidote=Antidote
-
 for.chat.cannotmemorizeagain=You already memorized this information.
 for.chat.memorizednote=You memorize the note and dispose of the crumpled scrap of paper.
 for.chat.memorizednote2=You feel more confident in your ability to breed %1$s with %2$s to make %3$s!
@@ -104,6 +101,7 @@ fluid.juice=Fruit Juice
 fluid.short.mead=Short Mead
 fluid.milk=Milk
 fluid.seed.oil=Seed Oil
+
 tile.forestry.fluid.bio.ethanol.name=Ethanol
 tile.forestry.fluid.biomass.name=Biomass
 tile.forestry.fluid.glass.name=Liquid Glass
@@ -130,7 +128,7 @@ for.gui.arid=Arid
 for.gui.beach=Beach
 
 for.gui.portablealyzer=Portable Genetic Analyzer
-for.gui.portablealyzer.help=Supply bee, tree, butterfly or an other individual and provide honey or honeydew as a pacifier.
+for.gui.portablealyzer.help=Supply bee, sapling, butterfly or an other individual and provide honey or honeydew as a pacifier.
 
 for.gui.beealyzer.artificial=Artificial Origin
 for.gui.beealyzer.behaviour=Behaviour
@@ -252,21 +250,6 @@ for.gui.noeffect=No effect
 for.gui.owner=Owner
 for.gui.page=Page
 
-for.gui.pipe.filter.anything=Anything
-for.gui.pipe.filter.bee=Any Bees
-for.gui.pipe.filter.cave=Cave-Dwellers
-for.gui.pipe.filter.closed=Closed
-for.gui.pipe.filter.drone=Drones
-for.gui.pipe.filter.flyer=Strong Flyers
-for.gui.pipe.filter.item=Items
-for.gui.pipe.filter.nocturnal=Nocturnal Bees
-for.gui.pipe.filter.princess=Princesses
-for.gui.pipe.filter.pure_breed=Pure-Bred Bees
-for.gui.pipe.filter.pure_cave=Pure Cave-Dwellers
-for.gui.pipe.filter.pure_flyer=Pure Flyers
-for.gui.pipe.filter.pure_nocturnal=Pure Nocturnal Bees
-for.gui.pipe.filter.queen=Queen
-
 for.gui.plains=Plains
 for.gui.princesses=Princ.
 for.gui.produce=Produce
@@ -355,7 +338,7 @@ for.gui.camouflage_spray_can=Camouflage Spray Can
 
 for.hints.apiaristsuit.desc=A full apiarist's suit will protect you from all negative bee effects.
 for.hints.apiaristsuit.tag=Bee Suits!
-for.hints.beebiomes.desc=Bees only work in biomes that suit their species. Use your beealyzer and habitat locator to find out in which.
+for.hints.beebiomes.desc=Bees only work in biomes that suit their species. Use your portable analyzer and habitat locator to find out in which.
 for.hints.beebiomes.tag=Choose your biome!
 for.hints.beebreeding.desc=Crossbreeding drones and princesses of different species may net you offspring with a new species.
 for.hints.beebreeding.tag=Breed your bees!
@@ -378,7 +361,7 @@ for.hints.enginebronzeheatloss.tag=Careful with water!
 for.hints.enginebronzeoutput.desc=Different fuels will net you different energy outputs in a biogas engine. Outputs range from 10 RF/t to 50 RF/t.
 for.hints.enginebronzeoutput.tag=Choose your fuel!
 for.hints.enginebronzewaste.desc=Contrary to peat-fired engines disabled biogas engines will not waste the biomass currently in the system.
-for.hints.enginebronzewaste.tag=Fuel is conserved.
+for.hints.enginebronzewaste.tag=Fuel is conserved
 for.hints.enginecopperfuels.desc=Peat-fired engines can use untreated peat, but they can also use bituminous peat to double their energy output.
 for.hints.enginecopperfuels.tag=Use all the fuels!
 for.hints.enginecopperwaste.desc=Disabled peat-fired engines continue to burn peat already removed from the stash without generating energy from it.
@@ -505,9 +488,6 @@ item.for.bee_combs.wheaten.name=Wheaten Comb
 
 item.for.beeswax.name=Beeswax
 
-item.for.beverage.meadCurative.name=Curative Mead
-item.for.beverage.meadShort.name=Short Mead
-
 item.for.biome_finder.name=Habitat Locator
 item.for.bituminous_peat.name=Bituminous Peat
 item.for.broken_bronze_pickaxe.name=Broken Pickaxe
@@ -570,7 +550,7 @@ item.for.hardened_machine.name=Hardened Casing
 item.for.honeydew.name=Honeydew
 
 item.for.portable_alyzer.name=Portable Analyzer
-item.for.portable_alyzer.tooltip=Handheld Genetic Analyzer for bees, trees, and butterflies.
+item.for.portable_alyzer.tooltip=Handheld Genetic Analyzer for bees, saplings, and butterflies.
 
 item.for.honey_drop.charged.name=Charged Drop
 item.for.honey_drop.honey.name=Honey Drop
@@ -665,11 +645,11 @@ item.for.wrench.tooltip=Shift-Use to rotate blocks.
 
 item.for.camouflage_spray_can.name=Camouflage Spray Can
 
-itemGroup.apiculture=Apiculture
-itemGroup.arboriculture=Arboriculture
+itemGroup.apiculture=Forestry Apiculture
+itemGroup.arboriculture=Forestry Arboriculture
 itemGroup.forestry=Forestry
-itemGroup.lepidopterology=Lepidopterology
-itemGroup.agriculture=Agriculture
+itemGroup.lepidopterology=Forestry Lepidopterology
+itemGroup.agriculture=Forestry Agriculture
 
 tile.for.analyzer.name=Analyzer
 tile.for.escritoire.name=Escritoire
@@ -765,7 +745,7 @@ for.errors.is_raining.help=Only tolerant fliers can work in the rain.
 for.errors.no_drone.desc=No drone
 for.errors.no_drone.help=Mating requires a drone present.
 for.errors.no_flower.desc=No flowers
-for.errors.no_flower.help=Hive members are not finding the right flowers. Use the Beealyzer to learn their flower preference.
+for.errors.no_flower.help=Hive members are not finding the right flowers. Use the portable analyzer to learn their flower preference.
 for.errors.no_queen.desc=No queen
 for.errors.no_queen.help=Supply this hive with a queen or a princess and a drone.
 for.errors.no_sky.desc=Sky obstructed
@@ -1128,6 +1108,103 @@ tile.for.candle.stump.name=Unlit Candle
 tile.for.stump.name=Candle Stump
 
 ####################
+# BOOK
+####################
+item.for.book_forester.name=Beekeeping 101
+
+for.gui.book.element.crafting=Crafting
+for.gui.book.about.title=About the book
+for.gui.book.about=§oThese scraps of knowledge have been obtained and compiled by Binnie, and represent the remains of Beekeeping 101, a book by a mad apiarist know only as 'Sir' Sengir.§r
+for.gui.book.about.author=| Binnie, Editor
+for.gui.book.categories=Categories
+## Core
+for.gui.book.category.core.title=Core
+# Core
+for.gui.book.entry.ores.title=Ores
+for.gui.book.entry.ores.pages=Forestry adds three ores to the terrain generation: Copper, Tin and Apatite. Each ore has different uses, from Fertilizer to machines.<p>§nApatite§r<BR>Apatite is a phosphate mineral that is commonly used in Fertilizer.<p>It occurs in large, but uncommon veins in layers above level 56, and when mined with a Pickaxe, it drops between 1 and 4 Apatite (gems), which can then be used for making Fertilizer.<p>Fortune can be used to increase drop rates, and Silk Touch can also be used to obtain the block instead of the gem (this can be useful for storage purposes, although Apatite Ore blocks cannot be smelted).<p>§nCopper§r<BR>Copper is a mineral that is commonly used in making Bronze, which is then used for tools and machines.<p>It occurs on layers above level 32, and when mined, it drops a block of Copper Ore.<p>Copper Ore can then be smelted in a Furnace for 1 Copper Ingot, or it can also be processed with several machines from other mods, such as IndustrialCraft²'s Macerator.<p>§nTin§r<BR>Tin is a mineral that is commonly used in making Bronze, tools and Cans.<p>It occurs on layers above level 16, and when mined, it drops a block of Tin Ore.<p>Tin Ore can then be smelted in a Furnace for 1 Tin Ingot, or it can also be processed with several machines from other mods, such as IndustrialCraft²'s Macerator.
+for.gui.book.entry.portable_alyzer.title=Portable Analyzer
+for.gui.book.entry.portable_alyzer.pages=All these genetics can get pretty confusing pretty fast. Especially since every offspring will have its own genome built more or less randomly from both parents. So, if you don't keep crossbreeding the same offspring from that same Forest queen you knocked off a tree ages ago, you will have lots of specimens with funny genomes. But where would you get that genome information? Luckily there is the Portable Analyzer to help. It provides a non-invasive way to glean every last bit of information from your specimens, butterflies and trees. Just provide a honey or honeydew drop to pacify the specimen to have everything you ever wanted to know but were afraid to ask at your fingertips.<carpenter>forestry:portable_alyzer</carpenter>
+for.gui.book.entry.analyzer.title=Analyzer
+for.gui.book.entry.analyzer.pages=A stationary version of the various hand-held analyzers. Any bees, trees or butterflies placed in the left hand slots will be analyzed and placed in the slots on the bottom right.<crafting>forestry:analyzer</crafting>
+# Worktable
+for.gui.book.entry.worktable.title=Worktable
+for.gui.book.entry.worktable.pages=A manual crafting table which remembers the last nine used recipes. Left click one of the recipes shown in the right-hand side to automatically fill in the crafting grid. Right-click to lock a memorized recipe and prevent a newer recipe from bumping it off.<p>Resources need to go into the internal inventory. The crafting matrix is only a visual representation.<crafting>forestry:worktable</crafting>
+# Machines
+for.gui.book.entry.fabricator.title=Thermionic Fabricator
+for.gui.book.entry.fabricator.pages=The Thermionic Fabricator is used to craft electron tubes and stained glass. It requires Redstone Flux (RF) energy to run. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop.<crafting>forestry:fabricator</crafting>
+for.gui.book.entry.moistener.title=Moistener
+for.gui.book.entry.moistener.pages=Moisteners are used to produce mycelium from wheat, seeds and water for use in mushroom farms. They can also be used to create mossy cobblestone and mossy stone bricks.<p>Moisteners work best in dark locations.<crafting>forestry:moistener</crafting>
+for.gui.book.entry.squeezer.title=Squeezer
+for.gui.book.entry.squeezer.pages=The Squeezer is a machine that is tasked with squeezing liquids from items. For example, you can squeeze Honey Drops into Liquid Honey.<p>It can also be used to retrieve the liquids from the inside of cans, bottles, capsules, etc., with a small chance of retrieving some of the container's resources (such as Tin Ingots).<crafting>forestry:squeezer</crafting>
+for.gui.book.entry.centrifuge.title=Centrifuge
+for.gui.book.entry.centrifuge.pages=The Centrifuge is a machine that is tasked with the extraction of bee products from their honey combs.<crafting>forestry:centrifuge</crafting>
+for.gui.book.entry.raintank.title=Rain Tank
+for.gui.book.entry.raintank.pages=The raintank is a machine that will build up it's internal buffer with water when it's placed outside in the rain.<p>The raintank does not require energy to bottle water.<crafting>forestry:raintank</crafting>
+for.gui.book.entry.carpenter.title=Carpenter
+for.gui.book.entry.carpenter.pages=The Carpenter is similar to an Automatic Crafting Table from the Buildcraft Mod, except it has a specific recipe set. For example, you aren't able to automatically craft Stone into Stone Bricks.<p>The Carpenter’s main task is the creation of Bog Earth, Humus (although there are methods to make these items without this machine, they aren't as efficient) and the [Crating] of some items and blocks for more compact storage.<p>It is also used in the creation of the Portable Analyzer and the various Woven Backpacks, among other machines, tools and items that are needed for Forestry and other mods.<crafting>forestry:carpenter</crafting>
+for.gui.book.entry.rainmaker.title=Rainmaker
+for.gui.book.entry.rainmaker.pages=The Rainmaker is a machine that, when placed, will wait for the player to give it an Iodine Charge or a Dissipation Charge.<p>An Iodine Charge when placed inside the Rainmaker will make it rain and the Dissipation Charge when placed inside the Rainmaker will stop the rain.<p>Charges can be inserted in to the machine either by a player right-clicking with the charge in hand or by inserting the charges using pipes,<p>Both Iodine Charges and Dissipation Charges are made in the Carpenter.<crafting>forestry:rainmaker</crafting>
+for.gui.book.entry.fermenter.title=Fermenter
+for.gui.book.entry.fermenter.pages=The Fermenter is a machine that processes organic matter such as Saplings and Sugar Canes into Biomass, which can be used as a fuel in a Biogas Engine, or in the Bio Generator.<p>It can also be used to produce Short Mead out of Honeydew and Liquid Honey.<p>Fermentation Items such as Fertilizer, Mulch or Compost are required as catalysts. Each item has different properties.<p>Any liquids produced by this machine can be canned, bottled or extracted via Buildcraft Waterproof Pipes.<crafting>forestry:fermenter</crafting>
+for.gui.book.entry.still.title=Still
+for.gui.book.entry.still.pages=The Still is a machine capable of refining Biomass into Biofuel, at a 10:3 ratio (for every 10 Biomass buckets processed you get 3 Biofuel buckets).<p>If you have Buildcraft installed, you can do the same process in a Refinery, for a 4:1 ratio.<p>Biofuel can then be used in the Bio Generator for generating EU for IndustrialCraft² machines, or as fuel for Buildcraft's Combustion Engine. It cannot be used as a fuel for the Biogas Engine!<p>This means that this machine probably won't be very useful to you if you don't have Buildcraft or IndustrialCraft² installed.<crafting>forestry:still</crafting>
+for.gui.book.entry.bottler.title=Bottler
+for.gui.book.entry.bottler.pages=The Bottler is a machine that can be used to fill or drain fluid containers like capsules, tin cans or buckets. The machine needs energy in order to work, but it automatically dumps fluids to neighbor blocks without any need of energy.<crafting>forestry:bottler</crafting>
+# Engines
+for.gui.book.entry.peat_engine.title=Peat-Fired Engine
+for.gui.book.entry.peat_engine.pages=Peat-Fired engines use peat as fuel (or the upgraded version of peat, Bituminous peat) and produce Ash as a by-product.<p>Peat burns for 5000 ticks and produces 10 RF every tick, 1 peat makes 0.66 Ash, so you get 2 Ash for burning 3 peat.<p>Bituminous Peat burns for 6000 ticks and produces 20 RF/tick.<crafting>forestry:peat_engine</crafting>
+for.gui.book.entry.biogas_engine.title=Biogas Engine
+for.gui.book.entry.biogas_engine.pages=Want to get rid of your surplus saplings?<p>Too many milk buckets in your chests?<p>Use a biogas engine to power your tree farms!<p>Biogas engines need to be activated by a redstone current like any other BuildCraft engine. However, biogas engines have one additional quirk: They cannot explode from overheating, but they need a minimum operating temperature. You can fill a biogas engine up to the brim with delicious fuel and it will still refuse to start up. The reason is quite simply that it needs to reach a certain temperature before it can begin to burn fuel.<crafting>forestry:biogas_engine</crafting> To start the engine when it's new or whenever it has cooled down - for example when it has used up all fuel and has idled for too long - you will need to dump lava into the secondary tank on the right hand side. The engine will then start to heat up and once it has reached minimum operating temperature it will start to produce energy. Producing energy generates itself heat, so after the initial warmup a running biogas engine will keep itself heated without using up any further lava from its supply. Also, if the activating redstone signal is interrupted, the burning of fuel will pause completely: fuel will not be lost, but if the Engine stays off for too long, it will need to consume some Lava to heat up again once the redstone signal is re-applied.<p>However there is one important exception: If you use just plain water or milk to power your engine, the engine will not generate enough heat to counter the natural heat dissipation. A biogas engine that uses those fuels will burn quite literally through it's whole lava supply, while one constantly supplied with fruit juice, liquid biomass, seed oil or liquid honey will happily chug along all day without so much as touching the lava. A water or milk fueled engine will invariably use up all the lava in the secondary tank and stop producing energy. However, you can pipe in lava using BuildCraft pipes if you choose to do so.
+for.gui.book.entry.clockwork_engine.title=Clockwork Engine
+for.gui.book.entry.clockwork_engine.pages=he Clockwork Engine is an excellent alternative to other early-game power sources. It will output between 5 and 15 RF/tick depending on how much it is wound. Right-clicking on the engine block will wind it, and as the engine works, it will gradually lose tick strength.<crafting>forestry:clockwork_engine</crafting>The Clockwork Engine has no GUI. To wind the engine, simply right-click on the block in the world. The piston will pause moving while you wind it, allowing you to see the current state of the engine.<p>Once the engine block turns red, it is best to let the coils unwind some before winding again. Tightly wound springs can be potentially dangerous.
+#IC 2
+for.gui.book.entry.ic2_generator.title=Bio Generator
+for.gui.book.entry.ic2_generator.pages=If you have IndustrialCraft², you can use Biomass or Biofuel to produce EU for use in IndustrialCraft² machines.<p>Its energy production depends on the fuel used, it'll produce far more energy with Biofuel than with Biomass.<crafting>forestry:ic2_generator</crafting><p>§nIndustrialCraft² Cable Connectivity§r<BR>You can connect an IndustrialCraft² machine or storage unit directly to the Bio Generator, or use any cable that supports at least Low Voltage (LV), such as Copper Cable.<p>Ultra-Low-Current Cable (also known as Tin Cable) will not work!
+for.gui.book.entry.ic2_eletrical_engine.title=Electrical Engine
+for.gui.book.entry.ic2_eletrical_engine.pages=The Electrical Engine is used to convert EU from IndustrialCraft² into RF (previously MJ1)). The engine produces 20 RF/t and requires 6 EU/t to run when not upgraded, and will accept any voltage.<crafting>forestry:ic2_eletrical_engine</crafting>
+## Lepidopterology
+for.gui.book.category.lepidopterology.title=Lepidopterology
+for.gui.book.category.mail.title=Mail
+for.gui.book.category.farming.title=Farming
+for.gui.book.category.greenhouse.title=Greenhouse (WIP)
+for.gui.book.category.arboriculture.title=Arboriculture
+## Beekeeping
+for.gui.book.category.beekeeping.title=Beekeeping
+for.gui.book.entry.introduction.title=Introduction
+for.gui.book.entry.introduction.pages=Some people ask me why I bother with bees. I've been burned, poisoned and blown up countless times, and once they even devoured my home. But although I am now covered in scars, I have been rewarded with gifts beyond my wildest dreams. The honey they have given me has nourished me through those cold Creeper-filled nights, and the silk has provided me with more than one sturdy backpack. If you are willing to endure these hardships, read on, else turn back now and forever hold your peace…
+for.gui.book.entry.bees.title=Bees
+for.gui.book.entry.bees.pages=Bees sting. Bees are yellow and stripy. Bees buzz. You may already know these things, but the first rule of beekeeping is know your enemy (actually the first rule is you must always talk about beekeeping club). Bees are small yellow insects found in hives, scattered around our remarkably polygonal world. There are five different hives I have discovered in this world, and another which I dare not speak about. The easiest way to find the hives is to explore at night, as the glow of working bees guided me to them (as well as mobs, as I found to my cost)<p>Outside of apiaries and alvearies (more later) bees seem to be both totally docile and immortal. The first thing I noticed about bees were that they were clearly split into three castes. In the hives I found both princess and drones, where the princesses were distinguisable by their more regal appearance. But when the two are brought together somewhere special the princess can transform into the queen. The queen will spend her lifespan creating things such as honey combs until she eventually dies, spawning a new princess and multiple drones. This means that your bee population will grow exponentially, meaning you'll need plenty of storage.
+for.gui.book.entry.smoker.title=Smoker
+for.gui.book.entry.smoker.pages=The hive bees will sting you a little bit if you're too close, health regeneration covers it. They only get aggressive if you hit the hive, and can really hurt if you break the hive without smoking them first.<crafting>forestry:smoker</crafting>
+for.gui.book.entry.scoop.title=Scoop
+for.gui.book.entry.scoop.pages=To get bees out you need to catch them with one of my most remarkable inventions, the scoop. Sadly my alternative names of “bee capturing implement” and “net-on-a-stick” did not catch on. Somehow, beating in a repetitive manner on these hives reveals the bees, who are rather large and colourful. To create the scoop, you will need to assemble it using sticks and string, although I'll leave the art of tying a net from string to you.<crafting>forestry:scoop</crafting>
+for.gui.book.entry.breeding.title=Bee Breeding
+for.gui.book.entry.breeding.pages=
+for.gui.book.entry.bee_house.title=Bee House
+for.gui.book.entry.bee_house.pages=To rear your newly found bees into a bee family brimming with honey you'll need a bee house or an apiary. These small wooden boxes can contain a family of these little blighters, and collect honeycombs for your troubles. The bee house was one of my earliest discoveries. The discovery of this small bee housing was more like a coincidence. I forgot a honey comb in a small wooden box that I had crafted out of some wooden planks and wooden slabs. After a while the box was full with bees, they had started to build there home in this box. I crafted a simmelar box like I had crafted before, placed a comb in it and named it "Bee House". <crafting>forestry:bee_house</crafting>
+for.gui.book.entry.apiary.title=Apiary
+for.gui.book.entry.apiary.pages=Similar liket the bee house the apiary can contain a family of bees, and collect honeycombs for your troubles. To obtain the apiary I had to go through a long and arduous journey of trial and error, involving creepers, lapis lazuli and a few sheep, but luckily I recorded these steps for future generations. I first started with the squeezing of my many seeds into seed oil. The arrangement of eight logs (of any tree) in a carpenter along with my seed oil resulted in a impregnated casing which could hold the bee. To secure this casing in the world, I then arranged it on my crafting table with wooden planks and wooden slabs to form an acceptable home for my bees. The resultant apiary can then be placed in the world wherever I want.<crafting>forestry:apiary</crafting><p>Actually, I lied. I traded for an apiary with a friendly beekeeper in a village. Just thought I'd let you go to the effort of making it first. If I could see you now I'd be laughing.
+for.gui.book.entry.alveary.title=Alveary
+for.gui.book.entry.alveary.pages=After a while you will begin to notice that the primitive Apiary is not reaping the full potential of your bees. When you reach this point it is time to upgrade. The alveary is three times the size of the apiary, and I have seen the bees produce up to ten times more honey in an alveary than an apiary.<img>forestry:textures/books/scrapalveary.png;0;0;300;169;300;169;108;60</img>To create this massive contraption you'll need to construct around twenty seven of these alveary blocks. Once you have these blocks you can form them into a cube, thus forming the body of the alveary. You'll also need to block off the roof, for which I recommend using wooden planks across the nine upper blocks. If you construct it correctly, you should see how it all comes together and the small holes where bees can dwell. The usage of this alveary is identical to that of the apiary, although I am yet to have any success with inserting wooden frames into it.<blueprint>alveary</blueprint>Each one is very costly, consisting of scented paneling, which requires honey from bees working away in your many apiaries, and seed oil to construct sturdy casings.<carpenter>forestry:crafting_material:6</carpenter>This means making an alveary is something that takes many days of hard graft, but it is well worth the effort. By arranging the paneling securely around the sturdy casing you'll end up with firm solid home for your bees, and the scent of the panels will spur them on to work far harder than anything you could achieve in the apiary.<crafting>forestry:alveary_plain</crafting>
+for.gui.book.entry.bee_chest.title=Apiarist's Chest
+for.gui.book.entry.bee_chest.pages=During the course of your beekeeping career, it will quickly become apparent that many more bees are produced than you will know what to do with. Since only identical drones will stack with each other, and this occurs rarely, you will soon find your conventional chests full to bursting with bees. Luckily, those who have come before have developed the perfect technology to deal with the overflow of insects.§lThe Apiarist's Chest§r is a storage device for up to 125 individual bees, with 25 slots spread over 5 pages, and a pane that displays overall statistics for species discovered, princess collected, queens bred and drones produced. The chest itself is crafted using five honeycombs of any variety, a piece of glass and a wooden chest.<crafting>forestry:bee_chest</crafting>
+for.gui.book.entry.bees_mundane.title=Mundane Bees
+for.gui.book.entry.bees_mundane.pages=There are six naturally occurring species that I discovered on my exploits: Forest, Meadows, Modest, Tropical, Wintry and Marshy. I refer to these as mundane bees, partly because they are not very interesting and partly because it’s a cool word that rhymes with terrain and brain.<p>Meadow bees infest large open grasslands, such as plains, and prefer a temperate climate. It is closely related to the forest bee, which I’ve noticed is one of the most common pests in forests. Both of these bees are mostly docile, not even causing me the smallest of stings.<p>All other bee species are only occurring through mutation.
+for.gui.book.entry.bee_mutations_start.title=
+for.gui.book.entry.bee_mutations_start.pages=
+for.gui.book.entry.bee_mutations_0.title=First Mutations
+for.gui.book.entry.bee_mutations_0.pages=The children of two different bees will have a mixture of the genes of the two parents, and may even be a new species that you are yet to discover. By allowing these so called 'mutations' to occur, I discovered that these few species of naturally occuring bee opened up a world of possibilities, with many weird and exotic species to be found. I will explain the many species that I discovered later on in the guide, along with tips to how I obtained them. A true apiarist never shares his secrets after all. From these bees and the other mundane species I discovered the Common and Cultivated bees. These bees are staples of any apiarist’s collection, and the common bee is considered the beginner apiarist’s badge of participation. Although the common bee is not particularly interesting, its descendant the cultivated bee is fast working, producing more honey in a shorter amount of time. It also thinks anything but opera is underneath it, meaning it was *this* far away from being called the snobby bee.<mutation>forestry.speciesCommon</mutation>
+for.gui.book.entry.frames.title=Frames
+for.gui.book.entry.frames.pages=Wooden frames are speed up the production speed of the queen in an apiary. The better the quality of the wood is the higher is the production speed of the queen. By myself I currently had no success with inserting wooden frames into a alveary or a bee house. At the moment I only discovered 3 frames: the Untreated Frame, the Impregnated Frame and the Proven Frame.<crafting>forestry:frame_untreated</crafting><crafting>forestry:frame_impregnated</crafting>
+for.gui.book.entry.bee_genes.title=Bee Genes
+for.gui.book.entry.bee_genes.pages=In my long beekeeping career, I have discovered 13 traits that the genome of a bee has.<p>§nSpecies§r<BR>The species of a bee specifies which products a bee queen produces, if the bee is only active at night and which climate the bee prefers.<PAGE><p>§nSpeed§r<BR>The speed of a bee defines how long the queen needs to produce products.<p>§nLifespan§r<BR>Like the name says it its the lifespan of a bee.A long lifespan is good to produce much resources, but a short lifespan is good for beebreeding.<p>§nFertility§r<BR>How many drones the bee produces after it died.<PAGE>§nTemprature and Humidity Tolerance§r<BR>The two diffrent trais I will explain some where else in the guide, because they are more complicated than the other traits.<p>§nNever Sleeps§r<BR>This trait defines if a naturally diurnal bee can work during the night and if a naturally nocturnal bee can work during the day.<PAGE>§nTolerates Rain§r<BR>This trait defines if the bee can fly during it rains.<p>§nCave Dewlling§r<BR>This trait defines if the bee can work without a clear view of the sky.<p>§nFlower§r<BR>This trait specifies which type of flower the bee needs to work.<p>§nFlowering§r<BR>Bees with a high flowering trait do spread flowers faster around the hive and do pollinate trees more often.<p>§nTerritory§r<BR>The territory in that the bee pollinates trees and flowers and the area in that the effect of the bee effects objects.<p>§nEffect§r<BR>Some bees have special effects like poison other entities or speed up the growth of crops.
+for.gui.book.entry.temp_hum_tolerance=These are two different traits, but they do the same thing. They increase the tolerance of the queen against a specific part of the climate, the humidity and the temperature.
+for.gui.book.entry.apiarist_suit.title=Apiarist's Clothes
+for.gui.book.entry.apiarist_suit.pages=Tired of getting poisoned by those pesky Tropical Bees?<p>Fear that their Silk Wisps have no use?<p>Well, fear not, because you can turn those Wisps into Woven Silk and turn that into suits! Bee-Suits!The Apiarist's Clothes can be equipped to lessen or even nullify the negative effects of Bees (such as Poison from Tropical Bees).<p>The more pieces of clothing you wear, the more often will Bees leave you alone.<crafting>forestry:apiarist_hat</crafting><crafting>forestry:apiarist_chest</crafting><crafting>forestry:apiarist_legs</crafting><crafting>forestry:apiarist_boots</crafting>
+for.gui.book.entry.minecarts.title=Bee House Cart
+for.gui.book.entry.minecarts.pages=One of my simpler inventions are bee house minecarts. You simply put a bee house or a apiary in a minecart.<crafting>forestry:bee_house_minecart</crafting><crafting>forestry:apiary_minecart</crafting>
+
+####################
 # MULTIBLOCK
 ####################
 
@@ -1348,25 +1425,22 @@ tile.for.pods.0.name=Pod
 ####################
 # FARMING
 ####################
+for.farm.grammar.manual=Manual %s
+for.farm.grammar.managed=Managed %s
 
-for.circuit.managedArboreal=Arboretum
-for.circuit.managedCereal=Crop Farm
-for.circuit.managedInfernal=Infernal Farm
-for.circuit.managedPeat=Peat Bog
-for.circuit.managedShroom=Shroom Farm
-for.circuit.managedVegetable=Vegetable Farm
-for.circuit.managedEnder=Ender Farm
-for.circuit.managedOrchid=Orchid Farm
-for.circuit.manualCereal=Crop Farm
-for.circuit.manualCocoa=Cocoa Plantation
-for.circuit.manualGourd=Gourd Farm
-for.circuit.manualOrchard=Orchard
-for.circuit.manualPeat=Peat Bog
-for.circuit.manualPoales=Reed Farm
-for.circuit.manualRubber=Rubber Plantation
-for.circuit.manualShroom=Shroom Farm
-for.circuit.manualSucculent=Succulent Farm
-for.circuit.manualVegetable=Vegetable Farm
+for.farm.arboretum=Arboretum
+for.farm.crops=Crop Farm
+for.farm.shroom=Shroom Farm
+for.farm.succulent=Succulent Farm
+for.farm.peat=Peat Bog
+for.farm.infernal=Infernal Farm
+for.farm.reed=Reed Farm
+for.farm.orchard=Orchard
+for.farm.gourd=Gourd Farm
+for.farm.cocoa=Cocoa Plantation
+for.farm.ender=Ender Farm
+for.farm.orchid=Orchid Farm
+for.farm.rubber=Rubber Plantation
 
 for.gui.farm.title=Farm
 for.gui.hydr.heat=By Heat
@@ -1406,6 +1480,34 @@ tile.for.ffarm.5.name=Farm Control
 
 tile.for.mushroom.0.name=Mushroom
 tile.for.mushroom.1.name=Mushroom
+
+####################
+# CULTIVATION
+####################
+tile.for.arboretum.name=Arboretum
+tile.for.arboretum.tooltip=Tree Farm
+tile.for.farm_crops.name=Farm
+tile.for.farm_crops.tooltip=Crop Farm
+tile.for.farm_mushroom.name=Mushroom Farm
+tile.for.farm_nether.name=Infernal Farm
+tile.for.farm_nether.tooltip=Netherwart Farm
+tile.for.farm_gourd.name=Gourd Farm
+tile.for.farm_gourd.tooltip=Melon and Pumkin Farm
+tile.for.farm_ender.name=Ender Farm
+tile.for.farm_ender.tooltip=Chorus Flower and Ender Lily Farm
+tile.for.peat_bog.name=Peat Bog
+tile.for.peat_bog.tooltip=Peat Farm
+tile.for.plantation.name=Rubber Farm
+
+item.for.flexible_casing.name=Flexible Casing
+
+tile.for.planter.manual=%s (Manual)
+tile.for.planter.managed=%s (Managed)
+
+for.gui.planter.north=N
+for.gui.planter.south=S
+for.gui.planter.east=E
+for.gui.planter.west=W
 
 ####################
 # GREENHOUSE
@@ -1448,7 +1550,7 @@ for.message.greenhouse_screen.preview.active=Switched preview mod to active
 for.message.greenhouse_screen.preview.inactive=Switched preview mod to inactive
 for.message.greenhouse_screen.center=You have set the center of the greenhouse to the coordinates
 for.message.greenhouse_screen.away=You are too far away from the greenhouse to use this item
-for.message.greenhouse_screen.notassembled=You only can like this item to the an assembled greenhouse
+for.message.greenhouse_screen.notassembled=You only can link this item to the an assembled greenhouse
 
 for.greenhouse_screen.mode=Preview Mode: %s
 for.greenhouse_screen.mode.active=Active
@@ -1581,6 +1683,37 @@ item.for.catalogue.tooltip=Lists all available Trade Station trades.
 
 item.PipeItemsPropolis.name=Apiarist's Pipe
 
+tile.for.genetic_filter.name=Genetic Filter
+tile.for.genetic_filter.0.name=Genetic Filter
+
+for.gui.filter.seletion=Filter Selection
+
+for.gui.filter.forestry.default.anything=Anything
+for.gui.filter.forestry.default.closed=Closed
+for.gui.filter.forestry.default.item=Items
+for.gui.filter.forestry.default.cave=Cave-Dwellers
+for.gui.filter.forestry.default.flyer=Strong Flyers
+for.gui.filter.forestry.default.nocturnal=Nocturnal
+for.gui.filter.forestry.default.pure_breed=Pure-Bred
+for.gui.filter.forestry.default.pure_cave=Pure Cave-Dwellers
+for.gui.filter.forestry.default.pure_flyer=Pure Flyers
+for.gui.filter.forestry.default.pure_nocturnal=Pure Nocturnal
+
+for.gui.filter.forestry.apiculture.bee=Any Bees
+for.gui.filter.forestry.apiculture.queen=Queen
+for.gui.filter.forestry.apiculture.drone=Drones
+for.gui.filter.forestry.apiculture.princess=Princesses
+
+for.gui.filter.forestry.arboriculture.tree=Any Tree
+for.gui.filter.forestry.arboriculture.sapling=Sapling
+for.gui.filter.forestry.arboriculture.pollen=Pollen
+
+for.gui.filter.forestry.lepidopterology.flutter=Any Butterfly
+for.gui.filter.forestry.lepidopterology.butterfly=Butterfly
+for.gui.filter.forestry.lepidopterology.caterpillar=Caterpillar
+for.gui.filter.forestry.lepidopterology.serum=Serum
+for.gui.filter.forestry.lepidopterology.cocoon=Cocoon
+
 ####################
 # MODULES
 ####################
@@ -1592,7 +1725,7 @@ for.module.charcoal.description=Adds wood piles, loam and a charcoal production.
 for.module.energy.description=Adds several RF engines.
 for.module.factory.description=Adds a wide variety of machines to craft, produce and process products.
 for.module.worktable.description=Adds a crafting table that can save 8 recipes.
-for.module.farming.description=Adds automatic farms and harvesters for a wide variety of products.
+for.module.farming.description=Adds automatic multiblock farm for a wide variety of products.
 for.module.food.description=Adds food.
 for.module.lepidopterology.description=Butterflies. Shiny.
 for.module.mail.description=Adds Forestry's mail and trade system.
@@ -1600,31 +1733,33 @@ for.module.backpacks.description=Adds backpacks.
 for.module.crates.description=Adds crates.
 for.module.greenhouse.description=Adds a greenhouse multiblock.
 for.module.database.description=Adds a new storage block for bees / trees and butterflies.
+for.module.cultivation.description=Adds automatic farms for a wide variety of products.
+for.module.book.description=Adds a guide book that contains information about all other modules.
 
-for.module.buildcraft6.description=Compatibility plugin for BuildCraft 6.
+for.module.buildcraft6.description=Compatibility module for BuildCraft 6.
 for.module.pipes.description=Adds the apiarist's pipe for beekeeping if apiculture is enabled and BuildCraft 6 is present.
-for.module.ic2.description=Compatibility plugin for IC2. Adds electrical engine and generator for power conversion.
-for.module.natura.description=Compatibility plugin for Natura. Enables farming Natura saplings.
-for.module.ee2.description=Compatibility plugin for Equivalent Exchange 2. Enables the Omega branch of bees. Requires Apiculture to be enabled.
-for.module.ee3.description=Compatibility plugin for Equivalent Exchange 3.
+for.module.ic2.description=Compatibility module for IC2. Adds electrical engine and generator for power conversion.
+for.module.natura.description=Compatibility module for Natura. Enables farming Natura saplings.
+for.module.ee2.description=Compatibility module for Equivalent Exchange 2. Enables the Omega branch of bees. Requires Apiculture to be enabled.
+for.module.ee3.description=Compatibility module for Equivalent Exchange 3.
 for.module.farmcraftory.description=Enables compatibility with FarmCraftory. Adds crops and vegetables to farms.
-for.module.biomesoplenty.description=Compatibility plugin for Biomes O Plenty. Enables farming BoP saplings.
-for.module.extrautilities.description=Compatibility plugin for Extra Utilities. Enables farming ender lilies and red orchid.
-for.module.harvestcraft.description=Compatibility plugin for HarvestCraft. Enables farming HarvestCraft plants and trees.
-for.module.magicalcrops.description=Compatibility plugin for Magical Crops.
-for.module.chisel.description=Compatibility plugin for Chisel. Adds worldgen blocks to Backpacks.
-for.module.plantmegapack.description=Compatibility plugin for Plant Mega Pack.
-for.module.witchery.description=Compatibility plugin for Witchery.
-for.module.agricraft.description=Compatibility plugin for AgriCraft.
-for.module.enderIO.description=Compatibility plugin for EnderIO.
-for.module.immersiveengineering.description=Compatibility plugin for Immersive Engineering.
-for.module.growthcraft.description=Compatibility plugin for GrowthCraft.
-for.module.erebus.description=Compatibility plugin for Erebus.
-for.module.rotarycraft.description=Compatibility plugin for RotaryCraft.
-for.module.actuallyadditions.description=Compatibility plugin for Actually Additions.
-for.module.roots.description=Compatibility plugin for Roots.
-for.module.rustic.description=Compatibility plugin for Rustic.
-for.module.mysticalagriculture.description=Compatibility plugin for Mystical Agriculture. Enables farming Mystical Agriculture crops.
+for.module.biomesoplenty.description=Compatibility module for Biomes O Plenty. Enables farming BoP saplings.
+for.module.extrautilities.description=Compatibility module for Extra Utilities. Enables farming ender lilies and red orchid.
+for.module.harvestcraft.description=Compatibility module for HarvestCraft. Enables farming HarvestCraft plants and trees.
+for.module.magicalcrops.description=Compatibility module for Magical Crops.
+for.module.chisel.description=Compatibility module for Chisel. Adds worldgen blocks to Backpacks.
+for.module.plantmegapack.description=Compatibility module for Plant Mega Pack.
+for.module.witchery.description=Compatibility module for Witchery.
+for.module.agricraft.description=Compatibility module for AgriCraft.
+for.module.enderIO.description=Compatibility module for EnderIO.
+for.module.immersiveengineering.description=Compatibility module for Immersive Engineering.
+for.module.growthcraft.description=Compatibility module for GrowthCraft.
+for.module.erebus.description=Compatibility module for Erebus.
+for.module.rotarycraft.description=Compatibility module for RotaryCraft.
+for.module.actuallyadditions.description=Compatibility module for Actually Additions.
+for.module.roots.description=Compatibility module for Roots.
+for.module.rustic.description=Compatibility module for Rustic.
+for.module.mysticalagriculture.description=Compatibility module for Mystical Agriculture. Enables farming Mystical Agriculture crops.
 
 ####################
 # CONFIG FILES
@@ -1649,6 +1784,8 @@ for.config.world.generate.ore.copper=Generate Copper
 for.config.world.generate.ore.copper.comment=Generates copper ore blocks in the world.
 for.config.world.generate.ore.tin=Generate Tin
 for.config.world.generate.ore.tin.comment=Generates tin ore blocks in the world.
+for.config.world.generate.ore.dimBlacklist=Ore generation Dimension Blacklist
+for.config.world.generate.ore.dimBlacklist.comment=Disables the generation of all ore in the specified dimensions. Enter one dimension id per line.
 
 for.config.world.generate.beehives.amount=Beehives Generation Amount
 for.config.world.generate.beehives.amount.comment=Sets how many beehives spawn in the world.
@@ -1659,7 +1796,10 @@ for.config.world.generate.beehives.dimBlacklist.comment=Disables the generation 
 for.config.world.generate.beehives.blacklist.category_comment=Disables the generation of a specific hive in a specific biome or in a biome with a specific biome type. Just add the registry name of the biome or the name of the biome type to the property of the hive. Every biome type / registry name has to be in a seperate line.
 
 for.config.world.generate.villagers=Generate Villagers
-for.config.world.generate.villagers.comment=Generates forestry villagers and their houses.
+for.config.world.generate.villagers.comment=Generates Forestry villagers and their houses.
+
+for.config.world.generate.trees.dimBlacklist=Tree Generation Dimension Blacklist
+for.config.world.generate.trees.dimBlacklist.comment=Disables the generation of all trees in the specified dimensions. Enter one dimension id per line.
 
 for.config.crafting=Crafting
 for.config.crafting.bronze=Craft Bronze
@@ -1689,7 +1829,7 @@ for.config.tweaks.gui.tooltip.liquidamount=Liquid Tooltip
 for.config.tweaks.gui.tooltip.liquidamount.comment=Display liquid amounts in tank tooltips.
 
 for.config.tweaks.permissions=Permissions
-for.config.tweaks.permissions.comment=Enables access restrictions on forestry machines.
+for.config.tweaks.permissions.comment=Enables access restrictions on Forestry machines.
 for.config.tweaks.version.check=Version Check
 for.config.tweaks.version.check.comment=Enables update and version check notice.
 
@@ -1698,14 +1838,23 @@ for.config.tweaks.humus.degradeDelimiter.comment=Set how many stages humus has b
 
 for.config.tweaks.farms.size=Farm Size
 for.config.tweaks.farms.size.comment=Sets the size multiplier of the farmland.
+for.config.tweaks.farms.fertilizer=Farm Fertilizer
+for.config.tweaks.farms.fertilizer.comment=Sets the multiplier of the multifarm and the cultivation farms. All cultivation farms alway use the double amount of fertilizer.
 for.config.tweaks.farms.square=Square Farms
 for.config.tweaks.farms.square.comment=Makes farms use a square layout instead of a diamond one.
 for.config.tweaks.farms.enderlily=EnderLily Farm Support
-for.config.tweaks.farms.enderlily.comment=Enables farm support for ExtraUtilities Ender-lily seeds.
+for.config.tweaks.farms.enderlily.comment=Enables farm support for Extra Utilities Ender-lily seeds.
 for.config.tweaks.farms.redorchid=Red Orchid Farm Support
-for.config.tweaks.farms.redorchid.comment=Enables farm support for ExtraUtilities Red Orchid.
+for.config.tweaks.farms.redorchid.comment=Enables farm support for Extra Utilities Red Orchid.
 for.config.tweaks.farms.magicalcrops=Magical Crops Farm Support
 for.config.tweaks.farms.magicalcrops.comment=Enables farm support for Magical Crops.
+
+for.config.tweaks.cultivation.extend=Cultivation Farm Size
+for.config.tweaks.cultivation.extend.comment=Sets the size of the farmland that is used by all cultivation farms.
+for.config.tweaks.cultivation.ring=Ring Cultivation Farms
+for.config.tweaks.cultivation.ring.comment=Makes cultivation farms use a ring layout like the layout of the old farms. The farmland size of the ring layout is always one block smaller.
+for.config.tweaks.cultivation.ring_size=Inner Ring Size
+for.config.tweaks.cultivation.ring_size.comment=Sets the size of the inner ring of the ring layout.
 
 for.config.tweaks.capsule=Capsules
 for.config.tweaks.capsule.comment=Enables the function that cans and capsules can pick up fluids from the world.
@@ -1737,7 +1886,7 @@ for.config.structures=Structures
 for.config.structures.disabled=Disabled Structures
 for.config.structures.disabled.comment=List specific structures to disable them.
 
-for.config.farm.fertilizers.items=Add fertilizers to forestry. An entry have to looks like this modID:itemName:MetaData;fertilizerValue. You need to seperate every entry in a sererate line.
+for.config.farm.fertilizers.items=Add fertilizers to Forestry. An entry have to looks like this modID:itemName:MetaData;fertilizerValue. You need to separate every entry in a separate line. \n You can't remove auto generated entries you only can deactivate them if you set there value to 0.
 
 for.config.fluids=Fluids
 for.config.fluids.enable.format=Enables %s fluid.
@@ -1763,6 +1912,9 @@ for.config.beekeeping.hivedamage.peaceful=Peaceful Hive Damage
 for.config.beekeeping.hivedamage.peaceful.comment=Whether bees can damage a player playing on peaceful mode.
 for.config.beekeeping.self.pollination=Leaf Self Pollination
 for.config.beekeeping.self.pollination.comment=If true bees will pollinate leaves with themselves to speed up getting a homozgous genome.
+for.config.beekeeping.ignoble.decay=Ignoble Decay
+for.config.beekeeping.ignoble.decay.comment=Whether ignoble bees will eventually die out.
+
 
 for.config.species.blacklist=Species Blacklist
 for.config.species.blacklist.comment=Add species to blacklist identified by their uid, one per line.
