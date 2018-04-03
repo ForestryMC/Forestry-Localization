@@ -1,0 +1,31 @@
+{
+	"core": [
+		"core/analyzer",
+		"core/ores",
+		"core/portable_alyzer"
+	],
+	"factory": [
+		"core/bottler",
+		"core/carpenter",
+		"core/centrifuge",
+		"core/fabricator",
+		"core/fermenter",
+		"core/moistener",
+		"core/rainmaker",
+		"core/raintank",
+		"core/squeezer",
+		"core/still"
+	],
+	"worktable": [
+		"core/core/worktable"
+	],
+	"energy": [
+		"core/peat_engine",
+		"core/biogas_engine",
+		"core/clockwork_engine"
+	],
+	"industrialcraft2": [
+		"core/ic2_generator",
+		"core/ic2_eletrical_engine"
+	]
+}
