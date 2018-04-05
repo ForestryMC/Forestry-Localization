@@ -7,7 +7,57 @@
 	"content": [
 		[
 			{
-				"text": "In my long beekeeping career, I have discovered 13 traits that the genome of a bee has."
+				"type": "index",
+				"entries": [
+					{
+						"title": "Species",
+						"page": 1
+					},
+					{
+						"title": "Speed",
+						"page": 1
+					},
+					{
+						"title": "Lifespan",
+						"page": 1
+					},
+					{
+						"title": "Fertility",
+						"page": 2
+					},
+					{
+						"title": "Temp. and Humid. Tolerance",
+						"page": 2
+					},
+					{
+						"title": "Never Sleeps",
+						"page": 3
+					},
+					{
+						"title": "Tolerates Rain",
+						"page": 3
+					},
+					{
+						"title": "Cave Dwelling",
+						"page": 3
+					},
+					{
+						"title": "Flower",
+						"page": 4
+					},
+					{
+						"title": "Flowering",
+						"page": 4
+					},
+					{
+						"title": "Territory",
+						"page": 5
+					},
+					{
+						"title": "Effect",
+						"page": 5
+					}
+				]
 			}
 		],
 		[
@@ -41,7 +91,12 @@
 				"text": "\n"
 			},
 			{
-				"text": "Like the name says it its the lifespan of a bee.A long lifespan is good to produce much resources, but a short lifespan is good for beebreeding."
+				"text": "Like the name says it its the lifespan of a bee.A long lifespan is good to produce"
+			}
+		],
+		[
+			{
+				"text": "much resources, but a short lifespan is good for bee breeding."
 			},
 			{
 				"text": "Fertility",
@@ -52,38 +107,35 @@
 				"text": "\n"
 			},
 			{
-				"text": "How many drones the bee produces after it died.",
-				"forcePage": true
-			}
-		],
-		[
+				"text": "How many drones the bee produces after it died."
+			},
 			{
-				"text": "Temprature and Humidity Tolerance",
-				"underlined": true
+				"text": "Temperature and Humidity Tolerance",
+				"underlined": true,
+				"paragraph": true
 			},
 			{
 				"text": "\n"
 			},
 			{
 				"text": "The difference from its preferred Climate / Humidity a bee will be able to work in. This can range from zero to three, in one or both directions."
-			},
+			}
+		],
+		[
 			{
 				"text": "Never Sleeps",
-				"paragraph": true,
 				"underlined": true
 			},
 			{
 				"text": "\n"
 			},
 			{
-				"text": "This trait defines if a naturally diurnal bee can work during the night and if a naturally nocturnal bee can work during the day.",
-				"forcePage": true
-			}
-		],
-		[
+				"text": "This trait defines if a naturally diurnal bee can work during the night and if a naturally nocturnal bee can work during the day."
+			},
 			{
 				"text": "Tolerates Rain",
-				"underlined": true
+				"underlined": true,
+				"paragraph": true
 			},
 			{
 				"text": "\n"
@@ -92,7 +144,7 @@
 				"text": "This trait defines if the bee can fly during it rains."
 			},
 			{
-				"text": "Cave Dewlling",
+				"text": "Cave Dwelling",
 				"paragraph": true,
 				"underlined": true
 			},
@@ -101,10 +153,11 @@
 			},
 			{
 				"text": "This trait defines if the bee can work without a clear view of the sky."
-			},
+			}
+		],
+		[
 			{
 				"text": "Flower",
-				"paragraph": true,
 				"underlined": true
 			},
 			{
@@ -112,22 +165,22 @@
 			},
 			{
 				"text": "This trait specifies which type of flower the bee needs to work."
-			}
-		],
-		[
+			},
 			{
 				"text": "Flowering",
-				"underlined": true
+				"underlined": true,
+				"paragraph": true
 			},
 			{
 				"text": "\n"
 			},
 			{
 				"text": "Bees with a high flowering trait do spread flowers faster around the hive and do pollinate trees more often."
-			},
+			}
+		],
+		[
 			{
 				"text": "Territory",
-				"paragraph": true,
 				"underlined": true
 			},
 			{
@@ -135,11 +188,10 @@
 			},
 			{
 				"text": "The territory in that the bee pollinates trees and flowers and the area in that the effect of the bee effects objects."
-			}
-		],
-		[
+			},
 			{
 				"text": "Effect",
+				"paragraph": true,
 				"underlined": true
 			},
 			{

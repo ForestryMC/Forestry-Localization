@@ -42,7 +42,7 @@
 	{
 		"name": "mail",
 		"icon":{
-			"item": "forestry:stamps"
+			"item": "forestry:mailbox"
 		}
 	}
 ]
