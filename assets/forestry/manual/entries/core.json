@@ -2,7 +2,16 @@
 	"core": [
 		"core/analyzer",
 		"core/ores",
-		"core/portable_alyzer"
+		"core/portable_alyzer",
+		"core/soldering_iron",
+		"core/tubes",
+		"core/fertilizer_compound",
+		"core/pipette",
+		"core/escritoire",
+		"core/humus",
+		"core/bog_earth",
+		"core/circuit_board",
+		"core/compost"
 	],
 	"factory": [
 		"core/bottler",
