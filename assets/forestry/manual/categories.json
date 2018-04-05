@@ -32,5 +32,17 @@
 		"modules": [
 			"arboriculture"
 		]
+	},
+	{
+		"name": "genetics",
+		"icon":{
+			"item": "forestry:genetic_filter"
+		}
+	},
+	{
+		"name": "mail",
+		"icon":{
+			"item": "forestry:stamps"
+		}
 	}
 ]

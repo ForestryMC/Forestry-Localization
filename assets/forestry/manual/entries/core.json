@@ -11,7 +11,11 @@
 		"core/humus",
 		"core/bog_earth",
 		"core/circuit_board",
-		"core/compost"
+		"core/compost",
+		"core/casings",
+		"core/gears",
+		"core/resources",
+		"core/wrench"
 	],
 	"factory": [
 		"core/bottler",

@@ -10,19 +10,23 @@
 				"stacks": [
 					{
 						"item": "forestry:chipsets",
-						"nbt": "{\"T\":0}"
+						"data": 0,
+						"nbt": "{\"T\":0s}"
 					},
 					{
 						"item": "forestry:chipsets",
-						"nbt": "{\"T\":1}"
+						"data": 1,
+						"nbt": "{\"T\":1s}"
 					},
 					{
 						"item": "forestry:chipsets",
-						"nbt": "{\"T\":2}"
+						"data": 2,
+						"nbt": "{\"T\":2s}"
 					},
 					{
 						"item": "forestry:chipsets",
-						"nbt": "{\"T\":3}"
+						"data": 3,
+						"nbt": "{\"T\":3s}"
 					}
 				]
 			},
